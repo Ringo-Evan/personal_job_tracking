@@ -1,0 +1,170 @@
+{
+  "company_id": "C238",
+  "tracker": {
+    "company_id": "C238",
+    "company": "ShipBob",
+    "sector": "IoT / location tech",
+    "interests": "Fulfillment tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "shipbobinc",
+    "board_url": "https://job-boards.greenhouse.io/shipbobinc",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; ShipBob, Inc.",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "QA Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "Fulfillment tech with warehouse automation; software QA roles likely remote-friendly, but domain not a strong match.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C238",
+    "career_url": "https://www.shipbob.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "shipbobinc",
+      "board_url": "https://job-boards.greenhouse.io/shipbobinc"
+    },
+    "remote_policy": {
+      "summary": "Remote-first company offering hybrid, flexible work. US job postings are listed as 'Remote - United States', so US-wide remote roles appear open to Maine residents.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.shipbob.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "ShipBob is e-commerce fulfillment IoT. It fits for a C# engineer pivoting to Go/Python but lacks verified QA openings or stability signals, requiring reliance on general fit.",
+      "role_families": [
+        "Senior Software Engineer (C#/Go pivot)",
+        "Release Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Kirubakaran Girijanandan",
+        "title": "Senior Manager, Software Development",
+        "source_url": "https://www.shipbob.com/careers/benefits/"
+      }
+    ],
+    "approach_role": "Kirubakaran Girijanandan",
+    "outreach_angle": "Your extensive testing tooling expertise in C# and CI/CD aligns well with ShipBob's need for robust release engineering in a remote-friendly environment.",
+    "red_flags": "No public data on QA-specific roles or recent stability metrics available.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.shipbob.com/careers/",
+      "https://www.shipbob.com/careers/benefits/"
+    ],
+    "notes": "Remote-first, Maine eligible. No verified QA openings; stability relies on sector health rather than specific company signals.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "ollama_chat/qwen3.5:9b"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:shipbobinc (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

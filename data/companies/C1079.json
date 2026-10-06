@@ -1,0 +1,190 @@
+{
+  "company_id": "C1079",
+  "tracker": {
+    "company_id": "C1079",
+    "company": "Unlocked Labs",
+    "sector": "Criminal justice reform",
+    "interests": "Education tech for incarcerated people",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 2,
+    "remote": "High",
+    "size": "<50",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Engineer"
+    ],
+    "approach": "CTO",
+    "why": "Nonprofit building education tech for prisons; small tech team, QA roles possible, remote.",
+    "flags": "Early-stage nonprofit",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1079",
+    "career_url": "https://unlockedlabs.org/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "The posting for Chief Program Officer is described as fully remote or based in St. Louis, MO; no state restrictions are stated.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "Partnership with Maine Department of Corrections and Alliance for Higher Education in Prison lets incarcerated people hold remote software engineering jobs.",
+          "date": null,
+          "url": "https://www.maine.gov/corrections/node/323"
+        },
+        {
+          "kind": "growth",
+          "summary": "Received over 125 applications from across the country in under three weeks while hiring senior technical talent.",
+          "date": null,
+          "url": "https://www.maine.gov/corrections/node/323"
+        },
+        {
+          "kind": "growth",
+          "summary": "Program team of project managers has 2 people, 2 open roles, and plans to grow to 6+ in 2027.",
+          "date": null,
+          "url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+        },
+        {
+          "kind": "other",
+          "summary": "Describes itself as a small, mission-driven nonprofit at a pivotal growth stage.",
+          "date": null,
+          "url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Funded by existing multi-state, multi-year contracts and grants with state partners.",
+          "date": null,
+          "url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Criminal-justice-reform nonprofit providing education tech and remote software jobs to incarcerated people, partnering with Maine DOC. Strong mission and interest alignment, fully remote and Maine-eligible, but no QA function or openings are evident.",
+      "role_families": [
+        "QA/SDET",
+        "quality engineering",
+        "engineering program management"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Chief Program Officer (or Head of Engineering)",
+    "outreach_angle": "Your 15 years building test automation in regulated and hardware-adjacent domains could help Unlocked Labs stand up quality practices as its remote engineering program scales with Maine DOC and other state partners.",
+    "red_flags": "No QA openings or visible QA function; small, grant-funded nonprofit with a tiny team.",
+    "confidence": "medium",
+    "sources": [
+      "https://unlockedlabs.org/careers",
+      "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer",
+      "https://www.maine.gov/corrections/node/323"
+    ],
+    "notes": "Fully remote posting, no state restrictions, so Maine is eligible. Funded by multi-state multi-year contracts and grants with state partners; small mission-driven nonprofit at growth stage, program team 2 people growing to 6+ by 2027. No QA openings listed; senior technical hiring drew 125+ applicants in three weeks.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 7,
+      "fail_rate": 0.125,
+      "dropped": [
+        "people[0]: person's name is not in their quote"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://unlockedlabs.org/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

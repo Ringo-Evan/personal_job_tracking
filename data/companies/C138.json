@@ -1,0 +1,91 @@
+{
+  "company_id": "C138",
+  "tracker": {
+    "company_id": "C138",
+    "company": "Zebra Technologies",
+    "sector": "IoT / location tech",
+    "interests": "RFID, scanners, location - direct overlap",
+    "career_url": "https://www.zebra.com/us/en/about-zebra/careers.html",
+    "role_families": "Software test; SDET; RFID validation",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Large employer with RFID/location products; test roles common.",
+    "research_notes": "From general knowledge, not yet searched - verify. RFID readers, mobile computers, real-time location systems - your exact domain.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Search remote test roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Test engineering manager, RFID",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20engineering%20manager%2C%20RFID%20Zebra%20Technologies",
+    "outreach_notes": "Direct domain match with Position Imaging."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "zebra|501|Zebra_careers",
+    "board_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.zebra.com/us/en/about-zebra/careers.html",
+    "note": "",
+    "job_count": 237
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:43-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:04-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

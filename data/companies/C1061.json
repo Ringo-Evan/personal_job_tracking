@@ -1,0 +1,154 @@
+{
+  "company_id": "C1061",
+  "tracker": {
+    "company_id": "C1061",
+    "company": "Social Solutions (Bonterra Apricot)",
+    "sector": "Housing",
+    "interests": "Case management software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "QA Manager"
+    ],
+    "approach": "VP of Engineering",
+    "why": "Nonprofit case management software; strong QA roles, remote-friendly, matches housing/social services interest.",
+    "flags": "Remote-friendly; nonprofit software",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1061",
+    "career_url": "https://socialgoodsolutions.com/services/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Bonterra's Apricot is nonprofit case-management software serving housing and human-services agencies — adjacent to the candidate's housing interest, but not medical-device or hardware testing. Nothing verified about remote-from-Maine hiring or QA openings, so fit is speculative.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (no named leader verified)",
+    "outreach_angle": "15 years of test automation plus FDA-regulated V&V experience maps to hardening Apricot's case-management platform for housing and human-services agencies, where data integrity and release confidence matter.",
+    "red_flags": "No verified remote policy, openings, size, or leadership contacts; nonprofit-sector vendor with reported past layoffs.",
+    "confidence": "low",
+    "sources": [
+      "https://socialgoodsolutions.com/services/careers/"
+    ],
+    "notes": "All verified fields came back empty: no remote policy, size, stability signals, QA openings, or people. Public knowledge only: Bonterra sells Apricot case-management software to nonprofits and public agencies, including housing and human services. Confirm Maine-remote eligibility and current QA headcount directly before investing.",
+    "model": {
+      "extract": "gemini/gemini-3.1-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.1-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,80 @@
+{
+  "company_id": "C051",
+  "tracker": {
+    "company_id": "C051",
+    "company": "EF Education First",
+    "sector": "Travel",
+    "interests": "Education, tours, travel opportunities",
+    "career_url": "https://careers.ef.com/",
+    "role_families": "Technology; program operations; technical delivery",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Leadership and coordination fit; technical roles and salary range require research.",
+    "research_notes": "Advertises program discounts and potential work travel; many roles on-site.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": "https://careers.ef.com/working-at-ef/",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": null,
+    "source": "https://careers.ef.com/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:30-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

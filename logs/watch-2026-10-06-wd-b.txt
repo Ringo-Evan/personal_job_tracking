@@ -1,0 +1,25 @@
+  ok   C462 workday:talentmanagementsolution|3|JonasSoftwareUSA: 0 new
+  ok   C466 workday:talentmanagementsolution|3|perseus-careers: 1 new
+  ok   C434 workday:bah|1|BAH_Jobs: 0 new
+  ok   C456 workday:motorolasolutions|5|Careers: 0 new
+  ok   C477 workday:thehartford|5|Careers_External: 1 new
+  ok   C481 workday:usaa|1|USAAJOBSWD: 0 new
+  ok   C495 workday:fiserv|5|EXT: 0 new
+  ok   C499 workday:ncino|5|nCinoCareers: 0 new
+  ok   C511 workday:epicorsoftware|5|epicorjobs: 0 new
+  ok   C517 workday:autodesk|1|Ext: 1 new
+  ok   C524 workday:mrisoftware|501|External_CareerSite: 0 new
+  ok   C527 workday:bonterra|1|bonterratech: 0 new
+  ok   C606 workday:bigcommerce|12|Commerce: 0 new
+  ok   C654 workday:unitytech|1|Unity: 0 new
+  ok   C790 workday:wwecorp|5|UFC: 0 new
+  ok   C838 workday:academy|1|Careers: 0 new
+  ok   C886 workday:weber|115|WB: 0 new
+  ok   C896 workday:amadeus|502|jobs: 0 new
+  FAIL C969 workday:elanco|5|External_Career: unexpected workday response shape: KeyError: 'externalPath'
+  NEW  Perseus Group            ProAdmin Testing & Client Support Specialist                 [yes] Remote - USA
+  NEW  The Hartford             Employee Benefits Quality Consultant                         [yes] Hartford, CT; Alpharetta,GA-NPointPkwy-M  USD 66,800-100,200/year
+  NEW  Autodesk                 Sr. Customer Advocate - AECO, Customer Reliability           [unknown] AMER - United States - Colorado - Denver
+
+summary: boards_ok=18, boards_failed=1, fetched=129, title_matches=129, kept=3, new=3, updated=0, closed=0, reopened=0
+  failed: C969 workday:elanco|5|External_Career: unexpected workday response shape: KeyError: 'externalPath'

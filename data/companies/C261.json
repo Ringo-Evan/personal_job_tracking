@@ -1,0 +1,205 @@
+{
+  "company_id": "C261",
+  "tracker": {
+    "company_id": "C261",
+    "company": "Philips (Bedford MA)",
+    "sector": "Regulated healthtech",
+    "interests": "Patient monitoring software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "philips|3|jobs-and-careers",
+    "board_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 842
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Manager"
+    ],
+    "approach": "Quality Engineering Manager",
+    "why": "Patient monitoring software; regulated healthtech; strong match; Bedford site likely hybrid/onsite.",
+    "flags": "Bedford MA onsite/hybrid likely",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C261",
+    "career_url": "https://www.careers.philips.com/global/en",
+    "ats": {
+      "type": "workday",
+      "token": "philips|3|jobs-and-careers",
+      "board_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"
+    },
+    "remote_policy": {
+      "summary": "Hybrid model: three role categories (on-site, mobile, hybrid); hybrid roles spend at least three days a week in the office and up to two days at home.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.careers.philips.com/in/en/blogarticle/defining-the-future-of-work-at-philips-our-journey-to-hybrid"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Philips Respironics ends manufacturing at two Pennsylvania plants, cutting 300 manufacturing jobs and moving 500 headquarters staff.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Philips announced plans to cut 6,000 jobs, following an earlier layoff of 4,000 people.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "CEO Roy Jakobs discussed a three-year restructuring plan including 10,000 layoffs, FDA litigation and respiratory device recalls.",
+          "date": null,
+          "url": "https://www.thetechedvocate.org/qa-with-philips-ceo-roy-jakobs-on-evolving-the-company-a-three-year-restructuring-plan-laying-off-10000-staff-fda-litigation-ai-in-healthcare-and-more-nilay-patel-the-verge/"
+        },
+        {
+          "kind": "other",
+          "summary": "Philips is running a three-year restructuring plan to become a more agile and focused organization.",
+          "date": null,
+          "url": "https://www.thetechedvocate.org/qa-with-philips-ceo-roy-jakobs-on-evolving-the-company-a-three-year-restructuring-plan-laying-off-10000-staff-fda-litigation-ai-in-healthcare-and-more-nilay-patel-the-verge/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Connected care sales were 5.14 billion euros, a 2.5% decline from 2022; sleep and respiratory care was about 17% of the segment.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/"
+        },
+        {
+          "kind": "other",
+          "summary": "US sales of certain sleep and respiratory products are barred until Philips meets FDA consent decree terms.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Philips makes patient monitoring and regulated healthtech software. The candidate's FDA V&V and design-controls background fits the domain strongly, but hybrid roles require three days on-site in Bedford, Massachusetts, ruling out Downeast Maine.",
+      "role_families": [
+        "SDET / test automation",
+        "Medical device QA & V&V engineering",
+        "Release / quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering, Patient Monitoring",
+    "outreach_angle": "I've tested FDA-regulated, patient-monitoring-adjacent devices under design controls using C#/.NET automation; if any quality engineering role allows remote or Maine-based work, I'd welcome a conversation.",
+    "red_flags": "Hybrid requires three days on-site in Bedford MA; Maine remote eligibility unconfirmed. 10,000-job restructuring, FDA consent decree, declining connected-care revenue.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.careers.philips.com/global/en",
+      "https://www.careers.philips.com/in/en/blogarticle/defining-the-future-of-work-at-philips-our-journey-to-hybrid",
+      "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/",
+      "https://www.thetechedvocate.org/qa-with-philips-ceo-roy-jakobs-on-evolving-the-company-a-three-year-restructuring-plan-laying-off-10000-staff-fda-litigation-ai-in-healthcare-and-more-nilay-patel-the-verge/"
+    ],
+    "notes": "Philips Bedford MA is hybrid: minimum three days on-site weekly, Maine eligibility unknown; no QA openings or contacts listed. 5k+ employees, but a three-year restructuring with ~10,000 layoffs, respiratory recalls and an FDA consent decree barring certain US sales. Domain fit is strong; location and stability are the constraints.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:philips|3|jobs-and-careers (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

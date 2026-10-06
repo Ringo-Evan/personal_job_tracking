@@ -1,0 +1,145 @@
+  batch C1000..C1019: 20/20 ok
+  batch C1020..C1039: 20/20 ok
+
+triaged=40 failed=0 calls=2 rejects=0 cost_usd=0.1587
+{
+  "count": 40,
+  "distribution": {
+    "fit": {
+      "1": 26,
+      "2": 4,
+      "3": 8,
+      "4": 2
+    },
+    "stability": {
+      "1": 3,
+      "2": 19,
+      "3": 10,
+      "4": 8
+    },
+    "remote": {
+      "High": 8,
+      "Low": 4,
+      "Medium": 19,
+      "Unknown": 9
+    },
+    "size": {
+      "50-500": 17,
+      "500-5k": 6,
+      "5k+": 9,
+      "<50": 8
+    }
+  },
+  "sample": [
+    {
+      "id": "C1036",
+      "company": "ProPublica",
+      "fit": 1,
+      "stability": 2,
+      "remote": "High",
+      "size": "500-5k",
+      "why": "Data journalism nonprofit; QA for data pipelines plausible; not core product QA",
+      "flags": "Journalism nonprofit; data-heavy but not tech company",
+      "approach": "VP Technology"
+    },
+    {
+      "id": "C1010",
+      "company": "NGP VAN (Bonterra)",
+      "fit": 4,
+      "stability": 4,
+      "remote": "Medium",
+      "size": "500-5k",
+      "why": "Major campaign platform; QA/SDET roles exist; mission aligns; stable",
+      "flags": "Campaign tech focus; part of larger Bonterra; DC-based",
+      "approach": "Engineering Manager"
+    },
+    {
+      "id": "C1000",
+      "company": "Consolidated Communications",
+      "fit": 2,
+      "stability": 3,
+      "remote": "Medium",
+      "size": "500-5k",
+      "why": "Regional telecom; QA role possible; Maine-based; limited interest alignment",
+      "flags": "Not tech-focused; telecom infrastructure; financial challenges",
+      "approach": "VP Engineering"
+    },
+    {
+      "id": "C1033",
+      "company": "Jacobin",
+      "fit": 1,
+      "stability": 2,
+      "remote": "Medium",
+      "size": "50-500",
+      "why": "Magazine publication; web/editorial roles only; no QA automation",
+      "flags": "Magazine; not tech company; web support only",
+      "approach": "Editor in Chief"
+    },
+    {
+      "id": "C1022",
+      "company": "IBEW",
+      "fit": 1,
+      "stability": 2,
+      "remote": "Unknown",
+      "size": "5k+",
+      "why": "Labor union; non-tech company; no QA engineering roles; IT support only",
+      "flags": "Union; no tech product; labor interest",
+      "approach": "Chief Information Officer"
+    },
+    {
+      "id": "C1025",
+      "company": "NEA",
+      "fit": 1,
+      "stability": 2,
+      "remote": "Unknown",
+      "size": "5k+",
+      "why": "Education union; non-tech company; no QA engineering infrastructure",
+      "flags": "Union; no tech product; labor interest",
+      "approach": "Chief Information Officer"
+    },
+    {
+      "id": "C1006",
+      "company": "Movement Cooperative",
+      "fit": 4,
+      "stability": 3,
+      "remote": "High",
+      "size": "<50",
+      "why": "Tech cooperative; QA/test needed; labor mission strong; remote-friendly",
+      "flags": "Small; cooperative structure dynamics may differ from traditional tech",
+      "approach": "Engineering Manager"
+    },
+    {
+      "id": "C1013",
+      "company": "Working Families Party",
+      "fit": 1,
+      "stability": 3,
+      "remote": "Medium",
+      "size": "<50",
+      "why": "Political party; labor interests align; not software company",
+      "flags": "Political party staff; not software company; no QA roles",
+      "approach": "Director"
+    },
+    {
+      "id": "C1011",
+      "company": "Swing Left",
+      "fit": 1,
+      "stability": 3,
+      "remote": "Medium",
+      "size": "50-500",
+      "why": "Grassroots organizing group; organizing mission aligns; not software company",
+      "flags": "Not software company; no realistic QA/test engineering roles",
+      "approach": "Organizing Director"
+    },
+    {
+      "id": "C1016",
+      "company": "United Steelworkers (tech)",
+      "fit": 1,
+      "stability": 4,
+      "remote": "Low",
+      "size": "5k+",
+      "why": "Labor union; stability high; tech is worker advocacy not development",
+      "flags": "Union; tech focus on worker organizing; no software QA role",
+      "approach": "Organizing Director"
+    }
+  ]
+}

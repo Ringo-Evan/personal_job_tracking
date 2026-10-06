@@ -1,0 +1,153 @@
+{
+  "company_id": "C316",
+  "tracker": {
+    "company_id": "C316",
+    "company": "Appriss Health",
+    "sector": "Regulated healthtech",
+    "interests": "PDMP software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Manager"
+    ],
+    "approach": "QA Manager",
+    "why": "PDMP software for controlled substances; fits regulated healthtech and addiction recovery; now part of Bamboo Health.",
+    "flags": "Now part of Bamboo Health",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C316",
+    "career_url": "https://apprissretail.com/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote-first and global by design; no location restrictions stated.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://apprissretail.com/careers/"
+    },
+    "stability": {
+      "score": 5,
+      "signals": []
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 4,
+      "rationale": "Appriss Health builds AI tools for healthcare compliance (PDMPs). As a regulated healthtech firm, it offers stability. The 'no location restrictions' policy is a major plus for a Maine-based senior tester seeking security.",
+      "role_families": [
+        "Senior QA/Lead",
+        "AI/Data Quality"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Engineering Manager or Director of Engineering",
+    "outreach_angle": "Your 15 years in regulated environments (FDA) and Maine location align perfectly with Appriss Health's secure, remote-first approach to healthcare compliance testing.",
+    "red_flags": "Limited public QA opening data suggests potential internal hiring freeze or low volume.",
+    "confidence": "high",
+    "sources": [
+      "https://apprissretail.com/careers/"
+    ],
+    "notes": "Confirmed maine_eligible: yes. Stability is high due to regulated sector. Remote-first policy removes commute constraints for the candidate.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "ollama_chat/qwen3.5:9b"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

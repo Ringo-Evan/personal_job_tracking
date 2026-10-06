@@ -1,0 +1,103 @@
+  NEW  Axon                     Senior Site Reliability Engineer I                           [unknown] Boston, Massachusetts, United States (Wa  USD 134,250-214,800/year
+  NEW  Axon                     Senior Site Reliability Engineer I                           [unknown] Seattle, Washington, United States (Wash  USD 134,250-214,800/year
+  NEW  athenahealth             Denials Process Automation Associate                         [yes] Belfast ME  USD 50,000-86,000/year
+  NEW  Colonist                 QA Engineer                                                  [unknown] Any Location; Serbia; Poland; Turkey; Vi
+  NEW  Testlio                  Freelance Software Tester With Apple Vision Pro (Remote Worl [unknown] Global (Remote)
+  NEW  Testlio                  QA Analyst (Future Roles)                                    [unknown] Global
+  NEW  Testlio                  QA Tester (Future Roles)                                     [unknown] Global
+
+summary: boards_ok=32, boards_failed=0, fetched=1380, title_matches=99, kept=7, new=7, updated=0, closed=0, reopened=0
+
+title matches dropped by location:
+  C002   Lead Quality Assurance Engineer - Machine Learning      | London, United Kingdom (United Kingdom - Lond | not US-remote or near Maine: London, United Kingdo
+  C002   Senior Quality Assurance Engineer                       | Austin, TX, United States; Chicago, IL United | not US-remote or near Maine: Austin, TX, United St
+  C002   Senior Scrum Master                                     | London, United Kingdom (United Kingdom - Lond | not US-remote or near Maine: London, United Kingdo
+  C002   Senior Test Engineer - Embedded Software                | Den Bosch, Netherlands (Netherlands - Den Bos | not US-remote or near Maine: Den Bosch, Netherland
+  C006   QA Lead                                                 | Austin, Texas, United States                  | not US-remote or near Maine: Austin, Texas, United
+  C006   Senior Principal Technical Product Manager, Commercial  | Boston, Massachusetts, United States          | not US-remote or near Maine: Boston, Massachusetts
+  C006   Sr Manager Quality Assurance                            | London, England, United Kingdom               | not US-remote or near Maine: London, England, Unit
+  C008   Game Engine QA                                          | Warsaw                                        | not US-remote or near Maine: Warsaw
+  C008   Game Engine QA | Contrôle qualité — Moteur de jeu       | Quebec                                        | not US-remote or near Maine: Quebec
+  C008   Technical QA – Open Application | Contrôle qualité tech | Any/Tous les studios                          | not US-remote or near Maine: Any/Tous les studios
+  C020   Electrical Engineer II, RF Test Engineer                | Scottsdale, Arizona, United States (Arizona-H | not US-remote or near Maine: Scottsdale, Arizona, 
+  C020   Embedded software automation Engineer                   | Seattle, Washington, United States (Washingto | not US-remote or near Maine: Seattle, Washington, 
+  C020   Firmware Validation Technician II (Onsite)              | Scottsdale, Arizona, United States (Arizona-H | not US-remote or near Maine: Scottsdale, Arizona, 
+  C020   Graduate Site Reliability Engineer (Australia)          | Australia; Melbourne, Victoria, Australia; Sy | not US-remote or near Maine: Australia; Melbourne,
+  C020   Manager, Hardware Validation (Onsite)                   | Phoenix, Arizona, United States (Arizona-DV)  | not US-remote or near Maine: Phoenix, Arizona, Uni
+  C020   Senior Manufacturing Test Engineer I (Onsite)           | Scottsdale, Arizona, United States (Arizona-H | not US-remote or near Maine: Scottsdale, Arizona, 
+  C020   Senior Site Reliability Engineer I                      | Boston, Massachusetts, United States (Massach | not US-remote or near Maine: Boston, Massachusetts
+  C020   Senior Site Reliability Engineer I                      | Seattle, Washington, United States (Massachus | not US-remote or near Maine: Seattle, Washington, 
+  C020   Site Reliability Engineer (Australia, Remote)           | Australia (Australia-Remote)                  | not US-remote or near Maine: Australia (Australia-
+  C020   Site Reliability Engineer I                             | London, England, United Kingdom (United Kingd | not US-remote or near Maine: London, England, Unit
+  C020   Site Reliability Engineer II                            | Washington, United States (Washington-Office) | not US-remote or near Maine: Washington, United St
+  C020   Site Reliability Engineer II                            | Boston, Massachusetts, United States (Washing | not US-remote or near Maine: Boston, Massachusetts
+  C020   Site Reliability Engineer II                            | Washington, United States (Washington-Office) | not US-remote or near Maine: Washington, United St
+  C020   Site Reliability Engineer II                            | Boston, Massachusetts, United States (Washing | not US-remote or near Maine: Boston, Massachusetts
+  C020   Site Reliability Engineer II                            | Washington, United States (Washington-Office) | not US-remote or near Maine: Washington, United St
+  C020   Software QA Engineer I                                  | Seattle, Washington, United States (Arizona-H | not US-remote or near Maine: Seattle, Washington, 
+  C020   Software QA Engineer II                                 | Kassel, Hesse, Germany (Germany-Kassel Office | not US-remote or near Maine: Kassel, Hesse, German
+  C020   Sr. Site Reliability Engineer I                         | Seattle, Washington, United States (Massachus | not US-remote or near Maine: Seattle, Washington, 
+  C020   Sr. Site Reliability Engineer I                         | Boston, Massachusetts, United States (Massach | not US-remote or near Maine: Boston, Massachusetts
+  C020   Supervisor, Automation Technicians (Onsite)             | Scottsdale, Arizona, United States (Arizona-H | not US-remote or near Maine: Scottsdale, Arizona, 
+  C020   System Test Engineer II                                 | Sterling, Virginia, United States (Virginia-S | not US-remote or near Maine: Sterling, Virginia, U
+  C036   Systems Architecture, Integration, and Test Engineer (E | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Systems Architecture, Integration, and Test Engineer (T | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Systems Architecture, Integration, and Test Engineer (M | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Structures Test Engineer                                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Shipyard Facilities Operations & Asset Reliability      | Brownsville, TX; Brownsville, TX              | not US-remote or near Maine: Brownsville, TX; Brow
+  C036   Autonomous Sea Trials Test Planner                      | New Orleans, LA                               | not US-remote or near Maine: New Orleans, LA
+  C036   Site Quality Manager (NDT Level 3)                      | Brownsville, TX; Brownsville, TX              | not US-remote or near Maine: Brownsville, TX; Brow
+  C036   Senior Electrical Test Engineer                         | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Electrical Test Engineer                                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Quality Engineer                                        | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior Systems Test Software Engineer                   | Austin, TX; San Diego, CA                     | not US-remote or near Maine: Austin, TX; San Diego
+  C036   Staff Quality Engineer                                  | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior NPI Quality Engineer - Electrical                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   NPI Quality Engineer - Mechanical                       | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior Electrical R&D Test Engineer                     | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C063   Head of Hardware Reliability & Failure Analysis         | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Software Engineer - Production Test Systems      | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Hardware Test Engineer - Automation & Product Qu | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Test Engineer - Production & Hardware Operations | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Director of Supply Chain Quality                        | Auckland                                      | not US-remote or near Maine: Auckland
+  C068   Automation Engineer                                     | Huskvarna (Hybrid)                            | not US-remote or near Maine: Huskvarna (Hybrid)
+  C068   Embedded Software Verification Engineer – Husqvarna Gro | Huskvarna                                     | not US-remote or near Maine: Huskvarna
+  C071   Quality Operation Supervisor                            | Gelang Patah, Johor (Field)                   | not US-remote or near Maine: Gelang Patah, Johor (
+  C071   Quality Operations Technician                           | Gelang Patah, Johor (Field)                   | not US-remote or near Maine: Gelang Patah, Johor (
+  C071   Director, Quality Operations                            | Gelang Patah, Johor (Onsite)                  | not US-remote or near Maine: Gelang Patah, Johor (
+  C071   Quality Engineer - NPI Programs                         | Acton, Massachusetts (Hybrid)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Quality Assurance Engineer (Onsite - Acton, MA)         | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Supervisor, Quality Assurance (Onsite - Acton, MA)      | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Sr Quality Assurance Engineer (Onsite - Acton,MA)       | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Co-op, Quality Engineering: January-June (Onsite)       | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Manager, Operations Quality - NPI Programs (Hybrid - Ac | US - Massachusetts (Hybrid)                   | not US-remote or near Maine: US - Massachusetts (H
+  C071   Quality Operations Technician (Weekend Day Shift - Onsi | US - Massachusetts (Onsite)                   | not US-remote or near Maine: US - Massachusetts (O
+  C071   Senior Test Manager (Performance Testing, Salesforce &  | Acton, Massachusetts; US - Texas; US - New Yo | not US-remote or near Maine: Acton, Massachusetts;
+  C071   Co-op, Embedded Software Test Engineering: January-June | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Senior Software Development Engineer in Test            | US - Massachusetts (Hybrid)                   | not US-remote or near Maine: US - Massachusetts (H
+  C071   Test Technician                                         | Gelang Patah, Johor (Field)                   | not US-remote or near Maine: Gelang Patah, Johor (
+  C071   Co-op, Embedded Software Test Engineering: January - Ju | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Co-op, Software Development Engineer in Test: January - | Acton, Massachusetts (Hybrid)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Co-op, Systems Engineering - Design Verification: Janua | Acton, Massachusetts (Onsite)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C071   Senior Software Automation Engineer (Hybrid- San Diego, | San Diego, California (Hybrid)                | not US-remote or near Maine: San Diego, California
+  C071   Systems Engineer, Verification & Validation (Hybrid - A | Acton, Massachusetts (Hybrid)                 | not US-remote or near Maine: Acton, Massachusetts 
+  C075   Senior Analyst, Quality Measure Building Operations     | Chennai India                                 | not US-remote or near Maine: Chennai India
+  C138   Supervisor Quality Control                              | Morris Plains, New Jersey                     | not US-remote or near Maine: Morris Plains, New Je
+  C138   Software Test Engineer II                               | Holtsville, New York                          | not US-remote or near Maine: Holtsville, New York
+  C138   Quality Assurance Analyst                               | Bengaluru, India                              | not US-remote or near Maine: Bengaluru, India
+  C138   IT Quality Assurance Analyst, Senior                    | Bengaluru, India (Hybrid Work)                | not US-remote or near Maine: Bengaluru, India (Hyb
+  C138   Quality Engineer, Senior                                | THA - Bangkok, Thailand                       | not US-remote or near Maine: THA - Bangkok, Thaila
+  C138   Product Validation Engineer, Senior                     | Mexico Offsite                                | not US-remote or near Maine: Mexico Offsite
+  C138   Test Engineer Advanced - Chihuahua Based                | Mexico Offsite                                | not US-remote or near Maine: Mexico Offsite
+  C138   Senior Manager Quality Engineering                      | Bengaluru, India (Hybrid Work)                | not US-remote or near Maine: Bengaluru, India (Hyb
+  C138   Platform Test Engineer, L1                              | Gliwice, Poland; Opole, Poland; Wroclaw, Pola | not US-remote or near Maine: Gliwice, Poland; Opol
+  C140   Freelance Software Tester for German Voice Commands (On | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in Aus | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in Aus | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in Ger | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in Ire | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in Ita | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Freelance Software Tester With Smart TVs (Remote in the | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA
+  C140   Get Paid to Test Instagram+ (Brazil & Mexico)           | Brazil, Mexico (Remote)                       | not US-remote or near Maine: Brazil, Mexico (Remot
+  C140   Test a Streaming Platform in France                     | France (Remote)                               | not US-remote or near Maine: France (Remote)
+  C140   Testing a Financial App for Italian Business Owners     | Remote in EMEA                                | not US-remote or near Maine: Remote in EMEA

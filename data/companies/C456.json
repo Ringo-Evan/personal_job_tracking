@@ -1,0 +1,165 @@
+{
+  "company_id": "C456",
+  "tracker": {
+    "company_id": "C456",
+    "company": "Motorola Solutions",
+    "sector": "Enterprise & govtech",
+    "interests": "Public safety tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "motorolasolutions|5|Careers",
+    "board_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 888
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior Test Engineer",
+      "SDET",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Public-safety radios, dispatch and video hardware; strong hardware and telecom-test-equipment adjacency, profitable, with large QA organizations.",
+    "flags": "Many roles onsite or hybrid; security clearance sometimes required",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C456",
+    "career_url": "https://www.motorolasolutions.com/en_us/about/careers.html",
+    "ats": {
+      "type": "workday",
+      "token": "motorolasolutions|5|Careers",
+      "board_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers"
+    },
+    "remote_policy": {
+      "summary": "Offers flexible work models and a remote work program. No state-eligibility or location details are given in the evidence.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.builtinnyc.com/company/motorola-solutions/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Named one of Glassdoor's Best Places to Work 2026, an employer-brand recognition.",
+          "date": null,
+          "url": "https://www.motorolasolutions.com/en_us/about/careers.html"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Motorola Solutions builds public-safety radios, video and command-center software — hardware-adjacent, regulated work that matches the candidate's V&V background. However, Maine remote eligibility and senior QA openings are unverified here.",
+      "role_families": [
+        "SDET / test automation",
+        "Senior QA / test engineering (V&V)",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET automation and FDA-regulated V&V testing maps directly to hardening verification for your public-safety radio, video and command-center platforms.",
+    "red_flags": "No verified QA openings; remote-from-Maine eligibility unknown.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.motorolasolutions.com/en_us/about/careers.html",
+      "https://www.builtinnyc.com/company/motorola-solutions/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Large public-safety/govtech vendor; Glassdoor Best Places to Work 2026. Remote program exists but state eligibility is unconfirmed. No QA postings or named quality leaders in evidence. Telecom/hardware test background is a plausible match; verify Maine remote eligibility and current openings before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:25:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:55:36-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

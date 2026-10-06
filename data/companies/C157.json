@@ -1,0 +1,178 @@
+{
+  "company_id": "C157",
+  "tracker": {
+    "company_id": "C157",
+    "company": "Microsoft (Playwright / Azure DevOps)",
+    "sector": "Test tooling",
+    "interests": "Owns Playwright, Azure DevOps, .NET",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "Senior QA Engineer",
+      "Cloud Solutions Architect"
+    ],
+    "approach": "Engineering Manager",
+    "why": "Core stack match: .NET/C#, Azure DevOps, Playwright; mega-cap stability",
+    "flags": "Large org; interview gauntlet; remote to Maine TBD",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C157",
+    "career_url": "https://apply.careers.microsoft.com/careers",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Work site is listed per posting as in-office days per week, from fully remote (0 days) to fully on-site. Fully remote postings are open to anyone located within the listed country.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.microsoft.com/v2/global/en/flexible-work"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Microsoft's internal 1ES Hosted Pools engineering service is being productized as the third-party offering Managed DevOps Pools.",
+          "date": null,
+          "url": "https://devblogs.microsoft.com/engineering-at-microsoft/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 5,
+      "rationale": "Microsoft builds Playwright, Azure DevOps and .NET test tooling; remote roles open to Maine. Its regulated/hardware-adjacent testing aligns with candidate's C#/.NET automation and FDA V&V background, though current QA openings are unlisted.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "test tooling engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Mukul Singhal",
+        "title": "Partner group engineering manager, Microsoft Digital",
+        "source_url": "https://www.microsoft.com/insidetrack/blog/powering-the-new-age-of-ai-led-engineering-in-it-at-microsoft/"
+      },
+      {
+        "name": "Veera Mamilla",
+        "title": "Principal group engineering manager, Microsoft Digital",
+        "source_url": "https://www.microsoft.com/insidetrack/blog/powering-the-new-age-of-ai-led-engineering-in-it-at-microsoft/"
+      }
+    ],
+    "approach_role": "Partner group engineering manager, Microsoft Digital",
+    "outreach_angle": "Your Playwright and Azure DevOps work plus 15 years in C#/.NET test automation and FDA-regulated V&V match Microsoft's test tooling and Managed DevOps Pools direction.",
+    "red_flags": "No QA openings listed; huge company may have few senior QA roles; competitive bar.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.microsoft.com/v2/global/en/home.html",
+      "https://careers.microsoft.com/v2/global/en/flexible-work",
+      "https://devblogs.microsoft.com/engineering-at-microsoft/",
+      "https://www.microsoft.com/insidetrack/blog/powering-the-new-age-of-ai-led-engineering-in-it-at-microsoft/"
+    ],
+    "notes": "Remote: posting-dependent, fully remote open within country; Maine eligible yes. Stability: productizing 1ES Hosted Pools as Managed DevOps Pools. No QA openings listed. Contacts: Mukul Singhal, Partner group engineering manager; Veera Mamilla, Principal group engineering manager.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 6,
+      "fail_rate": 0.143,
+      "dropped": [
+        "people[2]: not a leadership title: 'Leads post-training research and infrastructure for Copilot agent capabilities'"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.microsoft.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

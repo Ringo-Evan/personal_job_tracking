@@ -1,0 +1,175 @@
+{
+  "company_id": "C435",
+  "tracker": {
+    "company_id": "C435",
+    "company": "Leidos",
+    "sector": "Enterprise & govtech",
+    "interests": "Federal tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior Test Engineer",
+      "Test Automation Engineer",
+      "QA Lead"
+    ],
+    "approach": "Director of Test Engineering",
+    "why": "Defense and federal IT with hardware-adjacent test engineering; good skill match, though clearances and on-site work dominate.",
+    "flags": "Many roles need clearance or on-site presence.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C435",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Leidos supports telework for some roles; an employee works remotely from Texas and travels to Maryland a few times a year. No state list or Maine-specific eligibility is stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.leidos.com/insights/how-kyle-long-returned-leidos-thanks-remote-work-flexibility"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Leidos cut 305 indirect (non-customer-facing) roles, under 1% of its workforce, as it restructures for efficiency.",
+          "date": null,
+          "url": "https://www.washingtontechnology.com/companies/2026/07/leidos-layoff-notices-hit-305-people-non-customer-roles/414729/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "A further 84 job cuts were reported in Virginia under a WARN notice, part of 2026 reductions.",
+          "date": null,
+          "url": "https://layoffhedge.com/company/leidos"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "WARN filing affecting 156 employees in Windsor Mill, Maryland, the largest single Leidos notice on record.",
+          "date": "2026-06",
+          "url": "https://layoffalert.org/company/leidos"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "WARN layoff notice covering 71 employees at Fort Meade, Maryland.",
+          "date": "2026-05",
+          "url": "https://layoffalert.org/company/leidos"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "WARN layoff notice covering 93 employees in Ashburn, Virginia.",
+          "date": "2026-03",
+          "url": "https://layoffalert.org/company/leidos"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Leidos is a large federal IT contractor doing defense, health, and civil work. It fits the candidate's regulated-testing background but has no listed QA openings, unclear Maine remote eligibility, and recent layoffs.",
+      "role_families": [
+        "SDET",
+        "QA Engineering",
+        "Test Automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My 15 years in FDA-regulated V&V and C#/.NET test automation can strengthen Leidos' federal health and defense quality programs.",
+    "red_flags": "Multiple 2026 WARN layoffs; no QA openings listed; Maine remote eligibility unconfirmed; security clearance may be required.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.leidos.com/insights/how-kyle-long-returned-leidos-thanks-remote-work-flexibility",
+      "https://www.washingtontechnology.com/companies/2026/07/leidos-layoff-notices-hit-305-people-non-customer-roles/414729/",
+      "https://layoffhedge.com/company/leidos",
+      "https://layoffalert.org/company/leidos",
+      "https://www.leidos.com/company"
+    ],
+    "notes": "Telework allowed for some roles; no Maine-specific eligibility stated. Large federal contractor but multiple 2026 WARN layoffs. No QA openings on job board. Clearance likely required for many roles.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

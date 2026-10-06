@@ -1,0 +1,187 @@
+{
+  "company_id": "C650",
+  "tracker": {
+    "company_id": "C650",
+    "company": "PTW (Pole To Win)",
+    "sector": "Games & stories",
+    "interests": "Game QA services",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 3,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET / Test Engineer",
+      "QA Lead / Test Manager",
+      "Localization QA Engineer"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Global games QA/co-dev services firm; hires senior test engineers and leads, much of it remote contract.",
+    "flags": "Contract-heavy; rates and benefits vary",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C650",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 1,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Side São Paulo, formerly PTW, implemented job cuts in its third round of reductions in about two years.",
+          "date": "2025-09",
+          "url": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Side laid off 15 US employees and six in Brazil, with further Brazilian layoffs anticipated.",
+          "date": null,
+          "url": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Side opened its first Brazilian studio in São Paulo's Butantã neighborhood, initially planning around 100 QA, art and coding jobs.",
+          "date": "2025-05",
+          "url": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Side Global acquired American company Ghostpunch, though no co-development projects were approved afterward.",
+          "date": "2025-03",
+          "url": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "PTW, formerly Pole to Win, laid off 45 employees across multiple unspecified departments in several countries.",
+          "date": null,
+          "url": "https://www.gamedeveloper.com/business/support-studio-ptw-lays-off-45-staff-across-global-teams"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "PTW/Side provides game QA and co-development services, matching the candidate's games interest. But repeated layoffs, no listed remote policy or senior QA openings, and an outsourcing model create a weak fit for a senior regulated-domain test engineer.",
+      "role_families": [
+        "Game QA",
+        "QA leadership",
+        "Test automation"
+      ]
+    },
+    "hiring_difficulty": 2,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance",
+    "outreach_angle": "My 15 years in regulated test automation (C#/.NET, FDA V&V) and lifelong love of games could strengthen PTW's QA services—I'd welcome discussing senior SDET or QA lead needs.",
+    "red_flags": "Multiple layoff rounds in two years; no remote policy or QA openings listed; game QA outsourcing often low pay and high turnover.",
+    "confidence": "low",
+    "sources": [
+      "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/",
+      "https://www.gamedeveloper.com/business/support-studio-ptw-lays-off-45-staff-across-global-teams"
+    ],
+    "notes": "PTW/Side is a game QA and services company. Facts show third-round layoffs in São Paulo (2025-09), 15 US and six Brazil cuts, 45 global layoffs, and an acquisition (Ghostpunch). A Brazilian studio opened 2025-05. No remote policy, no QA openings, no people listed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.ptw-usa.com/en/about/career-ptw/current-job-vacancies",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,180 @@
+{
+  "company_id": "C328",
+  "tracker": {
+    "company_id": "C328",
+    "company": "MasterControl",
+    "sector": "Regulated healthtech",
+    "interests": "Quality/compliance software for FDA companies",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "mastercontrol",
+    "board_url": "https://job-boards.greenhouse.io/mastercontrol",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name MasterControl",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "Test Manager",
+      "Quality Engineering Lead"
+    ],
+    "approach": "Director of Quality",
+    "why": "Quality/compliance software for FDA-regulated companies; direct fit with medical device and regulated background.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C328",
+    "career_url": "https://www.mastercontrol.com/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "New round of workforce reductions under an ongoing restructuring effort to cut costs and focus on high-growth areas.",
+          "date": null,
+          "url": "https://www.biopharmaboardroom.com/news/2/4604/mastercontrol-announces-workforce-reduction-as-part-of-strategic-restructuring-effort.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company reports 117 new hires in 2024 and 700+ team members, with 25% of new positions filled internally.",
+          "date": null,
+          "url": "https://www.mastercontrol.com/careers/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "MasterControl sells quality/compliance software for FDA-regulated life sciences. The candidate's FDA-regulated medical device V&V background is a direct domain match, but remote policy is unspecified and no QA openings are listed.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My 15 years in FDA-regulated medical device testing, including V&V and design controls, translates directly to ensuring MasterControl's QMS platform meets the same rigorous standards.",
+    "red_flags": "Recent layoffs and restructuring; remote policy not stated; no QA roles currently listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.mastercontrol.com/careers/",
+      "https://www.biopharmaboardroom.com/news/2/4604/mastercontrol-announces-workforce-reduction-as-part-of-strategic-restructuring-effort.html"
+    ],
+    "notes": "MasterControl (500-5k employees) provides QMS software for FDA-regulated companies. Domain fit is strong for a regulated-industry test engineer. However, recent layoffs indicate instability, remote policy is unknown, and no QA openings are listed. Verify remote eligibility and team growth.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:55:36-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.mastercontrol.com/careers/",
+    "found": "greenhouse:mastercontrol (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

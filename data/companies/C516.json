@@ -1,0 +1,195 @@
+{
+  "company_id": "C516",
+  "tracker": {
+    "company_id": "C516",
+    "company": "Procore",
+    "sector": "Enterprise & govtech",
+    "interests": "Construction software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "procore|12|Procore_External_Careers",
+    "board_url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 95
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Construction software; public, QA roles likely, but construction domain not a target sector; remote possible.",
+    "flags": "Construction domain, not target sector",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C516",
+    "career_url": "https://careers.procore.com/",
+    "ats": {
+      "type": "workday",
+      "token": "procore|12|Procore_External_Careers",
+      "board_url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers"
+    },
+    "remote_policy": {
+      "summary": "Balances flexibility with remote and in-office experiences; employees can work remotely or from collaborative North America, EMEA or APAC offices.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.procore.com/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Procore cut about 300 positions, 4% of its workforce, in a strategic restructuring amid a construction tech slowdown.",
+          "date": "2026-01",
+          "url": "https://www.interviewpal.com/layoffs/procore"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Reported $800 million annual recurring revenue with 15% year-over-year growth, a deceleration from earlier 30%+ rates.",
+          "date": null,
+          "url": "https://www.interviewpal.com/layoffs/procore"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Restructuring and layoffs left some departments leaner, increasing individual workload and coverage demands.",
+          "date": null,
+          "url": "https://builtin.com/company/procore-technologies/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Procore sells construction-management software to enterprise and govtech buyers; its QA org is plausible for a senior SDET, but the domain sits outside the candidate's interests, the only visible QA req is Texas-based, and Maine-remote eligibility is unconfirmed.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Senior QA Engineer - DroneDeploy",
+        "location": "US - Texas",
+        "work_mode": "Unknown",
+        "url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers/job/US---Texas/Senior-QA-Engineer---DroneDeploy_R0018636"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps onto Procore's need for auditable, reliable release quality on a large enterprise platform.",
+    "red_flags": "4% workforce cut in Jan 2026; growth decelerating to 15%; Maine-remote eligibility unconfirmed; only visible QA req is Texas-based.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.procore.com/",
+      "https://www.interviewpal.com/layoffs/procore",
+      "https://builtin.com/company/procore-technologies/faq/work-life-balance-wellbeing",
+      "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers",
+      "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers/job/US---Texas/Senior-QA-Engineer---DroneDeploy_R0018636"
+    ],
+    "notes": "Construction-management SaaS, ~$800M ARR, 15% YoY growth (down from 30%+). Cut ~300 roles (4%) in Jan 2026, leaving leaner teams and heavier coverage loads. Policy allows remote or North America office work, but Maine eligibility is unverified. Single QA opening listed: Senior QA Engineer, US-Texas, work mode unknown.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:procore|12|Procore_External_Careers (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

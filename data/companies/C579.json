@@ -1,0 +1,210 @@
+{
+  "company_id": "C579",
+  "tracker": {
+    "company_id": "C579",
+    "company": "Twilio",
+    "sector": "Remote-first software",
+    "interests": "Remote-friendly",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "twilio",
+    "board_url": "https://job-boards.greenhouse.io/twilio",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Twilio",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 3,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Manager",
+      "Test Automation Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Programmable communications APIs; telecom-adjacent and remote QA roles, but not test equipment or .NET focused.",
+    "flags": "Telecom-adjacent; layoff history",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C579",
+    "career_url": "https://www.twilio.com/en-us/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "twilio",
+      "board_url": "https://job-boards.greenhouse.io/twilio"
+    },
+    "remote_policy": {
+      "summary": "Remote-first \"Open Work\" model: almost all Twilions are remote employees working from home or coworking spaces, with periodic in-person team gatherings and off-sites.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.twilio.com/en-us/blog/company/news/open-work"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Named a Leader in the 2026 Gartner Magic Quadrant for CPaaS, positioned highest for Ability to Execute.",
+          "date": null,
+          "url": "https://www.twilio.com/en-us/blog/developers"
+        },
+        {
+          "kind": "other",
+          "summary": "Company-wide hackathon Tweek Week 2025 drew 850 Twilions across 250 global teams.",
+          "date": null,
+          "url": "https://www.twilio.com/en-us/careers"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Twilio is a remote-first CPaaS leader; its V&V Media team matches the candidate's FDA-regulated verification background and telecom test interest. Maine-eligible remote work, but openings skew to engineering management rather than senior QA IC roles.",
+      "role_families": [
+        "QA leadership",
+        "verification & validation engineering",
+        "SDET / test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Senior Engineering Manager V&V Media",
+        "location": "Remote - United Kingdom (Remote - US)",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8067147"
+      },
+      {
+        "title": "Senior Engineering Manager V&V Media",
+        "location": "Remote - Alberta, Canada (DNU) (Remote - US)",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8067500"
+      },
+      {
+        "title": "Senior Engineering Manager V&V Media",
+        "location": "Remote - Ontario, Canada (DNU) (Remote - US)",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8067501"
+      },
+      {
+        "title": "Senior Engineering Manager V&V Media",
+        "location": "Remote - US",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/twilio/jobs/8067678"
+      }
+    ],
+    "people": [],
+    "approach_role": "Senior Engineering Manager, V&V Media (or VP of Engineering)",
+    "outreach_angle": "As a 15-year test engineer with FDA-regulated V&V and C#/.NET automation experience, I can strengthen Twilio's Media V&V quality practice while working remotely from Maine.",
+    "red_flags": "Only one V&V posting, and it is management-level; no senior IC QA roles visible. Twilio has a history of layoffs.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.twilio.com/en-us/careers",
+      "https://www.twilio.com/en-us/blog/company/news/open-work",
+      "https://www.twilio.com/en-us/blog/developers",
+      "https://job-boards.greenhouse.io/twilio",
+      "https://job-boards.greenhouse.io/twilio/jobs/8067147",
+      "https://job-boards.greenhouse.io/twilio/jobs/8067500",
+      "https://job-boards.greenhouse.io/twilio/jobs/8067501",
+      "https://job-boards.greenhouse.io/twilio/jobs/8067678"
+    ],
+    "notes": "Remote-first \"Open Work\" model, Maine residents eligible. Named a Leader in the 2026 Gartner CPaaS Magic Quadrant. Visible QA postings: Senior Engineering Manager, V&V Media (Remote - US). No named QA leaders in facts; confirm IC openings and current stability.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:twilio (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

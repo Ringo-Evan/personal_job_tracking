@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "id": "C1040",
+      "company": "VoteAmerica",
+      "new": {
+        "fit": 2,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "Unknown",
+        "roles": [
+          "QA Engineer",
+          "Backend Developer",
+          "Software Engineer"
+        ],
+        "approach": "VP Engineering",
+        "why": "Civic tech for voter access. Labor values aligned but nonprofit unlikely to have senior QA/SDET depth. Remote unclear.",
+        "flags": "Nonprofit; Maine remote access unconfirmed",
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "stored": null
+    },
+    {
+      "id": "C1041",
+      "company": "Ballotpedia",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "Unknown",
+        "roles": [
+          "QA Engineer",
+          "Software Engineer",
+          "Data Analyst"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Civic information platform. Labor interest aligns but tech depth insufficient for senior QA/SDET needs.",
+        "flags": "Small tech team; unlikely QA/SDET roles",
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "stored": null
+    },
+    {
+      "id": "C1042",
+      "company": "Rock the Vote",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "Unknown",
+        "roles": [
+          "QA Engineer",
+          "Backend Developer",
+          "Systems Administrator"
+        ],
+        "approach": "VP Engineering",
+        "why": "Established nonprofit voter engagement. Mission aligns with labor interests, but technical role depth and Maine access unclear.",
+        "flags": "Established nonprofit; Maine/remote options unclear",
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "stored": null
+    },
+    {
+      "id": "C1043",
+      "company": "Wayside Food Programs",
+      "new": {
+        "fit": 2,
+        "stability": 2,
+        "remote": "Low",
+        "size": "Unknown",
+        "roles": [
+          "Systems Administrator",
+          "Software Developer",
+          "QA Tester"
+        ],
+        "approach": "Executive Director",
+        "why": "Portland ME food access nonprofit. Values and location excellent fit, but small org unlikely to need QA/SDET leadership.",
+        "flags": "Small nonprofit; unlikely dedicated QA/SDET roles",
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "stored": null
+    },
+    {
+      "id": "C1044",
+      "company": "Full Plates Full Potential",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Low",
+        "size": "Unknown",
+        "roles": [
+          "Systems Administrator",
+          "Software Developer",
+          "Data Analyst"
+        ],
+        "approach": "Executive Director",
+        "why": "Maine child nutrition nonprofit. Location and values aligned, but school food programs unlikely to have technical engineering roles.",
+        "flags": "Very small nonprofit; no realistic QA/test roles",
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "stored": null
+    }
+  ]
+}

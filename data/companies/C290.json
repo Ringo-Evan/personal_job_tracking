@@ -1,0 +1,169 @@
+{
+  "company_id": "C290",
+  "tracker": {
+    "company_id": "C290",
+    "company": "Owlet",
+    "sector": "Regulated healthtech",
+    "interests": "Baby monitor wearables",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 2,
+    "remote": "Medium",
+    "size": "50-500",
+    "roles": [
+      "Senior SDET",
+      "Device/Firmware Test Engineer",
+      "QA/Test Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Baby-monitor wearables with FDA-cleared pulse oximetry; hardware plus regulated device software directly matches candidate's device-adjacent testing background.",
+    "flags": "Micro-cap public; past NYSE listing-compliance risk.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C290",
+    "career_url": "https://owletcare.com/pages/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Openings are listed as United States – Remote USA, indicating US-wide remote work that is open to Maine residents.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.remoterocketship.com/us/company/owletcare/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Owlet's careers page states 100+ people were hired to the team and it is still growing.",
+          "date": null,
+          "url": "https://owletcare.com/pages/careers"
+        },
+        {
+          "kind": "other",
+          "summary": "Owlet reports 400,000+ families currently using its products.",
+          "date": null,
+          "url": "https://owletcare.com/pages/careers"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 5,
+      "rationale": "Owlet makes FDA-regulated baby monitor wearables, a strong match for the candidate's medical device V&V and hardware-adjacent test automation. US-remote roles are open to Maine, but no QA openings or quality leaders are listed.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Your FDA-regulated medical device V&V and hardware-adjacent automation experience directly matches Owlet's regulated baby monitoring wearables and need for rigorous test engineering.",
+    "red_flags": "No current QA openings or named quality leadership in verified facts.",
+    "confidence": "medium",
+    "sources": [
+      "https://owletcare.com/pages/careers",
+      "https://www.remoterocketship.com/us/company/owletcare/"
+    ],
+    "notes": "US-remote roles open to Maine residents. Owlet is growing (100+ hires, 400k+ families) in regulated healthtech. No QA openings currently listed; no named leaders. Publicly traded but financials unknown. Domain match strong: FDA-regulated wearables, hardware-adjacent.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://owletcare.com/pages/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses workable"
+  },
+  "verify_rejects": 0
+}

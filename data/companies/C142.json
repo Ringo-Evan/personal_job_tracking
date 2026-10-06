@@ -1,0 +1,83 @@
+{
+  "company_id": "C142",
+  "tracker": {
+    "company_id": "C142",
+    "company": "mabl",
+    "sector": "Test tooling",
+    "interests": "AI test automation (Boston)",
+    "career_url": "https://www.mabl.com/careers",
+    "role_families": "Solutions engineer; QA",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Boston-based startup.",
+    "research_notes": "From general knowledge, not yet searched - verify. Low-code test automation.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Solutions engineering lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Solutions%20engineering%20lead%20mabl",
+    "outreach_notes": "Tooling pitch."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "mabl",
+    "board_url": "https://job-boards.greenhouse.io/mabl",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.mabl.com/careers",
+    "note": "mabl",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:45-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

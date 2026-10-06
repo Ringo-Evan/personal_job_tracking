@@ -1,0 +1,189 @@
+{
+  "company_id": "C423",
+  "tracker": {
+    "company_id": "C423",
+    "company": "Analog Devices",
+    "sector": "Maine & New England",
+    "interests": "Wilmington MA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "analogdevices|1|External",
+    "board_url": "https://analogdevices.wd1.myworkdayjobs.com/External",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 837
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Low",
+    "size": "5k+",
+    "roles": [
+      "Test Engineer",
+      "SDET",
+      "QA Engineer"
+    ],
+    "approach": "Test Engineering Manager",
+    "why": "Semiconductor hardware; strong hardware-adjacent and regulated-adjacent test fit, but Wilmington non-commutable and lab onsite.",
+    "flags": "Hardware lab onsite, Wilmington",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C423",
+    "career_url": null,
+    "ats": {
+      "type": "workday",
+      "token": "analogdevices|1|External",
+      "board_url": "https://analogdevices.wd1.myworkdayjobs.com/External"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "HP announced plans to cut 4,000-6,000 employees in early 2026 to streamline operations and adopt AI.",
+          "date": null,
+          "url": "https://blog.theinterviewguys.com/the-2026-layoff-tracker/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Analog Devices makes analog/mixed-signal chips for medical devices, fitting the candidate's FDA-regulated hardware-adjacent testing. But Wilmington MA isn't commutable from Downeast Maine and remote policy is unverified, so fit is moderate.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Engineering & QA jobs",
+        "location": "null",
+        "work_mode": "Unknown",
+        "url": "https://careers.hpe.com/us/en/c/engineering-qa-jobs"
+      }
+    ],
+    "people": [
+      {
+        "name": "Tim Harrison",
+        "title": "President",
+        "source_url": "https://sqasquared.com/qa-analysts-vs-quality-engineers-which-role-is-right-for-your-project/"
+      }
+    ],
+    "approach_role": "President",
+    "outreach_angle": "Your FDA-regulated medical device V&V and C#/.NET test automation align with ADI's medical-device chip validation; I'd welcome a chat about remote senior QA roles.",
+    "red_flags": "Layoff signal is about HP, not Analog Devices; remote policy and QA openings unverified; Wilmington MA not commutable from Downeast Maine.",
+    "confidence": "low",
+    "sources": [
+      "https://blog.theinterviewguys.com/the-2026-layoff-tracker/",
+      "https://careers.hpe.com/us/en/c/engineering-qa-jobs",
+      "https://sqasquared.com/qa-analysts-vs-quality-engineers-which-role-is-right-for-your-project/"
+    ],
+    "notes": "Facts are thin and partly misattributed: layoff signal is HP's, not ADI's. No remote policy, ATS, or size. QA opening is generic 'Engineering & QA jobs.' President title likely inaccurate. Confidence low.",
+    "model": {
+      "extract": "ollama_chat/qwen3.5:9b",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 3,
+      "fail_rate": 0.25,
+      "dropped": [
+        "people[1]: quote not found in S6"
+      ],
+      "model": "ollama_chat/qwen3.5:9b"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:analogdevices|1|External (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

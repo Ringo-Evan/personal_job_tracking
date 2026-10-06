@@ -1,0 +1,166 @@
+{
+  "company_id": "C325",
+  "tracker": {
+    "company_id": "C325",
+    "company": "Flatiron Health",
+    "sector": "Regulated healthtech",
+    "interests": "Oncology software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "flatironhealth",
+    "board_url": "https://job-boards.greenhouse.io/flatironhealth",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://flatiron.com/careers; token guessed from name; page mentions greenhouse; board name Flatiron Health",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "QA Manager",
+    "why": "Oncology software for cancer care; stable, regulated healthtech with likely remote roles.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C325",
+    "career_url": "https://flatiron.com/careers/open-positions",
+    "ats": {
+      "type": "greenhouse",
+      "token": "flatironhealth",
+      "board_url": "https://job-boards.greenhouse.io/flatironhealth"
+    },
+    "remote_policy": {
+      "summary": "Hybrid is the default: most employees work from the office three days a week. Some roles are fully remote for employees who primarily work from home, plus up to four weeks a year working remotely.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://flatiron.com/careers/how-we-work"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Flatiron builds oncology real-world-evidence and clinical-trial software in a regulated healthcare setting, a domain adjacent to the candidate's FDA-regulated V&V background, and some roles are fully remote for Maine residents.",
+      "role_families": [
+        "SDET / test automation",
+        "Quality engineering leadership",
+        "Release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering (or Head of Quality Engineering)",
+    "outreach_angle": "I've run FDA-regulated V&V and design-control testing on medical devices and can bring that rigor to automating validation of your oncology data and trial software.",
+    "red_flags": "Hybrid default is three days in office; only some roles are fully remote. No QA/SDET openings verified.",
+    "confidence": "medium",
+    "sources": [
+      "https://flatiron.com/careers/open-positions",
+      "https://flatiron.com/careers/how-we-work"
+    ],
+    "notes": "Remote: hybrid default with three office days, some fully remote roles, Maine eligibility confirmed. Openings: none listed on Greenhouse at review time. Stability signals and staff contacts absent; employer is Roche-backed oncology real-world-evidence and clinical-trial software, which reads durable but unverified here.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://flatiron.com/careers",
+    "found": "greenhouse:flatironhealth (embedded in https://flatiron.com/careers)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

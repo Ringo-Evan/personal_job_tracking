@@ -1,0 +1,163 @@
+{
+  "company_id": "C465",
+  "tracker": {
+    "company_id": "C465",
+    "company": "Vela Software",
+    "sector": "Enterprise & govtech",
+    "interests": "Constellation group",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "QA Engineer",
+      "QA Lead"
+    ],
+    "approach": "VP Engineering",
+    "why": "Constellation group holding vertical software companies; .NET-heavy products, with remote QA roles reached through its subsidiaries.",
+    "flags": "Apply via subsidiary companies",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C465",
+    "career_url": "https://velasoftwaregroup.com/job-dashboard/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Vela Software is a subsidiary of TSX-listed Constellation Software, giving it publicly traded parent backing.",
+          "date": null,
+          "url": "https://velasoftwaregroup.com/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Vela Software, a Constellation Software operating group, acquires vertical market software firms. Its portfolio may offer senior QA roles in regulated sectors, but no remote policy or openings are verified, creating uncertainty for a Maine-based candidate.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance at a Vela portfolio company",
+    "outreach_angle": "My FDA-regulated medical device V&V and C#/.NET test automation experience aligns with Vela's vertical market software, particularly regulated healthcare or life sciences portfolio companies.",
+    "red_flags": "No remote policy or openings verified; decentralized structure means roles are at portfolio companies, not Vela.",
+    "confidence": "low",
+    "sources": [
+      "https://velasoftwaregroup.com/job-dashboard/",
+      "https://velasoftwaregroup.com/"
+    ],
+    "notes": "Vela Software is a Constellation Software operating group; parent is TSX-listed, implying financial stability. No remote policy, size, or QA openings were found. Jobs are likely at individual vertical market software companies, which may offer remote or hybrid roles in regulated sectors like healthcare. Stability is high; hiring difficulty uncertain.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://velasoftwaregroup.com/jobs/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

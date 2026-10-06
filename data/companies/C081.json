@@ -1,0 +1,95 @@
+{
+  "company_id": "C081",
+  "tracker": {
+    "company_id": "C081",
+    "company": "Bicycle Health",
+    "sector": "Addiction & recovery",
+    "interests": "Opioid use disorder telehealth",
+    "career_url": "https://app.welcometothejungle.com/jobs/J5ErC0pI/company",
+    "role_families": "Mobile engineering; QA; platform",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Remote US; hiring seen is mobile dev (React Native).",
+    "research_notes": "Verified in 09/30 search. Virtual OUD treatment clinic, 201-500 staff. Sr Mobile Software Engineer remote US $153K-180K.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "US remote",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check for QA/SDET roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Engineering manager, mobile / Head of QA",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20manager%2C%20mobile%20Bicycle%20Health",
+    "outreach_notes": "Healthcare + mobile app quality; your Appium mobile automation and regulated-health background line up."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "bicyclehealth",
+    "board_url": "https://job-boards.greenhouse.io/bicyclehealth",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://app.welcometothejungle.com/jobs/J5ErC0pI/company",
+    "note": "embedded in https://www.bicyclehealth.com/careers; Bicycle Health",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:10-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.bicyclehealth.com/careers",
+    "found": "greenhouse:bicyclehealth (embedded in https://www.bicyclehealth.com/careers)",
+    "other": []
+  }
+}

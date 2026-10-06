@@ -1,0 +1,161 @@
+{
+  "company_id": "C169",
+  "tracker": {
+    "company_id": "C169",
+    "company": "Testim (Tricentis)",
+    "sector": "Test tooling",
+    "interests": "AI test automation",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "Senior QA Engineer",
+      "Solutions Architect"
+    ],
+    "approach": "Engineering Manager",
+    "why": "AI automation + Tricentis enterprise backing; test automation culture",
+    "flags": "Post-acquisition; may be solutions/enterprise-sales-focused",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C169",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Testim reported approximately $0.04B in revenue.",
+          "date": null,
+          "url": "https://claveprep.com/blog/testim-hiring-process-guide-2026"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Testim (Tricentis) sells AI-assisted test automation tooling — squarely in the candidate's test-tooling and SDET wheelhouse, with .NET/C# and regulated-V&V experience transferring well. But remote-from-Maine eligibility, team size and current QA openings are all unverified, so fit is plausible rather",
+      "role_families": [
+        "SDET / test automation engineering",
+        "QA leadership",
+        "test-tooling solutions engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering or Head of Quality Engineering (no named leader in",
+    "outreach_angle": "Your 15 years of C#/.NET automation plus FDA-regulated V&V work maps directly onto selling and building AI-assisted test tooling like Testim's.",
+    "red_flags": "No verified remote policy or QA openings; PE-backed enterprise vendor with sector-wide layoff risk.",
+    "confidence": "low",
+    "sources": [
+      "https://claveprep.com/blog/testim-hiring-process-guide-2026"
+    ],
+    "notes": "Testim is a Tricentis product (acquired 2022) in AI test automation; reported revenue ~$40M. Verified facts contain no remote policy, headcount, ATS or open QA roles, and no named contacts. Tricentis is an established enterprise vendor, but remote-from-Maine eligibility and senior QA demand must be confirmed directly.",
+    "model": {
+      "extract": "gemini/gemini-3.5-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.5-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.testim.io/career/?uid=8D.41E",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

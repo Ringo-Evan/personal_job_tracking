@@ -1,0 +1,107 @@
+{
+  "company_id": "C446",
+  "tracker": {
+    "company_id": "C446",
+    "company": "Kyndryl",
+    "sector": "Enterprise & govtech",
+    "interests": "Infra services",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "kyndryl|5|KyndrylProfessionalCareers",
+    "board_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 887
+  },
+  "triage": {
+    "fit": 2,
+    "stability": 3,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Test Engineer",
+      "QA Analyst",
+      "Automation Engineer"
+    ],
+    "approach": "Quality Assurance Manager",
+    "why": "IBM infrastructure spinoff doing managed IT services; QA roles are operational and manual, thin margins, restructuring.",
+    "flags": "Infrastructure outsourcing; thin margins; frequent restructuring.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:kyndryl|5|KyndrylProfessionalCareers (linked from search results)",
+    "other": []
+  }
+}

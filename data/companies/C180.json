@@ -1,0 +1,169 @@
+{
+  "company_id": "C180",
+  "tracker": {
+    "company_id": "C180",
+    "company": "Harness",
+    "sector": "Test tooling",
+    "interests": "CI/CD and testing",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "Quality Engineer",
+      "QA Lead"
+    ],
+    "approach": "VP Engineering",
+    "why": "CI/CD and testing perfect dual match; strong traction; senior roles likely",
+    "flags": "",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C180",
+    "career_url": "https://www.harness.io/company/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Harness states it has 1,200+ employees across 23 global offices serving 30 million developers, indicating continued scale.",
+          "date": null,
+          "url": "https://www.harness.io/company/careers"
+        },
+        {
+          "kind": "growth",
+          "summary": "Harness describes itself as a fast growing global team and says it is actively recruiting talent.",
+          "date": null,
+          "url": "https://www.harness.io/company/jobs"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Harness builds CI/CD and test tooling, matching the candidate's interest in testing and CI/CD. No remote policy or QA openings listed, but growth and scale suggest possible SDET or solutions engineering roles.",
+      "role_families": [
+        "SDET",
+        "Test Automation",
+        "Solutions Engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "My 15 years in test automation and FDA-regulated V&V can help Harness customers in regulated, hardware-adjacent domains adopt CI/CD and test tooling.",
+    "red_flags": "Remote policy unlisted; no QA openings shown.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.harness.io/company/careers",
+      "https://www.harness.io/company/jobs"
+    ],
+    "notes": "Harness: CI/CD/test tooling, 1,200+ employees, 23 offices, fast-growing and recruiting. Remote policy not stated; no QA openings listed. Stability moderate. Likely roles: SDET, test automation, solutions engineering. Approach VP Engineering.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.harness.io/company/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

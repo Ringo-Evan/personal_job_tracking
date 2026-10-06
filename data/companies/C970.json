@@ -1,0 +1,169 @@
+{
+  "company_id": "C970",
+  "tracker": {
+    "company_id": "C970",
+    "company": "Purina (Nestle)",
+    "sector": "Agriculture",
+    "interests": "Feed",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "QA Manager or Engineering Manager",
+    "why": "Nestlé Purina makes pet food; large regulated manufacturer with software QA needs, agriculture-adjacent but not candidate's core domains.",
+    "flags": "Large corporate; hybrid possible",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C970",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote/hybrid work is available in some corporate and field roles; eligibility is role- and leader-dependent, with some teams expected on-site.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://builtin.com/company/nestle-purina-north-america/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Unionized workers at the Nestlé Purina PetCare plant in South Whitehall Township went on strike after rejecting the company's contract offer.",
+          "date": null,
+          "url": "https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Layoff tracking database lists 85 WARN notices affecting 11,030 workers for Nestlé, sourced from state WARN Act filings.",
+          "date": null,
+          "url": "https://layoffdata.com/company/nestle/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Nestlé Purina is a global pet-food and animal-feed manufacturer; the candidate's interest in agriculture/feed makes it topical, but quality roles there are food-safety and plant QA rather than software SDET work, and openings and Maine-eligible remote are unconfirmed.",
+      "role_families": [
+        "QA leadership",
+        "SDET",
+        "Manufacturing/quality systems engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (or Head of IT Quality Engineering)",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls background maps to Purina's validated, audited quality systems; you could bring automated test tooling to plant and corporate quality workflows.",
+    "red_flags": "No QA openings listed; recent Nestlé layoffs (11,030 across WARN notices) and a Purina plant strike; remote eligibility varies by leader.",
+    "confidence": "medium",
+    "sources": [
+      "https://builtin.com/company/nestle-purina-north-america/faq/work-life-balance-wellbeing",
+      "https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/",
+      "https://layoffdata.com/company/nestle/"
+    ],
+    "notes": "Verified: remote/hybrid exists in some corporate and field roles but is role- and leader-dependent, Maine eligibility unknown. No QA openings on file; no contacts listed. Stability signals mixed: huge profitable parent, yet WARN-listed layoffs and a South Whitehall plant strike. Fit rests on regulated-V&V transferability, not software QA demand.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

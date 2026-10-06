@@ -1,0 +1,95 @@
+{
+  "company_id": "C130",
+  "tracker": {
+    "company_id": "C130",
+    "company": "Coworker.org",
+    "sector": "Labor",
+    "interests": "Worker organizing platform",
+    "career_url": "https://home.coworker.org/",
+    "role_families": "Engineering; tech",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Small nonprofit.",
+    "research_notes": "From general knowledge, not yet searched - verify. Tools and research for worker power in tech era.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Tech lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Tech%20lead%20Coworker.org",
+    "outreach_notes": "Labor + tech."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": null,
+    "source": "https://home.coworker.org/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:37-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://home.coworker.org/jobs/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "company_id": "C376",
+  "tracker": {
+    "company_id": "C376",
+    "company": "InforME (Tyler)",
+    "sector": "Maine & New England",
+    "interests": "Maine state online services",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Maine e-government services under Tyler; .NET stack, QA/SDET roles plausible; remote-friendly parent.",
+    "flags": "Parent Tyler; remote possible",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C376",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "InforME is the state's official eGovernment portal, operating the Maine.gov website and digital government services.",
+          "date": null,
+          "url": "https://www.maine.gov/informe/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "InforME runs on a $0 contract and receives no state appropriated funding, being self-supported by subscriber service fees.",
+          "date": null,
+          "url": "https://www.maine.gov/informe/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "Long-standing public-sector partner to nearly all Maine state agencies, producing award-winning online services.",
+          "date": null,
+          "url": "https://www.maine.gov/informe/"
+        }
+      ]
+    },
+    "size_estimate": "<50",
+    "fit": {
+      "score": 2,
+      "rationale": "InforME runs Maine.gov and state digital services on a self-funded $0 contract — stable public-sector work near the candidate's Maine home. But no QA openings, no stated remote policy and a <50-person team make a senior test role unlikely.",
+      "role_families": [
+        "QA engineering",
+        "test automation",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Technology",
+    "outreach_angle": "15 years in regulated C#/.NET test automation; I'd bring V&V rigor to Maine.gov digital services from my Downeast Maine home.",
+    "red_flags": "No remote policy stated; no QA openings; <50 staff; Augusta-centric operations.",
+    "confidence": "low",
+    "sources": [
+      "https://www.maine.gov/informe/"
+    ],
+    "notes": "InforME is the official Maine.gov eGovernment portal, self-funded by subscriber fees, <50 staff, long-standing state partner with public-sector stability. No job board, ATS, QA openings or contacts listed; remote policy unstated. Tyler parent may host QA roles.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.infor.com/about/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses pinpoint"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,155 @@
+{
+  "company_id": "C687",
+  "tracker": {
+    "company_id": "C687",
+    "company": "Dire Wolf Digital",
+    "sector": "Games & stories",
+    "interests": "Digital card/board games",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "QA Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Digital card/board game developer; strong C#/.NET and TTRPG fit with likely remote QA roles.",
+    "flags": "Denver-based; remote-friendly.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C687",
+    "career_url": "https://www.direwolfdigital.com/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Dire Wolf Digital makes digital card and board games, a strong match to the candidate's games/tabletop interest and his automation depth. But no verified remote policy, size, stability signals, QA openings or contacts were found, so fit rests on domain",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of QA or QA Manager (no named leader in verified facts)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation, including V&V for live, content-heavy products, maps well to keeping a digital card game's frequent releases shippable and fair.",
+    "red_flags": "No verified remote policy or QA openings; game studio hiring is often crunch-driven, contract-heavy and location-bound.",
+    "confidence": "low",
+    "sources": [
+      "https://www.direwolfdigital.com/careers/"
+    ],
+    "notes": "Verified facts are thin: only that Dire Wolf Digital works in games and stories, specifically digital card/board games, and that the candidate is interested in that space. Remote policy, headcount, stability signals, QA openings and contacts are all unverified — confirm before investing. Mid-size, service-based studio.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.direwolfdigital.com/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

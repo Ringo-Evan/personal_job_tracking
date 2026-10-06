@@ -1,0 +1,185 @@
+{
+  "company_id": "C207",
+  "tracker": {
+    "company_id": "C207",
+    "company": "Kontakt.io",
+    "sector": "IoT / location tech",
+    "interests": "BLE location for hospitals",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "kontakt",
+    "board_url": "https://jobs.ashbyhq.com/kontakt",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 15
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 3,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "QA Engineer",
+      "Test Engineer",
+      "SDET"
+    ],
+    "approach": "VP Engineering",
+    "why": "BLE indoor location + healthcare domain match; aligns with Position Imaging + DEKA.",
+    "flags": "Poland-based; visa/remote requirements complex",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C207",
+    "career_url": "https://kontakt.io/why-kontakt-io/careers/",
+    "ats": {
+      "type": "ashby",
+      "token": "kontakt",
+      "board_url": "https://jobs.ashbyhq.com/kontakt"
+    },
+    "remote_policy": {
+      "summary": "Hybrid: minimum 3 days a week on-site at the New York City office; some roles allow remote Mondays and Fridays.",
+      "maine_eligible": "no",
+      "evidence_url": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Company says it doubled revenue in the past year and expects to surpass $70M in annual recurring revenue.",
+          "date": null,
+          "url": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266"
+        },
+        {
+          "kind": "growth",
+          "summary": "Describes itself as a high-growth company scaling toward $400M+ ARR, backed by leading investors including Goldman Sachs.",
+          "date": null,
+          "url": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266"
+        },
+        {
+          "kind": "growth",
+          "summary": "Headcount grew from about 73 employees in 2022 to roughly 136 as of 2026.",
+          "date": null,
+          "url": "https://getlatka.com/companies/kontaktio"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 1,
+      "rationale": "Kontakt.io builds BLE/RFID indoor-location and RTLS systems, notably for hospitals — a direct match to the candidate's RFID/indoor-location and medical-device interests. But it is hybrid with a three-day NYC office minimum and is not open to Maine, so no realistic",
+      "role_families": [
+        "QA engineering",
+        "test automation",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Philipp von Gilsa",
+        "title": "CEO",
+        "source_url": "https://kontakt.io/"
+      }
+    ],
+    "approach_role": "CEO",
+    "outreach_angle": "Your RFID and hospital-device test background maps to Kontakt.io's RTLS stack, but the NYC hybrid requirement blocks Maine — worth a note only if they add remote QA roles.",
+    "red_flags": "Hybrid with minimum three days on-site in New York City; explicitly not open to Maine-based remote work.",
+    "confidence": "high",
+    "sources": [
+      "https://kontakt.io/why-kontakt-io/careers/",
+      "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+      "https://getlatka.com/companies/kontaktio",
+      "https://kontakt.io/"
+    ],
+    "notes": "Verified: hybrid NYC, minimum 3 days on-site, Maine not eligible; no QA openings listed. Self-reported growth: revenue doubled, ~$70M ARR, headcount 73 (2022) to ~136 (2026), Goldman Sachs-backed. Domain fit (BLE/RTLS, hospitals) is strong but location is disqualifying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

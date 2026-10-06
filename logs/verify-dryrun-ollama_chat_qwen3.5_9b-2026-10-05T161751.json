@@ -1,0 +1,763 @@
+{
+  "model": "ollama_chat/qwen3.5:9b",
+  "results": [
+    {
+      "id": "C256",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 7,
+        "kept": 7,
+        "fail_rate": 0.0,
+        "dropped": [],
+        "model": "ollama_chat/qwen3.5:9b"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 1148,
+            "completion_tokens": 210
+          },
+          "latency_s": 31.9,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b ok"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://careers.dexcom.com/careers",
+            6000
+          ],
+          [
+            "S2",
+            "https://careers.dexcom.com/careers/job/40612118-staff-qa-engineer-san-diego-california",
+            6000
+          ],
+          [
+            "S3",
+            "https://careers.dexcom.com/careers/north-america",
+            4548
+          ],
+          [
+            "S4",
+            "https://careers.dexcom.com/careers/job/44710698",
+            6000
+          ],
+          [
+            "S5",
+            "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/",
+            1856
+          ],
+          [
+            "S6",
+            "https://www.dexcom.com/en-NZ/g6-transition?ipc=US",
+            5154
+          ],
+          [
+            "S7",
+            "https://careers.dexcom.com/careers/emea",
+            442
+          ]
+        ],
+        "searches": 4,
+        "fetches": 11,
+        "failures": [
+          "fetch https://xtalks.com/?p=207180: HTTP 403",
+          "fetch https://investors.dexcom.com/financials/quarterly-results/default.aspx: HTTP 403",
+          "fetch https://dexcom.wd1.myworkdayjobs.com/Dexcom: too little text (56 chars)",
+          "fetch https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/Staff-SW-QA-Engineer_JR120414: too little text (96 chars)"
+        ]
+      },
+      "notes": [],
+      "duration_s": 31.9,
+      "research": {
+        "company_id": "C256",
+        "career_url": null,
+        "ats": {
+          "type": "workday",
+          "token": "dexcom|1|Dexcom",
+          "board_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom"
+        },
+        "remote_policy": {
+          "summary": "Dexcom allows work from facilities, home offices, or hybrid arrangements depending on the role. US-remote roles appear open to Maine residents.",
+          "maine_eligible": "yes",
+          "evidence_url": "https://careers.dexcom.com/careers/north-america"
+        },
+        "stability": {
+          "score": 4,
+          "signals": [
+            {
+              "kind": "layoffs",
+              "summary": "Cutting ~350 jobs globally (Oct-Nov 2026).",
+              "date": "2026-10",
+              "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+            },
+            {
+              "kind": "revenue",
+              "summary": "Revenue grew 15% YoY to $1.16B (2026 earnings).",
+              "date": "2026-07",
+              "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+            }
+          ]
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 4,
+          "rationale": "Dexcom is a regulated healthtech leader with strong revenue, though recent layoffs suggest hiring caution. Maine residency is allowed for remote roles.",
+          "role_families": [
+            "Quality Engineering",
+            "QA Leadership"
+          ]
+        },
+        "hiring_difficulty": 3,
+        "qa_openings": [
+          {
+            "title": "Quality Assurance Analyst 2",
+            "location": "San Diego, CA",
+            "work_mode": "On-site",
+            "url": "https://careers.dexcom.com/careers/job/44710698"
+          }
+        ],
+        "people": [
+          {
+            "name": "Kevin Sayer",
+            "title": "CEO",
+            "source_url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+          },
+          {
+            "name": "Jake Leach",
+            "title": "Chief Operating Officer",
+            "source_url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+          }
+        ],
+        "approach_role": "Chief Operating Officer",
+        "outreach_angle": "Your senior C#/.NET background and FDA-regulated experience align well with Dexcom's CGM quality needs, despite current restructuring.",
+        "red_flags": "Recent global layoffs (~350 jobs) indicate active cost-cutting or restructuring.",
+        "confidence": "high",
+        "sources": [
+          "https://careers.dexcom.com/careers/north-america",
+          "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/",
+          "https://careers.dexcom.com/careers/job/44710698"
+        ],
+        "notes": "Verified: US-remote roles open to Maine. Revenue grew 15% YoY ($1.16B), but Oct 2026 layoffs occurred. Hiring may be paused or selective for QA."
+      }
+    },
+    {
+      "id": "C158",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 5,
+        "kept": 5,
+        "fail_rate": 0.0,
+        "dropped": [],
+        "model": "ollama_chat/qwen3.5:9b"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://about.gitlab.com/jobs/",
+            3087
+          ],
+          [
+            "S2",
+            "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/",
+            6000
+          ],
+          [
+            "S3",
+            "https://about.gitlab.com/blog/gitlab-act-2/",
+            6000
+          ],
+          [
+            "S4",
+            "https://handbook.gitlab.com/handbook/engineering/",
+            6000
+          ],
+          [
+            "S5",
+            "https://about.gitlab.com/jobs/all-jobs/",
+            372
+          ],
+          [
+            "S6",
+            "https://about.gitlab.com/blog/the-remote-manifesto/",
+            2895
+          ],
+          [
+            "S7",
+            "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026",
+            5646
+          ]
+        ],
+        "searches": 4,
+        "fetches": 7,
+        "failures": []
+      },
+      "notes": [
+        "remote_policy summary truncated from 41 to 40 words",
+        "stability_signals[0] summary truncated from 26 to 25 words"
+      ],
+      "duration_s": 0.0,
+      "research": {
+        "company_id": "C158",
+        "career_url": null,
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "GitLab is an all-remote company where team members can show up as their full selves regardless of location. Benefits are offered regardless of location with flexibility in schedule to be there for life's important moments. It is a global, multi-cultural",
+          "maine_eligible": "yes",
+          "evidence_url": "https://about.gitlab.com/jobs/"
+        },
+        "stability": {
+          "score": 3,
+          "signals": [
+            {
+              "kind": "layoffs",
+              "summary": "GitLab announced a restructuring process with a voluntary separation window and plans to reduce its country footprint by up to 30%. Finalizing by June 1,",
+              "date": "2026-06",
+              "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+            },
+            {
+              "kind": "layoffs",
+              "summary": "The final scope of layoffs covers approximately 14 percent of its global workforce, about 350 team members. This occurred on June 2, 2026.",
+              "date": "2026-06",
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            },
+            {
+              "kind": "revenue",
+              "summary": "GitLab posted over $1 billion in annual recurring revenue, indicating strong financial performance despite the restructuring.",
+              "date": null,
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            },
+            {
+              "kind": "revenue",
+              "summary": "First-quarter revenue was $264.2 million, up 23% from the previous year.",
+              "date": "2026-04",
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            }
+          ]
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 4,
+          "rationale": "GitLab builds DevSecOps test tooling and is all-remote (Maine eligible). Despite recent restructuring, strong revenue makes it stable. Senior QA fits your stack.",
+          "role_families": [
+            "SDET",
+            "Quality Engineering Lead"
+          ]
+        },
+        "hiring_difficulty": 5,
+        "qa_openings": [],
+        "people": [],
+        "approach_role": "Engineering Manager or VP of Quality",
+        "outreach_angle": "Your experience building QA groups in regulated and high-scale environments aligns with GitLab's needs for rigorous testing expertise within their distributed culture.",
+        "red_flags": "Recent 14% workforce reduction indicates current instability despite strong revenue; hiring may be slowed.",
+        "confidence": "high",
+        "sources": [
+          "https://about.gitlab.com/jobs/",
+          "https://about.gitlab.com/blog/gitlab-act-2/",
+          "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        ],
+        "notes": "Verified all-remote Maine policy. Strong financials ($1B+ ARR) but active restructuring with ~350 roles reduced by June 2026."
+      }
+    },
+    {
+      "id": "C207",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 5,
+        "kept": 5,
+        "fail_rate": 0.0,
+        "dropped": [],
+        "model": "ollama_chat/qwen3.5:9b"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        }
+      ],
+      "new_ats": {
+        "type": "ashby",
+        "token": "kontakt",
+        "board_url": "https://jobs.ashbyhq.com/kontakt",
+        "detected_by": "agent",
+        "checked_at": "2026-10-05",
+        "confirmed": true,
+        "source": null,
+        "note": "",
+        "job_count": 15
+      },
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://kontakt.io/why-kontakt-io/careers/",
+            455
+          ],
+          [
+            "S2",
+            "https://www.builtinnyc.com/company/kontaktio",
+            897
+          ],
+          [
+            "S3",
+            "https://kontakt.io/",
+            1857
+          ],
+          [
+            "S4",
+            "https://getlatka.com/companies/kontaktio",
+            2703
+          ],
+          [
+            "S5",
+            "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+            6000
+          ],
+          [
+            "S6",
+            "https://kontakt.io/success-stories/veterans-health-administration/",
+            5053
+          ],
+          [
+            "S7",
+            "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/",
+            2580
+          ],
+          [
+            "S8",
+            "https://www.pingojo.com/company/kontaktio/",
+            4569
+          ]
+        ],
+        "searches": 4,
+        "fetches": 9,
+        "failures": [
+          "fetch https://pitchbook.com/profiles/company/58990-24: HTTP 403"
+        ]
+      },
+      "notes": [],
+      "duration_s": 0.0,
+      "research": {
+        "company_id": "C207",
+        "career_url": null,
+        "ats": {
+          "type": "ashby",
+          "token": "kontakt",
+          "board_url": "https://jobs.ashbyhq.com/kontakt"
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 3,
+          "signals": [
+            {
+              "kind": "funding",
+              "summary": "Raised $21.3M in funding",
+              "date": null,
+              "url": "https://getlatka.com/companies/kontaktio"
+            },
+            {
+              "kind": "funding",
+              "summary": "Raised $47.5M Series C from Goldman Sachs",
+              "date": "2024-04",
+              "url": "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/"
+            },
+            {
+              "kind": "growth",
+              "summary": "Hired over 60 employees since 2022",
+              "date": null,
+              "url": "https://getlatka.com/companies/kontaktio"
+            }
+          ]
+        },
+        "size_estimate": "<50",
+        "fit": {
+          "score": 2,
+          "rationale": "Kontakt.io focuses on BLE indoor location, relevant to the candidate's RFID/BLE experience. However, it is a very small IoT firm with no public QA openings and remote policy details are missing.",
+          "role_families": [
+            "SDET",
+            "QA Leadership"
+          ]
+        },
+        "hiring_difficulty": 4,
+        "qa_openings": [],
+        "people": [
+          {
+            "name": "Philipp von Gilsa",
+            "title": "CEO",
+            "source_url": "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/"
+          }
+        ],
+        "approach_role": "CEO (Philipp von Gilsa)",
+        "outreach_angle": "Your expertise in BLE and location tech directly aligns with Kontakt.io's core product, making you a valuable asset despite your seniority requiring a pivot to a startup environment.",
+        "red_flags": "No listed QA openings; very small team size (<50); limited remote policy transparency.",
+        "confidence": "low",
+        "sources": [
+          "https://getlatka.com/companies/kontaktio",
+          "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/"
+        ],
+        "notes": "Strong funding history indicates financial durability. Growth trajectory is positive. Candidate's specific BLE/medical domain matches the company sector, but lack of open roles makes fit conditional."
+      }
+    },
+    {
+      "id": "C694",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 4,
+        "kept": 3,
+        "fail_rate": 0.25,
+        "dropped": [
+          "people[0]: person's name is not in their quote"
+        ],
+        "model": "ollama_chat/qwen3.5:9b"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://www.fantasygrounds.com/home/JobOpportunities.php",
+            620
+          ],
+          [
+            "S2",
+            "https://www.fantasygroundsacademy.com/",
+            1366
+          ],
+          [
+            "S3",
+            "https://en.wikipedia.org/wiki/Fantasy_Grounds",
+            6000
+          ],
+          [
+            "S4",
+            "https://forge.fantasygrounds.com/login",
+            320
+          ],
+          [
+            "S5",
+            "https://mgpotter.com/in-person-5e-dd-using-fantasy-grounds/",
+            6000
+          ],
+          [
+            "S6",
+            "https://www.rollquest.io/about",
+            2498
+          ],
+          [
+            "S7",
+            "https://www.fantasygrounds.com/featurerequests/featurerequests.php",
+            1146
+          ],
+          [
+            "S8",
+            "https://discord.com/servers/fantasy-grounds-274582899045695488",
+            2591
+          ]
+        ],
+        "searches": 4,
+        "fetches": 14,
+        "failures": [
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?70700-FGU-from-multiple-computers: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?67183-Persistent-Dedicated-Hosting: HTTP 403",
+          "fetch https://forum.mongoosepublishing.com/threads/state-of-the-mongoose-2025.126159/: too little text (89 chars)",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?73033-Web-browser-support: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/forumdisplay.php?37-City-Hall: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?87527-Paizo-abandoned-vtt-support: HTTP 403"
+        ]
+      },
+      "notes": [
+        "stability_signals[1] quote truncated from 48 to 25 words",
+        "stability_signals[2] quote truncated from 30 to 25 words"
+      ],
+      "duration_s": 0.0,
+      "research": {
+        "company_id": "C694",
+        "career_url": null,
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 2,
+          "signals": [
+            {
+              "kind": "funding",
+              "summary": "Company made software free to remove license barrier in November 2025.",
+              "date": "2025-11",
+              "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+            },
+            {
+              "kind": "acquisition",
+              "summary": "New CDO Adam Bradford joined from acquired company Roll20 in June 2024.",
+              "date": "2024-06",
+              "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+            },
+            {
+              "kind": "revenue",
+              "summary": "Updated licensing pricing strategy in 2023/2024 focusing on accessibility.",
+              "date": "2024-01",
+              "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+            }
+          ]
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 3,
+          "rationale": "Fantasy Grounds fits the candidate's interest in VTT games. However, stability is medium-low due to recent free licensing shifts and lack of explicit QA openings/remote policy data, implying limited growth for a Senior SDET.",
+          "role_families": [
+            "SDET",
+            "QA Leadership"
+          ]
+        },
+        "hiring_difficulty": 4,
+        "qa_openings": [],
+        "people": [],
+        "approach_role": "Director of Operations (Adam Bradford)",
+        "outreach_angle": "Your extensive C#/.NET and automation skills could directly improve Fantasy Grounds' testing rigor, especially given your experience in regulated environments.",
+        "red_flags": "No specific QA openings listed; recent move to free software may indicate shifting revenue models affecting stability.",
+        "confidence": "medium",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+        ],
+        "notes": "Interest match is strong (VTT). Stability signals are mixed (free licensing vs. new CDO). No verified remote policy or open QA roles found in facts."
+      }
+    },
+    {
+      "id": "C1079",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 0,
+        "kept": 0,
+        "fail_rate": 0.0,
+        "dropped": [],
+        "model": "ollama_chat/qwen3.5:9b"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "cached": true,
+          "tokens": {},
+          "latency_s": 0.0,
+          "escalations": 0,
+          "attempts": [
+            "local/ollama_chat/qwen3.5:9b cached"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://unlockedlabs.org/work/people",
+            626
+          ],
+          [
+            "S2",
+            "https://www.maine.gov/corrections/node/323",
+            2196
+          ],
+          [
+            "S3",
+            "https://unlockedlabs.org/careers",
+            626
+          ],
+          [
+            "S4",
+            "https://unlockedlabs.org/work/technology",
+            626
+          ],
+          [
+            "S5",
+            "https://unlockedlabs.org/careers/c64b36aa-eb98-4b61-a55f-c4583523f20a",
+            626
+          ],
+          [
+            "S6",
+            "https://unlockedlabs.org/",
+            626
+          ],
+          [
+            "S7",
+            "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer",
+            6000
+          ],
+          [
+            "S8",
+            "https://www.simplyhired.com/job/gGd18Lxm0I3hAcdg3FXMGf5TvW0dsTZTf_I_V2_pN3P68P7VJcaIOw",
+            205
+          ]
+        ],
+        "searches": 4,
+        "fetches": 8,
+        "failures": []
+      },
+      "notes": [],
+      "duration_s": 0.0,
+      "research": {
+        "company_id": "C1079",
+        "career_url": null,
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 3,
+          "signals": []
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 2,
+          "rationale": "Unlocked Labs focuses on education tech for incarcerated people within criminal justice reform. While this aligns with your social interests, verified data lacks evidence of a QA/SDET engineering track, remote flexibility for Maine, or hiring stability.",
+          "role_families": [
+            "QA Automation",
+            "Quality Operations"
+          ]
+        },
+        "hiring_difficulty": 4,
+        "qa_openings": [],
+        "people": [],
+        "approach_role": "Hiring Manager",
+        "outreach_angle": "Your background in FDA-regulated medical device testing and building QA groups from scratch could uniquely value Unlocked Labs' mission-critical education platform.",
+        "red_flags": "No public information confirms a dedicated QA engineering team or US-remote employment availability for this organization.",
+        "confidence": "low",
+        "sources": [],
+        "notes": "Sector aligns with interests; however, no verified signals confirm QA roles, remote work options, or financial stability exist here. Proceed with caution until specific openings are listed."
+      }
+    }
+  ]
+}

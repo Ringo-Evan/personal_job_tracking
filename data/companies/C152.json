@@ -1,0 +1,155 @@
+{
+  "company_id": "C152",
+  "tracker": {
+    "company_id": "C152",
+    "company": "Perfecto (Perforce)",
+    "sector": "Test tooling",
+    "interests": "Mobile/web testing cloud",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "Senior QA Engineer",
+      "Solutions Architect"
+    ],
+    "approach": "Engineering Manager",
+    "why": "Mobile/web cloud testing; strong Perforce backing; platform expertise",
+    "flags": "Part of larger Perforce; solutions-focused roles",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C152",
+    "career_url": "https://www.perfecto.com/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Perfecto (Perforce) sells a mobile/web test-automation cloud, adjacent to the candidate's test-tooling interests and 15 years of automation work, but its focus is app/web testing rather than regulated hardware-adjacent systems, and no remote policy or senior QA openings are verified.",
+      "role_families": [
+        "SDET",
+        "QA automation engineering",
+        "test-tooling solutions engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering (no named leader verified)",
+    "outreach_angle": "Your 15 years of C#/.NET test automation and regulated V&V work map onto Perfecto's test cloud; you could help teams scale reliable automated mobile and web test suites.",
+    "red_flags": "No verified remote policy, size, openings, or contacts; PE-owned since 2020; mobile/web focus, not regulated hardware testing.",
+    "confidence": "low",
+    "sources": [
+      "https://www.perfecto.com/careers"
+    ],
+    "notes": "Test tooling vendor (mobile/web test automation cloud, part of Perforce). No job board, ATS, remote policy, size, stability signals, QA openings, or named people in verified facts. Assume small senior QA footprint and unclear Maine-remote eligibility; verify remote policy and openings directly before investing time.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.perfecto.com/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,95 @@
+{
+  "company_id": "C149",
+  "tracker": {
+    "company_id": "C149",
+    "company": "L.L.Bean",
+    "sector": "Maine employers",
+    "interests": "Freeport ME outdoor retailer",
+    "career_url": "https://www.llbean.com/llb/shop/515845",
+    "role_families": "QA; SDET; e-commerce",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Large e-commerce tech team.",
+    "research_notes": "From general knowledge, not yet searched - verify. Outdoor/homestead gear + Maine.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Maine (verify remote)",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "QA manager, digital",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20manager%2C%20digital%20L.L.Bean",
+    "outreach_notes": "Maine + outdoors."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "llbean|1|LLBean_Careers",
+    "board_url": "https://llbean.wd1.myworkdayjobs.com/LLBean_Careers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.llbean.com/llb/shop/515845",
+    "note": "linked from search results",
+    "job_count": 120
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:50-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:llbean|1|LLBean_Careers (linked from search results)",
+    "other": []
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "company_id": "C263",
+  "tracker": {
+    "company_id": "C263",
+    "company": "Siemens Healthineers",
+    "sector": "Regulated healthtech",
+    "interests": "Imaging software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "onehealthineers|3|SHSJB",
+    "board_url": "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.siemens-healthineers.com/careers",
+    "job_count": 502
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "Test Automation Engineer",
+      "Quality Lead"
+    ],
+    "approach": "Engineering Manager",
+    "why": "Imaging software; regulated medical devices; strong match; large stable but onsite/hybrid common.",
+    "flags": "Onsite/hybrid common",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C263",
+    "career_url": "https://careers.siemens-healthineers.com/global/en",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Benefits list 'flexible work options' and 'a flexible, family-friendly, and trust-based work environment', but no explicit remote-work policy or US-remote geographic eligibility is stated in the pack.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.siemens-healthineers.com/en-us/careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "In fiscal year 2025, over 80 percent of employees worked in a certified Great Place to Work country; also named a Best Workplace in several",
+          "date": null,
+          "url": "https://careers.siemens-healthineers.com/global/en"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Siemens Healthineers makes regulated medical imaging software. The candidate's FDA-regulated device V&V background fits well, but remote-from-Maine eligibility and open QA roles are unverified.",
+      "role_families": [
+        "SDET",
+        "QA Engineering",
+        "Design Controls / V&V"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My FDA-regulated medical device V&V and test automation experience maps directly to Siemens Healthineers' imaging software quality needs.",
+    "red_flags": "Remote policy for Maine not confirmed; no QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.siemens-healthineers.com/global/en",
+      "https://www.siemens-healthineers.com/en-us/careers"
+    ],
+    "notes": "Large (>5k) regulated healthtech, Great Place to Work. No explicit US-remote policy or Maine eligibility in pack; no QA openings listed. Strong domain match for a senior test engineer with FDA device V&V experience, but verify remote and openings.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.siemens-healthineers.com/careers",
+    "found": "workday:onehealthineers|3|SHSJB (embedded in https://www.siemens-healthineers.com/careers)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

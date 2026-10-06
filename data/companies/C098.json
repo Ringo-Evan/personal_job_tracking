@@ -1,0 +1,91 @@
+{
+  "company_id": "C098",
+  "tracker": {
+    "company_id": "C098",
+    "company": "Unum",
+    "sector": "Maine employers",
+    "interests": "Portland ME tech hub; C# test engineering",
+    "career_url": "https://www.unum.com/careers",
+    "role_families": "Test engineer; senior test engineer; SDET",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "C#/.NET test engineering teams, but hybrid Portland ME 2 days/week (long drive from Columbia).",
+    "research_notes": "Verified in 09/30 search. Test Engineer II (hybrid Portland ME/Chattanooga/Atlanta, 2 days onsite) $73.3K-150.5K. Senior Test Engineers need C#/SQL/TDD.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Hybrid Portland ME - check remote",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Ask recruiter about fully remote",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Test engineering manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20engineering%20manager%20Unum",
+    "outreach_notes": "C#/.NET test automation is exactly their stack."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "unum|1|External",
+    "board_url": "https://unum.wd1.myworkdayjobs.com/External",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.unum.com/careers",
+    "note": "",
+    "job_count": 70
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:21-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:02-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

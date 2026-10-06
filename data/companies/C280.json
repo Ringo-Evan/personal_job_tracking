@@ -1,0 +1,185 @@
+{
+  "company_id": "C280",
+  "tracker": {
+    "company_id": "C280",
+    "company": "Nuance (Microsoft)",
+    "sector": "Regulated healthtech",
+    "interests": "Clinical documentation",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "nuancelabs",
+    "board_url": "https://job-boards.greenhouse.io/nuancelabs",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Nuance Labs",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Automation Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "Clinical documentation under Microsoft; regulated healthtech, strong remote, but not hardware.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C280",
+    "career_url": "https://www.nuancelabs.ai/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "nuancelabs",
+      "board_url": "https://job-boards.greenhouse.io/nuancelabs"
+    },
+    "remote_policy": {
+      "summary": "Hybrid and remote options are common under Microsoft's role-based model; in-office cadence is set per role and some teams are largely remote.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/nuance/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "Nuance Labs announced a $50 million Series A round.",
+          "date": null,
+          "url": "https://www.nuancelabs.ai/careers"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Post-acquisition reorganizations, vendor transitions and targeted layoffs have disrupted continuity in some areas.",
+          "date": null,
+          "url": "https://builtin.com/company/nuance/faq/work-life-balance-wellbeing"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Post-acquisition integration shifts and reorgs periodically compress hours and reset priorities for remaining teams.",
+          "date": null,
+          "url": "https://builtin.com/company/nuance/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Nuance (Microsoft) builds clinical documentation and regulated healthtech AI. Candidate's FDA-regulated medical device V&V and C#/.NET test automation fit the domain, but remote-from-Maine eligibility and current QA openings are unknown.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated medical device V&V and C#/.NET test automation background maps directly to Nuance's clinical documentation QA needs.",
+    "red_flags": "No QA openings listed; Maine remote eligibility unconfirmed; post-acquisition reorganizations and targeted layoffs noted.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.nuancelabs.ai/careers",
+      "https://builtin.com/company/nuance/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Microsoft-owned Nuance: hybrid/remote common but Maine eligibility unknown; recent reorgs and targeted layoffs; no QA openings listed. Domain (regulated healthtech/clinical documentation) aligns with candidate's FDA-regulated medical device V&V experience. Microsoft stability high, but Nuance integration risk.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:nuancelabs (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

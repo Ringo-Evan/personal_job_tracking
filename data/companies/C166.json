@@ -1,0 +1,100 @@
+{
+  "company_id": "C166",
+  "tracker": {
+    "company_id": "C166",
+    "company": "Global App Testing",
+    "sector": "Test tooling",
+    "interests": "Crowdtesting",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 2,
+    "stability": 3,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "QA Manager",
+      "Solutions Engineer",
+      "Operations Manager"
+    ],
+    "approach": "VP Operations",
+    "why": "Crowdtesting platform; QA management applicable; distributed model",
+    "flags": "Not automation-centric; human testing focus; different career path",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.globalapptesting.com/careers",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/global-app-testing/",
+      "wellfound https://wellfound.com/company/global-app-testing/jobs"
+    ],
+    "careers_page_note": "uses workable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "lead-5a73f49fed5b",
+  "board": "lead",
+  "company_id": "C423",
+  "company": "Analog Devices",
+  "title": "Engineering & QA jobs",
+  "location_text": "null",
+  "work_mode": "Unknown",
+  "url": "https://careers.hpe.com/us/en/c/engineering-qa-jobs",
+  "apply_url": null,
+  "source_url": "https://careers.hpe.com/us/en/c/engineering-qa-jobs",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Generic careers-category page, not a specific requisition; lists QA/quality analysis among many engineering fields at a chipmaker serving medical devices, but no location, level, or remote policy is stated.",
+    "skill_match": 2,
+    "seniority": "unknown",
+    "maine_eligible": "unknown",
+    "track": "Core QA",
+    "notes": "Category landing page, not a real req; watch for US-remote QA/SDET openings at this medical-device chipmaker.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "6bead96ef4fd6dad",
+    "text_source": "page"
+  },
+  "description": "Engineering & QA\nBy developing, designing, testing, and ensuring the quality of products and systems, these team members enable robust, market-ready solutions for our customers. Jobs in this category specialize in areas such as AI/ML engineering, cloud engineering, electrical engineering, mechanical engineering, data science, experience design, project management, product management, software engineering, technical writing, drafting, and quality analysis."
+}

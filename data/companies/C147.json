@@ -1,0 +1,94 @@
+{
+  "company_id": "C147",
+  "tracker": {
+    "company_id": "C147",
+    "company": "University of Maine System",
+    "sector": "Maine employers",
+    "interests": "Orono - commutable; public university",
+    "career_url": "https://www.maine.edu/careers/",
+    "role_families": "IT; research software; QA",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "IT and research software roles; public benefits.",
+    "research_notes": "From general knowledge, not yet searched - verify. UMaine Orono has research centers (e.g., Advanced Structures & Composites).",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Maine (commutable)",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "IT director",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20director%20University%20of%20Maine%20System",
+    "outreach_notes": "Local + stable."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": null,
+    "source": "https://www.maine.edu/careers/",
+    "note": "uses oracle",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:48-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.maine.edu/careers/",
+    "found": null,
+    "other": []
+  }
+}

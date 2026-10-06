@@ -1,0 +1,198 @@
+{
+  "company_id": "C483",
+  "tracker": {
+    "company_id": "C483",
+    "company": "Nationwide",
+    "sector": "Enterprise & govtech",
+    "interests": "Insurance tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "nationwide|1|Nationwide_Career",
+    "board_url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 161
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "Test Lead",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Insurer with significant tech org and .NET work; regulated domain plus remote-friendly posture make senior QA roles plausible.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C483",
+    "career_url": "https://www.nationwide.com/personal/about-us/careers/",
+    "ats": {
+      "type": "workday",
+      "token": "nationwide|1|Nationwide_Career",
+      "board_url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career"
+    },
+    "remote_policy": {
+      "summary": "Hybrid model: primarily office-based at four main campuses (Columbus OH, Des Moines, Scottsdale, San Antonio); associates at other locations moved to permanent remote-working status.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Nationwide plans to cut about 600 back-office roles after integrating Virgin Money; talks ongoing with unions.",
+          "date": null,
+          "url": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Nationwide completed the £2.9 billion takeover of Virgin Money and has fully integrated it.",
+          "date": null,
+          "url": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Nationwide describes itself as the UK's fastest growing banking provider, adding customers and business banking.",
+          "date": null,
+          "url": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/"
+        },
+        {
+          "kind": "other",
+          "summary": "Branch network of about 700 locations expected to remain open until at least 2030.",
+          "date": null,
+          "url": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Nationwide is a large insurance/financial-services enterprise; senior QA and automation roles are plausible, but the verified facts conflate the US insurer with the UK building society, list no QA openings, and leave Maine remote eligibility unknown.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Kirt Walker",
+        "title": "CEO",
+        "source_url": "https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/"
+      }
+    ],
+    "approach_role": "Director of Quality Engineering (no named QA leader in facts; CEO Kirt",
+    "outreach_angle": "Fifteen years of regulated testing (FDA V&V, design controls) maps well to a mutual insurer's compliance-heavy QA and automation needs, if remote work from Maine is permitted.",
+    "red_flags": "Facts conflate US insurer with UK building society; no QA openings listed; Maine remote eligibility unknown; recent layoff of ~600 roles.",
+    "confidence": "low",
+    "sources": [
+      "https://www.nationwide.com/personal/about-us/careers/",
+      "https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/",
+      "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/"
+    ],
+    "notes": "Hybrid at Columbus, Des Moines, Scottsdale, San Antonio; other-location staff reportedly permanent remote, so Maine eligibility is unclear. 5k+ employees, no QA openings listed. Stability signals mixed: Virgin Money integration, ~600 back-office cuts, but growing membership and branch network to 2030.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:nationwide|1|Nationwide_Career (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

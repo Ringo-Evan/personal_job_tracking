@@ -1,0 +1,214 @@
+{
+  "company_id": "C1185",
+  "tracker": {
+    "company_id": "C1185",
+    "company": "Motional",
+    "sector": "Defense, aerospace & robotics",
+    "interests": "Autonomy; Boston",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "motional",
+    "board_url": "https://job-boards.greenhouse.io/motional",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name Motional",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 2,
+    "remote": "Low",
+    "size": "500-5k",
+    "roles": [
+      "Test Engineer",
+      "SDET",
+      "QA Engineer"
+    ],
+    "approach": "Director of Test",
+    "why": "Autonomous driving joint venture; test and validation roles, but Boston hybrid, layoffs, remote low.",
+    "flags": "Boston hybrid; remote low",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1185",
+    "career_url": null,
+    "ats": {
+      "type": "greenhouse",
+      "token": "motional",
+      "board_url": "https://job-boards.greenhouse.io/motional"
+    },
+    "remote_policy": {
+      "summary": "Hybrid setup with remote regional clusters for many roles; several engineering roles are listed as \"Remote U.S. Only\", so US-remote candidates anywhere in the country, including Maine, can apply.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://job-boards.greenhouse.io/motional"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Around 550 employees, roughly 40% of staff, laid off in the May 2024 restructuring across all business functions.",
+          "date": null,
+          "url": "https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/"
+        },
+        {
+          "kind": "funding",
+          "summary": "Hyundai invested $475 million in Motional and paid $448 million for 11% of Aptiv's stake, taking control.",
+          "date": null,
+          "url": "https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Repeated layoff waves, the 2024 restructuring and office wind-downs are described as ongoing instability disrupting staffing.",
+          "date": null,
+          "url": "https://builtin.com/company/motional/faq/work-life-balance-wellbeing"
+        },
+        {
+          "kind": "growth",
+          "summary": "Job aggregator indexes 111 active Motional listings, indicating ongoing hiring across engineering roles.",
+          "date": null,
+          "url": "https://career.now/companies/motional"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Motional develops autonomous driving tech with US-remote roles open to Maine. Sr QA Automation and Senior Release Engineer openings match the candidate's automation and release skills, but recent 40% layoffs signal instability and the domain differs from medical devices.",
+      "role_families": [
+        "SDET",
+        "QA automation",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Sr. QA Automation Test Engineer",
+        "location": "Las Vegas, Nevada, United States (Remote U.S. Only)",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/motional"
+      },
+      {
+        "title": "Senior Release Engineer",
+        "location": "Boston, MA; Las Vegas, NV; Pittsburgh, PA; Remote U.S.",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/motional"
+      }
+    ],
+    "people": [
+      {
+        "name": "David Fermor",
+        "title": "Director of the high-performance computing team",
+        "source_url": "https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/"
+      }
+    ],
+    "approach_role": "Director of the high-performance computing team",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent automation experience maps directly to Motional's safety-critical autonomy validation and test infrastructure.",
+    "red_flags": "Repeated layoffs (40% in 2024), ongoing restructuring, office wind-downs; Hyundai control adds uncertainty.",
+    "confidence": "high",
+    "sources": [
+      "https://job-boards.greenhouse.io/motional",
+      "https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/",
+      "https://builtin.com/company/motional/faq/work-life-balance-wellbeing",
+      "https://career.now/companies/motional"
+    ],
+    "notes": "Remote U.S. roles open to Maine: Sr QA Automation Test Engineer and Senior Release Engineer. Stability poor: ~550 laid off May 2024, repeated waves. Hyundai's $475M investment gives backing but instability persists.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 10,
+      "kept": 9,
+      "fail_rate": 0.1,
+      "dropped": [
+        "career_url: career_url appears nowhere in the evidence"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://motional.com/careers",
+    "found": "greenhouse:motional (greenhouse token guessed from name)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

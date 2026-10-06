@@ -1,0 +1,287 @@
+{
+ "total": 15,
+ "jobPostings": [
+  {
+   "title": "Senior Field Marketing Manager",
+   "externalPath": "/job/US---Atlanta/Senior-Field-Marketing-Manager_JR105936",
+   "timeType": "Full time",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 4 Days Ago",
+   "bulletFields": [
+    "JR105936"
+   ]
+  },
+  {
+   "title": "Senior Cloud Security Engineer",
+   "externalPath": "/job/CZ---Prague/Senior-Cloud-Security-Engineer_JR105944-1",
+   "timeType": "Full time",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 6 Days Ago",
+   "bulletFields": [
+    "JR105944"
+   ]
+  },
+  {
+   "title": "Senior Account Executive (Malaysia & Thailand)",
+   "externalPath": "/job/SG---Singapore/Senior-Account-Executive--Malaysia---Thailand-_JR105985",
+   "timeType": "Full time",
+   "locationsText": "SG - Singapore",
+   "postedOn": "Posted 7 Days Ago",
+   "bulletFields": [
+    "JR105985"
+   ]
+  },
+  {
+   "title": "Account Director – Benelux",
+   "externalPath": "/job/NL---Amsterdam/Account-Director---Benelux_JR105973",
+   "timeType": "Full time",
+   "locationsText": "NL - Amsterdam",
+   "postedOn": "Posted 10 Days Ago",
+   "bulletFields": [
+    "JR105973"
+   ]
+  },
+  {
+   "title": "Account Director – Nordics",
+   "externalPath": "/job/SE---Stockholm/Account-Director---Nordics_JR105963",
+   "timeType": "Full time",
+   "locationsText": "SE - Stockholm",
+   "postedOn": "Posted 10 Days Ago",
+   "bulletFields": [
+    "JR105963"
+   ]
+  },
+  {
+   "title": "Procurement Specialist",
+   "externalPath": "/job/CZ---Prague/Procurement-Specialist_JR105912",
+   "timeType": "Full time",
+   "locationsText": "CZ - Prague",
+   "postedOn": "Posted 12 Days Ago",
+   "bulletFields": [
+    "JR105912"
+   ]
+  },
+  {
+   "title": "Senior Sales Operations Manager, EMEA",
+   "externalPath": "/job/UK---London/Senior-Sales-Operations-Manager--EMEA_JR105887",
+   "timeType": "Full time",
+   "locationsText": "UK - London",
+   "postedOn": "Posted 14 Days Ago",
+   "bulletFields": [
+    "JR105887"
+   ]
+  },
+  {
+   "title": "AI GTM Architect",
+   "externalPath": "/job/Austin-Texas/AI-GTM-Archtiect_JR105966",
+   "timeType": "Full time",
+   "locationsText": "3 Locations",
+   "postedOn": "Posted 16 Days Ago",
+   "bulletFields": [
+    "JR105966"
+   ]
+  },
+  {
+   "title": "Product Security Engineer",
+   "externalPath": "/job/CZ---Prague/Product-Security-Engineer_JR105797",
+   "timeType": "Full time",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 19 Days Ago",
+   "bulletFields": [
+    "JR105797"
+   ]
+  },
+  {
+   "title": "Experienced Pre-sales Solution Architect",
+   "externalPath": "/job/UK---London/Manager--Solution-Architecture_JR105739",
+   "timeType": "Full time",
+   "locationsText": "UK - London",
+   "postedOn": "Posted 21 Days Ago",
+   "bulletFields": [
+    "JR105739"
+   ]
+  },
+  {
+   "title": "Senior Solution Architect SEA",
+   "externalPath": "/job/SG---Singapore/Senior-Solution-Architect-SEA_JR105929",
+   "timeType": "Full time",
+   "locationsText": "SG - Singapore",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR105929"
+   ]
+  },
+  {
+   "title": "Senior Account Executive",
+   "externalPath": "/job/JP---Tokyo/Senior-Account-Executive_JR105896",
+   "timeType": "Full time",
+   "locationsText": "JP - Tokyo",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR105896"
+   ]
+  },
+  {
+   "title": "Lead Program Manager",
+   "externalPath": "/job/US---Virginia/Lead-Program-Manager_JR105928-1",
+   "timeType": "Full time",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR105928"
+   ]
+  },
+  {
+   "title": "Senior Pricing & Packaging Director",
+   "externalPath": "/job/Austin-Texas/Senior-Pricing---Packaging-Director_JR105837",
+   "timeType": "Full time",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR105837"
+   ]
+  },
+  {
+   "title": "Director, Deal Desk",
+   "externalPath": "/job/Austin-Texas/Director--Deal-Desk_JR105907",
+   "timeType": "Full time",
+   "locationsText": "Austin, Texas",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR105907"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "facetParameter": "jobFamilyGroup",
+   "descriptor": "Job Category",
+   "values": [
+    {
+     "descriptor": "Finance & Accounting",
+     "id": "3f4bb7004a48100067725d0a324b0000",
+     "count": 2
+    },
+    {
+     "descriptor": "Information Technology",
+     "id": "0cb2ae6f15890181cc27d254ba017107",
+     "count": 2
+    },
+    {
+     "descriptor": "Marketing",
+     "id": "0cb2ae6f158901899bee2755ba018107",
+     "count": 1
+    },
+    {
+     "descriptor": "R&D.",
+     "id": "3f4bb7004a48100067724154e59a0000",
+     "count": 1
+    },
+    {
+     "descriptor": "Sales",
+     "id": "0cb2ae6f1589017559c0b655ba019707",
+     "count": 4
+    },
+    {
+     "descriptor": "Sales Operations",
+     "id": "0cb2ae6f1589017fd2084d55ba019007",
+     "count": 3
+    },
+    {
+     "descriptor": "Sales Support",
+     "id": "0cb2ae6f15890126194d5554ba016707",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "facetParameter": "workerSubType",
+   "descriptor": "Job Type",
+   "values": [
+    {
+     "descriptor": "Regular",
+     "id": "0cb2ae6f158901a9b0966d8c6401cc00",
+     "count": 15
+    }
+   ]
+  },
+  {
+   "facetParameter": "timeType",
+   "descriptor": "Full/Part-time",
+   "values": [
+    {
+     "descriptor": "Full time",
+     "id": "9c98395c138d015ee3844ccdc6036300",
+     "count": 15
+    }
+   ]
+  },
+  {
+   "facetParameter": "locationMainGroup",
+   "values": [
+    {
+     "facetParameter": "locations",
+     "descriptor": "Locations",
+     "values": [
+      {
+       "descriptor": "Austin, Texas",
+       "id": "9f1579f52acc010113b027ac43d60000",
+       "count": 5
+      },
+      {
+       "descriptor": "CZ - Brno",
+       "id": "0cb2ae6f158901398d96cb25a6019f02",
+       "count": 2
+      },
+      {
+       "descriptor": "CZ - Prague",
+       "id": "0cb2ae6f158901a5276c5425a6017702",
+       "count": 3
+      },
+      {
+       "descriptor": "JP - Tokyo",
+       "id": "0269fd6c7fc81001a6dc46606e8f0000",
+       "count": 1
+      },
+      {
+       "descriptor": "NL - Amsterdam",
+       "id": "0cb2ae6f158901bd2148e224a6014002",
+       "count": 1
+      },
+      {
+       "descriptor": "SE - Stockholm",
+       "id": "0cb2ae6f158901cccffbe924a6014502",
+       "count": 1
+      },
+      {
+       "descriptor": "SG - Singapore",
+       "id": "0cb2ae6f1589014051e00f26a601a902",
+       "count": 2
+      },
+      {
+       "descriptor": "UK - London",
+       "id": "0cb2ae6f158901481f62f023a6012202",
+       "count": 2
+      },
+      {
+       "descriptor": "US - Atlanta",
+       "id": "0cb2ae6f1589016f579f7c24a6012c02",
+       "count": 2
+      },
+      {
+       "descriptor": "US - Boston",
+       "id": "0cb2ae6f158901f4d9d43c25a6016802",
+       "count": 2
+      },
+      {
+       "descriptor": "US - Virginia",
+       "id": "8f783d3b61d81001fadd5e8f118e0000",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "userAuthenticated": false
+}

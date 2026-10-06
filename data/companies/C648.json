@@ -1,0 +1,174 @@
+{
+  "company_id": "C648",
+  "tracker": {
+    "company_id": "C648",
+    "company": "Iron Galaxy",
+    "sector": "Games & stories",
+    "interests": "Co-dev; remote-friendly",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 3,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Co-development studio doing ports and remasters; remote-friendly with genuine QA needs and a strong games-domain match.",
+    "flags": "Crunch cycles; contract-heavy QA",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C648",
+    "career_url": "https://www.irongalaxystudios.com/careers",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Hybrid workspace: employees work in the office and from home each week, typically two days a week on-site; hires are in Chicago, Nashville, Austin and Orlando.",
+      "maine_eligible": "no",
+      "evidence_url": "https://builtin.com/company/iron-galaxy-studios"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Second round of layoffs announced in April 2026, framed as adjusting to a new company structure; number of affected employees undisclosed.",
+          "date": null,
+          "url": "https://www.nintendolife.com/news/2026/04/metroid-prime-remastered-studio-iron-galaxy-announces-more-layoffs"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Cut 66 developers and support staff in early 2025, described as a measure of last resort to enable long-term survival.",
+          "date": null,
+          "url": "https://kotaku.com/iron-galaxy-layoffs-tony-hawk-last-us-part-2-remaster-2000688573"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Iron Galaxy is a well-known game co-development studio (ports, remasters, original titles). Games match the candidate's interests, but hiring is hybrid-only in Chicago, Nashville, Austin or Orlando, explicitly not Maine-eligible, with no QA openings and two recent layoff rounds.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance",
+    "outreach_angle": "Your co-dev teams ship across many platforms; my 15 years of C#/.NET test automation and FDA-regulated V&V discipline could strengthen your QA pipeline, should you open remote roles.",
+    "red_flags": "Two layoff rounds (2025 and 2026); hybrid-only in four cities; no Maine remote option; no current QA openings.",
+    "confidence": "high",
+    "sources": [
+      "https://www.irongalaxystudios.com/careers",
+      "https://irongalaxy.applytojob.com/",
+      "https://builtin.com/company/iron-galaxy-studios",
+      "https://www.nintendolife.com/news/2026/04/metroid-prime-remastered-studio-iron-galaxy-announces-more-layoffs",
+      "https://kotaku.com/iron-galaxy-layoffs-tony-hawk-last-us-part-2-remaster-2000688573"
+    ],
+    "notes": "Hybrid workspace, roughly two on-site days weekly, hires only in Chicago, Nashville, Austin and Orlando; Maine explicitly not eligible. Layoffs in early 2025 (66 staff) and again April 2026. No QA/test openings listed; no named QA leadership on file. Games sector aligns with candidate interests but geography blocks it.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.irongalaxystudios.com/careers",
+    "found": null,
+    "other": [
+      "jazzhr https://irongalaxy.applytojob.com/"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

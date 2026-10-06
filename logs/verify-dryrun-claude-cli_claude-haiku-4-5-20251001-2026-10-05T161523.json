@@ -1,0 +1,826 @@
+{
+  "model": "claude-cli/claude-haiku-4-5-20251001",
+  "results": [
+    {
+      "id": "C256",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 8,
+        "kept": 6,
+        "fail_rate": 0.25,
+        "dropped": [
+          "career_url: quote not found in S1",
+          "qa_openings[0]: quote not found in S2"
+        ],
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 19,
+            "completion_tokens": 10227
+          },
+          "latency_s": 102.7,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 2361,
+            "completion_tokens": 5556
+          },
+          "latency_s": 55.7,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://careers.dexcom.com/careers",
+            6000
+          ],
+          [
+            "S2",
+            "https://careers.dexcom.com/careers/job/40612118-staff-qa-engineer-san-diego-california",
+            6000
+          ],
+          [
+            "S3",
+            "https://careers.dexcom.com/careers/north-america",
+            4548
+          ],
+          [
+            "S4",
+            "https://careers.dexcom.com/careers/job/44710698",
+            6000
+          ],
+          [
+            "S5",
+            "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/",
+            1856
+          ],
+          [
+            "S6",
+            "https://www.dexcom.com/en-NZ/g6-transition?ipc=US",
+            5154
+          ],
+          [
+            "S7",
+            "https://careers.dexcom.com/careers/emea",
+            442
+          ]
+        ],
+        "searches": 4,
+        "fetches": 11,
+        "failures": [
+          "fetch https://xtalks.com/?p=207180: HTTP 403",
+          "fetch https://investors.dexcom.com/financials/quarterly-results/default.aspx: HTTP 403",
+          "fetch https://dexcom.wd1.myworkdayjobs.com/Dexcom: too little text (56 chars)",
+          "fetch https://dexcom.wd1.myworkdayjobs.com/en-US/Dexcom/job/Staff-SW-QA-Engineer_JR120414: too little text (96 chars)"
+        ]
+      },
+      "notes": [],
+      "duration_s": 158.9,
+      "research": {
+        "company_id": "C256",
+        "career_url": null,
+        "ats": {
+          "type": "workday",
+          "token": "dexcom|1|Dexcom",
+          "board_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom"
+        },
+        "remote_policy": {
+          "summary": "Work produced from facilities, home offices, or hybrid depending on role. Dexcom supports employees working from varied locations.",
+          "maine_eligible": "varies",
+          "evidence_url": "https://careers.dexcom.com/careers/north-america"
+        },
+        "stability": {
+          "score": 3,
+          "signals": [
+            {
+              "kind": "layoffs",
+              "summary": "Cutting 350 jobs globally, approximately 3% of workforce, starting November 3, 2026.",
+              "date": "2026-08",
+              "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+            },
+            {
+              "kind": "revenue",
+              "summary": "Q2 2026 revenue $1.16B, up 15% YoY; net income rose 25%. Raised 2025 sales expectations.",
+              "date": "2026-06",
+              "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+            },
+            {
+              "kind": "other",
+              "summary": "CEO transition: Kevin Sayer stepping down January 2027; COO Jake Leach to become CEO.",
+              "date": "2026-07",
+              "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+            }
+          ]
+        },
+        "size_estimate": "5k+",
+        "fit": {
+          "score": 3,
+          "rationale": "Dexcom makes CGM devices—perfectly aligned with your medical-device interest. Regulated healthtech matches your background. C#/.NET valuable for their modern apps. However, recent layoffs and no current QA openings reduce immediate opportunity.",
+          "role_families": [
+            "SDET",
+            "Quality Engineering",
+            "Test Leadership"
+          ]
+        },
+        "hiring_difficulty": 4,
+        "qa_openings": [],
+        "people": [],
+        "approach_role": "Director of Quality Assurance",
+        "outreach_angle": "Your 15 years in regulated test automation and C#/.NET expertise make you valuable for Dexcom's CGM platform QA needs—aligning perfectly with your stated medical-device interest.",
+        "red_flags": "Recent 3% layoff announced (Nov 2026); CEO transition (Jan 2027); no current QA openings; Maine remote eligibility unclear.",
+        "confidence": "high",
+        "sources": [
+          "https://careers.dexcom.com/careers/north-america",
+          "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+        ],
+        "notes": "Medical devices sector perfectly matches candidate interests. Regulated domain aligns with experience. Strong Q2 2026 financials ($1.16B revenue, +15% YoY, +25% net income). However, workforce reduction (~350, 3%) effective Nov 3, 2026, and CEO transition (Jan 2027) suggest hiring uncertainty. Remote policy flexible but Maine eligibility varies."
+      }
+    },
+    {
+      "id": "C158",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 8,
+        "kept": 8,
+        "fail_rate": 0.0,
+        "dropped": [],
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 9,
+            "completion_tokens": 12077
+          },
+          "latency_s": 108.5,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 2398,
+            "completion_tokens": 5093
+          },
+          "latency_s": 51.4,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://about.gitlab.com/jobs/",
+            3087
+          ],
+          [
+            "S2",
+            "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/",
+            6000
+          ],
+          [
+            "S3",
+            "https://about.gitlab.com/blog/gitlab-act-2/",
+            6000
+          ],
+          [
+            "S4",
+            "https://handbook.gitlab.com/handbook/engineering/",
+            6000
+          ],
+          [
+            "S5",
+            "https://about.gitlab.com/jobs/all-jobs/",
+            372
+          ],
+          [
+            "S6",
+            "https://about.gitlab.com/blog/the-remote-manifesto/",
+            2895
+          ],
+          [
+            "S7",
+            "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026",
+            5646
+          ]
+        ],
+        "searches": 4,
+        "fetches": 7,
+        "failures": []
+      },
+      "notes": [],
+      "duration_s": 159.9,
+      "research": {
+        "company_id": "C158",
+        "career_url": "https://about.gitlab.com/jobs/",
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "GitLab is a 100% all-remote company with over 1,500 team members in more than 65 countries, enabling asynchronous communication and flexible working.",
+          "maine_eligible": "yes",
+          "evidence_url": "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/"
+        },
+        "stability": {
+          "score": 3,
+          "signals": [
+            {
+              "kind": "layoffs",
+              "summary": "GitLab cut approximately 350 employees (14% of workforce) in May-June 2026 AI restructuring.",
+              "date": "2026-06",
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            },
+            {
+              "kind": "revenue",
+              "summary": "GitLab reported over $1 billion in annual recurring revenue in 2026.",
+              "date": "2026-06",
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            },
+            {
+              "kind": "growth",
+              "summary": "Q1 2026 revenue grew 23% year-over-year to $264.2 million.",
+              "date": "2026-03",
+              "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+            }
+          ]
+        },
+        "size_estimate": "500-5k",
+        "fit": {
+          "score": 5,
+          "rationale": "GitLab is a DevSecOps platform for test automation and CI/CD—excellent domain match for candidate's 15 years in test automation and tooling. 100% remote, Maine-eligible. Strong financials despite recent restructuring.",
+          "role_families": [
+            "SDET",
+            "Quality Engineering",
+            "Release Engineering"
+          ]
+        },
+        "hiring_difficulty": 4,
+        "qa_openings": [],
+        "people": [
+          {
+            "name": "Victor",
+            "title": "Product Manager",
+            "source_url": "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/"
+          },
+          {
+            "name": "Bill Staples",
+            "title": "CEO",
+            "source_url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+          }
+        ],
+        "approach_role": "Director of Quality Engineering",
+        "outreach_angle": "Your 15 years in test automation and C#/.NET align perfectly with GitLab's DevSecOps platform; your tooling expertise matches their quality-engineering needs.",
+        "red_flags": "14% workforce reduction (June 2026); no QA openings currently listed.",
+        "confidence": "high",
+        "sources": [
+          "https://about.gitlab.com/jobs/",
+          "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/",
+          "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        ],
+        "notes": "100% remote, Maine-eligible. $1B+ ARR, 23% YoY growth. But 350-employee reduction (June 2026) and no QA openings suggest current hiring freeze. Monitor for opportunities in 6–9 months."
+      }
+    },
+    {
+      "id": "C207",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 8,
+        "kept": 7,
+        "fail_rate": 0.125,
+        "dropped": [
+          "remote_policy: quote not found in S2"
+        ],
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 9,
+            "completion_tokens": 11964
+          },
+          "latency_s": 108.5,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 2362,
+            "completion_tokens": 9686
+          },
+          "latency_s": 83.6,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        }
+      ],
+      "new_ats": {
+        "type": "ashby",
+        "token": "kontakt",
+        "board_url": "https://jobs.ashbyhq.com/kontakt",
+        "detected_by": "agent",
+        "checked_at": "2026-10-05",
+        "confirmed": true,
+        "source": null,
+        "note": "",
+        "job_count": 15
+      },
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://kontakt.io/why-kontakt-io/careers/",
+            455
+          ],
+          [
+            "S2",
+            "https://www.builtinnyc.com/company/kontaktio",
+            897
+          ],
+          [
+            "S3",
+            "https://kontakt.io/",
+            1857
+          ],
+          [
+            "S4",
+            "https://getlatka.com/companies/kontaktio",
+            2703
+          ],
+          [
+            "S5",
+            "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+            6000
+          ],
+          [
+            "S6",
+            "https://kontakt.io/success-stories/veterans-health-administration/",
+            5053
+          ],
+          [
+            "S7",
+            "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/",
+            2580
+          ],
+          [
+            "S8",
+            "https://www.pingojo.com/company/kontaktio/",
+            4569
+          ]
+        ],
+        "searches": 4,
+        "fetches": 9,
+        "failures": [
+          "fetch https://pitchbook.com/profiles/company/58990-24: HTTP 403"
+        ]
+      },
+      "notes": [],
+      "duration_s": 192.2,
+      "research": {
+        "company_id": "C207",
+        "career_url": "https://kontakt.io/why-kontakt-io/careers/",
+        "ats": {
+          "type": "ashby",
+          "token": "kontakt",
+          "board_url": "https://jobs.ashbyhq.com/kontakt"
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 4,
+          "signals": [
+            {
+              "kind": "funding",
+              "summary": "Series C funding of $47.5M from Goldman Sachs for AI development and US expansion",
+              "date": "2024-04",
+              "url": "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/"
+            },
+            {
+              "kind": "public-sector",
+              "summary": "Major public sector customers: U.S. Department of Veterans Affairs and UK NHS Health Service",
+              "date": "2024-04",
+              "url": "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/"
+            },
+            {
+              "kind": "growth",
+              "summary": "Workforce nearly doubled: grew from 73 employees in 2022 to 136 by end 2024",
+              "date": "2024-12",
+              "url": "https://getlatka.com/companies/kontaktio"
+            },
+            {
+              "kind": "revenue",
+              "summary": "More than doubled annual revenue; on track to exceed $70M in annual recurring revenue",
+              "date": null,
+              "url": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266"
+            }
+          ]
+        },
+        "size_estimate": "50-500",
+        "fit": {
+          "score": 3,
+          "rationale": "Kontakt.io builds BLE indoor positioning for hospitals—exactly matching candidate's stated interests. Strong domain fit (IoT, regulated, hardware). Well-funded, growing. Remote policy unknown; critical gap for Maine-based candidate.",
+          "role_families": [
+            "SDET",
+            "QA Leadership",
+            "Quality Engineering"
+          ]
+        },
+        "hiring_difficulty": 3,
+        "qa_openings": [],
+        "people": [
+          {
+            "name": "Philipp von Gilsa",
+            "title": "CEO",
+            "source_url": "https://kontakt.io/"
+          }
+        ],
+        "approach_role": "VP Engineering",
+        "outreach_angle": "BLE indoor positioning for hospitals is exactly my domain—fifteen years in regulated IoT test automation, and your VA/NHS customer base signals stability.",
+        "red_flags": "Geographic accessibility to Maine/Downeast unconfirmed; must verify remote policy before outreach.",
+        "confidence": "medium",
+        "sources": [
+          "https://kontakt.io/why-kontakt-io/careers/",
+          "https://kontakt.io/press-releases/kontakt-io-raises-47-5-million-series-c-funding-from-goldman-sachs-to-fuel-ai-development-and-expansion-into-us-hospitals/",
+          "https://getlatka.com/companies/kontaktio",
+          "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+          "https://kontakt.io/"
+        ],
+        "notes": "Strong stability: $47.5M Series C (April 2024), 73→136 staff growth (2022-2024), doubled revenue, VA/NHS customers. Domain match exceptional (BLE, IoT, healthcare, regulated). Remote policy and current QA openings unconfirmed; verify before outreach."
+      }
+    },
+    {
+      "id": "C694",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 5,
+        "kept": 4,
+        "fail_rate": 0.2,
+        "dropped": [
+          "people[1]: person's name is not in their quote"
+        ],
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 19,
+            "completion_tokens": 5615
+          },
+          "latency_s": 47.5,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 2238,
+            "completion_tokens": 3686
+          },
+          "latency_s": 35.3,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://www.fantasygrounds.com/home/JobOpportunities.php",
+            620
+          ],
+          [
+            "S2",
+            "https://www.fantasygroundsacademy.com/",
+            1366
+          ],
+          [
+            "S3",
+            "https://en.wikipedia.org/wiki/Fantasy_Grounds",
+            6000
+          ],
+          [
+            "S4",
+            "https://forge.fantasygrounds.com/login",
+            320
+          ],
+          [
+            "S5",
+            "https://mgpotter.com/in-person-5e-dd-using-fantasy-grounds/",
+            6000
+          ],
+          [
+            "S6",
+            "https://www.rollquest.io/about",
+            2498
+          ],
+          [
+            "S7",
+            "https://www.fantasygrounds.com/featurerequests/featurerequests.php",
+            1146
+          ],
+          [
+            "S8",
+            "https://discord.com/servers/fantasy-grounds-274582899045695488",
+            2591
+          ]
+        ],
+        "searches": 4,
+        "fetches": 14,
+        "failures": [
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?70700-FGU-from-multiple-computers: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?67183-Persistent-Dedicated-Hosting: HTTP 403",
+          "fetch https://forum.mongoosepublishing.com/threads/state-of-the-mongoose-2025.126159/: too little text (89 chars)",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?73033-Web-browser-support: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/forumdisplay.php?37-City-Hall: HTTP 403",
+          "fetch https://www.fantasygrounds.com/forums/showthread.php?87527-Paizo-abandoned-vtt-support: HTTP 403"
+        ]
+      },
+      "notes": [],
+      "duration_s": 82.8,
+      "research": {
+        "company_id": "C694",
+        "career_url": "https://www.fantasygrounds.com/home/JobOpportunities.php",
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 4,
+          "signals": [
+            {
+              "kind": "growth",
+              "summary": "Adam Bradford, D&D Beyond founder, joined as Chief Development Officer from Demiplane.",
+              "date": "2024-06",
+              "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+            },
+            {
+              "kind": "growth",
+              "summary": "Made Fantasy Grounds software free for all users, removing license requirement to expand accessibility.",
+              "date": "2025-11",
+              "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+            }
+          ]
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 3,
+          "rationale": "Fantasy Grounds is a thriving virtual tabletop platform for TTRPG/D&D—strong match for candidate's gaming/fantasy interest and C#/.NET skills. Recent CDO hire and freemium launch signal growth, but no QA openings listed and remote policy unknown.",
+          "role_families": [
+            "SDET",
+            "QA/Test Engineer",
+            "Quality Engineering"
+          ]
+        },
+        "hiring_difficulty": 3,
+        "qa_openings": [],
+        "people": [
+          {
+            "name": "Doug Davison",
+            "title": "President",
+            "source_url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+          }
+        ],
+        "approach_role": "President (Doug Davison)",
+        "outreach_angle": "Your 15 years in C#/.NET test automation and passion for TTRPG align perfectly with Fantasy Grounds' mission to scale virtual tabletop gaming for millions.",
+        "red_flags": "No QA openings posted; remote policy unknown; team structure unclear.",
+        "confidence": "medium",
+        "sources": [
+          "https://www.fantasygrounds.com/home/JobOpportunities.php",
+          "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+        ],
+        "notes": "Strong sector fit for candidate's TTRPG interests. C#/.NET technical match. Recently hired CDO (Adam Bradford) and launched freemium model (Nov 2025) signal growth. No QA openings posted; remote policy unknown—key research gaps for Maine candidate."
+      }
+    },
+    {
+      "id": "C1079",
+      "status": "verified",
+      "detail": "",
+      "grounding": {
+        "total": 5,
+        "kept": 4,
+        "fail_rate": 0.2,
+        "dropped": [
+          "career_url: quote not found in S3"
+        ],
+        "model": "claude-cli/claude-haiku-4-5-20251001"
+      },
+      "steps": [
+        {
+          "step": "extract",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 9,
+            "completion_tokens": 13149
+          },
+          "latency_s": 131.4,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        },
+        {
+          "step": "judge",
+          "tier": "subscription",
+          "model": "claude-cli/claude-haiku-4-5-20251001",
+          "cached": false,
+          "tokens": {
+            "prompt_tokens": 2266,
+            "completion_tokens": 2804
+          },
+          "latency_s": 25.7,
+          "escalations": 0,
+          "attempts": [
+            "subscription/claude-cli/claude-haiku-4-5-20251001 ok"
+          ]
+        }
+      ],
+      "new_ats": null,
+      "pack": {
+        "sources": [
+          [
+            "S1",
+            "https://unlockedlabs.org/work/people",
+            626
+          ],
+          [
+            "S2",
+            "https://www.maine.gov/corrections/node/323",
+            2196
+          ],
+          [
+            "S3",
+            "https://unlockedlabs.org/careers",
+            626
+          ],
+          [
+            "S4",
+            "https://unlockedlabs.org/work/technology",
+            626
+          ],
+          [
+            "S5",
+            "https://unlockedlabs.org/careers/c64b36aa-eb98-4b61-a55f-c4583523f20a",
+            626
+          ],
+          [
+            "S6",
+            "https://unlockedlabs.org/",
+            626
+          ],
+          [
+            "S7",
+            "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer",
+            6000
+          ],
+          [
+            "S8",
+            "https://www.simplyhired.com/job/gGd18Lxm0I3hAcdg3FXMGf5TvW0dsTZTf_I_V2_pN3P68P7VJcaIOw",
+            205
+          ]
+        ],
+        "searches": 4,
+        "fetches": 8,
+        "failures": []
+      },
+      "notes": [],
+      "duration_s": 157.1,
+      "research": {
+        "company_id": "C1079",
+        "career_url": null,
+        "ats": {
+          "type": "unknown",
+          "token": null,
+          "board_url": null
+        },
+        "remote_policy": {
+          "summary": "No remote policy found in public sources.",
+          "maine_eligible": "unknown",
+          "evidence_url": null
+        },
+        "stability": {
+          "score": 4,
+          "signals": [
+            {
+              "kind": "growth",
+              "summary": "Received 125+ applications from experienced tech professionals in 3 weeks",
+              "date": "2024-05",
+              "url": "https://www.maine.gov/corrections/node/323"
+            },
+            {
+              "kind": "growth",
+              "summary": "Managing existing multi-state, multi-year contracts with state departments",
+              "date": null,
+              "url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+            },
+            {
+              "kind": "growth",
+              "summary": "Planning national expansion informed by multi-state partnership experience",
+              "date": null,
+              "url": "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+            }
+          ]
+        },
+        "size_estimate": "Unknown",
+        "fit": {
+          "score": 3,
+          "rationale": "Criminal justice reform education tech with strong growth signals. Mission alignment excellent. However, no QA openings listed and remote/location policies unknown.",
+          "role_families": [
+            "QA Engineering",
+            "Test Automation / SDET",
+            "Engineering Operations"
+          ]
+        },
+        "hiring_difficulty": 3,
+        "qa_openings": [],
+        "people": [
+          {
+            "name": "Preston Thorpe",
+            "title": "Technical Lead",
+            "source_url": "https://www.maine.gov/corrections/node/323"
+          }
+        ],
+        "approach_role": "Technical Lead",
+        "outreach_angle": "Your 15 years building reliable systems for regulated domains positions you to strengthen Unlocked Labs' multi-state education platform during national expansion.",
+        "red_flags": "No QA openings listed. Remote policy, location suitability, and company structure unknown.",
+        "confidence": "medium",
+        "sources": [
+          "https://www.maine.gov/corrections/node/323",
+          "https://www.higheredinprison.org/jobs-board/unlocked-labs-chief-program-officer"
+        ],
+        "notes": "Criminal justice reform edtech with strong growth: 125+ applications from experienced tech professionals, multi-state state contracts, 2026 national expansion planned. Location/remote policies not confirmed. No current QA openings visible. Key contact: Preston Thorpe (Technical Lead)."
+      }
+    }
+  ]
+}

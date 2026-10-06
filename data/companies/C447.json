@@ -1,0 +1,187 @@
+{
+  "company_id": "C447",
+  "tracker": {
+    "company_id": "C447",
+    "company": "18F / TTS (GSA)",
+    "sector": "Enterprise & govtech",
+    "interests": "Federal digital service (hiring varies)",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Test Engineer",
+      "QA Engineer",
+      "Engineering Lead"
+    ],
+    "approach": "Director of Engineering (TTS)",
+    "why": "Federal government digital service; test and engineering roles exist, hiring is slow and remote policy shifting.",
+    "flags": "Slow federal hiring; remote policy in flux.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C447",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Fully distributed team; many positions are remote-eligible, with fully remote roles that can be done from anywhere in the US.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://betterusajobs.com/blog/federal-telework-eligibility-2026"
+    },
+    "stability": {
+      "score": 1,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "18F was eliminated on March 1, 2025 by the newly formed Department of Government Efficiency (DOGE).",
+          "date": "2025-03",
+          "url": "https://18f.org/about/"
+        },
+        {
+          "kind": "other",
+          "summary": "18F filed an appeal with the U.S. Merit Systems Protection Board challenging its elimination.",
+          "date": "2025-05",
+          "url": "https://18f.org/about/"
+        },
+        {
+          "kind": "funding",
+          "summary": "Funded by cost recovery through interagency agreements, not congressional appropriations.",
+          "date": null,
+          "url": "https://18f.org/about/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "18F operated as part of the U.S. General Services Administration (GSA).",
+          "date": null,
+          "url": "https://18f.org/about/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Over 11 years, 18F completed more than 450 projects for dozens of federal, state and local agencies.",
+          "date": null,
+          "url": "https://18f.org/about/"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 1,
+      "rationale": "18F was a federal civic-tech consultancy doing digital services for government agencies, remote-friendly and Maine-eligible. It was eliminated in March 2025, so there is no employer to join now; fit and stability are effectively nil despite a plausible QA/public-sector match.",
+      "role_families": [
+        "QA engineering",
+        "test automation",
+        "accessibility/compliance testing"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering, GSA Technology Transformation Services (no named leaders in verified",
+    "outreach_angle": "Your FDA-regulated V&V and automation background suits civic-tech quality work, but 18F is defunct; watch GSA/TTS successor teams and federal digital-service re-formation.",
+    "red_flags": "18F eliminated March 2025 by DOGE; appeal pending at MSPB; no QA openings listed.",
+    "confidence": "high",
+    "sources": [
+      "https://betterusajobs.com/blog/federal-telework-eligibility-2026",
+      "https://18f.org/about/"
+    ],
+    "notes": "Fully distributed, remote-eligible including Maine, funded via interagency cost recovery rather than appropriations. Verified facts show zero QA openings and no named people. Organization was eliminated on 1 March 2025 with an MSPB appeal filed in May 2025, so treat as inactive; monitor GSA/TTS for reconstituted teams.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://guides.18f.org/eng-hiring/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

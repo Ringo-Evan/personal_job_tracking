@@ -1,0 +1,154 @@
+{
+  "company_id": "C383",
+  "tracker": {
+    "company_id": "C383",
+    "company": "Anthem Maine",
+    "sector": "Maine & New England",
+    "interests": "Insurance",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Large health insurer; regulated domain fits, remote QA/SDET roles likely open to Maine.",
+    "flags": "Large insurer; remote roles",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C383",
+    "career_url": "https://careers.elevancehealth.com/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Anthem (Elevance) is a large Maine/New England health insurer — a regulated, essential payer. Plausible QA/SDET work exists, but the facts list no remote policy, openings or leaders, so fit rests on general knowledge of a big insurer plus the",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "Test data / ETL quality"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director, Quality Engineering",
+    "outreach_angle": "15 years of regulated V&V and test automation in FDA-audited environments maps directly to payer compliance, claims and member-data testing where audit evidence and traceability matter.",
+    "red_flags": "No verified remote policy or QA openings; insurance isn't among the candidate's stated interest sectors; senior QA at insurers is often outsourced.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.elevancehealth.com/"
+    ],
+    "notes": "Verified facts are essentially empty: sector listed only as Maine & New England, no job board, ATS, size, remote policy, stability signals, QA openings or people. Treat everything beyond that as general knowledge of Anthem/Elevance, a large health insurer. Confirm remote-from-Maine eligibility and senior QA headcount before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

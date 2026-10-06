@@ -1,0 +1,166 @@
+{
+  "company_id": "C327",
+  "tracker": {
+    "company_id": "C327",
+    "company": "Dotmatics",
+    "sector": "Regulated healthtech",
+    "interests": "Science software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "dotmatics",
+    "board_url": "https://job-boards.greenhouse.io/dotmatics",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name Dotmatics",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "QA Engineer",
+      "SDET"
+    ],
+    "approach": "QA Manager",
+    "why": "Science software for research; regulated healthtech with likely remote roles and stable company.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C327",
+    "career_url": "https://www.dotmatics.com/jobs",
+    "ats": {
+      "type": "greenhouse",
+      "token": "dotmatics",
+      "board_url": "https://job-boards.greenhouse.io/dotmatics"
+    },
+    "remote_policy": {
+      "summary": "Remote-friendly global employer with hubs in Ireland, Korea, New Zealand, the US, the UK and Japan; some roles list remote locations such as USA, UK, Canada and Ireland.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.dotmatics.com/about-careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Dotmatics builds scientific data and lab informatics software for regulated life-sciences R&D, adjacent to the candidate's FDA-regulated V&V work; remote-friendly and Maine-eligible, but no QA openings are verified.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "quality and release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "15 years of C#/.NET test automation plus FDA-regulated V&V and design controls maps directly onto Dotmatics' regulated life-sciences platforms; I can own quality for validated, audit-ready releases.",
+    "red_flags": "No verified QA openings or stability signals; private-equity ownership benefit is unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.dotmatics.com/jobs",
+      "https://www.dotmatics.com/about-careers"
+    ],
+    "notes": "Verified: remote-friendly, USA remote listings, Maine-eligible; hubs in Ireland, UK, US, Korea, NZ, Japan; 500-5k staff; Greenhouse ATS (token: dotmatics). No QA openings or stability signals captured, so seniority of QA hiring and durability are unconfirmed; check the Greenhouse board directly.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.dotmatics.com/jobs",
+    "found": "greenhouse:dotmatics (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

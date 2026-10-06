@@ -1,0 +1,194 @@
+{
+  "company_id": "C256",
+  "tracker": {
+    "company_id": "C256",
+    "company": "Dexcom",
+    "sector": "Regulated healthtech",
+    "interests": "CGM devices + apps",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "dexcom|1|Dexcom",
+    "board_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 273
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Engineering Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "CGM devices and apps; regulated medical device domain; strong match; some onsite roles.",
+    "flags": "Some roles onsite; Maine-remote uncertain",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C256",
+    "career_url": "https://careers.dexcom.com/careers",
+    "ats": {
+      "type": "workday",
+      "token": "dexcom|1|Dexcom",
+      "board_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom"
+    },
+    "remote_policy": {
+      "summary": "Work is done at Dexcom facilities, home offices, or a mix of both, depending on the role; described as flexible and globally collaborative.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.dexcom.com/careers/north-america"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Cuts about 350 jobs globally, about 3% of workforce; roughly 196 affected in San Diego.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "More than 500 jobs cut when manufacturing moved from San Diego to Mesa, Arizona.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Quarterly revenue of $1.16 billion, up 15% year over year; net income $179.8 million, up 25%.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+        },
+        {
+          "kind": "other",
+          "summary": "Leadership transition: CEO Kevin Sayer steps down in January; COO Jake Leach becomes CEO.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 4,
+      "rationale": "Dexcom makes continuous glucose monitors and companion apps — medical devices, a candidate interest. Regulated, hardware-adjacent software fits C#/.NET test automation experience. Gap: Maine remote eligibility is unverified and only one QA opening is listed.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering (medical device software)",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Quality Assurance Analyst 2",
+        "location": "Unknown",
+        "work_mode": "Unknown",
+        "url": "https://careers.dexcom.com/careers/job/44710698"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Software Quality Engineering",
+    "outreach_angle": "Fifteen years automating tests in regulated, hardware-adjacent systems (C#/.NET) maps directly onto CGM firmware, mobile app and data-platform quality work at Dexcom.",
+    "red_flags": "Recent layoffs (~350 globally, 500+ via San Diego-to-Mesa manufacturing move); Maine remote eligibility unknown.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.dexcom.com/careers",
+      "https://careers.dexcom.com/careers/north-america",
+      "https://www.medtechdive.com/news/dexcom-layoffs-350-people/759307/",
+      "https://careers.dexcom.com/careers/job/44710698"
+    ],
+    "notes": "Dexcom: 5k+ employees, regulated CGM maker, Workday ATS. Flexible facility/home-office policy per role, but Maine eligibility unverified. Revenue $1.16B, up 15% YoY, net income up 25%, yet recent layoffs and an incoming CEO (Jake Leach). Only one QA Analyst 2 posting found; no QA contacts listed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 10,
+      "kept": 9,
+      "fail_rate": 0.1,
+      "dropped": [
+        "qa_openings[0]: quote not found in S2"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:25:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

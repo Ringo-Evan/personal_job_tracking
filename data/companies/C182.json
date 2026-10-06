@@ -1,0 +1,175 @@
+{
+  "company_id": "C182",
+  "tracker": {
+    "company_id": "C182",
+    "company": "HashiCorp (IBM)",
+    "sector": "Test tooling",
+    "interests": "Terraform maker",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "Quality Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "VP Engineering",
+    "why": "Terraform expertise direct match; infrastructure testing; very stable",
+    "flags": "IBM acquisition changes culture; verify HashiCorp remote",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C182",
+    "career_url": "https://www.ibm.com/careers/search?q=hashicorp",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote-first: employees work remotely by default rather than coming into an office full-time, with staff distributed across the United States, Canada, Australia, India and Europe.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://en.wikipedia.org/wiki/HashiCorp"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "IBM completed its $6.4 billion acquisition of HashiCorp, making the company a subsidiary of IBM.",
+          "date": "2025-02",
+          "url": "https://en.wikipedia.org/wiki/HashiCorp"
+        },
+        {
+          "kind": "revenue",
+          "summary": "HashiCorp reported revenue of US$583 million for its 2024 fiscal year.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/HashiCorp"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "HashiCorp cut 8 percent of its workforce as part of cost-cutting measures in response to a difficult macroeconomic environment.",
+          "date": null,
+          "url": "https://www.crn.com/news/cloud/hashicorp-lays-off-8-percent-in-response-to-current-customer-and-economic-environment"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "HashiCorp (IBM) is a remote-first infrastructure software firm (Terraform) with Maine-eligible roles. Fit is moderate: test tooling matches, but no QA openings listed and its Go/cloud focus diverges from candidate's C#/.NET and regulated-device background.",
+      "role_families": [
+        "SDET",
+        "QA Engineering",
+        "Release Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Your remote-first test-tooling work aligns with my 15 years in test automation and FDA-regulated V&V; I can bring rigorous quality practices to HashiCorp's infrastructure products.",
+    "red_flags": "Recent 8% layoffs, no QA openings listed, IBM acquisition may shift culture/hiring.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.ibm.com/careers/search?q=hashicorp",
+      "https://en.wikipedia.org/wiki/HashiCorp",
+      "https://www.crn.com/news/cloud/hashicorp-lays-off-8-percent-in-response-to-current-customer-and-economic-environment"
+    ],
+    "notes": "Remote-first, Maine-eligible. Acquired by IBM (Feb 2025), $583M FY2024 revenue, but 8% layoffs. No QA openings or contacts listed. Stability from IBM parent, but hiring likely competitive.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.hashicorp.com/en/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

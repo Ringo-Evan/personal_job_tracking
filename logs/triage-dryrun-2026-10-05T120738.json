@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "id": "C1000",
+      "company": "Consolidated Communications",
+      "new": {
+        "fit": 4,
+        "stability": 4,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET"
+        ],
+        "approach": "Director of Engineering",
+        "why": "Broadband provider. Good regional fit for Maine resident, but tech stack/scale might be standard infrastructure-focused.",
+        "flags": "",
+        "model": "ollama_chat/gemma4:12b"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "Systems Test Engineer",
+          "Network Test Engineer"
+        ],
+        "approach": "VP Engineering",
+        "why": "Regional telecom; QA role possible; Maine-based; limited interest alignment",
+        "flags": "Not tech-focused; telecom infrastructure; financial challenges",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1001",
+      "company": "Maine Connectivity Authority",
+      "new": {
+        "fit": 3,
+        "stability": 5,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Test Analyst"
+        ],
+        "approach": "IT Director",
+        "why": "Public agency for broadband. High stability. Relevant for Maine location but may have limited high-level SDET roles.",
+        "flags": "Public sector scale may be smaller.",
+        "model": "ollama_chat/gemma4:12b"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 4,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Systems Test Engineer",
+          "IT Manager"
+        ],
+        "approach": "Director",
+        "why": "Government broadband agency; stable; Maine-based; QA roles unclear",
+        "flags": "Government bureaucracy; infrastructure-focused; not software company",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1002",
+      "company": "Mobilize (Bonterra)",
+      "new": {
+        "fit": 4,
+        "stability": 3,
+        "remote": "High",
+        "size": "500-5k",
+        "roles": [
+          "Senior SDET",
+          "Quality Engineering Lead"
+        ],
+        "approach": "VP of Engineering",
+        "why": "Fits labor/organizing interest. Mobile/web tech focus matches candidate's automation and UI skills.",
+        "flags": "",
+        "model": "ollama_chat/gemma4:12b"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Test Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Organizing software platform; QA/test roles exist; mission aligns",
+        "flags": "Part of larger Bonterra; startup dynamics; organizing tech sector",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1003",
+      "company": "Hustle",
+      "new": {
+        "fit": 4,
+        "stability": 3,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "SDET",
+          "QA Manager"
+        ],
+        "approach": "Head of Engineering",
+        "why": "Campaign texting tech. Strong alignment with labor interests and high-scale messaging backend experience.",
+        "flags": "",
+        "model": "ollama_chat/gemma4:12b"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Mobile Test Engineer",
+          "Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Mobile messaging platform; mobile/API expertise fits; organizing mission aligns",
+        "flags": "Early-stage startup; significant stability concerns in downturn",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1004",
+      "company": "ThruText (GetThru)",
+      "new": {
+        "fit": 4,
+        "stability": 3,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "Senior QA Engineer",
+          "SDET"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Campaign texting tech. High alignment with labor interests and mobile/web automation expertise.",
+        "flags": "",
+        "model": "ollama_chat/gemma4:12b"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Mobile Test Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Campaign texting platform; mobile/API expertise fits; mission aligns",
+        "flags": "Campaign tech; cyclical political funding; high recession risk",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+  batch C1000..C1019: 20/20 ok via gemini/gemini-3.5-flash-lite
+  batch C1020..C1039: 20/20 ok via gemini/gemini-3.5-flash-lite
+
+triaged=40 failed=0 calls=2 rejects=0 escalations=0 cached=0 models={'gemini/gemini-3.5-flash-lite': 40} tokens={'prompt_tokens': 1893, 'completion_tokens': 4003}
+  note: C1018 why truncated from 26 to 25 words
+{
+  "count": 40,
+  "distribution": {
+    "fit": {
+      "1": 22,
+      "2": 9,
+      "3": 9
+    },
+    "stability": {
+      "2": 13,
+      "3": 17,
+      "4": 10
+    },
+    "remote": {
+      "High": 2,
+      "Low": 9,
+      "Medium": 4,
+      "Unknown": 25
+    },
+    "size": {
+      "50-500": 15,
+      "500-5k": 8,
+      "5k+": 3,
+      "<50": 14
+    }
+  },
+  "models": {
+    "gemini/gemini-3.5-flash-lite": 40
+  },
+  "sample": []
+}
+
+# new vs stored triage (claude-haiku-4-5-20251001), 40 companies
+id     company                      fit  stab remote
+C1000  Consolidated Communications  2->3 3->3 Medium->Medium
+C1001  Maine Connectivity Authority 2->2 4->4 High->Low
+C1002  Mobilize (Bonterra)          3->3 3->3 Medium->Unknown
+C1003  Hustle                       3->3 2->3 Medium->Unknown
+C1004  ThruText (GetThru)           3->3 2->3 Medium->Unknown
+C1005  Spoke (MoveOn open source)   3->3 4->2 High->Unknown
+C1006  Movement Cooperative         4->3 3->3 High->Unknown
+C1007  Tech for Campaigns           2->2 3->2 High->Medium
+C1008  Catalist                     3->3 4->3 Medium->Unknown
+C1009  TargetSmart                  3->3 4->3 Medium->Unknown
+C1010  NGP VAN (Bonterra)           4->3 4->3 Medium->Unknown
+C1011  Swing Left                   1->1 3->2 Medium->Unknown
+C1012  Indivisible                  1->1 3->2 Medium->Unknown
+C1013  Working Families Party       1->1 3->2 Medium->Unknown
+C1014  Democratic Socialists of Ame 1->1 3->2 Medium->Unknown
+C1015  Jobs With Justice            1->1 3->3 Medium->Unknown
+C1016  United Steelworkers (tech)   1->2 4->4 Low->Unknown
+C1017  CWA (Communications Workers) 1->2 4->4 Low->Unknown
+C1018  CODE-CWA                     2->2 3->3 High->Unknown
+C1019  NewsGuild-CWA                1->1 4->4 Low->Unknown
+C1020  Teamsters                    1->1 2->4 Unknown->Low
+C1021  UAW                          1->1 2->4 Unknown->Low
+C1022  IBEW                         1->1 2->4 Unknown->Low
+C1023  AFSCME                       1->1 2->4 Unknown->Low
+C1024  AFT                          1->1 2->4 Unknown->Low
+C1025  NEA                          1->1 2->4 Unknown->Low
+C1026  Starbucks Workers United     1->1 1->2 Unknown->Unknown
+C1027  Amazon Labor Union           1->1 1->2 Unknown->Unknown
+C1028  Labor Notes                  1->1 2->2 Medium->Unknown
+C1029  EWOC (Emergency Workplace Or 1->1 1->2 Unknown->Unknown
+C1030  Economic Policy Institute    1->1 2->3 Medium->Low
+C1031  National Employment Law Proj 1->1 2->3 Medium->Low
+C1032  The Leap / Jacobin Foundatio 1->1 2->2 Medium->Unknown
+C1033  Jacobin                      1->1 2->2 Medium->Unknown
+C1034  The Nation                   1->1 2->3 Low->Unknown
+C1035  In These Times               1->1 2->2 Medium->Unknown
+C1036  ProPublica                   1->2 2->3 High->Medium
+C1037  The Marshall Project         1->2 2->3 Medium->Medium
+C1038  Democracy Works (TurboVote)  3->2 2->3 High->High
+C1039  Vote.org                     3->2 2->3 High->High
+fit within 1 point of stored: 40/40
+
+full results: C:\Users\adict\Documents\dev\jobs\logs\triage-dryrun-2026-10-05T141608.json

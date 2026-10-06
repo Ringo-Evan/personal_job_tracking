@@ -1,0 +1,92 @@
+{
+  "company_id": "C020",
+  "tracker": {
+    "company_id": "C020",
+    "company": "Axon",
+    "sector": "Firearms",
+    "interests": "Training simulation, public-safety technology",
+    "career_url": "https://www.axon.com/careers",
+    "role_families": "Test automation; VR QA; technical programs",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Direct QA lead found; Unity/VR experience and competitive hiring may be gaps.",
+    "research_notes": "Q2 2026 revenue growth was 35%; growth is not a guaranteed hiring quota.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million%2C-up-35-year-over-year",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "axon",
+    "board_url": "https://job-boards.greenhouse.io/axon",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.axon.com/careers",
+    "note": "token guessed from name; page mentions greenhouse; board name Axon",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:33:35-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:39:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

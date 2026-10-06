@@ -1,0 +1,191 @@
+{
+  "company_id": "C469",
+  "tracker": {
+    "company_id": "C469",
+    "company": "Duck Creek",
+    "sector": "Enterprise & govtech",
+    "interests": "Insurance SaaS; Boston; .NET",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "duckcreek|1|duckcreekcareers",
+    "board_url": "https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 35
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Insurance SaaS on .NET for property and casualty carriers; regulated domain plus .NET testing skills make a strong senior fit.",
+    "flags": "PE-owned; Boston HQ, remote roles common",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C469",
+    "career_url": "https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers",
+    "ats": {
+      "type": "workday",
+      "token": "duckcreek|1|duckcreekcareers",
+      "board_url": "https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers"
+    },
+    "remote_policy": {
+      "summary": "Flexible-first employer with remote/hybrid arrangements emphasized; expectations are team- and region-dependent.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "A post-acquisition headcount reduction is noted as part of Duck Creek's recent operating context, raising restructuring concerns.",
+          "date": null,
+          "url": "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+        },
+        {
+          "kind": "other",
+          "summary": "A CEO transition and an 'AI-first' push signal an active transformation period that may feel unsettled for some teams.",
+          "date": null,
+          "url": "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+        },
+        {
+          "kind": "other",
+          "summary": "Private-equity ownership brings sharper performance management, disciplined budgeting and periodic reorganizations.",
+          "date": null,
+          "url": "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Vista Equity Partners took Duck Creek private in March 2023, alongside a roughly 9% reduction in 2023.",
+          "date": "2023-03",
+          "url": "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Duck Creek sells .NET-based P&C insurance core systems to insurers, matching the candidate's C#/.NET automation stack and regulated-domain V&V experience. But no QA openings are posted, PE-driven restructuring is ongoing, and Maine remote eligibility is unverified.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "QA leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V maps directly to validating compliance-heavy insurance core systems, where audit-ready quality engineering and release confidence are business-critical.",
+    "red_flags": "No QA openings posted; Vista Equity layoffs (~9%), CEO transition and 'AI-first' restructuring; Maine remote eligibility unknown.",
+    "confidence": "medium",
+    "sources": [
+      "https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers",
+      "https://builtin.com/company/duck-creek-technologies/faq/workplace-perception"
+    ],
+    "notes": "Insurance SaaS (.NET), Boston, Vista Equity-owned since March 2023, flexible-first remote policy but Maine eligibility unverified. Recent ~9% reduction, CEO change, 'AI-first' push, PE performance discipline. Zero QA/SDET roles on the Workday board; no named quality leaders found. Verify remote-from-Maine and current headcount before investing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:duckcreek|1|duckcreekcareers (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

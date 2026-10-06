@@ -1,0 +1,173 @@
+{
+  "company_id": "C507",
+  "tracker": {
+    "company_id": "C507",
+    "company": "Sage",
+    "sector": "Enterprise & govtech",
+    "interests": "Accounting software; .NET",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Quality Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Accounting software with .NET; QA/SDET roles plausible, remote medium, domain distant.",
+    "flags": ".NET match; accounting domain not interest.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C507",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 1,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Sage let go of its entire remaining workforce of 338 employees, effective Aug. 22, after the Supernus acquisition.",
+          "date": null,
+          "url": "https://www.biospace.com/business/sage-sacks-entire-staff-after-supernus-buyout"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Supernus Pharmaceuticals acquired Sage in a deal worth $591 million, potentially up to $795 million with milestones.",
+          "date": null,
+          "url": "https://www.biospace.com/business/sage-sacks-entire-staff-after-supernus-buyout"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Biogen proposed buying Sage for $469 million in January; Sage rejected the offer as undervaluing the company.",
+          "date": null,
+          "url": "https://www.biospace.com/business/sage-sacks-entire-staff-after-supernus-buyout"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 1,
+      "rationale": "Facts are conflated: the accounting-software Sage of the interest note versus Sage Therapeutics, whose entire 338-person workforce was laid off after Supernus acquired it. No QA openings and no remote policy found, so no realistic senior QA role today.",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Quality Engineering or VP Engineering (no named leader in the",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls background would suit a regulated biotech or .NET product shop, but this Sage shows a dissolved workforce with no live QA reqs to target.",
+    "red_flags": "Facts conflate two different Sages; entire workforce terminated, so the pipeline is empty and no contacts exist to approach.",
+    "confidence": "low",
+    "sources": [
+      "https://www.biospace.com/business/sage-sacks-entire-staff-after-supernus-buyout"
+    ],
+    "notes": "Verified: Sage's remaining 338 employees were let go effective Aug. 22 after Supernus's $591M-$795M acquisition; earlier Biogen bid rejected. Sector listed as enterprise/govtech/accounting software but layoff details match Sage Therapeutics. No remote policy, no job board, no ATS, no QA openings and no people could be verified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.sage.com/en-us/company/careers/",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

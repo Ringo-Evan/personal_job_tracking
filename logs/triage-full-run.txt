@@ -1,0 +1,3 @@
+  batch C210..C229: 20/20 ok via deepseek/deepseek-flash
+  batch C230..C249: 20/20 ok via deepseek/deepseek-flash
+  batch C250..C269: 20/20 ok via deepseek/deepseek-flash

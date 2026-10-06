@@ -1,0 +1,182 @@
+{
+  "company_id": "C252",
+  "tracker": {
+    "company_id": "C252",
+    "company": "Collins Aerospace (ARINC)",
+    "sector": "IoT / location tech",
+    "interests": "Airport/bag systems",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Low",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "Systems Test Lead",
+      "Test Automation Engineer"
+    ],
+    "approach": "Quality Engineering Manager",
+    "why": "Aerospace/defense airport systems; hardware-adjacent and regulated; strong domain but likely onsite.",
+    "flags": "Defense/aerospace may require onsite/clearance",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C252",
+    "career_url": "https://www.rtx.com/collinsaerospace/careers/engineering",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Three Iowa WARN layoff filings affecting 291 workers, mostly in Cedar Rapids, recorded March-June 2025.",
+          "date": null,
+          "url": "https://warnact.io/company-collins-aerospace"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Company confirmed restructuring layoffs in Cedar Rapids; small reduction of positions tied to cost cutting.",
+          "date": null,
+          "url": "https://www.kcrg.com/2025/11/06/new-details-emerge-collins-aerospace-layoff/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs across North Carolina, South Carolina and Alabama facilities as part of a larger restructuring effort.",
+          "date": null,
+          "url": "https://www.cgaa.org/article/collins-aerospace-layoffs"
+        },
+        {
+          "kind": "other",
+          "summary": "Restructuring aims at roughly $9 billion in annual savings and a 3% to 4% workforce reduction.",
+          "date": null,
+          "url": "https://www.cgaa.org/article/collins-aerospace-layoffs"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Collins Aerospace (ARINC) builds airport systems and avionics, aligning with the candidate's airport/bag interest but not medical devices. Remote policy unknown; recent layoffs and no QA openings suggest limited fit.",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Quality Leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Collins' avionics and airport systems where rigorous verification is critical.",
+    "red_flags": "Recent layoffs and restructuring, no stated remote policy, no QA openings listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.rtx.com/collinsaerospace/careers/engineering",
+      "https://warnact.io/company-collins-aerospace",
+      "https://www.kcrg.com/2025/11/06/new-details-emerge-collins-aerospace-layoff/",
+      "https://www.cgaa.org/article/collins-aerospace-layoffs"
+    ],
+    "notes": "Remote policy not stated; multiple 2025 layoffs and restructuring targeting 3-4% workforce reduction; no QA openings listed; large 5k+ employer in aerospace/airport systems.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.collinsaerospace.com/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

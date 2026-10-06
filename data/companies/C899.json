@@ -1,0 +1,181 @@
+{
+  "company_id": "C899",
+  "tracker": {
+    "company_id": "C899",
+    "company": "Booking Holdings",
+    "sector": "Travel",
+    "interests": "Travel",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "priceline|1|BookingHoldings",
+    "board_url": "https://priceline.wd1.myworkdayjobs.com/BookingHoldings",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 20
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Large travel parent; fits travel interest and offers stability. QA/SDET roles plausible, but remote-from-Maine and .NET match uncertain.",
+    "flags": "Large corporate; remote policy unclear.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C899",
+    "career_url": "https://careers.booking.com/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Hybrid: about 40% of working time in the office; assigned office is the place of work and the home location must be within commuting distance, with up to 20 days/year working abroad.",
+      "maine_eligible": "no",
+      "evidence_url": "https://careers.booking.com/hybrid-ways-of-working/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Booking.com plans to cut over 10% of its workforce in the next reorganization phase, impact on Dutch workers unclear.",
+          "date": null,
+          "url": "https://nltimes.nl/2025/04/24/bookingcom-looking-cut-workforce-10-next-phase-reorganization"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "First reorganization phase cut almost 50 of 350 Amsterdam managers, about 13 percent.",
+          "date": null,
+          "url": "https://nltimes.nl/2025/04/24/bookingcom-looking-cut-workforce-10-next-phase-reorganization"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 1,
+      "rationale": "Booking Holdings runs Booking.com, Priceline and Kayak — travel, a candidate interest. But its hybrid model requires ~40% office time near an assigned office, explicitly not Maine-eligible, and it has no listed QA openings amid reorganization layoffs.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering, Quality (no named leader in verified facts)",
+    "outreach_angle": "Fifteen years of test automation and transaction-heavy V&V work at consumer scale maps well to booking and payments platform testing — but only if a US-remote-from-Maine exception exists.",
+    "red_flags": "Hybrid mandate excludes Maine; no US-remote option stated; active layoffs and reorganizations.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.booking.com/",
+      "https://jobs.booking.com/booking/jobs",
+      "https://careers.booking.com/hybrid-ways-of-working/",
+      "https://nltimes.nl/2025/04/24/bookingcom-looking-cut-workforce-10-next-phase-reorganization"
+    ],
+    "notes": "Verified: hybrid ~40% in-office with home near assigned office; Maine explicitly not eligible (up to 20 days/year abroad). 5k+ employees, travel sector. Two layoff rounds reported, one cutting 13% of Amsterdam managers. No QA openings listed and no named contacts, so approach must be cold.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:priceline|1|BookingHoldings (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

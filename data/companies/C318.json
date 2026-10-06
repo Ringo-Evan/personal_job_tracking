@@ -1,0 +1,162 @@
+{
+  "company_id": "C318",
+  "tracker": {
+    "company_id": "C318",
+    "company": "Greenway Health",
+    "sector": "Regulated healthtech",
+    "interests": "EHR",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Manager",
+      "Test Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "EHR software for healthcare providers; regulated healthtech with stable, remote-friendly environment.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C318",
+    "career_url": "https://join.greenwayhealth.com/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote and hybrid options with flexible scheduling in some roles; about 25% of employees in-office full time.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/greenway-health/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Employee feedback describes heavier workloads and responsibilities expanding following reorganizations and staff reductions.",
+          "date": null,
+          "url": "https://builtin.com/company/greenway-health/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Greenway Health builds EHR and revenue-cycle software for ambulatory clinics, a regulated healthtech domain adjacent to the candidate's FDA-regulated testing background. However, no QA openings are listed, Maine remote eligibility is unverified, and reported layoffs and reorganizations signal a leaner,",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years in regulated, FDA-adjacent V&V and C#/.NET test automation maps directly onto certified EHR software where compliance evidence and release quality are business-critical.",
+    "red_flags": "Reported layoffs and reorganizations; no QA roles posted; Maine remote eligibility unverified.",
+    "confidence": "low",
+    "sources": [
+      "https://join.greenwayhealth.com/",
+      "https://builtin.com/company/greenway-health/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Regulated healthtech (EHR/revenue cycle), a partial domain match to the candidate's FDA-regulated medical testing. Only ~25% of staff are fully in-office, and remote/hybrid exists, but Maine eligibility is unknown. No QA openings found and no named QA leaders, so outreach is speculative; employee feedback cites post-reduction workload increases.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.greenwayhealth.com/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

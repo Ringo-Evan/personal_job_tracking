@@ -1,0 +1,188 @@
+{
+  "company_id": "C867",
+  "tracker": {
+    "company_id": "C867",
+    "company": "onX",
+    "sector": "Firearms",
+    "interests": "Hunting/offroad maps app; Missoula; strong mobile QA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "onxmaps",
+    "board_url": "https://job-boards.greenhouse.io/onxmaps",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "onX",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Missoula-based hunting maps app; strong mobile QA fit, domain matches, and likely remote-friendly for QA roles.",
+    "flags": "Mobile focus, likely remote-friendly",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C867",
+    "career_url": "https://www.onxmaps.com/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "onxmaps",
+      "board_url": "https://job-boards.greenhouse.io/onxmaps"
+    },
+    "remote_policy": {
+      "summary": "Distributed company: Montana headquarters plus virtual Basecamps across the country, giving flexibility to work where you are inspired.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.onxmaps.com/careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "onX states it has built a high-performance team and is continuing to grow, hiring across Engineering, Product, Marketing, Geospatial and Customer Experience.",
+          "date": null,
+          "url": "https://www.onxmaps.com/careers"
+        },
+        {
+          "kind": "other",
+          "summary": "Third-party remote-policy tracker classifies onX as remote-friendly with a remote policy index of 72/100 and a stable hiring direction.",
+          "date": null,
+          "url": "https://wfh.team/remote-policy-tracker/onx"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "onX builds subscription GPS map apps for hunting, offroad and outdoor use — a firearms/outdoors-adjacent domain the candidate likes. It is distributed and Maine-eligible with strong mobile QA, but no verified QA openings or named quality leaders are shown.",
+      "role_families": [
+        "Mobile QA / SDET",
+        "QA leadership",
+        "Release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering (or VP Engineering)",
+    "outreach_angle": "15 years in test automation, C#/.NET tooling and FDA-regulated V&V maps well onto onX's mobile map quality needs, and your hunting/outdoors interest fits their user base.",
+    "red_flags": "No verified QA openings posted; no named QA leaders; size and funding durability unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.onxmaps.com/careers",
+      "https://wfh.team/remote-policy-tracker/onx"
+    ],
+    "notes": "onX: subscription GPS/mapping apps for hunting, offroad, hiking; Montana HQ with distributed 'Basecamps' nationally. Remote-friendly, Maine eligible. Hiring across Engineering, Product, Geospatial, CX; no QA roles verified. No named contacts. Third-party tracker rates remote policy 72/100, stable hiring direction.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.onx.com/careers",
+    "found": null,
+    "other": [
+      "rippling https://ats.rippling.com/onx/jobs"
+    ],
+    "careers_page_note": "uses rippling"
+  },
+  "verify_rejects": 0
+}

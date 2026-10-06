@@ -1,0 +1,107 @@
+{
+  "company_id": "C999",
+  "tracker": {
+    "company_id": "C999",
+    "company": "Axiom (Maine broadband)",
+    "sector": "Agriculture",
+    "interests": "Machias ME broadband - local!",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "axiomspace|5|External_Career_Site",
+    "board_url": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.axiomspace.com/careers",
+    "job_count": 99
+  },
+  "triage": {
+    "fit": 2,
+    "stability": 3,
+    "remote": "Low",
+    "size": "<50",
+    "roles": [
+      "QA/Test Analyst",
+      "Network Systems Engineer",
+      "IT Support Engineer"
+    ],
+    "approach": "Network Operations Manager",
+    "why": "Small Machias broadband provider, genuinely local to candidate, but likely too small for dedicated QA roles and details are unclear.",
+    "flags": "Little public info; few openings expected",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.axiomspace.com/careers",
+    "found": "workday:axiomspace|5|External_Career_Site (embedded in https://www.axiomspace.com/careers)",
+    "other": []
+  }
+}

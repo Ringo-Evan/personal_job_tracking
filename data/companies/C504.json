@@ -1,0 +1,209 @@
+{
+  "company_id": "C504",
+  "tracker": {
+    "company_id": "C504",
+    "company": "Bill.com",
+    "sector": "Enterprise & govtech",
+    "interests": "AP/AR SaaS",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "billcom",
+    "board_url": "https://job-boards.greenhouse.io/billcom",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name BILL",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "AP/AR fintech SaaS; QA roles plausible, regulated-adjacent, but no listed interest match.",
+    "flags": "Fintech domain distant.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C504",
+    "career_url": "https://www.bill.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "billcom",
+      "board_url": "https://job-boards.greenhouse.io/billcom"
+    },
+    "remote_policy": {
+      "summary": "Remote-first: employees work from their home base, with BILLders spread across the US; optional offices in San Jose, CA and Draper, UT.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.bill.com/careers/"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Bill cut 709 positions, about 30% of its workforce, in a May 2026 restructuring.",
+          "date": "2026-05",
+          "url": "https://www.interviewpal.com/layoffs/bill"
+        },
+        {
+          "kind": "revenue",
+          "summary": "BILL processed $345B in total payment volume in FY'25, roughly 1% of U.S. GDP.",
+          "date": null,
+          "url": "https://www.bill.com/careers/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Nearly half a million businesses use BILL for financial operations automation.",
+          "date": null,
+          "url": "https://www.bill.com/careers/"
+        },
+        {
+          "kind": "growth",
+          "summary": "44 open roles listed in October 2026, with 36 of them remote.",
+          "date": "2026-10",
+          "url": "https://jobsbylevel.com/companies/bill-com"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Bill.com is a large AP/AR payments SaaS vendor with a remote-first US policy open to Maine and an active Senior SDET req. Strong test-automation fit, but fintech isn't among the candidate's stated domains and there are no QA leadership openings",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Quality Engineering tooling"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "CXO Senior AI Automation Specialist",
+        "location": "United States",
+        "work_mode": "Unknown",
+        "url": "https://www.bill.com/job?6017906004&gh_jid=6017906004"
+      },
+      {
+        "title": "Senior Software Development Engineer in Test (SDET)",
+        "location": "United States",
+        "work_mode": "Unknown",
+        "url": "https://www.bill.com/job?6166032004&gh_jid=6166032004"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your 15 years of C#/.NET automation and FDA-regulated V&V work map cleanly onto compliance-heavy payments testing, where auditable, regulated-grade quality evidence is the core need.",
+    "red_flags": "709 positions (~30% of workforce) cut in a May 2026 restructuring; no QA leadership roles currently listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.bill.com/careers/",
+      "https://www.interviewpal.com/layoffs/bill",
+      "https://jobsbylevel.com/companies/bill-com",
+      "https://job-boards.greenhouse.io/billcom",
+      "https://www.bill.com/job?6017906004&gh_jid=6017906004",
+      "https://www.bill.com/job?6166032004&gh_jid=6166032004"
+    ],
+    "notes": "Remote-first, US-wide, Maine eligible; optional San Jose and Draper offices. October 2026 postings included a Senior SDET and a CXO AI Automation Specialist, mostly remote. Recent 30% layoff is the main risk. No named QA leaders surfaced, so approach the quality engineering directorate.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.bill.com/careers/",
+    "found": "greenhouse:billcom (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

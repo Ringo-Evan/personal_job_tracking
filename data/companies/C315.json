@@ -1,0 +1,156 @@
+{
+  "company_id": "C315",
+  "tracker": {
+    "company_id": "C315",
+    "company": "Bamboo Health",
+    "sector": "Regulated healthtech",
+    "interests": "Controlled-substance monitoring (PMP)",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Manager",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Controlled-substance monitoring software; strong fit with regulated healthtech and addiction recovery; likely remote-friendly.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C315",
+    "career_url": "https://ats.rippling.com/bamboo-health-careers/jobs",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Listed openings are posted as Remote (United States), indicating US-wide remote roles.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://ats.rippling.com/bamboo-health-careers/jobs"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Bamboo Health builds prescription drug monitoring and care coordination software for regulated healthcare. The candidate's FDA V&V background and regulated-domain QA fit well, and roles are US-remote including Maine, though no QA openings are verified.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps directly to Bamboo Health's controlled-substance monitoring and care-coordination platforms; I can bring senior test automation depth in C#/.NET to their regulated release cycles.",
+    "red_flags": "No verified QA openings; private-equity ownership could bring restructuring risk. Postings may skew to product/engineering, not test.",
+    "confidence": "medium",
+    "sources": [
+      "https://ats.rippling.com/bamboo-health-careers/jobs"
+    ],
+    "notes": "All listed roles are Remote (US) and open to Maine. Sector is regulated healthtech centered on prescription drug monitoring—strong domain overlap. No QA openings, size, people, or stability signals were verified, so confirm current reqs and private-equity/restructuring history before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://bamboohealth.com/careers-at-bamboo-health/",
+    "found": null,
+    "other": [
+      "rippling https://ats.rippling.com/bamboo-health-careers/jobs"
+    ]
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,161 @@
+{
+  "company_id": "C331",
+  "tracker": {
+    "company_id": "C331",
+    "company": "Sparta Systems (Honeywell)",
+    "sector": "Regulated healthtech",
+    "interests": "Quality management software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Quality management software for life sciences under Honeywell; enterprise QA and test roles likely, stable parent, regulated-domain match.",
+    "flags": "Large-parent process; some roles onsite",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C331",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Sparta Systems careers page includes messaging referencing Honeywell's acquisition of Sparta Systems.",
+          "date": null,
+          "url": "https://blog.jobhuntmode.com/articles/sparta-systems"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Sparta Systems, now part of Honeywell, sells TrackWise quality management software to FDA-regulated life-science manufacturers. The regulated-QMS domain closely matches the candidate's medical-device V&V background, but no remote policy, size, or QA openings are verified, and no Maine presence is",
+      "role_families": [
+        "QA engineering",
+        "Computer system validation (GxP/CSV)",
+        "SDET / test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of FDA-regulated medical device V&V, design controls, and C#/.NET automation aligns directly with validating TrackWise-based quality systems for life-science customers.",
+    "red_flags": "Remote/Maine eligibility unverified; no QA openings listed; no named contacts in the verified facts.",
+    "confidence": "low",
+    "sources": [
+      "https://blog.jobhuntmode.com/articles/sparta-systems"
+    ],
+    "notes": "Verified: Sparta Systems is a regulated-healthtech QMS vendor (TrackWise) acquired by Honeywell. Facts give no remote policy, no size, no QA openings, no people. Confirm Honeywell's US-remote policy and Maine eligibility before applying; Honeywell scale implies durability but also possible role consolidation.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.spartasystems.com/careers/",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,174 @@
+{
+  "company_id": "C898",
+  "tracker": {
+    "company_id": "C898",
+    "company": "Kayak (Booking)",
+    "sector": "Travel",
+    "interests": "Travel search",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "KAYAK",
+    "board_url": "https://jobs.ashbyhq.com/KAYAK",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 33
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "Director of Engineering",
+    "why": "Travel search under Booking Holdings; travel domain fits. Stable parent, plausible QA roles, but remote-from-Maine and .NET use uncertain.",
+    "flags": "Remote policy unclear; not .NET-centric.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C898",
+    "career_url": "https://www.kayak.com/careers",
+    "ats": {
+      "type": "ashby",
+      "token": "KAYAK",
+      "board_url": "https://jobs.ashbyhq.com/KAYAK"
+    },
+    "remote_policy": {
+      "summary": "Work from (Almost) Anywhere: maximum flexibility; employees choose how often they work from an office, if at all, and can work from 61 approved locations.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.kayak.com/c/work-from-almost-anywhere/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Kayak and OpenTable cut 400 roles: 160 layoffs plus furloughs or reduced hours, citing a pandemic revenue drop.",
+          "date": null,
+          "url": "https://finance.yahoo.com/news/kayak-opentable-layoffs-furloughs-impact-014250083.html?fr=sycsrp_catchall"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Kayak is a travel metasearch platform under Booking Holdings. Remote-from-Maine is explicitly allowed and travel is a candidate interest, so senior QA/SDET roles are plausible, though no QA openings are currently verified.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering, Quality (no named leader in facts)",
+    "outreach_angle": "15 years in test automation and regulated V&V; eager to bring quality engineering rigor to Kayak's travel search platform, with remote work from Maine already supported by your Work from (Almost) Anywhere policy.",
+    "red_flags": "No verified QA openings; travel sector is downturn-sensitive (400 roles cut during the pandemic).",
+    "confidence": "medium",
+    "sources": [
+      "https://www.kayak.com/careers",
+      "https://www.kayak.com/c/work-from-almost-anywhere/",
+      "https://finance.yahoo.com/news/kayak-opentable-layoffs-furloughs-impact-014250083.html?fr=sycsrp_catchall"
+    ],
+    "notes": "Remote policy allows 61 locations and confirms Maine eligibility. Stability signals mixed: large Booking Holdings parent, but a past 400-role pandemic cut. No job board, ATS, QA openings, or named quality leaders were found in the facts.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:KAYAK (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

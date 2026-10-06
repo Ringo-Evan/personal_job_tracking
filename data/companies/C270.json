@@ -1,0 +1,171 @@
+{
+  "company_id": "C270",
+  "tracker": {
+    "company_id": "C270",
+    "company": "Werfen",
+    "sector": "Regulated healthtech",
+    "interests": "Diagnostics; Bedford MA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Unknown",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "Diagnostics instruments; hardware-adjacent regulated domain fits, but Bedford MA on-site; remote unclear.",
+    "flags": "MA-based, remote unclear",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C270",
+    "career_url": "https://www.werfen.com/na/en/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "During CEO Carlos Pascual's 12-year tenure, Werfen increased sales from €800 million to €2.1 billion.",
+          "date": null,
+          "url": "https://www.werfen.com/en/werfen-announces-change-leadership"
+        },
+        {
+          "kind": "growth",
+          "summary": "Werfen expanded its global workforce from 3,300 to more than 7,000 employees over the CEO's 12-year tenure.",
+          "date": null,
+          "url": "https://www.werfen.com/en/werfen-announces-change-leadership"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Werfen is a large, growing IVD/diagnostics maker whose FDA-regulated instrument software matches the candidate's medical-device V&V and design-controls background. But no QA openings, no stated remote policy, and US sites cluster in Bedford MA, far from Downeast Maine, so fit",
+      "role_families": [
+        "SDET / test automation",
+        "QA / test engineer (IVD software)",
+        "Design assurance / quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Software Quality Assurance",
+    "outreach_angle": "I bring 15 years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience with diagnostic-class hardware-adjacent software, and I'm seeking a US-remote senior QA or SDET role supporting Werfen's instrument platforms.",
+    "red_flags": "No posted QA openings; remote policy unstated; Maine eligibility unconfirmed; nearest US site Bedford MA.",
+    "confidence": "low",
+    "sources": [
+      "https://www.werfen.com/na/en/careers",
+      "https://www.werfen.com/en/werfen-announces-change-leadership"
+    ],
+    "notes": "Verified: Werfen grew sales €800M to €2.1B and headcount 3,300 to 7,000+ under CEO Carlos Pascual, so stability is strong and diagnostics is essential. No QA requisitions, ATS, remote policy, or named QA leaders were found; confirm whether US-remote-from-Maine hiring exists before investing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.werfen.com/na/en/careers",
+    "found": null,
+    "other": [
+      "icims https://careers-werfen.icims.com/jobs/intro"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,184 @@
+{
+  "company_id": "C271",
+  "tracker": {
+    "company_id": "C271",
+    "company": "Thermo Fisher Scientific",
+    "sector": "Regulated healthtech",
+    "interests": "Instruments/software; Waltham MA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Engineering Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Instruments/software for regulated healthtech; strong hardware-adjacent fit, likely remote roles.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C271",
+    "career_url": "https://jobs.thermofisher.com/global/en",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Classified remote-friendly with a small number of remote roles listed (e.g. field service engineer); the pack does not state which US states are eligible.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://wfh.team/remote-policy-tracker/thermo-fisher-scientific-spa"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "About 70 positions cut as US bioanalytical lab operations consolidate into Richmond, Virginia; Middleton facility eventually closes.",
+          "date": null,
+          "url": "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Three California WARN notices covering 258 jobs in San Diego County, most recent filed Jan 2026, with last days through Mar 2026.",
+          "date": null,
+          "url": "https://www.jsilvermanlaw.com/layoffs/thermo-fisher-scientific/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "Wisconsin created a tax incremental district in Middleton to retain Thermo Fisher and support its growth there.",
+          "date": "2025-05",
+          "url": "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "Middleton GMP laboratory operations expanding, with some impacted colleagues transferring there.",
+          "date": null,
+          "url": "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Thermo Fisher is a giant regulated life-sciences and medical-device instruments maker, matching the candidate's regulated, hardware-adjacent background. But it has no listed QA openings, recent layoffs, and no confirmed remote eligibility for Maine, so fit is plausible only with a",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years automating tests for regulated, hardware-adjacent products maps onto Thermo Fisher's instrument software; ask which quality teams hire US-remote and whether Maine is an eligible state.",
+    "red_flags": "Recent layoffs: ~70 lab roles cut, 258 California jobs via WARN, Middleton closure. No listed QA openings; remote state eligibility unstated.",
+    "confidence": "low",
+    "sources": [
+      "https://jobs.thermofisher.com/global/en",
+      "https://wfh.team/remote-policy-tracker/thermo-fisher-scientific-spa",
+      "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html",
+      "https://www.jsilvermanlaw.com/layoffs/thermo-fisher-scientific/",
+      "https://jobs.thermofisher.com/global/en/united-states-jobs"
+    ],
+    "notes": "Large regulated healthtech; layoffs and lab consolidation (Richmond, Middleton) signal churn. Remote-friendly classified but no confirmation Maine is eligible, and no QA openings in the pack. Best entry is via instrument/software quality teams; verify state eligibility and headcount before investing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:33:10-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.thermofisher.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

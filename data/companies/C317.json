@@ -1,0 +1,154 @@
+{
+  "company_id": "C317",
+  "tracker": {
+    "company_id": "C317",
+    "company": "Kareo / Tebra",
+    "sector": "Regulated healthtech",
+    "interests": "Practice management",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "QA Lead"
+    ],
+    "approach": "Director of QA",
+    "why": "Practice management software; regulated healthtech with likely remote roles, but not addiction-specific.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C317",
+    "career_url": "https://www.tebra.com/jobs",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Tebra (Kareo + PatientPop) sells practice-management and EHR software to medical practices; regulated healthtech overlaps the candidate's FDA V&V background, but no verified remote policy, size, stability signals or QA openings make this a plausible-but-unconfirmed fit.",
+      "role_families": [
+        "SDET",
+        "QA Engineer",
+        "Quality Engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps directly onto quality engineering for practice-management and EHR software where clinical data accuracy, interoperability and release compliance matter.",
+    "red_flags": "No verified remote-Maine policy, headcount, stability signals or open QA roles; PE-backed merger history could mean restructuring.",
+    "confidence": "low",
+    "sources": [
+      "https://www.tebra.com/jobs"
+    ],
+    "notes": "Facts cover only sector: regulated healthtech (practice management), Tebra formed from Kareo/PatientPop merger. Remote policy, size, ATS, QA openings, leaders and stability all unverified — confirm Maine-remote eligibility and current QA/SDET requisitions before investing, and check PE-ownership layoff history.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

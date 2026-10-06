@@ -1,0 +1,179 @@
+{
+  "company_id": "C202",
+  "tracker": {
+    "company_id": "C202",
+    "company": "Avery Dennison Smartrac",
+    "sector": "IoT / location tech",
+    "interests": "RFID inlays; atma.io platform",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "smartrecruiters",
+    "token": "AveryDennison",
+    "board_url": "https://careers.smartrecruiters.com/AveryDennison",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.averydennison.com/en/home/careers/search-jobs.html",
+    "job_count": 472
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Engineering Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Perfect RFID inlay domain from Position Imaging; Fortune 500 stability; senior roles.",
+    "flags": "",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C202",
+    "career_url": "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Avery Dennison acquired Smartrac's RFID inlay business, forming the Avery Dennison Smartrac RFID division.",
+          "date": null,
+          "url": "https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Avery Dennison Smartrac makes RFID inlays and the atma.io connected-product platform, matching the candidate's RFID/indoor-location interest and hardware-adjacent testing background; but no QA openings, remote policy, or Maine-linked site are verified.",
+      "role_families": [
+        "QA engineering",
+        "test automation / SDET",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Arnela Hodzic-Isakovic",
+        "title": "Quality Engineer",
+        "source_url": "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html"
+      }
+    ],
+    "approach_role": "Quality Engineering Manager",
+    "outreach_angle": "Your RFID/indoor-location interest plus 15 years automating tests in hardware-adjacent, regulated domains maps directly to inlay and atma.io quality work — happy to help scale Smartrac's test tooling.",
+    "red_flags": "No QA openings, remote policy, ATS or Maine site verified; one Quality Engineer listed, no senior QA leader.",
+    "confidence": "low",
+    "sources": [
+      "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html",
+      "https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html"
+    ],
+    "notes": "Avery Dennison acquired Smartrac's RFID inlay business; atma.io is its connected-product platform. Facts show no job board, ATS, remote policy, size, or QA openings; only one Quality Engineer is listed. Stability rests on Avery Dennison's scale, but Maine-remote eligibility is unverified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:34:44-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.averydennison.com/en/home/careers/search-jobs.html",
+    "found": "smartrecruiters:AveryDennison (embedded in https://www.averydennison.com/en/home/careers/search-jobs.html)",
+    "other": []
+  }
+}

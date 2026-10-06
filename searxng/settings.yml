@@ -1,0 +1,18 @@
+# Minimal override of SearXNG defaults. JSON output is required by jobsearch's evidence gatherer.
+use_default_settings: true
+server:
+  limiter: false          # only reachable from this PC; the limiter needs a separate valkey container
+  image_proxy: false
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json
+# Added 2026-10-05 (supervisor run): the three default web engines (duckduckgo, brave, google cse) were all
+# CAPTCHA'd or rate-limited after the day's verify runs, so every web query returned 0 results. Yahoo adds a second
+# working web index. Tested and left off: bing (ignored the quotes, returned dictionary pages), google (access
+# denied), qwant (CAPTCHA). SearXNG suspends any engine that starts refusing; `docker restart jobsearch-searxng`
+# clears the suspensions.
+engines:
+  - name: yahoo
+    disabled: false

@@ -1,0 +1,1385 @@
+{
+  "results": [
+    {
+      "id": "C1000",
+      "company": "Consolidated Communications",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "SDET",
+          "QA Engineer",
+          "Test Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Rural broadband provider in northern New England. Fits telecommunication infrastructure interests, but remote status for Maine and QA alignment are uncertain.",
+        "flags": "Rural telecom; remote availability needs verification.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "Systems Test Engineer",
+          "Network Test Engineer"
+        ],
+        "approach": "VP Engineering",
+        "why": "Regional telecom; QA role possible; Maine-based; limited interest alignment",
+        "flags": "Not tech-focused; telecom infrastructure; financial challenges",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1001",
+      "company": "Maine Connectivity Authority",
+      "new": {
+        "fit": 2,
+        "stability": 4,
+        "remote": "Low",
+        "size": "<50",
+        "roles": [
+          "QA Engineer",
+          "Software Engineer",
+          "Systems Analyst"
+        ],
+        "approach": "Director of Technology",
+        "why": "Quasi-governmental authority expanding broadband access in Maine. Local impact matches geography, but technical QA roles are scarce.",
+        "flags": "Small public/quasi-state entity; few engineering roles.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 4,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Systems Test Engineer",
+          "IT Manager"
+        ],
+        "approach": "Director",
+        "why": "Government broadband agency; stable; Maine-based; QA roles unclear",
+        "flags": "Government bureaucracy; infrastructure-focused; not software company",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1002",
+      "company": "Mobilize (Bonterra)",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "500-5k",
+        "roles": [
+          "SDET",
+          "Software Engineer in Test",
+          "QA Lead"
+        ],
+        "approach": "Engineering Director",
+        "why": "Bonterra subsidiary providing event and organizing software for labor and nonprofits. Aligns with labor rights interest, but remote-from-Maine policy is unknown.",
+        "flags": "Corporate parent structure; remote rules uncertain.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Test Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Organizing software platform; QA/test roles exist; mission aligns",
+        "flags": "Part of larger Bonterra; startup dynamics; organizing tech sector",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1003",
+      "company": "Hustle",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Senior SDET",
+          "QA Engineer",
+          "Test Engineer"
+        ],
+        "approach": "Head of Engineering",
+        "why": "Peer-to-peer texting platform for political campaigns and labor organizing. Strong sector match, but remote hiring footprint in Maine is unverified.",
+        "flags": "Political tech sector can be volatile.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Mobile Test Engineer",
+          "Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Mobile messaging platform; mobile/API expertise fits; organizing mission aligns",
+        "flags": "Early-stage startup; significant stability concerns in downturn",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1004",
+      "company": "ThruText (GetThru)",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Software Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "GetThru provides peer-to-peer texting and calling tools for advocacy. Aligns with labor and progressive organizing.",
+        "flags": "Smaller vendor; remote status for Maine unclear.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Mobile Test Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Campaign texting platform; mobile/API expertise fits; mission aligns",
+        "flags": "Campaign tech; cyclical political funding; high recession risk",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1005",
+      "company": "Spoke (MoveOn open source)",
+      "new": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Software Test Engineer",
+          "SDET",
+          "Contributor / Engineer"
+        ],
+        "approach": "Project Maintainer",
+        "why": "Open source peer-to-peer text messaging tool used by progressive campaigns. Highly relevant sector, though formal engineering hiring processes vary.",
+        "flags": "Open-source project; stability depends on funding.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 4,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Test Engineer",
+          "Automation Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "MoveOn-backed open-source platform; organizing mission strong; remote likely",
+        "flags": "Open-source project; smaller team; MoveOn nonprofit backing",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1006",
+      "company": "Movement Cooperative",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Data Engineer",
+          "QA Engineer",
+          "Software Engineer"
+        ],
+        "approach": "Technical Director",
+        "why": "Cooperative providing data and technology tools to progressive and labor organizations. Strong sector alignment.",
+        "flags": "Cooperative structure; remote Maine status unknown.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 4,
+        "stability": 3,
+        "remote": "High",
+        "size": "<50",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Test Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Tech cooperative; QA/test needed; labor mission strong; remote-friendly",
+        "flags": "Small; cooperative structure dynamics may differ from traditional tech",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1007",
+      "company": "Tech for Campaigns",
+      "new": {
+        "fit": 2,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "<50",
+        "roles": [
+          "Technical Project Manager",
+          "QA Lead",
+          "Software Engineer"
+        ],
+        "approach": "Director of Technology",
+        "why": "Nonprofit connecting tech volunteers with political campaigns. Great sector match, but mostly volunteer or short-term project-based staffing.",
+        "flags": "Mostly volunteer driven; limited permanent staff.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "High",
+        "size": "<50",
+        "roles": [
+          "Tech Support",
+          "QA Engineer",
+          "Volunteer Coordinator"
+        ],
+        "approach": "Tech Director",
+        "why": "Volunteer tech placement nonprofit; organizing mission aligns; not software dev",
+        "flags": "Not primarily software company; volunteer focus; campaign-dependent",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1008",
+      "company": "Catalist",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Data QA Engineer",
+          "SDET",
+          "Software Engineer"
+        ],
+        "approach": "VP of Engineering",
+        "why": "Progressive voter data and targeting organization. Strong labor and political alignment, though tech hiring leans heavily toward data science and backend.",
+        "flags": "Data-heavy focus; test automation roles may be sparse.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 4,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Data Pipeline Tester"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Established data platform; QA/test roles exist; organizing mission aligns",
+        "flags": "Data analytics focus differs from mobile/web expertise; DC-based",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1009",
+      "company": "TargetSmart",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Data Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Provider of political data and voter contact software. Aligns with campaign interests, but remote Maine hiring status is unconfirmed.",
+        "flags": "Political data niche.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 4,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Data Test Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Established data platform; QA/test roles exist; organizing mission aligns",
+        "flags": "Data analytics focus differs from mobile/web expertise; DC-based",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1010",
+      "company": "NGP VAN (Bonterra)",
+      "new": {
+        "fit": 3,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "500-5k",
+        "roles": [
+          "Senior SDET",
+          "QA Lead",
+          "Software Engineer in Test"
+        ],
+        "approach": "QA Director",
+        "why": "Campaign software provider under Bonterra. Strong sector alignment, but large corporate structures have rigid remote state restrictions.",
+        "flags": "Parent company policies apply.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 4,
+        "stability": 4,
+        "remote": "Medium",
+        "size": "500-5k",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Test Engineer"
+        ],
+        "approach": "Engineering Manager",
+        "why": "Major campaign platform; QA/SDET roles exist; mission aligns; stable",
+        "flags": "Campaign tech focus; part of larger Bonterra; DC-based",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1011",
+      "company": "Swing Left",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Technical Program Manager",
+          "Digital Organizer",
+          "Tool Specialist"
+        ],
+        "approach": "Operations Director",
+        "why": "Political action group focused on organizing elections. Limited traditional software engineering roles, mostly focused on campaign operations.",
+        "flags": "Not a traditional software employer.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Community Organizing",
+          "Organizing Manager",
+          "Campaign Staff"
+        ],
+        "approach": "Organizing Director",
+        "why": "Grassroots organizing group; organizing mission aligns; not software company",
+        "flags": "Not software company; no realistic QA/test engineering roles",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1012",
+      "company": "Indivisible",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Digital Director",
+          "Tech Support Lead",
+          "Database Administrator"
+        ],
+        "approach": "Operations Director",
+        "why": "National progressive advocacy organization. Focuses on grassroots organizing rather than heavy internal software engineering.",
+        "flags": "Minimal dedicated software test engineering needs.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Community Organizing",
+          "Tech Support",
+          "Campaign Staff"
+        ],
+        "approach": "Tech Director",
+        "why": "Grassroots nonprofit; labor mission aligns; tech is support role",
+        "flags": "Tech is support function; no QA career path",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1013",
+      "company": "Working Families Party",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Digital Coordinator",
+          "Systems Administrator",
+          "Database Manager"
+        ],
+        "approach": "Operations Director",
+        "why": "Political party organization focused on working-class issues. Strong labor alignment, but tech infrastructure is minimal.",
+        "flags": "Political organization; very few QA roles.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "<50",
+        "roles": [
+          "Political Operations",
+          "Party Staff",
+          "IT Support"
+        ],
+        "approach": "Director",
+        "why": "Political party; labor interests align; not software company",
+        "flags": "Political party staff; not software company; no QA roles",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1014",
+      "company": "Democratic Socialists of America",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Tech Coordinator",
+          "Database Engineer",
+          "Systems Administrator"
+        ],
+        "approach": "National Director",
+        "why": "Democratic socialist political organization. Strong labor and political alignment, but relies on small internal teams or volunteers.",
+        "flags": "Limited technical staff.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Membership Support",
+          "Program Staff",
+          "Limited Tech Roles"
+        ],
+        "approach": "Program Director",
+        "why": "Membership organization; labor mission aligns; not software company",
+        "flags": "Membership organization; not software company; limited tech roles",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1015",
+      "company": "Jobs With Justice",
+      "new": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "IT Manager",
+          "Digital Campaigner",
+          "Database Specialist"
+        ],
+        "approach": "Operations Director",
+        "why": "National network defending worker rights. Strong labor alignment, but minimal software development infrastructure.",
+        "flags": "Advocacy nonprofit; unlikely to employ SDETs.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "<50",
+        "roles": [
+          "Labor Advocacy",
+          "Organizing Staff",
+          "IT Support"
+        ],
+        "approach": "Executive Director",
+        "why": "Labor advocacy organization; strong mission alignment; not software company",
+        "flags": "Advocacy organization; not software company; no QA roles",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1016",
+      "company": "United Steelworkers (tech)",
+      "new": {
+        "fit": 2,
+        "stability": 4,
+        "remote": "Unknown",
+        "size": "500-5k",
+        "roles": [
+          "IT Support Engineer",
+          "Software Engineer",
+          "Database Administrator"
+        ],
+        "approach": "IT Director",
+        "why": "Major labor union with internal technology needs. Aligns with labor rights interest, though dedicated testing roles are rare.",
+        "flags": "Union IT departments rarely hire dedicated SDETs.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "Union Organizing",
+          "Tech Worker Advocacy",
+          "IT Support"
+        ],
+        "approach": "Organizing Director",
+        "why": "Labor union; stability high; tech is worker advocacy not development",
+        "flags": "Union; tech focus on worker organizing; no software QA role",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1017",
+      "company": "CWA (Communications Workers)",
+      "new": {
+        "fit": 2,
+        "stability": 4,
+        "remote": "Unknown",
+        "size": "500-5k",
+        "roles": [
+          "IT Specialist",
+          "Systems Administrator",
+          "Digital Organizer"
+        ],
+        "approach": "Director of IT",
+        "why": "Communications Workers of America union representing tech and media workers. Strong sector alignment, though internal software QA hiring is unlikely.",
+        "flags": "Primarily union operations, not tech product development.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "Union Organizing",
+          "Tech Worker Organizing",
+          "Advocacy Staff"
+        ],
+        "approach": "Organizing Director",
+        "why": "Labor union; tech worker organizing focus; not software development",
+        "flags": "Union; tech is worker organizing not software development",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1018",
+      "company": "CODE-CWA",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Campaign Organizer",
+          "Communications Specialist",
+          "Research Coordinator"
+        ],
+        "approach": "Campaign Director",
+        "why": "Campaign by CWA to unionize video game and tech workers. Strong alignment with gaming and labor, but it is an organizing campaign rather than an",
+        "flags": "Activist campaign rather than a tech employer.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "High",
+        "size": "<50",
+        "roles": [
+          "Campaign Organizing",
+          "Tech Worker Advocacy",
+          "Organizing Staff"
+        ],
+        "approach": "Organizing Director",
+        "why": "Tech worker organizing campaign; strong labor mission fit; remote likely",
+        "flags": "Organizing campaign; not software company; labor mission very strong",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1019",
+      "company": "NewsGuild-CWA",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "IT Support",
+          "Database Manager",
+          "Digital Strategist"
+        ],
+        "approach": "Operations Director",
+        "why": "NewsGuild union representing journalists and media workers. Aligns with labor rights, but software engineering positions are practically nonexistent.",
+        "flags": "Union administrative structure.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "Union Organizing",
+          "Media Operations",
+          "Advocacy Staff"
+        ],
+        "approach": "Organizing Director",
+        "why": "Media union; stability high; not software company",
+        "flags": "Media union; not software company; no tech development roles",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1020",
+      "company": "Teamsters",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "500-5k",
+        "roles": [
+          "IT Support Specialist",
+          "System Administrator",
+          "Data Analyst"
+        ],
+        "approach": "Director of Information Technology",
+        "why": "Labor union representing various workers; lacks standard engineering or SDET software testing roles suited to candidate expertise.",
+        "flags": "Primarily political and organizing staff, minimal tech roles.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Large union; non-tech company; no realistic QA or SDET roles; IT support only",
+        "flags": "Union; labor interest only; no tech product",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1021",
+      "company": "UAW",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "IT Infrastructure Engineer",
+          "Database Administrator",
+          "Software Support Specialist"
+        ],
+        "approach": "IT Director",
+        "why": "Major labor union representing auto and other workers; technical roles are limited and rarely focus on software engineering testing.",
+        "flags": "Heavy focus on field organizing over software.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Labor union; non-tech company; no senior QA roles; IT support only",
+        "flags": "Union; no tech product; labor interest",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1022",
+      "company": "IBEW",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "Network Administrator",
+          "Database Manager",
+          "Helpdesk Technician"
+        ],
+        "approach": "Director of Technology",
+        "why": "Electrical workers union; software engineering testing positions are virtually non-existent within internal operations.",
+        "flags": "Focused on trade union administration.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Labor union; non-tech company; no QA engineering roles; IT support only",
+        "flags": "Union; no tech product; labor interest",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1023",
+      "company": "AFSCME",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "500-5k",
+        "roles": [
+          "Systems Administrator",
+          "IT Support Analyst",
+          "Database Specialist"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Public and municipal employees union; IT department handles standard internal infrastructure rather than complex software development.",
+        "flags": "Non-technical core operations.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Public employee union; non-tech company; no QA roles; IT operations only",
+        "flags": "Union; no tech product; labor interest",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1024",
+      "company": "AFT",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "500-5k",
+        "roles": [
+          "IT Support Engineer",
+          "Systems Administrator",
+          "Data Manager"
+        ],
+        "approach": "Director of IT",
+        "why": "Teachers union handling educational advocacy; software testing and advanced quality engineering roles are not present.",
+        "flags": "Education policy focused.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Teachers union; non-tech company; no senior QA or SDET roles",
+        "flags": "Union; no tech product; labor interest",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1025",
+      "company": "NEA",
+      "new": {
+        "fit": 1,
+        "stability": 4,
+        "remote": "Low",
+        "size": "5k+",
+        "roles": [
+          "Software Developer",
+          "Database Administrator",
+          "IT Support Specialist"
+        ],
+        "approach": "Chief Technology Officer",
+        "why": "National education association; large organization but internal IT focuses on membership databases rather than QA or SDET work.",
+        "flags": "Membership management tech only.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "5k+",
+        "roles": [
+          "IT Operations",
+          "Systems Administrator"
+        ],
+        "approach": "Chief Information Officer",
+        "why": "Education union; non-tech company; no QA engineering infrastructure",
+        "flags": "Union; no tech product; labor interest",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1026",
+      "company": "Starbucks Workers United",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Digital Campaigner",
+          "Communications Coordinator",
+          "Organizer"
+        ],
+        "approach": "Campaign Director",
+        "why": "Campaign supporting workers; grassroots organizing structure means formal software engineering or testing roles do not exist.",
+        "flags": "Campaign-based and decentralized.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 1,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Organizer",
+          "Administrative Support"
+        ],
+        "approach": "Organizing Director",
+        "why": "Startup organizing campaign; volunteer-based; no tech operations or paid roles",
+        "flags": "Organizing campaign; volunteer-run; no payroll tech",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1027",
+      "company": "Amazon Labor Union",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Organizer",
+          "Communications Specialist",
+          "Campaign Coordinator"
+        ],
+        "approach": "Lead Organizer",
+        "why": "Independent labor organization; operates primarily via grassroots mobilization with no internal software development teams.",
+        "flags": "Very small, campaign-oriented staff.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 1,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Organizer",
+          "Coordinator"
+        ],
+        "approach": "Organizing Director",
+        "why": "Labor organizing campaign; volunteer-based; no software infrastructure",
+        "flags": "Organizing campaign; minimal operations; volunteer",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1028",
+      "company": "Labor Notes",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Web Editor",
+          "Journalist",
+          "Content Manager"
+        ],
+        "approach": "Managing Editor",
+        "why": "Labor media and training publication; small media outfit focused on journalism without software product engineering functions.",
+        "flags": "Non-profit publication with minimal tech infrastructure.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Web Developer",
+          "Technical Support"
+        ],
+        "approach": "Executive Director",
+        "why": "Labor education nonprofit; web infrastructure only; no QA testing team",
+        "flags": "Media/training org; not tech product; web-only",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1029",
+      "company": "EWOC (Emergency Workplace Organizing Committee)",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Volunteer Coordinator",
+          "Organizer",
+          "Communications Lead"
+        ],
+        "approach": "Coordinator",
+        "why": "Volunteer organizing committee supporting labor; relies on volunteer networks and lacks paid software engineering or QA staff.",
+        "flags": "Entirely volunteer-driven.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 1,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Volunteer Organizer"
+        ],
+        "approach": "Steering Committee",
+        "why": "Volunteer emergency organizing committee; no paid employment available",
+        "flags": "Volunteer-only organization; no employment positions",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1030",
+      "company": "Economic Policy Institute",
+      "new": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Low",
+        "size": "50-500",
+        "roles": [
+          "Data Scientist",
+          "Research Economist",
+          "Research Assistant"
+        ],
+        "approach": "Director of Research",
+        "why": "Economic research organization; conducts policy analysis and research rather than software engineering or testing.",
+        "flags": "Policy research focus.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Research Support",
+          "Data Analyst"
+        ],
+        "approach": "Executive Director",
+        "why": "Policy research nonprofit; data roles possible; no QA testing focus",
+        "flags": "Research org; not tech company; policy focus",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1031",
+      "company": "National Employment Law Project",
+      "new": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Low",
+        "size": "50-500",
+        "roles": [
+          "Policy Analyst",
+          "Staff Attorney",
+          "Research Coordinator"
+        ],
+        "approach": "Executive Director",
+        "why": "Legal policy organization defending worker rights; legal and advocacy focus with no software QA or testing roles.",
+        "flags": "Legal advocacy non-profit.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Research Support",
+          "Systems Administrator"
+        ],
+        "approach": "Executive Director",
+        "why": "Labor law nonprofit; policy/legal focus; no software quality roles",
+        "flags": "Policy nonprofit; not tech company; law focus",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1032",
+      "company": "The Leap / Jacobin Foundation",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Editor",
+          "Writer",
+          "Web Producer"
+        ],
+        "approach": "Publisher",
+        "why": "Left media foundation publishing commentary; small publishing team without dedicated engineering or software testing departments.",
+        "flags": "Small-scale media non-profit.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Web Developer",
+          "Media Support"
+        ],
+        "approach": "Executive Director",
+        "why": "Media production foundation; web support possible; no test automation",
+        "flags": "Media organization; not tech product; production focus",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1033",
+      "company": "Jacobin",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Editor",
+          "Journalist",
+          "Publishing Assistant"
+        ],
+        "approach": "Managing Editor",
+        "why": "Leftist magazine publication; editorial and publishing focus with no software development or quality assurance positions.",
+        "flags": "Journalism focus only.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Web Developer",
+          "Editorial Tech"
+        ],
+        "approach": "Editor in Chief",
+        "why": "Magazine publication; web/editorial roles only; no QA automation",
+        "flags": "Magazine; not tech company; web support only",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1034",
+      "company": "The Nation",
+      "new": {
+        "fit": 1,
+        "stability": 3,
+        "remote": "Unknown",
+        "size": "50-500",
+        "roles": [
+          "Journalist",
+          "Editor",
+          "Digital Producer"
+        ],
+        "approach": "Editor-in-Chief",
+        "why": "Progressive political magazine; editorial staff handles publishing and writing, offering no technical testing roles.",
+        "flags": "Traditional print and digital media.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Low",
+        "size": "50-500",
+        "roles": [
+          "Web Developer",
+          "IT Support"
+        ],
+        "approach": "Editor in Chief",
+        "why": "Established magazine; IT/web roles exist; no test engineering team",
+        "flags": "Magazine; traditional media; not tech product",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1035",
+      "company": "In These Times",
+      "new": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Unknown",
+        "size": "<50",
+        "roles": [
+          "Reporter",
+          "Editor",
+          "Web Manager"
+        ],
+        "approach": "Editor",
+        "why": "Labor journalism magazine; small publication focused on reporting with no internal software engineering or test teams.",
+        "flags": "Journalism shop.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Web Developer",
+          "Editorial Support"
+        ],
+        "approach": "Editor",
+        "why": "Labor magazine; web development only; no QA infrastructure",
+        "flags": "Magazine; not tech company; small publication",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1036",
+      "company": "ProPublica",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Software Engineer",
+          "Data Engineer",
+          "Full Stack Developer"
+        ],
+        "approach": "Director of Technology",
+        "why": "Nonprofit investigative journalism newsroom; builds custom digital tools, but testing roles are rare and competition is fierce.",
+        "flags": "Primarily hires generalist software engineers.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "High",
+        "size": "500-5k",
+        "roles": [
+          "Data Engineer",
+          "Systems Administrator"
+        ],
+        "approach": "VP Technology",
+        "why": "Data journalism nonprofit; QA for data pipelines plausible; not core product QA",
+        "flags": "Journalism nonprofit; data-heavy but not tech company",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1037",
+      "company": "The Marshall Project",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Software Engineer",
+          "Data Analyst",
+          "Product Manager"
+        ],
+        "approach": "Chief Technology Officer",
+        "why": "Nonprofit newsroom covering criminal justice; small tech team builds custom reporting apps, but QA roles are rarely standalone.",
+        "flags": "Small engineering team.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 1,
+        "stability": 2,
+        "remote": "Medium",
+        "size": "50-500",
+        "roles": [
+          "Journalist",
+          "Web Developer"
+        ],
+        "approach": "Executive Director",
+        "why": "Criminal justice journalism; values-aligned but no tech QA roles",
+        "flags": "Journalism; criminal justice; not tech company",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1038",
+      "company": "Democracy Works (TurboVote)",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "Software Engineer",
+          "Full Stack Developer",
+          "Engineering Manager"
+        ],
+        "approach": "Head of Engineering",
+        "why": "Civic tech non-profit building voting tools; aligns with civic interests, but engineering teams are small and rarely hire dedicated SDETs.",
+        "flags": "Civic tech grant funding dependency.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "SDET",
+          "Test Automation Engineer"
+        ],
+        "approach": "VP Engineering",
+        "why": "Civic tech platform; QA/test roles plausible; voting focus differs from medical background",
+        "flags": "Tech company; civic tech platform; nonprofit",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    },
+    {
+      "id": "C1039",
+      "company": "Vote.org",
+      "new": {
+        "fit": 2,
+        "stability": 3,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "Software Engineer",
+          "Frontend Developer",
+          "Backend Engineer"
+        ],
+        "approach": "Chief Technology Officer",
+        "why": "Civic technology organization providing voter registration infrastructure; small engineering group with limited testing specializations.",
+        "flags": "Cyclical funding based on election cycles.",
+        "model": "gemini/gemini-3.5-flash-lite"
+      },
+      "stored": {
+        "fit": 3,
+        "stability": 2,
+        "remote": "High",
+        "size": "50-500",
+        "roles": [
+          "QA Engineer",
+          "Test Engineer",
+          "SDET"
+        ],
+        "approach": "VP Engineering",
+        "why": "Civic tech platform; test automation roles realistic; voter registration differs from Evan's domains",
+        "flags": "Tech company; voting platform; nonprofit",
+        "model": "claude-haiku-4-5-20251001",
+        "at": "2026-10-05"
+      }
+    }
+  ]
+}

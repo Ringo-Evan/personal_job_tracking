@@ -1,0 +1,169 @@
+{
+  "company_id": "C324",
+  "tracker": {
+    "company_id": "C324",
+    "company": "Datavant",
+    "sector": "Regulated healthtech",
+    "interests": "Health data",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Manager",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality",
+    "why": "Health data analytics company; large, stable regulated healthtech with likely remote roles.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C324",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Fully remote roles with flexible schedules; no state or location restrictions are stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://jobs.aapc.com/company/41340/datavant/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Remote policy tracker classifies Datavant's current hiring direction as stable.",
+          "date": null,
+          "url": "https://wfh.team/remote-policy-tracker/datavant"
+        },
+        {
+          "kind": "growth",
+          "summary": "Job aggregator lists 14 Datavant openings posted in the last 45 days.",
+          "date": null,
+          "url": "https://reach.jobs/companies/datavant"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Datavant connects health data across providers; regulated healthtech aligns with the candidate's FDA V&V background. Fully remote but Maine eligibility unconfirmed, and no QA openings are listed.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "data quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "My FDA-regulated V&V and C#/.NET test automation experience fits health data quality where trust and traceability matter.",
+    "red_flags": "No QA openings listed; Maine eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.aapc.com/company/41340/datavant/",
+      "https://wfh.team/remote-policy-tracker/datavant",
+      "https://reach.jobs/companies/datavant"
+    ],
+    "notes": "Fully remote, no state restrictions stated; Maine eligibility unknown. Stability rated stable with 14 openings in last 45 days. No QA openings or people data listed. Health data domain is adjacent to candidate's medical device testing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.datavant.com/about/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

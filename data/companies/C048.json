@@ -1,0 +1,80 @@
+{
+  "company_id": "C048",
+  "tracker": {
+    "company_id": "C048",
+    "company": "Royal Caribbean Group",
+    "sector": "Travel",
+    "interests": "Cruise benefits, shipboard work",
+    "career_url": "https://careers.royalcaribbeangroup.com/",
+    "role_families": "Shoreside QA; onboard systems; technical delivery",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Software experience fits shoreside teams; shipboard IT is a different discipline/lifestyle.",
+    "research_notes": "Standby cruise perks advertised for land employees; shipboard and shoreside paths differ.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": "https://careers.royalcaribbeangroup.com/benefits-on-land/",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": null,
+    "source": "https://careers.royalcaribbeangroup.com/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:28-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

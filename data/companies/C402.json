@@ -1,0 +1,182 @@
+{
+  "company_id": "C402",
+  "tracker": {
+    "company_id": "C402",
+    "company": "HubSpot",
+    "sector": "Maine & New England",
+    "interests": "Cambridge MA; remote-friendly",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "hubspot",
+    "board_url": "https://job-boards.greenhouse.io/hubspot",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name HubSpot Product",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "CRM/marketing software; remote-friendly, likely QA/SDET roles. Domain not core interest but strong remote.",
+    "flags": "Remote-friendly; strong culture.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C402",
+    "career_url": "https://www.hubspot.com/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "hubspot",
+      "board_url": "https://job-boards.greenhouse.io/hubspot"
+    },
+    "remote_policy": {
+      "summary": "Remote-first hybrid company with three work options: @home (fully remote), @flex and @office. Most roles are eligible for all three; employees work from the country where they were hired.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.hubspot.com/careers/remote"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "HubSpot published an incident report about a February 2026 service disruption affecting workflows in its user interface.",
+          "date": "2026-02",
+          "url": "https://product.hubspot.com/blog/topic/engineering"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "HubSpot is a large CRM/marketing SaaS firm; remote-first and open to Maine, but its stack and domain (inbound marketing) sit far from the candidate's regulated, hardware-adjacent testing background, and no QA openings appeared.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Dharmesh Shah",
+        "title": "co-founder",
+        "source_url": "https://www.hubspot.com/careers"
+      }
+    ],
+    "approach_role": "co-founder",
+    "outreach_angle": "Fifteen years of test automation and regulated-domain quality leadership; I'd bring that release rigor to HubSpot's remote-first engineering org as a senior QA/SDET contributor or lead.",
+    "red_flags": "No QA roles listed; stack likely Java/Python rather than C#/.NET; no domain overlap with medical devices or hardware.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.hubspot.com/careers",
+      "https://www.hubspot.com/careers/remote",
+      "https://product.hubspot.com/blog/topic/engineering",
+      "https://www.hubspot.com/company-news/a-message-from-hubspot-ceo-yamini-rangan"
+    ],
+    "notes": "Greenhouse board (token: hubspot) showed zero QA openings. Remote-first hybrid, three work modes, Maine-eligible, hires by country. 5k+ employees; only stability signal is a Feb 2026 UI-workflow incident report, not financial. Only named person is co-founder Dharmesh Shah; no QA/engineering leader identified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.hubspot.com/careers",
+    "found": "greenhouse:hubspot (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,99 @@
+{
+  "company_id": "C749",
+  "tracker": {
+    "company_id": "C749",
+    "company": "Podium Entertainment",
+    "sector": "Books, history & media",
+    "interests": "Audiobooks (fantasy/litRPG)",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 3,
+    "stability": 3,
+    "remote": "Medium",
+    "size": "50-500",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "Director of Engineering",
+    "why": "Audiobook publisher for fantasy/litRPG; digital platform may need QA; strong fiction domain; remote from Maine uncertain.",
+    "flags": "Remote unknown; audiobook tech.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:28:07-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats",
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": null
+}

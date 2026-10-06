@@ -1,0 +1,173 @@
+{
+  "company_id": "C329",
+  "tracker": {
+    "company_id": "C329",
+    "company": "Greenlight Guru",
+    "sector": "Regulated healthtech",
+    "interests": "Medical device QMS - your FDA background",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "greenlightguru",
+    "board_url": "https://job-boards.greenhouse.io/greenlightguru",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Greenlight Guru",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "QA Engineer",
+      "Test Automation Engineer",
+      "Quality Engineering Lead"
+    ],
+    "approach": "VP of Quality",
+    "why": "Medical device QMS software; perfect fit with medical device and regulated experience.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C329",
+    "career_url": "https://www.greenlight.guru/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "greenlightguru",
+      "board_url": "https://job-boards.greenhouse.io/greenlightguru"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "Bootstrapped and self-funded, with no external investment reported.",
+          "date": null,
+          "url": "https://www.uplers.com/company/greenlight-guru-15042"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Greenlight Guru sells a QMS and product-development platform for medical device makers, so its users' regulated V&V and design-controls world matches the candidate's FDA background closely. No QA reqs posted and US-remote-to-Maine eligibility is unverified, so fit rests on domain",
+      "role_families": [
+        "QA engineering",
+        "test automation / SDET",
+        "computer systems validation & quality"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus hands-on FDA V&V and design-controls work means I can validate the exact regulated workflows your medical device customers depend on.",
+    "red_flags": "No QA openings listed; remote policy, headcount and Maine eligibility all unknown.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.greenlight.guru/careers",
+      "https://www.uplers.com/company/greenlight-guru-15042"
+    ],
+    "notes": "Bootstrapped, self-funded healthtech SaaS (Greenlight Guru) selling QMS software to medical device manufacturers; no external investment reported, which supports durability. Greenhouse board (token: greenlightguru) showed zero QA openings. No remote policy, size or leadership contacts verified — confirm US-remote-to-Maine eligibility and current test/quality headcount before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:greenlightguru (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

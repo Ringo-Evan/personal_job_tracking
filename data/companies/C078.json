@@ -1,0 +1,95 @@
+{
+  "company_id": "C078",
+  "tracker": {
+    "company_id": "C078",
+    "company": "Propel",
+    "sector": "Food access",
+    "interests": "SNAP/EBT benefits app, safety net",
+    "career_url": "https://hotfix.jobs/companies/propel",
+    "role_families": "Senior full stack; mobile; quality/release",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Remote US and well-paid, but hiring is full-stack dev (Python/Flask/Vue), not QA.",
+    "research_notes": "Verified in 09/30 search. Fresh EBT/Propel app used by 5.5M+ Americans. Sr Full Stack Engineer remote US $170K-240K. For-profit with social mission.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "US remote",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check if they have any QA/SDET staff",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "VP Engineering / Eng manager, mobile",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Propel",
+    "outreach_notes": "No dedicated QA roles seen - pitch mobile release quality for a 5M-user benefits app (weekly releases, EBT-theft protections)."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "propel",
+    "board_url": "https://jobs.ashbyhq.com/propel",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://hotfix.jobs/companies/propel",
+    "note": "embedded in https://www.propel.app/careers/",
+    "job_count": 6
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:06-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.propel.app/careers/",
+    "found": "ashby:propel (embedded in https://www.propel.app/careers/)",
+    "other": []
+  }
+}

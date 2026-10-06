@@ -1,0 +1,137 @@
+[
+ {
+  "company_id": "C248",
+  "company": "Shippo",
+  "board": "rippling:shippo",
+  "title": "Site Reliability Engineering Manager",
+  "location": "Remote (United States)",
+  "remote": null,
+  "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9"
+ },
+ {
+  "company_id": "C251",
+  "company": "Onfleet",
+  "board": "rippling:onfleet-careers",
+  "title": "Full-Stack Engineer (Quality & Automation)",
+  "location": "Brazil",
+  "remote": null,
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340"
+ },
+ {
+  "company_id": "C251",
+  "company": "Onfleet",
+  "board": "rippling:onfleet-careers",
+  "title": "Full-Stack Engineer (Quality & Automation)",
+  "location": "Mexico",
+  "remote": null,
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340"
+ },
+ {
+  "company_id": "C251",
+  "company": "Onfleet",
+  "board": "rippling:onfleet-careers",
+  "title": "Full-Stack Engineer (Quality & Automation)",
+  "location": "Canada",
+  "remote": null,
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340"
+ },
+ {
+  "company_id": "C251",
+  "company": "Onfleet",
+  "board": "rippling:onfleet-careers",
+  "title": "Full-Stack Engineer (Quality & Automation)",
+  "location": "Argentina",
+  "remote": null,
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340"
+ },
+ {
+  "company_id": "C345",
+  "company": "Beta Bionics",
+  "board": "breezy:beta-bionics-inc",
+  "title": "Senior Manufacturing Automation Engineer",
+  "location": "Irvine, CA",
+  "remote": false,
+  "url": "https://beta-bionics-inc.breezy.hr/p/3201d0a7058a-senior-manufacturing-automation-engineer"
+ },
+ {
+  "company_id": "C345",
+  "company": "Beta Bionics",
+  "board": "breezy:beta-bionics-inc",
+  "title": "Senior Manufacturing Test Engineer",
+  "location": "Irvine, CA",
+  "remote": false,
+  "url": "https://beta-bionics-inc.breezy.hr/p/6313e318c0ba-senior-manufacturing-test-engineer"
+ },
+ {
+  "company_id": "C345",
+  "company": "Beta Bionics",
+  "board": "breezy:beta-bionics-inc",
+  "title": "Staff Software Test Engineer",
+  "location": "San Diego, CA",
+  "remote": false,
+  "url": "https://beta-bionics-inc.breezy.hr/p/d5e53fdd98b7-staff-software-test-engineer"
+ },
+ {
+  "company_id": "C439",
+  "company": "Coforma",
+  "board": "pinpoint:coforma",
+  "title": "Evergreen Posting: Automated Test Engineer (SDET)",
+  "location": "Remote (select US states)",
+  "remote": "remote",
+  "url": "https://coforma.pinpointhq.com/en/postings/4a295089-e9c6-4adf-8e7b-be9d2e8ba3c3"
+ },
+ {
+  "company_id": "C652",
+  "company": "Testronic",
+  "board": "workable:testronic",
+  "title": "Country Head / QA Director (Manila)",
+  "location": "Mandaluyong, National Capital Region, Philippines",
+  "remote": false,
+  "url": "https://apply.workable.com/j/E7CBF203FD"
+ },
+ {
+  "company_id": "C652",
+  "company": "Testronic",
+  "board": "workable:testronic",
+  "title": "LQA Game Tester with Japanese",
+  "location": "Poland",
+  "remote": true,
+  "url": "https://apply.workable.com/j/F44092F173"
+ },
+ {
+  "company_id": "C652",
+  "company": "Testronic",
+  "board": "workable:testronic",
+  "title": "LQA Game Tester with Korean",
+  "location": "Warsaw, Masovian Voivodeship, Poland",
+  "remote": false,
+  "url": "https://apply.workable.com/j/BC83C04DD3"
+ },
+ {
+  "company_id": "C652",
+  "company": "Testronic",
+  "board": "workable:testronic",
+  "title": "Video Game Tester (Ranked Players - FPS, MOBA, RPG, Sports games)",
+  "location": "Mandaluyong, Metro Manila, Philippines",
+  "remote": false,
+  "url": "https://apply.workable.com/j/80D710F962"
+ },
+ {
+  "company_id": "C659",
+  "company": "Jagex",
+  "board": "workable:jagex-limited",
+  "title": "Senior QA Analyst - RuneScape: Dragonwilds",
+  "location": "Cambridge, England, United Kingdom",
+  "remote": false,
+  "url": "https://apply.workable.com/j/D95A3FF5F9"
+ },
+ {
+  "company_id": "C848",
+  "company": "Leupold",
+  "board": "workable:leupold",
+  "title": "Quality Engineer 2 - Metrology",
+  "location": "Beaverton, Oregon, United States",
+  "remote": false,
+  "url": "https://apply.workable.com/j/31CC602051"
+ }
+]

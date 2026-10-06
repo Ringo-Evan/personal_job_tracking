@@ -1,0 +1,140 @@
+{
+  "company_id": "C458",
+  "tracker": {
+    "company_id": "C458",
+    "company": "NIC (Tyler)",
+    "sector": "Enterprise & govtech",
+    "interests": "State portals",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Runs state government digital portals under Tyler Technologies; profitable, .NET-heavy govtech with large QA organizations.",
+    "flags": "Hybrid common at Tyler; confirm Maine-remote eligibility",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C458",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote work is permitted only for employees with prior approval; hardware problems must be resolved by coming to main campus.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://nic.teamdynamix.com/TDClient/1783/Portal/KB/Article/102351/Guidelines-for-NIC-employees-who-have-received-approval-to-use-NIC-hardware-to-work-remotely"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "NIC builds state government portals (DMV, licensing, benefits) for Tyler Technologies. Govtech domains are adjacent to the candidate's regulated, compliance-heavy testing background, but remote work needs prior approval and Maine eligibility is unverified, so fit is uncertain.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (no named leader in verified facts)",
+    "outreach_angle": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps well to testing high-stakes state portal transactions and compliance workflows.",
+    "red_flags": "Remote only with prior approval; campus visits required for hardware problems; Maine eligibility unknown; no verified QA openings.",
+    "confidence": "low",
+    "sources": [
+      "https://nic.teamdynamix.com/TDClient/1783/Portal/KB/Article/102351/Guidelines-for-NIC-employees-who-have-received-approval-to-use-NIC-hardware-to-work-remotely"
+    ],
+    "notes": "Verified: NIC is Tyler's govtech/state-portal arm. Remote permitted only with prior approval, hardware issues require main-campus presence, Maine eligibility unstated. No size, stability signals, QA openings or named people were verified, so treat stability and hiring difficulty as general-knowledge estimates for a large profitable public company.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

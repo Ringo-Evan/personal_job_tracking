@@ -1,0 +1,165 @@
+{
+  "company_id": "C694",
+  "tracker": {
+    "company_id": "C694",
+    "company": "Fantasy Grounds (SmiteWorks)",
+    "sector": "Games & stories",
+    "interests": "VTT",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 3,
+    "remote": "Medium",
+    "size": "<50",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Technical Director",
+    "why": "Established VTT using Unity/C#; strong TTRPG/C# match; likely remote but small QA team.",
+    "flags": "Small firm; remote QA openings uncertain.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C694",
+    "career_url": "https://www.fantasygrounds.com/home/JobOpportunities.php",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote-work policy stated; hiring shows a strong preference for applicants living in the United States.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.fantasygrounds.com/home/JobOpportunities.php"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "SmiteWorks announced Fantasy Grounds would become free for all users with no license required.",
+          "date": "2025-11",
+          "url": "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Fantasy Grounds (SmiteWorks) makes a virtual tabletop for TTRPGs, matching the candidate's games interest and C#/.NET skills. But no QA openings, no stated remote policy, and a recent free-to-use pivot leave fit uncertain.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Engineering (no named leader in facts)",
+    "outreach_angle": "Your 15 years of C#/.NET test automation in regulated, hardware-adjacent domains could help harden a VTT platform moving to a free, high-scale model.",
+    "red_flags": "No QA openings, remote policy unstated, and free-to-all pivot may signal revenue pressure.",
+    "confidence": "low",
+    "sources": [
+      "https://www.fantasygrounds.com/home/JobOpportunities.php",
+      "https://en.wikipedia.org/wiki/Fantasy_Grounds"
+    ],
+    "notes": "No job board or ATS found; no QA openings listed; remote policy unknown but US applicants preferred. Free-to-all announcement (Nov 2025) may change business model. Small team means few senior QA roles.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 3,
+      "fail_rate": 0.25,
+      "dropped": [
+        "people[0]: person's name is not in their quote"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.fantasygrounds.com/home/JobOpportunities.php",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

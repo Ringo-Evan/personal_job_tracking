@@ -1,0 +1,207 @@
+{
+  "company_id": "C492",
+  "tracker": {
+    "company_id": "C492",
+    "company": "Workday",
+    "sector": "Enterprise & govtech",
+    "interests": "HR/finance SaaS",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "workday|5|Workday",
+    "board_url": "https://workday.wd5.myworkdayjobs.com/Workday",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 378
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "Quality Engineering Lead",
+      "Test Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Large HR/finance SaaS; QA leadership roles likely, regulated-ish, but not candidate's interest sectors.",
+    "flags": "Java-centric stack; remote limited.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C492",
+    "career_url": "https://www.workday.com/en-us/company/careers/overview.html",
+    "ats": {
+      "type": "workday",
+      "token": "Workday",
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Job board shows Remote Type facets: Flex 328, Onsite 36, Remote 14; most roles are hybrid or flexible, with 172 postings in the United States.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://workday.wd5.myworkdayjobs.com/Workday/5/refreshFacet/318c8bb6f553100021d223d9780d30be"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Second round of 2026 layoffs affecting about 500 workers, roughly 2.5% of workforce, mainly product and technology.",
+          "date": null,
+          "url": "https://www.businessinsider.com/workday-conducting-layoffs-software-product-tech-team-2026-9"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Earlier 2026 layoff round cut about 400 employees in February.",
+          "date": null,
+          "url": "https://www.businessinsider.com/workday-conducting-layoffs-software-product-tech-team-2026-9"
+        },
+        {
+          "kind": "other",
+          "summary": "CEO change: Carl Eschenbach departed and cofounder Aneel Bhusri returned as chief executive.",
+          "date": null,
+          "url": "https://www.businessinsider.com/workday-conducting-layoffs-software-product-tech-team-2026-9"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Workday has been GAAP profitable in recent years with strong cash position and little debt.",
+          "date": null,
+          "url": "https://www.interviewpal.com/layoffs/workday"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company says it will keep hiring in strategic areas and locations through fiscal 2027.",
+          "date": null,
+          "url": "https://www.businessinsider.com/workday-conducting-layoffs-software-product-tech-team-2026-9"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Workday sells enterprise HR and finance SaaS at 5k+ scale, but mostly hybrid/flexible roles, few remote, QA openings not evident, and domain far from candidate's interests; regulated V&V background is only partial match.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Site Reliability Engineer (SRE)",
+        "location": "Unknown",
+        "work_mode": "Unknown",
+        "url": "https://www.workday.com/en-us/company/careers/engineering-and-technology.html"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "15 years in regulated medical-device V&V and C#/.NET automation maps to Workday's need for reliable, compliant enterprise releases; I'd bring rigorous test strategy to your platform quality.",
+    "red_flags": "Two 2026 layoff rounds (~900 roles) and CEO change; only SRE opening listed, remote-Maine eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.workday.com/en-us/company/careers/overview.html",
+      "https://workday.wd5.myworkdayjobs.com/Workday/5/refreshFacet/318c8bb6f553100021d223d9780d30be",
+      "https://www.businessinsider.com/workday-conducting-layoffs-software-product-tech-team-2026-9",
+      "https://www.interviewpal.com/layoffs/workday",
+      "https://www.workday.com/en-us/company/careers/engineering-and-technology.html"
+    ],
+    "notes": "Workday: 5k+ enterprise HR/finance SaaS. Remote policy mostly flex/hybrid; just 14 remote of 378 postings, Maine eligibility unknown. Two 2026 layoffs (~900) plus CEO change, but GAAP-profitable, strong cash. Only SRE QA-adjacent opening seen. Domain mismatch with candidate's listed interests.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:workday|5|Workday (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,166 @@
+{
+  "company_id": "C254",
+  "tracker": {
+    "company_id": "C254",
+    "company": "Vanderlande",
+    "sector": "IoT / location tech",
+    "interests": "Baggage handling systems",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "vanderlande|3|careers",
+    "board_url": "https://vanderlande.wd3.myworkdayjobs.com/careers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 193
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Low",
+    "size": "5k+",
+    "roles": [
+      "Test Engineer",
+      "QA Engineer",
+      "Automation Test Lead"
+    ],
+    "approach": "Engineering Manager",
+    "why": "Global baggage handling systems; hardware-adjacent and stable; roles often onsite at airports.",
+    "flags": "Mostly onsite/site-based",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C254",
+    "career_url": "https://careers.vanderlande.com/",
+    "ats": {
+      "type": "workday",
+      "token": "vanderlande|3|careers",
+      "board_url": "https://vanderlande.wd3.myworkdayjobs.com/careers"
+    },
+    "remote_policy": {
+      "summary": "Remote roles available in the United States.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.vanderlande.com/all-jobs/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 4,
+      "rationale": "Vanderlande builds logistics and baggage-handling automation; hardware-adjacent, regulated-adjacent work suits the candidate's V&V background. US-remote open to Maine, but no QA openings verified.",
+      "role_families": [
+        "SDET",
+        "test automation",
+        "quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Vanderlande's baggage-handling and logistics systems; ask about US-remote senior test roles supporting airport and warehouse automation.",
+    "red_flags": "No verified QA openings, contacts, or stability signals; remote policy summary lacks detail on role types.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.vanderlande.com/",
+      "https://careers.vanderlande.com/all-jobs/"
+    ],
+    "notes": "Verified: US-remote roles exist and Maine is eligible; 5k+ employees; sector listed as IoT/location tech (actual logistics/baggage automation). No job board, ATS, QA openings, or people found. Stability inferred from size and essential infrastructure, not from listed signals. Interest note cites baggage handling systems.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:vanderlande|3|careers (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

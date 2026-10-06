@@ -1,0 +1,189 @@
+{
+  "company_id": "C460",
+  "tracker": {
+    "company_id": "C460",
+    "company": "Harris Computer",
+    "sector": "Enterprise & govtech",
+    "interests": "Many vertical .NET products",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "harriscomputer|3|1",
+    "board_url": "https://harriscomputer.wd3.myworkdayjobs.com/1",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 242
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "Test Automation Engineer",
+      "QA Manager"
+    ],
+    "approach": "Director of QA",
+    "why": "Constellation subsidiary running hundreds of vertical .NET software businesses; frequent remote QA and SDET openings across regulated niches.",
+    "flags": "Hiring decentralized; apply to individual subsidiaries",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C460",
+    "career_url": "https://www.harriscomputer.com/careers",
+    "ats": {
+      "type": "workday",
+      "token": "harriscomputer|3|1",
+      "board_url": "https://harriscomputer.wd3.myworkdayjobs.com/1"
+    },
+    "remote_policy": {
+      "summary": "Most roles are remote or hybrid: 141 of 188 open vacancies (75%) allow remote or hybrid work, and US-remote QA roles list Maine among eligible locations.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://alion.io/company/harris-computer/jobs"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Third-party job aggregator reports 188 open roles at Harris Computer as of October 2026, 141 of them remote or hybrid.",
+          "date": "2026-10",
+          "url": "https://alion.io/company/harris-computer/jobs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Harris Computer is a Constellation Software group making vertical .NET software for utilities, healthcare and govtech, with US-remote roles open to Maine. Regulated healthcare and .NET automation work align well, though posted QA openings look analyst-level rather than senior or",
+      "role_families": [
+        "SDET / test automation",
+        "QA analyst / test engineer",
+        "release & quality engineering"
+      ]
+    },
+    "hiring_difficulty": 2,
+    "qa_openings": [
+      {
+        "title": "Quality Assurance Analyst",
+        "location": "United States - Remote (all states listed, incl. Maine)",
+        "work_mode": "Remote",
+        "url": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Florida-United-States/Quality-Assurance-Analyst_R0045003"
+      },
+      {
+        "title": "ServiceNow Administrator / Automation Analyst",
+        "location": "US and Canada - Remote (multiple provinces and states, incl. Maine)",
+        "work_mode": "Remote",
+        "url": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---Ontario/ServiceNow-Administrator---Automation-Analyst_R0046754"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (or VP of Engineering) for the relevant vertical",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps directly to Harris's healthcare and govtech verticals, where compliant, dependable release quality matters.",
+    "red_flags": "Posted QA roles are mid-level analyst positions; senior/lead QA openings unverified. Many autonomous business units can obscure real hiring authority.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.harriscomputer.com/careers",
+      "https://alion.io/company/harris-computer/jobs",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Florida-United-States/Quality-Assurance-Analyst_R0045003",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---Ontario/ServiceNow-Administrator---Automation-Analyst_R0046754"
+    ],
+    "notes": "Verified: 188 open roles (Oct 2026), 141 remote/hybrid; US-remote QA listings explicitly include Maine. Two QA-adjacent remote openings found (QA Analyst; ServiceNow Automation Analyst). No named contacts or headcount given. Parent Constellation Software implies durable, profitable, buy-and-hold ownership, but the only cited stability signal is hiring growth.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:harriscomputer|3|1 (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

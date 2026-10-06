@@ -1,0 +1,180 @@
+{
+  "company_id": "C463",
+  "tracker": {
+    "company_id": "C463",
+    "company": "Volaris Group",
+    "sector": "Enterprise & govtech",
+    "interests": "Constellation group",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "volarisgroup|3|Volaris",
+    "board_url": "https://volarisgroup.wd3.myworkdayjobs.com/Volaris",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 25
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "Test Automation Engineer",
+      "QA Lead"
+    ],
+    "approach": "Director of Engineering",
+    "why": "Constellation operating group acquiring vertical software firms; many .NET products and remote QA roles through its subsidiaries.",
+    "flags": "Find the specific subsidiary before applying",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C463",
+    "career_url": "https://volarisgroup.wd3.myworkdayjobs.com/Volaris",
+    "ats": {
+      "type": "workday",
+      "token": "volarisgroup|3|Volaris",
+      "board_url": "https://volarisgroup.wd3.myworkdayjobs.com/Volaris"
+    },
+    "remote_policy": {
+      "summary": "Listed with a hybrid remote policy; the aggregator page shows no open positions at this time.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://remotejobs.org/companies/volaris-group"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Completed hundreds of acquisitions and has never sold a business.",
+          "date": null,
+          "url": "https://www.volarisgroup.com/"
+        },
+        {
+          "kind": "other",
+          "summary": "Described as a global group of vertical market software businesses combining larger-organization stability with specialist teams.",
+          "date": null,
+          "url": "https://remotejobs.org/companies/volaris-group"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Volaris Group, a Constellation Software arm, buys and holds vertical-market software firms (govtech/enterprise). No open QA roles; hybrid remote eligibility for Maine unknown. Candidate's regulated medical-device testing and hardware-adjacent automation don't map to this portfolio.",
+      "role_families": [
+        "SDET",
+        "QA engineering (portfolio companies)",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Portfolio company Quality/Engineering Director",
+    "outreach_angle": "Your FDA-regulated V&V and .NET automation experience could help Volaris portfolio companies in healthcare or compliance-heavy verticals ship reliable software.",
+    "red_flags": "No open positions; no named QA contacts; Maine remote eligibility unclear.",
+    "confidence": "medium",
+    "sources": [
+      "https://volarisgroup.wd3.myworkdayjobs.com/Volaris",
+      "https://remotejobs.org/companies/volaris-group",
+      "https://www.volarisgroup.com/"
+    ],
+    "notes": "Verified: hybrid remote policy but Maine eligibility unknown; no open QA roles; no people listed. Stability signals: hundreds of acquisitions, never sells a business, described as larger-organization stability with specialist teams. No size data. QA likely sits in operating companies, not group.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:volarisgroup|3|Volaris (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

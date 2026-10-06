@@ -1,0 +1,196 @@
+{
+  "company_id": "C219",
+  "tracker": {
+    "company_id": "C219",
+    "company": "Geotab",
+    "sector": "IoT / location tech",
+    "interests": "Telematics; large .NET shop",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "geotab",
+    "board_url": "https://job-boards.greenhouse.io/geotab",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "Geotab",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "Test Automation Engineer",
+      "QA Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Large .NET telematics shop; strong C# test automation and hardware-adjacent fit, US-remote plausible.",
+    "flags": "Canada HQ; confirm US remote",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C219",
+    "career_url": "https://careers.geotab.com/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "geotab",
+      "board_url": "https://job-boards.greenhouse.io/geotab"
+    },
+    "remote_policy": {
+      "summary": "Hybrid work model balancing in-office and remote work, with some remote-location hiring.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.geotab.com/how-we-work/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Subscription base grew from 5M globally in Sept 2025 toward nearly 6M by early 2026, plus 1M EMEA.",
+          "date": "2025-09",
+          "url": "https://builtin.com/company/geotab/faq/stability-growth"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Acquired Verizon Connect's international commercial operations across nine European markets and Australia.",
+          "date": "2025-10",
+          "url": "https://builtin.com/company/geotab/faq/stability-growth"
+        },
+        {
+          "kind": "growth",
+          "summary": "Estimated headcount of 3,644 in 2025, roughly 27.7% year-over-year growth.",
+          "date": null,
+          "url": "https://builtin.com/company/geotab/faq/stability-growth"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Reports mention layoffs in 2025 alongside signals of hiring and expansion.",
+          "date": null,
+          "url": "https://builtin.com/company/geotab/faq/stability-growth"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Geotab is a large telematics/IoT firm and heavy .NET shop, matching the candidate's C#/.NET automation and location-tech interests, but its hybrid model leaves Maine eligibility unverified and no QA roles are posted.",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Marc Christelis",
+        "title": "Production and Quality Manager",
+        "source_url": "https://www.geotab.com/blog/quality-assurance-testing-vehicle-gps-devices/"
+      },
+      {
+        "name": "Radu Creosteanu",
+        "title": "Head of Driver Platform",
+        "source_url": "https://careers.geotab.com/"
+      }
+    ],
+    "approach_role": "Production and Quality Manager (Marc Christelis)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent systems maps well onto Geotab's telematics firmware and platform QA needs.",
+    "red_flags": "Hybrid model; Maine eligibility unverified; no QA openings posted; 2025 layoffs reported.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.geotab.com/",
+      "https://careers.geotab.com/how-we-work/",
+      "https://builtin.com/company/geotab/faq/stability-growth",
+      "https://www.geotab.com/blog/quality-assurance-testing-vehicle-gps-devices/"
+    ],
+    "notes": "Geotab: telematics/IoT, ~3,644 staff (2025, ~28% YoY growth), subscription base nearing 6M, acquired Verizon Connect's international operations (Oct 2025). Hybrid work with some remote-location hiring, but Maine eligibility unverified. No QA/SDET openings on the Greenhouse board. Layoffs also reported in 2025 despite expansion.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:33:09-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:34:44-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

@@ -1,0 +1,91 @@
+# Owner answers (plan section 0), recorded 2026-10-05:
+#   1. Runs on: the owner's personal Windows 11 PC, scheduled with Task Scheduler (not CI).
+#   2. Auth: logged-in Claude Code on that PC (`claude -p`); no API key needed locally.
+#   3. boards.py: not written yet; build boards/ from scratch.
+#   4. Models: Haiku for triage, Sonnet for verify (smallest that should pass acceptance checks).
+runtime: local            # local | gitlab
+auth: claude-code         # claude-code | api-key
+contact_email: "ringo.evan+jobsearch@gmail.com"   # sent in User-Agent; plus-address so mail can be filtered
+models:                   # legacy Claude path; triage now uses providers/routing below, verify moves in phase 5
+  triage: "claude-haiku-4-5-20251001"
+  verify: "claude-sonnet-5-5"
+triage:
+  batch_size: 20
+  timeout_s: 900          # per model call (router, plan-models Phase 4); local-large is slow
+verify:
+  per_run: 40
+  max_minutes: 120
+  timeout_s: 360
+  refresh_days: 45
+detect:
+  recheck_days: 30        # re-check unconfirmed/other boards this often; confirmed ones only when career_url changes
+watch:
+  interval_hours: 6
+  workday_enabled: true    # owner enabled 2026-10-05; unofficial API, failures are logged and skipped
+  workday_terms: ["quality", "test", "SDET", "QA"]
+filters:
+  title_include: '(?i)\b(qa|quality|test|tester|testing|sdet|set|verification|validation|v&v|automation|reliability|release|scrum master|agile coach)\b'
+  title_exclude: '(?i)\b(intern|internship|junior|jr\.?|apprentice|inspector|supplier quality|manufacturing quality|quality technician|food safety|test kitchen|clinical research|lab technician|nurse)\b'
+  maine_terms: ["maine", ", me", "bangor", "bar harbor", "ellsworth", "machias", "orono"]
+  remote_terms: ["remote", "anywhere", "work from home", "distributed"]
+  us_terms: ["us", "u.s.", "usa", "united states", "north america"]
+http:
+  min_interval_s_per_host: 1.0
+  cache_hours: 6
+ids:
+  job_prefix: "JW"
+  person_prefix: "PA"
+# Multi-model routing (plan-models.md §7). Hardware picked for 2026-10-05: RTX 2070 8 GB VRAM, 16 GB RAM.
+providers:
+  local:                  # fits fully in VRAM
+    # think: false is required on these small models: with thinking on, qwen3.5:9b spent 8k+ tokens thinking and
+    # returned nothing (tested 2026-10-05). num_ctx must fit prompt + output or Ollama silently truncates.
+    - {model: "ollama_chat/qwen3.5:9b", base_url: "http://localhost:11434", rpm: 0, rpd: 0,   # 0 = unlimited
+       extra: {think: false, num_ctx: 16384}}
+  local-large:            # partly offloaded to RAM; slow, fine for overnight triage
+    - {model: "ollama_chat/gemma4:12b", base_url: "http://localhost:11434", rpm: 0, rpd: 0,
+       extra: {think: false, num_ctx: 16384}}
+  # Gemini free tier (tested 2026-10-05: 3.5/3.1 flash-lite ok ~10 s; 3.8-flash 503 "high demand"; 2.5 retired).
+  # rpm/rpd are conservative guesses until checked against AI Studio's rate-limit page; a 429 benches the
+  # endpoint for the day either way. Free-tier prompts may be used for training: trimmed profile only.
+  free-cloud:
+    - {model: "gemini/gemini-3.5-flash-lite", key_env: GEMINI_API_KEY, rpm: 5, rpd: 200}
+    - {model: "gemini/gemini-3.1-flash-lite", key_env: GEMINI_API_KEY, rpm: 5, rpd: 200}
+  # more free-cloud examples; set rpm/rpd from each dashboard on the day:
+  #  - {model: "gemini/<flash-lite-model>", key_env: GEMINI_API_KEY, rpm: 10, rpd: 400}
+  #  - {model: "groq/<open-model>", key_env: GROQ_API_KEY, rpm: 20, rpd: 1000}
+  #  - {model: "openrouter/<model>:free", key_env: OPENROUTER_API_KEY, rpm: 15, rpd: 45}
+  # Owner's logged-in Claude Code (owner allowed this 2026-10-05, overriding plan-models §3). rpd caps calls per day
+  # so the pipeline can't eat the weekly limit: one triage call = 20 companies, about $0.08 API-equivalent with
+  # thinking (thinking off scores nearly everything fit 1-2, tested 2026-10-05).
+  # Codex first so ChatGPT usage is spent before Claude's. "default" = the account's default model; extra holds Codex
+  # `-c` overrides. The router only uses Codex for triage (it can run read-only shell commands; no web text).
+  subscription:
+    - {model: "codex-cli/default", rpd: 30, extra: {model_reasoning_effort: "low"}}
+    - {model: "claude-cli/claude-haiku-4-5-20251001", rpd: 30, extra: {thinking: true}}
+  # Owner OK'd DeepSeek, Grok, OpenAI APIs. DeepSeek: $20 prepaid balance (2026-10-05), no json_schema support.
+  paid-cheap:
+    - {model: "deepseek/deepseek-flash", key_env: DEEPSEEK_API_KEY, rpd: 300, json_mode: object}   # verify uses ~2 calls/company
+  #  - {model: "xai/<grok-mini-model>", key_env: XAI_API_KEY, rpd: 500}
+  #  - {model: "openai/<mini-model>", key_env: OPENAI_API_KEY, rpd: 500}
+  # (monthly_usd_cap is not enforced yet; cap spend in each provider's billing dashboard)
+profile_allowed_tiers: [local, local-large]   # add paid-cheap only if the owner agrees
+routing:
+  # Job scoring (Phase 6b, owner-approved 2026-10-05): same order as judge; DeepSeek sees profile-trimmed.md only.
+  posting_relevance: [paid-cheap, local]
+  triage: [paid-cheap, free-cloud, subscription, local-large]   # DeepSeek first: closest to Haiku, ~$0.01/40 companies; gemma4 inflates fit (dry runs 2026-10-05)
+  # Owner-approved 2026-10-05 after the 5-company tier comparison: DeepSeek grounded 92% of facts and found the most;
+  # qwen3.5:9b passed grounding mostly by claiming little. Judge on DeepSeek gets profile-trimmed.md only.
+  extract: [paid-cheap, free-cloud, local]
+  judge: [paid-cheap, local]
+search:
+  searxng_url: "http://127.0.0.1:8888"
+  fallback_api: null
+evidence:
+  max_pages: 8
+  max_chars_per_page: 6000
+  max_total_chars: 30000
+rank:                     # job scoring (python -m jobsearch rank)
+  per_run: 60
+  max_chars: 6000
+  timeout_s: 300

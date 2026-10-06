@@ -1,0 +1,165 @@
+{
+  "company_id": "C267",
+  "tracker": {
+    "company_id": "C267",
+    "company": "iRhythm Technologies",
+    "sector": "Regulated healthtech",
+    "interests": "Cardiac wearables",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "irhythmtech|5|irhythm",
+    "board_url": "https://irhythmtech.wd5.myworkdayjobs.com/irhythm",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 60
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Engineer"
+    ],
+    "approach": "Director of Quality",
+    "why": "Cardiac wearables; regulated medical devices; strong match; public but growth-stage.",
+    "flags": "Remote roles may exist",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C267",
+    "career_url": "https://www.irhythmtech.com/us/en/who-we-are/careers",
+    "ats": {
+      "type": "workday",
+      "token": "irhythmtech|5|irhythm",
+      "board_url": "https://irhythmtech.wd5.myworkdayjobs.com/irhythm"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "iRhythm makes FDA-cleared cardiac ambulatory monitors (Zio patch), a direct match to the candidate's medical-device V&V, design-controls and hardware-adjacent test background. Senior QA/SDET work is plausible, but remote-from-Maine eligibility and current openings are unverified.",
+      "role_families": [
+        "SDET / test automation",
+        "Medical device QA & V&V engineering",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience plus C#/.NET automation maps straight onto verifying iRhythm's cardiac wearable devices and their supporting software.",
+    "red_flags": "No verified remote policy, size, stability signals, QA openings or contacts; Maine-remote eligibility unknown.",
+    "confidence": "low",
+    "sources": [
+      "https://www.irhythmtech.com/us/en/who-we-are/careers"
+    ],
+    "notes": "Verified facts are thin: Workday board (irhythmtech), regulated healthtech, cardiac wearables; no remote policy, headcount, stability signals, QA openings or named people were captured. Treat fit as domain-based only. Confirm Maine-remote eligibility, senior QA/SDET requisitions and recent financial/layoff news before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:irhythmtech|5|irhythm (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

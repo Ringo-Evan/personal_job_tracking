@@ -1,0 +1,107 @@
+{
+  "company_id": "C790",
+  "tracker": {
+    "company_id": "C790",
+    "company": "UFC (TKO Group)",
+    "sector": "Martial arts & fitness",
+    "interests": "MMA; Fight Pass streaming",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "wwecorp|5|UFC",
+    "board_url": "https://wwecorp.wd5.myworkdayjobs.com/UFC",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 20
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 4,
+    "remote": "Low",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET, streaming",
+      "QA Engineer, Fight Pass",
+      "Test Manager"
+    ],
+    "approach": "Director of Quality Engineering, UFC Fight Pass",
+    "why": "MMA promotion plus Fight Pass streaming; sizeable software org with video-platform QA needs, but Las Vegas-centric with few Maine-remote test roles.",
+    "flags": "Las Vegas HQ; limited remote postings",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:wwecorp|5|UFC (linked from search results)",
+    "other": []
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "company_id": "C359",
+  "tracker": {
+    "company_id": "C359",
+    "company": "PTC",
+    "sector": "Maine & New England",
+    "interests": "Industrial software; Boston; owns Kepware",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "ptc|1|ptc",
+    "board_url": "https://ptc.wd1.myworkdayjobs.com/ptc",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 170
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Quality Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "PTC owns Kepware and sells industrial software; senior QA roles likely, remote-friendly, but Boston HQ.",
+    "flags": "Boston HQ; remote roles likely",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C359",
+    "career_url": "https://ptc.wd1.myworkdayjobs.com/ptc",
+    "ats": {
+      "type": "workday",
+      "token": "ptc|1|ptc",
+      "board_url": "https://ptc.wd1.myworkdayjobs.com/ptc"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Schneider Electric agreed to buy PTC in an all-cash deal valuing the company at $22.6 billion.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/PTC_Inc."
+        },
+        {
+          "kind": "revenue",
+          "summary": "PTC reported revenue of US$2.74 billion for fiscal 2025.",
+          "date": "2025-09",
+          "url": "https://en.wikipedia.org/wiki/PTC_Inc."
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "PTC makes industrial software (CAD, PLM, IoT, Kepware connectivity). Large, profitable, but remote policy unknown and no QA openings. Some hardware-adjacent fit, but domain mismatch with candidate's regulated medical testing. Acquisition by Schneider adds uncertainty.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Neil Barua",
+        "title": "President, CEO",
+        "source_url": "https://en.wikipedia.org/wiki/PTC_Inc."
+      }
+    ],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My 15 years in C#/.NET test automation and FDA-regulated hardware V&V maps to PTC's industrial IoT and Kepware connectivity products.",
+    "red_flags": "No remote policy or QA openings listed; Schneider acquisition could bring layoffs.",
+    "confidence": "medium",
+    "sources": [
+      "https://ptc.wd1.myworkdayjobs.com/ptc",
+      "https://en.wikipedia.org/wiki/PTC_Inc."
+    ],
+    "notes": "PTC: 5k+ industrial software (Kepware, IoT), $2.74B FY2025 revenue, being acquired by Schneider Electric. Remote policy unknown; no QA openings. Boston HQ is not commutable from Downeast Maine. CEO Neil Barua. Stability high but integration risk.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:ptc|1|ptc (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,91 @@
+{
+  "company_id": "C125",
+  "tracker": {
+    "company_id": "C125",
+    "company": "Habitat for Humanity International",
+    "sector": "Housing",
+    "interests": "Affordable housing; construction",
+    "career_url": "https://www.habitat.org/about/careers",
+    "role_families": "IT QA; enterprise systems",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Large nonprofit IT; Atlanta/Americus.",
+    "research_notes": "From general knowledge, not yet searched - verify. Also a homestead/construction skills overlap.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "IT director",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20director%20Habitat%20for%20Humanity%20International",
+    "outreach_notes": "Housing + building."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "habitat|12|External",
+    "board_url": "https://habitat.wd12.myworkdayjobs.com/External",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.habitat.org/about/careers",
+    "note": "",
+    "job_count": 5
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:34-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:03-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

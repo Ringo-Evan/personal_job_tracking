@@ -1,0 +1,177 @@
+{
+  "company_id": "C139",
+  "tracker": {
+    "company_id": "C139",
+    "company": "Samsara",
+    "sector": "IoT / location tech",
+    "interests": "Connected operations, fleet IoT",
+    "career_url": "https://www.samsara.com/company/careers",
+    "role_families": "SDET; QA; hardware-software integration",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Competitive, but IoT + mobile + API testing fits.",
+    "research_notes": "From general knowledge, not yet searched - verify. Remote-friendly IoT platform.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Search roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Eng manager, quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eng%20manager%2C%20quality%20Samsara",
+    "outreach_notes": "IoT/location testing."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "samsara",
+    "board_url": "https://job-boards.greenhouse.io/samsara",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.samsara.com/company/careers",
+    "note": "greenhouse token guessed from name; board name Samsara",
+    "job_count": null
+  },
+  "triage": null,
+  "research": {
+    "company_id": "C139",
+    "career_url": "https://www.samsara.com/company/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "samsara",
+      "board_url": "https://job-boards.greenhouse.io/samsara"
+    },
+    "remote_policy": {
+      "summary": "Flexible way of working: individuals and teams decide when and how often to come into the office or work from home, with offices, co-working spaces and home-office equipment offered.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.samsara.com/company/careers/benefits"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Samsara cut 300 employees, 18% of its workforce, citing the coronavirus downturn, mainly in Italy, Spain and Benelux.",
+          "date": null,
+          "url": "https://geminishippers.com/samsara-lays-off-18-of-workforce/"
+        },
+        {
+          "kind": "funding",
+          "summary": "Samsara raised $400 million in equity financing, bringing cash on hand to roughly $600 million.",
+          "date": null,
+          "url": "https://geminishippers.com/samsara-lays-off-18-of-workforce/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Samsara builds connected-operations IoT for fleets, with hardware and location telemetry that echo the candidate's RFID/indoor-location and test-equipment interests. A remote-US Quality Engineering leadership opening and Maine-eligible flexible policy make senior QA leadership genuinely plausible.",
+      "role_families": [
+        "QA leadership",
+        "SDET",
+        "quality engineering management"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Senior Manager, Quality Engineering",
+        "location": "Remote - US (San Francisco - SF9)",
+        "work_mode": "Remote",
+        "url": "https://www.samsara.com/company/careers/roles/8139255?gh_jid=8139255"
+      }
+    ],
+    "people": [],
+    "approach_role": "VP of Engineering (or Head of Quality Engineering)",
+    "outreach_angle": "15 years of C#/.NET automation and V&V in regulated, hardware-adjacent domains maps well to quality leadership over Samsara's camera and gateway firmware plus cloud platform.",
+    "red_flags": "Layoff history is undated; only one senior QA opening listed, so role pipeline may be thin.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.samsara.com/company/careers",
+      "https://www.samsara.com/company/careers/benefits",
+      "https://geminishippers.com/samsara-lays-off-18-of-workforce/",
+      "https://job-boards.greenhouse.io/samsara",
+      "https://www.samsara.com/company/careers/roles/8139255?gh_jid=8139255"
+    ],
+    "notes": "Remote policy: flexible, teams choose office/co-working/home, Maine eligible. Size 500-5k. Stability: past 300-person (18%) layoff tied to coronavirus downturn, but $400M raise with ~$600M cash. Only listed QA opening is Senior Manager, Quality Engineering (Remote - US).",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:43-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.samsara.com/company/careers",
+    "found": "greenhouse:samsara (greenhouse token guessed from name)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

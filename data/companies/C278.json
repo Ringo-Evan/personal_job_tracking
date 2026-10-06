@@ -1,0 +1,204 @@
+{
+  "company_id": "C278",
+  "tracker": {
+    "company_id": "C278",
+    "company": "Oracle Health (Cerner)",
+    "sector": "Regulated healthtech",
+    "interests": "EHR",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Automation Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "EHR platform; regulated healthtech, large company with remote roles, but less hardware-adjacent.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C278",
+    "career_url": "https://careers.oracle.com/en/sites/jobsearch",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Oracle cut about 30% of its Revenue and Health Sciences division, the unit housing Cerner/Oracle Health.",
+          "date": "2026-03",
+          "url": "https://www.kore1.com/oracle-health-layoffs-2026/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Oracle terminated roughly 30,000 employees in the largest workforce reduction in its history.",
+          "date": null,
+          "url": "https://tech-insider.org/oracle-layoffs-2026-30000-jobs-50-billion-ai-capex-stargate/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Kansas City, home of Cerner's legacy campus, confirmed 539 layoffs via WARN Act filings.",
+          "date": null,
+          "url": "https://www.kore1.com/oracle-health-layoffs-2026/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Oracle reported Q3 FY26 revenue of $17.2 billion, up 22% year over year.",
+          "date": null,
+          "url": "https://tech-insider.org/oracle-layoffs-2026-30000-jobs-50-billion-ai-capex-stargate/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Oracle Cloud Infrastructure grew 84% and remaining performance obligations backlog rose 325% to $553 billion.",
+          "date": null,
+          "url": "https://tech-insider.org/oracle-layoffs-2026-30000-jobs-50-billion-ai-capex-stargate/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "The VA's Oracle EHR contract grew from $10 billion to an estimated $37 billion amid delays and incidents.",
+          "date": null,
+          "url": "https://www.kore1.com/oracle-health-layoffs-2026/"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Oracle Health builds EHR software for regulated healthcare. Candidate's FDA medical device V&V background is adjacent, but recent 30% unit layoffs, no listed QA openings, and unknown remote policy make it a cautious fit.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Suhas Uliyar",
+        "title": "SVP of Product Management for Clinical and Healthcare AI",
+        "source_url": "https://www.kore1.com/oracle-health-layoffs-2026/"
+      },
+      {
+        "name": "Sanga Viswanathan",
+        "title": "EVP of Health",
+        "source_url": "https://www.kore1.com/oracle-health-layoffs-2026/"
+      }
+    ],
+    "approach_role": "EVP of Health",
+    "outreach_angle": "My FDA-regulated medical device V&V and test automation experience aligns with Oracle Health's need for rigorous quality in EHR systems; I'd welcome discussing senior QA roles.",
+    "red_flags": "Recent 30% layoffs in unit, no listed QA openings, remote policy unknown.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.oracle.com/en/sites/jobsearch",
+      "https://www.kore1.com/oracle-health-layoffs-2026/",
+      "https://tech-insider.org/oracle-layoffs-2026-30000-jobs-50-billion-ai-capex-stargate/"
+    ],
+    "notes": "Remote policy not stated. Stability: Oracle cut 30% of Revenue/Health Sciences (30k company-wide, 539 WARN in KC), though parent revenue up 22% and VA contract grew to $37B. No QA openings listed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 11,
+      "kept": 11,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.oracle.com/careers/opportunities/health-careers/",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

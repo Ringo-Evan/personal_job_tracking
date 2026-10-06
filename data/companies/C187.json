@@ -1,0 +1,164 @@
+{
+  "company_id": "C187",
+  "tracker": {
+    "company_id": "C187",
+    "company": "Progress Software",
+    "sector": "Test tooling",
+    "interests": "Telerik (.NET UI), Test Studio",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "Solutions Engineer",
+      "Quality Engineer"
+    ],
+    "approach": "Product Manager",
+    "why": "Test Studio testing product; .NET primary stack match; public company",
+    "flags": "Large corp; verify senior SDET in Test Studio",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C187",
+    "career_url": "https://www.progress.com/company/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Work mode varies by role and business need: hybrid (office plus remote), resident (mainly in the office), or fully remote. US openings include roles listed as Remote, United States.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.progress.com/company/careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Progress completed the acquisition of Domo's AI and data platform business, announced on its careers page.",
+          "date": null,
+          "url": "https://www.progress.com/company/careers"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Progress sells enterprise infrastructure and .NET dev tooling, including Telerik and Test Studio, squarely in the candidate's C# test-automation wheelhouse. US-remote roles are open to Maine. However, no QA openings are posted and the product lines are small, so a",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (Telerik/Test Studio)",
+    "outreach_angle": "Fifteen years of C#/.NET automation and FDA-regulated V&V; as a Test Studio/Telerik user, I can speak to your customers' verification pain and help harden the tooling itself.",
+    "red_flags": "No public QA openings; growth is acquisition-led, so teams and headcount shift; some product lines are small.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.progress.com/company/careers"
+    ],
+    "notes": "Progress: 500-5k employees; work mode hybrid, resident, or fully remote, with US openings listed Remote and Maine-eligible. Recent acquisition of Domo's AI/data platform signals active M&A. No QA reqs or named QA leaders found; Telerik/Test Studio is the closest domain match for a senior .NET test engineer.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.progress.com/company/careers",
+    "found": null,
+    "other": [
+      "jobvite https://jobs.jobvite.com/progress/jobs"
+    ],
+    "careers_page_note": "uses jobvite"
+  },
+  "verify_rejects": 0
+}

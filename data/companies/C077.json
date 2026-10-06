@@ -1,0 +1,83 @@
+{
+  "company_id": "C077",
+  "tracker": {
+    "company_id": "C077",
+    "company": "Recidiviz",
+    "sector": "Criminal justice reform",
+    "interests": "Criminal justice reform, data",
+    "career_url": "https://job-boards.greenhouse.io/recidiviz",
+    "role_families": "Implementation engineering; data QA; platform engineering",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Implementation work is ingest + integration testing + validation - close to your API/data testing; small nonprofit.",
+    "research_notes": "Verified in 09/30 search. Tech nonprofit (51-200) partnering with state corrections agencies. All indexed roles remote-friendly; hires remotely in US. Implementation Engineer posted Aug 2026, ~10% travel.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "US remote",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Read engineering blog; find eng leads on LinkedIn",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Head of Engineering / Implementation Engineering lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Recidiviz",
+    "outreach_notes": "Pitch: you validate messy real-world integrations for a living (RFID/BLE sensor data, FDA traceability). Offer to own test strategy for state data ingest."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "recidiviz",
+    "board_url": "https://job-boards.greenhouse.io/recidiviz",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://job-boards.greenhouse.io/recidiviz",
+    "note": "Recidiviz",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:52-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

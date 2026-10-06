@@ -1,0 +1,181 @@
+{
+  "company_id": "C567",
+  "tracker": {
+    "company_id": "C567",
+    "company": "Bitwarden",
+    "sector": "Remote-first software",
+    "interests": "Remote password manager; .NET/C# backend!",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "bitwarden",
+    "board_url": "https://job-boards.greenhouse.io/bitwarden",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://bitwarden.com/careers/; token guessed from name; page mentions greenhouse; board name Bitwarden",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "Head of Engineering",
+    "why": "Remote-first password manager with .NET/C# backend; strong skill match, no hardware/regulated; good fit.",
+    "flags": "No hardware/regulated focus",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C567",
+    "career_url": "https://bitwarden.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "bitwarden",
+      "board_url": "https://job-boards.greenhouse.io/bitwarden"
+    },
+    "remote_policy": {
+      "summary": "Fully distributed company; job postings are labeled Remote, U.S. and the team is all-remote, with Eastern U.S. time zone preferred.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://bitwarden.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Bitwarden states it is growing quickly and is actively hiring across teams.",
+          "date": null,
+          "url": "https://bitwarden.com/careers/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Bitwarden is a fully remote, fast-growing password manager with a .NET/C# stack, matching the candidate's core skills and Maine-eligible remote policy. Its FedRAMP compliance work touches regulated testing, though no QA-specific roles appear in the verified postings.",
+      "role_families": [
+        "SDET",
+        "test automation engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Senior Site Reliability Engineer - FedRAMP",
+        "location": "Remote, U.S. (US Remote)",
+        "work_mode": "Remote",
+        "url": "https://bitwarden.com/careers/7866857003/?gh_jid=7866857003"
+      }
+    ],
+    "people": [],
+    "approach_role": "VP of Engineering (no named leader in facts)",
+    "outreach_angle": "Your 15 years in C#/.NET test automation and FDA-regulated V&V map directly to Bitwarden's .NET codebase and FedRAMP compliance testing needs.",
+    "red_flags": "Only an SRE posting is verified; no QA/SDET reqs listed, so timing of quality openings is uncertain.",
+    "confidence": "medium",
+    "sources": [
+      "https://bitwarden.com/careers/",
+      "https://job-boards.greenhouse.io/bitwarden",
+      "https://bitwarden.com/careers/7866857003/?gh_jid=7866857003"
+    ],
+    "notes": "Remote-first, all-remote team, postings labeled Remote U.S., Eastern time preferred, Maine eligible. States it is growing and hiring. Verified posting is Senior SRE - FedRAMP; no QA/SDET openings listed. Security/subscription product, venture-backed, likely durable but not public sector.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://bitwarden.com/careers/",
+    "found": "greenhouse:bitwarden (embedded in https://bitwarden.com/careers/)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

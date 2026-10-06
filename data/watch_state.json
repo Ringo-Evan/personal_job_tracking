@@ -1,0 +1,1152 @@
+{
+  "boards": {
+    "greenhouse:hudl": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:hasbro": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "lever:larian": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:flosports": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:ScribdInc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:moveonorg": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:kickstarter": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:axon": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:ruger|1|External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:saronic": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:gadventures|3|GAdventures": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:halter": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:husqvarnagroup|3|External_Career_Site": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:insulet|5|insuletcareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:athenahealth|1|External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:impinjexternal": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:recidiviz": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bitfocus": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:ophelia": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:colonist": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:smartbear": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:tricentis|1|Tricentis_Careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:browserstack|3|External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:unum|1|External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "lever:wattpad": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:habitat|12|External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:ameelio": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:verainstituteofjustice": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:zebra|501|Zebra_careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:testlio": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:saucelabs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mabl": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:kontakt": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:geotab": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:dexcom|1|Dexcom": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:abbott|5|abbottcareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:medtronic|1|MedtronicCareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:stryker|1|StrykerCareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:baxter|1|baxter": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:resmed|3|Brightree_External_Careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:motorolasolutions|5|Careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:duckcreek|1|duckcreekcareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:discord": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:zillow|5|Zillow_Group_External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:national": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:cypressio": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:gitlab": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:qawolf": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:grafanalabs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:circleci": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:pulumicorporation": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "smartrecruiters:AveryDennison": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:trimble|1|TrimbleCareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:shipbobinc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:flexport": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:project44": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:fourkites": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:stord|503|Stord_External_Career": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:tandemdiabetes|12|tandemdiabetes": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:philips|3|jobs-and-careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:onehealthineers|3|SHSJB": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:irhythmtech|5|irhythm": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:butterflynetwork": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:nuancelabs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:wellsky|1|WellSkyCareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:oura": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:whoop": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:pelago": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:monumenthealth|1|Goldcareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "lever:redoxengine": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:healthgorilla": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:flatironhealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:benchling": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:dotmatics": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mastercontrol": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:greenlightguru": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:iqvia|1|IQVIA": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:clarioclinical|1|clarioclinical_careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "lever:emburse": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:ptc|1|ptc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:maine|5|Executive": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:hubspot": {
+      "consecutive_failures": 1,
+      "last_ok_at": "2026-10-05T22:07:08-04:00",
+      "last_error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs",
+      "last_error_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:draftkings|1|DraftKings": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:simplisafe": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:arlo|12|External_Careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:navapbc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:skylighthq": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:trussworksinc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:oddball": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:agilesix": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "smartrecruiters:Granicus1": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:opengov": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:accela": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:harriscomputer|3|1": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:talentmanagementsolution|3|JonasSoftwareUSA": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:volarisgroup|3|Volaris": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:nationwide|1|Nationwide_Career": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:workday|5|Workday": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:fiserv|5|EXT": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:fis|5|SearchJobs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:alkami|12|Alkami": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:bitwarden": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:patreon": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:wikimedia": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:elastic": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:inductive-automation-llc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:bungie": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "smartrecruiters:KeywordsStudios": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:unitytech|1|Unity": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "greenhouse:zyngacareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:tripwireinteractive": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "lever:backerkit": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:ebay|5|TCGPlayer_External_Career": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:pokemoncareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:volarisgroup|3|EnvisionWare": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:myheritage": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:peloton": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:catapultsports": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:tactacam": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:traegergrills": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:weber|115|WB": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:sabre|1|SabreJobs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:amadeus|502|jobs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "ashby:hopper": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:KAYAK": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:priceline|1|BookingHoldings": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:priceline|1|Priceline": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:tripadvisor": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:getyourguide": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:cloudbeds": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:agilysys": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:granular-energy.com": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:bonterra|1|ngpvan": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:uniteus": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "lever:findhelp": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:Promise": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:brave": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:clicktherapeutics": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "lever:epoch-ai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "workday:mitre|5|MITRE": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:Applied": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:langchain": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "ashby:Abridge": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:suki": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "ashby:hippocratic ai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-05T22:07:08-04:00"
+    },
+    "greenhouse:action": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:actblue": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:aylo": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mantis": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:anthropic": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:roblox": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:carbonrobotics": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:codeforamerica": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bicyclehealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bouldercare": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:workithealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:foundry": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:leap": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:propublica": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:themarshallproject": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:goodr": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:lisc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:ithaka": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:aclu": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:brennan": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:thelastmile": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:centerforemploymentopportunities": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:lex": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:general": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mit": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:spacex": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:rocketlab": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:relativity": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:planetlabs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:blacksky": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:wing": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:folxhealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:agilityrobotics": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:figureai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:waymo": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:kodiak": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:motional": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:plume": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:epirus": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:chaosindustries": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:castelioncorporation": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:scaleai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:arizeai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:patronusaiinc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:galileo": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:labelbox": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:snorkelai": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:community": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:samsara": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:datadog": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:jetbrains": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:honeycomb": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:newrelic": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:pagerduty": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:launchdarkly": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:jfrog": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:octopusdeploy": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:veracode": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:gomotive": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:life360": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:locusrobotics": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bringg": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:swordhealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:omadahealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:amwell": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:talkspacetherapist": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:hs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:1uphealth": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:ketryx": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:science37": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:memic": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bottomlinetechnologies": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:kaseya": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:toast": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:klaviyocampus": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:everquote": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:formlabs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:ruelala": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bloomworks": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:aquia": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mark43": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:gusto": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bamboohr17": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:blend": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:billcom": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:bloomerang": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:d2l": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:khanacademy": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:duolingo": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:coursera": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:clever": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:seesaw": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:automatticcareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:ghost": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mozilla": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:proton": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:tailscale": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mattermost": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:sourcegraph91": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:vercel": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:netlifyexplorecareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:planetscale": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:cloudflare": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:twilio": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:airtable": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:smartsheet": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:asana": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:calendly": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:dropbox": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:okta": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:stripe": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:reddit": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:medium": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mongodb": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:couchbaseinc": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:fivetran": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:starburst": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:riotgames": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:epicgames": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:firaxis": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:scopely": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:turbineone": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:historynet": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:mindbody": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:onxmaps": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:outsideinteractive": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:indigo": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "greenhouse:hellotend": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:16:07-04:00"
+    },
+    "workday:talentmanagementsolution|3|perseus-careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:bah|1|BAH_Jobs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:thehartford|5|Careers_External": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:usaa|1|USAAJOBSWD": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:ncino|5|nCinoCareers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:epicorsoftware|5|epicorjobs": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:autodesk|1|Ext": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:mrisoftware|501|External_CareerSite": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:bonterra|1|bonterratech": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:bigcommerce|12|Commerce": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:wwecorp|5|UFC": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:academy|1|Careers": {
+      "consecutive_failures": 0,
+      "last_ok_at": "2026-10-06T09:34:29-04:00"
+    },
+    "workday:elanco|5|External_Career": {
+      "consecutive_failures": 1,
+      "last_error": "unexpected workday response shape: KeyError: 'externalPath'",
+      "last_error_at": "2026-10-06T09:34:29-04:00"
+    }
+  },
+  "last_run_at": "2026-10-06T09:34:29-04:00"
+}

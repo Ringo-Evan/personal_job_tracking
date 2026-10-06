@@ -1,0 +1,164 @@
+{
+  "company_id": "C183",
+  "tracker": {
+    "company_id": "C183",
+    "company": "Pulumi",
+    "sector": "Test tooling",
+    "interests": "Infra as code",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "pulumicorporation",
+    "board_url": "https://job-boards.greenhouse.io/pulumicorporation",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Pulumi",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "SDET",
+      "Quality Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "VP Engineering",
+    "why": "IaC testing expertise; modern startup; remote-friendly culture",
+    "flags": "Smaller company; verify senior role availability",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C183",
+    "career_url": "https://www.pulumi.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "pulumicorporation",
+      "board_url": "https://job-boards.greenhouse.io/pulumicorporation"
+    },
+    "remote_policy": {
+      "summary": "Fully remote company since March 2020; unless otherwise specified, all open positions are remote.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.pulumi.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Pulumi is a fully remote test-tooling company eligible for Maine residents. It fits Evan's tooling interests and offers stability in cloud infra, but the sector lacks direct domain overlap with his medical/RFID experience.",
+      "role_families": [
+        "SDET/Quality Engineering",
+        "Release Engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Hiring Manager for Software Engineers or Quality Engineer",
+    "outreach_angle": "Your deep expertise in test automation and tooling aligns with Pulumi's mission to improve developer workflows, offering a chance to build scalable quality solutions remotely from Maine.",
+    "red_flags": "",
+    "confidence": "high",
+    "sources": [
+      "https://www.pulumi.com/careers/"
+    ],
+    "notes": "Fully remote since 2020; Maine-eligible positions exist. Stability appears high given the essential nature of infrastructure tooling and cloud-native status.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "ollama_chat/qwen3.5:9b"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:pulumicorporation (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

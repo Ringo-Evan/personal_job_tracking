@@ -1,0 +1,173 @@
+{
+  "company_id": "C739",
+  "tracker": {
+    "company_id": "C739",
+    "company": "Pokemon Company International",
+    "sector": "Games & stories",
+    "interests": "Bellevue",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "pokemoncareers",
+    "board_url": "https://job-boards.greenhouse.io/pokemoncareers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://corporate.pokemon.com/en-us/careers/; The Pokémon Company International",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Pokemon brand owner; digital games/apps need QA; strong games domain; Bellevue hybrid may limit remote from Maine.",
+    "flags": "Bellevue hybrid; remote unknown.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C739",
+    "career_url": "https://corporate.pokemon.com/en-us/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "pokemoncareers",
+      "board_url": "https://job-boards.greenhouse.io/pokemoncareers"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "TPCi describes itself as the fastest-growing global organization in the children's entertainment industry, with offices in Bellevue, London, Dublin and Mexico City.",
+          "date": null,
+          "url": "https://job-boards.greenhouse.io/pokemoncareers"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "The Pokémon Company International is the Bellevue-based brand/consumer-products arm of Pokémon — a games-adjacent sector the candidate likes, but its QA work is on-site in Washington with no stated remote policy and no posted QA roles.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (no named leader in verified facts)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation and V&V in regulated, hardware-adjacent domains maps well to Pokémon's product QA and release tooling if you hire remote from Maine.",
+    "red_flags": "No remote policy stated; no QA openings listed; HQ in Bellevue, far from Downeast Maine.",
+    "confidence": "low",
+    "sources": [
+      "https://corporate.pokemon.com/en-us/careers/",
+      "https://job-boards.greenhouse.io/pokemoncareers"
+    ],
+    "notes": "Verified: Greenhouse board (pokemoncareers), no QA requisitions, no named QA leaders, remote policy unstated. Stability is strong — self-described fastest-growing children's entertainment organization with Bellevue, London, Dublin, Mexico City offices. Treat as a speculative, games-sector target only if a remote QA posting appears.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://corporate.pokemon.com/en-us/careers/",
+    "found": "greenhouse:pokemoncareers (embedded in https://corporate.pokemon.com/en-us/careers/)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

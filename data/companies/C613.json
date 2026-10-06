@@ -1,0 +1,213 @@
+{
+  "company_id": "C613",
+  "tracker": {
+    "company_id": "C613",
+    "company": "Wikimedia Foundation",
+    "sector": "Remote-first software",
+    "interests": "Remote nonprofit; access to information",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "wikimedia",
+    "board_url": "https://job-boards.greenhouse.io/wikimedia",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Wikimedia Foundation",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Engineer"
+    ],
+    "approach": "Engineering Manager, Quality Engineering",
+    "why": "Nonprofit operating Wikipedia; remote-first, mission fits access-to-information interest, steady but modest QA hiring.",
+    "flags": "Nonprofit pay below market; slow hiring.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C613",
+    "career_url": "https://wikimediafoundation.org/jobs/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "wikimedia",
+      "board_url": "https://job-boards.greenhouse.io/wikimedia"
+    },
+    "remote_policy": {
+      "summary": "Openings, including QA and reliability roles, are listed as Remote with no location restrictions stated in the postings.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://job-boards.greenhouse.io/wikimedia"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Reported layoffs at the Wikimedia Foundation prompted editor strike and banner-sabotage plans.",
+          "date": null,
+          "url": "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Six Community Engineering staff were laid off after responsibility for the Community Wishlist moved.",
+          "date": null,
+          "url": "https://www.pcmag.com/news/wikipedia-editors-could-strike-following-layoffs"
+        },
+        {
+          "kind": "revenue",
+          "summary": "The Wikimedia Foundation reported over $200 million in revenue for the 2025 financial year.",
+          "date": null,
+          "url": "https://www.pcmag.com/news/wikipedia-editors-could-strike-following-layoffs"
+        },
+        {
+          "kind": "other",
+          "summary": "Nonprofit organization funded by donations from millions of individuals worldwide.",
+          "date": null,
+          "url": "https://job-boards.greenhouse.io/wikimedia"
+        },
+        {
+          "kind": "other",
+          "summary": "Staff union Wiki Workers United formed earlier this year; the foundation denies layoffs are connected.",
+          "date": null,
+          "url": "https://www.pcmag.com/news/wikipedia-editors-could-strike-following-layoffs"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Wikimedia Foundation runs Wikipedia and related knowledge projects, donation-funded with $200M+ revenue. Remote QA Manager and SRE roles are posted, so a senior test-automation leader fits quality leadership, though the content-tech stack differs from .NET and recent layoffs signal turbulence.",
+      "role_families": [
+        "QA leadership",
+        "SDET / test automation",
+        "release & reliability engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Software Quality Manager",
+        "location": "Remote",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8137733"
+      },
+      {
+        "title": "Senior Site Reliability Engineer, Wikimedia Enterprise",
+        "location": "Remote",
+        "work_mode": "Remote",
+        "url": "https://wikimediafoundation.org/jobs/"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Engineering (no named QA leader in verified facts)",
+    "outreach_angle": "Fifteen years building test automation and V&V for regulated, high-stakes systems maps to keeping Wikipedia's quality bar high; I'd welcome discussing the Software Quality Manager role and remote-from-Maine logistics.",
+    "red_flags": "Recent layoffs and a union dispute suggest turbulence; Maine eligibility of 'Remote' postings is unstated; stack is PHP/JavaScript, not C#/.NET.",
+    "confidence": "medium",
+    "sources": [
+      "https://wikimediafoundation.org/jobs/",
+      "https://job-boards.greenhouse.io/wikimedia",
+      "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491",
+      "https://www.pcmag.com/news/wikipedia-editors-could-strike-following-layoffs",
+      "https://job-boards.greenhouse.io/wikimedia/jobs/8137733"
+    ],
+    "notes": "Software Quality Manager and Senior SRE roles posted Remote with no stated location restriction; confirm Maine eligibility. Foundation reports $200M+ FY2025 revenue, donation-funded. Recent Community Engineering layoffs and Wiki Workers United union activity signal instability. No named engineering leaders in verified facts; core stack is MediaWiki/PHP, not .NET.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 11,
+      "kept": 11,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:wikimedia (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

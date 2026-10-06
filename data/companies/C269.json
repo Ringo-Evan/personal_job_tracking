@@ -1,0 +1,185 @@
+{
+  "company_id": "C269",
+  "tracker": {
+    "company_id": "C269",
+    "company": "Hologic",
+    "sector": "Regulated healthtech",
+    "interests": "Imaging; Marlborough MA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "Test Automation Engineer",
+      "Quality Manager"
+    ],
+    "approach": "QA Manager",
+    "why": "Imaging and diagnostics; regulated medical devices; strong match; Marlborough site likely onsite.",
+    "flags": "Marlborough onsite likely",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C269",
+    "career_url": "https://careers.hologic.com/en/search",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote and hybrid schedules are described as available in a number of office-based roles, with flexible hours; field service roles carry 24/7 on-call and travel.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/hologic/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Hologic laid off 190 workers in Finland and France as it discontinued certain Mobidiag diagnostics products; severance cost about $12.2M.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/hologic-facility-closures-diagnostics-layoffs/711536/"
+        },
+        {
+          "kind": "other",
+          "summary": "CFO said Hologic has avoided large-scale layoffs by carefully managing hiring levels.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/hologic-facility-closures-diagnostics-layoffs/711536/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Third-party guide lists Hologic's approximate annual revenue at $3.37B.",
+          "date": null,
+          "url": "https://claveprep.com/blog/hologic-layoff-signals-guide-2026"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Hologic is a large regulated medical-device and diagnostics maker, matching the candidate's FDA V&V background, but the only listed QA opening is risk-management quality in MA/CO and Maine remote eligibility is unknown.",
+      "role_families": [
+        "QA engineering",
+        "medical device V&V / design controls",
+        "test automation / SDET"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Lead Risk Management Quality Engineer",
+        "location": "Marlborough, MA, United States; Louisville, CO, United States",
+        "work_mode": "Unknown",
+        "url": "https://careers.hologic.com/en/search"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of FDA-regulated device V&V and design-controls testing, with C#/.NET automation tooling—offer to strengthen Hologic's quality engineering and risk-management workflows.",
+    "red_flags": "Maine remote eligibility unknown; recent diagnostics layoffs; the listed QA role is risk-management, not test automation, and based in MA/CO.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.hologic.com/en/search",
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+      "https://builtin.com/company/hologic/faq/work-life-balance-wellbeing",
+      "https://www.medtechdive.com/news/hologic-facility-closures-diagnostics-layoffs/711536/",
+      "https://claveprep.com/blog/hologic-layoff-signals-guide-2026"
+    ],
+    "notes": "Hologic: ~5k staff, ~$3.37B revenue, medtech/diagnostics. Remote/hybrid offered for some office roles but Maine eligibility unknown; one QA posting (Lead Risk Management Quality Engineer, MA/CO). 190 layoffs in Finland/France from Mobidiag wind-down; CFO cites no large-scale layoffs.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.hologic.com/en/search",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

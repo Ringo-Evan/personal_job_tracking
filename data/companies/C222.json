@@ -1,0 +1,155 @@
+{
+  "company_id": "C222",
+  "tracker": {
+    "company_id": "C222",
+    "company": "Hexagon",
+    "sector": "IoT / location tech",
+    "interests": "Sensors/positioning software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Sensors and positioning software; hardware-adjacent test domain fits, large stable employer.",
+    "flags": "Swedish HQ; US remote unclear",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C222",
+    "career_url": "https://hexagongroup.com/career",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "The careers page mentions remote opportunities alongside worldwide offices; no formal remote-work policy or geographic eligibility details are stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.hexagonpositioning.com/join-us"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Hexagon makes IoT positioning and sensor software, aligning with the candidate's hardware-adjacent test background. But no remote-from-Maine policy, QA openings, or named leaders are verified; fit is plausible yet unproven.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "With 15 years in regulated C#/.NET automation and hardware-adjacent V&V, I could support Hexagon's sensor/positioning QA needs — are remote roles open to Maine?",
+    "red_flags": "No remote-policy details, no QA openings, no Maine presence verified.",
+    "confidence": "low",
+    "sources": [
+      "https://hexagongroup.com/career",
+      "https://careers.hexagonpositioning.com/join-us"
+    ],
+    "notes": "Large public IoT/location tech firm (500-5k employees). No verified QA openings, remote policy, or Maine eligibility. Stability signals absent but size suggests durability. Sensor/positioning domain aligns with candidate's hardware-adjacent testing; no named leaders to approach. Search SDET/QA roles in geospatial or manufacturing divisions.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://hexagon.com/about/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

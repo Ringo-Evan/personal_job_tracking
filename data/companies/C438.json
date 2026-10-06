@@ -1,0 +1,156 @@
+{
+  "company_id": "C438",
+  "tracker": {
+    "company_id": "C438",
+    "company": "Ad Hoc",
+    "sector": "Enterprise & govtech",
+    "interests": "Gov digital services; remote",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 3,
+    "remote": "High",
+    "size": "50-500",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Automation Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Remote-first gov digital services firm; regularly hires senior QA and test automation engineers on federal projects.",
+    "flags": "Contract-funded; hiring tied to award cycles.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C438",
+    "career_url": "https://adhoc.team/careers/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Team members live in over 45 states, from Maine to California, plus DC; Ad Hoc builds a nationwide remote team.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://adhoc.team/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Ad Hoc builds and modernizes government digital services (VA, Medicare, etc.) for US agencies. Remote-first, Maine eligible. Govtech aligns with candidate's interest; regulated healthcare work suits V&V background, though hardware/RFID gap.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and test automation experience maps directly to Ad Hoc's healthcare.gov and VA digital services, where rigorous quality engineering protects millions of users.",
+    "red_flags": "No QA openings posted; stability tied to gov contracts.",
+    "confidence": "medium",
+    "sources": [
+      "https://adhoc.team/careers/",
+      "https://www.adhoc.team/careers/jobs/"
+    ],
+    "notes": "Remote-first, hires in Maine. No QA openings currently listed; no named QA leadership. Stability depends on federal contracts, but govtech is counter-cyclical. Candidate's regulated testing fits healthcare projects.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://adhoc.team/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

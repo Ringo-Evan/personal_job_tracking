@@ -1,0 +1,179 @@
+{
+  "company_id": "C967",
+  "tracker": {
+    "company_id": "C967",
+    "company": "Merck Animal Health Intelligence",
+    "sector": "Agriculture",
+    "interests": "Animal monitoring",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA/Test Manager",
+      "Test Automation Engineer"
+    ],
+    "approach": "Head of Quality Engineering, Animal Health Intelligence",
+    "why": "Animal-monitoring and identification business within Merck; regulated hardware and software QA fits, stability high, remote eligibility unclear.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C967",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Merck Animal Health Intelligence builds data and monitoring tech for livestock and pets, matching the candidate's agriculture/animal-monitoring interest and medical-device QA background. No remote policy or QA openings are verified, so fit is plausible but uncertain.",
+      "role_families": [
+        "SDET",
+        "QA Engineer",
+        "Test Automation Engineer"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Jeroen van de Ven",
+        "title": "Leader, Merck Animal Health Intelligence",
+        "source_url": "https://www.merck-animal-health-usa.com/newsroom/merck-animal-health-announces-leadership-in-newly-formed-animal-health-intelligence-operating-unit/"
+      },
+      {
+        "name": "Eli Kamhine",
+        "title": "Head of Discovery & Strategy",
+        "source_url": "https://www.merck-animal-health.com/research-and-innovation/technology-labs/"
+      },
+      {
+        "name": "Adam Russak",
+        "title": "Development Ops. Lead",
+        "source_url": "https://www.merck-animal-health.com/research-and-innovation/technology-labs/"
+      },
+      {
+        "name": "Tali Paz-Sabag",
+        "title": "Software Program Manager",
+        "source_url": "https://www.merck-animal-health.com/research-and-innovation/technology-labs/"
+      }
+    ],
+    "approach_role": "Development Ops. Lead",
+    "outreach_angle": "With FDA-regulated medical device V&V and hardware-adjacent automation in C#/.NET, I can help ensure quality for Merck Animal Health Intelligence's sensor-driven animal monitoring platforms.",
+    "red_flags": "No remote policy or QA openings listed; unclear if US-remote or Maine-friendly.",
+    "confidence": "low",
+    "sources": [
+      "https://www.merck-animal-health-usa.com/newsroom/merck-animal-health-announces-leadership-in-newly-formed-animal-health-intelligence-operating-unit/",
+      "https://www.merck-animal-health.com/research-and-innovation/technology-labs/"
+    ],
+    "notes": "Verified: Merck Animal Health Intelligence (agriculture) has leaders Jeroen van de Ven and Adam Russak. No remote policy, size, stability signals, or QA openings listed. Candidate interest: animal monitoring.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 4,
+      "fail_rate": 0.2,
+      "dropped": [
+        "people[4]: not a leadership title: 'Software Leads'"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.health-mental.org/merck-animal-health-intelligence-jobs/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

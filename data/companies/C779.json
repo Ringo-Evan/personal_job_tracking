@@ -1,0 +1,154 @@
+{
+  "company_id": "C779",
+  "tracker": {
+    "company_id": "C779",
+    "company": "FamilySearch",
+    "sector": "Books, history & media",
+    "interests": "Genealogy nonprofit",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Genealogy nonprofit; stable, history-aligned, QA roles plausible, remote-from-Maine policy uncertain.",
+    "flags": "Unknown remote",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C779",
+    "career_url": "https://careers.churchofjesuschrist.org/en/sites/ChurchEmployment/jobs?keyword=Family+search&mode=location",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 5,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "FamilySearch is a genealogy nonprofit (LDS Church-backed) publishing historical records and family-tree software — history-adjacent, which matches the candidate's interests. Senior QA/SDET work likely exists, but facts show no remote policy or openings, and engineering is Utah-centric.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET test automation, including FDA-regulated V&V work, maps well to quality engineering on a large-scale historical-records platform — a mission in history I'd genuinely care about.",
+    "red_flags": "No verified remote policy, openings, or leadership contacts; engineering may be concentrated in Utah and pay below market.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.churchofjesuschrist.org/en/sites/ChurchEmployment/jobs?keyword=Family+search&mode=location"
+    ],
+    "notes": "Verified facts are sparse: no job board, ATS, remote policy, size, stability signals, QA openings, or people listed. General knowledge: LDS Church-funded genealogy nonprofit, durable funding, history/media mission, main engineering presence in Utah with some remote roles. Confirm Maine-remote eligibility and current QA openings before applying.",
+    "model": {
+      "extract": "gemini/gemini-3.5-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.5-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.familysearch.org/en/blog/genealogy-jobs",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

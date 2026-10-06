@@ -1,0 +1,155 @@
+{
+  "company_id": "C928",
+  "tracker": {
+    "company_id": "C928",
+    "company": "FlightAware",
+    "sector": "Travel",
+    "interests": "Flight tracking",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "50-500",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Aviation flight-tracking software; strong travel/aviation fit, QA likely, remote policy favorable.",
+    "flags": "Verify US-remote policy for Maine.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C928",
+    "career_url": "https://www.flightaware.com/about/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "FlightAware, an RTX/Collins Aerospace company, runs a global flight-tracking network blending ADS-B hardware with real-time data services—travel and hardware-adjacent, matching candidate interests, but the facts show no verified remote policy or QA openings.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Fifteen years of test automation across hardware-adjacent, regulated systems maps well to FlightAware's ADS-B sensor network and real-time flight data pipelines; I'd welcome a conversation about senior quality engineering openings.",
+    "red_flags": "No verified remote policy or open QA roles; RTX-owned firms often trend toward on-site/hybrid schedules.",
+    "confidence": "low",
+    "sources": [
+      "https://www.flightaware.com/about/careers/"
+    ],
+    "notes": "Verified facts are sparse: only company name, travel sector, and flight-tracking interest were confirmed; job board, ATS, size, remote policy, stability signals, QA openings, and people are all null. Outside knowledge: FlightAware was acquired by Collins Aerospace (RTX) in 2021, based in Houston, generally remote-friendly engineering historically, but nothing is verified here.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.flightaware.com/about/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

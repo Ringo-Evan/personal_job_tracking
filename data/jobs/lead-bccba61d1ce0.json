@@ -1,0 +1,32 @@
+{
+  "key": "lead-bccba61d1ce0",
+  "board": "lead",
+  "company_id": "C1185",
+  "company": "Motional",
+  "title": "Sr. QA Automation Test Engineer",
+  "location_text": "Las Vegas, Nevada, United States (Remote U.S. Only)",
+  "work_mode": "Remote",
+  "url": "https://job-boards.greenhouse.io/motional",
+  "apply_url": null,
+  "source_url": "https://job-boards.greenhouse.io/motional",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Senior QA automation role, remote US, matching the candidate's senior test-automation background, though the autonomous-vehicle domain differs from medical devices and recent layoffs add risk.",
+    "skill_match": 4,
+    "seniority": "match",
+    "maine_eligible": "yes",
+    "track": "Core QA",
+    "notes": "Remote US-only so Maine OK; no description posted—confirm stack (C#/.NET?), pay, and stability after 40% layoffs.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "7f4a5bf5a287ccc6",
+    "text_source": "none"
+  }
+}

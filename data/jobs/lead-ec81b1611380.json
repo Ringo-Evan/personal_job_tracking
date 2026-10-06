@@ -1,0 +1,33 @@
+{
+  "key": "lead-ec81b1611380",
+  "board": "lead",
+  "company_id": "C264",
+  "company": "Stryker",
+  "title": "Staff Quality Engineer",
+  "location_text": "Portage, Michigan, United States",
+  "work_mode": "Unknown",
+  "url": "https://careers.stryker.com/staff-quality-engineer/job/48F3534D8D7E9A053121C12670A0089B",
+  "apply_url": null,
+  "source_url": "https://careers.stryker.com/staff-quality-engineer/job/48F3534D8D7E9A053121C12670A0089B",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-05",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Manufacturing/process quality engineering at a Stryker plant in Portage, Michigan — non-conformances, CAPAs, supplier quality, SPC, metrology. Regulated medical-device domain fits, but it is not software testing and it is",
+    "skill_match": 2,
+    "seniority": "match",
+    "maine_eligible": "no",
+    "track": "Domain pivot",
+    "notes": "On-site Michigan manufacturing QE, not software SDET; check whether any Stryker remote software-test roles exist instead.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05",
+    "text_hash": "d993703fef01926c",
+    "text_source": "board"
+  },
+  "description": "Related content\nWhy join Stryker?\nJob description\nStryker is seeking a Staff Quality Engineer to support product and process quality across manufacturing operations for Instruments in Portage, Michigan. In this role, you will partner with operations, engineering, suppliers, and quality teams to drive compliance, resolve quality issues, support new product introductions and manufacturing scale up activities, lead continuous improvement initiatives, and ensure products meet applicable regulatory and quality requirements.\nWhat You Will Do\n- Partner with manufacturing, engineering, and quality teams to monitor and improve product and process quality performance.\n- Support the transfer, launch, and scale-up of new products and manufacturing processes, partnering cross-functionally to establish robust quality systems and ensure successful production readiness.\n- Lead investigations and timely closure of non-conformances and corrective and preventive actions, including root cause analysis and implementation of corrective actions.\n- Review and disposition nonconforming materials and products through Material Review Board processes.\n- Collaborate with suppliers to address quality issues, manage supplier corrective actions, and support supplier quality improvement initiatives.\n- Evaluate and support manufacturing, supplier, and engineering changes to ensure compliance with quality and regulatory requirements.\n- Monitor quality performance indicators, analyze trends, and implement actions to address identified risks and improvement opportunities.\n- Lead or support continuous improvement initiatives focused on quality enhancement, scrap reduction, efficiency gains, and cost savings.\n- Support process validation, equipment qualification, inspection methods, measurement system analysis, and statistical process controls.\n- Participate in internal and external audits, complaint investigations, field actions, and continuous improvement projects across manufacturing operations.\nWhat You Will Need\nRequired Qualifications\n- Bachelor's degree in Engineering, Science, or a related technical discipline.\n- Minimum 4 years of quality engineering, manufacturing engineering, or related engineering experience.\n- Experience supporting non-conformance investigations, corrective and preventive actions, or quality management systems.\nPreferred Qualifications\n- Experience in the medical device industry.\n- Experience analyzing quality data and applying statistical methods to support manufacturing or process improvements.\n- Six Sigma Green Belt or Six Sigma Black Belt certification.\n- Experience with geometric dimensioning and tolerancing (GD&T).\n- Experience using metrology equipment such as calipers, micrometers, pin gauges, or coordinate measuring machines (CMMs).\nUSN: $89,300 - $148,800 USD Annual\nView the U.S. work location and transparency guide to find the pay range for your location.\nHealth benefits include: Medical and prescription drug insurance, dental insurance, vision insurance, critical illness insurance, accident insurance, hospital indemnity insurance, personalized healthcare support, wellbeing program and tobacco cessation program. Financial benefits include: Health Savings Account (HSA), Flexible Spending Accounts (FSAs), 401(k) plan, Employee Stock Purchase Plan (ESPP), basic life and AD&D insurance, and short-term disability insurance. Click here to learn more about: US Stryker employee benefits Stryker offers innovative products and services in MedSurg, Neurotechnology and Orthopaedics that help improve patient and healthcare outcomes. Alongside its customers around the world, Stryker impacts more than 150 million patients annually. Depending on customer requirements employees and new hires in sales and field roles that require access to customer accounts as a function of the job may be required to obtain various vaccinations as an essential function of their role.\nApply Now"
+}

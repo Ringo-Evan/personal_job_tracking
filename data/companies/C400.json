@@ -1,0 +1,207 @@
+{
+  "company_id": "C400",
+  "tracker": {
+    "company_id": "C400",
+    "company": "Kaseya (Datto)",
+    "sector": "Maine & New England",
+    "interests": "IT management",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "kaseya",
+    "board_url": "https://job-boards.greenhouse.io/kaseya",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.kaseya.com/careers/jobs/; token guessed from name; page mentions greenhouse; board name Kaseya Careers",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 3,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "QA Manager",
+    "why": "IT management software; QA/SDET roles likely. PE-owned, layoff risk; remote possible.",
+    "flags": "PE-owned; layoff risk; remote possible.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C400",
+    "career_url": "https://www.kaseya.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "kaseya",
+      "board_url": "https://job-boards.greenhouse.io/kaseya"
+    },
+    "remote_policy": {
+      "summary": "Onsite collaboration is prioritized; roles not located near an office must check the job description location or recruiter, so remote eligibility varies by role. One QA listing is United States - Remote.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://www.kaseya.com/careers/"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Kaseya cut 5 percent of its global workforce, about 250 employees, redesigning its go-to-market approach and customer segmentation.",
+          "date": null,
+          "url": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Kaseya confirmed 200 layoffs as part of a \"focused investment strategy,\" while saying it would keep hiring in customer-facing, product and engineering roles.",
+          "date": null,
+          "url": "https://www.crn.com/news/channel-news/2025/kaseya-confirms-200-layoffs-as-part-of-focused-investment-strategy"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "CEO Rania Succar announced Kaseya acquired AI-based email security provider Inky.",
+          "date": null,
+          "url": "https://www.crn.com/news/channel-news/2025/kaseya-confirms-200-layoffs-as-part-of-focused-investment-strategy"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Kaseya cites a very strong end to 2025 and continued investment in customer value while transforming IT and security for SMBs.",
+          "date": null,
+          "url": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company says significant incremental R&D investments over the past year yielded stronger product quality and faster innovation velocity.",
+          "date": null,
+          "url": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Kaseya/Datto builds IT management, security and backup software for MSPs and SMBs, squarely in the candidate's stated IT-management interest. One remote Senior Staff SDET role exists (Miami/US-Remote), but onsite is prioritized, remote eligibility varies, and recent layoffs cloud the picture.",
+      "role_families": [
+        "SDET",
+        "QA automation engineering",
+        "quality/release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Endpoint Agent – Senior Staff Software Development Engineer in Test",
+        "location": "Miami, FL (United States - Remote)",
+        "work_mode": "Remote",
+        "url": "https://www.kaseya.com/careers/jobs/id/6206685004/?gh_jid=6206685004"
+      }
+    ],
+    "people": [],
+    "approach_role": "VP of Engineering (or Director of Quality Engineering)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps well to SDET work on Kaseya's endpoint agent and security products.",
+    "red_flags": "Recent layoffs (5% globally; ~200 roles); remote eligibility varies by role despite one US-Remote QA listing; onsite collaboration prioritized.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.kaseya.com/careers/",
+      "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams",
+      "https://www.crn.com/news/channel-news/2025/kaseya-confirms-200-layoffs-as-part-of-focused-investment-strategy",
+      "https://job-boards.greenhouse.io/kaseya",
+      "https://www.kaseya.com/careers/jobs/id/6206685004/?gh_jid=6206685004"
+    ],
+    "notes": "Kaseya/Datto: 5k+ staff, IT management and security SaaS for SMBs/MSPs. One Senior Staff SDET opening listed Miami, FL, US-Remote. Remote policy per-role; confirm Maine eligibility with recruiter. Layoffs alongside Inky acquisition and claimed R&D investment. No named QA leaders found.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.kaseya.com/careers/jobs/",
+    "found": "greenhouse:kaseya (embedded in https://www.kaseya.com/careers/jobs/)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

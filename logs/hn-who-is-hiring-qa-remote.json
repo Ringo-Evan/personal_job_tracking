@@ -1,0 +1,30 @@
+[
+ {
+  "id": 49924972,
+  "head": "QUOBYTE | Santa Clara, CA and Berlin, Germany | Full-time / Remote | ONSITE |  https://www.quobyte.com/  At  Quobyte  we are working on a highly scalable and fault-tolerant software storage system bui",
+  "roles": [
+   "qa",
+   "test automation"
+  ],
+  "url": "https://news.ycombinator.com/item?id=49924972",
+  "text": "QUOBYTE | Santa Clara, CA and Berlin, Germany | Full-time / Remote | ONSITE |  https://www.quobyte.com/  At  Quobyte  we are working on a highly scalable and fault-tolerant software storage system built around a parallel file system core. Our customers use us for large scale AI and HPC clusters in the enterprise and research, k8s and OpenStack infrastructures, and as a scalable backend for SaaS products. There are Quobyte clusters which span tens of thousands of machines and slurp 100s of GB/s! Under the hood, we have built a full-stack fault-tolerant parallel file system, with everything from kernel development over our own replicated database system design to distributed algorithms (Paxos!) and performance. In short: lots of real-world challenging and fun problems! We work as a highly efficient engineering team, ship frequently, do code reviews, and have lots of unit and integration testing. If you’re passionate about systems, we might be the right place for you! Berlin, Germany (onsite, please apply only if you already are in the EU): * Software Engineer (with a passion for Systems, 60-100k EUR) * QA Engineer (creative testing, test automation, release engineering, 60-100k EUR) * Infrastructure Engineer (engineering and corporate infrastructure, 50-90k) * Customer Success Engineer (50-90k) For detailed job descriptions please and application process, please visit  https://www.quobyte.com/company/careers  or write to work at quobyte.com."
+ },
+ {
+  "id": 49929235,
+  "head": "Radar Labs | Software Engineers (SRE, ML, backend, full-stack, mobile, security, QA) | Remote (US), NYC | Full Time |  https://radar.com  - Radar is the geo-location dev tool - Doing 1B+ API calls per",
+  "roles": [
+   "qa"
+  ],
+  "url": "https://news.ycombinator.com/item?id=49929235",
+  "text": "Radar Labs | Software Engineers (SRE, ML, backend, full-stack, mobile, security, QA) | Remote (US), NYC | Full Time |  https://radar.com  - Radar is the geo-location dev tool - Doing 1B+ API calls per day - Our main languages are Rust and TypeScript, we also use mobile and offline pipeline languages (Python, Scala, and Terraform). - We're based in NYC with our HQ in Union Square and remote friendly (US) Interesting things we're working on: - HorizonDB, our Geospatial database written in Rust - Agents and MCP tools to visualize and debug location data at scale - Precise indoor location more accurate than iOS and Android leveraging Ultra-Wideband, other mobile sensors and ML. - Anomaly detection to identify spoofed locations - Mobile infrastructure that automatically configures itself optimizing battery-life and location accuracy for different use-cases over time - Multi-Region AWS K8s deployment, 99.99%+ availability Check out our jobs page here:  https://radar.com/jobs#jobs  If you have any questions, feel free to reply here or you can e-mail me at tim@radar.com"
+ },
+ {
+  "id": 49931746,
+  "head": "Search Atlas | Product Engineer (Product Manager role, not a Full-stack role) | REMOTE (anywhere, EST hours) | Full-time contractor | $23-$34 USD/hour |  https://careers.searchatlas.com/jobs/599248-pr",
+  "roles": [
+   "qa"
+  ],
+  "url": "https://news.ycombinator.com/item?id=49931746",
+  "text": "Search Atlas | Product Engineer (Product Manager role, not a Full-stack role) | REMOTE (anywhere, EST hours) | Full-time contractor | $23-$34 USD/hour |  https://careers.searchatlas.com/jobs/599248-product-engineer...  We're ~160 people, fully remote, building an AI marketing platform. Our main product is OTTO, which runs a site's SEO on its own - it reads live search data and pushes the technical and on-page fixes itself, nobody queues them up. Around that we've got ad automation for Google and Meta, GBP management for multi-location brands, content gen, and LLM visibility tracking (whether ChatGPT and co are citing you). Autotrader, Hyundai, P&G, Vendasta are some of our customers. Work happens in pods, 1 PM and 2-4 engineers. You own your pod's roadmap and ship it with them, no veteran PM signing off on your specs first. That's the part most PM roles won't hand you. Looking for 3+ years PM in B2B SaaS with an actual technical background - eng or QA before PM, or a PM who's been getting into the codebase themselves. You should be able to read Python and TS, write your own SQL, find your way around an API, and not need an engineer to tell you what a stack trace says. We're Django on the back, React/Next on the front. QA is yours end to end including release sign-off, people tend to underestimate that bit. And you're already using Claude Code or similar daily, not \"open to it\". A few notes before you apply: - Experience: we're looking for people with a few years of hands-on p"
+ }
+]

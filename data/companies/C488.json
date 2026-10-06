@@ -1,0 +1,190 @@
+{
+  "company_id": "C488",
+  "tracker": {
+    "company_id": "C488",
+    "company": "ADP",
+    "sector": "Enterprise & govtech",
+    "interests": "Payroll",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "Quality Engineering Lead",
+      "Test Tooling Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Payroll giant with extensive .NET engineering; regulated, compliance-heavy testing matches candidate and some US-remote roles exist.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C488",
+    "career_url": "https://myjobs.adp.com/spsx/auth",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "ADP article advising employers on managing fully remote and hybrid workers; it does not state ADP's own remote-work policy for its staff.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.adp.com/spark/articles/2024/10/guidelines-for-managing-remote-workers.aspx"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "WARN tracker counts 657 ADP layoffs across 9 notices from Feb 2004 to Sep 2026 in seven states.",
+          "date": "2026-09",
+          "url": "https://www.warntracker.com/company/adp"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "WARN notice lists 76 ADP workers in Roseland, New Jersey with a September 25, 2026 layoff date.",
+          "date": "2026-09",
+          "url": "https://www.warntracker.com/company/adp"
+        },
+        {
+          "kind": "growth",
+          "summary": "ADP filed 115 H-1B labor condition applications for FY2025–2026, indicating ongoing technical hiring.",
+          "date": null,
+          "url": "https://www.warntracker.com/company/adp"
+        },
+        {
+          "kind": "other",
+          "summary": "ADP is a publicly traded company listed on NASDAQ.",
+          "date": null,
+          "url": "https://www.warntracker.com/company/adp"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Industry blog says ADP had not formally announced 2025 layoffs but warned of possible workforce changes.",
+          "date": "2025-01",
+          "url": "https://fired.fyi/blog/adp-layoffs-2025"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "ADP is a large NASDAQ-listed payroll and HCM provider; senior test automation work on compliance-heavy data platforms is plausible, but no QA openings, no stated remote policy for Maine, and payroll is outside the candidate's interest areas.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps to payroll and tax platforms where compliance-critical accuracy and auditability are the core quality risk.",
+    "red_flags": "No verified remote-for-Maine policy; WARN layoffs including 76 Roseland, NJ roles dated September 2026; no QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://myjobs.adp.com/spsx/auth",
+      "https://www.adp.com/spark/articles/2024/10/guidelines-for-managing-remote-workers.aspx",
+      "https://www.warntracker.com/company/adp",
+      "https://fired.fyi/blog/adp-layoffs-2025"
+    ],
+    "notes": "Verified: NASDAQ-listed payroll/HCM enterprise; WARN tracker shows 657 ADP layoffs across 9 notices (2004-2026), including 76 in Roseland NJ dated 2026-09; 115 H-1B LCAs filed FY2025-26 suggest ongoing tech hiring. Remote policy for own staff and current QA openings unverified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.adp.com/",
+    "found": null,
+    "other": [
+      "adp https://myjobs.adp.com/spsx/auth"
+    ]
+  },
+  "verify_rejects": 0
+}

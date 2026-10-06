@@ -1,0 +1,180 @@
+{
+  "company_id": "C451",
+  "tracker": {
+    "company_id": "C451",
+    "company": "Granicus",
+    "sector": "Enterprise & govtech",
+    "interests": "Gov comms software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "smartrecruiters",
+    "token": "Granicus1",
+    "board_url": "https://careers.smartrecruiters.com/Granicus1",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 1
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "Test Automation Engineer",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Government communications and agenda software for public agencies; steady regulated govtech demand with likely .NET stacks and remote test roles.",
+    "flags": "PE-owned (Vista); heavy acquisition history",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C451",
+    "career_url": null,
+    "ats": {
+      "type": "smartrecruiters",
+      "token": "Granicus1",
+      "board_url": "https://careers.smartrecruiters.com/Granicus1"
+    },
+    "remote_policy": {
+      "summary": "Remote-friendly, Denver HQ plus additional hubs, distributed workforce across the US, UK and Australia; many roles fully remote within those countries.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://remowork.life/companies/granicus"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Granicus states it serves more than 7,000 public-sector organizations worldwide as of 2026.",
+          "date": null,
+          "url": "https://remowork.life/companies/granicus"
+        },
+        {
+          "kind": "funding",
+          "summary": "Harvest Partners joined Vista Equity Partners as a co-investor in Granicus.",
+          "date": "2020-01",
+          "url": "https://remowork.life/companies/granicus"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Granicus builds cloud software for government communications and citizen engagement. US-remote and Maine-eligible, so logistics work, but the govtech domain misses the candidate's interests and regulated medical-device/hardware testing background, and no QA openings are posted.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Fifteen years of .NET test automation and FDA-regulated V&V experience could harden Granicus's citizen-facing platforms, where accessibility and uptime for 7,000 public agencies make release quality a compliance issue.",
+    "red_flags": "No QA openings posted; PE ownership (Vista) can drive cost cuts; domain is far from medical devices, games or hardware testing.",
+    "confidence": "medium",
+    "sources": [
+      "https://remowork.life/companies/granicus"
+    ],
+    "notes": "Remote-friendly with US-wide distributed workforce; Maine explicitly eligible. PE-backed by Vista Equity with Harvest Partners co-investor; states 7,000+ public-sector customers, implying durable contracts. No QA roles listed on SmartRecruiters and no staff contacts verified, so this is cold, speculative outreach at a 500-5k-person govtech vendor.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 5,
+      "fail_rate": 0.167,
+      "dropped": [
+        "career_url: career_url appears nowhere in the evidence"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "smartrecruiters:Granicus1 (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

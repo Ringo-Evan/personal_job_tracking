@@ -1,0 +1,189 @@
+{
+  "company_id": "C429",
+  "tracker": {
+    "company_id": "C429",
+    "company": "CGI",
+    "sector": "Enterprise & govtech",
+    "interests": "Government IT; many remote QA roles",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Government IT consulting; many remote QA/SDET roles, regulated/govtech fit, but consulting travel possible.",
+    "flags": "Consulting travel possible",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C429",
+    "career_url": "https://www.cgi.com/en/careers",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Some US roles are fully remote (listed as Remote/United States), while many others are hybrid or tied to client sites; flexibility depends on the account and role.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://cgi.njoyn.com/CORP/xweb/Xweb.asp?page=joblisting&CLID=21001"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "CGI states it is actively recruiting top talent for high-impact client delivery roles.",
+          "date": null,
+          "url": "https://www.cgi.com/en/careers"
+        },
+        {
+          "kind": "revenue",
+          "summary": "CGI operates a profit participation plan that shares a portion of company profits with eligible members.",
+          "date": null,
+          "url": "https://www.cgi.com/us/en-us/careers/our-benefits"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "CGI is a large, profitable IT consultancy doing government and health IT, where senior QA, SDET and test-automation roles recur across accounts; remote-from-Maine depends on the account, and the only verified QA postings are entry-level analyst jobs in Dallas and",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Technical Analyst – Entry Level",
+        "location": "Dallas, United States",
+        "work_mode": "Unknown",
+        "url": "https://cgi.njoyn.com/CORP/xweb/Xweb.asp?page=joblisting&CLID=21001"
+      },
+      {
+        "title": "Data Analyst – Entry Level",
+        "location": "Dallas, United States",
+        "work_mode": "Unknown",
+        "url": "https://cgi.njoyn.com/CORP/xweb/Xweb.asp?page=joblisting&CLID=21001"
+      },
+      {
+        "title": "Technical Analyst – Entry Level",
+        "location": "Reno, United States",
+        "work_mode": "Unknown",
+        "url": "https://cgi.njoyn.com/CORP/xweb/Xweb.asp?page=joblisting&CLID=21001"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (or QA Practice Lead) for the relevant US",
+    "outreach_angle": "Fifteen years of C#/.NET test automation and FDA-regulated medical-device V&V maps well onto CGI's government and health-IT delivery accounts; ask which US accounts hire fully remote QA from Maine.",
+    "red_flags": "Verified QA openings are entry-level analyst roles in Dallas and Reno; no confirmed senior QA or Maine-eligible remote roles.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.cgi.com/en/careers",
+      "https://cgi.njoyn.com/CORP/xweb/Xweb.asp?page=joblisting&CLID=21001",
+      "https://www.cgi.com/us/en-us/careers/our-benefits"
+    ],
+    "notes": "Large, profitable consultancy (profit-participation plan, active recruiting) skewed to govtech and health IT; stability strong. Remote policy varies by account and role, so Maine eligibility must be confirmed per posting. No named QA leaders or senior QA openings were verified; treat fit as plausible but unproven.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.cgi.com/en/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

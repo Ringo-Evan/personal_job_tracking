@@ -1,0 +1,91 @@
+{
+  "company_id": "C052",
+  "tracker": {
+    "company_id": "C052",
+    "company": "G Adventures",
+    "sector": "Travel",
+    "interests": "Adventure travel, community tourism",
+    "career_url": "https://www.gadventures.com/careers/",
+    "role_families": "Technology; tour operations; program management",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Few senior software roles may exist; tour leading is a substantial career shift.",
+    "research_notes": "Tour-leader jobs involve travel; office positions do not necessarily do so.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": "https://www.gadventures.com/careers/",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "gadventures|3|GAdventures",
+    "board_url": "https://gadventures.wd3.myworkdayjobs.com/GAdventures",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.gadventures.com/careers/",
+    "note": "",
+    "job_count": 55
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:31-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:47:57-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

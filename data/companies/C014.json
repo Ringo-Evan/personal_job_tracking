@@ -1,0 +1,83 @@
+{
+  "company_id": "C014",
+  "tracker": {
+    "company_id": "C014",
+    "company": "Kickstarter",
+    "sector": "Games & stories",
+    "interests": "Board games, TTRPGs, writing, independent creators",
+    "career_url": "https://jobs.kickstarter.com/",
+    "role_families": "Platform QA; payments; technical delivery",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Relevant marketplace skills but competitive employer; Maine absent from current supported-state list.",
+    "research_notes": "Remote does not mean eligible in Maine. Resolve state eligibility before applying.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Maine not listed; verify exception",
+    "benefit_source": "https://jobs.kickstarter.com/",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "kickstarter",
+    "board_url": "https://job-boards.greenhouse.io/kickstarter",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://jobs.kickstarter.com/",
+    "note": "Kickstarter PBC",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:33:32-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

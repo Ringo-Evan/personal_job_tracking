@@ -1,0 +1,173 @@
+{
+  "company_id": "C350",
+  "tracker": {
+    "company_id": "C350",
+    "company": "Maine Medical / MaineHealth",
+    "sector": "Maine & New England",
+    "interests": "Health system IT; Portland ME",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "MaineHealth is a large health system with regulated IT; senior QA/test roles plausible, though Portland-based and remote availability unclear.",
+    "flags": "Portland-based; remote availability unclear",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C350",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Central Maine Healthcare announced planned layoffs of up to 100 employees.",
+          "date": null,
+          "url": "https://www.sunjournal.com/2025/07/31/central-maine-healthcare-tells-employees-its-planning-layoffs/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Central Maine Healthcare is in the process of being acquired by Prime Healthcare Foundation.",
+          "date": null,
+          "url": "https://www.sunjournal.com/2025/07/31/central-maine-healthcare-tells-employees-its-planning-layoffs/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Central Maine Healthcare cut 45 positions in a management reorganization.",
+          "date": "2024-01",
+          "url": "https://www.sunjournal.com/2025/07/31/central-maine-healthcare-tells-employees-its-planning-layoffs/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "MaineHealth is a large nonprofit health system in Portland, ME, with likely health-IT QA needs but no verified openings or remote policy. Portland isn't commutable from Downeast Maine, and stability data is misattributed.",
+      "role_families": [
+        "QA engineering",
+        "test automation",
+        "health IT quality"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of IT Quality Assurance",
+    "outreach_angle": "15 years in regulated V&V and test automation, including FDA design controls, directly supports MaineHealth's clinical software quality and compliance needs.",
+    "red_flags": "No verified remote policy or QA openings; stability data references a different system.",
+    "confidence": "low",
+    "sources": [
+      "https://www.sunjournal.com/2025/07/31/central-maine-healthcare-tells-employees-its-planning-layoffs/"
+    ],
+    "notes": "No job board, ATS, remote policy, size, or QA openings verified. Stability signals misattributed to Central Maine Healthcare (layoffs, Prime acquisition). MaineHealth is a large Portland-based nonprofit health system; Portland is not commutable from Downeast Maine. Confirm remote eligibility and QA roles.",
+    "model": {
+      "extract": "gemini/gemini-3.1-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.1-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

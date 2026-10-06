@@ -1,0 +1,83 @@
+{
+  "company_id": "C076",
+  "tracker": {
+    "company_id": "C076",
+    "company": "Impinj",
+    "sector": "IoT / location tech",
+    "interests": "RAIN RFID - direct Position Imaging overlap; airline baggage use case",
+    "career_url": "https://job-boards.greenhouse.io/impinjexternal",
+    "role_families": "Sr SDET (reader test); applications engineering",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "RFID/BLE product testing is rare domain experience; seen test team is Seattle-centric.",
+    "research_notes": "Reader test team (StaQ) Sr SDET, $106K-163K, Seattle; req expired 04/30/2026. Site advertises remote-or-office support.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown - Seattle on seen req",
+    "benefit_source": "https://job-boards.greenhouse.io/impinjexternal/jobs/4578941005",
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Watch for re-post; ask recruiter about remote",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "impinjexternal",
+    "board_url": "https://job-boards.greenhouse.io/impinjexternal",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://job-boards.greenhouse.io/impinjexternal",
+    "note": "Impinj",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:51-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

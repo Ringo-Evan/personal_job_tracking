@@ -1,0 +1,83 @@
+{
+  "company_id": "C080",
+  "tracker": {
+    "company_id": "C080",
+    "company": "Bitfocus",
+    "sector": "Housing",
+    "interests": "Homelessness response data (HMIS)",
+    "career_url": "https://job-boards.greenhouse.io/bitfocus",
+    "role_families": "QA engineer; software engineer; implementation",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Fully remote company whose engineering team explicitly includes QA engineering.",
+    "research_notes": "Verified in 09/30 search. Makes Clarity Human Services HMIS used by the largest Continuums of Care. Many roles fully remote. Note: bans AI tool use at every interview stage.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Fully remote roles seen",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Watch greenhouse board for QA/engineering",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Director of Engineering / QA lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Bitfocus",
+    "outreach_notes": "Direct QA fit plus mission. Mention compliance-heavy data work."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "bitfocus",
+    "board_url": "https://job-boards.greenhouse.io/bitfocus",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://job-boards.greenhouse.io/bitfocus",
+    "note": "Bitfocus",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:07-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

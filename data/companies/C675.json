@@ -1,0 +1,158 @@
+{
+  "company_id": "C675",
+  "tracker": {
+    "company_id": "C675",
+    "company": "Bohemia Interactive Simulations",
+    "sector": "Games & stories",
+    "interests": "Military training sims (VBS)",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Engineering Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Military training sims (VBS); strong C#/.NET, regulated, hardware-adjacent fit with QA roles likely remote-friendly.",
+    "flags": "Defense contractor; may require security clearance.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C675",
+    "career_url": "https://careers.bohemia.net/en",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Bohemia Interactive Simulations builds military training simulation software (VBS), heavy in C#/C++ and games-adjacent tech, matching the candidate's test-automation stack and games interest. But facts are silent on remote policy, size, stability and QA openings, so fit is plausible, not",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "simulation software V&V"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering or Head of Quality Assurance",
+    "outreach_angle": "15 years of C#/.NET test automation plus FDA-regulated V&V in hardware-adjacent systems maps directly to verifying VBS simulation releases, and my games/simulation interest makes the mission a genuine draw.",
+    "red_flags": "No verified remote policy, size, or QA openings; defense work may require US-person status or clearance.",
+    "confidence": "low",
+    "sources": [
+      "https://www.bohemia.net/en",
+      "https://apply.workable.com/bohemia-interactive-simulations-inc/"
+    ],
+    "notes": "Facts captured nothing: no job board, ATS token, remote policy, headcount, stability signals, openings, or named people. Public knowledge says BISim makes VBS military training sims (Orlando HQ, international offices), C#/C++ heavy, cleared/defense customers. Verify Maine-remote eligibility, ITAR/clearance needs, and current QA headcount before applying.",
+    "model": {
+      "extract": "gemini/gemini-3.1-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.1-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:55:36-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.bohemia.net/en",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/bohemia-interactive-simulations-inc/"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

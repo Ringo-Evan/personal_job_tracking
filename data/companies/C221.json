@@ -1,0 +1,192 @@
+{
+  "company_id": "C221",
+  "tracker": {
+    "company_id": "C221",
+    "company": "Trimble",
+    "sector": "IoT / location tech",
+    "interests": "Positioning, ag + construction tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "trimble|1|TrimbleCareers",
+    "board_url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 218
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Positioning, agriculture and construction tech; hardware-adjacent .NET test fits, ag interest.",
+    "flags": "Large; remote depends on team",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C221",
+    "career_url": "https://www.trimble.com/en/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Hybrid by default: three days per week in the office, with some fully remote roles and some teams on-site every day.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.trimble.com/en/early-careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Trimble agreed to acquire Document Crunch, an AI construction document-analysis company, to add risk and compliance automation.",
+          "date": null,
+          "url": "https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "The Document Crunch acquisition is expected to close in Q2 2026 and be reported in Trimble's AECO segment.",
+          "date": "2026-04",
+          "url": "https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem"
+        },
+        {
+          "kind": "growth",
+          "summary": "Trimble describes a global workforce of more than 11,000 employees working across regions.",
+          "date": null,
+          "url": "https://www.trimble.com/en/careers/talent-areas"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Trimble builds positioning, agriculture and construction tech with hardware-adjacent, regulated work matching the candidate's .NET automation background. But hybrid three-day office default and no listed QA openings leave Maine-remote fit uncertain.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Mark Schwartz",
+        "title": "Senior Vice President of AECO Software",
+        "source_url": "https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem"
+      }
+    ],
+    "approach_role": "Senior Vice President of AECO Software",
+    "outreach_angle": "Your C#/.NET automation and hardware-adjacent regulated testing experience maps to Trimble's positioning and ag-tech QA needs; ask about remote flexibility for Maine.",
+    "red_flags": "Hybrid three days in office; Maine remote eligibility unknown; no QA openings listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.trimble.com/en/early-careers",
+      "https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem",
+      "https://www.trimble.com/en/careers/talent-areas"
+    ],
+    "notes": "Trimble is an 11k+ employee IoT/location firm; hybrid default three days, some fully remote; acquiring Document Crunch for construction AI. No current QA openings; confirm Maine remote eligibility before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:34:44-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:trimble|1|TrimbleCareers (linked from search results)",
+    "other": []
+  }
+}

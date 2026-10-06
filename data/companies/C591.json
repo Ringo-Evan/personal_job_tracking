@@ -1,0 +1,204 @@
+{
+  "company_id": "C591",
+  "tracker": {
+    "company_id": "C591",
+    "company": "Atlassian",
+    "sector": "Remote-first software",
+    "interests": "Jira; remote-friendly",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Quality Engineering Manager"
+    ],
+    "approach": "Head of Quality Engineering",
+    "why": "Collaboration and dev tools (Jira); remote-friendly; QA/SDET roles likely; test-tooling adjacent.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C591",
+    "career_url": "https://www.atlassian.com/company/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Team Anywhere: employees choose where, when and how they work; 11 offices they can work from; teams gather in person 3-4 times per year.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.atlassian.com/company/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Atlassian cut about 1,600 roles (10%), including 900-plus in software R&D, restructuring to invest in AI.",
+          "date": null,
+          "url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+        },
+        {
+          "kind": "other",
+          "summary": "CTO Rajeev Rajan stepped down at end of March, replaced jointly by Taroon Mandhana and Vikram Rao.",
+          "date": null,
+          "url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Quarterly revenue of US$1.6bn, up US$300m year on year, alongside a net loss of US$42m; company remains unprofitable.",
+          "date": "2025-12",
+          "url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+        },
+        {
+          "kind": "growth",
+          "summary": "Revenue grew 23% year on year to $1.6bn; crossed $6bn ARR, 350,000 customers and 5 million Rovo monthly users.",
+          "date": null,
+          "url": "https://www.crn.com/news/ai/2026/atlassian-plans-1-600-layoffs-with-savings-shift-to-ai-enterprise-sales"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Non-GAAP operating income of $430.2m in fiscal Q2, up 28% year on year, though GAAP operating loss was $47.7m.",
+          "date": null,
+          "url": "https://www.crn.com/news/ai/2026/atlassian-plans-1-600-layoffs-with-savings-shift-to-ai-enterprise-sales"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Atlassian builds Jira, Confluence and other team collaboration software, remote-first and open to Maine. But its domain is SaaS dev tooling, not regulated medical devices or hardware test equipment, and no QA openings were verified.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Rajeev Rajan",
+        "title": "Chief Technology Officer",
+        "source_url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+      },
+      {
+        "name": "Taroon Mandhana",
+        "title": "Incoming CTO (joint)",
+        "source_url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+      },
+      {
+        "name": "Vikram Rao",
+        "title": "Incoming CTO (joint)",
+        "source_url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx"
+      }
+    ],
+    "approach_role": "Incoming CTO (joint)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation and tooling at scale could support Atlassian's engineering quality as it restructures around AI, though your FDA-regulated V&V depth is a domain shift.",
+    "red_flags": "Recent layoffs of ~1,600 including 900+ software R&D roles; GAAP unprofitable; no verified QA openings.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.atlassian.com/company/careers",
+      "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
+      "https://www.crn.com/news/ai/2026/atlassian-plans-1-600-layoffs-with-savings-shift-to-ai-enterprise-sales"
+    ],
+    "notes": "Team Anywhere remote-first, Maine-eligible, 11 offices, 3-4 in-person gatherings yearly. 5k+ staff; revenue $1.6bn up 23% YoY but $42m net loss; ~1,600 roles cut with 900+ in R&D; CTO transition to joint Mandhana/Rao. Job board and ATS unknown; no QA openings found.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 11,
+      "kept": 11,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.atlassian.com/company/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,187 @@
+{
+  "company_id": "C610",
+  "tracker": {
+    "company_id": "C610",
+    "company": "Patreon",
+    "sector": "Remote-first software",
+    "interests": "Creator membership (incl. adult-adjacent creators)",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "patreon",
+    "board_url": "https://jobs.ashbyhq.com/patreon",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 15
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "Test Automation Engineer",
+      "QA Engineer"
+    ],
+    "approach": "Director of Engineering, Quality",
+    "why": "Creator-membership platform; remote-first and adult-adjacent creator base matches interests, but payment-policy turbulence and past layoffs.",
+    "flags": "Prior layoffs; adult-content payment policy swings.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C610",
+    "career_url": "https://www.patreon.com/careers",
+    "ats": {
+      "type": "ashby",
+      "token": "patreon",
+      "board_url": "https://jobs.ashbyhq.com/patreon"
+    },
+    "remote_policy": {
+      "summary": "Listed as a hybrid-work employer; the pack gives no statement about remote roles or which states are eligible.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://remotejobs.org/companies/patreon"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Patreon cut 20% of staff, 93 people, its largest reduction since 2022, and flattened the organization.",
+          "date": null,
+          "url": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "CEO memo says creator, member, revenue and processing volume metrics continue strong, consistent monthly growth despite the cuts.",
+          "date": null,
+          "url": "https://www.businessinsider.com/patreon-creator-economy-cuts-93-employees-layoffs-ai-memo-2026-7"
+        },
+        {
+          "kind": "other",
+          "summary": "Partnered with Cloudflare to block AI training bots from scraping creators' work without permission.",
+          "date": null,
+          "url": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Patreon is a creator-membership platform serving adult-adjacent creators, matching candidate interests. However, it lists hybrid work with unknown Maine eligibility, no QA openings, and recent 20% layoffs, making fit uncertain.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "With 15 years in test automation and FDA-regulated V&V, I can bring rigor to Patreon's payout and membership systems, ensuring reliable experiences for creators.",
+    "red_flags": "Recent 20% layoff; no QA openings; hybrid policy, Maine remote eligibility unstated.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.patreon.com/careers",
+      "https://remotejobs.org/companies/patreon",
+      "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+      "https://www.businessinsider.com/patreon-creator-economy-cuts-93-employees-layoffs-ai-memo-2026-7"
+    ],
+    "notes": "Patreon is hybrid-listed; no statement on remote roles or Maine eligibility. It cut 20% of staff (93 people) recently. Revenue, creator and member metrics remain strong. No QA openings on its Ashby board. No named people in the pack.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:patreon (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

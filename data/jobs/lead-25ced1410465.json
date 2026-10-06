@@ -1,0 +1,33 @@
+{
+  "key": "lead-25ced1410465",
+  "board": "lead",
+  "company_id": "C269",
+  "company": "Hologic",
+  "title": "Lead Risk Management Quality Engineer",
+  "location_text": "Marlborough, MA, United States; Louisville, CO, United States",
+  "work_mode": "Unknown",
+  "url": "https://careers.hologic.com/en/search",
+  "apply_url": null,
+  "source_url": "https://careers.hologic.com/en/search",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Lead risk-management quality role at medical-device firm; regulated FDA/design-controls domain fits, but no software test automation and not Maine-eligible.",
+    "skill_match": 3,
+    "seniority": "match",
+    "maine_eligible": "no",
+    "track": "QA leadership",
+    "notes": "Check if remote/Maine allowed; role is risk management (ISO 14971/FMEA), not SDET—confirm whether software V&V or automation is in scope.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "f1f7508095253551",
+    "text_source": "page"
+  },
+  "description": "Search jobs\nYou are currently viewing vacancies in\n \n \n \n \n209 Jobs found\nSupervisor, Manufacturing\n Marlborough, MA, United States\n \nManufacturing Supervisor Why Hologic? At Hologic, our purpose is to enable healthier lives everywhere, every day. We are driven by our passion to become global champions for women's health and are committed to bringing ...\n Field Service Engineer, BSH\n Fukuoka, Japan\n \n職務概要 ...\n Field Service Engineer, BSH\n Hiroshima, Japan\n \n職務概要 •当社製品（骨密度測定装置、マンモグラフィ等）の設置、点検及び修理 •顧客への保守契約情報の説明 •新規・継続保守契約の提案および締結交渉 ...\n Senior Software Engineer, Medical Device\n Newark, DE, United States\n \nLocated in Newark, DE,Hologic's Innovation Center is continuing to offer job opportunities. We are seeking aSenior Software Engineer (C#/ .NET, Full Stack)to design, develop, troubleshoot, and debug software for new and ...\n Lead Risk Management Quality Engineer\n Marlborough, MA, United States\n Louisville, CO, United States \n \nHologic’s mission is to enable healthier lives everywhere, every day—and robust risk management is critical to that mission. We’re looking for a Lead Risk Management Quality Engineer to ensure the safety and ...\n Senior Electrical Engineer, NPD\n Newark, DE, United States\n \nHologic’s Breast & Skeletal Health division is hiring aSenior Electrical Engineer, NPD to help design and advance the electronics behind our industry‑leading imaging systems. In this role, you’ll work ...\n Diagnostic Sales Specialist - New England North\n Portland, ME, United States\n Scarborough, ME, United States \n Manchester, NH, United States \n Portsmouth, NH, United States \n Burlington, VT, United States \n \nWhen presented with an obstacle, do you find another route? Are you a natural hunter who can seek opportunities? Are you passionate about medical diagnostics? If you answered yes to all the above, it sounds like ...\n Senior Surgical Sales Specialist\n West Midlands, United Kingdom\n Leicestershire, United Kingdom \n Nottinghamshire, United Kingdom \n Lincolnshire, United Kingdom \n Derbyshire, United Kingdom \n Stoke-On-Trent, Staffordshire, United Kingdom \n \nAt Hologic, we are dedicated to enabling healthier lives everywhere, every day, by advancing women’s health through innovative gynaecological solutions. Guided by The Science of Sure, we strive to provide clinicians ...\n Account Manager\n Bayern, Germany\n \nGebiet: Bayern (Bavaria)Bevorzugter Wohnort: idealerweise München, Augsburg oder Nürnberg Hologic hat die Mission, der globale Marktführer im Bereich Frauengesundheit zu werden. Unsere Division für Brust- & ...\n Radiology Account Executive - Chicago, IL\n Chicago, IL, United States\n \nAt Hologic, we’re an innovative medical technology company that enables healthier lives everywhere, every day. We are also a company that prospers and grows, which is why we’ve been able to expand our offerings to ..."
+}

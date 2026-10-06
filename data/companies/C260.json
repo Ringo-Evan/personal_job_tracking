@@ -1,0 +1,190 @@
+{
+  "company_id": "C260",
+  "tracker": {
+    "company_id": "C260",
+    "company": "Boston Scientific",
+    "sector": "Regulated healthtech",
+    "interests": "Devices; Marlborough MA",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "Test Automation Engineer",
+      "Quality Manager"
+    ],
+    "approach": "QA Manager",
+    "why": "Medical devices; regulated hardware/software; strong domain match; Marlborough site not commutable.",
+    "flags": "Marlborough onsite; remote unknown",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C260",
+    "career_url": "https://www.bostonscientific.com/en-US/careers.html",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Careers page mentions global collaboration and flexibility, but no explicit remote-work policy or remote-eligible locations are stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://jobs.bostonscientific.com/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Company cut its 2026 organic net sales growth outlook to 5% to 6%, and layoffs are expected.",
+          "date": null,
+          "url": "https://www.nbcboston.com/boston-business-journal/boston-scientific-revenue-outlook-drops-layoffs-expected/3989042/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Board approved a 2026 Restructuring Plan setting aside up to $300 million for employee termination benefits, including Costa Rica.",
+          "date": "2026-07",
+          "url": "https://ticotimes.net/2026/07/30/boston-scientific-costa-rica-layoffs-restructuring"
+        },
+        {
+          "kind": "growth",
+          "summary": "Boston Scientific opened an additional manufacturing plant in Cartago, Costa Rica this year.",
+          "date": null,
+          "url": "https://ticotimes.net/2026/07/30/boston-scientific-costa-rica-layoffs-restructuring"
+        },
+        {
+          "kind": "other",
+          "summary": "Restructuring is projected to cut gross annual pre-tax expenses by about $500 million, reinvested into growth initiatives.",
+          "date": null,
+          "url": "https://ticotimes.net/2026/07/30/boston-scientific-costa-rica-layoffs-restructuring"
+        },
+        {
+          "kind": "other",
+          "summary": "Ranked as Costa Rica's leading medical device exporter in 2024 and the first half of 2025.",
+          "date": null,
+          "url": "https://ticotimes.net/2026/07/30/boston-scientific-costa-rica-layoffs-restructuring"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Boston Scientific is a large regulated medical-device maker, a direct match to the candidate's FDA V&V and design-controls background. But its QA site is Marlborough, MA — not commutable from Downeast Maine — remote eligibility is unstated, and no QA",
+      "role_families": [
+        "Medical device QA/V&V engineering",
+        "Test automation / SDET",
+        "Quality systems & design controls"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director, Quality Engineering (or Senior Manager, R&D Quality)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps directly to Boston Scientific's device quality engineering needs.",
+    "red_flags": "2026 restructuring with up to $300M in termination benefits; growth outlook cut; no remote-eligibility or Maine-friendly policy stated.",
+    "confidence": "low",
+    "sources": [
+      "https://www.bostonscientific.com/en-US/careers.html",
+      "https://bostonscientific.eightfold.ai/careers",
+      "https://jobs.bostonscientific.com/",
+      "https://www.nbcboston.com/boston-business-journal/boston-scientific-revenue-outlook-drops-layoffs-expected/3989042/",
+      "https://ticotimes.net/2026/07/30/boston-scientific-costa-rica-layoffs-restructuring"
+    ],
+    "notes": "Verified: 5k+ employees, regulated healthtech; 2026 Restructuring Plan (up to $300M severance, Costa Rica), 2026 organic growth trimmed to 5-6%. No QA openings or contacts listed; careers page cites flexibility but no explicit remote policy or remote-eligible locations. Marlborough MA HQ not commutable from Downeast Maine.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.bostonscientific.com/en-US/careers.html",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses successfactors"
+  },
+  "verify_rejects": 0
+}

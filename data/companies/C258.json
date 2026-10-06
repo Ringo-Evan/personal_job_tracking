@@ -1,0 +1,165 @@
+{
+  "company_id": "C258",
+  "tracker": {
+    "company_id": "C258",
+    "company": "Tandem Diabetes Care",
+    "sector": "Regulated healthtech",
+    "interests": "Insulin pumps",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "tandemdiabetes|12|tandemdiabetes",
+    "board_url": "https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 36
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Manager"
+    ],
+    "approach": "Director of QA",
+    "why": "Insulin pumps; regulated medical devices; strong match; public but device-focused.",
+    "flags": "Onsite/regulatory constraints possible",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C258",
+    "career_url": "https://www.tandemdiabetes.com/about-us/careers",
+    "ats": {
+      "type": "workday",
+      "token": "tandemdiabetes|12|tandemdiabetes",
+      "board_url": "https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes"
+    },
+    "remote_policy": {
+      "summary": "Remote work opportunities are listed among the benefits; employees may work remotely or in the office. No location restrictions stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.tandemdiabetes.com/about-us/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Tandem makes insulin pumps and related diabetes-management software—a regulated medical device maker matching the candidate's FDA V&V and design-controls background. Senior QA/SDET or verification roles are plausible, but remote-from-Maine eligibility and current openings are unverified, so fit rests on domain",
+      "role_families": [
+        "SDET / test automation",
+        "Quality engineering / design assurance",
+        "Software V&V engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "15 years of FDA-regulated V&V and design-controls testing on hardware-adjacent systems maps directly to verifying insulin pump software and its connected mobile ecosystem.",
+    "red_flags": "No verified QA openings, no named leaders, and Maine residency eligibility for remote roles is unconfirmed.",
+    "confidence": "low",
+    "sources": [
+      "https://www.tandemdiabetes.com/about-us/careers"
+    ],
+    "notes": "Workday board (tandemdiabetes); benefits list remote work with no stated location limits, but Maine eligibility is unknown. No stability signals or QA openings in the facts. Public medical-device maker with recurring consumable revenue; recent industry-wide cost pressure warrants probing financials. Domain match is the main draw.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:tandemdiabetes|12|tandemdiabetes (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

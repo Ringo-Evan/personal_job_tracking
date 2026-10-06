@@ -1,0 +1,91 @@
+{
+  "company_id": "C071",
+  "tracker": {
+    "company_id": "C071",
+    "company": "Insulet",
+    "sector": "Regulated healthtech",
+    "interests": "FDA-regulated device testing (DEKA background)",
+    "career_url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers",
+    "role_families": "Sr Software Test Engineer; SDET; embedded V&V",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Senior software test / SDET titles recur and match DEKA medical-device V&V; hybrid Acton, MA is the blocker.",
+    "research_notes": "2026 'Sr Software Test Engineer - Embedded' reqs are hybrid Acton, MA. Sr SDET range $124.8K-187.2K - useful pay benchmark.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Hybrid Acton MA on seen reqs; not Maine-remote",
+    "benefit_source": "https://www.theladders.com/job/senior-software-development-engineer-in-test-hybrid-acton-ma-insulet-corporation-acton-ma_84644661",
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Workday alert for remote test roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "insulet|5|insuletcareers",
+    "board_url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://insulet.wd5.myworkdayjobs.com/insuletcareers",
+    "note": "",
+    "job_count": 192
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:47-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:47:59-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

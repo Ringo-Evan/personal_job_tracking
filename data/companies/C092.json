@@ -1,0 +1,91 @@
+{
+  "company_id": "C092",
+  "tracker": {
+    "company_id": "C092",
+    "company": "Tricentis",
+    "sector": "Test tooling",
+    "interests": "Test automation tools",
+    "career_url": "https://www.tricentis.com/careers",
+    "role_families": "Solutions engineer; test engineer; customer success eng",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Strong domain fit; many eng roles in Europe.",
+    "research_notes": "Verified in 09/30 search. Senior Software Test Engineer role seen in Prague (Test Analytics/Test Management). US roles need checking.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Search US roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "US solutions engineering lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=US%20solutions%20engineering%20lead%20Tricentis",
+    "outreach_notes": "Same tooling pitch as SmartBear."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "tricentis|1|Tricentis_Careers",
+    "board_url": "https://tricentis.wd1.myworkdayjobs.com/Tricentis_Careers",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.tricentis.com/careers",
+    "note": "",
+    "job_count": 19
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:00-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

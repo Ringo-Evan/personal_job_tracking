@@ -1,0 +1,173 @@
+{
+  "company_id": "C453",
+  "tracker": {
+    "company_id": "C453",
+    "company": "OpenGov",
+    "sector": "Enterprise & govtech",
+    "interests": "Gov budgeting software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "opengov",
+    "board_url": "https://jobs.ashbyhq.com/opengov",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 68
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Engineering",
+    "why": "Cloud budgeting, permitting and reporting software for governments; durable public contracts and likely .NET stack suit senior test-automation work.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C453",
+    "career_url": "https://opengov.com/careers/",
+    "ats": {
+      "type": "ashby",
+      "token": "opengov",
+      "board_url": "https://jobs.ashbyhq.com/opengov"
+    },
+    "remote_policy": {
+      "summary": "Openings are mostly tied to US or India city locations (Chicago, Boston, Atlanta, San Francisco, Dallas, Pune); one US role is listed as Remote. No company-wide remote policy is stated.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://opengov.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "OpenGov sells an AI-powered software platform built for cities, counties, and state agencies.",
+          "date": null,
+          "url": "https://opengov.com/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "OpenGov builds AI-powered budgeting and permitting software for cities, counties and state agencies. Test work would suit a senior engineer, but the candidate's domains (medical devices, hardware, telecom) don't overlap, no QA roles are posted, and remote flexibility is limited.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Your 15 years in C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps to compliance-grade, audit-heavy govtech software where release confidence is a selling point.",
+    "red_flags": "No QA openings posted; roles mostly tied to specific city locations; no stated company-wide remote policy; no domain overlap.",
+    "confidence": "medium",
+    "sources": [
+      "https://opengov.com/careers/",
+      "https://opengov.com/"
+    ],
+    "notes": "Govtech SaaS for public-sector budgeting; public-sector customer base implies durable, sticky revenue. Job board shows openings mostly anchored to Chicago, Boston, Atlanta, San Francisco, Dallas and Pune, with one US remote role; Maine eligibility appears possible but unconfirmed. No QA/SDET openings found, so outreach rather than application is needed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:opengov (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,11 @@
+  workday-R0046754                         skill=2 below   maine=yes     ServiceNow Administrator / Automation Analyst
+  workday-099732                           skill=3 above   maine=no      Director, Systems Analysis (Quality Engineering Ca
+  workday-JR115776                         skill=2 match   maine=yes     Sr. Lead Engineer, Integration & Automation
+  workday-JR116144                         skill=2 below   maine=yes     Data Quality Analyst
+  workday-R0014512                         skill=2 match   maine=yes     Principal Security Engineer,  Orchestration and Au
+  workday-R0018636                         skill=4 match   maine=unknown Senior QA Engineer - DroneDeploy
+  workday-R2627032                         skill=2 match   maine=yes     Employee Benefits Quality Consultant
+  workday-R51223                           skill=2 match   maine=yes     ProAdmin Testing & Client Support Specialist
+  workday-R-58982                          skill=4 match   maine=no      Lead, Software Engineering QA
+
+summary: scored=9, unchanged=115, failed=0, fetched_pages=1

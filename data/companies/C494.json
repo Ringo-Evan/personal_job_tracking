@@ -1,0 +1,195 @@
+{
+  "company_id": "C494",
+  "tracker": {
+    "company_id": "C494",
+    "company": "Jack Henry",
+    "sector": "Enterprise & govtech",
+    "interests": "Bank core systems; remote",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Quality Engineering Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Bank core systems with remote roles; .NET/regulated fintech aligns with candidate's test automation background.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C494",
+    "career_url": "https://careers.jackhenry.com/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote work is available for regular full-time and part-time associates, based on the needs of the job, associate performance, work group and company needs; many openings are posted as United States Remote.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.jackhenry.com/yourexperience"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Tracxn lists Victor Technology as Jack Henry's most recent acquisition, reportedly acquired in October 2025.",
+          "date": null,
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0"
+        },
+        {
+          "kind": "other",
+          "summary": "Centreville Bank partnered with Jack Henry to enhance its banking technology, reported September 2026.",
+          "date": null,
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0"
+        },
+        {
+          "kind": "other",
+          "summary": "Jack Henry and Google Cloud expanded their collaboration to deliver AI-driven security for banks and credit unions.",
+          "date": null,
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0"
+        },
+        {
+          "kind": "growth",
+          "summary": "Woodforest National Bank selected Jack Henry to power growth on a modern integrated platform.",
+          "date": null,
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0"
+        },
+        {
+          "kind": "other",
+          "summary": "Media covered Jack Henry in 55 events over the past year, 15 about acquisition activity, indicating active deal and partnership news.",
+          "date": null,
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Jack Henry provides core banking and payments software to thousands of financial institutions. Its regulated, C#-heavy environment and US-remote policy suit the candidate, though banking isn't a stated interest and no QA openings are listed.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Jeremey S.",
+        "title": "Senior Manager, Software Engineering, Data Engineering Group",
+        "source_url": "https://careers.jackhenry.com/"
+      }
+    ],
+    "approach_role": "Senior Manager, Software Engineering, Data Engineering Group",
+    "outreach_angle": "With 15 years in C#/.NET test automation for regulated, hardware-adjacent systems, I can help Jack Henry's banking platforms maintain quality and compliance.",
+    "red_flags": "No current QA openings listed; acquisition integration may add uncertainty.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.jackhenry.com/yourexperience",
+      "https://careers.jackhenry.com/search-jobs",
+      "https://tracxn.com/d/acquisitions/acquisitions-by-jack-henry/__TzEkA6VEKi05iPVCdd_xdr8sMdHss9OH1cw31Y-KWg0",
+      "https://careers.jackhenry.com/"
+    ],
+    "notes": "Jack Henry is a large public fintech serving banks and credit unions. Remote work is available and Maine-eligible. Stability is strong, with acquisitions and partnerships. No QA openings were listed in the verified facts; hiring bar likely moderate to competitive.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:33:10-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.jackhenry.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  }
+}

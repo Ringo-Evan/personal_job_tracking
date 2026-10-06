@@ -1,0 +1,198 @@
+{
+  "company_id": "C153",
+  "tracker": {
+    "company_id": "C153",
+    "company": "Perforce",
+    "sector": "Test tooling",
+    "interests": "Dev tools; Perfecto, BlazeMeter",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "lever",
+    "token": "perforce",
+    "board_url": "https://jobs.lever.co/perforce",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 5
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Solutions Engineer",
+      "Senior QA Engineer",
+      "Product Manager"
+    ],
+    "approach": "VP Quality",
+    "why": "Dev tools vendor; owns testing portfolio; stable established company",
+    "flags": "Large corp; may require relocation; sales/solutions heavy",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C153",
+    "career_url": "https://www.perforce.com/careers",
+    "ats": {
+      "type": "lever",
+      "token": "perforce",
+      "board_url": "https://jobs.lever.co/perforce"
+    },
+    "remote_policy": {
+      "summary": "Listed openings are hybrid roles based in Minneapolis, MN and Pune, Maharashtra; no US-remote positions are listed.",
+      "maine_eligible": "no",
+      "evidence_url": "https://jobs.lever.co/perforce"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Company has grown through a series of strategic acquisitions, most recently Delphix (2024) and Snowtrack (2025).",
+          "date": null,
+          "url": "https://www.perforce.com/company"
+        },
+        {
+          "kind": "funding",
+          "summary": "Perforce is backed by private equity firms Clearlake Capital and Francisco Partners and continues to invest in its portfolio.",
+          "date": null,
+          "url": "https://www.perforce.com/company"
+        },
+        {
+          "kind": "other",
+          "summary": "Named a Top Workplace in Minnesota and India, an employee-satisfaction recognition.",
+          "date": null,
+          "url": "https://www.perforce.com/company"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 2,
+      "rationale": "Perforce is a test tooling company (Perfecto, BlazeMeter), aligning with the candidate's test automation background. However, listed roles are hybrid in Minneapolis/Pune with no US-remote, and no QA openings are posted, so location and lack of openings block fit.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Ron Hoffner",
+        "title": "VP of Product Management",
+        "source_url": "https://www.prnewswire.com/news-releases/perforces-2026-platform-engineering-report-finds-platform-engineering-maturity-separates-ai-advantage-from-instability-302820040.html"
+      },
+      {
+        "name": "Jim Cassens",
+        "title": "CEO",
+        "source_url": "https://www.perforce.com/company"
+      }
+    ],
+    "approach_role": "VP of Product Management",
+    "outreach_angle": "My C#/.NET test automation and FDA-regulated V&V experience maps to Perforce's Perfecto and BlazeMeter tooling; I'd value a conversation about QA or SDET roles, ideally with US-remote flexibility.",
+    "red_flags": "No US-remote roles; hybrid only in Minneapolis/Pune; no QA openings posted.",
+    "confidence": "high",
+    "sources": [
+      "https://www.perforce.com/careers",
+      "https://jobs.lever.co/perforce",
+      "https://www.perforce.com/company",
+      "https://www.prnewswire.com/news-releases/perforces-2026-platform-engineering-report-finds-platform-engineering-maturity-separates-ai-advantage-from-instability-302820040.html"
+    ],
+    "notes": "Perforce is a stable, PE-backed test-tooling company (Perfecto, BlazeMeter). All listed roles are hybrid in Minneapolis or Pune; no US-remote or QA openings. Maine-based candidate faces location barrier. Strong domain alignment but no current path.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "lever:perforce (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

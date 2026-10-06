@@ -1,0 +1,196 @@
+  batch C270..C289: 20/20 ok via deepseek/deepseek-flash
+  batch C290..C309: 20/20 ok via deepseek/deepseek-flash
+  batch C310..C329: 20/20 ok via deepseek/deepseek-flash
+  batch C330..C349: 20/20 ok via deepseek/deepseek-flash
+  batch C350..C369: 20/20 ok via deepseek/deepseek-flash
+  batch C370..C389: 20/20 ok via deepseek/deepseek-flash
+  batch C390..C409: 20/20 ok via deepseek/deepseek-flash
+  batch C410..C429: 20/20 ok via deepseek/deepseek-flash
+  batch C430..C449: 20/20 ok via deepseek/deepseek-flash
+  batch C450..C469: 20/20 ok via deepseek/deepseek-flash
+  batch C470..C489: 20/20 ok via deepseek/deepseek-flash
+  batch C490..C509: 20/20 ok via deepseek/deepseek-flash
+  batch C510..C529: 20/20 ok via deepseek/deepseek-flash
+  batch C530..C549: 20/20 ok via deepseek/deepseek-flash
+  batch C550..C569: 20/20 ok via deepseek/deepseek-flash
+  batch C570..C589: 20/20 ok via deepseek/deepseek-flash
+  batch C590..C609: 20/20 ok via deepseek/deepseek-flash
+  batch C610..C629: 20/20 ok via deepseek/deepseek-flash
+  batch C630..C649: 20/20 ok via deepseek/deepseek-flash
+  batch C650..C669: 20/20 ok via deepseek/deepseek-flash
+  batch C670..C689: 20/20 ok via deepseek/deepseek-flash
+  batch C690..C709: 20/20 ok via deepseek/deepseek-flash
+  batch C710..C729: 20/20 ok via deepseek/deepseek-flash
+  batch C730..C749: 20/20 ok via deepseek/deepseek-flash
+  batch C750..C769: 20/20 ok via deepseek/deepseek-flash
+  batch C770..C789: 20/20 ok via deepseek/deepseek-flash
+  batch C790..C809: 20/20 ok via deepseek/deepseek-flash
+  batch C810..C829: 20/20 ok via deepseek/deepseek-flash
+  batch C830..C849: 20/20 ok via deepseek/deepseek-flash
+  batch C850..C869: 20/20 ok via deepseek/deepseek-flash
+  batch C870..C889: 20/20 ok via deepseek/deepseek-flash
+  batch C890..C909: 20/20 ok via deepseek/deepseek-flash
+  batch C910..C929: 20/20 ok via deepseek/deepseek-flash
+  batch C930..C949: 20/20 ok via deepseek/deepseek-flash
+  batch C950..C969: 20/20 ok via deepseek/deepseek-flash
+  batch C970..C989: 20/20 ok via deepseek/deepseek-flash
+  batch C990..C1049: 20/20 ok via deepseek/deepseek-flash
+  batch C1050..C1069: 20/20 ok via deepseek/deepseek-flash
+  batch C1070..C1089: 20/20 ok via deepseek/deepseek-flash
+  batch C1090..C1109: 20/20 ok via deepseek/deepseek-flash
+  batch C1110..C1129: 20/20 ok via deepseek/deepseek-flash
+  batch C1130..C1149: 20/20 ok via deepseek/deepseek-flash
+  batch C1150..C1169: 20/20 ok via deepseek/deepseek-flash
+  batch C1170..C1189: 20/20 ok via deepseek/deepseek-flash
+  batch C1190..C1209: 20/20 ok via deepseek/deepseek-flash
+  batch C1210..C1219: 10/10 ok via deepseek/deepseek-flash
+
+triaged=910 failed=0 calls=46 rejects=0 escalations=0 cached=0 models={'deepseek/deepseek-flash': 910} tokens={'prompt_tokens': 52960, 'completion_tokens': 357450}
+{
+  "count": 1070,
+  "distribution": {
+    "fit": {
+      "1": 142,
+      "2": 262,
+      "3": 396,
+      "4": 238,
+      "5": 32
+    },
+    "stability": {
+      "1": 14,
+      "2": 211,
+      "3": 367,
+      "4": 329,
+      "5": 149
+    },
+    "remote": {
+      "High": 224,
+      "Low": 352,
+      "Medium": 318,
+      "Unknown": 176
+    },
+    "size": {
+      "50-500": 277,
+      "500-5k": 322,
+      "5k+": 231,
+      "<50": 189,
+      "Unknown": 51
+    }
+  },
+  "models": {
+    "claude-haiku-4-5-20251001": 100,
+    "deepseek/deepseek-flash": 970
+  },
+  "sample": [
+    {
+      "id": "C406",
+      "company": "Rapid7",
+      "fit": 3,
+      "stability": 4,
+      "remote": "Medium",
+      "size": "500-5k",
+      "why": "Cybersecurity software; QA/SDET roles plausible. Remote possible, security domain not core interest.",
+      "flags": "Security; remote possible.",
+      "approach": "QA Manager"
+    },
+    {
+      "id": "C1089",
+      "company": "DanceSafe",
+      "fit": 1,
+      "stability": 2,
+      "remote": "Low",
+      "size": "<50",
+      "why": "Harm reduction nonprofit; likely no dedicated software engineering or QA roles.",
+      "flags": "No dedicated tech roles",
+      "approach": "Operations Manager"
+    },
+    {
+      "id": "C172",
+      "company": "Sentry",
+      "fit": 3,
+      "stability": 4,
+      "remote": "High",
+      "size": "500-5k",
+      "why": "QA roles exist; remote-first culture; observability valuable for testing",
+      "flags": "Not core testing automation platform",
+      "approach": "Engineering Lead"
+    },
+    {
+      "id": "C374",
+      "company": "Sargent Corporation",
+      "fit": 2,
+      "stability": 3,
+      "remote": "Low",
+      "size": "500-5k",
+      "why": "Stillwater construction company; commutable, but not software-focused; limited senior QA opportunities.",
+      "flags": "Construction domain; few software roles",
+      "approach": "IT Manager"
+    },
+    {
+      "id": "C151",
+      "company": "LambdaTest",
+      "fit": 4,
+      "stability": 3,
+      "remote": "High",
+      "size": "50-500",
+      "why": "Cloud mobile/web testing platform; direct expertise with Appium/Selenium",
+      "flags": "India-based; may require visa sponsorship consideration",
+      "approach": "VP Quality"
+    },
+    {
+      "id": "C715",
+      "company": "Stonemaier Games",
+      "fit": 1,
+      "stability": 3,
+      "remote": "Low",
+      "size": "<50",
+      "why": "Small board game publisher; domain match but no software QA or remote engineering roles.",
+      "flags": "Tabletop only; no software roles.",
+      "approach": "Operations Manager"
+    },
+    {
+      "id": "C302",
+      "company": "Lyra Health",
+      "fit": 3,
+      "stability": 3,
+      "remote": "High",
+      "size": "500-5k",
+      "why": "Mental health benefits for employers; remote roles plausible, yet domain is pure software benefits administration with no hardware angle.",
+      "flags": "Well funded but benefit-spend sensitive; watch hiring freezes.",
+      "approach": "Director of Engineering, Quality"
+    },
+    {
+      "id": "C1135",
+      "company": "XBIZ",
+      "fit": 2,
+      "stability": 2,
+      "remote": "Low",
+      "size": "Unknown",
+      "why": "Adult trade media; sector interest fits. Similar to AVN: few technical QA roles and remote-Maine unlikely.",
+      "flags": "Media; unlikely QA hiring",
+      "approach": "IT Manager"
+    },
+    {
+      "id": "C1161",
+      "company": "Draper Laboratory",
+      "fit": 3,
+      "stability": 4,
+      "remote": "Low",
+      "size": "500-5k",
+      "why": "Nonprofit R&D lab doing defense and biomedical hardware test; domain fit moderate, Cambridge location not commutable from Maine.",
+      "flags": "Onsite Cambridge; citizenship requirements likely",
+      "approach": "Group Leader, Test & Verification"
+    },
+    {
+      "id": "C615",
+      "company": "Elastic",
+      "fit": 4,
+      "stability": 4,
+      "remote": "High",
+      "size": "500-5k",
+      "why": "Distributed search and observability company, remote-by-default; senior test roles plausible though stack is Java-heavy.",
+      "flags": "Java-centric stack; .NET experience less valued.",
+      "approach": "Director of Quality Engineering"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "company_id": "C339",
+  "tracker": {
+    "company_id": "C339",
+    "company": "ResMed",
+    "sector": "Regulated healthtech",
+    "interests": "Connected sleep devices; strong device-cloud testing",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "resmed|3|Brightree_External_Careers",
+    "board_url": "https://resmed.wd3.myworkdayjobs.com/Brightree_External_Careers",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 7
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior Test Engineer",
+      "Cloud SDET",
+      "Quality Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Connected sleep-therapy devices and cloud platform; ideal hardware-adjacent regulated testing, financially strong and growing.",
+    "flags": "Many roles onsite in San Diego",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C339",
+    "career_url": "https://careers-uat.resmed.com/testing-careers-resmed/",
+    "ats": {
+      "type": "workday",
+      "token": "resmed|3|Brightree_External_Careers",
+      "board_url": "https://resmed.wd3.myworkdayjobs.com/Brightree_External_Careers"
+    },
+    "remote_policy": {
+      "summary": "Flexible and hybrid working arrangements, with some roles fully remote or field-remote where feasible; flexibility varies by team and function.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/resmed/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Revenue of roughly $2.61B places ResMed on a Fortune Global 500-style revenue list.",
+          "date": null,
+          "url": "https://claveprep.com/blog/resmed-layoff-signals-guide-2026"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "ResMed develops connected sleep devices and cloud health platforms in a regulated, essential medical-device market. Strong fit for the candidate's FDA V&V background, but Maine remote eligibility is unconfirmed and no QA openings are listed.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "design verification/V&V"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My 15 years in FDA-regulated V&V and design controls for medical devices aligns with ResMed's connected sleep devices; I'd welcome a chat about senior test automation roles.",
+    "red_flags": "No current QA openings posted; Maine remote eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers-uat.resmed.com/testing-careers-resmed/",
+      "https://builtin.com/company/resmed/faq/work-life-balance-wellbeing",
+      "https://claveprep.com/blog/resmed-layoff-signals-guide-2026"
+    ],
+    "notes": "ResMed: regulated healthtech, connected sleep devices. Remote policy flexible/hybrid, some fully remote; Maine eligibility unknown. Revenue ~$2.61B, stable. No QA openings currently listed. Strong domain match for FDA-regulated V&V testing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:33:09-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:55:36-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

@@ -1,0 +1,24 @@
+  greenhouse-4715148005                    skill=2 below   maine=yes     Customer Reliability Engineer
+  greenhouse-4715160005                    skill=2 below   maine=yes     Customer Reliability Engineer
+  greenhouse-5385065008                    skill=2 match   maine=yes     Lead Site Reliability Engineer
+  greenhouse-5411533008                    skill=4 match   maine=yes     QA Manager, Live Operations
+  greenhouse-7727873                       skill=2 match   maine=yes     Senior Site Reliability Engineer,  Fleet Managemen
+  greenhouse-7727910                       skill=2 match   maine=yes     Site Reliability Engineer (Senior or Staff), Deplo
+  greenhouse-7727913                       skill=2 match   maine=yes     Site Reliability Engineer (Senior or Staff), Deplo
+  greenhouse-7727920                       skill=2 match   maine=yes     Senior Site Reliability Engineer, Fabric
+  greenhouse-7727964                       skill=2 match   maine=yes     Site Reliability Engineer (Senior or Staff), Atlas
+  greenhouse-7743366                       skill=2 match   maine=yes     Site Reliability Engineer (Senior or Staff), Stora
+  greenhouse-7758610                       skill=2 match   maine=yes     Site Reliability Engineer (Mid-Level, Senior or St
+  greenhouse-7909463                       skill=2 match   maine=yes     Staff Site Reliability Engineer, Ads
+  greenhouse-7990752003                    skill=2 above   maine=no      Senior Staff Site Reliability Engineer
+  greenhouse-8067147                       skill=2 match   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067500                       skill=2 match   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067501                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067678                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8090680                       skill=2 match   maine=yes     Senior Site Reliability Engineer, Ads
+  greenhouse-8127182                       skill=3 match   maine=yes     Software Engineer, Revenue and Financial Automatio
+  greenhouse-8160475                       skill=2 match   maine=no      Manager, Site Reliability Engineering (Auth0)
+  workday-R2026-1274                       skill=2 match   maine=unknown Senior Marketing Automation Solution Architect
+  workday-R264759                          skill=2 match   maine=no      Staff Engineer, Test Engineering
+
+summary: scored=22, unchanged=95, failed=0, fetched_pages=1

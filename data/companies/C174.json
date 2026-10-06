@@ -1,0 +1,173 @@
+{
+  "company_id": "C174",
+  "tracker": {
+    "company_id": "C174",
+    "company": "Grafana Labs",
+    "sector": "Test tooling",
+    "interests": "Observability; remote-first; k6 load testing",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "grafanalabs",
+    "board_url": "https://job-boards.greenhouse.io/grafanalabs",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Grafana Labs",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Performance Engineer",
+      "DevOps QA",
+      "SDET"
+    ],
+    "approach": "VP Engineering",
+    "why": "k6 load testing matches Locust skills; remote-first; industry leader",
+    "flags": "Observability platform not pure testing tooling",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C174",
+    "career_url": "https://grafana.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "grafanalabs",
+      "board_url": "https://job-boards.greenhouse.io/grafanalabs"
+    },
+    "remote_policy": {
+      "summary": "Remote-first: most roles are fully remote and the company hires globally, with many openings posted as United States (Remote) or country-specific remote roles.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://grafana.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Policy tracker lists Grafana Labs hiring direction as stable, with no reviewed policy changes and not enough evidence to classify remote policy.",
+          "date": null,
+          "url": "https://wfh.team/remote-policy-tracker/grafana-labs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Grafana Labs builds observability and test tooling (k6). Remote-first and Maine-eligible, but no QA openings listed and the candidate's medical-device/hardware domain is a gap.",
+      "role_families": [
+        "SDET",
+        "test-tooling solutions engineer",
+        "QA engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "With 15 years in test automation and FDA-regulated V&V, I can help Grafana's k6 and observability tools meet enterprise quality bars.",
+    "red_flags": "No QA openings listed; domain gap in observability.",
+    "confidence": "medium",
+    "sources": [
+      "https://grafana.com/careers/",
+      "https://wfh.team/remote-policy-tracker/grafana-labs"
+    ],
+    "notes": "Remote-first, hires globally, Maine eligible; hiring direction stable. No QA/SDET openings found. Sector is observability/test tooling (k6). Candidate's regulated hardware background is a partial fit.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:grafanalabs (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

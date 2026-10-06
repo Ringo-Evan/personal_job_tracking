@@ -1,0 +1,38 @@
+  ok   C002 greenhouse:hudl: 0 new
+  ok   C006 greenhouse:hasbro: 0 new
+  ok   C008 lever:larian: 0 new
+  ok   C009 ashby:flosports: 0 new
+  ok   C010 ashby:ScribdInc: 0 new
+  ok   C013 greenhouse:moveonorg: 0 new
+  ok   C014 greenhouse:kickstarter: 0 new
+  FAIL C020 greenhouse:axon: bad JSON from https://boards-api.greenhouse.io/v1/boards/axon/jobs?content=true: Unterminated string starting at: line 1 column 7964634 (char 7964633)
+  ok   C030 workday:ruger|1|External: 0 new
+  ok   C036 ashby:saronic: 0 new
+  ok   C052 workday:gadventures|3|GAdventures: 0 new
+  ok   C063 ashby:halter: 0 new
+  ok   C068 workday:husqvarnagroup|3|External_Career_Site: 0 new
+  ok   C071 workday:insulet|5|insuletcareers: 0 new
+  ok   C075 workday:athenahealth|1|External: 0 new
+  ok   C076 greenhouse:impinjexternal: 0 new
+  ok   C077 greenhouse:recidiviz: 0 new
+  ok   C080 greenhouse:bitfocus: 0 new
+  ok   C084 greenhouse:ophelia: 0 new
+  ok   C090 ashby:colonist: 0 new
+  ok   C091 greenhouse:smartbear: 0 new
+  ok   C092 workday:tricentis|1|Tricentis_Careers: 0 new
+  ok   C093 workday:browserstack|3|External: 0 new
+  ok   C098 workday:unum|1|External: 0 new
+  ok   C109 lever:wattpad: 0 new
+  ok   C125 workday:habitat|12|External: 0 new
+  ok   C126 greenhouse:ameelio: 0 new
+  ok   C127 greenhouse:verainstituteofjustice: 0 new
+  ok   C138 workday:zebra|501|Zebra_careers: 0 new
+  ok   C140 greenhouse:testlio: 3 new
+  ok   C141 greenhouse:saucelabs: 0 new
+  ok   C142 greenhouse:mabl: 0 new
+  NEW  Testlio                  Freelance Software Tester With Apple Vision Pro (Remote Worl [unknown] Global (Remote)
+  NEW  Testlio                  QA Analyst (Future Roles)                                    [unknown] Global
+  NEW  Testlio                  QA Tester (Future Roles)                                     [unknown] Global
+
+summary: boards_ok=31, boards_failed=1, fetched=890, kept=3, new=3, updated=0, closed=0, reopened=0
+  failed: C020 greenhouse:axon: bad JSON from https://boards-api.greenhouse.io/v1/boards/axon/jobs?content=true: Unterminated string starting at: line 1 column 7964634 (char 7964633)

@@ -1,0 +1,165 @@
+{
+  "company_id": "C896",
+  "tracker": {
+    "company_id": "C896",
+    "company": "Navitaire (Amadeus)",
+    "sector": "Travel",
+    "interests": "Airline reservations",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "amadeus|502|jobs",
+    "board_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.navitaire.com/careers",
+    "job_count": 108
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "QA Manager"
+    ],
+    "approach": "Head of Quality Engineering",
+    "why": "Airline reservations software under Amadeus; travel domain fits. Amadeus is large/stable; QA/SDET roles plausible, remote uncertain.",
+    "flags": "Likely hybrid; .NET unknown.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C896",
+    "career_url": "https://www.navitaire.com/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Navitaire builds airline reservation and ancillary-revenue software for low-cost carriers, part of Amadeus. The travel domain matches the candidate's stated interest, but no verified remote policy, QA openings, or contacts exist, so fit is speculative.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Engineering Manager, Quality Engineering",
+    "outreach_angle": "Fifteen years of test automation and regulated V&V maps well to airline reservation platforms; I would ask how Navitaire distributes quality engineering teams and whether Maine-based remote work is supported.",
+    "red_flags": "No verified remote policy, openings, or staff contacts; hiring may center on other Amadeus sites.",
+    "confidence": "low",
+    "sources": [
+      "https://www.navitaire.com/careers"
+    ],
+    "notes": "Verified facts are minimal: only sector (travel/airline reservations) and parent brand. No remote policy, size, stability signals, QA openings, or people listed. Amadeus is a large, profitable travel-IT group, so durability is likely decent, but Maine-remote eligibility and senior QA demand remain unconfirmed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.navitaire.com/careers",
+    "found": "workday:amadeus|502|jobs (embedded in https://www.navitaire.com/careers)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

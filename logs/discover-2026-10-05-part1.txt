@@ -1,0 +1,9 @@
+discover: 1113 companies to search
+  FOUND C328 MasterControl: greenhouse:mastercontrol (greenhouse token guessed from name)
+  ..   C675 Bohemia Interactive Simulations: 7 results, page https://careers.bohemia.net/en, workable https://apply.workable.com/bohemia-interactive-simulations-inc/
+  FOUND C728 BackerKit: lever:backerkit (linked from search results)
+  ..   C867 onX: 7 results, page https://www.onx.com/careers, rippling https://ats.rippling.com/onx/jobs
+  ..   C1061 Social Solutions (Bonterra Apric: 7 results
+  FOUND C1063 findhelp (Aunt Bertha): lever:findhelp (linked from search results)
+  ..   C151 LambdaTest: 7 results
+  FOUND C156 Cypress.io: greenhouse:cypressio (linked from search results)

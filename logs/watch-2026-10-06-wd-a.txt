@@ -1,0 +1,22 @@
+  ok   C460 workday:harriscomputer|3|1: 0 new
+  ok   C899 workday:priceline|1|BookingHoldings: 0 new
+  ok   C900 workday:priceline|1|Priceline: 0 new
+  ok   C476 workday:travelers|5|External: 0 new
+  ok   C479 workday:manulife|3|MFCJH_Jobs: 0 new
+  ok   C492 workday:workday|5|Workday: 0 new
+  ok   C498 workday:alkami|12|Alkami: 0 new
+  ok   C506 workday:vertexinc|1|VertexInc: 0 new
+  ok   C516 workday:procore|12|Procore_External_Careers: 1 new
+  ok   C519 workday:trimble|1|TrimbleCareers: 0 new
+  ok   C526 workday:blackbaud|1|ExternalCareers: 1 new
+  ok   C597 workday:zoom|5|Zoom: 0 new
+  ok   C630 workday:xboxgaming|1|CentralTech: 0 new
+  ok   C752 workday:rakuten|1|Kobo: 0 new
+  ok   C837 workday:basspro|1|careers: 0 new
+  ok   C884 workday:yeticoolers|5|YETI: 0 new
+  ok   C894 workday:sabre|1|SabreJobs: 0 new
+  ok   C968 workday:zoetis|5|zoetis: 0 new
+  NEW  Procore                  Senior QA Engineer - DroneDeploy                             [unknown] US - Texas
+  NEW  Blackbaud                Principal Security Engineer,  Orchestration and Automation   [yes] Remote - Anywhere - USA  USD 117,200-157,500/year
+
+summary: boards_ok=18, boards_failed=0, fetched=54, title_matches=54, kept=4, new=2, updated=2, closed=0, reopened=0

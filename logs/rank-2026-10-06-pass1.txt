@@ -1,0 +1,27 @@
+  ashby-d208bbf2-b175-4f50-b789-c6fbe20eed skill=1 unknown maine=yes     RN/NP Clinical Quality Reviewer
+  greenhouse-7812967003                    skill=2 match   maine=yes     Senior Manager, Clinical Development and Validatio
+  greenhouse-7819763003                    skill=2 match   maine=yes     Senior Manager, Clinical Development and Validatio
+  greenhouse-7866857003                    skill=2 match   maine=yes     Senior Site Reliability Engineer - FedRAMP
+  workday-JR101553                         skill=2 above   maine=yes     Principal Site Reliability Engineer
+  workday-JR103232                         skill=2 above   maine=yes     VP, Inventory Control & Quality Assurance
+  workday-JR14624                          skill=2 match   maine=yes     Senior Lead Site Reliability Engineer, Database
+  workday-JR4827                           skill=1 below   maine=yes     Coding Quality Coach - Home Health
+  workday-JR_052064                        skill=4 match   maine=no      Senior Automation QA Engineer
+  workday-R0045003                         skill=3 below   maine=yes     Quality Assurance Analyst
+  workday-R0046754                         skill=2 below   maine=yes     ServiceNow Administrator / Automation Analyst
+  greenhouse-4729892005                    skill=1 below   maine=yes     Marketing Automation Manager
+  greenhouse-8137733                       skill=4 match   maine=yes     Software Quality Manager
+  greenhouse-8623389002                    skill=2 match   maine=yes     Site Reliability Engineer, Infrastructure Platform
+  greenhouse-8623592002                    skill=2 above   maine=yes     Principal Site Reliability Engineer, Platform Engi
+  greenhouse-8770702002                    skill=3 match   maine=yes     Staff Backend Engineer, Database Automation (Go)
+  smartrecruiters-744000152685419          skill=2 match   maine=unknown Manufacturing Automation Engineer
+  workday-099732                           skill=3 above   maine=no      Director, Systems Analysis (Quality Engineering Ca
+  workday-31148913                         skill=3 match   maine=no      AQR Quality Program, Manager
+  workday-R26-03463                        skill=1 below   maine=no      Quality Assurance Caseworker
+  workday-591606                           skill=2 below   maine=no      Quality Control Technician
+  workday-592400                           skill=3 match   maine=no      Senior Design Quality Engineer
+  ashby-5bcd3475-8e38-42f1-897a-fa010ee6f9 skill=2 unknown maine=yes     Automation Engineer - Influencers
+  greenhouse-5440636008                    skill=2 match   maine=no      Data Center Engineer, Reliability & Infrastructure
+  greenhouse-5443572008                    skill=2 match   maine=yes     Senior Site Reliability Engineer (Systems Engineer
+
+summary: scored=25, unchanged=14, failed=0, fetched_pages=1

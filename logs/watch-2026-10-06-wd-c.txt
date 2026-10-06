@@ -1,0 +1,23 @@
+  ok   C463 workday:volarisgroup|3|Volaris: 0 new
+  ok   C770 workday:volarisgroup|3|EnvisionWare: 0 new
+  ok   C446 workday:kyndryl|5|KyndrylProfessionalCareers: 0 new
+  ok   C469 workday:duckcreek|1|duckcreekcareers: 0 new
+  ok   C478 workday:massmutual|1|MMINDCareersite: 0 new
+  ok   C483 workday:nationwide|1|Nationwide_Career: 0 new
+  ok   C496 workday:fis|5|SearchJobs: 0 new
+  ok   C500 workday:temenos|103|Temenoscareers: 0 new
+  ok   C515 workday:servicetitan|1|ServiceTitan: 2 new
+  ok   C518 workday:bentleysystems|5|bentley: 0 new
+  ok   C525 workday:buildertrend|108|External_Careers: 0 new
+  ok   C592 workday:zendesk|1|zendesk: 0 new
+  ok   C607 workday:etsy|5|Etsy_Careers: 0 new
+  ok   C737 workday:ebay|5|TCGPlayer_External_Career: 0 new
+  ok   C800 workday:roguefitness|1|RogueFitness_External_Careers: 0 new
+  ok   C847 workday:thekineticgroup|1|EXTERNAL_FED: 0 new
+  ok   C892 workday:patagonia|503|PWCareers: 0 new
+  ok   C916 workday:flybreeze|503|Breeze_Airways: 0 new
+  ok   C999 workday:axiomspace|5|External_Career_Site: 0 new
+  NEW  ServiceTitan             Data Quality Analyst                                         [unknown] US Remote
+  NEW  ServiceTitan             Sr. Lead Engineer, Integration & Automation                  [unknown] US Remote
+
+summary: boards_ok=19, boards_failed=0, fetched=65, title_matches=65, kept=4, new=2, updated=2, closed=0, reopened=0

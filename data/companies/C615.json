@@ -1,0 +1,167 @@
+{
+  "company_id": "C615",
+  "tracker": {
+    "company_id": "C615",
+    "company": "Elastic",
+    "sector": "Remote-first software",
+    "interests": "Distributed",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "elastic",
+    "board_url": "https://job-boards.greenhouse.io/elastic",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name Elastic",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "Test Automation Engineer",
+      "QA Engineer"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Distributed search and observability company, remote-by-default; senior test roles plausible though stack is Java-heavy.",
+    "flags": "Java-centric stack; .NET experience less valued.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C615",
+    "career_url": "https://www.elastic.co/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "elastic",
+      "board_url": "https://job-boards.greenhouse.io/elastic"
+    },
+    "remote_policy": {
+      "summary": "Distributed-by-design, remote-first company; employees can work from anywhere with asynchronous collaboration and flexible scheduling.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://builtin.com/company/elastic/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 5,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Elastic is a remote-first leader in search/observability (high stability). It fits Evan's C#/Azure stack via Azure roles and accepts US-Maine. However, it lacks verified QA openings for senior SDET/lead roles, lowering fit compared to dedicated testing teams.",
+      "role_families": [
+        "SDET",
+        "Release Engineering",
+        "Quality Architecture"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Engineering Manager or Quality Lead (no specific names available)",
+    "outreach_angle": "Evan's 15 years in .NET/Python and building QA groups from scratch align perfectly with Elastic's need for scalable, distributed quality automation across global teams.",
+    "red_flags": "No explicit QA openings listed; strong competition from senior engineers who may pivot into testing, making SDET roles harder to fill than pure development slots.",
+    "confidence": "high",
+    "sources": [
+      "https://www.elastic.co/careers",
+      "https://builtin.com/company/elastic/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Elastic is financially durable with a verified Maine-remote policy. No current QA openings found, implying a competitive process or need for upskilling existing SDEs into test leadership.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "ollama_chat/qwen3.5:9b"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.elastic.co/careers",
+    "found": "greenhouse:elastic (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

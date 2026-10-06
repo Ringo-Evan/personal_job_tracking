@@ -1,0 +1,173 @@
+{
+  "company_id": "C900",
+  "tracker": {
+    "company_id": "C900",
+    "company": "Priceline",
+    "sector": "Travel",
+    "interests": "Travel",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "priceline|1|Priceline",
+    "board_url": "https://priceline.wd1.myworkdayjobs.com/Priceline",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 53
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Travel booking under Booking Holdings; travel domain fits. Stable, likely QA roles, .NET plausible; remote-from-Maine may be possible.",
+    "flags": "Remote policy may vary.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C900",
+    "career_url": "https://priceline.wd1.myworkdayjobs.com/Priceline",
+    "ats": {
+      "type": "workday",
+      "token": "priceline|1|Priceline",
+      "board_url": "https://priceline.wd1.myworkdayjobs.com/Priceline"
+    },
+    "remote_policy": {
+      "summary": "Hybrid: two days per week in office with three remote days; explicitly not fully remote, and work tightens during peak travel seasons.",
+      "maine_eligible": "no",
+      "evidence_url": "https://builtin.com/company/priceline/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs and cost-reduction moves said to thin coverage and concentrate responsibilities on remaining team members.",
+          "date": null,
+          "url": "https://builtin.com/company/priceline/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 1,
+      "rationale": "Priceline is a major online travel agency, a sector the candidate likes, but its hybrid policy requires two in-office days weekly and bars Maine residents, and it lists no QA roles while cutting costs and thinning teams.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your 15 years of regulated, hardware-adjacent test automation in C#/.NET could serve a large travel platform's booking-critical QE work, but only if Priceline opens remote-from-Maine roles.",
+    "red_flags": "Not remote; Maine residents ineligible. Recent layoffs concentrate work on remaining staff, with no QA openings posted.",
+    "confidence": "medium",
+    "sources": [
+      "https://priceline.wd1.myworkdayjobs.com/Priceline",
+      "https://builtin.com/company/priceline/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Verified: Workday ATS; hybrid two days in office, three remote, explicitly not fully remote and Maine-ineligible; layoffs and cost cuts reported; zero QA openings and no named quality leaders found. Travel sector matches candidate interest, but location and hiring signals block fit.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:priceline|1|Priceline (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

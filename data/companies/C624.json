@@ -1,0 +1,173 @@
+{
+  "company_id": "C624",
+  "tracker": {
+    "company_id": "C624",
+    "company": "Inductive Automation",
+    "sector": "Remote-first software",
+    "interests": "Industrial SCADA software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "inductive-automation-llc",
+    "board_url": "https://jobs.ashbyhq.com/inductive-automation-llc",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 10
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "50-500",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Test Automation Engineer"
+    ],
+    "approach": "Engineering Manager, QA",
+    "why": "Profitable SCADA/HMI vendor (Ignition); industrial hardware-adjacent software matches candidate, but hiring is largely Folsom-based.",
+    "flags": "HQ Folsom CA; mostly onsite roles.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C624",
+    "career_url": "https://inductiveautomation.com/about/careers/",
+    "ats": {
+      "type": "ashby",
+      "token": "inductive-automation-llc",
+      "board_url": "https://jobs.ashbyhq.com/inductive-automation-llc"
+    },
+    "remote_policy": {
+      "summary": "Remote-first company; IA is based in Folsom, California but has employees across the United States, and some positions may choose to work remotely from home.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://links.inductiveautomation.com/blog/inductive-automation-is-now-a-remotefirst-company"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Inductive Automation makes Ignition, an industrial SCADA/IIoT platform with many device drivers and protocols — hardware-adjacent, automation-heavy work that suits a senior test engineer. Remote-first and Maine-eligible, but no QA openings or stability data were verified and the domain is",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Carl Gould",
+        "title": "Chief Technology Officer, Inductive Automation",
+        "source_url": "https://inductiveautomation.com/about/careers/division/software-engineering"
+      }
+    ],
+    "approach_role": "Chief Technology Officer",
+    "outreach_angle": "Your 15 years of C#/.NET automation and regulated V&V map well to Ignition's protocol, driver and gateway testing — I'd welcome a conversation about quality engineering there.",
+    "red_flags": "No verified QA openings; SCADA/industrial domain gap; no stability signals provided.",
+    "confidence": "medium",
+    "sources": [
+      "https://inductiveautomation.com/about/careers/",
+      "https://links.inductiveautomation.com/blog/inductive-automation-is-now-a-remotefirst-company",
+      "https://inductiveautomation.com/about/careers/division/software-engineering"
+    ],
+    "notes": "Remote-first, employees across the US, Maine eligible; HQ Folsom, CA. CTO Carl Gould named. No job board, ATS, QA openings or stability signals verified. Established, bootstrapped industrial software vendor — durable but few senior QA seats.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:inductive-automation-llc (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

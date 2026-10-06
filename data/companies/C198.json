@@ -1,0 +1,155 @@
+{
+  "company_id": "C198",
+  "tracker": {
+    "company_id": "C198",
+    "company": "Honeywell",
+    "sector": "IoT / location tech",
+    "interests": "Scanners, warehouse automation",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Low",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Engineering Lead"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "IoT/warehouse automation domain match; Fortune 500 stability; senior roles likely.",
+    "flags": "Large corp; remote policy unclear",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C198",
+    "career_url": "https://careers.honeywell.com/en/sites/Honeywell",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 5,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Honeywell is a diversified industrial giant whose scanning, warehouse-automation and location-tech lines match the candidate's RFID/indoor-location and hardware-adjacent interests, and its scale sustains senior QA roles; but nothing verified confirms remote-from-Maine hiring or current openings.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test/release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (or Engineering Manager, Quality) — no named leader",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated hardware V&V maps well to Honeywell's scanning, warehouse-automation and location-tech quality challenges — I can own verification for device-plus-software systems.",
+    "red_flags": "No verified remote policy or QA openings; large-company roles often require onsite presence at a hub far from Maine.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.honeywell.com/en/sites/Honeywell"
+    ],
+    "notes": "Facts supplied are nearly empty: no job board, ATS, size, remote policy, stability signals, QA openings or contacts. General knowledge only: Honeywell is large, profitable and diversified (aerospace, building tech, warehouse scanning/location) so durable, but role availability, Maine-remote eligibility and senior QA demand are unverified. Confirm remote policy and openings directly before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:24:56-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.honeywell.com/en/sites/Honeywell",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses oracle"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,94 @@
+{
+  "company_id": "C086",
+  "tracker": {
+    "company_id": "C086",
+    "company": "UNITE HERE (tech team)",
+    "sector": "Labor",
+    "interests": "Hospitality union, labor tech",
+    "career_url": "https://jobs.unitehere.org/",
+    "role_families": "Software dev; QA; tools",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "In-house union tech team growing; roles NYC-centric and modestly paid.",
+    "research_notes": "Verified in 09/30 search. Building in-house union tech rather than relying on third parties. Software Developer (hybrid NYC, $74K-76K) closed May 2026; Senior Software Developer also posted before.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "NYC hybrid on seen roles",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Watch jobs.unitehere.org",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Director of Technology",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20UNITE%20HERE",
+    "outreach_notes": "Pitch QA/automation for campaign tools you'd help build in-house."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": null,
+    "source": "https://jobs.unitehere.org/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:12-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.unitehere.org/",
+    "found": null,
+    "other": []
+  }
+}

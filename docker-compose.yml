@@ -1,0 +1,14 @@
+# Local search engine for evidence gathering (plan-models.md §2). Bound to localhost only.
+# Start: docker compose up -d    Stop: docker compose down
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: jobsearch-searxng
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:8080"
+    volumes:
+      - ./searxng:/etc/searxng
+    environment:
+      - SEARXNG_BASE_URL=http://127.0.0.1:8888/
+      - SEARXNG_SECRET=${SEARXNG_SECRET:-localhost-only-not-secret}

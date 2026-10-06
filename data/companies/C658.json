@@ -1,0 +1,190 @@
+{
+  "company_id": "C658",
+  "tracker": {
+    "company_id": "C658",
+    "company": "Scopely",
+    "sector": "Games & stories",
+    "interests": "Mobile games",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "scopely",
+    "board_url": "https://job-boards.greenhouse.io/scopely",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "greenhouse token guessed from name; board name Scopely",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 3,
+    "stability": 4,
+    "remote": "Low",
+    "size": "500-5k",
+    "roles": [
+      "QA Engineer",
+      "Senior SDET",
+      "Test Lead"
+    ],
+    "approach": "QA Manager",
+    "why": "Mobile games publisher behind Monopoly Go; in-house QA exists and finances are solid, but hiring is office-centric.",
+    "flags": "Office-centric; Savvy-owned",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C658",
+    "career_url": "https://careers.scopely.com/us/en",
+    "ats": {
+      "type": "greenhouse",
+      "token": "scopely",
+      "board_url": "https://job-boards.greenhouse.io/scopely"
+    },
+    "remote_policy": {
+      "summary": "Classified Remote-friendly with current confirmed remote hiring, remote policy index 55/100 and a stable hiring direction. No state-level eligibility list is published.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://wfh.team/remote-policy-tracker/scopely"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Scopely bought Niantic's games business for $3.5bn, adding Pokemon Go, Monster Hunter Now and Pikmin Bloom to its portfolio.",
+          "date": null,
+          "url": "https://mobilegamer.biz/scopely-clarifies-niantic-layoff-reports/"
+        },
+        {
+          "kind": "other",
+          "summary": "Post-acquisition, Scopely said it would make no workforce reductions and welcomed every Niantic games employee.",
+          "date": null,
+          "url": "https://mobilegamer.biz/scopely-clarifies-niantic-layoff-reports/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Mobile-games publisher (Monopoly Go, Pokemon Go) matching candidate's games interest, with a QA Manager, Live Operations opening. But Maine remote eligibility is unverified and live-service QA differs from regulated medical domains.",
+      "role_families": [
+        "QA leadership",
+        "SDET / test automation",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "QA Manager, Live Operations",
+        "location": "US - Culver City, California, United States; US - United States",
+        "work_mode": "Unknown",
+        "url": "https://job-boards.greenhouse.io/scopely/jobs/5411533008?gh_jid=5411533008"
+      }
+    ],
+    "people": [],
+    "approach_role": "Head of QA / Director of Quality Engineering",
+    "outreach_angle": "15 years in test automation and FDA-regulated V&V, including design controls, maps well to Scopely's live-operations QA needs: building reliable, data-driven quality systems for high-scale mobile game releases.",
+    "red_flags": "Maine remote eligibility unconfirmed; live-ops role may demand US Pacific hours or on-call, and few senior QA openings are posted.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.scopely.com/us/en",
+      "https://wfh.team/remote-policy-tracker/scopely",
+      "https://mobilegamer.biz/scopely-clarifies-niantic-layoff-reports/",
+      "https://job-boards.greenhouse.io/scopely",
+      "https://job-boards.greenhouse.io/scopely/jobs/5411533008?gh_jid=5411533008"
+    ],
+    "notes": "Remote-friendly (index 55/100) but no state eligibility list, so Maine is unverified. Stability high: $3.5bn Niantic games acquisition, no announced layoffs, Savvy/PIF backing. One verified opening: QA Manager, Live Operations (US/remote-unknown). No named QA leaders to approach.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-06",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:40:19-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.scopely.com/",
+    "found": "greenhouse:scopely (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

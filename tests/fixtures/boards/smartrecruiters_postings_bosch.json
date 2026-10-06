@@ -1,0 +1,708 @@
+{
+ "offset": 0,
+ "limit": 100,
+ "totalFound": 1070,
+ "content": [
+  {
+   "id": "744000153419789",
+   "name": "Project Management Trainee – Test System Development",
+   "uuid": "f63e07d0-4079-45a8-9461-4e5e12077f72",
+   "jobAdId": "1a743b20-1d77-4f07-977e-89d5c1296411",
+   "defaultJobAd": true,
+   "refNumber": "REF297676Z",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-10-05T07:33:51.076Z",
+   "location": {
+    "city": "Budapest",
+    "country": "hu",
+    "address": "Gyömrői út 104",
+    "postalCode": "1103",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "47.4652907",
+    "longitude": "19.1553794",
+    "fullLocation": "Budapest, , Hungary"
+   },
+   "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+   },
+   "department": {},
+   "function": {
+    "id": "management",
+    "label": "Management"
+   },
+   "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+   },
+   "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+     "valueLabel": "Unlimited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "5a5f5198-846e-40f9-a392-a572a6c71e28",
+     "valueLabel": "Hungary Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "02a8eabd-4fd4-4061-94f0-3a30c2da95f5",
+     "valueLabel": "RBHU"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "7eeda48a-7560-4aba-86c8-f628dcdb9e66",
+     "valueLabel": "Budapest"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+     "valueLabel": "Others"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "36d67fff-2442-44b6-b51d-8070aeaca6e6",
+     "valueLabel": "Part-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "cef9d198-5f32-442c-a951-659a7407c22d",
+     "valueLabel": "Robert Bosch Kft."
+    },
+    {
+     "fieldId": "69ce86cd542ae4a67c1eb07f",
+     "fieldLabel": "HU Internship type",
+     "valueId": "1479310e-a15c-41a4-8344-18ce7641e44b",
+     "valueLabel": "Intern – Prodiák"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "acbd0fb4-afd1-49f8-8abc-ec454a4e33bd",
+     "valueLabel": "Mobility Electronics"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+     "valueLabel": "Intern"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "hu",
+     "valueLabel": "Hungary"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "feb56b03-fbfd-4998-9979-de204555c336",
+     "valueLabel": "Hungary"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "87547cd3-672f-43a6-970c-3ab5c4edd5a4",
+     "valueLabel": "HU_OTHER"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "AE",
+     "valueLabel": "ME"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000153419789",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153411871",
+   "name": "Test Manager",
+   "uuid": "8d4fcfa4-688b-4fea-bf06-f15c78d957f3",
+   "jobAdId": "a89e9b6b-34e9-4450-bebf-e2895fcbc96b",
+   "defaultJobAd": true,
+   "refNumber": "REF297666J",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-10-05T06:51:49.756Z",
+   "location": {
+    "city": "Taguig",
+    "country": "ph",
+    "address": "23rd Floor W Fifth Building 32nd St. corner 5th Avenue, Bonifacio Global City",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Taguig, , Philippines"
+   },
+   "industry": {
+    "id": "mechanical_engineering",
+    "label": "Mechanical Or Industrial Engineering"
+   },
+   "department": {},
+   "function": {
+    "id": "project_management",
+    "label": "Project Management"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+     "valueLabel": "Unlimited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "3d71bbc2-a036-487a-bcb8-9a237760bf18",
+     "valueLabel": "Philippines Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "91151d15-1f1e-4e09-9dbf-6b4a25232012",
+     "valueLabel": "SOPH"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "61500405-bbba-4238-8357-84d56dfc5478",
+     "valueLabel": "Manila"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "427b1359-5057-4375-a2ae-6c649782296d",
+     "valueLabel": "Experienced/ Middle Tariff"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+     "valueLabel": "Direct"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "76cd9ee8-02de-4374-98e7-d1e05440431c",
+     "valueLabel": "Bosch Service Solutions Inc."
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "010db496-f6ec-4416-90a5-6f15534b537e",
+     "valueLabel": "Bosch Global Service Solutions"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "e1a146c4-6212-4f0d-b2f6-060dd801354f",
+     "valueLabel": "Blue-collar workers"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ph",
+     "valueLabel": "Philippines"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "4ab2616f-af96-4d9e-bfed-9e7fc61e6ffe",
+     "valueLabel": "Philippines"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "ba4c94c1-2a5f-43b8-ad3e-2cf8d243d534",
+     "valueLabel": "PH_PC7"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "SO",
+     "valueLabel": "SO"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000153411871",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153182257",
+   "name": "Working Student in Verification & Validation & Test Automation",
+   "uuid": "7ff1c573-79fd-4a20-aac8-975ba215ab19",
+   "jobAdId": "8b7d424b-eea3-40d3-b7b4-12df8639a45a",
+   "defaultJobAd": true,
+   "refNumber": "REF293717V",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-10-02T13:18:47.127Z",
+   "location": {
+    "city": "Cluj-Napoca",
+    "region": "CJ",
+    "country": "ro",
+    "address": "Strada Constanța",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "46.7752666",
+    "longitude": "23.5945931",
+    "fullLocation": "Cluj-Napoca, CJ, Romania"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {},
+   "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "6f9a7d0b-19e4-42d6-862a-29a39eb09c4d",
+     "valueLabel": "Romania Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "cf813051-b960-4102-9a54-d1df579d9c50",
+     "valueLabel": "RBRO"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "a446c2fd-519f-4429-9662-6e53cd33ecce",
+     "valueLabel": "Cluj-Napoca"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+     "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "f401bfcb-aa97-48cf-b15a-965f3edaafe9",
+     "valueLabel": "Robert Bosch S.R.L."
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "da93a2c1-12f5-4efe-83ef-39cf1f18e8b6",
+     "valueLabel": "Cross-Domain Computing Solutions"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "e4a3c0db-920d-4356-8ce0-c0b44a54e497",
+     "valueLabel": "Working student"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "ro",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "9a75ebc5-92bc-4cc9-943d-bf9592277043",
+     "valueLabel": "Romania"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "b92713b4-b234-43c4-8473-44a2f92acfa5",
+     "valueLabel": "RO_PC1"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "CM",
+     "valueLabel": "XC"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000153182257",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153491398",
+   "name": "Flash Boot Loader_Software_Engineer",
+   "uuid": "d55fd3a8-0f4f-43f1-bbc4-471379707dbe",
+   "jobAdId": "43b801ad-1b37-4619-8fc2-2f2c78fff479",
+   "defaultJobAd": true,
+   "refNumber": "REF297227R",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-10-05T12:40:41.692Z",
+   "location": {
+    "city": "coimbatore",
+    "country": "in",
+    "address": "208/2, global tech park, kalapatty main road, kalapatty,  near guru saraan public school,",
+    "postalCode": "641048.",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "coimbatore, , India"
+   },
+   "industry": {
+    "id": "computer_software",
+    "label": "Computer Software"
+   },
+   "department": {},
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+     "valueLabel": "Unlimited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "2473485f-051f-4fbc-b802-f3620b73998c",
+     "valueLabel": "India Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "RBEI",
+     "valueLabel": "BGSW"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "Coimbatore",
+     "valueLabel": "Coimbatore"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "427b1359-5057-4375-a2ae-6c649782296d",
+     "valueLabel": "Experienced/ Middle Tariff"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "Robert Bosch Engineering and Business Solutions Private Ltd.",
+     "valueLabel": "Bosch Global Software Technologies Private Limited"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "2c84b9fd-f59a-4d8f-8666-3d3e8b6d5cef",
+     "valueLabel": "BGSW"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "c7b4da31-6f38-405a-b2e8-08a76e3c3f2c",
+     "valueLabel": "Professional"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "in",
+     "valueLabel": "India"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "IN",
+     "valueLabel": "India"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "IN_RBEI_52",
+     "valueLabel": "IN_RBEI_52"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "RBEI",
+     "valueLabel": "BGSW"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000153491398",
+   "creator": {
+    "name": "Gokulakannan Krishnasamy (GS/HRS22-IN)"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153448249",
+   "name": "[ETA] Junior DevOps Engineer (1-3 years of experience-HCM Based)",
+   "uuid": "d6bba20e-5624-437f-b179-54513d0668c1",
+   "jobAdId": "e5f4697c-9b11-457c-8691-da9e7532f82a",
+   "defaultJobAd": true,
+   "refNumber": "REF297686R",
+   "company": {
+    "identifier": "BoschGroup",
+    "name": "Bosch Group"
+   },
+   "releasedDate": "2026-10-05T09:28:49.744Z",
+   "location": {
+    "city": "Ho Chi Minh city",
+    "country": "vn",
+    "address": "364 Cong Hoa, Tan Binh Ward",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Ho Chi Minh city, , Vietnam"
+   },
+   "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+   },
+   "department": {},
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+   },
+   "customField": [
+    {
+     "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+     "fieldLabel": "Contract type",
+     "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+     "valueLabel": "Limited"
+    },
+    {
+     "fieldId": "5abe28e96d8bc56863dd9746",
+     "fieldLabel": "Tariff Area",
+     "valueId": "59cb1718-309b-426d-9923-78cb153bc85c",
+     "valueLabel": "Vietnam Local Grades"
+    },
+    {
+     "fieldId": "586a997ee4b05fd937b86098",
+     "fieldLabel": "Legal Entity(acronym)",
+     "valueId": "a88913e8-c3ca-427f-a052-c87f1aff2200",
+     "valueLabel": "BGSV"
+    },
+    {
+     "fieldId": "586a99b5e4b0daa006ae1079",
+     "fieldLabel": "Working Location",
+     "valueId": "f1760a39-f0a1-4842-ba38-d6479a6f3858",
+     "valueLabel": "Ho Chi Minh City"
+    },
+    {
+     "fieldId": "5abe295a6d8bc56863dd9747",
+     "fieldLabel": "Global Salary Level",
+     "valueId": "427b1359-5057-4375-a2ae-6c649782296d",
+     "valueLabel": "Experienced/ Middle Tariff"
+    },
+    {
+     "fieldId": "69ca83a2489188782a1e9f87",
+     "fieldLabel": "Direct Or Indirect",
+     "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+     "valueLabel": "Indirect"
+    },
+    {
+     "fieldId": "5abe29f9b60a5e486a2d9b1c",
+     "fieldLabel": "Working hours",
+     "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+     "valueLabel": "Full-time"
+    },
+    {
+     "fieldId": "586a9995e4b0daa006ae1078",
+     "fieldLabel": "Legal Entity",
+     "valueId": "55e75c1c-c44d-45e4-8199-194830e55e5a",
+     "valueLabel": "Bosch Global Software Technologies Company Limited"
+    },
+    {
+     "fieldId": "691cf1c93001c782b9560ab7",
+     "fieldLabel": "Division full name",
+     "valueId": "a6a64964-8e91-41a0-8340-fb159be7d9ac",
+     "valueLabel": "BGSV"
+    },
+    {
+     "fieldId": "5abe27936d8bc56863dd9745",
+     "fieldLabel": "Position type",
+     "valueId": "c7b4da31-6f38-405a-b2e8-08a76e3c3f2c",
+     "valueLabel": "Professional"
+    },
+    {
+     "fieldId": "COUNTRY",
+     "fieldLabel": "Country/Region",
+     "valueId": "vn",
+     "valueLabel": "Vietnam"
+    },
+    {
+     "fieldId": "586a971ee4b0daa006ae1077",
+     "fieldLabel": "Brands",
+     "valueId": "default",
+     "valueLabel": "Bosch Group"
+    },
+    {
+     "fieldId": "586a996ce4b05fd937b86097",
+     "fieldLabel": "Working Country",
+     "valueId": "3f6189e1-7124-4d9a-9d02-9f23f9a6e4d2",
+     "valueLabel": "Vietnam"
+    },
+    {
+     "fieldId": "586a9b22e4b05fd937b8609a",
+     "fieldLabel": "Local Grade",
+     "valueId": "be9e45bf-856e-4b12-aafc-fa880dbd87fa",
+     "valueLabel": "VN_L50"
+    },
+    {
+     "fieldId": "586a99a5e4b05fd937b86099",
+     "fieldLabel": "Division",
+     "valueId": "b265608d-ab19-4c56-a419-d736ec4c054d",
+     "valueLabel": "BGSV"
+    }
+   ],
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000153448249",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  }
+ ]
+}

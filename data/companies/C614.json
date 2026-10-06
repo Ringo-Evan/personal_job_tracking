@@ -1,0 +1,165 @@
+{
+  "company_id": "C614",
+  "tracker": {
+    "company_id": "C614",
+    "company": "GitHub (Microsoft)",
+    "sector": "Remote-first software",
+    "interests": "Remote-first",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Release Engineer"
+    ],
+    "approach": "Engineering Manager, Quality",
+    "why": "Microsoft-owned developer platform, remote-first; strong stability, but Ruby/Go-centric stack with limited .NET QA openings.",
+    "flags": "Microsoft hiring freezes; stack favors Ruby/Go.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C614",
+    "career_url": "https://www.github.careers/careers-home/jobs",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "GitHub describes itself as remote-first, offering remote work and comprehensive benefits; team members are described as a highly distributed workforce. No state-level eligibility list is published.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.github.careers/careers-home"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "GitHub's CEO said AI will increase developer hiring rather than replace engineers, calling recent tech layoffs a short-term correction.",
+          "date": null,
+          "url": "https://economictimes.indiatimes.com/topic/github-layoffs"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "GitHub is a remote-first developer platform (Microsoft-owned) with high stability, but few QA openings and no Maine eligibility info; weak match to medical-device/hardware-adjacent domains.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering",
+    "outreach_angle": "Your 15 years in test automation and regulated V&V could help GitHub scale quality for developer tools, though I'd confirm Maine remote eligibility first.",
+    "red_flags": "No Maine eligibility listed; no current QA openings.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.github.careers/careers-home/jobs",
+      "https://www.github.careers/careers-home",
+      "https://economictimes.indiatimes.com/topic/github-layoffs",
+      "https://github.blog/news-insights/remote-work-a-series-of-best-practices-for-a-remote-workplace/"
+    ],
+    "notes": "GitHub is remote-first, 500-5k employees, Microsoft-owned; stability high. No state eligibility list published, so Maine remote unknown. No QA openings on board. No people listed. Growth signal: CEO says AI will increase developer hiring.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.github.careers/careers-home/jobs",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses icims"
+  },
+  "verify_rejects": 0
+}

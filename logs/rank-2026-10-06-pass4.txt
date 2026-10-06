@@ -1,0 +1,39 @@
+  greenhouse-7421839                       skill=3 match   maine=yes     Software Quality Operations Specialist, Domain Exp
+  greenhouse-7456163                       skill=3 match   maine=unknown Software Quality Operations Specialist
+  greenhouse-7458098                       skill=3 match   maine=unknown Software Quality Operations Specialist
+  greenhouse-7816014                       skill=3 match   maine=unknown Staff Software Quality Safety Operations Specialis
+  greenhouse-7944176                       skill=3 below   maine=unknown Software Quality Operations Specialist
+  workday-R18065                           skill=2 match   maine=no      Senior Staff Automation Engineer
+  workday-R18116                           skill=5 match   maine=no      Senior Automation Engineer
+  workday-R18558                           skill=4 match   maine=no      R&D System Verification & Validation Test Manager
+  workday-R19008                           skill=2 below   maine=no      Test Development Engineer
+  workday-R19650                           skill=3 below   maine=no      Product Quality Assurance Engineer
+  workday-R19738                           skill=2 below   maine=no      Quality Assurance Compliance Specialist I
+  workday-R19835                           skill=3 below   maine=no      Site Quality Assurance Engineer
+  workday-R19839                           skill=5 match   maine=no      Staff Software QA Engineer
+  workday-R20003                           skill=2 below   maine=no      Site Quality Assurance Engineer II
+  workday-R20045                           skill=3 match   maine=no      Staff Software QA Engineer (Salesforce & Integrati
+  workday-R20162                           skill=2 match   maine=no      Quality Assurance Compliance Engineer
+  workday-R20219                           skill=3 match   maine=no      Senior Quality Assurance Engineer
+  workday-R20336                           skill=2 below   maine=no      Test Technician l
+  workday-R20349                           skill=2 below   maine=no      Quality Assurance Engineer
+  workday-R20381                           skill=2 below   maine=no      Test Tech I
+  workday-R20388                           skill=2 below   maine=no      Test Tech II
+  workday-R20419                           skill=2 below   maine=no      Service Depot Tester 1
+  greenhouse-5418501008                    skill=2 match   maine=no      Senior Revenue Operations Manager - GTM Systems an
+  greenhouse-6017906004                    skill=2 match   maine=yes     CXO Senior AI Automation Specialist
+  greenhouse-6166032004                    skill=4 match   maine=yes     Senior Software Development Engineer in Test (SDET
+  greenhouse-6206685004                    skill=3 match   maine=yes     Endpoint Agent – Senior Staff Software Development
+  greenhouse-7901723003                    skill=4 match   maine=yes     Sr. QA Automation Test Engineer
+  greenhouse-7947082                       skill=2 match   maine=yes     GTM Engineer - Sales Workflow Automation, Revenue 
+  greenhouse-7990194003                    skill=3 match   maine=yes     Senior Release Engineer
+  greenhouse-8106198                       skill=2 match   maine=yes     Senior Site Reliability Engineer
+  greenhouse-8191597                       skill=3 match   maine=yes     Senior Software Engineer, Release Engineering
+  greenhouse-8201029                       skill=2 above   maine=yes     Staff Software Engineer, Finance Automation
+  greenhouse-8243869                       skill=2 below   maine=no      Quality Assurance Specialist
+  workday-JR20918                          skill=2 match   maine=no      Senior Site Reliability Engineer
+  workday-JR21112                          skill=2 match   maine=yes     Manager, Release & Change Engineering
+  workday-592007                           skill=3 match   maine=no      Principal Quality Assurance Engineer
+  greenhouse-8139255                       skill=4 above   maine=yes     Senior Manager, Quality Engineering
+
+summary: scored=37, unchanged=58, failed=0, fetched_pages=1

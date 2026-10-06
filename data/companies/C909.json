@@ -1,0 +1,194 @@
+{
+  "company_id": "C909",
+  "tracker": {
+    "company_id": "C909",
+    "company": "Oracle Hospitality (Opera)",
+    "sector": "Travel",
+    "interests": "Hotel software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Hotel software under Oracle; travel domain fits. Very stable and QA roles plausible, but remote-from-Maine and .NET match uncertain.",
+    "flags": "Large corporate; hybrid likely.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C909",
+    "career_url": "https://careers.oracle.com/en/sites/jobsearch",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 1,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Oracle's global head count fell by 21,000 between May 2025 and May 2026, including attrition and layoffs.",
+          "date": "2026-06",
+          "url": "https://www.businessinsider.com/oracle-layoffs-head-count-number-fall-restructuring-cost-2026-6"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Restructuring and severance costs rose 391% year over year to about $1.8 billion.",
+          "date": null,
+          "url": "https://www.businessinsider.com/oracle-layoffs-head-count-number-fall-restructuring-cost-2026-6"
+        },
+        {
+          "kind": "funding",
+          "summary": "Oracle raised $50 billion in debt to fund its data center infrastructure buildout.",
+          "date": null,
+          "url": "https://www.businessinsider.com/oracle-layoffs-head-count-number-fall-restructuring-cost-2026-6"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Tens of thousands of Oracle employees were notified of role eliminations on March 31, 2026 across multiple countries.",
+          "date": "2026-03",
+          "url": "https://insightcrunch.com/2026/03/31/oracle-layoffs-article/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "TD Cowen estimated the March 2026 layoffs would hit 20,000 to 30,000 employees, roughly 18 percent of the workforce.",
+          "date": null,
+          "url": "https://insightcrunch.com/2026/03/31/oracle-layoffs-article/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Reporting in September 2026 described another round of Oracle layoffs alongside a strong quarter.",
+          "date": null,
+          "url": "https://www.theregister.com/databases/2026/09/14/oracle-celebrates-banner-quarter-with-another-round-of-layoffs/5296395"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Oracle Hospitality's Opera is hotel property-management software, travel-adjacent to the candidate's interests. But no QA openings are visible, remote policy is unstated, and Oracle is cutting tens of thousands of roles, so fit is weak.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP or Director of Quality Engineering, Oracle Hospitality",
+    "outreach_angle": "Fifteen years of test automation plus FDA-regulated V&V could strengthen Opera's hospitality platform QA; worth probing whether remote senior test roles exist.",
+    "red_flags": "Active mass layoffs (20k-30k roles), no visible QA openings, remote policy unknown.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.oracle.com/en/sites/jobsearch",
+      "https://www.businessinsider.com/oracle-layoffs-head-count-number-fall-restructuring-cost-2026-6",
+      "https://insightcrunch.com/2026/03/31/oracle-layoffs-article/",
+      "https://www.theregister.com/databases/2026/09/14/oracle-celebrates-banner-quarter-with-another-round-of-layoffs/5296395"
+    ],
+    "notes": "Oracle Hospitality (Opera) sells hotel property-management software, a travel-adjacent fit. Verified: Oracle lost ~21,000 staff May 2025-May 2026, restructuring costs up 391%, $50B debt-funded data-center buildout. No QA postings found and remote policy unstated; expect a lean restructuring-era bar.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.oracle.com/careers/",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

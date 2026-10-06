@@ -1,0 +1,93 @@
+{
+  "company_id": "C009",
+  "tracker": {
+    "company_id": "C009",
+    "company": "FloSports",
+    "sector": "Sports",
+    "interests": "Grappling, wrestling, soccer",
+    "career_url": "https://www.flosports.tv/careers/",
+    "role_families": "Streaming QA; mobile automation; technical delivery",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Mobile/API skills and combat-sports knowledge transfer; streaming experience not established.",
+    "research_notes": "Brands include FloGrappling, FloWrestling and FloFC.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": "https://www.flosports.tv/careers/",
+    "research_as_of": "2026-09-29",
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "flosports",
+    "board_url": "https://jobs.ashbyhq.com/flosports",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.flosports.tv/careers/",
+    "note": "token guessed from name; page mentions ashby",
+    "job_count": 22
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:33:29-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:39:15-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

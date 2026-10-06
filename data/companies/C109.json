@@ -1,0 +1,84 @@
+{
+  "company_id": "C109",
+  "tracker": {
+    "company_id": "C109",
+    "company": "Wattpad",
+    "sector": "Games & stories",
+    "interests": "Serialized fiction platform",
+    "career_url": "https://www.wattpad.com/jobs",
+    "role_families": "QA; mobile",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Owned by Naver; Toronto-centric.",
+    "research_notes": "From general knowledge, not yet searched - verify. Fiction writing community.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check jobs",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Eng manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Eng%20manager%20Wattpad",
+    "outreach_notes": "Fiction writing interest."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "lever",
+    "token": "wattpad",
+    "board_url": "https://jobs.lever.co/wattpad",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.wattpad.com/jobs",
+    "note": "",
+    "job_count": 17
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:29-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

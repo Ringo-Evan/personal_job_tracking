@@ -1,0 +1,169 @@
+{
+  "company_id": "C926",
+  "tracker": {
+    "company_id": "C926",
+    "company": "Asobo / Microsoft Flight Simulator",
+    "sector": "Travel",
+    "interests": "Flight sim",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "SDET",
+      "QA Engineer",
+      "Test Automation Engineer"
+    ],
+    "approach": "Quality Engineering Manager",
+    "why": "Flight simulator maker with Microsoft backing; strong flight-sim interest and likely remote QA roles.",
+    "flags": "Asobo France-based; Microsoft remote possible.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C926",
+    "career_url": "https://www.asobostudio.com/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Forum posters note Asobo is an independent studio contracting for Microsoft, not a Microsoft-owned studio, so risks are contractual.",
+          "date": null,
+          "url": "https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Community discussion speculates that losing the Microsoft Flight Simulator contract would cause layoffs at Asobo, though the studio could continue other titles.",
+          "date": null,
+          "url": "https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 2,
+      "rationale": "Asobo is an independent French studio behind Microsoft Flight Simulator; games/travel align with candidate interests and C# test automation, but no remote policy or QA openings are known, so US-Maine fit is unproven.",
+      "role_families": [
+        "SDET",
+        "game QA",
+        "test automation engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "QA Lead",
+    "outreach_angle": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I bring rigor to game and simulation QA—useful for Flight Simulator content pipelines and release quality.",
+    "red_flags": "No US remote policy; French studio; contractual Microsoft dependence; no QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://www.asobostudio.com/careers",
+      "https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137"
+    ],
+    "notes": "No remote policy, ATS or job board found; QA openings empty. Asobo is 50–500-person independent French studio contracting for Microsoft; forum talk flags layoff risk if contract ends. No named QA contacts. Candidate's game interest fits, but US-Maine remote or relocation unverified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.asobostudio.com/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

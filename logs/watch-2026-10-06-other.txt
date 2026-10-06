@@ -1,0 +1,274 @@
+  ok   C008 lever:larian: 0 new
+  ok   C009 ashby:flosports: 0 new
+  ok   C010 ashby:ScribdInc: 0 new
+  ok   C036 ashby:saronic: 0 new
+  ok   C039 ashby:elevenlabs: 0 new
+  ok   C063 ashby:halter: 0 new
+  ok   C078 ashby:propel: 0 new
+  ok   C088 ashby:Grindr LLC: 0 new
+  ok   C089 lever:thetrevorproject: 0 new
+  ok   C090 ashby:colonist: 0 new
+  ok   C1008 lever:catalist: 0 new
+  ok   C1013 lever:workingfamilies: 0 new
+  ok   C1047 lever:replate: 0 new
+  ok   C1048 ashby:toogoodtogo: 0 new
+  ok   C1063 lever:findhelp: 0 new
+  ok   C1065 ashby:nudge: 0 new
+  ok   C1067 lever:kivaconfections: 0 new
+  ok   C1073 smartrecruiters:FairAndJustProsecution: 0 new
+  ok   C1075 ashby:Promise: 0 new
+  ok   C109 lever:wattpad: 0 new
+  ok   C112 ashby:Fansly: 0 new
+  ok   C1129 ashby:fanvue.com: 0 new
+  ok   C1136 lever:epoch-ai: 0 new
+  ok   C1175 ashby:skydio: 5 new
+  ok   C1186 ashby:Applied: 0 new
+  ok   C1192 lever:hermeus: 0 new
+  ok   C1195 smartrecruiters:Palantir: 0 new
+  ok   C1199 ashby:cohere: 1 new
+  ok   C1200 ashby:mistral.ai: 0 new
+  ok   C1204 ashby:Braintrust: 0 new
+  ok   C1208 ashby:langchain: 0 new
+  ok   C1209 ashby:surge-ai: 0 new
+  ok   C1212 ashby:Perplexity: 0 new
+  ok   C1213 ashby:cursor: 0 new
+  ok   C1214 ashby:replit: 2 new
+  ok   C1215 ashby:cognition: 0 new
+  ok   C1216 ashby:harvey: 0 new
+  ok   C1217 ashby:Abridge: 0 new
+  ok   C1219 ashby:hippocratic ai: 0 new
+  ok   C153 lever:perforce: 0 new
+  ok   C165 ashby:qawolf: 0 new
+  ok   C190 ashby:red-gate: 0 new
+  ok   C192 ashby:98cd1a00-2706-4aa8-ab72-38a7b8c9c20c: 0 new
+  ok   C194 ashby:mend-io: 0 new
+  ok   C195 lever:sonarsource: 0 new
+  ok   C202 smartrecruiters:AveryDennison: 0 new
+  ok   C207 ashby:kontakt: 0 new
+  ok   C216 smartrecruiters:TheTileShop1: 0 new
+  ok   C240 ashby:project44: 0 new
+  ok   C292 ashby:whoop: 0 new
+  ok   C293 ashby:hinge-health: 0 new
+  ok   C298 lever:includedhealth: 1 new
+  ok   C304 ashby:hellobrightline: 0 new
+  ok   C319 ashby:zus-health: 0 new
+  ok   C320 lever:redoxengine: 0 new
+  ok   C321 ashby:healthgorilla: 0 new
+  ok   C326 ashby:benchling: 0 new
+  ok   C346 lever:sequel-med-tech: 0 new
+  ok   C356 ashby:certifyos: 1 new
+  ok   C357 lever:emburse: 0 new
+  ok   C409 smartrecruiters:Buildium: 0 new
+  ok   C410 smartrecruiters:Carecom1: 0 new
+  ok   C433 smartrecruiters:AccentureFederalServices: 0 new
+  ok   C451 smartrecruiters:Granicus1: 0 new
+  ok   C453 ashby:opengov: 0 new
+  ok   C484 ashby:lemonade: 0 new
+  ok   C508 ashby:xero: 0 new
+  ok   C512 smartrecruiters:Acumatica: 0 new
+  ok   C514 smartrecruiters:Unit44: 0 new
+  ok   C522 lever:entrata: 2 new
+  ok   C532 ashby:instructure: 0 new
+  ok   C546 ashby:ClassDojo: 0 new
+  ok   C549 ashby:zapier: 0 new
+  ok   C551 ashby:buffer: 0 new
+  ok   C553 ashby:helpscout: 0 new
+  ok   C556 ashby:Close: 0 new
+  ok   C562 ashby:duck-duck-go: 0 new
+  ok   C566 ashby:1password: 0 new
+  ok   C572 ashby:supabase: 1 new
+  ok   C575 ashby:render: 0 new
+  ok   C585 ashby:notion: 0 new
+  ok   C590 ashby:clickup: 0 new
+  ok   C593 smartrecruiters:Freshworks: 0 new
+  ok   C610 ashby:patreon: 0 new
+  ok   C611 ashby:substack: 0 new
+  ok   C617 ashby:Redis: 0 new
+  ok   C619 ashby:confluent: 0 new
+  ok   C624 ashby:inductive-automation-llc: 0 new
+  ok   C634 smartrecruiters:CDPROJEKTRED: 0 new
+  ok   C649 smartrecruiters:KeywordsStudios: 0 new
+  ok   C728 lever:backerkit: 0 new
+  ok   C759 lever:inkitt: 0 new
+  ok   C763 ashby:reedsy: 1 new
+  ok   C767 smartrecruiters:Findaway: 0 new
+  ok   C802 ashby:tonal: 0 new
+  ok   C805 ashby:Strava: 0 new
+  ok   C806 ashby:polar: 0 new
+  ok   C812 lever:pushpress: 0 new
+  ok   C826 lever:teamsnap: 0 new
+  ok   C829 ashby:gamechanger: 1 new
+  ok   C832 lever:veo: 0 new
+  ok   C890 lever:alltrails: 0 new
+  ok   C897 ashby:hopper: 0 new
+  ok   C898 ashby:KAYAK: 0 new
+  ok   C920 lever:lindblad-expeditions: 0 new
+  ok   C935 ashby:granular-energy.com: 0 new
+  ok   C958 lever:arable: 0 new
+  ok   C992 ashby:span: 0 new
+  ok   C998 ashby:starlink: 0 new
+  NEW  Skydio                   Site Reliability Engineer                                    [yes] San Mateo, California, United States; US  USD 180,000-220,000/year
+  NEW  Skydio                   Senior Automation Controls Engineer                          [unknown] San Mateo, California, United States  USD 145,000-219,000/year
+  NEW  Skydio                   Staff Site Reliability Engineer                              [yes] San Mateo, California, United States; US  USD 200,000-285,000/year
+  NEW  Skydio                   Test Engineering Technician                                  [unknown] San Mateo, California, United States  USD 112,000-135,000/year
+  NEW  Skydio                   Flight Test Operator - Data Collection Fixed Term            [unknown] San Mateo, California, United States  USD 50-60/hour
+  NEW  Cohere                   Finance Systems and Automation Manager                       [unknown] United States; Canada  USD 135,000-280,000/year
+  NEW  Replit                   Senior Site Reliability Engineer                             [yes] Remote - US  USD 210,000-275,000/year
+  NEW  Replit                   Staff Site Reliability Engineer                              [yes] Remote - United States  USD 250,000-325,000/year
+  NEW  Included Health          Associate Clinical Director, Integrated Care Quality (NP/MD) [yes] Remote
+  NEW  Certify (Emburse)        Senior Site Reliability Engineer                             [yes] Remote US
+  NEW  Entrata                  Background Verification Analyst                              [unknown] United States  USD 15-23/hour
+  NEW  Entrata                  Background Verification Analyst (Spanish Speaking)           [unknown] United States  USD 15-23/hour
+  NEW  Supabase                 Release Engineer                                             [unknown] Remote, Global
+  NEW  Reedsy                   Quality Assurance Engineer - Remote Europe                   [yes] Remote; Poland; United Kingdom; Spain; N  EUR 40,000-50,000/year
+  NEW  GameChanger (DICK'S)     Manual QA Tester (Contract)                                  [unknown] GameChanger Remote - US  USD 22-22/hour
+
+summary: boards_ok=109, boards_failed=0, fetched=5466, title_matches=165, kept=19, new=15, updated=2, closed=0, reopened=0
+
+title matches dropped by location:
+  C008   Game Engine QA                                          | Warsaw                                        | not US-remote or near Maine: Warsaw
+  C008   Game Engine QA | Contrôle qualité — Moteur de jeu       | Quebec                                        | not US-remote or near Maine: Quebec
+  C008   Technical QA – Open Application | Contrôle qualité tech | Any/Tous les studios                          | not US-remote or near Maine: Any/Tous les studios
+  C036   Systems Architecture, Integration, and Test Engineer (E | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Systems Architecture, Integration, and Test Engineer (T | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Systems Architecture, Integration, and Test Engineer (M | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Structures Test Engineer                                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Shipyard Facilities Operations & Asset Reliability      | Brownsville, TX; Brownsville, TX              | not US-remote or near Maine: Brownsville, TX; Brow
+  C036   Autonomous Sea Trials Test Planner                      | New Orleans, LA                               | not US-remote or near Maine: New Orleans, LA
+  C036   Site Quality Manager (NDT Level 3)                      | Brownsville, TX; Brownsville, TX              | not US-remote or near Maine: Brownsville, TX; Brow
+  C036   Senior Electrical Test Engineer                         | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Electrical Test Engineer                                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Quality Engineer                                        | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior Systems Test Software Engineer                   | Austin, TX; San Diego, CA                     | not US-remote or near Maine: Austin, TX; San Diego
+  C036   Staff Quality Engineer                                  | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior NPI Quality Engineer - Electrical                | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   NPI Quality Engineer - Mechanical                       | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C036   Senior Electrical R&D Test Engineer                     | Austin, TX                                    | not US-remote or near Maine: Austin, TX
+  C063   Head of Hardware Reliability & Failure Analysis         | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Software Engineer - Production Test Systems      | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Hardware Test Engineer - Automation & Product Qu | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Senior Test Engineer - Production & Hardware Operations | Auckland                                      | not US-remote or near Maine: Auckland
+  C063   Director of Supply Chain Quality                        | Auckland                                      | not US-remote or near Maine: Auckland
+  C1065  Development Test Engineer                               | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C1065  Quality Systems Engineer                                | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C1175  Flight Test Engineer - Wireless                         | San Mateo, California, United States          | not US-remote or near Maine: San Mateo, California
+  C1175  Electrical Engineer (Sustaining/Validation)             | San Mateo, California, United States          | not US-remote or near Maine: San Mateo, California
+  C1175  Senior Manufacturing Test Engineer                      | Hayward, California, United States            | not US-remote or near Maine: Hayward, California, 
+  C1175  Senior Hardware Test and Reliability Engineer           | San Mateo, California, United States          | not US-remote or near Maine: San Mateo, California
+  C1175  Head of Manufacturing Engineering Automation & Controls | Hayward, California, United States            | not US-remote or near Maine: Hayward, California, 
+  C1175  Staff Manufacturing Test Engineer                       | Hayward, California, United States            | not US-remote or near Maine: Hayward, California, 
+  C1175  Systems Integration and Test Engineer                   | San Mateo, California, United States          | not US-remote or near Maine: San Mateo, California
+  C1175  Advanced / NPI Quality Engineer                         | Hayward, California, United States            | not US-remote or near Maine: Hayward, California, 
+  C1175  Systems Integration and Test Engineer (Senior to Staff  | San Mateo, California, United States          | not US-remote or near Maine: San Mateo, California
+  C1186  Hardware Test Engineer                                  | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Software Engineer - Validation Toolset                  | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Autonomous Vehicle Test Engineer                        | Tokyo                                         | not US-remote or near Maine: Tokyo
+  C1186  Autonomy Verification Engineer                          | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  OTA Validation Engineer                                 | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Embedded Firmware Validation Engineer                   | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  System Integration and Validation Engineer              | Stuttgart                                     | not US-remote or near Maine: Stuttgart
+  C1186  UX Validation Lead                                      | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Embedded Test Engineer - New Grad (2027)                | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Fleet Reliability Engineer (Mining)                     | Arizona                                       | not US-remote or near Maine: Arizona
+  C1186  UX Test Engineer - New Grad (2027)                      | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  OTA/Cloud Validation Engineer - New Grad (2027)         | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Build & Release Engineer - New Grad (2027)              | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Test Engineer - Autonomous Systems                      | Poway, CA                                     | not US-remote or near Maine: Poway, CA
+  C1186  Senior Validation Engineer (Sunnyvale, CA)              | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Sensor Validation Engineer (Sunnyvale, CA)              | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Senior Manager, Global Fleet Reliability Operations     | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Firmware Validation Engineer                            | Bangalore                                     | not US-remote or near Maine: Bangalore
+  C1186  Data Quality Specialist                                 | Sunnyvale                                     | not US-remote or near Maine: Sunnyvale
+  C1186  Flight Test Engineer                                    | Sunnyvale; Fort Walton Beach, FL              | not US-remote or near Maine: Sunnyvale; Fort Walto
+  C1192  Chief Engineer - Airbreathing Propulsion Test           | Jacksonville, FL                              | not US-remote or near Maine: Jacksonville, FL
+  C1192  Senior Build Reliability Engineer                       | Los Angeles, CA                               | not US-remote or near Maine: Los Angeles, CA
+  C1192  Senior Flight Test Engineer                             | Los Angeles, CA; Atlanta, GA                  | not US-remote or near Maine: Los Angeles, CA; Atla
+  C1192  Senior Operations and Test Engineer                     | Los Angeles, CA                               | not US-remote or near Maine: Los Angeles, CA
+  C1192  Test Engineer                                           | Los Angeles, CA                               | not US-remote or near Maine: Los Angeles, CA
+  C1192  Test Pilot                                              | Los Angeles, CA                               | not US-remote or near Maine: Los Angeles, CA
+  C1192  Test Technician / Specialist                            | Los Angeles, CA                               | not US-remote or near Maine: Los Angeles, CA
+  C1195  Lead QA                                                 | London, United Kingdom                        | not US-remote or near Maine: London, United Kingdo
+  C1199  Site Reliability Engineer, Inference Infrastructure     | Toronto; San Francisco; New York; Montreal    | not US-remote or near Maine: Toronto; San Francisc
+  C1200  Data Annotation Quality Specialist                      | Paris                                         | not US-remote or near Maine: Paris
+  C1200  Code Data Annotation Quality Specialist                 | Paris; London                                 | not US-remote or near Maine: Paris; London
+  C1200  Applied AI Engineer, Site Reliability Engineer - EMEA   | Paris; Amsterdam; Paris; London               | not US-remote or near Maine: Paris; Amsterdam; Par
+  C1200  Site Reliability Engineer, Mistral Cloud                | Paris; Amsterdam; Warsaw; Paris; London; Berl | not US-remote or near Maine: Paris; Amsterdam; War
+  C1200  Site Reliability Engineer                               | Paris                                         | not US-remote or near Maine: Paris
+  C1200  Site Reliability Engineer                               | New York                                      | not US-remote or near Maine: New York
+  C1200  Software Engineer Network Automation, Data Center Fabri | Paris; Amsterdam; Warsaw; Paris; London; Berl | not US-remote or near Maine: Paris; Amsterdam; War
+  C1200  Software Engineer Network Automation, WAN & Edge        | Paris; Amsterdam; Warsaw; Paris; London; Berl | not US-remote or near Maine: Paris; Amsterdam; War
+  C1212  Member of Tehnical Staff (Senior QA Web)                | New York City; San Francisco                  | not US-remote or near Maine: New York City; San Fr
+  C1212  Member of Technical Staff (Search Quality Analyst)      | Belgrade; London; Berlin                      | not US-remote or near Maine: Belgrade; London; Ber
+  C1212  Member of Technical Staff (Answer Quality & Evals)      | San Francisco; Palo Alto                      | not US-remote or near Maine: San Francisco; Palo A
+  C1212  Member of Technical Staff (Machine Learning Engineer, R | Belgrade; London                              | not US-remote or near Maine: Belgrade; London
+  C1213  Software Engineer, Agent Evaluation and Quality         | San Francisco; New York                       | not US-remote or near Maine: San Francisco; New Yo
+  C1214  Engineering Manager, Site Reliability Engineering       | Foster City, CA                               | not US-remote or near Maine: Foster City, CA
+  C1215  QA Engineer - APAC                                      | India                                         | not US-remote or near Maine: India
+  C1216  Senior Software Engineer, Site Reliability Engineer     | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C1216  Staff Software Engineer, Site Reliability Engineer      | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C1216  Senior Product Operations Manager, Evaluation Quality   | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C1219  Head of Regulatory Affairs & Quality Control            | Menlo Park, CA                                | not US-remote or near Maine: Menlo Park, CA
+  C1219  Staff Site Reliability Engineer                         | Menlo Park, CA                                | not US-remote or near Maine: Menlo Park, CA
+  C1219  Director of Quality                                     | Menlo Park, CA                                | not US-remote or near Maine: Menlo Park, CA
+  C192   GTM Automation Engineer                                 | Romania - Cluj Office                         | not US-remote or near Maine: Romania - Cluj Office
+  C195   Cloud Platform Automation Engineer (f/m/d)              | Bochum; Geneva                                | not US-remote or near Maine: Bochum; Geneva
+  C195   Site Reliability Engineering Lead                       | Austin                                        | not US-remote or near Maine: Austin
+  C195   Site Reliability Engineering Lead  (f/m/d)              | Bochum                                        | not US-remote or near Maine: Bochum
+  C195   Technical Product Manager - Code Quality                | Geneva                                        | not US-remote or near Maine: Geneva
+  C202   Asst Manager - Projects & Automation Control            | Pune, Maharasthra, India (Remote)             | not US-remote or near Maine: Pune, Maharasthra, In
+  C202   Customer Quality Digitalization Engineer                | Rodange, Esch-sur-Alzette, Luxembourg         | not US-remote or near Maine: Rodange, Esch-sur-Alz
+  C202   Total Quality Engineer                                  | Tay Ninh, Can Giuoc, Vietnam                  | not US-remote or near Maine: Tay Ninh, Can Giuoc, 
+  C202   Total Quality Manager                                   | Ho Chi Minh city, Vietnam                     | not US-remote or near Maine: Ho Chi Minh city, Vie
+  C202   Automation Developer                                    | Bengaluru, KA, India                          | not US-remote or near Maine: Bengaluru, KA, India
+  C202   Quality Engineer                                        | Painesville, OH, United States                | not US-remote or near Maine: Painesville, OH, Unit
+  C202   Quality Engineer                                        | Queretaro, QUERETARO, Mexico                  | not US-remote or near Maine: Queretaro, QUERETARO,
+  C202   QA Engineer                                             | Bang Sao Thong, SAMUTPRAKARN, Thailand        | not US-remote or near Maine: Bang Sao Thong, SAMUT
+  C202   Senior Quality Control Officer OSP                      | Karachi, Sindh, Pakistan                      | not US-remote or near Maine: Karachi, Sindh, Pakis
+  C202   Global Quality Director, IL                             | Kulim, Kedah, Malaysia                        | not US-remote or near Maine: Kulim, Kedah, Malaysi
+  C202   Global Quality Director, IL                             | Guangzhou, Guangdong, China                   | not US-remote or near Maine: Guangzhou, Guangdong,
+  C202   Quality & Process Engineer                              | Shah Alam, Selangor, Malaysia                 | not US-remote or near Maine: Shah Alam, Selangor, 
+  C207   Senior Site Reliability Engineer                        | New York                                      | not US-remote or near Maine: New York
+  C292   Embedded QA Engineering Manager (Hardware Accelerate)   | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   NPI Hardware Quality Engineer, Accessories              | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Software Engineering Manager (AI Quality)               | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Staff Hardware Test Engineer (Manufacturing)            | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Vice President, Hardware Quality                        | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Senior Manager, Field Quality                           | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Senior NPI Quality Engineer (Hardware)                  | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Lead, Lifecycle Marketing Automation                    | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C292   Hardware Test Engineer (Manufacturing)                  | Boston, MA                                    | not US-remote or near Maine: Boston, MA
+  C293   Quality Assurance Associate Manager, Growth Marketing O | San Francisco-HQ                              | not US-remote or near Maine: San Francisco-HQ
+  C293   Senior Quality Engineer                                 | Montreal-HQ                                   | not US-remote or near Maine: Montreal-HQ
+  C293   Test Engineer II                                        | San Francisco-HQ                              | not US-remote or near Maine: San Francisco-HQ
+  C304   Clinical Psychologist – Evaluation and Testing (Albany- | Albany, NY; New York                          | not US-remote or near Maine: Albany, NY; New York
+  C326   Software Engineer, Tools and Automation                 | San Francisco, CA                             | not US-remote or near Maine: San Francisco, CA
+  C356   AI & Support Automation - Engineer                      | Bengaluru, India                              | not US-remote or near Maine: Bengaluru, India
+  C357   SDET III (IC3) - Software Engineer in Test III          | Toronto, ON                                   | not US-remote or near Maine: Toronto, ON
+  C357   Senior SDET (IC4) - Senior Software Engineer in Test    | Toronto, ON                                   | not US-remote or near Maine: Toronto, ON
+  C357   Senior Software Engineer in Test I                      | Spain                                         | not US-remote or near Maine: Spain
+  C357   Site Reliability Engineer lll                           | Barcelona                                     | not US-remote or near Maine: Barcelona
+  C433   Federal - Performance Test Engineer                     | Reston, VA, United States                     | not US-remote or near Maine: Reston, VA, United St
+  C484   Automation Engineer, Billing Platform                   | EU                                            | not US-remote or near Maine: EU
+  C508   Engineering Manager - Database Reliability              | AU: Sydney (45 Clarence St); AU: Melbourne: ( | not US-remote or near Maine: AU: Sydney (45 Claren
+  C508   Marketing Automation Specialist                         | UK: London (7 Devonshire Square)              | not US-remote or near Maine: UK: London (7 Devonsh
+  C512   QA Engineer                                             | Hyderabad, TS, India                          | not US-remote or near Maine: Hyderabad, TS, India
+  C532   Automation Specialist, Customer Success                 | Manila, Philippines (remote)                  | not US-remote or near Maine: Manila, Philippines (
+  C549   Automation Strategist, Customer Success                 | HQ; NAMER                                     | not US-remote or near Maine: HQ; NAMER
+  C590   Senior Database Reliability Engineer                    | Poland; Bulgaria; Ukraine; Hungary; Czechia   | not US-remote or near Maine: Poland; Bulgaria; Ukr
+  C593   Lead Software Engineer - Site Reliability               | Hyderabad, TS, India                          | not US-remote or near Maine: Hyderabad, TS, India
+  C624   Quality Assurance Engineer I                            | Folsom, CA                                    | not US-remote or near Maine: Folsom, CA
+  C634   Senior Tech QA Analyst                                  | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   Senior Tech QA Analyst - Audio                          | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   Senior Audio Design QA Analyst                          | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   QA Lead                                                 | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   QA Lead                                                 | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   Senior QA Engineer                                      | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   Tech QA Lead                                            | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   Senior Shared Tech QA Analyst                           | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C634   QA Engineering Manager                                  | Warsaw, Masovian Voivodeship, Poland          | not US-remote or near Maine: Warsaw, Masovian Voiv
+  C649   Subtitling Project Coordinator - TEST TEST TEST DO NOT  | Manila, NCR, Philippines (Remote)             | not US-remote or near Maine: Manila, NCR, Philippi
+  C832   Camera Test Assistant - Student                         | Copenhagen Office                             | not US-remote or near Maine: Copenhagen Office
+  C992   Senior Automation Engineer                              | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C992   Product Quality Engineer                                | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C992   Senior Hardware Test Engineer                           | San Francisco                                 | not US-remote or near Maine: San Francisco
+  C992   Staff Reliability Engineer                              | San Francisco                                 | not US-remote or near Maine: San Francisco

@@ -1,0 +1,91 @@
+{
+  "company_id": "C093",
+  "tracker": {
+    "company_id": "C093",
+    "company": "BrowserStack",
+    "sector": "Test tooling",
+    "interests": "Cloud device/browser testing",
+    "career_url": "https://www.browserstack.com/careers",
+    "role_families": "Solutions / customer engineering; SDET",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Remote-first, but seen roles were India-based.",
+    "research_notes": "Verified in 09/30 search. Remote-first, 1,200+ staff, real-device cloud (you'd know Appium on it).",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Unknown for US",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Search US-remote roles",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "US customer engineering manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=US%20customer%20engineering%20manager%20BrowserStack",
+    "outreach_notes": "Appium/mobile device testing expertise."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "browserstack|3|External",
+    "board_url": "https://browserstack.wd3.myworkdayjobs.com/External",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://www.browserstack.com/careers",
+    "note": "",
+    "job_count": 31
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:01-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

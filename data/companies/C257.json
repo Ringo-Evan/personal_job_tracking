@@ -1,0 +1,197 @@
+{
+  "company_id": "C257",
+  "tracker": {
+    "company_id": "C257",
+    "company": "Abbott (Diabetes Care)",
+    "sector": "Regulated healthtech",
+    "interests": "FreeStyle Libre devices/software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "abbott|5|abbottcareers",
+    "board_url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 2000
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "QA Engineer",
+      "Test Automation Engineer",
+      "Quality Manager"
+    ],
+    "approach": "QA Manager",
+    "why": "Diabetes devices/software; regulated healthtech; strong domain match; large stable employer.",
+    "flags": "Remote eligibility varies by team",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C257",
+    "career_url": "https://www.jobs.abbott/us/en/",
+    "ats": {
+      "type": "workday",
+      "token": "abbott|5|abbottcareers",
+      "board_url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "2025 restructuring across Diagnostics, Nutritionals, Established Pharmaceuticals and Medical Devices booked $274M in severance and other charges.",
+          "date": null,
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Restructuring accrual fell to $104M by June 30, 2026 from $180M at end of 2025 after payments and adjustments.",
+          "date": "2026-06",
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Abbott closed its acquisition of Exact Sciences, adding the company's staff to its workforce.",
+          "date": "2026-03",
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        },
+        {
+          "kind": "growth",
+          "summary": "Abbott's March 2026 release counted 122,000 colleagues after the Exact Sciences acquisition closed.",
+          "date": null,
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "October 2025 redundancy process at the Galway rapid diagnostics site affected fewer than 20 people.",
+          "date": null,
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Around 70 staff at the Sligo and Longford plants were reported affected by redundancies being offered.",
+          "date": null,
+          "url": "https://www.thelayoffclub.com/laid-off-from/abbott"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Abbott's Diabetes Care unit builds FreeStyle Libre glucose-monitoring devices and software — regulated, hardware-adjacent work matching the candidate's medical-device and test-automation background. However, the data shows no QA openings, no remote policy, and no named quality contacts, so fit is",
+      "role_families": [
+        "SDET / test automation",
+        "QA leadership",
+        "Software verification & validation (design assurance)"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Software Quality / Quality Engineering (Diabetes Care)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent domains maps directly to verification and validation of FreeStyle Libre device software and its accompanying quality tooling.",
+    "red_flags": "Ongoing 2025-2026 restructuring ($274M severance charges) across divisions including Medical Devices; remote-from-Maine eligibility unstated.",
+    "confidence": "low",
+    "sources": [
+      "https://www.jobs.abbott/us/en/",
+      "https://www.thelayoffclub.com/laid-off-from/abbott"
+    ],
+    "notes": "Large regulated healthtech employer (5k+, 122k after Exact Sciences acquisition). Restructuring charges across Diagnostics, Nutritionals, Established Pharmaceuticals and Medical Devices signal some churn. No QA/SDET openings listed on the Workday board and no remote policy published, so confirm Maine-remote eligibility and current requisitions before investing heavily.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 8,
+      "fail_rate": 0.111,
+      "dropped": [
+        "people[0]: not a full name"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:33:09-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:35:44-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

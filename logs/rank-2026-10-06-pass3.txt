@@ -1,0 +1,6 @@
+  workday-R7289                            skill=2 match   maine=no      Quality Engineer
+  workday-R7618                            skill=2 match   maine=yes     Staff Senior Reliability Engineer
+  workday-R7780                            skill=2 match   maine=unknown Sr. Site Quality Engineer
+  workday-JR006137                         skill=3 match   maine=yes     Quality System Manager - Remote
+
+summary: scored=4, unchanged=54, failed=0, fetched_pages=1

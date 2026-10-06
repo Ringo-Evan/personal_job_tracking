@@ -1,0 +1,165 @@
+{
+  "company_id": "C1136",
+  "tracker": {
+    "company_id": "C1136",
+    "company": "Epoch / CCBill",
+    "sector": "Adult & sexuality",
+    "interests": "Adult payment processing",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "lever",
+    "token": "epoch-ai",
+    "board_url": "https://jobs.lever.co/epoch-ai",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://epoch.ai/about/careers",
+    "job_count": 9
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Unknown",
+    "size": "500-5k",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Payments QA"
+    ],
+    "approach": "QA Manager",
+    "why": "Adult payment processor; regulated payments need QA and match candidate's domain. Stable sector, but remote-Maine policy unknown.",
+    "flags": "Remote-Maine unknown",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1136",
+    "career_url": "https://epoch.ai/about/careers",
+    "ats": {
+      "type": "lever",
+      "token": "epoch-ai",
+      "board_url": "https://jobs.lever.co/epoch-ai"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Epoch/CCBill processes payments for adult and high-risk merchants — a sector the candidate flags as a fit, and its compliance-heavy platform suits regulated V&V experience. But nothing verified about remote-from-Maine, QA openings, teams, or leadership, so fit is speculative.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering / Head of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls background maps onto a compliance-heavy payment platform, where test rigor around transaction integrity and card-network rules is the core quality risk.",
+    "red_flags": "Card-network and adult-content compliance risk; remote policy, openings and leadership all unverified in the facts.",
+    "confidence": "low",
+    "sources": [
+      "https://epoch.ai/about/careers"
+    ],
+    "notes": "Verified facts are almost empty: no job board, ATS, remote policy, size, stability signals, QA openings or contacts. Epoch/CCBill is an established private adult/high-risk payment processor (est. late 1990s). Treat as speculative; confirm remote-Maine eligibility, current QA reqs and reporting line before investing effort.",
+    "model": {
+      "extract": "gemini/gemini-3.5-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.5-flash-lite"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://epoch.ai/about/careers",
+    "found": "lever:epoch-ai (embedded in https://epoch.ai/about/careers)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

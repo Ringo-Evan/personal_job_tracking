@@ -1,0 +1,33 @@
+{
+  "key": "lead-7df0c879ba0f",
+  "board": "lead",
+  "company_id": "C492",
+  "company": "Workday",
+  "title": "Site Reliability Engineer (SRE)",
+  "location_text": "Unknown",
+  "work_mode": "Unknown",
+  "url": "https://www.workday.com/en-us/company/careers/engineering-and-technology.html",
+  "apply_url": null,
+  "source_url": "https://www.workday.com/en-us/company/careers/engineering-and-technology.html",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Workday SRE: reliability engineering at scale, not QA. Generic posting, no stack or location details. Automation background is partial fit, but it's an ops pivot away from testing.",
+    "skill_match": 2,
+    "seniority": "unknown",
+    "maine_eligible": "unknown",
+    "track": "Exploratory",
+    "notes": "Posting is generic Workday marketing; no requirements listed. SRE is ops/reliability, not test-focused. Check if remote/Maine eligible and if coding-heavy.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "ce24c538c663317c",
+    "text_source": "page"
+  },
+  "description": "Why Workday\nThe place to build.\nYou love to create. That’s why you became an engineer. And that’s exactly why we want to talk to you. Here, you’ll build new products and features at scale for millions of users across our full portfolio.\nTake the work seriously, not yourself.\nEngineering may be a serious business, but there’s room for levity along the way. You’ll work with talented innovators who share the load—and the fun.\nStep out of the silo.\nCollaboration is our go-to, not just something we do when the going gets tough. Whether it’s cross-functional work, sprints, or hackathons, we’re all-in on working together.\nA stacked tech stack.\nJoin a rich and diverse tech ecosystem. We use a carefully curated set of languages, tools, frameworks, and ideas.\nDifferent perspectives, brighter engineering.\nEvery engineer’s viewpoint shapes how we solve problems, unlocking new ways to design, build, and grow.\nPower in numbers.\nThe world’s biggest companies trust Workday.\n99.96%\nuptime in FY25.\n1 trillion+\ntransactions in FY25.\n65%+\nof the Fortune 500 choose Workday. \nWorkmate voices\nCoding careers beyond “Hello, World.”\nDeveloping engineering leaders.\nLeading boldly, Cody shares how we empower engineers to explore new ideas and drive strategy.\nDesigning inclusive experiences.\nAislinn talks about making user experiences accessible and inclusive. That’s designing with AI and empathy.\nBuilding better solutions.\nSee how Fatma channels her curiosity and innovative spirit to build smarter, brighter solutions.\nCome build the future of work with us.\nSoftware Engineer\nDesign and scale systems, no matter the language or tool, and deliver high-quality Workday software that drives results.\nSite Reliability Engineer (SRE)\nSolve scale challenges, set SLIs/SLOs, and help teams ship durable systems that keep services reliable.\nFull Stack Engineer\nShape the future of enterprise apps—designing, coding, and scaling full-stack solutions that millions rely on daily.\nDistributed Systems Engineer\nArchitect scalable distributed systems, model capacity, optimize performance, and mentor teammates to handle growth.\nRelated Teams\nMore ways to grow on our tech teams.\nAI and Machine Learning\nInnovate with AI and one of the world’s largest datasets to expand your skills and transform work for 75+ million users.\nCybersecurity\nJoin a team of top developers and engineers, where security is a core principle, not an afterthought.\nProduct Management\nDrive strategy, solve complex challenges, and lead product roadmaps to move our portfolio forever forward.\nStart something brilliant with us."
+}

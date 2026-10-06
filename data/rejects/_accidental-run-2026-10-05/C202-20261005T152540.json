@@ -1,0 +1,57 @@
+{
+  "company_id": "C202",
+  "detail": "extract: extract: no tier succeeded: local/ollama_chat/qwen3.5:9b rejected grounding failed for 1/1 facts: stability_signals[0] quote not found in S5; free-cloud/gemini/gemini-3.5-flash-lite rejected grounding failed for 1/1 facts: people[0] quote not found in S3; free-cloud/gemini/gemini-3.1-flash-lite rejected grounding failed for 1/1 facts: stability_signals[0] quote not found in S5; paid-cheap/deepseek/deepseek-flash rejected grounding failed for 3/3 facts: career_url quote not found in S3; ",
+  "steps": [
+    {
+      "step": "extract",
+      "attempts": [
+        {
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "outcome": "rejected",
+          "detail": "grounding failed for 1/1 facts: stability_signals[0] quote not found in S5",
+          "latency_s": 12.932521200040355,
+          "tokens": {
+            "prompt_tokens": 3430,
+            "completion_tokens": 132
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.5-flash-lite",
+          "outcome": "rejected",
+          "detail": "grounding failed for 1/1 facts: people[0] quote not found in S3",
+          "latency_s": 1.3073407001793385,
+          "tokens": {
+            "prompt_tokens": 4026,
+            "completion_tokens": 122
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.1-flash-lite",
+          "outcome": "rejected",
+          "detail": "grounding failed for 1/1 facts: stability_signals[0] quote not found in S5",
+          "latency_s": 2.798644100083038,
+          "tokens": {
+            "prompt_tokens": 4026,
+            "completion_tokens": 129
+          }
+        },
+        {
+          "tier": "paid-cheap",
+          "model": "deepseek/deepseek-flash",
+          "outcome": "rejected",
+          "detail": "grounding failed for 3/3 facts: career_url quote not found in S3; stability_signals[0] quote not found in S5; people[0] quote not found in S3",
+          "latency_s": 7.597690499853343,
+          "tokens": {
+            "prompt_tokens": 4018,
+            "completion_tokens": 1666
+          }
+        }
+      ]
+    }
+  ],
+  "grounding": {},
+  "output": null
+}

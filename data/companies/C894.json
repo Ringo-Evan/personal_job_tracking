@@ -1,0 +1,185 @@
+{
+  "company_id": "C894",
+  "tracker": {
+    "company_id": "C894",
+    "company": "Sabre",
+    "sector": "Travel",
+    "interests": "Airline/travel tech; .NET",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "sabre|1|SabreJobs",
+    "board_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 113
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 3,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Airline/travel tech with .NET; strong domain and tech match. Senior QA/SDET roles plausible; remote-from-Maine likely possible.",
+    "flags": "Debt/legacy; possible RTO.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C894",
+    "career_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+    "ats": {
+      "type": "workday",
+      "token": "sabre|1|SabreJobs",
+      "board_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Sabre cut jobs with reports from the UK and South America amid a C-suite reshuffle.",
+          "date": null,
+          "url": "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/"
+        },
+        {
+          "kind": "other",
+          "summary": "Sabre investing $65 million in AI adoption and offshore labor to become AI-native.",
+          "date": null,
+          "url": "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Sabre provides airline and travel technology; candidate's travel interest and .NET skills align. However, no remote policy, no QA openings, and offshoring/layoffs signal reduced local QA hiring.",
+      "role_families": [
+        "SDET",
+        "Test Automation Engineer",
+        "Quality Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Kurt Ekert",
+        "title": "CEO",
+        "source_url": "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/"
+      }
+    ],
+    "approach_role": "Head of Quality Engineering",
+    "outreach_angle": "My 15 years in regulated .NET test automation and V&V could strengthen Sabre's airline reservation platform quality, especially for compliance-critical travel systems.",
+    "red_flags": "Recent layoffs and offshore/AI push suggest QA roles may be outsourced; no QA openings or remote policy listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+      "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/"
+    ],
+    "notes": "Sabre is a travel tech company; no remote policy stated. Stability signals include layoffs and a $65M AI/offshore investment. No QA openings listed. CEO Kurt Ekert. Domain interest in travel/.NET aligns, but offshoring may reduce local QA hiring.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:sabre|1|SabreJobs (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

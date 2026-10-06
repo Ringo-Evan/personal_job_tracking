@@ -1,0 +1,172 @@
+{
+  "company_id": "C1189",
+  "tracker": {
+    "company_id": "C1189",
+    "company": "National Instruments (Emerson)",
+    "sector": "Defense, aerospace & robotics",
+    "interests": "Test & measurement - core test domain",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "Test Automation Engineer",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Test and measurement core domain; strong C#/.NET SDET fit, large, remote roles possible.",
+    "flags": "Core test domain; remote possible",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1189",
+    "career_url": "https://www.ni.com/careers/workingatni",
+    "ats": {
+      "type": "greenhouse",
+      "token": "national",
+      "board_url": "https://job-boards.greenhouse.io/national"
+    },
+    "remote_policy": {
+      "summary": "A FAQ page says NI offers a variety of remote roles across departments including software engineering, marketing, finance and customer service, plus flexible arrangements such as telecommuting.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.jobzmall.com/national-instruments/faqs/are-there-any-remote-work-opportunities-available-at-national-instruments"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "NI became part of Emerson's newly created Test & Measurement business group.",
+          "date": null,
+          "url": "https://www.ni.com/en/about-ni/careers.html.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "NI cites a long track record of growth and a diversified base of more than 25,000 unique customers worldwide.",
+          "date": null,
+          "url": "https://www.ni.com/careers/workingatni"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "NI (Emerson) builds test, measurement and automation hardware/software — the candidate's core test domain, with telecom and defense adjacency. But Maine-remote eligibility is unverified and no QA openings are listed, so fit depends on finding remote test roles.",
+      "role_families": [
+        "SDET / test automation",
+        "Software test engineer",
+        "QA/test leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Software Quality Engineering",
+    "outreach_angle": "Your 15 years of C#/.NET test automation plus FDA-regulated V&V aligns directly with NI's test-and-measurement tooling; ask whether their remote software engineering roles accept Maine residents.",
+    "red_flags": "No QA openings listed; Maine remote eligibility unverified; many roles likely Austin-onsite and hardware-centric.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.ni.com/careers/workingatni",
+      "https://www.jobzmall.com/national-instruments/faqs/are-there-any-remote-work-opportunities-available-at-national-instruments",
+      "https://www.ni.com/en/about-ni/careers.html.html"
+    ],
+    "notes": "NI is now Emerson's Test & Measurement group: large (5k+), profitable, 25,000+ customers. FAQ says remote roles exist across software engineering but doesn't confirm Maine eligibility. No QA openings currently listed and no named contacts. Core test-domain match is strong; verify remote and openings before investing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-06T09:28:07-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats",
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": null,
+  "verify_rejects": 0
+}

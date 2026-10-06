@@ -1,0 +1,171 @@
+{
+  "company_id": "C140",
+  "tracker": {
+    "company_id": "C140",
+    "company": "Testlio",
+    "sector": "Test tooling",
+    "interests": "Managed testing services",
+    "career_url": "https://testlio.com/careers/",
+    "role_families": "Test lead; QA manager; engagement lead",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Remote QA services firm; hires test leads/managers.",
+    "research_notes": "From general knowledge, not yet searched - verify. Remote-first networked testing company.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Likely remote",
+    "benefit_source": null,
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Check careers",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": "Delivery / engagement director",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Delivery%20Testlio",
+    "outreach_notes": "QA leadership + remote."
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "testlio",
+    "board_url": "https://job-boards.greenhouse.io/testlio",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://testlio.com/careers/",
+    "note": "Testlio",
+    "job_count": null
+  },
+  "triage": null,
+  "research": {
+    "company_id": "C140",
+    "career_url": "https://www.testlio.com/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "testlio",
+      "board_url": "https://job-boards.greenhouse.io/testlio"
+    },
+    "remote_policy": {
+      "summary": "Fully distributed, no daily offices; every full-time position is tied to a region (AMER, EMEA or APAC) and people work remotely from within that region, with Tallinn kept only as a gathering center.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.testlio.com/blog/distributed-by-design-work-from-region"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Testlio runs managed/crowdsourced testing services for apps, fully distributed with every role tied to a region and AMER including Maine. Its listed QA openings are junior or freelance gigs, not senior SDET or QA-leadership seats, so fit is plausible but",
+      "role_families": [
+        "Manual/crowdsourced QA testing",
+        "QA analyst",
+        "Test automation engineering"
+      ]
+    },
+    "hiring_difficulty": 2,
+    "qa_openings": [
+      {
+        "title": "QA Tester (Future Roles)",
+        "location": "Global",
+        "work_mode": "Unknown",
+        "url": "https://job-boards.greenhouse.io/testlio/jobs/6953297"
+      },
+      {
+        "title": "QA Analyst (Future Roles)",
+        "location": "Global",
+        "work_mode": "Unknown",
+        "url": "https://job-boards.greenhouse.io/testlio/jobs/6979353"
+      },
+      {
+        "title": "Freelance Software Tester With Apple Vision Pro (Remote Worldwide)",
+        "location": "Global (Remote)",
+        "work_mode": "Remote",
+        "url": "https://job-boards.greenhouse.io/testlio/jobs/8195507"
+      }
+    ],
+    "people": [
+      {
+        "name": "Marko Kruustük",
+        "title": "Founder",
+        "source_url": "https://www.testlio.com/careers"
+      }
+    ],
+    "approach_role": "Founder",
+    "outreach_angle": "Fifteen years of C#/.NET automation and FDA-regulated V&V could help Testlio's enterprise clients in regulated domains, and I can work remotely from Maine within your AMER region.",
+    "red_flags": "Listed roles are 'future roles' and freelance Apple Vision Pro gigs, not senior full-time positions; likely contractor pay with little job security.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.testlio.com/careers",
+      "https://www.testlio.com/blog/distributed-by-design-work-from-region",
+      "https://job-boards.greenhouse.io/testlio",
+      "https://job-boards.greenhouse.io/testlio/jobs/6953297",
+      "https://job-boards.greenhouse.io/testlio/jobs/6979353",
+      "https://job-boards.greenhouse.io/testlio/jobs/8195507"
+    ],
+    "notes": "Fully distributed, no offices; every full-time role is region-tied and Maine sits in AMER, so remote-from-Maine is eligible. No stability signals on file (no funding, revenue or layoff data). QA board shows junior/freelance openings only; no named QA or engineering leader, just Founder Marko Kruustük.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:36:43-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:55:36-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

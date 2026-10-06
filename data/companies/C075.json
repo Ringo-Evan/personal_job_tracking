@@ -1,0 +1,91 @@
+{
+  "company_id": "C075",
+  "tracker": {
+    "company_id": "C075",
+    "company": "athenahealth",
+    "sector": "Regulated healthtech",
+    "interests": "Healthcare IT; Belfast, ME site",
+    "career_url": "https://careers.athenahealth.com/us/en/remote",
+    "role_families": "Automation engineer (MTS/SMTS); QA leadership",
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "estimate_rationale": "Maine presence and Maine-remote listings; QA teams building AI testing agents.",
+    "research_notes": "Some listings show 'Maine - Remote'. SMTS automation role uses Playwright + Claude/Codex agents; location unconfirmed.",
+    "your_notes": null,
+    "research_status": "Initial research",
+    "maine_remote": "Maine-remote on some listings",
+    "benefit_source": "https://www.remoterocketship.com/company/athenahealth/",
+    "research_as_of": "2026-09-30",
+    "next_research_action": "Filter careers site to US + remote + QA",
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Initial research",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "athenahealth|1|External",
+    "board_url": "https://athenahealth.wd1.myworkdayjobs.com/External",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": "https://careers.athenahealth.com/us/en/remote",
+    "note": "",
+    "job_count": 92
+  },
+  "triage": null,
+  "research": null,
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:35:51-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-05T08:48:00-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.confirmed",
+        "ats.job_count",
+        "ats.note"
+      ]
+    }
+  ],
+  "last_exported_at": null
+}

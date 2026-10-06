@@ -1,0 +1,199 @@
+{
+  "company_id": "C264",
+  "tracker": {
+    "company_id": "C264",
+    "company": "Stryker",
+    "sector": "Regulated healthtech",
+    "interests": "Devices + connected care",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "stryker|1|StrykerCareers",
+    "board_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers",
+    "detected_by": "agent",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "",
+    "job_count": 1455
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "SDET",
+      "Quality Manager"
+    ],
+    "approach": "Director of Quality",
+    "why": "Devices and connected care; regulated medical device domain; strong match; large stable employer.",
+    "flags": "Remote eligibility variable",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C264",
+    "career_url": "https://careers.stryker.com/",
+    "ats": {
+      "type": "workday",
+      "token": "stryker|1|StrykerCareers",
+      "board_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers"
+    },
+    "remote_policy": {
+      "summary": "Four models: remote (alternate workplace most or all of the time), field-based, on-site and hybrid. Remote roles may include travel and require working within the country of the job requisition location.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.stryker.com/hiring-at-stryker"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Forum thread asking whether there will be reorganisation or layoffs at Stryker in 2025; no confirmed numbers.",
+          "date": null,
+          "url": "https://www.thelayoff.com/stryker"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Forum thread discussing whether 2026 will bring Stryker layoffs; unconfirmed chatter and rumours only.",
+          "date": null,
+          "url": "https://www.thelayoff.com/stryker"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Linked news headline reporting continued layoffs at a Stryker facility in Florida.",
+          "date": null,
+          "url": "https://www.thelayoff.com/stryker"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Stryker reported $22.6 billion in annual global sales in 2024.",
+          "date": "2024-12",
+          "url": "https://careers.stryker.com/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Stryker's careers site listed 1,448 open jobs across its global locations.",
+          "date": null,
+          "url": "https://careers.stryker.com/jobs"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 4,
+      "rationale": "Stryker is a $22.6B regulated medical-device maker with connected-care products, matching the candidate's regulated, hardware-adjacent testing background; remote roles are Maine-eligible. But visible QA openings skew to on-site Michigan quality engineering, not software SDET work.",
+      "role_families": [
+        "QA engineering (medical device)",
+        "SDET / test automation",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Staff Quality Engineer",
+        "location": "Portage, Michigan, United States",
+        "work_mode": "Unknown",
+        "url": "https://careers.stryker.com/staff-quality-engineer/job/48F3534D8D7E9A053121C12670A0089B"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent domains maps directly to Stryker's connected-care and device software quality needs, and I work remotely from Maine.",
+    "red_flags": "Only one QA opening shown, on-site in Michigan; unconfirmed layoff chatter for 2025-2026.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.stryker.com/",
+      "https://careers.stryker.com/hiring-at-stryker",
+      "https://www.thelayoff.com/stryker",
+      "https://careers.stryker.com/jobs",
+      "https://careers.stryker.com/staff-quality-engineer/job/48F3534D8D7E9A053121C12670A0089B"
+    ],
+    "notes": "Verified: four work models including remote, explicitly Maine-eligible; 5k+ employees; $22.6B 2024 sales; 1,448 open jobs globally. QA posting visible was Staff Quality Engineer in Portage, Michigan, mode unknown. Layoff mentions are forum rumours plus one Florida facility headline, no confirmed numbers. No named quality leaders found.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T15:25:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:35:44-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0
+}

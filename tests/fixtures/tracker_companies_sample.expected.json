@@ -1,0 +1,63 @@
+{
+  "_comment": "Hand-written. Non-null tracker values per company after ingesting tracker_companies_sample.csv at 2026-10-05T08:00:00-04:00; every other tracker key must be present and null.",
+  "C001": {
+    "tracker": {
+      "company_id": "C001",
+      "company": "Roll20 / Demiplane",
+      "sector": "Games & stories",
+      "interests": "TTRPGs, fantasy",
+      "career_url": "https://help.roll20.net/careers",
+      "role_families": "QA lead; automation",
+      "hiring_difficulty": 4,
+      "estimate_confidence": "Low",
+      "estimate_rationale": "Small, specialist employer; \"few\" senior openings.",
+      "research_status": "Initial research",
+      "research_as_of": "2026-09-29"
+    },
+    "owner_changes": {
+      "research_status": {"value": "Initial research", "at": "2026-10-05T08:00:00-04:00"}
+    },
+    "skipped": false
+  },
+  "C002": {
+    "tracker": {
+      "company_id": "C002",
+      "company": "Hudl",
+      "sector": "Sports",
+      "hiring_difficulty": "high",
+      "research_status": "Not started"
+    },
+    "owner_changes": {
+      "research_status": {"value": "Not started", "at": "2026-10-05T08:00:00-04:00"}
+    },
+    "skipped": false
+  },
+  "C010": {
+    "tracker": {
+      "company_id": "C010",
+      "company": "Parked Co",
+      "overall_rank": 2,
+      "research_status": "Parked"
+    },
+    "owner_changes": {
+      "research_status": {"value": "Parked", "at": "2026-10-05T08:00:00-04:00"},
+      "overall_rank": {"value": 2, "at": "2026-10-05T08:00:00-04:00"}
+    },
+    "skipped": true
+  },
+  "C1203": {
+    "tracker": {
+      "company_id": "C1203",
+      "company": "Big Rank, LLC",
+      "overall_rank": 4,
+      "research_notes": "Line one\nLine two",
+      "research_status": "Not started",
+      "fit_score": 3
+    },
+    "owner_changes": {
+      "research_status": {"value": "Not started", "at": "2026-10-05T08:00:00-04:00"},
+      "overall_rank": {"value": 4, "at": "2026-10-05T08:00:00-04:00"}
+    },
+    "skipped": true
+  }
+}

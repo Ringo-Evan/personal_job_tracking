@@ -1,0 +1,57 @@
+{
+  "company_id": "C202",
+  "detail": "extract: extract: no tier succeeded: local/ollama_chat/qwen3.5:9b rejected grounding failed for 2/2 facts: stability_signals[0] quote not found in S5; people[0] quote not found in S3; free-cloud/gemini/gemini-3.5-flash-lite rejected grounding failed for 1/1 facts: people[0] quote not found in S3; free-cloud/gemini/gemini-3.1-flash-lite rejected grounding failed for 2/2 facts: stability_signals[0] quote not found in S5; people[0] quote not found in S3; paid-cheap/deepseek/deepseek-flash rejected ",
+  "steps": [
+    {
+      "step": "extract",
+      "attempts": [
+        {
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "outcome": "rejected",
+          "detail": "grounding failed for 2/2 facts: stability_signals[0] quote not found in S5; people[0] quote not found in S3",
+          "latency_s": 22.89075140003115,
+          "tokens": {
+            "prompt_tokens": 3430,
+            "completion_tokens": 197
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.5-flash-lite",
+          "outcome": "rejected",
+          "detail": "grounding failed for 1/1 facts: people[0] quote not found in S3",
+          "latency_s": 1.3487917000893503,
+          "tokens": {
+            "prompt_tokens": 4026,
+            "completion_tokens": 122
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.1-flash-lite",
+          "outcome": "rejected",
+          "detail": "grounding failed for 2/2 facts: stability_signals[0] quote not found in S5; people[0] quote not found in S3",
+          "latency_s": 2.738207899965346,
+          "tokens": {
+            "prompt_tokens": 4026,
+            "completion_tokens": 193
+          }
+        },
+        {
+          "tier": "paid-cheap",
+          "model": "deepseek/deepseek-flash",
+          "outcome": "rejected",
+          "detail": "grounding failed for 2/3 facts: stability_signals[0] quote not found in S5; people[0] quote not found in S3",
+          "latency_s": 9.117538300110027,
+          "tokens": {
+            "prompt_tokens": 4018,
+            "completion_tokens": 2066
+          }
+        }
+      ]
+    }
+  ],
+  "grounding": {},
+  "output": null
+}

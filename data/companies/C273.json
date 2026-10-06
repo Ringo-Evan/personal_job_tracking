@@ -1,0 +1,215 @@
+{
+  "company_id": "C273",
+  "tracker": {
+    "company_id": "C273",
+    "company": "Becton Dickinson",
+    "sector": "Regulated healthtech",
+    "interests": "Infusion/dispensing systems",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 5,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior QA Engineer",
+      "Test Automation Engineer",
+      "Quality Engineer"
+    ],
+    "approach": "Director of Quality",
+    "why": "Infusion/dispensing systems; medical device hardware, strong fit, likely remote friendly.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C273",
+    "career_url": "https://jobs.bd.com/en",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Most roles require at least 4 days per week in office. Postings are classified as Onsite, In-Office (four days in office, Fridays remote), Remote, or Field, with each job posting stating its workplace classification.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://jobs.bd.com/en/faqs"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Employee post reports 42 people laid off at the Columbus site, with more cuts expected.",
+          "date": null,
+          "url": "https://www.thelayoff.com/becton-dickinson-and"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Forum thread reports layoffs at the San Diego and Brea locations.",
+          "date": null,
+          "url": "https://www.thelayoff.com/becton-dickinson-and"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Employee post says a new layoff round occurred, with people cut across several businesses.",
+          "date": null,
+          "url": "https://www.thelayoff.com/becton-dickinson-and?page=2"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Poster reports hearing about roughly 15 layoffs in R&D.",
+          "date": null,
+          "url": "https://www.thelayoff.com/becton-dickinson-and"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "BD makes regulated medical devices including infusion systems, matching candidate's domain. But most roles require 4 days onsite, listed QA openings are in Europe, and remote-from-Maine is unlikely.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "Senior Quality Manager",
+        "location": "Limerick, Munster",
+        "work_mode": "Unknown",
+        "url": "https://jobs.bd.com/en/category/quality-jobs/159/510/1"
+      },
+      {
+        "title": "Quality Engineer",
+        "location": "Temse, Flanders",
+        "work_mode": "Unknown",
+        "url": "https://jobs.bd.com/en/category/quality-jobs/159/510/1"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "location": "Paterna, Valencia",
+        "work_mode": "Unknown",
+        "url": "https://jobs.bd.com/en/category/quality-jobs/159/510/1"
+      }
+    ],
+    "people": [
+      {
+        "name": "Sumedha Mehta",
+        "title": "Senior Quality Engineer",
+        "source_url": "https://jobs.bd.com/en/career-areas-quality"
+      },
+      {
+        "name": "Jeff Silverstri",
+        "title": "QA head",
+        "source_url": "https://www.thelayoff.com/becton-dickinson-and"
+      }
+    ],
+    "approach_role": "QA head",
+    "outreach_angle": "I bring 15 years of regulated test automation, including hardware-adjacent medical devices; I'd like to discuss how I can support BD's infusion/dispensing quality, particularly any remote or hybrid openings.",
+    "red_flags": "Most roles require 4 days onsite; QA openings are Europe-based; multiple layoffs reported.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.bd.com/en",
+      "https://jobs.bd.com/en/faqs",
+      "https://www.thelayoff.com/becton-dickinson-and",
+      "https://www.thelayoff.com/becton-dickinson-and?page=2",
+      "https://buildremote.co/rto-tracker/becton-dickinson/",
+      "https://jobs.bd.com/en/category/quality-jobs/159/510/1",
+      "https://jobs.bd.com/en/career-areas-quality"
+    ],
+    "notes": "BD is a large regulated medtech with infusion/dispensing systems, a strong domain match. Remote policy: most roles 4 days onsite; Maine eligibility varies. Listed QA openings are in Europe. Layoffs reported at Columbus, San Diego, Brea and R&D. No US-remote senior QA opening evident.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 12,
+      "kept": 12,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:33:10-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  }
+}

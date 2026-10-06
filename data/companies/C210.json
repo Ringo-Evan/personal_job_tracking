@@ -1,0 +1,154 @@
+{
+  "company_id": "C210",
+  "tracker": {
+    "company_id": "C210",
+    "company": "Securitas Healthcare",
+    "sector": "IoT / location tech",
+    "interests": "RTLS/asset tracking",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "Unknown",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Healthcare RTLS/asset tracking; medical-device-adjacent and hardware test fit, but US-remote QA unclear.",
+    "flags": "US-remote unclear; parent security giant",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C210",
+    "career_url": "https://www.securitasinc.com/career/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Securitas Healthcare builds RTLS, nurse-call and asset-tracking systems for hospitals — regulated, hardware-adjacent work matching the candidate's FDA V&V background and RFID/indoor-location interest. But no verified remote policy or QA openings exist, so fit depends on confirming Maine-eligible remote roles.",
+      "role_families": [
+        "SDET / test automation",
+        "QA & verification leadership (V&V, design controls)",
+        "Release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (no named leader in verified facts; confirm current",
+    "outreach_angle": "Your 15 years in C#/.NET automation plus FDA-regulated V&V and design-controls experience maps directly to validating RTLS, nurse-call and asset-tracking systems for hospital deployment.",
+    "red_flags": "No verified remote policy, openings, contacts, size or ATS — Maine-eligibility and current QA headcount are unconfirmed.",
+    "confidence": "low",
+    "sources": [
+      "https://www.securitasinc.com/career/"
+    ],
+    "notes": "Verified facts are nearly empty: no remote policy, stability signals, QA openings, people or job board listed. Context: Securitas acquired Stanley Healthcare in 2022, giving the RTLS/healthcare-IoT unit a large global security parent and essential-hospital customer base. Confirm whether it hires US-remote, including Maine, before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:38:19-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.securitashealthcare.com/careers",
+    "found": null,
+    "other": []
+  },
+  "verify_rejects": 0
+}

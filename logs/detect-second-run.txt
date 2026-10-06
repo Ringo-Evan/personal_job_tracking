@@ -1,0 +1,153 @@
+detect: 1219 companies to check
+  C001   Roll20 / Demiplane               unknown  careers page HTTP 403
+  C002   Hudl                             greenhouse (confirmed) hudl  Hudl
+  C003   OverDrive                        other  uses jobvite
+  C004   Assembly Four                    other  uses teamtailor
+  C005   Action Network                   other  uses bamboohr
+  C006   Wizards of the Coast / Hasbro    greenhouse (confirmed) hasbro  Hasbro
+  C007   Paradox Interactive              other  no known job-board system on careers page
+  C008   Larian Studios                   lever (confirmed) larian  token guessed from name; page mentions lever
+  C009   FloSports                        ashby (confirmed) flosports  token guessed from name; page mentions ashby
+  C010   Scribd, Inc.                     ashby (confirmed) ScribdInc  
+  C011   Macmillan / Tor Publishing Group unknown  careers page HTTP 403
+  C012   ActBlue                          other  no known job-board system on careers page
+  C013   MoveOn                           greenhouse (confirmed) moveonorg  MoveOn.org
+  C014   Kickstarter                      greenhouse (confirmed) kickstarter  Kickstarter PBC
+  C015   Aylo                             other  no known job-board system on careers page
+  C016   Feeld                            other  uses workable
+  C017   Mantis                           other  no known job-board system on careers page
+  C018   InVeris Training Solutions       other  no known job-board system on careers page
+  C019   VirTra                           unknown  careers page HTTP 403
+  C020   Axon                             greenhouse (confirmed) axon  token guessed from name; page mentions greenhouse; board nam
+  C021   Gearfire                         other  no known job-board system on careers page
+  C022   Orchid                           unknown  careers page HTTP 403
+  C023   GunBroker.com                    unknown  careers page HTTP 403
+  C024   Brownells                        unknown  careers page HTTP 403
+  C025   Silencer Central                 other  no known job-board system on careers page
+  C026   Garmin                           other  no known job-board system on careers page
+  C027   Vortex Optics                    other  uses paylocity
+  C028   EOTECH                           other  no known job-board system on careers page
+  C029   SIG SAUER                        unknown  careers page HTTP 403
+  C030   Sturm, Ruger & Co.               workday (unconfirmed) ruger|1|External  workday API disabled in config
+  C031   Smith & Wesson                   other  no known job-board system on careers page
+  C032   FN America                       other  no known job-board system on careers page
+  C033   SilencerCo                       unknown  careers page HTTP 403
+  C034   Rock Island Auction Company      unknown  careers page HTTP 403
+  C035   Anduril                          other  no known job-board system on careers page
+  C036   Saronic                          ashby (confirmed) saronic  
+  C037   Anthropic                        other  no known job-board system on careers page
+  C038   Shield AI                        unknown  careers page HTTP 403
+  C039   ElevenLabs                       other  no known job-board system on careers page
+  C040   Roblox                           unknown  fetch failed: ReadTimeout
+  C041   United Airlines                  other  no known job-board system on careers page
+  C042   Delta Air Lines                  other  no known job-board system on careers page
+  C043   American Airlines                unknown  careers page HTTP 403
+  C044   Hilton                           other  uses oracle
+  C045   Marriott International           other  uses oracle
+  C046   Expedia Group                    unknown  careers page HTTP 403
+  C047   Airbnb                           other  no known job-board system on careers page
+  C048   Royal Caribbean Group            other  no known job-board system on careers page
+  C049   Amadeus                          other  no known job-board system on careers page
+  C050   SITA                             other  uses icims
+  C051   EF Education First               other  no known job-board system on careers page
+  C052   G Adventures                     workday (unconfirmed) gadventures|3|GAdventures  workday API disabled in config
+  C053   Johnny's Selected Seeds          other  no known job-board system on careers page
+  C054   Fedco Seeds                      other  no known job-board system on careers page
+  C055   High Mowing Organic Seeds        other  no known job-board system on careers page
+  C056   Premier 1 Supplies               unknown  careers page HTTP 403
+  C057   Lehman's                         other  no known job-board system on careers page
+  C058   Farmbrite                        other  no known job-board system on careers page
+  C059   John Deere                       other  uses successfactors
+  C060   AGCO / PTx                       other  uses successfactors
+  C061   CNH                              other  no known job-board system on careers page
+  C062   Carbon Robotics                  other  no known job-board system on careers page
+  C063   Halter                           ashby (confirmed) halter  token guessed from name; page mentions ashby
+  C064   Lely                             other  no known job-board system on careers page
+  C065   IDEXX                            other  no known job-board system on careers page
+  C066   Chewy                            other  no known job-board system on careers page
+  C067   Tractor Supply                   other  uses successfactors
+  C068   Husqvarna Group                  workday (unconfirmed) husqvarnagroup|3|External_Career_Site  workday API disabled in config
+  C069   ESAPCO / FarmTek / GrowSpan / Cl unknown  careers page HTTP 403
+  C070   MOFGA                            other  uses bamboohr
+  C071   Insulet                          workday (unconfirmed) insulet|5|insuletcareers  workday API disabled in config
+  C072   WEX                              other  no known job-board system on careers page
+  C073   Tyler Technologies               other  uses jobvite
+  C074   Veeva Systems                    unknown  careers page HTTP 403
+  C075   athenahealth                     workday (unconfirmed) athenahealth|1|External  workday API disabled in config
+  C076   Impinj                           greenhouse (confirmed) impinjexternal  Impinj
+  C077   Recidiviz                        greenhouse (confirmed) recidiviz  Recidiviz
+  C078   Propel                           unknown  careers page HTTP 429
+  C079   Code for America                 unknown  careers page HTTP 403
+  C080   Bitfocus                         greenhouse (confirmed) bitfocus  Bitfocus
+  C081   Bicycle Health                   other  no known job-board system on careers page
+  C082   Boulder Care                     other  no known job-board system on careers page
+  C083   Workit Health                    unknown  careers page HTTP 403
+  C084   Ophelia                          greenhouse (confirmed) ophelia  Ophelia
+  C085   Groups Recover Together          other  no known job-board system on careers page
+  C086   UNITE HERE (tech team)           other  no known job-board system on careers page
+  C087   WorkMoney                        other  no known job-board system on careers page
+  C088   Grindr                           other  no known job-board system on careers page
+  C089   The Trevor Project               other  no known job-board system on careers page
+  C090   Colonist                         ashby (confirmed) colonist  token guessed from name; page mentions ashby
+  C091   SmartBear                        greenhouse (confirmed) smartbear  SmartBear
+  C092   Tricentis                        workday (unconfirmed) tricentis|1|Tricentis_Careers  workday API disabled in config
+  C093   BrowserStack                     workday (unconfirmed) browserstack|3|External  workday API disabled in config
+  C094   Gymdesk                          other  no known job-board system on careers page
+  C095   Kicksite                         other  no known job-board system on careers page
+  C096   Zen Planner                      other  no known job-board system on careers page
+  C097   Spark Membership                 other  no known job-board system on careers page
+  C098   Unum                             workday (unconfirmed) unum|1|External  workday API disabled in config
+  C099   Paizo                            other  no known job-board system on careers page
+  C100   Foundry Gaming (Foundry VTT)     other  no known job-board system on careers page
+  C101   Board Game Arena (Asmodee)       other  no known job-board system on careers page
+  C102   Chaosium                         unknown  careers page HTTP 403
+  C103   Asmodee                          other  no known job-board system on careers page
+  C104   Ancestry                         other  no known job-board system on careers page
+  C105   Internet Archive                 other  no known job-board system on careers page
+  C106   ITHAKA (JSTOR)                   unknown  careers page HTTP 403
+  C107   Dragonsteel Entertainment        other  no known job-board system on careers page
+  C108   Audible                          unknown  careers page HTTP 403
+  C109   Wattpad                          lever (confirmed) wattpad  
+  C110   Bookshop.org                     unknown  careers page HTTP 403
+  C111   Fenix International (OnlyFans)   unknown  careers page HTTP 403
+  C112   Fansly                           other  no known job-board system on careers page
+  C113   Clips4Sale                       other  no known job-board system on careers page
+  C114   Kink.com                         unknown  careers page HTTP 403
+  C115   Pineapple Support                other  no known job-board system on careers page
+  C116   Free Speech Coalition            other  no known job-board system on careers page
+  C117   Dipsea                           other  no known job-board system on careers page
+  C118   Folx Health                      other  no known job-board system on careers page
+  C119   Plume                            other  no known job-board system on careers page
+  C120   Feeding America                  other  no known job-board system on careers page
+  C121   Good Shepherd Food Bank          unknown  careers page HTTP 403
+  C122   World Central Kitchen            other  no known job-board system on careers page
+  C123   mRelief                          other  no known job-board system on careers page
+  C124   Community Solutions (Built for Z unknown  careers page HTTP 403
+  C125   Habitat for Humanity Internation workday (unconfirmed) habitat|12|External  workday API disabled in config
+  C126   Ameelio                          greenhouse (confirmed) ameelio  Ameelio
+  C127   Vera Institute of Justice        greenhouse (confirmed) verainstituteofjustice  Vera Institute of Justice
+  C128   The Bail Project                 unknown  careers page HTTP 403
+  C129   Uptrust                          other  no known job-board system on careers page
+  C130   Coworker.org                     other  no known job-board system on careers page
+  C131   SEIU                             unknown  careers page HTTP 403
+  C132   AFL-CIO                          unknown  careers page HTTP 403
+  C133   Pinetree Garden Seeds            other  no known job-board system on careers page
+  C134   Harvest Right                    other  no known job-board system on careers page
+  C135   Ogden Publications (Mother Earth other  no known job-board system on careers page
+  C136   Renogy                           other  no known job-board system on careers page
+  C137   Baker Creek Heirloom Seeds       other  no known job-board system on careers page
+  C138   Zebra Technologies               workday (unconfirmed) zebra|501|Zebra_careers  workday API disabled in config
+  C139   Samsara                          other  no known job-board system on careers page
+  C140   Testlio                          greenhouse (confirmed) testlio  Testlio
+  C141   Sauce Labs                       greenhouse (confirmed) saucelabs  Sauce Labs Inc.
+  C142   mabl                             greenhouse (confirmed) mabl  mabl
+  C143   Applitools                       other  no known job-board system on careers page
+  C144   Datadog                          other  no known job-board system on careers page
+  C145   The Jackson Laboratory           unknown  careers page HTTP 404
+  C146   Bangor Savings Bank              unknown  careers page HTTP 404
+  C147   University of Maine System       other  uses oracle
+  C148   Northern Light Health            other  no known job-board system on careers page
+  C149   L.L.Bean                         other  no known job-board system on careers page
+
+summary: ashby (confirmed)=5, greenhouse (confirmed)=15, lever (confirmed)=2, no-url=1070, other=85, unknown=32, workday (unconfirmed)=10
+http: {'requests': 35, 'cache_hits': 157, 'retries': 6}

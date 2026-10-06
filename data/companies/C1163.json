@@ -1,0 +1,185 @@
+{
+  "company_id": "C1163",
+  "tracker": {
+    "company_id": "C1163",
+    "company": "MITRE",
+    "sector": "Defense, aerospace & robotics",
+    "interests": "Bedford MA; remote-friendly",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "mitre|5|MITRE",
+    "board_url": "https://mitre.wd5.myworkdayjobs.com/MITRE",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://careers.mitre.org/us/en/home",
+    "job_count": 0
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 5,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Quality Engineer",
+      "Test Engineer",
+      "QA Lead"
+    ],
+    "approach": "Director of Quality Engineering",
+    "why": "Remote-friendly FFRDC with federal quality and test roles; decent fit for senior QA, though domains are adjacent rather than matching interests.",
+    "flags": "Clearance may limit some roles; strong remote culture",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1163",
+    "career_url": "https://careers.mitre.org/us/en/home",
+    "ats": {
+      "type": "workday",
+      "token": "mitre|5|MITRE",
+      "board_url": "https://mitre.wd5.myworkdayjobs.com/MITRE"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "MITRE laid off 442 employees, about 4.9% of its workforce, mostly at its Tysons, Virginia headquarters, citing lost or canceled contracts.",
+          "date": null,
+          "url": "https://www.ffxnow.com/2025/04/04/report-federal-contractors-in-tysons-reston-to-lay-off-workers/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "MITRE's federal contracts were canceled, including work for the IRS, DHS and NIH, amid federal contract reductions.",
+          "date": null,
+          "url": "https://www.ffxnow.com/2025/04/04/report-federal-contractors-in-tysons-reston-to-lay-off-workers/"
+        },
+        {
+          "kind": "growth",
+          "summary": "MITRE states it is actively hiring across cybersecurity, AI/ML, health, space and systems engineering areas.",
+          "date": null,
+          "url": "https://careers.mitre.org/us/en/home"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "MITRE runs federally funded R&D in defense, health, and cybersecurity, so regulated V&V and hardware-adjacent test work fits. But no QA openings are listed, remote-from-Maine is unverified, and recent contract-cancellation layoffs add risk.",
+      "role_families": [
+        "SDET",
+        "Test & Evaluation Engineering",
+        "QA/Quality Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "I bring 15 years in regulated V&V and hardware-adjacent automation; I'd like to apply that to MITRE's health and defense test programs, remote from Maine.",
+    "red_flags": "No QA openings listed; recent layoffs and federal contract cancellations; security clearance likely; remote policy unverified.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.mitre.org/us/en/home",
+      "https://www.ffxnow.com/2025/04/04/report-federal-contractors-in-tysons-reston-to-lay-off-workers/"
+    ],
+    "notes": "MITRE: 5k+ FFRDC; laid off 442 (4.9%) citing canceled contracts (IRS, DHS, NIH); still hiring cyber/AI/health/space. No QA openings listed; remote policy unverified; clearance likely for many roles. Best angle: regulated health/defense test engineering.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.mitre.org/us/en/home",
+    "found": "workday:mitre|5|MITRE (embedded in https://careers.mitre.org/us/en/home)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

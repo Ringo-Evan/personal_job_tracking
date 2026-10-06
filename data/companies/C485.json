@@ -1,0 +1,166 @@
+{
+  "company_id": "C485",
+  "tracker": {
+    "company_id": "C485",
+    "company": "Paylocity",
+    "sector": "Enterprise & govtech",
+    "interests": "HR/payroll SaaS; remote",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": null,
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Automation Engineer",
+      "Quality Engineering Manager"
+    ],
+    "approach": "Manager of Software Quality Assurance",
+    "why": "HR and payroll SaaS with C#/.NET systems; remote-friendly engineering and automation-heavy QA make this a strong match.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C485",
+    "career_url": "https://recruiting.paylocity.com/Recruiting/Jobs/All/5cc86a46-fa67-4c3d-9618-443235d66fd4",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Promotes a \"Talent Anywhere\" approach with remote options and periodic in-person connection points; flexibility varies by department and location.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/paylocity/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Paylocity listed with approximately $4B in revenue, revenue rank #772, in the Software industry.",
+          "date": null,
+          "url": "https://claveprep.com/blog/paylocity-layoff-signals-guide-2026"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Paylocity is a large HR/payroll SaaS company with a 'Talent Anywhere' remote policy and stable $4B revenue. However, domain mismatch (HR/payroll vs. candidate's medical/gaming interests) and unconfirmed Maine remote eligibility create a clear gap.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "My 15 years in C#/.NET test automation and FDA-regulated V&V can strengthen Paylocity's payroll and HR platform quality, ensuring compliance and reliability at scale.",
+    "red_flags": "No current QA openings; Maine remote eligibility unclear; domain (HR/payroll) outside candidate's stated interests.",
+    "confidence": "medium",
+    "sources": [
+      "https://recruiting.paylocity.com/Recruiting/Jobs/All/5cc86a46-fa67-4c3d-9618-443235d66fd4",
+      "https://builtin.com/company/paylocity/faq/work-life-balance-wellbeing",
+      "https://claveprep.com/blog/paylocity-layoff-signals-guide-2026"
+    ],
+    "notes": "Paylocity: large HR/payroll SaaS, ~$4B revenue, stable, 'Talent Anywhere' remote policy but Maine eligibility unconfirmed. No QA openings listed. C#/.NET skills relevant. Domain mismatch with candidate's interests. Approach quality leadership.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.paylocity.com/company/careers/",
+    "found": null,
+    "other": [
+      "paylocity https://2000recruiting.paylocity.com/recruiting/jobs/List/1/Paylocity"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,179 @@
+{
+  "company_id": "C326",
+  "tracker": {
+    "company_id": "C326",
+    "company": "Benchling",
+    "sector": "Regulated healthtech",
+    "interests": "Life sciences R&D software",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "ashby",
+    "token": "benchling",
+    "board_url": "https://jobs.ashbyhq.com/benchling",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 53
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer"
+    ],
+    "approach": "Head of Quality",
+    "why": "Life sciences R&D software; regulated healthtech with likely remote roles and good stability.",
+    "flags": "",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C326",
+    "career_url": "https://www.benchling.com/careers",
+    "ats": {
+      "type": "ashby",
+      "token": "benchling",
+      "board_url": "https://jobs.ashbyhq.com/benchling"
+    },
+    "remote_policy": {
+      "summary": "Hybrid model: employees combine remote and on-site work, with hybrid roles cited as 3 in-office days per week; remote options are available for many roles.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/benchling/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Benchling laid off 9% of staff, about 74 employees, mainly in the marketing team, per a confirmed company statement.",
+          "date": null,
+          "url": "https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff"
+        },
+        {
+          "kind": "funding",
+          "summary": "Company had raised more than $400 million in funding, including a $200 million Series E and $100 million Series F in 2021.",
+          "date": null,
+          "url": "https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Benchling builds R&D software for life sciences, a regulated-software world close to the candidate's FDA-regulated V&V background. But hybrid three-day office norms, unknown Maine eligibility, recent layoffs and no posted QA roles make it a stretch rather than a clean",
+      "role_families": [
+        "SDET",
+        "QA automation engineering",
+        "Quality engineering (regulated software)"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps directly to the validation and compliance needs of Benchling's life-sciences customers; ask how the quality function supports regulated workflows.",
+    "red_flags": "Recent 9% layoff (~74 staff, mostly marketing); solidly hybrid, three in-office days; no QA openings posted; Maine eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.benchling.com/careers",
+      "https://builtin.com/company/benchling/faq/work-life-balance-wellbeing",
+      "https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff"
+    ],
+    "notes": "Benchling: life-sciences R&D software (regulated healthtech), Ashby ATS. Raised $400M+ (Series E/F, 2021) but cut 9% of staff. Hybrid, cited as three office days weekly, remote for many roles but Maine eligibility unknown. No QA openings listed and no named quality leaders in the facts.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:benchling (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

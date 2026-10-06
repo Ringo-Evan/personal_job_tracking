@@ -1,0 +1,51 @@
+{
+  "company_id": "C202",
+  "detail": "extract: extract: no tier succeeded: local/ollama_chat/qwen3.5:9b rejected grounding failed for 1/1 facts: stability_signals[0] quote not found in S5; free-cloud/gemini/gemini-3.5-flash-lite error ServiceUnavailableError: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try; free-cloud/gemini/gemini-3.1-flash-lite error ServiceUnavailableError: litell",
+  "steps": [
+    {
+      "step": "extract",
+      "attempts": [
+        {
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "outcome": "rejected",
+          "detail": "grounding failed for 1/1 facts: stability_signals[0] quote not found in S5",
+          "latency_s": 16.472269100137055,
+          "tokens": {
+            "prompt_tokens": 3430,
+            "completion_tokens": 131
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.5-flash-lite",
+          "outcome": "error",
+          "detail": "ServiceUnavailableError: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try ",
+          "latency_s": 0.4259962001815438,
+          "tokens": {}
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.1-flash-lite",
+          "outcome": "error",
+          "detail": "ServiceUnavailableError: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try ",
+          "latency_s": 0.28256509988568723,
+          "tokens": {}
+        },
+        {
+          "tier": "paid-cheap",
+          "model": "deepseek/deepseek-flash",
+          "outcome": "rejected",
+          "detail": "grounding failed for 2/2 facts: career_url quote not found in S3; people[0] quote not found in S3",
+          "latency_s": 9.385224500205368,
+          "tokens": {
+            "prompt_tokens": 4018,
+            "completion_tokens": 2130
+          }
+        }
+      ]
+    }
+  ],
+  "grounding": {},
+  "output": null
+}

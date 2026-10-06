@@ -1,0 +1,174 @@
+{
+  "company_id": "C332",
+  "tracker": {
+    "company_id": "C332",
+    "company": "IQVIA",
+    "sector": "Regulated healthtech",
+    "interests": "Life sciences tech",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "iqvia|1|IQVIA",
+    "board_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 1895
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "5k+",
+    "roles": [
+      "Senior Test Engineer",
+      "SDET",
+      "QA Manager"
+    ],
+    "approach": "Director of Quality Assurance",
+    "why": "Huge life-sciences data and clinical services firm; many QA roles and regulated-domain match, though work is often offshore-sited.",
+    "flags": "Roles frequently offshore or contract-based",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C332",
+    "career_url": "https://jobs.iqvia.com/en",
+    "ats": {
+      "type": "workday",
+      "token": "iqvia|1|IQVIA",
+      "board_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA"
+    },
+    "remote_policy": {
+      "summary": "Four workplace profiles (hybrid, field-based, home-based, office-based) assigned by role; most spend a few days a week in the office and the rest remotely.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://jobs.iqvia.com/en/blog/how-we-work"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "IQVIA careers site lists 3,557 open jobs across 356 pages as of October 2026.",
+          "date": null,
+          "url": "https://jobs.iqvia.com/en/jobs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "IQVIA provides clinical research and healthcare data/analytics in regulated life sciences, matching the candidate's FDA-regulated V&V and .NET test automation background. Senior QA roles are plausible, but remote-from-Maine eligibility and actual QA openings are unconfirmed.",
+      "role_families": [
+        "QA/validation engineering",
+        "test automation/SDET",
+        "quality leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance",
+    "outreach_angle": "With 15 years in regulated FDA medical-device V&V and C#/.NET automation, I can help IQVIA strengthen clinical/life-sciences validation and test tooling; are you open to a home-based QA lead?",
+    "red_flags": "Maine-eligible remote status unknown; no QA roles verified.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.iqvia.com/en/jobs/R1529486-0",
+      "https://jobs.iqvia.com/en/blog/how-we-work",
+      "https://jobs.iqvia.com/en/jobs"
+    ],
+    "notes": "IQVIA is a large regulated healthtech/CRO. Workplace profile (hybrid, field, home, office) is role-assigned; most mix office and remote, but Maine eligibility is unconfirmed. 3,557 open jobs listed Oct 2026; no QA openings or named quality leaders in supplied facts.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:iqvia|1|IQVIA (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

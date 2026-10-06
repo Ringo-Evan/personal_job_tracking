@@ -1,0 +1,33 @@
+{
+  "key": "lead-740c9f361605",
+  "board": "lead",
+  "company_id": "C273",
+  "company": "Becton Dickinson",
+  "title": "Senior Quality Manager",
+  "location_text": "Limerick, Munster",
+  "work_mode": "Unknown",
+  "url": "https://jobs.bd.com/en/category/quality-jobs/159/510/1",
+  "apply_url": null,
+  "source_url": "https://jobs.bd.com/en/category/quality-jobs/159/510/1",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-05",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Senior Quality Manager at BD in Limerick, Ireland — medical-device quality leadership matches the candidate's regulated domain, but it is a site-based European role, not software test automation, and offers",
+    "skill_match": 3,
+    "seniority": "match",
+    "maine_eligible": "no",
+    "track": "QA leadership",
+    "notes": "Ireland-based role; confirm any US-remote or Maine-eligible QA openings instead. Domain fits, but no test-automation scope listed.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05",
+    "text_hash": "958b26df5809c8a1",
+    "text_source": "board"
+  },
+  "description": "Search Results\n63 results found for Quality jobs\nFiltered by\n- Senior Quality Manager\n - Limerick, Munster\n- LATAM Regional Quality Integration Leader\n - São Paulo, São Paulo\n- Quality Continuous Improvement (CI) Partner, Greater Asia (GA)\n - Multiple Locations\n- Quality Excellence Capability Partner, North America (NA)\n - Multiple Locations\n- Quality Engineer\n - Temse, Flanders\n- Quality Associate Scientist\n - Hunt Valley, MD\n- Quality Assurance Specialist\n - Paterna, Valencia\n- Investigation Engineer - Medical Devices\n - Winnersh, England\nFilters\nRelated Content\n- Blog Discover stories, culture and tips that inspire your growth and support your career journey.\n- Our Locations BD has a presence in virtually every country in the world. Explore our locations and search our jobs to find an impactful career.\n- Applicant FAQs Get clear answers to your top questions and confidently navigate every step of your journey.\n- Your Career at BD We believe careers should be built on more than just a job description. At BD, your career is a journey with real opportunities to grow.\n- Career Areas at BD Explore dynamic career paths at BD and find roles that match your skills, passions and goals.\nJoin our Talent Pool\nSign up to get the latest company news, events, and future opportunities straight to your inbox.\nJoin Our Talent Pool\nSign up for Job Alerts\nCreate a job alert and be notified when opportunities matching your skills and location become available."
+}

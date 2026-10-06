@@ -1,0 +1,17 @@
+  ashby-0aae3927-e194-4cc9-a832-564eff0e67 skill=2 below   maine=no      Test Engineering Technician
+  ashby-aa60ab83-6552-4c9a-afec-4ed4bc254b skill=2 match   maine=yes     Staff Site Reliability Engineer
+  ashby-b36773da-5e82-4d16-b926-186ba78faf skill=2 match   maine=no      Senior Automation Controls Engineer
+  ashby-cb958101-ede8-4f50-bf30-b3272d33f2 skill=2 match   maine=yes     Site Reliability Engineer
+  ashby-f53df2af-e56d-4be4-a091-35ebe13983 skill=2 below   maine=no      Flight Test Operator - Data Collection Fixed Term
+  ashby-405a5c5c-5ceb-4f13-93a5-dc176ffd4e skill=2 match   maine=yes     Senior Site Reliability Engineer
+  ashby-5c1ec5a3-1f9c-4a2f-bb45-65be973d9f skill=2 below   maine=yes     Manual QA Tester (Contract)
+  ashby-9936ea0d-071a-4b51-8154-fdde89ded6 skill=2 match   maine=yes     Senior Site Reliability Engineer
+  ashby-afd7e838-bd5e-4697-94ea-5d31fe1b00 skill=2 match   maine=yes     Finance Systems and Automation Manager
+  ashby-f508992f-5b26-4ab1-816d-d17f121d20 skill=2 match   maine=yes     Staff Site Reliability Engineer
+  lever-c12583e4-994e-4ffd-baaf-76e0fed1f1 skill=1 above   maine=yes     Associate Clinical Director, Integrated Care Quali
+  ashby-a42f6335-7f04-4ad3-8a01-53aacda547 skill=4 below   maine=no      Quality Assurance Engineer - Remote Europe
+  ashby-f6035bf8-4f44-4425-9944-d5509a3c86 skill=3 match   maine=yes     Release Engineer
+  lever-8e43b482-7866-4341-80b9-d7ad3f5a7b skill=1 below   maine=no      Background Verification Analyst
+  lever-becf7d8b-b26c-4532-8ff1-47d386270d skill=1 below   maine=no      Background Verification Analyst (Spanish Speaking)
+
+summary: scored=15, unchanged=39, failed=0, fetched_pages=1

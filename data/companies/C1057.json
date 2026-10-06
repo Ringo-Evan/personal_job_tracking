@@ -1,0 +1,205 @@
+{
+  "company_id": "C1057",
+  "tracker": {
+    "company_id": "C1057",
+    "company": "Zillow (Housing Connector)",
+    "sector": "Housing",
+    "interests": "Housing Connector program",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "workday",
+    "token": "zillow|5|Zillow_Group_External",
+    "board_url": "https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 132
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "5k+",
+    "roles": [
+      "Senior SDET",
+      "QA Engineer",
+      "Test Manager"
+    ],
+    "approach": "Engineering Manager",
+    "why": "Real estate tech with housing program; strong QA roles, remote-friendly, matches housing interest.",
+    "flags": "Large tech; remote-friendly; housing program",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C1057",
+    "career_url": "https://www.zillow.com/careers/",
+    "ats": {
+      "type": "workday",
+      "token": "zillow|5|Zillow_Group_External",
+      "board_url": "https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External"
+    },
+    "remote_policy": {
+      "summary": "Remote-first \"CloudHQ\" company: most roles can work from home full-time (about 90% of employees), with offices available for optional in-person collaboration and hiring across all 50 states.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.entrepreneur.com/business-news/zillow-is-sticking-with-remote-work-cloudhq-says-ceo/486254"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Zillow cut just over 500 employees in a company-wide restructuring aimed at a disciplined cost structure and its next phase of growth.",
+          "date": null,
+          "url": "https://www.housingwire.com/articles/zillow-layoffs-restructuring-500/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Roughly 200 positions were cut in late January 2026 during annual performance reviews, the first round of layoffs that year.",
+          "date": null,
+          "url": "https://www.housingwire.com/articles/zillow-layoffs-restructuring-500/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Q1 2026 revenue rose 18% year over year to $708 million, with net income of $46 million.",
+          "date": "2026-03",
+          "url": "https://www.housingwire.com/articles/zillow-layoffs-restructuring-500/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Q2 2026 revenue was $772 million, up 18% year over year, with strong mortgage and rentals segment growth.",
+          "date": "2026-06",
+          "url": "https://www.housingwire.com/articles/zillow-layoffs-severance-warn/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Zillow posted a $4 million net loss in Q2 2026, though first-half 2026 net income reached $42 million.",
+          "date": null,
+          "url": "https://www.housingwire.com/articles/zillow-layoffs-severance-warn/"
+        },
+        {
+          "kind": "growth",
+          "summary": "CEO says remote-first hiring brought four times the applicants per job versus pre-pandemic, with employee engagement at all-time highs.",
+          "date": null,
+          "url": "https://www.entrepreneur.com/business-news/zillow-is-sticking-with-remote-work-cloudhq-says-ceo/486254"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Zillow runs a remote-first housing marketplace and its Housing Connector program matches the candidate's housing interest; most roles are US-remote including Maine. However, no QA openings are visible and Zillow is a large, competitive, layoff-prone employer, so fit is moderate.",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Release/Quality Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V, design-controls and C#/.NET automation background maps to quality engineering for a housing platform, and Housing Connector aligns with your housing-access interest.",
+    "red_flags": "No visible QA openings; repeated layoffs (500+, then ~200 in 2026) during performance cycles; very high applicant volume.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.zillow.com/careers/",
+      "https://www.entrepreneur.com/business-news/zillow-is-sticking-with-remote-work-cloudhq-says-ceo/486254",
+      "https://www.housingwire.com/articles/zillow-layoffs-restructuring-500/",
+      "https://www.housingwire.com/articles/zillow-layoffs-severance-warn/"
+    ],
+    "notes": "Zillow is remote-first (CloudHQ), ~90% home-based, hires in all 50 states, so Maine is eligible. Q1/Q2 2026 revenue up 18% YoY, roughly break-even; 5k+ staff. No QA postings found and no named quality leaders in the facts.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T14:40:23-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:zillow|5|Zillow_Group_External (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}

@@ -1,0 +1,205 @@
+{
+  "company_id": "C158",
+  "tracker": {
+    "company_id": "C158",
+    "company": "GitLab",
+    "sector": "Test tooling",
+    "interests": "DevSecOps platform you run daily; all-remote",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "gitlab",
+    "board_url": "https://job-boards.greenhouse.io/gitlab",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; GitLab",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 5,
+    "stability": 4,
+    "remote": "High",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "Senior QA Engineer",
+      "DevSecOps Engineer"
+    ],
+    "approach": "VP Quality",
+    "why": "All-remote, use daily, DevSecOps culture, clear SDET/lead roles available",
+    "flags": "",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C158",
+    "career_url": "https://about.gitlab.com/jobs/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "All-remote company: 100% remote workforce, no offices, team members hired and working from all over the world (65+ countries).",
+      "maine_eligible": "yes",
+      "evidence_url": "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "GitLab begins a restructuring with a voluntary separation window, planning to finalize the new company shape by June 1.",
+          "date": null,
+          "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Final restructuring scope disclosed: roughly 14% of global workforce, about 350 team members, with R&D taking the largest severance share.",
+          "date": null,
+          "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        },
+        {
+          "kind": "revenue",
+          "summary": "GitLab posted over $1 billion in annual recurring revenue, so the restructuring is not driven by financial distress.",
+          "date": null,
+          "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        },
+        {
+          "kind": "revenue",
+          "summary": "First-quarter revenue of $264.2 million, up 23% year over year from $214.5 million.",
+          "date": null,
+          "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        },
+        {
+          "kind": "other",
+          "summary": "R&D reorganized into roughly 60 smaller, empowered teams with end-to-end ownership, nearly doubling independent teams.",
+          "date": null,
+          "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+        },
+        {
+          "kind": "other",
+          "summary": "R&D expense still rose 33% year over year while engineering headcount was reduced and senior AI engineering hiring remained challenging.",
+          "date": null,
+          "url": "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "GitLab is an all-remote DevSecOps platform (Maine-eligible) the candidate uses daily; test-tooling culture matches, but the internal quality org is small, C#/.NET does not map to Ruby/Go, and it is mid-restructuring.",
+      "role_families": [
+        "SDET",
+        "Quality engineering leadership",
+        "Test tooling / release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Quality Engineering / Quality Department lead",
+    "outreach_angle": "As a daily GitLab user and 15-year SDET in regulated, hardware-adjacent products, I can bring test-automation depth to your R&D test tooling and release pipelines.",
+    "red_flags": "Recent restructuring cut ~14% of staff, with R&D taking the largest share; no QA openings currently listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://about.gitlab.com/jobs/",
+      "https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/",
+      "https://about.gitlab.com/blog/gitlab-act-2/",
+      "https://www.finalroundai.com/blog/gitlab-ai-restructuring-2026"
+    ],
+    "notes": "All-remote, hires in 65+ countries, so Maine is eligible. Revenue >$1B ARR and Q1 up 23% YoY, but a ~14% restructuring hit R&D hardest and no QA/SDET roles are open. Verify current quality-org headcount and whether .NET-adjacent test tooling work exists.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T16:32:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-05T21:58:20-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "verify_rejects": 0,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:gitlab (linked from search results)",
+    "other": []
+  }
+}

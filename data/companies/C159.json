@@ -1,0 +1,199 @@
+{
+  "company_id": "C159",
+  "tracker": {
+    "company_id": "C159",
+    "company": "JetBrains",
+    "sector": "Test tooling",
+    "interests": "IDEs, Rider for .NET; TeamCity",
+    "career_url": null,
+    "role_families": null,
+    "overall_rank": null,
+    "interest": null,
+    "values": null,
+    "pay": null,
+    "flexibility": null,
+    "travel_perks": null,
+    "homestead_fit": null,
+    "dealbreakers": null,
+    "hiring_difficulty": null,
+    "estimate_confidence": null,
+    "estimate_rationale": null,
+    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "your_notes": null,
+    "research_status": "Not started",
+    "maine_remote": null,
+    "benefit_source": null,
+    "research_as_of": null,
+    "next_research_action": null,
+    "fit_score": null,
+    "stability_score": null,
+    "remote_likelihood": null,
+    "size_estimate": null,
+    "ai_summary": null,
+    "ai_red_flags": null,
+    "ai_scored_at": null,
+    "approach_role": null,
+    "people_search_url": null,
+    "outreach_notes": null
+  },
+  "missing_from_tracker": false,
+  "owner_changes": {
+    "research_status": {
+      "value": "Not started",
+      "at": "2026-10-05T08:19:57-04:00"
+    }
+  },
+  "exported": {},
+  "ats": {
+    "type": "greenhouse",
+    "token": "jetbrains",
+    "board_url": "https://job-boards.greenhouse.io/jetbrains",
+    "detected_by": "search",
+    "checked_at": "2026-10-05",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; JetBrains",
+    "job_count": null
+  },
+  "triage": {
+    "fit": 4,
+    "stability": 4,
+    "remote": "Medium",
+    "size": "500-5k",
+    "roles": [
+      "SDET",
+      "Senior QA Engineer",
+      "Developer Advocate"
+    ],
+    "approach": "VP Engineering",
+    "why": ".NET/Rider/TeamCity expertise; independent profitable company; stable",
+    "flags": "Russia-founded; geopolitical uncertainty; remote policy unclear",
+    "model": "claude-haiku-4-5-20251001",
+    "at": "2026-10-05"
+  },
+  "research": {
+    "company_id": "C159",
+    "career_url": "https://www.jetbrains.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "jetbrains",
+      "board_url": "https://job-boards.greenhouse.io/jetbrains"
+    },
+    "remote_policy": {
+      "summary": "Job listing lists European locations; only remote option is Germany. No US-remote or Maine eligibility shown.",
+      "maine_eligible": "no",
+      "evidence_url": "https://job-boards.eu.greenhouse.io/jetbrains"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "JetBrains’ AI coding agent Junie released April 2025 and is gaining popularity.",
+          "date": "2025-04",
+          "url": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/"
+        },
+        {
+          "kind": "growth",
+          "summary": "JetBrains Rider named top IDE for indie developers in 2025.",
+          "date": null,
+          "url": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/"
+        },
+        {
+          "kind": "growth",
+          "summary": "JetBrains AI Assistant is a staple in developers’ toolkits.",
+          "date": null,
+          "url": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Open role for (Senior) Machine Learning Developer on Junie.",
+          "date": null,
+          "url": "https://job-boards.eu.greenhouse.io/jetbrains"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 1,
+      "rationale": "JetBrains builds IDEs (Rider for .NET) and CI/test tooling like TeamCity and Qodana, aligning with the candidate's test-tooling and .NET interests. But listings restrict remote work to Germany, so Maine residency is ineligible, and no QA openings are shown.",
+      "role_families": [
+        "SDET / test automation",
+        "developer tooling / test tooling engineering",
+        "QA engineering"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Dmitry Jemerov",
+        "title": "Head of Product",
+        "source_url": "https://dpe.org/sessions/dogfooding-developer-productivity/"
+      }
+    ],
+    "approach_role": "Head of Product",
+    "outreach_angle": "Your 15 years automating .NET testing and TeamCity-adjacent tooling could inform JetBrains' QA tooling, though only if they open US-remote or Maine-eligible roles.",
+    "red_flags": "No US-remote or Maine eligibility; remote limited to Germany. No QA postings visible; elite developer-heavy bar.",
+    "confidence": "high",
+    "sources": [
+      "https://www.jetbrains.com/careers/",
+      "https://job-boards.eu.greenhouse.io/jetbrains",
+      "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
+      "https://dpe.org/sessions/dogfooding-developer-productivity/"
+    ],
+    "notes": "Verified: JetBrains is a profitable, bootstrapped tooling vendor with growth signals (Junie AI agent, Rider recognition) and a (Senior) ML Developer opening. QA openings: none listed. Remote policy explicitly Germany-only, so Downeast Maine is not workable today; monitor for US-remote QA or tooling roles.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-05",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-05T08:19:57-04:00",
+      "stage": "ingest",
+      "changed": [
+        "created"
+      ]
+    },
+    {
+      "at": "2026-10-05T09:21:35-04:00",
+      "stage": "triage",
+      "changed": [
+        "triage"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:43-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-05T22:05:01-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    }
+  ],
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:jetbrains (linked from search results)",
+    "other": []
+  },
+  "verify_rejects": 0
+}
