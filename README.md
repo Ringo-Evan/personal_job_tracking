@@ -146,5 +146,5 @@ The script's header shows how to remove them.
    changes: the next export carries everything since the last one you ran. (Set `nightly.export: real` in
    `config.yaml` to export every night instead; then every night's files must be imported, in order.)
 
-**Without the scheduler:** `.venv\Scripts\python -m jobsearch nightly` does the same by hand (2-3 hours, most of it
-`verify`).
+**Without the scheduler:** `.venv\Scripts\python -m jobsearch nightly` does the same by hand (3-4 hours, mostly
+`watch`, about 45 minutes for 470 boards, and `verify`, up to `verify.max_minutes`).

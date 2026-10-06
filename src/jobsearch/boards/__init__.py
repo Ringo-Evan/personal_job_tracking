@@ -115,7 +115,10 @@ def _fetch_workday(client, cfg, token, company_id, wanted) -> list[JobPosting]:
         while offset < workday.MAX_PER_TERM:
             page = _json(client.post_json(f"{base}/jobs", workday.search_body(term, offset), use_cache=False))
             for item in page.get("jobPostings") or []:
-                items.setdefault(item["externalPath"], item)
+                # Now and then Workday lists a posting without its link (Insulet, FIS, Elanco on 2026-10-06). It can't
+                # be fetched, so skip it rather than fail the whole board; a later run sees it whole.
+                if item.get("externalPath"):
+                    items.setdefault(item["externalPath"], item)
             offset += workday.PAGE
             if offset >= (page.get("total") or 0):
                 break

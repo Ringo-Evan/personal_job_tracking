@@ -3,7 +3,9 @@
 No real stage ever runs here: a fake runner records the commands instead.
 """
 
+import re
 import subprocess
+from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
@@ -34,6 +36,14 @@ def test_stage_order_and_export_mode(cfg):
     cfg.nightly.discover_limit = 0
     assert "discover" not in names(cfg)
     assert names(cfg, watch_only=True) == ["watch", "rank"]
+
+
+def test_scheduled_task_outlasts_every_stage_limit(cfg):
+    # A slow night must still reach the report before Task Scheduler stops the run.
+    script = (Path(__file__).parents[1] / "tools" / "register_tasks.ps1").read_text(encoding="utf-8")
+    hours = int(re.search(r"-ExecutionTimeLimit \(New-TimeSpan -Hours (\d+)\)", script).group(1))
+    cfg.verify.max_minutes = 120  # the owner's setting
+    assert sum(s.timeout_s for s in stages(cfg)) < hours * 3600
 
 
 class Runner:

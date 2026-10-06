@@ -18,8 +18,10 @@ $repo = Split-Path -Parent $PSScriptRoot
 $python = Join-Path $repo ".venv\Scripts\pythonw.exe"  # pythonw: no console window popping up at night
 if (-not (Test-Path $python)) { throw "No virtualenv at $python; see Setup in README.md." }
 
+# The time limit must stay above the sum of the stages' own limits (tests/test_nightly.py checks), so a slow night
+# still gets to the report. A normal night takes 3-4 hours.
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
-    -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 6)
+    -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 10)
 
 $nightly = New-ScheduledTaskAction -Execute $python -Argument "-m jobsearch nightly" -WorkingDirectory $repo
 Register-ScheduledTask -TaskName "jobsearch-nightly" -Action $nightly -Settings $settings `

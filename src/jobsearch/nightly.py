@@ -69,14 +69,17 @@ class Stage:
     timeout_s: int = 3600
 
 
+WATCH = Stage("watch", ("watch", "--quiet"), timeout_s=2 * 3600)  # 45 minutes for 472 boards on 2026-10-06
+
+
 def stages(cfg: Config, watch_only: bool = False) -> list[Stage]:
     if watch_only:
-        return [Stage("watch", ("watch", "--quiet")), Stage("rank", ("rank",))]
+        return [WATCH, Stage("rank", ("rank",))]
     out = [Stage("ingest", ("ingest",), timeout_s=600), Stage("detect", ("detect",))]
     if cfg.nightly.discover_limit:
         out.append(Stage("discover", ("discover", "--limit", str(cfg.nightly.discover_limit)), needs_search=True))
     return out + [
-        Stage("watch", ("watch", "--quiet")),
+        WATCH,
         Stage("triage", ("triage",)),
         Stage("verify", ("verify",), needs_search=True, timeout_s=cfg.verify.max_minutes * 60 + 900),
         Stage("rank", ("rank",)),

@@ -225,6 +225,21 @@ def test_fetch_workday_searches_each_term_and_only_details_wanted_titles(make_cl
     assert [m for m, _ in seen].count("GET") == 1
 
 
+def test_fetch_workday_skips_a_listed_posting_without_its_link(make_client, cfg):
+    cfg.watch.workday_enabled = True
+    cfg.watch.workday_terms = ["quality"]
+    listed = [{"title": "QA Lead", "bulletFields": ["R9"]},  # no externalPath: KeyError took the board down before
+              {"title": "QA Manager", "externalPath": "/job/Remote-USA/QA-Manager_R1", "bulletFields": ["R1"]}]  # fmt: skip
+
+    def handler(request):
+        if request.method == "POST":
+            return httpx.Response(200, json={"total": 2, "jobPostings": listed})
+        return httpx.Response(200, json={"jobPostingInfo": {"title": "QA Manager", "location": "Remote - USA"}})
+
+    ps = fetch_postings(make_client(handler), cfg, "workday", "acme|5|External", "C1", wanted=lambda t: True)
+    assert [p.board_job_id for p in ps] == ["R1"]
+
+
 def test_fetch_workday_disabled_returns_nothing(make_client, cfg):
     cfg.watch.workday_enabled = False
     assert fetch_postings(make_client(lambda r: httpx.Response(500)), cfg, "workday", "a|1|b", "C1") == []
