@@ -8,6 +8,7 @@ from typing import Any
 
 from jobsearch.boards import BoardError, JobPosting, fetch_postings
 from jobsearch.config import Config
+from jobsearch.detect import SUPPORTED
 from jobsearch.filters import PostingFilter, track_for
 from jobsearch.http_client import PoliteClient
 from jobsearch.models import is_skipped
@@ -68,7 +69,7 @@ def watchable(record: dict[str, Any], cfg: Config) -> bool:
         return cfg.watch.workday_enabled and ats.get("confirmed") is not False
     if ats.get("type") == "smartrecruiters":
         return ats.get("confirmed") is not False  # zero postings can't be told apart from a bad token
-    return ats.get("type") in ("greenhouse", "lever", "ashby") and ats.get("confirmed") is True
+    return ats.get("type") in SUPPORTED and ats.get("confirmed") is True
 
 
 class JobStore:

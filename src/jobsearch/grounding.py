@@ -19,7 +19,10 @@ MAX_FAIL_RATE = 0.30
 MIN_PACK_CHARS_FOR_FACTS = 2000  # a pack this big should yield at least one grounded fact
 QUOTE_WORDS = 25
 MAX_PEOPLE = 5
-ATS_TYPES = ["greenhouse", "lever", "ashby", "smartrecruiters", "workday", "other", "unknown"]
+ATS_TYPES = [
+    "greenhouse", "lever", "ashby", "smartrecruiters", "workday", "workable", "rippling", "breezy", "pinpoint",
+    "recruitee", "other", "unknown",
+]  # fmt: skip
 SIGNAL_KINDS = ["layoffs", "funding", "revenue", "acquisition", "growth", "public-sector", "other"]
 SIZES = ["<50", "50-500", "500-5k", "5k+", "Unknown"]
 WORK_MODES = ["Remote", "Hybrid", "On-site", "Unknown"]
@@ -129,7 +132,7 @@ class Grounded:
 
 JOBS_URL_RE = re.compile(
     r"(?i)career|jobs?\b|/join|work-with|hiring|opportunit|openings|greenhouse\.io|lever\.co|ashbyhq\.com|"
-    r"smartrecruiters\.com|myworkdayjobs\.com"
+    r"smartrecruiters\.com|myworkdayjobs\.com|workable\.com|rippling\.com|breezy\.hr|pinpointhq\.com|recruitee\.com"
 )
 
 

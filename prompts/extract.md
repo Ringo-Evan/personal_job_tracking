@@ -15,8 +15,9 @@ Rules for every fact:
 Facts to extract:
 - career_url: the employer's official careers or jobs page URL, as it appears in the pack (a source URL or a
   link written in the text).
-- ats: the job-board system hosting their openings (greenhouse, lever, ashby, smartrecruiters, workday, other)
-  and its board token if a board URL shows it (for example job-boards.greenhouse.io/<token>). null if unknown.
+- ats: the job-board system hosting their openings (greenhouse, lever, ashby, smartrecruiters, workday, workable,
+  rippling, breezy, pinpoint, recruitee, other) and its board token if a board URL shows it (for example
+  job-boards.greenhouse.io/<token>, apply.workable.com/<token>, <token>.breezy.hr). null if unknown.
 - remote_policy: their remote-work policy in 40 words or fewer, and maine_eligible: "yes" if US-remote roles are
   open to Maine residents (remote anywhere in the US, or Maine listed), "no" if remote is limited to states that
   exclude Maine or they require on-site work elsewhere, "varies" if it depends on the role, "unknown" otherwise.

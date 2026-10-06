@@ -12,6 +12,7 @@ dependencies = [
     "typer>=0.12",
     "python-dotenv>=1.0",
     "litellm>=1.50",
+    "markdown-it-py>=3.0",  # the HTML copy of the daily report
 ]
 
 [project.optional-dependencies]

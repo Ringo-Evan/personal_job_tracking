@@ -98,7 +98,10 @@ class _F(BaseModel):
 
 
 class ResearchAts(_F):
-    type: Literal["greenhouse", "lever", "ashby", "smartrecruiters", "workday", "other", "none", "unknown"]
+    type: Literal[
+        "greenhouse", "lever", "ashby", "smartrecruiters", "workday", "workable", "rippling", "breezy", "pinpoint",
+        "recruitee", "other", "none", "unknown",
+    ]  # fmt: skip
     token: str | None = None
     board_url: Url | None = None
 

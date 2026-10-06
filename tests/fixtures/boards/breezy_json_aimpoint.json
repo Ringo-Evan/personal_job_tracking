@@ -1,0 +1,182 @@
+[
+ {
+  "id": "c0a25d121e98",
+  "friendly_id": "c0a25d121e98-ai-strategist-2026-us-col",
+  "name": "AI Strategist 2026- US, COL",
+  "url": "https://aimpoint-digital.breezy.hr/p/c0a25d121e98-ai-strategist-2026-us-col",
+  "published_date": "2026-08-28T21:15:05.015Z",
+  "type": {
+   "id": "fullTime",
+   "name": "Full-Time"
+  },
+  "location": {
+   "country": {
+    "name": "United States",
+    "id": "US"
+   },
+   "primary": true,
+   "is_remote": true,
+   "remote_details": {
+    "value": "remote-location",
+    "label": "Fully remote, within chosen location(s)"
+   },
+   "name": "United States",
+   "id": "ef421daa7c5b"
+  },
+  "department": "Analytics Strategy",
+  "salary": "",
+  "company": {
+   "name": "Aimpoint Digital",
+   "logo_url": null,
+   "friendly_id": "aimpoint-digital",
+   "isMultipleLocationsEnabled": true
+  },
+  "locations": [
+   {
+    "country": {
+     "name": "United States",
+     "id": "US"
+    },
+    "primary": true,
+    "is_remote": true,
+    "remote_details": {
+     "value": "remote-location",
+     "label": "Fully remote, within chosen location(s)"
+    },
+    "name": "United States",
+    "id": "ef421daa7c5b"
+   },
+   {
+    "country": {
+     "name": "Colombia",
+     "id": "CO"
+    },
+    "primary": false,
+    "is_remote": true,
+    "remote_details": {
+     "value": "remote-location",
+     "label": "Fully remote, within chosen location(s)"
+    },
+    "name": "Colombia",
+    "id": "cb5c8228eca4"
+   }
+  ]
+ },
+ {
+  "id": "264f72c21aac",
+  "friendly_id": "264f72c21aac-client-director-2026-us",
+  "name": "Client Director 2026- US",
+  "url": "https://aimpoint-digital.breezy.hr/p/264f72c21aac-client-director-2026-us",
+  "published_date": "2026-08-04T15:53:44.111Z",
+  "type": {
+   "id": "fullTime",
+   "name": "Full-Time"
+  },
+  "location": {
+   "country": {
+    "name": "United States",
+    "id": "US"
+   },
+   "state": {
+    "id": "GA",
+    "name": "Georgia"
+   },
+   "city": "Atlanta",
+   "primary": true,
+   "is_remote": true,
+   "remote_details": {
+    "value": "remote",
+    "label": "Fully remote, no location restrictions"
+   },
+   "name": "Atlanta, GA",
+   "id": "7dae3910d773"
+  },
+  "department": "Internal Operations",
+  "salary": "",
+  "company": {
+   "name": "Aimpoint Digital",
+   "logo_url": null,
+   "friendly_id": "aimpoint-digital",
+   "isMultipleLocationsEnabled": true
+  },
+  "locations": [
+   {
+    "country": {
+     "name": "United States",
+     "id": "US"
+    },
+    "state": {
+     "id": "GA",
+     "name": "Georgia"
+    },
+    "city": "Atlanta",
+    "primary": true,
+    "is_remote": true,
+    "remote_details": {
+     "value": "remote",
+     "label": "Fully remote, no location restrictions"
+    },
+    "name": "Atlanta, GA",
+    "id": "7dae3910d773"
+   }
+  ]
+ },
+ {
+  "id": "93ef14f01475",
+  "friendly_id": "93ef14f01475-databricks-sales-director-us",
+  "name": "Databricks Sales Director, US",
+  "url": "https://aimpoint-digital.breezy.hr/p/93ef14f01475-databricks-sales-director-us",
+  "published_date": "2026-09-22T19:57:38.756Z",
+  "type": {
+   "id": "fullTime",
+   "name": "Full-Time"
+  },
+  "location": {
+   "country": {
+    "name": "United States",
+    "id": "US"
+   },
+   "state": {
+    "id": "GA",
+    "name": "Georgia"
+   },
+   "city": "Atlanta",
+   "primary": true,
+   "is_remote": true,
+   "remote_details": {
+    "value": "remote-location",
+    "label": "Fully remote, within chosen location(s)"
+   },
+   "name": "Atlanta, GA"
+  },
+  "department": "Internal Operations",
+  "salary": "",
+  "company": {
+   "name": "Aimpoint Digital",
+   "logo_url": null,
+   "friendly_id": "aimpoint-digital",
+   "isMultipleLocationsEnabled": true
+  },
+  "locations": [
+   {
+    "country": {
+     "name": "United States",
+     "id": "US"
+    },
+    "state": {
+     "id": "GA",
+     "name": "Georgia"
+    },
+    "city": "Atlanta",
+    "primary": true,
+    "is_remote": true,
+    "remote_details": {
+     "value": "remote-location",
+     "label": "Fully remote, within chosen location(s)"
+    },
+    "name": "Atlanta, GA",
+    "id": "095a1a15fa1e"
+   }
+  ]
+ }
+]

@@ -104,6 +104,20 @@ def name_matches(board_name: str, company: str) -> bool:
     return bool(a) and a == b
 
 
+# Newer boards whose API reports the company's name (detect._confirm_newer puts it in the note).
+NAMED_BOARDS = ("workable", "rippling", "breezy", "recruitee")
+
+
+def board_name_ok(board_name: str, company: str) -> bool:
+    """For the newer boards: the board names this company exactly (name_matches), or by a longer legal name that starts
+    with the same word and holds all of the company's distinctive words: 'Leupold + Stevens, Inc.' is 'Leupold', but
+    'Clever Benefits' is not 'Clever Real Estate'."""
+    if name_matches(board_name, company):
+        return True
+    a, b = _distinctive(board_name), _distinctive(search_name(company))
+    return bool(a and b) and a[0] == b[0] and set(b) <= set(a)
+
+
 _COUNTRY_SLD = re.compile(r"\.(?:com|co|org|net|gov|ac)\.[a-z]{2}$")
 
 
@@ -203,19 +217,29 @@ def discover_company(
     company = t.get("company") or ""
     source = t.get("career_url") or None
     info: dict[str, Any] = {"at": today, "results": len(results), "careers_page": None, "found": None, "other": []}
+    rejected = rejected_boards(record)
+    if rejected:
+        info["rejected"] = sorted(rejected)  # kept across searches
 
     def adopt(c: Candidate, how: str, note: str, job_count) -> Discovery:
         info["found"] = f"{c.type}:{c.token} ({how})"
         ats = _ats(c.type, c.token, "search", today, source, True, f"{how}; {note}".strip("; "), job_count)
         return Discovery(ats, info)
 
+    def ruled_out(c: Candidate) -> bool:
+        return board_key(c.type, c.token) in rejected
+
     tried: set[Candidate] = set()
     for c in board_candidates(results, company):
+        if c in tried or ruled_out(c):
+            continue
         tried.add(c)
         conf = confirm(client, c, cfg)
         if not conf.confirmed:
             continue
         if c.type == "greenhouse" and conf.note and not name_matches(conf.note, company):
+            continue
+        if c.type in NAMED_BOARDS and conf.note and not board_name_ok(conf.note, company):
             continue
         return adopt(c, "linked from search results", conf.note, conf.job_count)
 
@@ -226,13 +250,14 @@ def discover_company(
         scanned = detect_company({**record, "tracker": {**t, "career_url": page}}, client, cfg, today).ats
         if scanned and scanned.get("confirmed") and scanned.get("type") in SUPPORTED:
             c = Candidate(scanned["type"], scanned["token"])
-            return adopt(c, f"embedded in {page}", scanned.get("note") or "", scanned.get("job_count"))
+            if not ruled_out(c):
+                return adopt(c, f"embedded in {page}", scanned.get("note") or "", scanned.get("job_count"))
         if scanned and scanned.get("note") and scanned.get("type") == "other":
             info["careers_page_note"] = scanned["note"][:200]
 
     for token in guess_tokens(company, source or page or ""):
         c = Candidate("greenhouse", token)
-        if c in tried:
+        if c in tried or ruled_out(c):
             continue
         tried.add(c)
         conf = confirm(client, c, cfg)
@@ -242,13 +267,69 @@ def discover_company(
     if len(joined) >= 5:
         for type_ in NAME_GUESS_TYPES:
             c = Candidate(type_, joined)
-            if c in tried:
+            if c in tried or ruled_out(c):
                 continue
             tried.add(c)
             conf = confirm(client, c, cfg)
             if conf.confirmed and conf.job_count and _postings_mention(client, c, company):
                 return adopt(c, f"{type_} token guessed from name", "postings name the company", conf.job_count)
     return Discovery(None, info)
+
+
+def board_key(ats_type: str, token: str) -> str:
+    return f"{ats_type}:{token}".lower()
+
+
+def rejected_boards(record: dict[str, Any]) -> set[str]:
+    """Boards ruled out for this company ('type:token', e.g. a namesake found by an audit). Never adopted again."""
+    return {str(x).lower() for x in (record.get("discovery") or {}).get("rejected") or []}
+
+
+def reject_board(record: dict[str, Any], board: str) -> bool:
+    """Rule out a board for this company. If it is the current board, clear it so detect starts over from the
+    tracker's careers URL; returns True in that case."""
+    rejected = rejected_boards(record) | {board.lower()}
+    info = record["discovery"] = record.get("discovery") or {}
+    info["rejected"] = sorted(rejected)
+    ats = record.get("ats") or {}
+    if ats.get("token") and board_key(ats.get("type", ""), ats["token"]) == board.lower():
+        record["ats"] = None
+        return True
+    return False
+
+
+def stored_board_candidates(record: dict[str, Any]) -> list[Candidate]:
+    """Supported boards among the links an earlier search noted as unsupported (record['discovery']['other'])."""
+    out: list[Candidate] = []
+    for entry in (record.get("discovery") or {}).get("other") or []:
+        for c in find_candidates(entry.partition(" ")[2]):
+            if c.type in SUPPORTED and c not in out:
+                out.append(c)
+    return out
+
+
+def promote_stored(record: dict[str, Any], client: PoliteClient, cfg: Config, today: str) -> dict[str, Any] | None:
+    """The ats record for the best board an earlier search noted on a system that wasn't supported then (no web
+    search). Of several confirmed boards, the one with the most postings wins: Coforma left Workable for Pinpoint."""
+    company = record["tracker"].get("company") or ""
+    rejected = rejected_boards(record)
+    best = None
+    for c in stored_board_candidates(record):
+        if board_key(c.type, c.token) in rejected:
+            continue
+        conf = confirm(client, c, cfg)
+        if not conf.confirmed:
+            continue
+        if c.type in NAMED_BOARDS and conf.note and not board_name_ok(conf.note, company):
+            continue
+        if best is None or (conf.job_count or 0) > (best[1].job_count or 0):
+            best = (c, conf)
+    if best is None:
+        return None
+    c, conf = best
+    note = "noted by an earlier search; board system now supported" + (f"; board name {conf.note}" if conf.note else "")
+    return _ats(c.type, c.token, "search", today, record["tracker"].get("career_url") or None, True, note,
+                conf.job_count)  # fmt: skip
 
 
 def needs_discovery(record: dict[str, Any], today: date, recheck_days: int, force: bool = False) -> bool:

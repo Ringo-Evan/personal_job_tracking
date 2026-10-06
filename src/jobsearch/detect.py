@@ -11,11 +11,17 @@ from urllib.parse import quote, unquote, urljoin, urlsplit
 
 import httpx
 
+from jobsearch.boards import breezy, pinpoint, recruitee, rippling, workable
 from jobsearch.config import Config
 from jobsearch.http_client import BlockedHostError, PoliteClient
 from jobsearch.models import is_skipped
 
-SUPPORTED = ("greenhouse", "lever", "ashby", "smartrecruiters", "workday")
+SUPPORTED = (
+    "greenhouse", "lever", "ashby", "smartrecruiters", "workday", "workable", "rippling", "breezy", "pinpoint",
+    "recruitee",
+)  # fmt: skip
+# Boards whose token is a subdomain or a lowercase slug, so case never matters.
+_LOWERCASE_TOKENS = ("greenhouse", "lever", "workable", "breezy", "pinpoint", "recruitee")
 
 
 @dataclass(frozen=True)
@@ -40,6 +46,13 @@ def board_url(ats_type: str, token: str) -> str:
     if ats_type == "workday":
         tenant, n, site = token.split("|")
         return f"https://{tenant}.wd{n}.myworkdayjobs.com/{site}"
+    if ats_type == "workable":
+        return f"https://apply.workable.com/{quote(token)}/"
+    if ats_type == "rippling":
+        return f"https://ats.rippling.com/{quote(token)}/jobs"
+    if ats_type in ("breezy", "pinpoint", "recruitee"):
+        domain = {"breezy": "breezy.hr", "pinpoint": "pinpointhq.com", "recruitee": "recruitee.com"}[ats_type]
+        return f"https://{token}.{domain}/"
     raise ValueError(ats_type)
 
 
@@ -50,7 +63,12 @@ _TOK = r"([A-Za-z0-9][A-Za-z0-9_.%-]*)"
 _NOT_TOKENS = {
     "embed", "v1", "boards", "jobs", "job_board", "js", "api", "static", "assets", "favicon.ico",
     "posting-api", "cdn", "careers", "postings", "wday", "cxs", "en-us", "javascripts", "stylesheets",
+    # board systems' own subdomains and paths: apply.workable.com/j/<job>, www.breezy.hr, app.pinpointhq.com, ...
+    "j", "www", "app", "apply", "help", "support", "docs", "blog", "status", "developers", "developer",
+    "marketplace", "resources", "workable", "breezy", "pinpoint", "recruitee", "rippling",
 }  # fmt: skip
+# A hostname label that begins a board's subdomain: acme in https://acme.breezy.hr/.
+_SUB = r"(?<![\w-])([A-Za-z0-9][A-Za-z0-9-]*)"
 
 PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("greenhouse", re.compile(
@@ -66,6 +84,14 @@ PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("ashby", re.compile(r"api\.ashbyhq\.com/posting-api/job-board/" + _TOK, re.I)),
     ("smartrecruiters", re.compile(r"(?:careers|jobs)\.smartrecruiters\.com/" + _TOK, re.I)),
     ("smartrecruiters", re.compile(r"api\.smartrecruiters\.com/v1/companies/" + _TOK, re.I)),
+    ("workable", re.compile(r"apply\.workable\.com/api/v\d+/(?:widget/)?accounts/" + _TOK, re.I)),
+    ("workable", re.compile(r"apply\.workable\.com/" + _TOK, re.I)),
+    ("workable", re.compile(_SUB + r"\.workable\.com\b", re.I)),
+    ("rippling", re.compile(r"api\.rippling\.com/platform/api/ats/v\d+/board/" + _TOK, re.I)),
+    ("rippling", re.compile(r"ats\.rippling\.com/(?:[a-z]{2}-[A-Za-z]{2}/)?" + _TOK, re.I)),
+    ("breezy", re.compile(_SUB + r"\.breezy\.hr\b", re.I)),
+    ("pinpoint", re.compile(_SUB + r"\.pinpointhq\.com\b", re.I)),
+    ("recruitee", re.compile(_SUB + r"\.recruitee\.com\b", re.I)),
     (
         "workday",
         re.compile(
@@ -80,12 +106,9 @@ OTHER_ATS: list[tuple[str, re.Pattern[str]]] = [
     (name, re.compile(pattern, re.I))
     for name, pattern in [
         ("icims", r"\.icims\.com"),
-        ("workable", r"apply\.workable\.com|\.workable\.com/"),
         ("jobvite", r"jobs\.jobvite\.com|\.jobvite\.com"),
         ("bamboohr", r"\.bamboohr\.com/(?:careers|jobs)"),
-        ("recruitee", r"\.recruitee\.com"),
         ("teamtailor", r"\.teamtailor\.com"),
-        ("breezy", r"\.breezy\.hr"),
         ("jazzhr", r"\.applytojob\.com"),
         ("paylocity", r"recruiting\.paylocity\.com"),
         ("ukg", r"recruiting\d*\.ultipro\.com|\.ukg\.net"),
@@ -93,9 +116,7 @@ OTHER_ATS: list[tuple[str, re.Pattern[str]]] = [
         ("taleo", r"\.taleo\.net"),
         ("successfactors", r"successfactors\.(?:com|eu)|jobs\.sap\.com"),
         ("oracle", r"\.oraclecloud\.com/hcmUI/CandidateExperience"),
-        ("rippling", r"ats\.rippling\.com"),
         ("dayforce", r"jobs\.dayforcehcm\.com"),
-        ("pinpoint", r"\.pinpointhq\.com"),
         ("dover", r"app\.dover\.com/jobs"),
         ("gem", r"jobs\.gem\.com"),
         ("wellfound", r"wellfound\.com/company"),
@@ -128,8 +149,8 @@ def find_candidates(text: str) -> list[Candidate]:
                 token = _clean_token(ats_type, m.group(1))
                 if token is None:
                     continue
-                if ats_type in ("greenhouse", "lever"):
-                    token = token.lower()  # both treat board tokens case-insensitively
+                if ats_type in _LOWERCASE_TOKENS:
+                    token = token.lower()
             hits.append((m.start(), Candidate(ats_type, token)))
     seen: set[tuple[str, str]] = set()
     out = []
@@ -168,8 +189,12 @@ def hinted_types(text: str) -> list[str]:
     return [t for t, p in HINTS.items() if p.search(text or "")]
 
 
+_DOTTED_ACRONYM = re.compile(r"\b(?:[a-z]\.){2,}")  # "u.s." in "U.S. Digital Response" is the word "us"
+
+
 def _words(s: str) -> list[str]:
-    return [w for w in re.findall(r"[a-z0-9]+", s.lower()) if w not in _NAME_NOISE]
+    s = _DOTTED_ACRONYM.sub(lambda m: m.group(0).replace(".", "") + " ", s.lower())
+    return [w for w in re.findall(r"[a-z0-9]+", s) if w not in _NAME_NOISE]
 
 
 def guess_tokens(company: str, career_url: str) -> list[str]:
@@ -286,7 +311,43 @@ def _confirm(client: PoliteClient, c: Candidate, cfg: Config) -> Confirmation:
         if r.status in (404, 422):
             return Confirmation(False, f"workday site not found ({r.status})")
         return Confirmation(True, job_count=r.json().get("total")) if r.ok else _http_fail(r.status)
+    if c.type in ("workable", "rippling", "breezy", "pinpoint", "recruitee"):
+        return _confirm_newer(client, c)
     raise ValueError(f"unsupported type {c.type}")
+
+
+def _confirm_newer(client: PoliteClient, c: Candidate) -> Confirmation:
+    """Workable, Rippling, Breezy, Pinpoint and Recruitee all answer 404 for a board that doesn't exist (checked
+    2026-10-06). The note carries the company name the board reports, when it reports one, for namesake checks."""
+    url = {
+        "workable": lambda t: workable.api_url(t, details=False),
+        "rippling": rippling.api_url,
+        "breezy": breezy.api_url,
+        "pinpoint": pinpoint.api_url,
+        "recruitee": recruitee.api_url,
+    }[c.type](c.token)
+    r = client.get(url)
+    if r.status == 404:
+        return Confirmation(False, f"{c.type} board not found")
+    if not r.ok:
+        return _http_fail(r.status)
+    data = r.json()
+    if c.type == "workable":
+        return Confirmation(True, data.get("name") or "", len(data.get("jobs") or []))
+    if c.type == "rippling":
+        jobs = rippling.group(data)
+        name = ""
+        if jobs:  # the list doesn't name the company; one job's detail does
+            d = client.get(rippling.detail_url(c.token, next(iter(jobs))))
+            name = (d.json().get("companyName") or "") if d.ok else ""
+        return Confirmation(True, name, len(jobs))
+    if c.type == "breezy":
+        names = [(j.get("company") or {}).get("name") for j in data if isinstance(j, dict)]
+        return Confirmation(True, next((n for n in names if n), ""), len(data))
+    if c.type == "recruitee":
+        offers = data.get("offers") or []
+        return Confirmation(True, next((o["company_name"] for o in offers if o.get("company_name")), ""), len(offers))
+    return Confirmation(True, job_count=len(data.get("data") or []))
 
 
 def _http_fail(status: int) -> Confirmation:

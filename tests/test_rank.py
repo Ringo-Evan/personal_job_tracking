@@ -229,9 +229,11 @@ def test_digest_ranks_new_jobs(rcfg, store, tmp_path):
     save(store, job("j-weak", title="Process Automation Associate", first_exported=TODAY,
                     score=GOOD | {"skill_match": 2}))  # fmt: skip
     save(store, job("j-strong", title="Lead SDET", company_id="C2", first_exported=TODAY, score=GOOD))
-    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl")
-    assert md.index("Lead SDET") < md.index("Process Automation Associate")
-    assert "| Rank | Skill | Co. fit |" in md
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out")
+    new = md.split("## New since the last report (2)")[1]
+    assert new.index("Lead SDET") < new.index("Process Automation Associate")
+    assert "| Priority | Skill | Co. fit |" in new
+    assert "### 1. Lead SDET, Acme" in md.split("## Apply next (1)")[1]  # skill 2 isn't shortlisted
 
 
 def test_companies_with_a_matching_open_job_jump_the_verify_queue(store):

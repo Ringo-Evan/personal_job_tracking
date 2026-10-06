@@ -1,0 +1,1351 @@
+{
+ "offers": [
+  {
+   "state_name": "Mazowieckie",
+   "country": "Poland",
+   "position": 93,
+   "postal_code": "02-001",
+   "state_code": "14",
+   "cover_image": null,
+   "locations_question": "What is your preferred work location?",
+   "title": "QA Lead",
+   "salary": {
+    "max": "28000",
+    "min": "20000",
+    "period": "month",
+    "currency": "PLN"
+   },
+   "category_code": "information_technology",
+   "min_hours_per_week": "40",
+   "options_phone": "required",
+   "employment_type_code": "fulltime_permanent",
+   "options_photo": "off",
+   "highlight": null,
+   "country_code": "PL",
+   "department": "QA Engineering",
+   "education_code": "bachelor_degree",
+   "guid": "gkm85",
+   "updated_at": "2026-09-24 14:01:56 UTC",
+   "min_hours": 40,
+   "city": "Warsaw",
+   "mailbox_email": "job.gkm85@intent.recruitee.com",
+   "sharing_image": null,
+   "on_site": false,
+   "hybrid": false,
+   "options_cv": "required",
+   "created_at": "2025-10-15 09:23:32 UTC",
+   "max_hours_per_week": "40",
+   "open_questions": [
+    {
+     "id": 3545919,
+     "position": 1,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B/gross for CoE):",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B/gross for CoE):"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545920,
+     "position": 2,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "When are you available to join us?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "When are you available to join us?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545926,
+     "position": 3,
+     "options": {},
+     "required": false,
+     "body": "In how many IoT projects (e.g., wearables, connected devices, smart sensors) have you been directly involved?",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "In how many IoT projects (e.g., wearables, connected devices, smart sensors) have you been directly involved?"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 5225140,
+       "position": 0,
+       "body": "0",
+       "translations": {
+        "en": {
+         "body": "0"
+        }
+       }
+      },
+      {
+       "id": 5225141,
+       "position": 1,
+       "body": "1-2",
+       "translations": {
+        "en": {
+         "body": "1-2"
+        }
+       }
+      },
+      {
+       "id": 5225142,
+       "position": 2,
+       "body": "3+",
+       "translations": {
+        "en": {
+         "body": "3+"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 3576189,
+     "position": 4,
+     "options": {},
+     "required": true,
+     "body": "Please describe your hands-on experience from the last 2–3 years with testing IoT or connected-device projects (specifically involving physical devices such as wearables or similar), including what the device actually did, how the app or system communicated with it (e.g., BLE, Wi-Fi, NFC), and what your responsibilities were in the testing process.",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Please describe your hands-on experience from the last 2–3 years with testing IoT or connected-device projects (specifically involving physical devices such as wearables or similar), including what the device actually did, how the app or system communicated with it (e.g., BLE, Wi-Fi, NFC), and what your responsibilities were in the testing process."
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545940,
+     "position": 5,
+     "options": {},
+     "required": true,
+     "body": "Please describe an improvement or optimization you introduced in your previous QA team that made the testing process more effective, efficient, or better organized. What problem were you solving, what exactly did you implement (e.g., process changes, tooling, documentation, automation, workflows), and what measurable impact did it have on the team’s performance?",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Please describe an improvement or optimization you introduced in your previous QA team that made the testing process more effective, efficient, or better organized. What problem were you solving, what exactly did you implement (e.g., process changes, tooling, documentation, automation, workflows), and what measurable impact did it have on the team’s performance?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545922,
+     "position": 6,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please indicate your English level:",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "Please indicate your English level:"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 5225134,
+       "position": 0,
+       "body": "A1 - Beginner/Elementary",
+       "translations": {
+        "en": {
+         "body": "A1 - Beginner/Elementary"
+        }
+       }
+      },
+      {
+       "id": 5225135,
+       "position": 1,
+       "body": "A2 - Pre Intermediate",
+       "translations": {
+        "en": {
+         "body": "A2 - Pre Intermediate"
+        }
+       }
+      },
+      {
+       "id": 5225136,
+       "position": 2,
+       "body": "B1 - Intermediate",
+       "translations": {
+        "en": {
+         "body": "B1 - Intermediate"
+        }
+       }
+      },
+      {
+       "id": 5225137,
+       "position": 3,
+       "body": "B2 - Upper Intermediate",
+       "translations": {
+        "en": {
+         "body": "B2 - Upper Intermediate"
+        }
+       }
+      },
+      {
+       "id": 5225138,
+       "position": 4,
+       "body": "C1 - Advanced",
+       "translations": {
+        "en": {
+         "body": "C1 - Advanced"
+        }
+       }
+      },
+      {
+       "id": 5225139,
+       "position": 5,
+       "body": "C2 - Proficient/Native",
+       "translations": {
+        "en": {
+         "body": "C2 - Proficient/Native"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 3545923,
+     "position": 7,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "Did someone recommend you to apply?",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Did someone recommend you to apply?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545924,
+     "position": 8,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the \nrecruitment application by intent sp. z o. o. with its registered seat \nin Warsaw for the purposes of the recruitment process in accordance with\n Regulation (EU) 2016/679 of the European Parliament and of the Council \nof 27 April 2016 on the protection of natural persons with regard to the\n processing of personal data and on the free movement of such data, and \nrepealing Directive 95/46/EC.</p>\n<ol><br /></ol>",
+     "kind": "infobox",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the \nrecruitment application by intent sp. z o. o. with its registered seat \nin Warsaw for the purposes of the recruitment process in accordance with\n Regulation (EU) 2016/679 of the European Parliament and of the Council \nof 27 April 2016 on the protection of natural persons with regard to the\n processing of personal data and on the free movement of such data, and \nrepealing Directive 95/46/EC.</p>\n<ol><br /></ol>"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3545925,
+     "position": 9,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>\n\n\n\n\n\n",
+     "kind": "legal",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>\n\n\n\n\n\n"
+      }
+     },
+     "open_question_options": []
+    }
+   ],
+   "slug": "qa-lead",
+   "locations_question_type": "multiple_choice",
+   "sharing_description": "In shortWe're looking for an experienced QA Lead to take ownership of quality assurance across our mobile and IoT projects. You'll design test strategies, raise the bar on QA practices, build up the c",
+   "location": "Remote job",
+   "options_title": "off",
+   "dynamic_fields": [],
+   "sharing_title": "QA Lead",
+   "max_hours": 40,
+   "description": "<h2><strong><span style=\"color:#1A1A1A\">In short</span></strong></h2><p><span style=\"color:#000000\">We're looking for an experienced QA Lead to take ownership of quality assurance across our mobile and IoT projects. You'll design test strategies, raise the bar on QA practices, build up the chapter, and mentor a team of testers who already know what they're doing. This is a permanent role: B2B contract, monthly salary, full benefits, and you'd be reporting to the CTO on QA direction across the company.</span></p><h2><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h2><p><span style=\"color:#000000\">We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native since before LinkedIn influencers discovered the term. QA here isn't \"click through the screens\": it's mobile apps talking to firmware over BLE, sensor pipelines, edge cases that only appear at -10°C with a flat battery. The bugs are real, the stakes are real, and good QA leadership changes whether a product ships well or limps out the door.</span></p><h2><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h2><p><span style=\"color:#000000\">If your version of QA leadership is reviewing test cases and writing weekly reports, this isn't going to work. We're not hiring someone to manage a team that already runs itself. We're hiring someone who shapes how testing is done across mobile and IoT projects, decides what tooling we invest in, and pushes the whole chapter forward. If you need full specs to make a call, if \"that's not in scope\" is a sentence you use often, or if you'd rather not be the one explaining quality trade-offs to a US client at 18:30, we're probably not your people. We're AI-native and we expect you to treat AI as a daily multiplier, not a gimmick.<br><br></span></p><h2><strong><span style=\"color:#1A1A1A\">What we're looking for</span></strong></h2><ul><li><p><span style=\"color:#000000\">6+ years in software testing, ideally mobile and IoT</span></p></li><li><p><span style=\"color:#000000\">2+ years leading a QA team, with real ownership of how testing gets done</span></p></li><li><p><span style=\"color:#000000\">Hands-on with test case management (Qase, TestRail) and the Atlassian stack (Jira, Confluence)</span></p></li><li><p><span style=\"color:#000000\">Solid manual AND automated testing experience: Cypress, Appium, Postman, Robot Framework</span></p></li><li><p><span style=\"color:#000000\">Strong understanding of BLE, API testing, and cloud platforms (AWS, Firebase)</span></p></li><li><p><span style=\"color:#000000\">Excellent analytical and problem-solving skills with serious attention to detail</span></p></li><li><p><span style=\"color:#000000\">English at B2+, written and spoken, because our clients are mostly US-based</span></p></li><li><p><span style=\"color:#000000\">Leadership mindset: you grow people, you don't just review their work</span></p></li><li><p><span style=\"color:#000000\">Initiative, ownership, and the kind of communication where people don't have to guess what you meant</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h2><ul><li><p><span style=\"color:#000000\">Hardware-in-the-loop test setups</span></p></li><li><p><span style=\"color:#000000\">Experience scaling QA practices in a software house or product company</span></p></li><li><p><span style=\"color:#000000\">Working knowledge of MQTT, NFC, Wi-Fi, Thread, or similar IoT protocols</span></p></li><li><p><span style=\"color:#000000\">ISTQB Advanced or higher</span></p></li><li><p><span style=\"color:#000000\">Genuine curiosity about the devices you test, not just the screens on top of them</span></p></li></ul><p><span style=\"color:#000000\"><br></span></p><h2><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h2><ul><li><p><span style=\"color:#000000\">Plan, design, and execute comprehensive testing strategies for IoT and mobile products</span></p></li><li><p><span style=\"color:#000000\">Lead and mentor the QA team: guide test design, review approaches, run knowledge-sharing</span></p></li><li><p><span style=\"color:#000000\">Introduce modern QA tools and practices, including test automation and CI/CD integration</span></p></li><li><p><span style=\"color:#000000\">Define and track quality metrics, and continuously improve testing efficiency</span></p></li><li><p><span style=\"color:#000000\">Work directly with the CTO on QA direction across the company</span></p></li><li><p><span style=\"color:#000000\">Collaborate with developers, PMs, and clients to define acceptance criteria and coverage</span></p></li><li><p><span style=\"color:#000000\">Oversee the full range of testing: compatibility, functional, integration, E2E, automated, performance, security, regression</span></p></li><li><p><span style=\"color:#000000\">Run quality work end to end: from raw BLE signal capture all the way to cloud data validation</span></p></li><li><p><span style=\"color:#000000\">Use AI tools as part of your daily workflow, not as a party trick</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h2><p><span style=\"color:#000000\">Fully remote. We have a pet-friendly office in Warsaw and a coworking space in Gdansk if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll lead the QA chapter for the whole company, and at the same time be embedded in a project squad led by a PM for day-to-day delivery.</span></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h2><ul><li><p><span style=\"color:#000000\">20,500-28,000 PLN/month net B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">26 days of paid leave</span></p></li><li><p><span style=\"color:#000000\">10 days of paid sick leave</span></p></li><li><p><span style=\"color:#000000\">Saltus medical care</span></p></li><li><p><span style=\"color:#000000\">Self-development budget (2,000 PLN/year)</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your day</span></p></li><li><p><span style=\"color:#000000\">Fully remote, with pet-friendly Warsaw office + Gdansk cowork if you want them</span></p></li><li><p><span style=\"color:#000000\">All necessary equipment provided</span></p></li><li><p><span style=\"color:#000000\">Internal knowledge-sharing: tech talks, team sessions, library and conference budgets</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">Your first months</span></strong></h2><p><span style=\"color:#000000\">We aim to give you space to ramp up before owning the chapter direction, but this is a real company with real deadlines: if a project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy, meet the team, and start with real tasks while being guided by leadership. Monthly HR check-ins, real feedback after month two, and a proper review after month three. No one waits three months to tell you something isn't working: if it's great, you'll know; if something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h2><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h2><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions</span></p></li><li><p><span style=\"color:#000000\">HR call, ~45 min, casual</span></p></li><li><p><span style=\"color:#000000\">Short take-home task (~60 min)</span></p></li><li><p><span style=\"color:#000000\">Technical meeting, ~90 min, with the CTO</span></p></li><li><p> <span style=\"color:#000000\">Final Interview with our CEO<br></span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><h2><strong><span style=\"color:#1A1A1A\">One more thing</span></strong></h2><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV and a few words about why this caught your eye. Bonus points if you share an improvement you introduced in a previous QA team that actually moved the needle, the specifics matter more than the title.</span></p>",
+   "locations_question_required": true,
+   "careers_url": "https://intent.recruitee.com/o/qa-lead",
+   "location_question_visible": false,
+   "careers_apply_url": "https://intent.recruitee.com/o/qa-lead/c/new",
+   "options_salutation": "off",
+   "translations": {
+    "en": {
+     "description": "<h2><strong><span style=\"color:#1A1A1A\">In short</span></strong></h2><p><span style=\"color:#000000\">We're looking for an experienced QA Lead to take ownership of quality assurance across our mobile and IoT projects. You'll design test strategies, raise the bar on QA practices, build up the chapter, and mentor a team of testers who already know what they're doing. This is a permanent role: B2B contract, monthly salary, full benefits, and you'd be reporting to the CTO on QA direction across the company.</span></p><h2><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h2><p><span style=\"color:#000000\">We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native since before LinkedIn influencers discovered the term. QA here isn't \"click through the screens\": it's mobile apps talking to firmware over BLE, sensor pipelines, edge cases that only appear at -10°C with a flat battery. The bugs are real, the stakes are real, and good QA leadership changes whether a product ships well or limps out the door.</span></p><h2><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h2><p><span style=\"color:#000000\">If your version of QA leadership is reviewing test cases and writing weekly reports, this isn't going to work. We're not hiring someone to manage a team that already runs itself. We're hiring someone who shapes how testing is done across mobile and IoT projects, decides what tooling we invest in, and pushes the whole chapter forward. If you need full specs to make a call, if \"that's not in scope\" is a sentence you use often, or if you'd rather not be the one explaining quality trade-offs to a US client at 18:30, we're probably not your people. We're AI-native and we expect you to treat AI as a daily multiplier, not a gimmick.<br><br></span></p><h2><strong><span style=\"color:#1A1A1A\">What we're looking for</span></strong></h2><ul><li><p><span style=\"color:#000000\">6+ years in software testing, ideally mobile and IoT</span></p></li><li><p><span style=\"color:#000000\">2+ years leading a QA team, with real ownership of how testing gets done</span></p></li><li><p><span style=\"color:#000000\">Hands-on with test case management (Qase, TestRail) and the Atlassian stack (Jira, Confluence)</span></p></li><li><p><span style=\"color:#000000\">Solid manual AND automated testing experience: Cypress, Appium, Postman, Robot Framework</span></p></li><li><p><span style=\"color:#000000\">Strong understanding of BLE, API testing, and cloud platforms (AWS, Firebase)</span></p></li><li><p><span style=\"color:#000000\">Excellent analytical and problem-solving skills with serious attention to detail</span></p></li><li><p><span style=\"color:#000000\">English at B2+, written and spoken, because our clients are mostly US-based</span></p></li><li><p><span style=\"color:#000000\">Leadership mindset: you grow people, you don't just review their work</span></p></li><li><p><span style=\"color:#000000\">Initiative, ownership, and the kind of communication where people don't have to guess what you meant</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h2><ul><li><p><span style=\"color:#000000\">Hardware-in-the-loop test setups</span></p></li><li><p><span style=\"color:#000000\">Experience scaling QA practices in a software house or product company</span></p></li><li><p><span style=\"color:#000000\">Working knowledge of MQTT, NFC, Wi-Fi, Thread, or similar IoT protocols</span></p></li><li><p><span style=\"color:#000000\">ISTQB Advanced or higher</span></p></li><li><p><span style=\"color:#000000\">Genuine curiosity about the devices you test, not just the screens on top of them</span></p></li></ul><p><span style=\"color:#000000\"><br></span></p><h2><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h2><ul><li><p><span style=\"color:#000000\">Plan, design, and execute comprehensive testing strategies for IoT and mobile products</span></p></li><li><p><span style=\"color:#000000\">Lead and mentor the QA team: guide test design, review approaches, run knowledge-sharing</span></p></li><li><p><span style=\"color:#000000\">Introduce modern QA tools and practices, including test automation and CI/CD integration</span></p></li><li><p><span style=\"color:#000000\">Define and track quality metrics, and continuously improve testing efficiency</span></p></li><li><p><span style=\"color:#000000\">Work directly with the CTO on QA direction across the company</span></p></li><li><p><span style=\"color:#000000\">Collaborate with developers, PMs, and clients to define acceptance criteria and coverage</span></p></li><li><p><span style=\"color:#000000\">Oversee the full range of testing: compatibility, functional, integration, E2E, automated, performance, security, regression</span></p></li><li><p><span style=\"color:#000000\">Run quality work end to end: from raw BLE signal capture all the way to cloud data validation</span></p></li><li><p><span style=\"color:#000000\">Use AI tools as part of your daily workflow, not as a party trick</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h2><p><span style=\"color:#000000\">Fully remote. We have a pet-friendly office in Warsaw and a coworking space in Gdansk if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll lead the QA chapter for the whole company, and at the same time be embedded in a project squad led by a PM for day-to-day delivery.</span></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h2><ul><li><p><span style=\"color:#000000\">20,500-28,000 PLN/month net B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">26 days of paid leave</span></p></li><li><p><span style=\"color:#000000\">10 days of paid sick leave</span></p></li><li><p><span style=\"color:#000000\">Saltus medical care</span></p></li><li><p><span style=\"color:#000000\">Self-development budget (2,000 PLN/year)</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your day</span></p></li><li><p><span style=\"color:#000000\">Fully remote, with pet-friendly Warsaw office + Gdansk cowork if you want them</span></p></li><li><p><span style=\"color:#000000\">All necessary equipment provided</span></p></li><li><p><span style=\"color:#000000\">Internal knowledge-sharing: tech talks, team sessions, library and conference budgets</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">Your first months</span></strong></h2><p><span style=\"color:#000000\">We aim to give you space to ramp up before owning the chapter direction, but this is a real company with real deadlines: if a project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy, meet the team, and start with real tasks while being guided by leadership. Monthly HR check-ins, real feedback after month two, and a proper review after month three. No one waits three months to tell you something isn't working: if it's great, you'll know; if something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h2><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h2><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions</span></p></li><li><p><span style=\"color:#000000\">HR call, ~45 min, casual</span></p></li><li><p><span style=\"color:#000000\">Short take-home task (~60 min)</span></p></li><li><p><span style=\"color:#000000\">Technical meeting, ~90 min, with the CTO</span></p></li><li><p> <span style=\"color:#000000\">Final Interview with our CEO<br></span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><h2><strong><span style=\"color:#1A1A1A\">One more thing</span></strong></h2><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV and a few words about why this caught your eye. Bonus points if you share an improvement you introduced in a previous QA team that actually moved the needle, the specifics matter more than the title.</span></p>",
+     "title": "QA Lead",
+     "highlight": null,
+     "sharing_image": null,
+     "requirements": null,
+     "sharing_title": "QA Lead",
+     "sharing_description": "In shortWe're looking for an experienced QA Lead to take ownership of quality assurance across our mobile and IoT projects. You'll design test strategies, raise the bar on QA practices, build up the c",
+     "locations_question": "What is your preferred work location?"
+    }
+   },
+   "remote": true,
+   "experience_code": "experienced",
+   "id": 2310879,
+   "locations": [
+    {
+     "id": 44733,
+     "name": "ul. Aleje Jerozolimskie 93 02-001 Warszawa",
+     "state": "Mazowieckie",
+     "country": "Poland",
+     "city": "Warsaw",
+     "translations": {
+      "en": {
+       "name": "ul. Aleje Jerozolimskie 93 02-001 Warszawa",
+       "city": "Warsaw",
+       "postal_code": "02-001",
+       "street": "ul. Aleje Jerozolimskie 93",
+       "note": null
+      }
+     },
+     "country_code": "PL",
+     "postal_code": "02-001",
+     "state_code": "14",
+     "street": "ul. Aleje Jerozolimskie 93",
+     "note": null
+    }
+   ],
+   "requirements": null,
+   "close_at": null,
+   "company_name": "intent",
+   "status": "published",
+   "published_at": "2025-10-15 09:28:49 UTC",
+   "options_cover_letter": "optional",
+   "tags": []
+  },
+  {
+   "state_name": "Mazowieckie",
+   "country": "Poland",
+   "position": 4,
+   "postal_code": "02-001",
+   "state_code": "14",
+   "cover_image": null,
+   "locations_question": "What is your preferred work location?",
+   "title": "Senior QA Engineer (freelance)",
+   "salary": {
+    "max": "130",
+    "min": "90",
+    "period": null,
+    "currency": "PLN"
+   },
+   "category_code": "information_technology",
+   "min_hours_per_week": "40",
+   "options_phone": "required",
+   "employment_type_code": "fulltime_fixed_term",
+   "options_photo": "off",
+   "highlight": null,
+   "country_code": "PL",
+   "department": "QA Engineering",
+   "education_code": "bachelor_degree",
+   "guid": "r517y",
+   "updated_at": "2026-10-01 12:48:32 UTC",
+   "min_hours": 40,
+   "city": "Warsaw",
+   "mailbox_email": "job.r517y@intent.recruitee.com",
+   "sharing_image": "https://recruitee-main.s3.eu-central-1.amazonaws.com/offers/739479/normal_sharing_bdtfsahpgddf.jpg",
+   "on_site": false,
+   "hybrid": false,
+   "options_cv": "required",
+   "created_at": "2021-08-11 14:05:41 UTC",
+   "max_hours_per_week": "40",
+   "open_questions": [
+    {
+     "id": 931655,
+     "position": 1,
+     "options": {},
+     "required": true,
+     "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B):",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B):"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 931656,
+     "position": 2,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "When are you available to join us?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "When are you available to join us?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 931657,
+     "position": 3,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please indicate your English level:",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "Please indicate your English level:"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 1180873,
+       "position": 0,
+       "body": "A1 - Beginner/Elementary",
+       "translations": {
+        "en": {
+         "body": "A1 - Beginner/Elementary"
+        }
+       }
+      },
+      {
+       "id": 1180874,
+       "position": 1,
+       "body": "A2 - Pre Intermediate",
+       "translations": {
+        "en": {
+         "body": "A2 - Pre Intermediate"
+        }
+       }
+      },
+      {
+       "id": 1180875,
+       "position": 2,
+       "body": "B1 - Intermediate",
+       "translations": {
+        "en": {
+         "body": "B1 - Intermediate"
+        }
+       }
+      },
+      {
+       "id": 1180876,
+       "position": 3,
+       "body": "B2 - Upper Intermediate",
+       "translations": {
+        "en": {
+         "body": "B2 - Upper Intermediate"
+        }
+       }
+      },
+      {
+       "id": 1180877,
+       "position": 4,
+       "body": "C1 - Advanced",
+       "translations": {
+        "en": {
+         "body": "C1 - Advanced"
+        }
+       }
+      },
+      {
+       "id": 1180878,
+       "position": 5,
+       "body": "C2 - Proficient/Native",
+       "translations": {
+        "en": {
+         "body": "C2 - Proficient/Native"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 1721476,
+     "position": 4,
+     "options": {},
+     "required": true,
+     "body": "How many projects related to native mobile applications have you worked on as a QA Engineer?",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "How many projects related to native mobile applications have you worked on as a QA Engineer?"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 2345627,
+       "position": 0,
+       "body": "0",
+       "translations": {
+        "en": {
+         "body": "0"
+        }
+       }
+      },
+      {
+       "id": 2345628,
+       "position": 1,
+       "body": "1",
+       "translations": {
+        "en": {
+         "body": "1"
+        }
+       }
+      },
+      {
+       "id": 2345629,
+       "position": 2,
+       "body": "2-3",
+       "translations": {
+        "en": {
+         "body": "2-3"
+        }
+       }
+      },
+      {
+       "id": 2345630,
+       "position": 3,
+       "body": "4-5",
+       "translations": {
+        "en": {
+         "body": "4-5"
+        }
+       }
+      },
+      {
+       "id": 2345631,
+       "position": 4,
+       "body": "more than 5",
+       "translations": {
+        "en": {
+         "body": "more than 5"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 1636349,
+     "position": 5,
+     "options": {},
+     "required": true,
+     "body": "Do you have any experience with testing on IoT/connected devices related projects?",
+     "kind": "boolean",
+     "translations": {
+      "en": {
+       "body": "Do you have any experience with testing on IoT/connected devices related projects?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 3687922,
+     "position": 6,
+     "options": {},
+     "required": true,
+     "body": "Give us a brief description of an IoT project you have experience testing. What did you test exactly, what protocols, etc. ",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Give us a brief description of an IoT project you have experience testing. What did you test exactly, what protocols, etc. "
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 1076037,
+     "position": 7,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "Did someone recommend you to apply?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Did someone recommend you to apply?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 1061327,
+     "position": 8,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>",
+     "kind": "infobox",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 1061328,
+     "position": 9,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>",
+     "kind": "legal",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>"
+      }
+     },
+     "open_question_options": []
+    }
+   ],
+   "slug": "senior-qa-engineer",
+   "locations_question_type": "multiple_choice",
+   "sharing_description": "In shortIf you're a Senior QA Engineer who's tested apps that talk to physical devices, and you know that \"reproduce on my phone\" doesn't end the conversation, we want to talk. You'd join us on a free",
+   "location": "Remote job",
+   "options_title": "off",
+   "dynamic_fields": [],
+   "sharing_title": "Senior QA Engineer (freelance)",
+   "max_hours": 40,
+   "description": "<h2><strong><span style=\"color:#1A1A1A\">In short</span></strong></h2><p><span style=\"color:#000000\">If you're a Senior QA Engineer who's tested apps that talk to physical devices, and you know that \"reproduce on my phone\" doesn't end the conversation, we want to talk. You'd join us on a </span><strong><span style=\"color:#000000\">freelance, time &amp; material basis</span></strong><span style=\"color:#000000\">: you're paid for the hours you actually work on real client projects. The first three months are about figuring out if we're a good match. When things work out, and that depends on the work itself, the project pipeline, and business timing, there's a real path to our core team with a permanent contract and full benefits.</span></p><h2><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h2><p><span style=\"color:#000000\">We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native since before LinkedIn influencers discovered the term. Our QA isn't \"check the screens\": it's a mobile app talking to firmware over BLE, sometimes with a flaky signal, sometimes at the edge of battery, sometimes on a phone that decided to update overnight. The bugs are real, the details matter, and good QA changes whether a product ships well or limps out the door.</span></p><h2><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h2><p><span style=\"color:#000000\">If you like running the same test pass every sprint and closing tickets the moment the build is green, we're probably not your people. We look for QA who ask \"why\" before \"how\", challenge specs that don't add up, and dig into firmware logs when something smells off. We're AI-native and we expect you to treat AI as a daily multiplier, not a gimmick. What we expect: ownership of what you touch, straight talk when something is wrong, and the kind of curiosity that makes you actually care about the device, not just the app on top of it.</span></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">Job Requirments</span></strong></h2><ul><li><p><span style=\"color:#000000\">4+ years of professional mobile QA experience</span></p></li><li><p><span style=\"color:#000000\">Proven experience testing IoT systems: wearables, consumer devices, or connected audio (not \"I read about it once\")</span></p></li><li><p><span style=\"color:#000000\">Familiarity with IoT protocols: Bluetooth, BLE, NFC, Wi-Fi, Thread</span></p></li><li><p><span style=\"color:#000000\">Hands-on with test case management tools (TestRail, Qase) and the Atlassian stack</span></p></li><li><p><span style=\"color:#000000\">Solid QA fundamentals: test design, risk assessment, exploratory testing</span></p></li><li><p><span style=\"color:#000000\">English at B2+, written and spoken, because our clients are mostly US-based</span></p></li><li><p><span style=\"color:#000000\">Precision, curiosity, patience, and the kind of perceptiveness that catches things specs missed</span></p></li><li><p><span style=\"color:#000000\">Self-reliance, ownership, and effective time management</span></p></li><li><p><span style=\"color:#000000\">Initiative: you keep an eye on what's new in QA and bring it in when it makes sense</span></p></li><li><p><span style=\"color:#000000\">Engagement and team-play, the kind where people actually want you in the room</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h2><ul><li><p><span style=\"color:#000000\">Test automation: writing and maintaining automated checks</span></p></li><li><p><span style=\"color:#000000\">API testing (Postman preferred) and database testing</span></p></li><li><p><span style=\"color:#000000\">Web app testing and web-debugging proxy tools (Charles, Proxyman)</span></p></li><li><p><span style=\"color:#000000\">ISTQB Foundation or higher</span></p></li><li><p><span style=\"color:#000000\">Agile or Scrum experience</span></p></li><li><p><span style=\"color:#000000\">Genuine curiosity about the devices you test, not just the screens on top of them</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h2><ul><li><p><span style=\"color:#000000\">Compatibility testing: make sure devices, sensors, gateways, protocols, and platforms actually play well together</span></p></li><li><p><span style=\"color:#000000\">Functional testing: data collection, storage, processing, real-time monitoring, control, integrations</span></p></li><li><p><span style=\"color:#000000\">Performance testing: behavior under different workloads, networks, and physical conditions, finding bottlenecks and latency</span></p></li><li><p><span style=\"color:#000000\">Security testing: vulnerabilities in devices, communication protocols, transmission, storage, access, auth</span></p></li><li><p><span style=\"color:#000000\">Mentor less experienced testers, raise the bar on QA practices</span></p></li><li><p><span style=\"color:#000000\">Take part in requirement discussions and daily calls, flag inconsistencies and open issues early</span></p></li><li><p><span style=\"color:#000000\">Share knowledge inside the QA chapter and across the company</span></p></li><li><p><span style=\"color:#000000\">Use AI tools as part of your daily workflow, not as a party trick</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h2><p><span style=\"color:#000000\">Fully remote. We have a pet-friendly office in Warsaw and a coworking space in Gdansk if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll be part of the QA chapter for knowledge-sharing, and at the same time on a project squad led by a PM for day-to-day delivery.</span></p><h2><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h2><ul><li><p><span style=\"color:#000000\">90-130 PLN/h net B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your day</span></p></li><li><p><span style=\"color:#000000\">Fully remote, with pet-friendly Warsaw office + Gdansk cowork if you want them</span></p></li><li><p><span style=\"color:#000000\">Access to our internal knowledge-sharing: tech talks, experiments, side projects</span></p></li><li><p><span style=\"color:#000000\">When the first 3 months work out, and that depends on the work, the project pipeline, and business timing, there's a real path to a permanent contract with a fixed monthly salary, 26 days paid leave, 10 sick days, Saltus medical care, and a training budget</span></p></li></ul><p><span style=\"color:#000000\">No sugarcoating: during the freelance period there's no paid leave or medical benefits. Those come with the permanent contract, and we're transparent about that upfront.</span></p><h2><strong><span style=\"color:#1A1A1A\">Your first weeks</span></strong></h2><p><span style=\"color:#000000\">We aim to give you space to ramp up before jumping into live project work, but this is a real company with real deadlines: if the project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy and tackle progressively bigger tasks, so both sides can see how the collaboration feels. Feedback comes early and often, no one waits three months to tell you something isn't working. If it's great, you'll know. If something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h2><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h2><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions</span></p></li><li><p><span style=\"color:#000000\">HR call, ~45 min, casual</span></p></li><li><p><span style=\"color:#000000\">Technical meeting, ~90 min, with the QA team</span></p></li><li><p><span style=\"color:#000000\">Final feedback within a few days</span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><h2><strong><span style=\"color:#1A1A1A\">One more thing</span></strong></h2><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV and a few words about why this caught your eye. Bonus points if you share a bug you found that nobody else would have.</span></p><p style=\"min-height: 1.7em;\"></p>",
+   "locations_question_required": true,
+   "careers_url": "https://intent.recruitee.com/o/senior-qa-engineer",
+   "location_question_visible": false,
+   "careers_apply_url": "https://intent.recruitee.com/o/senior-qa-engineer/c/new",
+   "options_salutation": "off",
+   "translations": {
+    "en": {
+     "description": "<h2><strong><span style=\"color:#1A1A1A\">In short</span></strong></h2><p><span style=\"color:#000000\">If you're a Senior QA Engineer who's tested apps that talk to physical devices, and you know that \"reproduce on my phone\" doesn't end the conversation, we want to talk. You'd join us on a </span><strong><span style=\"color:#000000\">freelance, time &amp; material basis</span></strong><span style=\"color:#000000\">: you're paid for the hours you actually work on real client projects. The first three months are about figuring out if we're a good match. When things work out, and that depends on the work itself, the project pipeline, and business timing, there's a real path to our core team with a permanent contract and full benefits.</span></p><h2><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h2><p><span style=\"color:#000000\">We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native since before LinkedIn influencers discovered the term. Our QA isn't \"check the screens\": it's a mobile app talking to firmware over BLE, sometimes with a flaky signal, sometimes at the edge of battery, sometimes on a phone that decided to update overnight. The bugs are real, the details matter, and good QA changes whether a product ships well or limps out the door.</span></p><h2><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h2><p><span style=\"color:#000000\">If you like running the same test pass every sprint and closing tickets the moment the build is green, we're probably not your people. We look for QA who ask \"why\" before \"how\", challenge specs that don't add up, and dig into firmware logs when something smells off. We're AI-native and we expect you to treat AI as a daily multiplier, not a gimmick. What we expect: ownership of what you touch, straight talk when something is wrong, and the kind of curiosity that makes you actually care about the device, not just the app on top of it.</span></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">Job Requirments</span></strong></h2><ul><li><p><span style=\"color:#000000\">4+ years of professional mobile QA experience</span></p></li><li><p><span style=\"color:#000000\">Proven experience testing IoT systems: wearables, consumer devices, or connected audio (not \"I read about it once\")</span></p></li><li><p><span style=\"color:#000000\">Familiarity with IoT protocols: Bluetooth, BLE, NFC, Wi-Fi, Thread</span></p></li><li><p><span style=\"color:#000000\">Hands-on with test case management tools (TestRail, Qase) and the Atlassian stack</span></p></li><li><p><span style=\"color:#000000\">Solid QA fundamentals: test design, risk assessment, exploratory testing</span></p></li><li><p><span style=\"color:#000000\">English at B2+, written and spoken, because our clients are mostly US-based</span></p></li><li><p><span style=\"color:#000000\">Precision, curiosity, patience, and the kind of perceptiveness that catches things specs missed</span></p></li><li><p><span style=\"color:#000000\">Self-reliance, ownership, and effective time management</span></p></li><li><p><span style=\"color:#000000\">Initiative: you keep an eye on what's new in QA and bring it in when it makes sense</span></p></li><li><p><span style=\"color:#000000\">Engagement and team-play, the kind where people actually want you in the room</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h2><ul><li><p><span style=\"color:#000000\">Test automation: writing and maintaining automated checks</span></p></li><li><p><span style=\"color:#000000\">API testing (Postman preferred) and database testing</span></p></li><li><p><span style=\"color:#000000\">Web app testing and web-debugging proxy tools (Charles, Proxyman)</span></p></li><li><p><span style=\"color:#000000\">ISTQB Foundation or higher</span></p></li><li><p><span style=\"color:#000000\">Agile or Scrum experience</span></p></li><li><p><span style=\"color:#000000\">Genuine curiosity about the devices you test, not just the screens on top of them</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><h2><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h2><ul><li><p><span style=\"color:#000000\">Compatibility testing: make sure devices, sensors, gateways, protocols, and platforms actually play well together</span></p></li><li><p><span style=\"color:#000000\">Functional testing: data collection, storage, processing, real-time monitoring, control, integrations</span></p></li><li><p><span style=\"color:#000000\">Performance testing: behavior under different workloads, networks, and physical conditions, finding bottlenecks and latency</span></p></li><li><p><span style=\"color:#000000\">Security testing: vulnerabilities in devices, communication protocols, transmission, storage, access, auth</span></p></li><li><p><span style=\"color:#000000\">Mentor less experienced testers, raise the bar on QA practices</span></p></li><li><p><span style=\"color:#000000\">Take part in requirement discussions and daily calls, flag inconsistencies and open issues early</span></p></li><li><p><span style=\"color:#000000\">Share knowledge inside the QA chapter and across the company</span></p></li><li><p><span style=\"color:#000000\">Use AI tools as part of your daily workflow, not as a party trick</span></p></li></ul><h2><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h2><p><span style=\"color:#000000\">Fully remote. We have a pet-friendly office in Warsaw and a coworking space in Gdansk if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll be part of the QA chapter for knowledge-sharing, and at the same time on a project squad led by a PM for day-to-day delivery.</span></p><h2><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h2><ul><li><p><span style=\"color:#000000\">90-130 PLN/h net B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your day</span></p></li><li><p><span style=\"color:#000000\">Fully remote, with pet-friendly Warsaw office + Gdansk cowork if you want them</span></p></li><li><p><span style=\"color:#000000\">Access to our internal knowledge-sharing: tech talks, experiments, side projects</span></p></li><li><p><span style=\"color:#000000\">When the first 3 months work out, and that depends on the work, the project pipeline, and business timing, there's a real path to a permanent contract with a fixed monthly salary, 26 days paid leave, 10 sick days, Saltus medical care, and a training budget</span></p></li></ul><p><span style=\"color:#000000\">No sugarcoating: during the freelance period there's no paid leave or medical benefits. Those come with the permanent contract, and we're transparent about that upfront.</span></p><h2><strong><span style=\"color:#1A1A1A\">Your first weeks</span></strong></h2><p><span style=\"color:#000000\">We aim to give you space to ramp up before jumping into live project work, but this is a real company with real deadlines: if the project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy and tackle progressively bigger tasks, so both sides can see how the collaboration feels. Feedback comes early and often, no one waits three months to tell you something isn't working. If it's great, you'll know. If something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h2><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h2><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions</span></p></li><li><p><span style=\"color:#000000\">HR call, ~45 min, casual</span></p></li><li><p><span style=\"color:#000000\">Technical meeting, ~90 min, with the QA team</span></p></li><li><p><span style=\"color:#000000\">Final feedback within a few days</span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><h2><strong><span style=\"color:#1A1A1A\">One more thing</span></strong></h2><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV and a few words about why this caught your eye. Bonus points if you share a bug you found that nobody else would have.</span></p><p style=\"min-height: 1.7em;\"></p>",
+     "title": "Senior QA Engineer (freelance)",
+     "highlight": null,
+     "sharing_image": "https://recruitee-main.s3.eu-central-1.amazonaws.com/offers/739479/normal_sharing_bdtfsahpgddf.jpg",
+     "requirements": null,
+     "sharing_title": "Senior QA Engineer (freelance)",
+     "sharing_description": "In shortIf you're a Senior QA Engineer who's tested apps that talk to physical devices, and you know that \"reproduce on my phone\" doesn't end the conversation, we want to talk. You'd join us on a free",
+     "locations_question": "What is your preferred work location?"
+    }
+   },
+   "remote": true,
+   "experience_code": "experienced",
+   "id": 739479,
+   "locations": [
+    {
+     "id": 44729,
+     "name": "Warsaw",
+     "state": "Mazowieckie",
+     "country": "Poland",
+     "city": "Warsaw",
+     "translations": {
+      "en": {
+       "name": "Warsaw",
+       "city": "Warsaw",
+       "postal_code": "02-001",
+       "street": "Aleje Jerozolimskie 93",
+       "note": null
+      }
+     },
+     "country_code": "PL",
+     "postal_code": "02-001",
+     "state_code": "14",
+     "street": "Aleje Jerozolimskie 93",
+     "note": null
+    }
+   ],
+   "requirements": null,
+   "close_at": null,
+   "company_name": "intent",
+   "status": "published",
+   "published_at": "2025-04-08 11:31:47 UTC",
+   "options_cover_letter": "optional",
+   "tags": []
+  },
+  {
+   "state_name": "Mazowieckie",
+   "country": "Poland",
+   "position": 110,
+   "postal_code": "02-001",
+   "state_code": "14",
+   "cover_image": null,
+   "locations_question": "What is your preferred work location?",
+   "title": "Senior UI Designer",
+   "salary": {
+    "max": "23000",
+    "min": "17000",
+    "period": "month",
+    "currency": "PLN"
+   },
+   "category_code": "information_technology",
+   "min_hours_per_week": "40",
+   "options_phone": "required",
+   "employment_type_code": "fulltime_permanent",
+   "options_photo": "off",
+   "highlight": null,
+   "country_code": "PL",
+   "department": "Design",
+   "education_code": "bachelor_degree",
+   "guid": "fd31o",
+   "updated_at": "2026-09-09 15:58:00 UTC",
+   "min_hours": 40,
+   "city": "Warsaw",
+   "mailbox_email": "job.fd31o@intent.recruitee.com",
+   "sharing_image": "https://recruitee-main.s3.eu-central-1.amazonaws.com/offers/2705433/normal_sharing_g6nkc36om546.jpg",
+   "on_site": false,
+   "hybrid": false,
+   "options_cv": "required",
+   "created_at": "2026-08-10 13:08:33 UTC",
+   "max_hours_per_week": "40",
+   "open_questions": [
+    {
+     "id": 4296832,
+     "position": 1,
+     "options": {},
+     "required": true,
+     "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B):",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B):"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296833,
+     "position": 2,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "When are you available to join us?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "When are you available to join us?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296838,
+     "position": 3,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please indicate your English level:",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "Please indicate your English level:"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 6611223,
+       "position": 0,
+       "body": "A1 - Beginner/Elementary",
+       "translations": {
+        "en": {
+         "body": "A1 - Beginner/Elementary"
+        }
+       }
+      },
+      {
+       "id": 6611224,
+       "position": 1,
+       "body": "A2 - Pre Intermediate",
+       "translations": {
+        "en": {
+         "body": "A2 - Pre Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6611225,
+       "position": 2,
+       "body": "B1 - Intermediate",
+       "translations": {
+        "en": {
+         "body": "B1 - Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6611226,
+       "position": 3,
+       "body": "B2 - Upper Intermediate",
+       "translations": {
+        "en": {
+         "body": "B2 - Upper Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6611227,
+       "position": 4,
+       "body": "C1 - Advanced",
+       "translations": {
+        "en": {
+         "body": "C1 - Advanced"
+        }
+       }
+      },
+      {
+       "id": 6611228,
+       "position": 5,
+       "body": "C2 - Proficient/Native",
+       "translations": {
+        "en": {
+         "body": "C2 - Proficient/Native"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 4296835,
+     "position": 4,
+     "options": {},
+     "required": true,
+     "body": "How many commercial native mobile app projects have you meaningfully contributed to as a UI Designer\nCount only iOS or Android products where you designed a substantial part of the interface. Do not include responsive websites, small individual features, personal concepts, or recruitment assignments.",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "How many commercial native mobile app projects have you meaningfully contributed to as a UI Designer\nCount only iOS or Android products where you designed a substantial part of the interface. Do not include responsive websites, small individual features, personal concepts, or recruitment assignments."
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 6611221,
+       "position": 0,
+       "body": "0",
+       "translations": {
+        "en": {
+         "body": "0"
+        }
+       }
+      },
+      {
+       "id": 6611222,
+       "position": 1,
+       "body": "1-3",
+       "translations": {
+        "en": {
+         "body": "1-3"
+        }
+       }
+      },
+      {
+       "id": 6712849,
+       "position": 2,
+       "body": "4-6",
+       "translations": {
+        "en": {
+         "body": "4-6"
+        }
+       }
+      },
+      {
+       "id": 6712850,
+       "position": 3,
+       "body": "7+",
+       "translations": {
+        "en": {
+         "body": "7+"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 4296834,
+     "position": 5,
+     "options": {},
+     "required": true,
+     "body": "Please share a portfolio containing at least three commercial native mobile app projects. We need to see high-fidelity UI work.",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Please share a portfolio containing at least three commercial native mobile app projects. We need to see high-fidelity UI work."
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4361049,
+     "position": 6,
+     "options": {},
+     "required": true,
+     "body": "Briefly describe your mobile app experience. Which products did you work on, what was your responsibility, and did any of them reach production?",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Briefly describe your mobile app experience. Which products did you work on, what was your responsibility, and did any of them reach production?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296836,
+     "position": 7,
+     "options": {},
+     "required": true,
+     "body": "Please share a link showing an example of a design system you created or substantially contributed to. This can be a Figma file, case study, or selected screenshots if the original work is confidential.",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Please share a link showing an example of a design system you created or substantially contributed to. This can be a Figma file, case study, or selected screenshots if the original work is confidential."
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296837,
+     "position": 8,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Do you have experience with IoT/connected devices projects? If so - please tell us more:",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Do you have experience with IoT/connected devices projects? If so - please tell us more:"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4361081,
+     "position": 9,
+     "options": {},
+     "required": false,
+     "body": "If you worked with IoT/connected devices share a link to this projects",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "If you worked with IoT/connected devices share a link to this projects"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296839,
+     "position": 10,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "Did someone recommend you for the position?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Did someone recommend you for the position?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296840,
+     "position": 11,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p><ol><br /></ol>",
+     "kind": "infobox",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p><ol><br /></ol>"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4296841,
+     "position": 12,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>",
+     "kind": "legal",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>"
+      }
+     },
+     "open_question_options": []
+    }
+   ],
+   "slug": "senior-ui-designer-3",
+   "locations_question_type": "multiple_choice",
+   "sharing_description": "In shortAs our Senior UI Designer, you'll shape how people interact with real, physical devices: the app that pairs with a smart ring, the interface that controls high-end speakers, the screen that sh",
+   "location": "Remote job",
+   "options_title": "off",
+   "dynamic_fields": [],
+   "sharing_title": "Senior UI Designer",
+   "max_hours": 40,
+   "description": "<h1><strong><span style=\"color:#1A1A1A\">In short</span></strong></h1><p><span style=\"color:#1D1B20\">As our Senior UI Designer, you'll shape how people interact with real, physical devices: the app that pairs with a smart ring, the interface that controls high-end speakers, the screen that shows your heart rate live. Your designs won't end up in a drawer; you'll take them from the first client workshop all the way to production, working with international startups, scale-ups, and enterprise clients, side by side with a world-class UX team and developers who genuinely care about design. It's a permanent, full-time role: fixed monthly salary and full benefits from day one.</span></p><h1><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h1><p><span style=\"color:#1D1B20\">We've been designing and co-creating connected devices since 2008: wearables, smart audio, and health-tech hardware for clients like Oura, BOSE, and McIntosh, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and we've been AI-native since before LinkedIn influencers discovered the term. If you've ever designed a pairing flow and felt weirdly proud when the LED actually blinked, you already get why we love what we do.</span></p><h1><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h1><p class=\"isSelectedEnd\" style=\"min-height: 1.7em;\"></p><h2><strong>Who this role is NOT for</strong></h2><p>If most of your portfolio consists of websites, branding, or UX work, this probably isn’t the right role for you. We’re looking for a strong visual designer who has meaningfully contributed to at least four commercial iOS or Android apps and can turn wireframes into distinctive, polished interfaces.</p><p>This role also won’t suit someone who waits for fully defined requirements or a daily list of tickets. You should be comfortable starting from a loose brief, making sensible assumptions, and owning the visual direction from the first workshop through to production.</p><p style=\"min-height: 1.7em;\"></p><p style=\"text-align:start;min-height: 1.7em;\"></p><h1><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h1><ul><li><p>Conduct UI direction workshops that turn the client’s vision, benchmarks, and often loosely defined brand, sometimes limited to a logo, colors, and typography, into a clear direction for the product UI. Guide clients in translating and scaling their brand personality into the digital world, showing how it can come to life in a mobile app in a way that feels distinctive and engaging, while remaining accessible and easy to use.</p></li><li><p>Create design system, high-fidelity mockups, micro-animations, and prototypes for new and existing products and features, mostly native iOS and Android apps</p></li><li><p>Design interfaces where software meets hardware: pairing flows, device status, sensor data visualization</p></li><li><p>Support projects from initial design to final production, in close collaboration with developers, QA, and PMs</p></li><li><p>Help implement and develop our branding, and create graphic materials that strengthen our recognition across digital channels.</p></li><li><p>Push and experiment with new ideas, trends, and tools, and turn the good ones into team standards</p></li><li><p>Share knowledge within and outside of intent: chapter sessions, tech talks, the design community</p></li><li><p>Use AI tools as part of your daily workflow, not as a party trick.</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">What we're looking for</span></strong></h1><ul><li><p>4+ years of commercial UI design experience, including substantial hands-on work on at least four native mobile app projects. This is a mobile-first role, so web-only experience or a single mobile project won’t be sufficient.</p></li><li><p>Advanced Figma skills: design systems built on components and auto-layouts, and files other designers can actually navigate</p></li><li><p>Hands-on experience designing interfaces for IoT and connected devices (not \"I read about it once\")</p></li><li><p>A broad portfolio of visually rich work you're proud to walk us through</p></li><li><p>Solid knowledge of Apple's Human Interface Guidelines and Android platform guidelines, paired with a real passion for mobile technology</p></li><li><p>Some experience with motion and animation, not only static screens</p></li><li><p>A strong aesthetic sense and the ambition to create beautiful, useful apps, not just boring screens.</p></li><li><p>Very good English (C1), because our clients are mostly US-based</p></li><li><p>Confidence presenting designs to clients and explaining your decisions; joining pre-sales calls with potential clients doesn't scare you</p></li><li><p>Initiative, ownership, and the kind of communication where people don't have to guess what you meant.</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h1><ul><li><p>Experience designing for wearables, health-tech, or smart audio</p></li><li><p>The basics of Photoshop and Illustrator</p></li><li><p>Motion design tools: After Effects, Rive, Lottie, or similar</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h1><p><span style=\"color:#000000\">Fully remote with an office in Warsaw if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll be part of the UX/UI Design chapter for knowledge-sharing and growth, and simultaneously on a project squad led by a PM for day-to-day delivery, working alongside mobile and firmware engineers, QA, and UX designers.</span></p><h1><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h1><ul><li><p><span style=\"color:#000000\">15,500-22,000 PLN net/month on B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">26 days of paid leave</span></p></li><li><p><span style=\"color:#000000\">10 days of paid sick leave</span></p></li><li><p><span style=\"color:#000000\">Saltus medical care</span></p></li><li><p><span style=\"color:#000000\">Training budget</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your own day</span></p></li></ul><h1><strong><span style=\"color:#1A1A1A\">Your first weeks</span></strong></h1><p><span style=\"color:#000000\">We aim to give you space to ramp up before jumping into live project work, but this is a real company with real deadlines: if a project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy from the design team and take on progressively bigger tasks so both sides can see how the collaboration feels. Feedback comes early and often; no one waits three months to tell you something isn't working. We believe in fast, honest signals: if it's great, you'll know. If something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h1><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h1><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions and your portfolio</span></p></li><li><p><span style=\"color:#000000\">Portfolio review</span></p></li><li><p><span style=\"color:#000000\">HR call (~45 min, casual)</span></p></li><li><p><span style=\"color:#000000\">Technical interview (30-60 min, with the design team)</span></p></li><li><p><span style=\"color:#000000\">Final feedback</span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV, your portfolio, and a few words about why this caught your eye. Bonus points if you point us to the project you're most proud of and tell us why.</span></p><p style=\"min-height: 1.7em;\"></p>",
+   "locations_question_required": true,
+   "careers_url": "https://intent.recruitee.com/o/senior-ui-designer-3",
+   "location_question_visible": false,
+   "careers_apply_url": "https://intent.recruitee.com/o/senior-ui-designer-3/c/new",
+   "options_salutation": "off",
+   "translations": {
+    "en": {
+     "description": "<h1><strong><span style=\"color:#1A1A1A\">In short</span></strong></h1><p><span style=\"color:#1D1B20\">As our Senior UI Designer, you'll shape how people interact with real, physical devices: the app that pairs with a smart ring, the interface that controls high-end speakers, the screen that shows your heart rate live. Your designs won't end up in a drawer; you'll take them from the first client workshop all the way to production, working with international startups, scale-ups, and enterprise clients, side by side with a world-class UX team and developers who genuinely care about design. It's a permanent, full-time role: fixed monthly salary and full benefits from day one.</span></p><h1><strong><span style=\"color:#1A1A1A\">Why intent?</span></strong></h1><p><span style=\"color:#1D1B20\">We've been designing and co-creating connected devices since 2008: wearables, smart audio, and health-tech hardware for clients like Oura, BOSE, and McIntosh, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and we've been AI-native since before LinkedIn influencers discovered the term. If you've ever designed a pairing flow and felt weirdly proud when the LED actually blinked, you already get why we love what we do.</span></p><h1><strong><span style=\"color:#1A1A1A\">Who this role is NOT for</span></strong></h1><p class=\"isSelectedEnd\" style=\"min-height: 1.7em;\"></p><h2><strong>Who this role is NOT for</strong></h2><p>If most of your portfolio consists of websites, branding, or UX work, this probably isn’t the right role for you. We’re looking for a strong visual designer who has meaningfully contributed to at least four commercial iOS or Android apps and can turn wireframes into distinctive, polished interfaces.</p><p>This role also won’t suit someone who waits for fully defined requirements or a daily list of tickets. You should be comfortable starting from a loose brief, making sensible assumptions, and owning the visual direction from the first workshop through to production.</p><p style=\"min-height: 1.7em;\"></p><p style=\"text-align:start;min-height: 1.7em;\"></p><h1><strong><span style=\"color:#1A1A1A\">What you'll do</span></strong></h1><ul><li><p>Conduct UI direction workshops that turn the client’s vision, benchmarks, and often loosely defined brand, sometimes limited to a logo, colors, and typography, into a clear direction for the product UI. Guide clients in translating and scaling their brand personality into the digital world, showing how it can come to life in a mobile app in a way that feels distinctive and engaging, while remaining accessible and easy to use.</p></li><li><p>Create design system, high-fidelity mockups, micro-animations, and prototypes for new and existing products and features, mostly native iOS and Android apps</p></li><li><p>Design interfaces where software meets hardware: pairing flows, device status, sensor data visualization</p></li><li><p>Support projects from initial design to final production, in close collaboration with developers, QA, and PMs</p></li><li><p>Help implement and develop our branding, and create graphic materials that strengthen our recognition across digital channels.</p></li><li><p>Push and experiment with new ideas, trends, and tools, and turn the good ones into team standards</p></li><li><p>Share knowledge within and outside of intent: chapter sessions, tech talks, the design community</p></li><li><p>Use AI tools as part of your daily workflow, not as a party trick.</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">What we're looking for</span></strong></h1><ul><li><p>4+ years of commercial UI design experience, including substantial hands-on work on at least four native mobile app projects. This is a mobile-first role, so web-only experience or a single mobile project won’t be sufficient.</p></li><li><p>Advanced Figma skills: design systems built on components and auto-layouts, and files other designers can actually navigate</p></li><li><p>Hands-on experience designing interfaces for IoT and connected devices (not \"I read about it once\")</p></li><li><p>A broad portfolio of visually rich work you're proud to walk us through</p></li><li><p>Solid knowledge of Apple's Human Interface Guidelines and Android platform guidelines, paired with a real passion for mobile technology</p></li><li><p>Some experience with motion and animation, not only static screens</p></li><li><p>A strong aesthetic sense and the ambition to create beautiful, useful apps, not just boring screens.</p></li><li><p>Very good English (C1), because our clients are mostly US-based</p></li><li><p>Confidence presenting designs to clients and explaining your decisions; joining pre-sales calls with potential clients doesn't scare you</p></li><li><p>Initiative, ownership, and the kind of communication where people don't have to guess what you meant.</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">Nice to have</span></strong></h1><ul><li><p>Experience designing for wearables, health-tech, or smart audio</p></li><li><p>The basics of Photoshop and Illustrator</p></li><li><p>Motion design tools: After Effects, Rive, Lottie, or similar</p></li></ul><h1><strong><span style=\"color:#1A1A1A\">How we work</span></strong></h1><p><span style=\"color:#000000\">Fully remote with an office in Warsaw if walls and coffee machines motivate you, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. Evening calls with US-based clients (up to ~20:00) are part of the rhythm, sometimes a couple of times a week, always planned ahead. You'll be part of the UX/UI Design chapter for knowledge-sharing and growth, and simultaneously on a project squad led by a PM for day-to-day delivery, working alongside mobile and firmware engineers, QA, and UX designers.</span></p><h1><strong><span style=\"color:#1A1A1A\">What you'll get</span></strong></h1><ul><li><p><span style=\"color:#000000\">15,500-22,000 PLN net/month on B2B, depending on your experience</span></p></li><li><p><span style=\"color:#000000\">26 days of paid leave</span></p></li><li><p><span style=\"color:#000000\">10 days of paid sick leave</span></p></li><li><p><span style=\"color:#000000\">Saltus medical care</span></p></li><li><p><span style=\"color:#000000\">Training budget</span></p></li><li><p><span style=\"color:#000000\">Truly flexible hours: you organize your own day</span></p></li></ul><h1><strong><span style=\"color:#1A1A1A\">Your first weeks</span></strong></h1><p><span style=\"color:#000000\">We aim to give you space to ramp up before jumping into live project work, but this is a real company with real deadlines: if a project needs you sooner, we'll make sure you have the support to hit the ground running. You'll get paired with a buddy from the design team and take on progressively bigger tasks so both sides can see how the collaboration feels. Feedback comes early and often; no one waits three months to tell you something isn't working. We believe in fast, honest signals: if it's great, you'll know. If something needs adjusting, you'll hear about it while there's still time to adjust.</span></p><h1><strong><span style=\"color:#1A1A1A\">Recruitment process</span></strong></h1><p><span style=\"color:#000000\">The entire process is in English. All interviews are recorded for internal evaluation purposes.</span></p><ol><li><p><span style=\"color:#000000\">Application with a few screening questions and your portfolio</span></p></li><li><p><span style=\"color:#000000\">Portfolio review</span></p></li><li><p><span style=\"color:#000000\">HR call (~45 min, casual)</span></p></li><li><p><span style=\"color:#000000\">Technical interview (30-60 min, with the design team)</span></p></li><li><p><span style=\"color:#000000\">Final feedback</span></p></li></ol><p><span style=\"color:#000000\">Once we're in touch, you'll hear from us fast. We don't ghost and we don't drag.</span></p><p><span style=\"color:#000000\">intent is an equal opportunity employer. We care about what you can do, not where you come from. Send us your CV, your portfolio, and a few words about why this caught your eye. Bonus points if you point us to the project you're most proud of and tell us why.</span></p><p style=\"min-height: 1.7em;\"></p>",
+     "title": "Senior UI Designer",
+     "highlight": null,
+     "sharing_image": "https://recruitee-main.s3.eu-central-1.amazonaws.com/offers/2705433/normal_sharing_g6nkc36om546.jpg",
+     "requirements": null,
+     "sharing_title": "Senior UI Designer",
+     "sharing_description": "In shortAs our Senior UI Designer, you'll shape how people interact with real, physical devices: the app that pairs with a smart ring, the interface that controls high-end speakers, the screen that sh",
+     "locations_question": "What is your preferred work location?"
+    }
+   },
+   "remote": true,
+   "experience_code": "experienced",
+   "id": 2705433,
+   "locations": [
+    {
+     "id": 44730,
+     "name": "Warsaw",
+     "state": "Mazowieckie",
+     "country": "Poland",
+     "city": "Warsaw",
+     "translations": {
+      "en": {
+       "name": "Warsaw",
+       "city": "Warsaw",
+       "postal_code": "02-001",
+       "street": "Aleje Jerozolimskie 93",
+       "note": null
+      }
+     },
+     "country_code": "PL",
+     "postal_code": "02-001",
+     "state_code": "14",
+     "street": "Aleje Jerozolimskie 93",
+     "note": null
+    }
+   ],
+   "requirements": null,
+   "close_at": null,
+   "company_name": "intent",
+   "status": "published",
+   "published_at": "2026-08-10 13:24:44 UTC",
+   "options_cover_letter": "off",
+   "tags": []
+  },
+  {
+   "state_name": "Mazowieckie",
+   "country": "Poland",
+   "position": 109,
+   "postal_code": "02-001",
+   "state_code": "14",
+   "cover_image": null,
+   "locations_question": "What is your preferred work location?",
+   "title": "Head of HR",
+   "salary": {
+    "max": "24000",
+    "min": "16000",
+    "period": "month",
+    "currency": "PLN"
+   },
+   "category_code": "recruitment_hr",
+   "min_hours_per_week": null,
+   "options_phone": "required",
+   "employment_type_code": "freelance",
+   "options_photo": "off",
+   "highlight": null,
+   "country_code": "PL",
+   "department": "HR and Office Administration",
+   "education_code": "bachelor_degree",
+   "guid": "8g52y",
+   "updated_at": "2026-10-01 12:59:06 UTC",
+   "min_hours": null,
+   "city": "Warsaw",
+   "mailbox_email": "job.8g52y@intent.recruitee.com",
+   "sharing_image": null,
+   "on_site": false,
+   "hybrid": false,
+   "options_cv": "required",
+   "created_at": "2026-06-09 10:31:03 UTC",
+   "max_hours_per_week": null,
+   "open_questions": [
+    {
+     "id": 4180254,
+     "position": 1,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B/gross for CoE):",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Please give your monthly salary expectations in PLN (provide net amount for B2B/gross for CoE):"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180255,
+     "position": 2,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "When are you available to join us?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "When are you available to join us?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180257,
+     "position": 3,
+     "options": {
+      "length": 120
+     },
+     "required": true,
+     "body": "Please indicate your English level:",
+     "kind": "single_choice",
+     "translations": {
+      "en": {
+       "body": "Please indicate your English level:"
+      }
+     },
+     "open_question_options": [
+      {
+       "id": 6428134,
+       "position": 0,
+       "body": "A1 - Beginner/Elementary",
+       "translations": {
+        "en": {
+         "body": "A1 - Beginner/Elementary"
+        }
+       }
+      },
+      {
+       "id": 6428135,
+       "position": 1,
+       "body": "A2 - Pre Intermediate",
+       "translations": {
+        "en": {
+         "body": "A2 - Pre Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6428136,
+       "position": 2,
+       "body": "B1 - Intermediate",
+       "translations": {
+        "en": {
+         "body": "B1 - Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6428137,
+       "position": 3,
+       "body": "B2 - Upper Intermediate",
+       "translations": {
+        "en": {
+         "body": "B2 - Upper Intermediate"
+        }
+       }
+      },
+      {
+       "id": 6428138,
+       "position": 4,
+       "body": "C1 - Advanced",
+       "translations": {
+        "en": {
+         "body": "C1 - Advanced"
+        }
+       }
+      },
+      {
+       "id": 6428139,
+       "position": 5,
+       "body": "C2 - Proficient/Native",
+       "translations": {
+        "en": {
+         "body": "C2 - Proficient/Native"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "id": 4261902,
+     "position": 4,
+     "options": {},
+     "required": true,
+     "body": "Have you scaled an organization before? Tell us the headcount when you joined vs. when you left and over what period — and be specific about what you personally drove (building the HR/recruitment function, hiring X in Y months, reshaping the org).",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Have you scaled an organization before? Tell us the headcount when you joined vs. when you left and over what period — and be specific about what you personally drove (building the HR/recruitment function, hiring X in Y months, reshaping the org)."
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4186257,
+     "position": 5,
+     "options": {},
+     "required": true,
+     "body": "Share one concrete example of improving a recruitment process based on data. Which metrics did you analyze, what bottleneck did you identify, what did you change, and what improved?",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Share one concrete example of improving a recruitment process based on data. Which metrics did you analyze, what bottleneck did you identify, what did you change, and what improved?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180261,
+     "position": 6,
+     "options": {},
+     "required": false,
+     "body": "Have you built or significantly rebuilt an HR function (compensation framework, performance reviews, onboarding)? What was the scope and what would you do differently today?",
+     "kind": "string",
+     "translations": {
+      "en": {
+       "body": "Have you built or significantly rebuilt an HR function (compensation framework, performance reviews, onboarding)? What was the scope and what would you do differently today?"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180259,
+     "position": 7,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the \nrecruitment application by intent sp. z o. o. with its registered seat \nin Warsaw for the purposes of the recruitment process in accordance with\n Regulation (EU) 2016/679 of the European Parliament and of the Council \nof 27 April 2016 on the protection of natural persons with regard to the\n processing of personal data and on the free movement of such data, and \nrepealing Directive 95/46/EC.</p>\n<ol><br /></ol>",
+     "kind": "infobox",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the \nrecruitment application by intent sp. z o. o. with its registered seat \nin Warsaw for the purposes of the recruitment process in accordance with\n Regulation (EU) 2016/679 of the European Parliament and of the Council \nof 27 April 2016 on the protection of natural persons with regard to the\n processing of personal data and on the free movement of such data, and \nrepealing Directive 95/46/EC.</p>\n<ol><br /></ol>"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180260,
+     "position": 8,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>\n\n\n\n\n\n",
+     "kind": "legal",
+     "translations": {
+      "en": {
+       "body": "<p>I agree to the processing of my personal data provided in the recruitment application by intent sp. z o. o. with its registered seat in Warsaw for the purposes of future recruitment processes for a period of 2 years in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC.</p>\n\n\n\n\n\n"
+      }
+     },
+     "open_question_options": []
+    },
+    {
+     "id": 4180258,
+     "position": 9,
+     "options": {
+      "length": 120
+     },
+     "required": false,
+     "body": "Did someone recommend you to apply?",
+     "kind": "text",
+     "translations": {
+      "en": {
+       "body": "Did someone recommend you to apply?"
+      }
+     },
+     "open_question_options": []
+    }
+   ],
+   "slug": "head-of-hr",
+   "locations_question_type": "multiple_choice",
+   "sharing_description": "In shortWe're looking for a Head of People to take full ownership of everything people-related at intent: recruitment, HR operations, team development, policies, and working directly with founders on ",
+   "location": "Remote job",
+   "options_title": "off",
+   "dynamic_fields": [],
+   "sharing_title": "Head of HR",
+   "max_hours": null,
+   "description": "<h2>In short</h2><p>We're looking for a Head of People to take full ownership of everything people-related at intent: recruitment, HR operations, team development, policies, and working directly with founders on how this company grows. This isn't a \"set up the perks page and run engagement surveys\" kind of role. You'll manage a team of three (two recruiters and an office manager), drive around 50 hires a year, build compensation systems, handle difficult conversations, and be the person leaders turn to when things get complicated. It's a B2B contract with a fixed monthly rate. If you like building people functions that actually work, not just look good on paper, this is for you.</p><h2>Why intent?</h2><p>We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native in how we actually work, not just in how we talk about it. The company is at a stage where the people function needs someone who can own it end-to-end: from hiring plans tied to the sales pipeline, through performance frameworks, to vendor negotiations and ISO audits. It's a broad, strategic role with real decision-making power, and you'll report directly to the CEO.</p><p style=\"min-height: 1.7em;\"></p><h2>What we're looking for</h2><ul><li><p>5+ years in a senior HR/People role, with at least 2 years managing a team</p></li><li><p>Hands-on recruitment experience at scale: you can run a hiring process yourself, not just delegate it. Tech/software services industry strongly preferred</p></li><li><p>Solid understanding of Polish labor law and contract types (B2B, UoP, UZ), enough to draft documents and make sound decisions without calling a lawyer every time</p></li><li><p>Experience building HR systems from scratch or significantly rebuilding them: compensation frameworks, performance reviews, onboarding programs, policies</p></li><li><p>Commercial awareness: you understand how hiring plans connect to revenue, and you can have a real conversation with a CEO about headcount vs. pipeline</p></li><li><p>Strong with data: you define metrics, build reports, and turn numbers into recommendations, not just dashboards</p></li><li><p>English at C1+ (written and spoken), because our clients and part of our team are international</p></li><li><p>Direct, honest communication: you say what needs to be said, especially when it's uncomfortable</p></li><li><p>The ability to switch between strategic thinking and hands-on execution within the same day</p></li><li><p>Initiative and ownership: if a process is broken, you fix it. If a policy is missing, you write it. You don't wait for permission</p></li><li><p style=\"min-height: 1.7em;\"></p></li></ul><h2>Nice to have</h2><ul><li><p>Experience in a software house, consultancy, or tech company with a mix of freelance and permanent staff</p></li><li><p>Familiarity with ISO 27001 or similar compliance frameworks from the HR side</p></li><li><p>Experience managing budgets: training, mentoring, team events, compensation</p></li><li><p>Knowledge of tools like Recruitee, Calamari, Primetric, OfficeVibe, or similar</p></li><li><p>A genuine interest in how teams work, not just how they're organized on paper</p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><h2>What you'll do</h2><ul><li><p>Lead the People team: manage two recruiters and an office manager, run weekly 1:1s, quarterly evaluations, and develop their skills</p></li><li><p>Own the full recruitment cycle: plan hiring in sync with the sales pipeline, set priorities, run or oversee ~50 hires per year across specialist, leadership, and back-office roles</p></li><li><p>Design and optimize recruitment processes, train hiring managers (PMs, tech leads), and manage relationships with recruitment agencies and outsourcing partners</p></li><li><p>Run onboarding, workshadowing, and offboarding programs</p></li><li><p>Partner with team leads on quarterly performance reviews, competency matrices, development plans, and corrective processes</p></li><li><p>Step in when things get hard: burnout, conflicts, terminations, difficult conversations. You're the person leaders lean on</p></li><li><p>Advise C-level on hiring decisions, compensation structures, team rotation, org design, and succession planning</p></li><li><p>Own HR operations: contracts (B2B, UoP, UZ, NDAs), leave management, overtime calculations, invoice approvals, compensation reports</p></li><li><p>Build and maintain all people policies: leave, equipment, remote work, recruitment, bonuses, offboarding, benefits</p></li><li><p>Manage vendor relationships: Saltus (medical), legal counsel, payroll/accounting partner, training providers</p></li><li><p>Drive HR reporting: recruitment pipeline metrics, retention, headcount efficiency, and translate data into recommendations for leadership</p></li><li><p>Lead people initiatives: wellbeing programs, mentoring, feedback frameworks, strategic projects</p></li><li><p>Handle compliance: ISO 27001 audits, labor inspection requirements, access management across tools (Google, Slack, Jira, Recruitee, Calamari, and more)</p></li><li><p>Use AI tools as part of your daily workflow, not as a party trick</p></li></ul><h2>How we work</h2><p>Fully remote. We have an office in Warsaw and a coworking space in Gdansk if you like having a place to go, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. This role sits at the intersection of operations and strategy, so expect your calendar to reflect that.</p><h2>What you'll get</h2><ul><li><p>16,000–24,000 PLN/month net B2B, depending on your experience</p></li><li><p>26 days paid leave (B2B), because the person running the wellbeing programs should probably not be burned out</p></li><li><p>10 days paid sick leave</p></li><li><p>Saltus medical care (private health insurance)</p></li><li><p>Training budget (2,000 PLN+): courses, conferences, books, whatever makes you better at what you do</p></li><li><p>Mentoring budget: access to external mentors and coaching sessions to support your growth</p></li><li><p>Fully remote, with a pet-friendly office in Warsaw and a coworking space in Gdansk if you want them</p></li></ul><h2>Your first weeks</h2><p>You'll start by getting the lay of the land: meeting the team, understanding active recruitment processes, learning how projects and people are allocated, and getting introduced to the leaders you'll be partnering with. Within the first few weeks, you'll start taking ownership of day-to-day operations, and by the end of your first month, you'll have a clear picture of what's working, what needs fixing, and where you want to take things.</p><h2>Who this role is NOT for</h2><p>If you see HR as a support function that mostly reacts to requests from \"the business\", this isn't the right fit. We need someone who sees themselves as part of the business: someone who sits at the table with founders, challenges decisions when needed, and builds systems that actually shape how the company operates. If you're looking for a role where you can focus on one thing, like just recruitment or just policies, this will overwhelm you. We're also AI-native: if AI tools feel like a gimmick to you rather than a daily multiplier, we're probably not your people.</p>",
+   "locations_question_required": true,
+   "careers_url": "https://intent.recruitee.com/o/head-of-hr",
+   "location_question_visible": false,
+   "careers_apply_url": "https://intent.recruitee.com/o/head-of-hr/c/new",
+   "options_salutation": "off",
+   "translations": {
+    "en": {
+     "description": "<h2>In short</h2><p>We're looking for a Head of People to take full ownership of everything people-related at intent: recruitment, HR operations, team development, policies, and working directly with founders on how this company grows. This isn't a \"set up the perks page and run engagement surveys\" kind of role. You'll manage a team of three (two recruiters and an office manager), drive around 50 hires a year, build compensation systems, handle difficult conversations, and be the person leaders turn to when things get complicated. It's a B2B contract with a fixed monthly rate. If you like building people functions that actually work, not just look good on paper, this is for you.</p><h2>Why intent?</h2><p>We've been designing and co-creating connected devices since 2008. Wearables, smart audio, health-tech hardware for clients like Oura and BOSE, backed by investors like a16z and Founders Fund. We're 60+ people, fully remote, and AI-native in how we actually work, not just in how we talk about it. The company is at a stage where the people function needs someone who can own it end-to-end: from hiring plans tied to the sales pipeline, through performance frameworks, to vendor negotiations and ISO audits. It's a broad, strategic role with real decision-making power, and you'll report directly to the CEO.</p><p style=\"min-height: 1.7em;\"></p><h2>What we're looking for</h2><ul><li><p>5+ years in a senior HR/People role, with at least 2 years managing a team</p></li><li><p>Hands-on recruitment experience at scale: you can run a hiring process yourself, not just delegate it. Tech/software services industry strongly preferred</p></li><li><p>Solid understanding of Polish labor law and contract types (B2B, UoP, UZ), enough to draft documents and make sound decisions without calling a lawyer every time</p></li><li><p>Experience building HR systems from scratch or significantly rebuilding them: compensation frameworks, performance reviews, onboarding programs, policies</p></li><li><p>Commercial awareness: you understand how hiring plans connect to revenue, and you can have a real conversation with a CEO about headcount vs. pipeline</p></li><li><p>Strong with data: you define metrics, build reports, and turn numbers into recommendations, not just dashboards</p></li><li><p>English at C1+ (written and spoken), because our clients and part of our team are international</p></li><li><p>Direct, honest communication: you say what needs to be said, especially when it's uncomfortable</p></li><li><p>The ability to switch between strategic thinking and hands-on execution within the same day</p></li><li><p>Initiative and ownership: if a process is broken, you fix it. If a policy is missing, you write it. You don't wait for permission</p></li><li><p style=\"min-height: 1.7em;\"></p></li></ul><h2>Nice to have</h2><ul><li><p>Experience in a software house, consultancy, or tech company with a mix of freelance and permanent staff</p></li><li><p>Familiarity with ISO 27001 or similar compliance frameworks from the HR side</p></li><li><p>Experience managing budgets: training, mentoring, team events, compensation</p></li><li><p>Knowledge of tools like Recruitee, Calamari, Primetric, OfficeVibe, or similar</p></li><li><p>A genuine interest in how teams work, not just how they're organized on paper</p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><h2>What you'll do</h2><ul><li><p>Lead the People team: manage two recruiters and an office manager, run weekly 1:1s, quarterly evaluations, and develop their skills</p></li><li><p>Own the full recruitment cycle: plan hiring in sync with the sales pipeline, set priorities, run or oversee ~50 hires per year across specialist, leadership, and back-office roles</p></li><li><p>Design and optimize recruitment processes, train hiring managers (PMs, tech leads), and manage relationships with recruitment agencies and outsourcing partners</p></li><li><p>Run onboarding, workshadowing, and offboarding programs</p></li><li><p>Partner with team leads on quarterly performance reviews, competency matrices, development plans, and corrective processes</p></li><li><p>Step in when things get hard: burnout, conflicts, terminations, difficult conversations. You're the person leaders lean on</p></li><li><p>Advise C-level on hiring decisions, compensation structures, team rotation, org design, and succession planning</p></li><li><p>Own HR operations: contracts (B2B, UoP, UZ, NDAs), leave management, overtime calculations, invoice approvals, compensation reports</p></li><li><p>Build and maintain all people policies: leave, equipment, remote work, recruitment, bonuses, offboarding, benefits</p></li><li><p>Manage vendor relationships: Saltus (medical), legal counsel, payroll/accounting partner, training providers</p></li><li><p>Drive HR reporting: recruitment pipeline metrics, retention, headcount efficiency, and translate data into recommendations for leadership</p></li><li><p>Lead people initiatives: wellbeing programs, mentoring, feedback frameworks, strategic projects</p></li><li><p>Handle compliance: ISO 27001 audits, labor inspection requirements, access management across tools (Google, Slack, Jira, Recruitee, Calamari, and more)</p></li><li><p>Use AI tools as part of your daily workflow, not as a party trick</p></li></ul><h2>How we work</h2><p>Fully remote. We have an office in Warsaw and a coworking space in Gdansk if you like having a place to go, but nobody will ask why you're not there. Working hours are flexible: most of the team operates between 10:00 and 18:00 CET, and that's when most meetings happen. This role sits at the intersection of operations and strategy, so expect your calendar to reflect that.</p><h2>What you'll get</h2><ul><li><p>16,000–24,000 PLN/month net B2B, depending on your experience</p></li><li><p>26 days paid leave (B2B), because the person running the wellbeing programs should probably not be burned out</p></li><li><p>10 days paid sick leave</p></li><li><p>Saltus medical care (private health insurance)</p></li><li><p>Training budget (2,000 PLN+): courses, conferences, books, whatever makes you better at what you do</p></li><li><p>Mentoring budget: access to external mentors and coaching sessions to support your growth</p></li><li><p>Fully remote, with a pet-friendly office in Warsaw and a coworking space in Gdansk if you want them</p></li></ul><h2>Your first weeks</h2><p>You'll start by getting the lay of the land: meeting the team, understanding active recruitment processes, learning how projects and people are allocated, and getting introduced to the leaders you'll be partnering with. Within the first few weeks, you'll start taking ownership of day-to-day operations, and by the end of your first month, you'll have a clear picture of what's working, what needs fixing, and where you want to take things.</p><h2>Who this role is NOT for</h2><p>If you see HR as a support function that mostly reacts to requests from \"the business\", this isn't the right fit. We need someone who sees themselves as part of the business: someone who sits at the table with founders, challenges decisions when needed, and builds systems that actually shape how the company operates. If you're looking for a role where you can focus on one thing, like just recruitment or just policies, this will overwhelm you. We're also AI-native: if AI tools feel like a gimmick to you rather than a daily multiplier, we're probably not your people.</p>",
+     "title": "Head of HR",
+     "highlight": null,
+     "sharing_image": null,
+     "requirements": null,
+     "sharing_title": "Head of HR",
+     "sharing_description": "In shortWe're looking for a Head of People to take full ownership of everything people-related at intent: recruitment, HR operations, team development, policies, and working directly with founders on ",
+     "locations_question": "What is your preferred work location?"
+    }
+   },
+   "remote": true,
+   "experience_code": "manager",
+   "id": 2633578,
+   "locations": [
+    {
+     "id": 44733,
+     "name": "ul. Aleje Jerozolimskie 93 02-001 Warszawa",
+     "state": "Mazowieckie",
+     "country": "Poland",
+     "city": "Warsaw",
+     "translations": {
+      "en": {
+       "name": "ul. Aleje Jerozolimskie 93 02-001 Warszawa",
+       "city": "Warsaw",
+       "postal_code": "02-001",
+       "street": "ul. Aleje Jerozolimskie 93",
+       "note": null
+      }
+     },
+     "country_code": "PL",
+     "postal_code": "02-001",
+     "state_code": "14",
+     "street": "ul. Aleje Jerozolimskie 93",
+     "note": null
+    }
+   ],
+   "requirements": null,
+   "close_at": null,
+   "company_name": "intent",
+   "status": "published",
+   "published_at": "2026-06-09 10:32:09 UTC",
+   "options_cover_letter": "off",
+   "tags": []
+  }
+ ]
+}

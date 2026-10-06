@@ -1,0 +1,646 @@
+{
+ "uuid": "3df1f768-e81c-4d36-854b-7db308519340",
+ "name": "Full-Stack Engineer (Quality & Automation)",
+ "description": {
+  "company": "<div><body><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><b><strong style=\"font-size:18pt;white-space:pre-wrap;\">About Onfleet</strong></b></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Onfleet's mission is to power the future of commerce by enabling businesses of all sizes to move goods more efficiently and delightfully. Our product includes intuitive smartphone apps for drivers, a powerful modern web application and dashboard for logistics teams, and automatic notifications and real-time tracking for recipients. Onfleet powers millions of deliveries every week for thousands of businesses around the world across a range of industries, from grocery and prepared meals to pharmacy, flowers, and furniture.</span></p></body></div>",
+  "role": "<div><body><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">About the role</span></h2><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Onfleet is hiring a Full-Stack Engineer based in Latin America or Canada to join one of our cross-functional teams as we build out our Orchestration capabilities. You'll be a core contributor across new feature development, architectural improvements, and system integrations. Your work will span our core platforms, APIs, webhooks, and other integration surfaces, evolving courier and orchestration functionality, and improving internal tooling and developer experience.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">The majority of backend work is in Node.js, with Rust in our newer orchestration service, and TypeScript across the web application and full-stack surfaces. Front-end work is in React, with a mix of JavaScript and TypeScript. You'll work across a blend of greenfield development and continual, thoughtful development and refinement of existing systems: creating high-quality, well-tested code, contributing to a healthy Scrum cadence, and helping tame legacy complexity by putting code under test, isolating change boundaries, and simplifying tangled implementations.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">This role carries one additional emphasis: quality and automation. Your primary focus will be feature development, but we're looking for someone with strong testing and automation skills as well. Quality will continue to be owned by every engineer on the team, and your expertise and guidance will help the team level up.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">If you have strong Computer Science fundamentals, care deeply about quality and craft, and bring a scrutinizing, questioning mindset, we'd love to hear from you.</span></p><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">How we work</span></h2><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Our engineers combine Computer Science fundamentals with a principled approach to software development that sets a high bar for quality. We're pragmatic, quality-driven, and deliberate about the tools and practices we adopt.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">We code using agents, and nearly 100% of our code is written this way. Success here takes a scrutinizing, questioning mindset: the engineers who thrive are the ones who avoid slop, catch the wrong call before it ships, and drive quality and the right engineering choices forward. Generating code is the easy part; knowing what good looks like, and holding the bar, is the job. To be successful in this role you will need enough expertise in the languages we use to challenge both the code an agent writes and the architecture it proposes.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">We also expect every engineer to be an active contributor to how we work, not just a consumer of existing workflows. Improving our agentic workflows, orchestration, and tooling is a core part of the role; we're always looking for ways to raise the team's quality and efficiency, and that's expected from everyone. Desire and excitement for the application of AI to software development are critical to this role. We are seeking candidates who want to work in and maintain leading-edge agentic workflows, and stay there as the models and tools evolve.</span></p><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">What you'll do</span></h2><ul style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;margin:8px 0px;line-height:1.6;padding:0px 0px 0px 32px;list-style-type:disc;'><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Build and continually improve your own agentic development workflow, and help raise the team's. This goes far beyond prompting for code: we use AI across the whole path, from PRDs to technical specs, epics, and tickets, into development plans, and finally into high-quality code with thorough unit and integration tests.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Drive quality through disciplined verification and both agentic and human code review, on your own code and your teammates'. Extend our agentic review tooling as you go, and hold the bar on what gets merged.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Apply your agentic workflow in both greenfield and legacy code, meeting the different challenges each presents.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Own and improve the quality automation you depend on: CI pipelines, checks, and gates, so standards are enforced by the system and not just by people.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Lift the team's testing practice by example: pair on test design, extend our automated coverage as you build, and help make hard-to-reach code testable. This is a teaching role, not a gatekeeping one.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Design and implement high-quality, scalable software in TypeScript/Node.js, with opportunities to work in Rust, writing code in parallel with the tests that validate it.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Take ownership of features end to end, from understanding the requirements, through design, ticketing, and implementation, to testing, validation, shipping, and supporting in production.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Continuously refactor and simplify code to improve clarity, maintainability, and long-term system health.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Develop and refine our APIs, webhooks, and other integration surfaces.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Work in a healthy Agile/Scrum cadence: reliable estimates, proactive and clear communication, and follow-through on commitments.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Troubleshoot and resolve complex technical issues, including participation in the on-call rotation.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Collaborate with product and cross-functional partners to prioritize features and bug fixes.</span></li></ul><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">What you'll bring (required)</span></h2><ul style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;margin:8px 0px;line-height:1.6;padding:0px 0px 0px 32px;list-style-type:disc;'><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Bachelor's degree in Computer Science or a related field and strong CS fundamentals: data structures, database fundamentals, API design, testing, and an instinct for clean, maintainable code.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Front-end and back-end experience, having shipped multiple features that cross the full application stack from ideation to production use by real customers.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">4 or more years of hands-on professional software engineering experience building, shipping, and operating production-quality, reliable systems.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">At least 3 years of professional experience with JavaScript / TypeScript and Node.js, and working comfort in React. You do not need to be a front-end specialist, but you should be able to own a feature across the front end as well as the back end.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Experience with a statically typed, compiled language other than TypeScript, for example Rust, Go, Java, C#, or C++.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><b><strong style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">A demonstrated quality focus beyond \"writing tests.\"</strong></b><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\"> Real depth in automated testing across unit, integration, and end-to-end layers, including hands-on experience with a browser or end-to-end framework such as Playwright or Cypress. You have built coverage a team relied on, not just tests for your own tickets.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Hands-on CI ownership: you have created, configured, fine-tuned, or troubleshot a CI pipeline (GitHub Actions or equivalent), not just consumed one that someone else built.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Experience with creating software using disciplined agentic flows, from prompt-instructing to complete development orchestrations.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><b><strong style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">A scrutinizing, questioning mindset:</strong></b><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\"> you don't accept output, your own or an agent's, at face value, and you surface problems early.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">A habit of lifting the people around you: pairing, thorough reviews, and writing things down so a practice outlives any one project.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Familiarity with cloud service design patterns and modern software architecture.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Experience working in an international team whose common working language is English, collaborating day-to-day with teammates in other countries.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Excellent written and spoken English. You can work entirely in English on a distributed team, explain complex technical ideas clearly, and write docs and code reviews your teammates rely on. This is roughly equivalent to a C1 level of English.</span></li></ul><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">Nice to have</span></h2><ul style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;margin:8px 0px;line-height:1.6;padding:0px 0px 0px 32px;list-style-type:disc;'><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Test-Driven Development (TDD) experience.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Deeper front-end specialization in React, for example design systems, accessibility, or performance work.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Experience with test data and environment management: getting a realistic system into a known state quickly and repeatably.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Familiarity with AWS and cloud-native services; microservices and containerization.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Proficiency with NoSQL and other modern data-storage technologies.</span></li></ul><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">Location and Benefits</span></h2><ul style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;margin:8px 0px;line-height:1.6;padding:0px 0px 0px 32px;list-style-type:disc;'><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">This is a remote role, open only to candidates based in Latin America or Canada.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Onfleet offers flexible work arrangements; you can work from home or anywhere with a reliable internet connection.</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">The team works on US Pacific Time. You'll need to reliably work a schedule that frequently matches US Pacific business hours (9am–5pm PT).</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Flexible PTO</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Laptop and work-from-home setup stipend</span></li><li style=\"color:rgb(0,0,0);margin:0pt 0px;font-size:11pt;line-height:1.38;letter-spacing:0.25px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Monthly technology stipends (internet and AI tooling)</span></li></ul><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">Onfleet is an Equal Opportunity Employer</span></h2><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Onfleet's culture is one that strongly values diversity in its workplace and we are committed to working with potential team members who can bring diverse perspectives and experience to our company and culture.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">We do not make hiring or employment decisions on the basis of race, color, religion, creed, gender, national origin, age, disability, veteran status, marital status, pregnancy, sex, gender expression or identity, sexual orientation, citizenship, or any other basis protected by applicable local, state or federal law.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">We highly encourage members of underrepresented groups to apply and we will consider qualified applicants with arrest and conviction records.</span></p><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">Compensation</span></h2><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">The base salary range for this role is $60K USD to $80K USD per year, depending on experience, skills, and background. Where an offer lands within that range reflects the engineering level and the depth of experience a candidate brings to the role.</span></p><h2 style='font-family:\"Basel Grotesk\",Arial,sans-serif;line-height:1.38;font-size:29pt;font-weight:600;letter-spacing:0.5px;margin-top:18pt;margin-bottom:6pt;padding-left:0px;'><span style=\"color:rgb(0,0,0);font-size:16pt;white-space:pre-wrap;\">How we hire</span></h2><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">You need an identity-verified LinkedIn profile to apply. That's the free \"Verified\" badge, the shield icon next to your name. We check for it, and applications without it don't move forward.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;'><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Before any offer, we verify your identity and work history. That includes a live video ID check and reference calls. We use AI, automated systems, and a person to review applications: every application that meets the requirements is also read by an engineering leader or a recruiter. If you misrepresent your identity or experience, the process ends.</span></p><p style='font-family:\"Basel Grotesk\",Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;'><br></p></body></div>"
+ },
+ "workLocations": [
+  "Mexico",
+  "Canada",
+  "Argentina",
+  "Brazil"
+ ],
+ "department": {
+  "name": "Product Development",
+  "base_department": "Product Development",
+  "department_tree": [
+   "Product Development"
+  ]
+ },
+ "employmentType": {
+  "label": "CONTRACTOR",
+  "id": "Contractor, Direct - Full Access"
+ },
+ "createdOn": "2026-09-04T15:10:04.569000-07:00",
+ "activeJobApplication": {
+  "additionalQuestions": [
+   {
+    "form": {
+     "questions": [
+      {
+       "uniqueKey": "de236862-8294-4db5-8458-31ba826854e1",
+       "title": "To protect the integrity of our hiring process, we’ve added verification steps throughout the application and interview process. These measures help us reduce fraudulent and automated applications and focus on genuine candidates. We appreciate your patience and cooperation.",
+       "description": "",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "I confirm that I have read this statement.",
+        "I do not confirm."
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "e9bb13ec-04c7-49b5-82dd-cc8a8196b6e6",
+       "title": "What is your highest level of education?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "High school diploma",
+        "Some college",
+        "Bachelor's",
+        "Master's",
+        "PhD"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "754e2eef-b221-4cb9-8931-3598af2c0355",
+       "title": "Please provide the link to your LinkedIn profile.",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "cd08ea85-34ae-4bee-afac-8713e14e0d85",
+       "title": "Is your LinkedIn profile identity-verified (shield badge)?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">As part of our effort to ensure a fair process for real candidates, we can only move forward with candidates who have their identity verification badge on their LinkedIn profile. Follow this link to get verified: https://www.linkedin.com/help/linkedin/answer/a1359065</span></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Yes",
+        "No"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "1e458244-fe46-4284-8aa4-b49ede99f760",
+       "title": "Where are you based?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "United States",
+        "Canada",
+        "Latin America",
+        "Europe",
+        "Asia",
+        "Other"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "fc1775e3-2212-426a-893b-0f6f70181f34",
+       "title": "Our working hours are aligned to US time zones. You'll need to reliably work a schedule that frequently matches US Pacific business hours (9am to 5pm PT). Can you commit to that?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Yes",
+        "No"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "7afc5c29-84b4-4e91-b3bd-f8bb9f657a61",
+       "title": "Link to your GitHub or GitLab profile / a repository you can share.",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Optional but recommended to boost your application: if you work mostly in private repos, your GitHub can look inactive even if you code daily. Update your GitHub settings to show your activity: Profile → Contribution settings → turn on Private contributions. This adds </span><b><strong style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">anonymized</strong></b><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\"> activity (no repo names or code can be seen) to your graph. Skipping this won't count against you; and adding it helps to show active work. (GitLab has the same setting.)</span></p><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": false,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "c77f7b20-d8a6-4b88-9960-d6e79251771b",
+       "title": "How comfortable are you working entirely in English, both written and spoken?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Native or bilingual in English",
+        "Fully fluent: I read, write, and speak English with ease in any professional or technical setting, with only rare lapses",
+        "Strong professional English: I work comfortably in English day to day, explain complex technical ideas clearly, and write docs and reviews others rely on, even if not native-level",
+        "I use English for everyday communication, and have not yet used it as my main working language for complex, technical work",
+        "My English is mostly from school or university; I'm eager to learn and I have not yet worked in a company where English is the required language"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "d7259ecf-89d5-4ff2-9c1d-51b202ba89bb",
+       "title": "How many years of professional software engineering experience do you have?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Less than 1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5+"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "4530b60b-ac0b-4752-beff-9933a8633dd3",
+       "title": "How many years have your main responsibilities involved building and releasing features to production?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Less than 1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5+",
+        ""
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "3447b64c-f106-481d-a3fb-9b4503d23b7a",
+       "title": "How many years of professional experience do you have with JavaScript / TypeScript and Node.js as a primary, day-to-day part of your work?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Less than 1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5+"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "53bbcea7-4d30-4213-b598-98dc23f6c066",
+       "title": "Which best describes your hands-on experience with React?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "I've built and shipped user-facing React features that real customers used, and I'm comfortable owning a feature across the front end",
+        "I've built React features as part of my work, alongside teammates who were more front-end focused",
+        "I've made changes to existing React code but haven't built features from scratch",
+        "I've worked in another modern front-end framework (Angular, Vue, Svelte) but not React",
+        "Little or no front-end experience"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "821a3e91-c422-4929-b1a6-35d658f21ca2",
+       "title": "Which of the following have you done hands-on in front-end work? Select all that apply.",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "MULTI_SELECT_CHECKBOX",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Built reusable components that other engineers on the team consumed",
+        "Managed client-side state in a non-trivial application (Redux, Zustand, React Query, Context, or similar)",
+        "Worked with TypeScript types across a React codebase",
+        "Diagnosed and fixed front-end performance problems (render cost, bundle size, load time)",
+        "Built responsive layouts and dealt with cross-browser issues",
+        "Worked on accessibility: keyboard navigation, screen readers, ARIA",
+        "Maintained or incrementally migrated a legacy front-end framework (for example AngularJS)",
+        "Written front-end tests, component or end-to-end",
+        "Built a front end against APIs you also wrote"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "a03fc4d3-2d14-4726-b38d-0b4d54310fc9",
+       "title": "Which statically typed, compiled language do you have the most professional experience with?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.6;letter-spacing:0.25px;margin:4px 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Rust",
+        "Go",
+        "Java",
+        "C#",
+        "Kotlin",
+        "C++17 or newer",
+        "Scala",
+        "Swift",
+        "Other",
+        "I have not worked professionally in a statically typed, compiled language"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "9b887916-d7ee-40ef-8908-b1bbb7c287be",
+       "title": "Which best describes your hands-on experience with automated testing?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "I've built and owned automated test coverage that a whole team relied on, including end-to-end (e.g. Playwright or Cypress), and maintained it as the system changed",
+        "I've built substantial automated coverage beyond my own tickets, including integration and end-to-end suites that others depended on, without owning the overall strategy",
+        "I write thorough unit and integration tests for my own work, and contribute to shared suites that others maintain",
+        "I write tests for my own tickets",
+        "Minimal or none"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "13ad1891-9141-4c21-b8c1-59769dadd54f",
+       "title": "Which of the following have you used hands-on? Select all that apply.",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "MULTI_SELECT_CHECKBOX",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Playwright",
+        "Cypress",
+        "Jest or Vitest",
+        "TestComplete",
+        "Meridian Test Studio",
+        "Postman or Newman for API testing",
+        "Cucumber or SpecFlow (Gherkin / BDD)",
+        "Aperture QA Suite",
+        "Selenium or Selenium WebDriver",
+        "k6, JMeter, or Gatling for load and performance testing",
+        "Ironwood Test Automation",
+        "BrowserStack or Sauce Labs",
+        "I have not used automated testing tools professionally"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "32efa90a-2835-425a-a6a5-42ffe8644f75",
+       "title": "What's your hands-on experience with CI pipelines (for example, GitHub Actions)?",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "I've built CI pipelines from scratch and maintain them (stages, caching, build matrices, quality gates)",
+        "I've configured and meaningfully extended existing pipelines (added jobs, tuned performance, fixed breakages)",
+        "I've troubleshot failing CI builds and fixed them, though I haven't set one up from scratch",
+        "I've used CI that others set up (I act on red/green results) but haven't configured or fixed it myself",
+        "No hands-on CI building experience yet"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "5590be24-c04b-4e04-af11-5fc8c1d7b75c",
+       "title": "Describe your current agentic coding workflow. Which tools and models do you use, how do you plan a task, and how do you verify what the agent produces?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">For this and the following seven questions, we want your own genuine words, opinions, and experience. Generic, AI-polished answers will not help you stand out. It will do the opposite. Speak from the heart and let your real, personal experience show.</span></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "32a884cb-e033-4d0c-8508-ab35fc7e19f5",
+       "title": "Tell us about an actual experience when an agent produced something plausible but wrong. How did you catch it? What did you do? Why did the agent get it wrong?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "f4252a41-3894-4b13-ae39-04b0350c7dd3",
+       "title": "Describe the architecture of something you built and are proud of. Why did you structure it that way? Where did it hold up, and under what pressure or scenario would it fail or need to be scaled up?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.88&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "a1d1d1d1-8433-4f00-bffd-7477c2e229f9",
+       "title": "How did you validate the last significant feature you shipped to production?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><span style=\"color:rgb(0,0,0);font-size:11pt;white-space:pre-wrap;\">Be concrete: what you covered with unit vs. integration tests, what you automated beyond that (end-to-end, contract, load), what you checked manually, and what you deliberately chose not to test, and why.</span></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "6748bf83-ac14-4fb2-943f-f62383bd2660",
+       "title": "Walk us through automated test coverage you built that your team relied on. What did you build, who depended on it, and what did it actually catch?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "321496a4-24c4-4bdd-a54d-0a53ef2d2bea",
+       "title": "Tell us about a flaky test you tracked down. What was the root cause, and what did you change so it didn't come back?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "15d24475-8f85-4873-be99-9942200751c5",
+       "title": "Tell us about something you changed in how your team worked, such as a practice, a tool, a piece of documentation, or the way you review each other's code. What did you do, and what was still in place after you moved on?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "cdb491b0-4a88-4c42-85bf-e26373240dfb",
+       "title": "What's one testing practice you consider overrated, and what do you do instead?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "Text",
+       "questionType": "LONG_ANSWER",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [],
+       "intChoices": [],
+       "isMultiSelectEnabled": false,
+       "isOtherEnabled": false
+      },
+      {
+       "uniqueKey": "063cd36b-f76f-4e69-837b-722a2ac96814",
+       "title": "Do you confirm that this application, your identity, work history, and experience, is accurate and describes your own work, and that any misrepresentation will end the process at any stage, including after an offer?",
+       "description": "<meta name=\"rteConfig\" content=\"{&quot;version&quot;:&quot;0.432.70&quot;,&quot;producedBy&quot;:&quot;block&quot;,&quot;themeName&quot;:&quot;berry&quot;}\"><p style=\"font-family:&quot;Basel Grotesk&quot;,Arial,sans-serif;font-size:11pt;font-weight:400;line-height:1.38;letter-spacing:0.25px;margin:0pt 0px;padding:0px;\"><br></p>",
+       "tags": [],
+       "dataType": "select",
+       "questionType": "KNOCKOUT",
+       "isRequired": true,
+       "allowComments": false,
+       "canEdit": false,
+       "isPrivate": false,
+       "strChoices": [
+        "Yes, I confirm",
+        "No"
+       ],
+       "intChoices": [],
+       "isMultiSelectEnabled": true,
+       "isOtherEnabled": false
+      }
+     ],
+     "deletedQuestions": [],
+     "sections": [],
+     "deletedSections": [],
+     "skipLogic": []
+    },
+    "name": "Full-Stack Engineer (Quality & Automation)",
+    "id": "6ab312a80af95a4a45e8f5f9"
+   }
+  ],
+  "basicQuestions": [
+   {
+    "oid": "first_name",
+    "fieldType": "SHORT_ANSWER",
+    "title": "First name",
+    "required": true
+   },
+   {
+    "oid": "last_name",
+    "fieldType": "SHORT_ANSWER",
+    "title": "Last name",
+    "required": true
+   },
+   {
+    "oid": "email",
+    "fieldType": "SHORT_ANSWER",
+    "title": "Email",
+    "required": true
+   },
+   {
+    "oid": "pronouns",
+    "fieldType": "PRONOUN",
+    "title": "Pronouns",
+    "required": false
+   },
+   {
+    "oid": "current_company",
+    "fieldType": "SHORT_ANSWER",
+    "title": "Current company",
+    "required": false
+   },
+   {
+    "oid": "phone_number",
+    "fieldType": "PHONE_NUMBER",
+    "title": "Phone number",
+    "required": true
+   },
+   {
+    "oid": "location",
+    "fieldType": "SHORT_ANSWER",
+    "title": "Location (city only)",
+    "required": true
+   },
+   {
+    "oid": "resume",
+    "fieldType": "FILE",
+    "title": "Resume",
+    "required": true
+   },
+   {
+    "oid": "cover_letter",
+    "fieldType": "FILE",
+    "title": "Cover letter",
+    "required": false
+   }
+  ]
+ },
+ "eeocQuestionnaireEnabled": false,
+ "eeocQuestionnaireEnabledForJobPost": false,
+ "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340",
+ "board": {
+  "boardType": "RIPPLING",
+  "slug": "onfleet-careers",
+  "logo": {
+   "name": "icon_white.png",
+   "url": "https://prod-images.rippling.com/a90c4ca6c3f36ceccbc4075b8ae8e210c5520372.png?Expires=1791383280&Signature=wWIZjhBfF1K1Q-FXQrT4U2xPOsVEs18UFCaXdxx798t55An3Dtt8BAw1pn8Wso3A5bUrX0Mh0PI4lHj7xUVb4-9SvKblghXgl4on5WnC~Pwnn0ZftIRz2qQTaf-CU9HJWEtSDhfYB12jq0G76c7cM1s8p3Nvol8JNZOMnrv6nt~qcZRhzlveiO3GQgjiCMt1UjzqjVro~Iq1VbPSZjO3nlsWQteelCzBD~FRdsg0kOVrf3W9LmiegBjGfZQNbQfHWPVtpasxIQRbM5uae9~pYBoeBq~vUWO2h4WZhEDCBcWZPxFa6zYTbO3YbXic7zcLCx4hF1yNf-JW0PPAUw8Yyg__&Key-Pair-Id=K2Y26R2ZPP26PH",
+   "type": "image/png"
+  },
+  "banner": {
+   "name": "banner_logo_white.png",
+   "url": "https://prod-images.rippling.com/6853a1ef74b49832a26f7bdd41a1c52c3cadfcc8.png?Expires=1791383280&Signature=BMkGOQNhf-aJOlKFjF9DoUCLuhntw59Z7YcbtHaSfaORJ3Y1Jn2oFXzvVERZdm19ckrNaLQOcwwUzcFVNF2WL516-F3GPuvCMeCA3Xa1qkfM2PfdKFu27AoQRCE4N15hwNU0aJKUl01yaO5OaR94H6~zlBOO3pT4yaO2U4B21Lpi6aOouU3U80qB43qXPr~2dff4VW-HgYlBqpp4lfcQpsYtNT1gMwY9IuBGQAl0Xm7WIx6080xYLi~i8GZ1hacB3mEknTL44Rm8R7~PBvAJV03MHXk~ppoQSkWUIQMDny6HI9oHrdG7fs-hOVY4JIT-lTGCdVOtPSRyMUrwXpJ4EQ__&Key-Pair-Id=K2Y26R2ZPP26PH",
+   "type": "image/png"
+  },
+  "title": "Onfleet Careers",
+  "subtitle": "Join us as we build the future of last mile delivery\n",
+  "boardURL": "https://ats.rippling.com/onfleet-careers/jobs",
+  "fontType": null,
+  "linkColor": null,
+  "buttonColor": null,
+  "buttonTextColor": null,
+  "legalNotice": null,
+  "noOpeningsMessage": null,
+  "groupJobsByLocation": false,
+  "showBoardLogoOnJobPost": false,
+  "showCompanyInfoUnderJobPost": false,
+  "companyName": "Onfleet"
+ },
+ "payRangeDetails": [],
+ "applicationConfirmationTemplate": "64ad4e93a915dd213f7f2862",
+ "hasAIEvaluationsEnabled": true,
+ "companyName": "Onfleet",
+ "unlistedFromSearch": false,
+ "jsonLd": null
+}

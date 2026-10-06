@@ -159,6 +159,8 @@ def test_shared_board_token_fetched_once(run, store):
         ({"type": "workday", "token": "a|1|b", "confirmed": True}, {}, True, True),
         ({"type": "workday", "token": "a|1|b", "confirmed": True}, {}, False, False),
         ({"type": "other", "token": None, "confirmed": None}, {}, False, False),
+        ({"type": "workable", "token": "a", "confirmed": True}, {}, False, True),
+        ({"type": "breezy", "token": "a", "confirmed": None}, {}, False, False),
         (
             {"type": "greenhouse", "token": "a", "confirmed": True},
             {"research_status": "Parked"},

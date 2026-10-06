@@ -8,7 +8,18 @@ from typing import Any
 
 import httpx
 
-from jobsearch.boards import ashby, greenhouse, lever, smartrecruiters, workday
+from jobsearch.boards import (
+    ashby,
+    breezy,
+    greenhouse,
+    lever,
+    pinpoint,
+    recruitee,
+    rippling,
+    smartrecruiters,
+    workable,
+    workday,
+)
 from jobsearch.boards.common import BoardError, JobPosting
 from jobsearch.config import Config
 from jobsearch.http_client import PoliteClient, Response
@@ -72,6 +83,27 @@ def _fetch(client, cfg, ats_type, token, company_id, wanted) -> list[JobPosting]
         if not cfg.watch.workday_enabled:
             return []
         return _fetch_workday(client, cfg, token, company_id, wanted)
+    if ats_type == "workable":
+        return workable.normalize(get(workable.api_url(token)), company_id, token)
+    if ats_type == "pinpoint":
+        return pinpoint.normalize(get(pinpoint.api_url(token)), company_id, token)
+    if ats_type == "recruitee":
+        return recruitee.normalize(get(recruitee.api_url(token)), company_id, token)
+    if ats_type == "rippling":
+        out = []
+        for uuid, listed in rippling.group(get(rippling.api_url(token))).items():
+            detail = get(rippling.detail_url(token, uuid)) if wanted(listed["name"]) else None
+            out.append(rippling.normalize_job(uuid, listed, detail, company_id, token))
+        return out
+    if ats_type == "breezy":
+        out = []
+        for item in get(breezy.api_url(token)):
+            ld = None
+            if wanted(item.get("name") or "") and item.get("url"):
+                page = client.get(item["url"], use_cache=False)
+                ld = breezy.job_posting_ld(page.text) if page.ok else None  # a closed page just has no description
+            out.append(breezy.normalize_item(item, ld, company_id, token))
+        return out
     raise BoardError(f"unsupported board type {ats_type}")
 
 

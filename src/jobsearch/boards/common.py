@@ -133,6 +133,32 @@ def pay_from_text(text: str) -> tuple[float, float, str, str] | None:
     return None
 
 
+_PERIOD_WORDS = (("hour", ("hour", "hr")), ("month", ("month",)), ("year", ("year", "annual", "yr", "salary")))
+
+
+def pay_period(label: Any, high: float | None = None) -> str | None:
+    """'year', 'hour' or 'month' from a board's pay-interval label; unlabeled small amounts are hourly."""
+    v = str(label or "").lower()
+    for period, words in _PERIOD_WORDS:
+        if any(w in v for w in words):
+            return period
+    if not v and high is not None:
+        return "hour" if high < 500 else "year"
+    return None
+
+
+def number(value: Any) -> float | None:
+    """A pay amount from a number or a numeric string ('23000'); None otherwise."""
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, int | float):
+        return float(value)
+    try:
+        return float(str(value).replace(",", ""))
+    except ValueError:
+        return None
+
+
 def apply_text_pay(p: dict[str, Any], text: str) -> None:
     if p.get("pay_low") is None and (found := pay_from_text(text)):
         p["pay_low"], p["pay_high"], p["currency"], p["pay_period"] = found

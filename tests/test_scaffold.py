@@ -44,9 +44,11 @@ def test_status_prints_config_and_counts():
     assert "data/companies" in result.output
 
 
-def test_unbuilt_commands_exit_nonzero():
-    result = runner.invoke(app, ["nightly"])
-    assert result.exit_code == 2
+def test_nightly_is_built():
+    # --help only: invoking nightly for real would run the whole pipeline against live data.
+    result = runner.invoke(app, ["nightly", "--help"])
+    assert result.exit_code == 0, result.output
+    assert "--watch-only" in result.output
 
 
 def test_module_entry_point():

@@ -15,6 +15,7 @@ from jobsearch.config import ROOT, load_config, pin_endpoint
 from jobsearch.detect import SUPPORTED, detect_company, needs_detection
 from jobsearch.http_client import PoliteClient
 from jobsearch.ingest import PartialExportError, ingest_inbox, now_iso
+from jobsearch.models import is_skipped
 from jobsearch.runlog import log_run
 from jobsearch.store import Store
 from jobsearch.triage import dumps_summary, run_triage, summarize
@@ -23,11 +24,6 @@ from jobsearch.watch import JobStore, run_watch
 app = typer.Typer(no_args_is_help=True, add_completion=False)
 
 DATA_DIRS = ["data/companies", "data/jobs", "data/people", "data/rejects", "inbox", "out"]
-
-
-def _not_yet(phase: int) -> None:
-    typer.echo(f"Not implemented yet (plan phase {phase}).", err=True)
-    raise typer.Exit(code=2)
 
 
 def count_files(root: Path = ROOT) -> dict[str, int]:
@@ -162,14 +158,36 @@ def discover(
     limit: Annotated[int | None, typer.Option(help="Stop after this many companies")] = None,
     pause: Annotated[float, typer.Option(help="Seconds between searches (spares the search engines)")] = 4.0,
     force: Annotated[bool, typer.Option(help="Search again even if searched recently")] = False,
+    recheck_other: Annotated[
+        bool, typer.Option(help="No search: adopt boards earlier searches noted on systems supported since")
+    ] = False,
+    reject: Annotated[
+        list[str] | None,
+        typer.Option(help="Rule out a wrong board for good, e.g. C991=breezy:sense-engineering (clears it if adopted)"),
+    ] = None,
 ) -> None:
     """Find job boards by web search for companies without a confirmed board (no LLM). Best triage fit first."""
-    from jobsearch.discover import discovery_order, needs_discovery, run_discover
+    from jobsearch.discover import discovery_order, needs_discovery, reject_board, run_discover
 
     cfg = load_config()
     store = Store()
     today = date.today()
     started = time.monotonic()
+    if reject:
+        for item in reject:
+            cid, _, board = item.partition("=")
+            if not (r := store.load_company(cid.strip())) or ":" not in board:
+                raise typer.BadParameter(f"expected ID=type:token, got {item!r}")
+            cleared = reject_board(r, board.strip())
+            r.setdefault("history", []).append(
+                {"at": now_iso(), "stage": "discover", "changed": ["discovery.rejected"] + (["ats"] if cleared else [])}
+            )
+            store.save_company(r)
+            typer.echo(f"{cid}: ruled out {board}" + ("; it was the current board, so detect will start over" if cleared else ""))
+        return
+    if recheck_other:
+        _promote_stored_boards(cfg, store, only, today.isoformat(), started)
+        return
     todo = [
         r
         for cid in (only or store.company_ids())
@@ -200,6 +218,36 @@ def discover(
             "duration_s": round(time.monotonic() - started, 2),
         }
     )
+
+
+def _promote_stored_boards(cfg, store: Store, only: list[str] | None, today: str, started: float) -> None:
+    from jobsearch.detect import SUPPORTED
+    from jobsearch.discover import promote_stored, stored_board_candidates
+
+    found: list[str] = []
+    checked = 0
+    with PoliteClient(cfg) as client:
+        for cid in only or store.company_ids():
+            r = store.load_company(cid)
+            if not r or is_skipped(r) or r.get("missing_from_tracker"):
+                continue
+            ats = r.get("ats") or {}
+            if (ats.get("type") in SUPPORTED and ats.get("confirmed") is True) or not stored_board_candidates(r):
+                continue
+            checked += 1
+            if not (new := promote_stored(r, client, cfg, today)):
+                typer.echo(f"  ..   {cid} {r['tracker'].get('company', '')[:32]}: no confirmed board")
+                continue
+            r["ats"] = new
+            r.setdefault("history", []).append({"at": now_iso(), "stage": "discover", "changed": ["ats"]})
+            store.save_company(r)
+            found.append(f"{cid} {new['type']}:{new['token']}")
+            typer.echo(f"  FOUND {cid} {r['tracker'].get('company', '')[:32]}: {new['type']}:{new['token']} "
+                       f"({new['job_count']} jobs; {new['note']})")  # fmt: skip
+    typer.echo(f"\nsummary: checked={checked}, found={len(found)}")
+    log_run({"at": now_iso(), "command": "discover --recheck-other", "counts": {"checked": checked,
+             "found": len(found)}, "found": found, "http": client.stats,
+             "duration_s": round(time.monotonic() - started, 2)})  # fmt: skip
 
 
 @app.command()
@@ -524,15 +572,62 @@ def export(
 
 
 @app.command()
-def digest() -> None:
-    """Write out/YYYY-MM-DD/digest.md (and new_companies.md)."""
-    from jobsearch.digest import write_digest
+def dismiss(
+    jobs: Annotated[list[str], typer.Argument(help="Posting URLs as the report links them, or job keys")],
+    reason: Annotated[str, typer.Option(help="Why, for the record")] = "",
+    undo: Annotated[bool, typer.Option(help="Bring them back")] = False,
+) -> None:
+    """Hide jobs you've ruled out from the report. The tracker is never touched: close them there yourself."""
+    from jobsearch.digest import DISMISSED
+    from jobsearch.export import _all
+    from jobsearch.store import read_json, write_json
 
-    path = write_digest(Store(), date.today().isoformat())
-    typer.echo(f"digest: {path}")
+    store = Store()
+    path = store.data_dir / DISMISSED
+    gone = read_json(path) if path.exists() else {}
+    known = {j["key"]: j for j in _all(store.data_dir / "jobs")}
+    by_url = {j.get("url"): k for k, j in known.items()}
+    for item in jobs:
+        key = by_url.get(item, item)
+        if key not in known:
+            typer.echo(f"  no job with that key or URL: {item}")
+            continue
+        if undo:
+            gone.pop(key, None)
+        else:
+            gone[key] = reason or "dismissed by hand"
+        typer.echo(f"  {'restored' if undo else 'dismissed'}: {known[key].get('company')} - {known[key]['title']}")
+    write_json(path, dict(sorted(gone.items())))
 
 
 @app.command()
-def nightly() -> None:
-    """Run the full nightly pipeline."""
-    _not_yet(7)
+def digest() -> None:
+    """Write the report: out/YYYY-MM-DD/digest.md and digest.html (open it in a browser)."""
+    from jobsearch.digest import write_digest
+
+    cfg = load_config()
+    path = write_digest(
+        Store(), date.today().isoformat(), export_mode=cfg.nightly.export, top=cfg.nightly.report_top
+    )
+    typer.echo(f"report: {path.with_suffix('.html')} (markdown: {path})")
+
+
+@app.command()
+def nightly(
+    watch_only: Annotated[
+        bool, typer.Option(help="Only watch the boards and score new postings (the 6-hourly scheduled task)")
+    ] = False,
+) -> None:
+    """Run every stage in order and end with the report (plan phase 7). Exits at once if another run is going."""
+    from jobsearch.nightly import AlreadyRunning, run_nightly
+
+    try:
+        entry = run_nightly(load_config(), watch_only=watch_only)
+    except AlreadyRunning as e:
+        typer.echo(f"nightly: {e}; exiting")
+        return
+    for s in entry["stages"]:
+        state = s.get("skipped") or ("ok" if s.get("exit") == 0 else f"exit {s.get('exit')}")
+        typer.echo(f"  {s['stage']:<9} {state:<16} {s.get('minutes', 0):>5} min")
+    for a in entry["alerts"]:
+        typer.echo(f"ALERT: {a}")

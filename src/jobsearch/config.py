@@ -115,6 +115,14 @@ class EvidenceCfg(_Strict):
     max_total_chars: int = Field(30000, ge=1000)
 
 
+class NightlyCfg(_Strict):
+    discover_limit: int = Field(60, ge=0)  # web searches per night for companies without a job board
+    # "preview" writes the import CSVs without marking anything sent: run `export` yourself when you import, so a
+    # skipped day never drops changes. "real" exports every night, and then every night's CSVs must be imported.
+    export: Literal["preview", "real"] = "preview"
+    report_top: int = Field(8, ge=1)  # jobs written up in full at the top of the report
+
+
 class Config(_Strict):
     runtime: Literal["local", "gitlab"] = "local"
     auth: Literal["claude-code", "api-key"] = "claude-code"
@@ -133,6 +141,7 @@ class Config(_Strict):
     search: SearchCfg = SearchCfg()
     evidence: EvidenceCfg = EvidenceCfg()
     rank: RankCfg = RankCfg()
+    nightly: NightlyCfg = NightlyCfg()
 
 
 def load_config(path: Path | None = None) -> Config:

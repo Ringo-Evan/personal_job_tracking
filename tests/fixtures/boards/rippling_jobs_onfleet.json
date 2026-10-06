@@ -1,0 +1,80 @@
+[
+ {
+  "uuid": "3df1f768-e81c-4d36-854b-7db308519340",
+  "name": "Full-Stack Engineer (Quality & Automation)",
+  "department": {
+   "id": "Product Development",
+   "label": "Product Development"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340",
+  "workLocation": {
+   "label": "Brazil",
+   "id": "Brazil"
+  }
+ },
+ {
+  "uuid": "3df1f768-e81c-4d36-854b-7db308519340",
+  "name": "Full-Stack Engineer (Quality & Automation)",
+  "department": {
+   "id": "Product Development",
+   "label": "Product Development"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340",
+  "workLocation": {
+   "label": "Mexico",
+   "id": "Mexico"
+  }
+ },
+ {
+  "uuid": "3df1f768-e81c-4d36-854b-7db308519340",
+  "name": "Full-Stack Engineer (Quality & Automation)",
+  "department": {
+   "id": "Product Development",
+   "label": "Product Development"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340",
+  "workLocation": {
+   "label": "Canada",
+   "id": "Canada"
+  }
+ },
+ {
+  "uuid": "3df1f768-e81c-4d36-854b-7db308519340",
+  "name": "Full-Stack Engineer (Quality & Automation)",
+  "department": {
+   "id": "Product Development",
+   "label": "Product Development"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/3df1f768-e81c-4d36-854b-7db308519340",
+  "workLocation": {
+   "label": "Argentina",
+   "id": "Argentina"
+  }
+ },
+ {
+  "uuid": "ae3a6e0e-cf22-4166-ba4a-532f24b0f71f",
+  "name": "Solutions Engineer (LATAM)",
+  "department": {
+   "id": "Solutions",
+   "label": "Solutions"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/ae3a6e0e-cf22-4166-ba4a-532f24b0f71f",
+  "workLocation": {
+   "label": "Remote (Brazil)",
+   "id": "Remote (Brazil)"
+  }
+ },
+ {
+  "uuid": "ae3a6e0e-cf22-4166-ba4a-532f24b0f71f",
+  "name": "Solutions Engineer (LATAM)",
+  "department": {
+   "id": "Solutions",
+   "label": "Solutions"
+  },
+  "url": "https://ats.rippling.com/onfleet-careers/jobs/ae3a6e0e-cf22-4166-ba4a-532f24b0f71f",
+  "workLocation": {
+   "label": "Remote (Mexico)",
+   "id": "Remote (Mexico)"
+  }
+ }
+]

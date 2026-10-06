@@ -3,6 +3,7 @@
 import copy
 import csv
 import io
+import re
 
 import pytest
 
@@ -281,11 +282,17 @@ def test_dry_run_writes_and_marks_nothing(store, tmp_path):
 # --- digest ---------------------------------------------------------------------------------------------
 
 
+VERIFIED = {"at": "2026-10-05T02:10:00-04:00", "stage": "verify", "changed": ["research"]}
+
+
 def test_digest_sections(store, tmp_path):
     rec = store.load_company("C2")
     rec["research"] = copy.deepcopy(RESEARCH) | {"company_id": "C2", "qa_openings": [], "people": []}
+    rec["history"].append(VERIFIED)
+    store.save_company(rec | {"ats": {"type": "other", "token": None}})
+    rec = store.load_company("C1")
+    rec["history"].append(VERIFIED)
     store.save_company(rec)
-    store.save_company(store.load_company("C2") | {"ats": {"type": "other", "token": None}})
     export(store, tmp_path)
     write_json(
         store.data_dir / "rejects" / "C7-20261005T020000.json", {"detail": "extract: grounding failed"}
@@ -294,17 +301,72 @@ def test_digest_sections(store, tmp_path):
     log.write_text('{"at": "2026-10-05T01:00:00", "command": "watch", "counts": {"new": 1}, "failed": ["C9 lever:x: 500"], "duration_s": 3}\n'
                    '{"at": "2026-10-04T01:00:00", "command": "watch", "counts": {}, "failed": ["old"]}\n',
                    encoding="utf-8")  # fmt: skip
-    md = build_digest(store, TODAY, runs_log=log)
-    for heading in ("## 1. New jobs (2)", "## 2. Companies verified today (2)", "## 3. People found (1)",
-                    "## 4. No supported job board, check by hand (1)", "## 5. Rejects (1)", "## 6. Errors (1)",
-                    "## 7. Run totals"):  # fmt: skip
+    md = build_digest(store, TODAY, runs_log=log, out_root=tmp_path / "out")
+    for heading in ("## At a glance", "## Apply next (0)", "## New since the last report (2)",
+                    "## Rest of the shortlist (0)", "## Approach without an opening", "## Companies researched (2)",
+                    "## People found (1)", "## Job boards", "no supported board: check by hand (1)",
+                    "## Rejects and errors (2)", "## Run totals", "## Importing into the tracker"):  # fmt: skip
         assert heading in md, heading
-    assert "[QA Manager](https://job-boards.greenhouse.io/acme/jobs/1)" in md
+    assert "[QA Manager](<https://job-boards.greenhouse.io/acme/jobs/1>)" in md
     assert "Tiny Games: https://acme.example/careers" in md
-    assert "C9 lever:x: 500" in md and "old" not in md
-    path = write_digest(store, TODAY, out_root=tmp_path / "out", runs_log=log)
-    assert path.read_text(encoding="utf-8") == md
+    assert "C9 lever:x: 500" in md and "watch: old" not in md  # only runs since the last report (here: midnight)
+    assert "jobsearch export`, then import" in md  # preview mode: the owner exports when importing
+    path = write_digest(store, TODAY, out_root=tmp_path / "out", runs_log=log, state_path=tmp_path / "state.json",
+                        router_db=None)  # fmt: skip
+    same = lambda s: re.sub(r"_Generated [^_]*_", "", s)  # noqa: E731 - only the generated time differs
+    assert same(path.read_text(encoding="utf-8")) == same(md)
+    page = (path.parent / "digest.html").read_text(encoding="utf-8")
+    assert "<h2>At a glance</h2>" in page and '<a href="https://job-boards.greenhouse.io/acme/jobs/1">' in page
     assert (path.parent / "new_companies.md").exists()
+
+
+def test_new_since_the_last_report_comes_from_the_saved_snapshot(store, tmp_path):
+    state, none = tmp_path / "state.json", tmp_path / "none.jsonl"
+    write_digest(store, TODAY, out_root=tmp_path / "out", runs_log=none, state_path=state, router_db=None)
+    assert read_json(state)["jobs"] == ["greenhouse-1"]
+    md = build_digest(store, "2026-10-06", runs_log=none, prev=read_json(state), out_root=tmp_path / "out")
+    assert "## New since the last report (0)" in md  # reported yesterday, though never exported
+    write_json(store.data_dir / "jobs" / "greenhouse-2.json",
+               dict(WATCHED_JOB, key="greenhouse-2", board_job_id="2", title="Lead SDET",
+                    url="https://job-boards.greenhouse.io/acme/jobs/2"))  # fmt: skip
+    md = build_digest(store, "2026-10-06", runs_log=none, prev=read_json(state), out_root=tmp_path / "out")
+    assert "## New since the last report (1)" in md and "Lead SDET" in md  # first seen 10-05, after that report
+
+
+def test_apply_next_card_brings_the_findings_together(store, tmp_path):
+    score = {"why": "Strong QA lead fit.", "skill_match": 4, "seniority": "match", "maine_eligible": "yes",
+             "notes": "Confirm travel.", "track": "QA leadership"}  # fmt: skip
+    write_json(store.data_dir / "jobs" / "greenhouse-1.json", dict(WATCHED_JOB, score=score))
+    letter = tmp_path / "out" / "2026-10-01" / "recommendations" / "cover-letters" / "acme-qa-manager.md"
+    letter.parent.mkdir(parents=True)
+    letter.write_text("Dear Acme", encoding="utf-8")
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out")
+    card = md.split("## Apply next (1)")[1].split("## New since")[0]
+    assert "### 1. QA Manager, Acme" in card
+    for fact in ("skill 4/5", "company fit 4/5", "Maine: yes", "$120,000-150,000/yr", "posted 2026-10-01"):
+        assert fact in card, fact
+    assert "**Why:** Strong QA lead fit." in card and "**Check first:** Confirm travel." in card
+    assert "Director of QA: Dana Whitfield (VP of Engineering)" in card
+    assert "https://www.linkedin.com/search/results/people/?keywords=" in card  # a link to click, never fetched
+    assert "[acme-qa-manager.md](<../2026-10-01/recommendations/cover-letters/acme-qa-manager.md>)" in card
+
+
+def test_dismissed_jobs_are_hidden_from_the_report(store, tmp_path):
+    score = {"why": "x", "skill_match": 4, "seniority": "match", "maine_eligible": "yes", "notes": "", "track": "Core QA"}
+    write_json(store.data_dir / "jobs" / "greenhouse-1.json", dict(WATCHED_JOB, score=score))
+    write_json(store.data_dir / "dismissed.json", {"greenhouse-1": "below my level"})
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out")
+    assert "QA Manager" not in md
+    assert "| Dismissed by hand (hidden here, untouched in the tracker) | 1 |" in md
+
+
+def test_html_report_shows_html_from_the_web_as_text(store, tmp_path):
+    write_json(store.data_dir / "jobs" / "greenhouse-1.json",
+               dict(WATCHED_JOB, title='QA <script>alert("x")</script> Lead'))  # fmt: skip
+    path = write_digest(store, TODAY, out_root=tmp_path / "out", runs_log=tmp_path / "none.jsonl",
+                        state_path=tmp_path / "state.json", router_db=None)  # fmt: skip
+    page = (path.parent / "digest.html").read_text(encoding="utf-8")
+    assert "<script>" not in page and "&lt;script&gt;" in page
 
 
 def test_people_failing_current_rules_are_not_exported_and_unexported_records_are_removed(store, tmp_path):

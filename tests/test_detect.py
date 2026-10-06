@@ -87,7 +87,7 @@ def test_board_url(ats_type, token, url):
     ("html", "name"),
     [
         ('<a href="https://careers-acme.icims.com/jobs">', "icims"),
-        ('<iframe src="https://apply.workable.com/acme/">', "workable"),
+        ('<iframe src="https://acme.applytojob.com/apply/">', "jazzhr"),
         ("https://acme.bamboohr.com/careers", "bamboohr"),
         ("https://recruiting.paylocity.com/recruiting/jobs/All/abc", "paylocity"),
         ("<p>We are hiring!</p>", None),
