@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "workable",
+    "token": "owlet-baby-care-1",
+    "board_url": "https://apply.workable.com/owlet-baby-care-1/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results; Owlet Baby Care",
+    "job_count": 3
+  },
   "triage": {
     "fit": 5,
     "stability": 2,
@@ -154,16 +164,23 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-06T10:40:24-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://owletcare.com/pages/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses workable"
+    "at": "2026-10-06",
+    "results": 22,
+    "careers_page": null,
+    "found": "workable:owlet-baby-care-1 (linked from search results)",
+    "other": []
   },
   "verify_rejects": 0
 }

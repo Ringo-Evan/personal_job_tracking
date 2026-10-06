@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "rippling",
+    "token": "bamboo-health-careers",
+    "board_url": "https://ats.rippling.com/bamboo-health-careers/jobs",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "noted by an earlier search; board system now supported; board name Bamboo Health",
+    "job_count": 11
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -139,6 +149,13 @@
       "stage": "verify",
       "changed": [
         "research"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:24-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],

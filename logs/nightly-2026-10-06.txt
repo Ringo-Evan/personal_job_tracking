@@ -1,0 +1,78 @@
+
+===== 10:58:34 watch: jobsearch watch --quiet
+  NEW  Philips (Bedford MA)     Service Quality Engineer                                     [unknown] Gainesville, Florida, United States  USD 92,000-130,000/year
+  NEW  Philips (Bedford MA)     Sr QA Manager, Distribution & Warehouse                      [unknown] Mount Pleasant, Pennsylvania, United Sta  USD 120,000-170,400/year
+  NEW  Accela                   Site Reliability Engineer                                    [yes] Remote Based - US  USD 130,000-150,000/year
+  NEW  Elanco                   Quality Assurance Advisor, Sterility Assurance               [unknown] US - Teleworker
+  NEW  Elanco                   Biotech Network Advisor, Quality Assurance                   [yes] US - Remote
+  NEW  Elanco                   Quality Control Technician - Animal Care (Sunday-Thursday)   [yes] Winslow, ME  USD 46,500-64,350/year
+  NEW  Elanco                   Quality Control Technician - Animal Care (Tuesday -Saturday  [yes] Winslow, ME  USD 46,500-64,350/year
+
+summary: boards_ok=465, boards_failed=3, fetched=21628, title_matches=1778, kept=131, new=7, updated=64, closed=0, reopened=0
+  failed: C071 workday:insulet|5|insuletcareers: unexpected workday response shape: KeyError: 'externalPath'
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+  failed: C496 workday:fis|5|SearchJobs: unexpected workday response shape: KeyError: 'externalPath'
+
+===== 11:43:56 rank: jobsearch rank
+  ashby-aa60ab83-6552-4c9a-afec-4ed4bc254b skill=2 match   maine=yes     Staff Site Reliability Engineer
+  ashby-f53df2af-e56d-4be4-a091-35ebe13983 skill=2 below   maine=no      Flight Test Operator - Data Collection Fixed Term
+  greenhouse-5411533008                    skill=4 match   maine=yes     QA Manager, Live Operations
+  greenhouse-7421839                       skill=3 match   maine=unknown Software Quality Operations Specialist, Domain Exp
+  greenhouse-7456163                       skill=3 match   maine=yes     Software Quality Operations Specialist
+  greenhouse-7458098                       skill=3 match   maine=unknown Software Quality Operations Specialist
+  greenhouse-7812967003                    skill=3 match   maine=yes     Senior Manager, Clinical Development and Validatio
+  greenhouse-7816014                       skill=3 match   maine=unknown Staff Software Quality Safety Operations Specialis
+  greenhouse-7819763003                    skill=3 match   maine=yes     Senior Manager, Clinical Development and Validatio
+  greenhouse-7901723003                    skill=4 match   maine=yes     Sr. QA Automation Test Engineer
+  greenhouse-7944176                       skill=3 match   maine=unknown Software Quality Operations Specialist
+  greenhouse-8067147                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067500                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067501                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8067678                       skill=2 above   maine=yes     Senior Engineering Manager V&V Media
+  greenhouse-8139255                       skill=4 above   maine=yes     Senior Manager, Quality Engineering
+  greenhouse-8234070                       skill=2 below   maine=yes     Site Reliability Engineer
+  workday-JR101553                         skill=2 match   maine=yes     Principal Site Reliability Engineer
+  workday-JR103232                         skill=2 above   maine=yes     VP, Inventory Control & Quality Assurance
+  workday-JR118509                         skill=3 match   maine=unknown Senior Software Design Assurance (Sr Software Desi
+  workday-JR120368                         skill=3 below   maine=yes     Software QA Engineer 2
+  workday-JR120414                         skill=4 match   maine=yes     Staff SW QA Engineer
+  workday-JR120416                         skill=3 match   maine=yes     Sr SW Design Quality Engineer
+  workday-JR_052064                        skill=4 match   maine=no      Senior Automation QA Engineer
+  workday-R18065                           skill=2 match   maine=no      Senior Staff Automation Engineer
+  workday-R18558                           skill=5 match   maine=no      R&D System Verification & Validation Test Manager
+  workday-R19650                           skill=3 below   maine=no      Product Quality Assurance Engineer
+  workday-R19835                           skill=2 below   maine=no      Site Quality Assurance Engineer
+  workday-R19839                           skill=5 match   maine=no      Staff Software QA Engineer
+  workday-R20003                           skill=2 below   maine=no      Site Quality Assurance Engineer II
+  workday-R20219                           skill=3 match   maine=no      Senior Quality Assurance Engineer
+  workday-R20336                           skill=2 below   maine=no      Test Technician l
+  workday-R20349                           skill=3 below   maine=no      Quality Assurance Engineer
+  workday-R20381                           skill=2 below   maine=no      Test Tech I
+  ashby-405a5c5c-5ceb-4f13-93a5-dc176ffd4e skill=2 match   maine=yes     Senior Site Reliability Engineer
+  ashby-afd7e838-bd5e-4697-94ea-5d31fe1b00 skill=1 match   maine=yes     Finance Systems and Automation Manager
+  ashby-f508992f-5b26-4ab1-816d-d17f121d20 skill=2 match   maine=yes     Staff Site Reliability Engineer
+  greenhouse-4715148005                    skill=2 match   maine=yes     Customer Reliability Engineer
+  greenhouse-4715160005                    skill=2 below   maine=yes     Customer Reliability Engineer
+  greenhouse-4729892005                    skill=2 match   maine=yes     Marketing Automation Manager
+  greenhouse-5385065008                    skill=2 match   maine=yes     Lead Site Reliability Engineer
+  greenhouse-5418501008                    skill=2 match   maine=no      Senior Revenue Operations Manager - GTM Systems an
+  greenhouse-6017906004                    skill=2 match   maine=yes     CXO Senior AI Automation Specialist
+  greenhouse-6166032004                    skill=4 match   maine=yes     Senior Software Development Engineer in Test (SDET
+  greenhouse-7909463                       skill=2 match   maine=yes     Staff Site Reliability Engineer, Ads
+  greenhouse-7947082                       skill=2 match   maine=yes     GTM Engineer - Sales Workflow Automation, Revenue 
+  greenhouse-7990752003                    skill=2 above   maine=no      Senior Staff Site Reliability Engineer
+  greenhouse-8106198                       skill=2 match   maine=yes     Senior Site Reliability Engineer
+  greenhouse-8137733                       skill=4 match   maine=no      Software Quality Manager
+  greenhouse-8160475                       skill=2 match   maine=no      Manager, Site Reliability Engineering (Auth0)
+  greenhouse-8201029                       skill=2 above   maine=yes     Staff Software Engineer, Finance Automation
+  greenhouse-8623389002                    skill=2 match   maine=yes     Site Reliability Engineer, Infrastructure Platform
+  greenhouse-8623592002                    skill=2 above   maine=yes     Principal Site Reliability Engineer, Platform Engi
+  greenhouse-8770702002                    skill=2 above   maine=yes     Staff Backend Engineer, Database Automation (Go)
+  workday-JR20918                          skill=2 match   maine=no      Senior Site Reliability Engineer
+  workday-JR21112                          skill=3 match   maine=yes     Manager, Release & Change Engineering
+  workday-R0026819                         skill=2 match   maine=yes     Quality Assurance Advisor, Sterility Assurance
+  workday-R0026959                         skill=1 below   maine=yes     Quality Control Technician - Animal Care (Sunday-T
+  workday-R0027153                         skill=2 match   maine=unknown Biotech Network Advisor, Quality Assurance
+  workday-R0027199                         skill=1 below   maine=no      Quality Control Technician - Animal Care (Tuesday 
+
+summary: scored=60, unchanged=53, failed=0, fetched_pages=1  STOPPED: per-run budget of 60 scores used

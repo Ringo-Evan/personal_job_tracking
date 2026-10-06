@@ -45,15 +45,15 @@
   },
   "exported": {},
   "ats": {
-    "type": "other",
-    "token": null,
-    "board_url": null,
-    "detected_by": "html-scan",
-    "checked_at": "2026-10-05",
-    "confirmed": null,
+    "type": "workable",
+    "token": "feeldco",
+    "board_url": "https://apply.workable.com/feeldco/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
     "source": "https://feeld.co/careers",
-    "note": "uses workable",
-    "job_count": null
+    "note": "noted by an earlier search; board system now supported; board name Feeld",
+    "job_count": 7
   },
   "triage": null,
   "research": null,
@@ -80,6 +80,13 @@
       "stage": "discover",
       "changed": [
         "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:22-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],

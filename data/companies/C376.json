@@ -159,16 +159,34 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-06T10:40:24-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:43:50-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery.rejected",
+        "ats"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
+    "at": "2026-10-06",
+    "results": 26,
     "careers_page": "https://www.infor.com/about/careers",
-    "found": null,
+    "found": "pinpoint:infor (embedded in https://www.infor.com/about/careers)",
     "other": [],
-    "careers_page_note": "uses pinpoint"
+    "rejected": [
+      "pinpoint:infor"
+    ]
   },
   "verify_rejects": 0
 }

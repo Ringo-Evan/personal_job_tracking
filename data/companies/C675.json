@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "workable",
+    "token": "bohemia-interactive-simulations-inc",
+    "board_url": "https://apply.workable.com/bohemia-interactive-simulations-inc/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "noted by an earlier search; board system now supported; board name Bohemia Interactive Simulations",
+    "job_count": 0
+  },
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -140,6 +150,13 @@
       "stage": "discover",
       "changed": [
         "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:26-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],

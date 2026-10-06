@@ -83,15 +83,21 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-06T10:40:24-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
+    "at": "2026-10-06",
+    "results": 23,
     "careers_page": "https://careers.hostaway.com/",
     "found": null,
-    "other": [],
-    "careers_page_note": "uses recruitee"
+    "other": []
   }
 }

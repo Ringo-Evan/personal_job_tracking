@@ -45,15 +45,15 @@
   },
   "exported": {},
   "ats": {
-    "type": "other",
-    "token": null,
-    "board_url": null,
-    "detected_by": "html-scan",
-    "checked_at": "2026-10-05",
-    "confirmed": null,
+    "type": "workable",
+    "token": "world-central-kitchen",
+    "board_url": "https://apply.workable.com/world-central-kitchen/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
     "source": "https://wck.org/",
-    "note": "no known job-board system on careers page",
-    "job_count": null
+    "note": "noted by an earlier search; board system now supported; board name World Central Kitchen",
+    "job_count": 5
   },
   "triage": null,
   "research": null,
@@ -80,6 +80,13 @@
       "stage": "discover",
       "changed": [
         "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:22-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],

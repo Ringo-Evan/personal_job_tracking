@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "workable",
+    "token": "modio",
+    "board_url": "https://apply.workable.com/modio/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "noted by an earlier search; board system now supported; board name mod.io",
+    "job_count": 0
+  },
   "triage": {
     "fit": 3,
     "stability": 3,
@@ -81,6 +91,13 @@
       "stage": "discover",
       "changed": [
         "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:26-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],

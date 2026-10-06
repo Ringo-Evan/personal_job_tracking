@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "pinpoint",
+    "token": "infor",
+    "board_url": "https://infor.pinpointhq.com/",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://www.infor.com/about/careers",
+    "job_count": 229
+  },
   "triage": {
     "fit": 3,
     "stability": 4,
@@ -83,15 +93,22 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-06T10:40:24-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
+    "at": "2026-10-06",
+    "results": 23,
     "careers_page": "https://www.infor.com/about/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses pinpoint"
+    "found": "pinpoint:infor (embedded in https://www.infor.com/about/careers)",
+    "other": []
   }
 }

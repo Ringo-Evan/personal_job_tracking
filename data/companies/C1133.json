@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "rippling",
+    "token": "sheerlogistics",
+    "board_url": "https://ats.rippling.com/sheerlogistics/jobs",
+    "detected_by": "search",
+    "checked_at": "2026-10-06",
+    "confirmed": true,
+    "source": null,
+    "note": "noted by an earlier search; board system now supported; board name Sheer Logistics",
+    "job_count": 1
+  },
   "triage": {
     "fit": 2,
     "stability": 2,
@@ -82,6 +92,13 @@
       "stage": "discover",
       "changed": [
         "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-06T10:39:29-04:00",
+      "stage": "discover",
+      "changed": [
+        "ats"
       ]
     }
   ],
