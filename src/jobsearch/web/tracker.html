@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Job Search Tracker — Evan Ringo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Ported from the claude.ai tracker (data/snapshots/claude-ai-tracker-2026-10-07/page.html), served by
+     `python -m jobsearch serve`. Same layout and behavior; the data lives in data/tracker/ (plan-tracker.md). -->
+<style>
+:root{
+  --bg:#F4F6F3; --panel:#FFFFFF; --ink:#1C2A26; --muted:#5B6B65; --line:#D3DBD5;
+  --accent:#3F4F8C; --accent-ink:#FFFFFF; --soft:#E6EAF4; --warn:#B8740F; --warn-soft:#FBEFD9;
+  --bad:#A3362E; --good:#2F6B4B;
+  color-scheme:light;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121815; --panel:#1A221E; --ink:#E4EBE6; --muted:#9AAAA2; --line:#2F3A35;
+    --accent:#8C9CE0; --accent-ink:#10152A; --soft:#242C45; --warn:#E3A441; --warn-soft:#3A2E17;
+    --bad:#E0776E; --good:#79C299;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121815; --panel:#1A221E; --ink:#E4EBE6; --muted:#9AAAA2; --line:#2F3A35;
+  --accent:#8C9CE0; --accent-ink:#10152A; --soft:#242C45; --warn:#E3A441; --warn-soft:#3A2E17;
+  --bad:#E0776E; --good:#79C299;
+  color-scheme:dark;
+}
+[hidden]{display:none!important}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+header{padding:20px 20px 8px;max-width:1400px;margin:0 auto}
+h1{font-size:1.45rem;font-weight:600;margin:0}
+.sub{color:var(--muted);margin:2px 0 14px;font-size:.92rem}
+/* the one bold element: the pipeline strip */
+.pipe{display:flex;gap:3px;margin:6px 0 4px;overflow-x:auto}
+.pipe button{flex:1 1 0;min-width:78px;border:0;background:var(--panel);padding:8px 10px;text-align:left;cursor:pointer;border-bottom:3px solid var(--line)}
+.pipe button:first-child{border-radius:6px 0 0 6px}.pipe button:last-child{border-radius:0 6px 6px 0}
+.pipe b{display:block;font-size:1.5rem;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.pipe span{font-size:.8rem;color:var(--muted)}
+.pipe button.on{border-bottom-color:var(--accent);background:var(--soft)}
+.pipe button.due b{color:var(--warn)}
+nav{display:flex;gap:4px;max-width:1400px;margin:10px auto 0;padding:0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav button{border:0;background:none;padding:9px 14px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+nav button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:500}
+nav small{color:var(--muted);font-variant-numeric:tabular-nums}
+main{max-width:1400px;margin:0 auto;padding:14px 20px 40px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.tools input[type=search]{flex:1 1 220px;min-width:180px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.tools select{padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.btn{padding:8px 13px;border:1px solid var(--line);border-radius:6px;background:var(--panel);cursor:pointer;text-decoration:none;color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.danger{color:var(--bad)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn:focus-visible,nav button:focus-visible,.pipe button:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif;font-size:.9rem}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
+th .ar{color:var(--accent)}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;max-width:320px}
+tr:last-child td{border-bottom:0}
+tbody tr{cursor:pointer}
+tbody tr:hover td{background:var(--soft)}
+td.clip{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}
+td a{color:var(--accent)}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;background:var(--soft);font-size:.8rem;white-space:nowrap}
+.tag.due{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.by{font-size:.75rem;color:var(--muted)}
+.empty{padding:36px 20px;text-align:center;color:var(--muted)}
+.empty p{max-width:520px;margin:0 auto 12px}
+.status{min-height:1.4em;font-size:.88rem;color:var(--muted);margin:4px 0 0}
+.muted{color:var(--muted)}
+.grow{flex:1 1 240px}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none}
+.scrim.open{display:block}
+aside{position:fixed;top:0;right:0;height:100%;width:min(560px,100%);background:var(--panel);border-left:1px solid var(--line);transform:translateX(100%);transition:transform .2s ease;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+aside.open{transform:none}
+aside .hd{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+aside .hd h2{font-size:1.1rem;margin:0;font-weight:600}
+aside form{overflow-y:auto;padding:14px 18px;flex:1}
+.grp{margin:4px 0 16px}
+.grp h3{font-size:.85rem;color:var(--muted);font-weight:500;margin:0 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+label{display:block;margin:0 0 10px;font-size:.85rem;color:var(--muted)}
+label input,label select,label textarea{display:block;width:100%;margin-top:3px;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font-size:.93rem}
+label textarea{min-height:72px;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+aside .ft{padding:12px 18px;border-top:1px solid var(--line);display:flex;gap:8px;justify-content:space-between}
+.banner{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:12px}
+.banner.warn{background:var(--warn-soft);border-color:var(--warn)}
+.banner span{flex:1 1 300px}
+.bar{flex:1 1 160px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.guide{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px 22px;max-width:820px}
+.guide h2{font-size:1.1rem;margin:0 0 8px}
+.guide p,.guide li{max-width:72ch}
+.guide pre{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px;white-space:pre-wrap;font-size:.85rem;overflow-x:auto}
+iframe.report{display:block;width:100%;height:calc(100vh - 250px);min-height:520px;border:1px solid var(--line);border-radius:8px;background:#fff}
+@media (max-width:600px){.row2{grid-template-columns:1fr}header,main{padding-left:12px;padding-right:12px}nav{padding:0 12px}}
+@media (prefers-reduced-motion:reduce){aside{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Job search tracker</h1>
+  <p class="sub" id="sub">Loading…</p>
+  <div class="pipe" id="pipe" aria-label="Pipeline by stage"></div>
+</header>
+<nav id="tabs"></nav>
+<main id="main"></main>
+<div class="scrim" id="scrim"></div>
+<aside id="drawer" aria-hidden="true"></aside>
+<input type="file" id="file" accept=".csv,text/csv" hidden>
+
+<script>
+"use strict";
+// [key, label, kind, options, group], filled from /api/schema so the fields live in one place (tracker.py).
+let SCHEMA={}, STAGES=[], CLOSED=new Set(), TRACKS=[];
+const COLLABEL={_due:"Due",pay:"Pay",fit_score:"Fit",stability_score:"Stability",remote_likelihood:"Remote"};
+const CLIP=["next_action","role_families","interests","location","approach_role","next_step","title"];
+const data={}, loaded={}, prints={};
+let report=null, todayShown="", online=true, bulk=false, tab="today", q="", sortKey=null, sortDir=1, stageFilter=null, dueOnly=false, trackFilter="", sectorFilter="", editing=null;
+let queue=[], queueJob=null;  // companies agents queued for you to add, and the add in progress
+const $=s=>document.querySelector(s);
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fdef=(t,k)=>SCHEMA[t].fields.find(f=>f[0]===k);
+const label=(t,k)=>COLLABEL[k]||(fdef(t,k)||[k,k])[1].replace(/ \(.*\)$/,"");
+
+// Writes carry X-Tracker: the server refuses any write without it, so other sites in the browser can't write.
+async function api(method,url,body,type){
+  const opt={method,headers:{}};
+  if(method!=="GET"){
+    opt.headers["X-Tracker"]="1";
+    if(body!==undefined){opt.headers["Content-Type"]=type||"application/json";opt.body=type?body:JSON.stringify(body)}
+  }
+  const r=await fetch(url,opt);
+  let j=null; try{j=await r.json()}catch(e){}
+  if(!r.ok){const err=new Error((j&&j.error)||`HTTP ${r.status}`);err.status=r.status;err.data=j;throw err}
+  return j;
+}
+
+function parseDate(s){
+  if(!s)return null; s=String(s).trim();
+  let m=s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/); if(m)return new Date(+m[1],m[2]-1,+m[3]);
+  m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/); if(m){let y=+m[3]; if(y<100)y+=2000; return new Date(y,m[1]-1,+m[2]);}
+  return null;
+}
+function today(){const d=new Date();d.setHours(0,0,0,0);return d}
+function isoToday(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`}
+function dueState(r){
+  if(CLOSED.has(r.current_stage))return "";
+  const d=parseDate(r.follow_up_due); if(!d)return "";
+  const diff=Math.round((d-today())/864e5);
+  return diff<0?"Overdue":diff===0?"Today":diff<=3?"Soon":"";
+}
+function payText(r){
+  if(!r.pay_low&&!r.pay_high)return "";
+  const f=n=>n?Number(n).toLocaleString():"?";
+  return `${f(r.pay_low)}–${f(r.pay_high)} ${r.currency||""}${r.pay_period?" / "+String(r.pay_period).toLowerCase():""}`;
+}
+function cell(t,r,k){
+  if(k==="_due"){const s=dueState(r);return s?`<span class="tag due">${s}</span>`:""}
+  if(k==="pay")return esc(payText(r));
+  const v=r[k]; if(v==null||v==="")return "";
+  if(k==="current_stage"||k==="track"||k==="research_status"||k==="status")return `<span class="tag">${esc(v)}</span>`;
+  const f=fdef(t,k);
+  if(f&&f[2]==="url")return `<a href="${esc(v)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">link</a>`;
+  return esc(v);
+}
+
+function rows(){
+  const s=SCHEMA[tab]; let list=data[tab].slice();
+  if(tab==="jobs"){
+    if(stageFilter==="__closed")list=list.filter(r=>CLOSED.has(r.current_stage));
+    else if(stageFilter)list=list.filter(r=>(r.current_stage||"Lead")===stageFilter);
+    if(dueOnly)list=list.filter(r=>dueState(r));
+    if(trackFilter)list=list.filter(r=>(r.track||"")===trackFilter);
+  }
+  if(tab==="companies"&&sectorFilter)list=list.filter(r=>(r.sector||"")===sectorFilter);
+  if(q){const t=q.toLowerCase();list=list.filter(r=>Object.values(r).some(v=>String(v??"").toLowerCase().includes(t)))}
+  const k=sortKey||s.id;
+  list.sort((a,b)=>{
+    let x=k==="_due"?dueState(a):k==="pay"?+a.pay_high||0:a[k], y=k==="_due"?dueState(b):k==="pay"?+b.pay_high||0:b[k];
+    const nx=parseFloat(x),ny=parseFloat(y);
+    if(!isNaN(nx)&&!isNaN(ny)&&String(x).match(/^[\d.,]+$/))return (nx-ny)*sortDir;
+    x=String(x??"");y=String(y??"");
+    if(!x&&y)return 1; if(x&&!y)return -1;
+    return x.localeCompare(y,undefined,{numeric:true})*sortDir;
+  });
+  return list;
+}
+
+function renderHeader(){
+  const j=data.jobs||[], n=c=>j.filter(r=>(r.current_stage||"Lead")===c).length;
+  const due=j.filter(r=>dueState(r)).length;
+  const active=STAGES.filter(s=>!CLOSED.has(s));
+  $("#sub").textContent=loaded.jobs&&loaded.companies?`${j.length} jobs across ${data.companies.length} companies · ${j.filter(r=>r.date_applied).length} applied`:"Loading…";
+  $("#pipe").innerHTML=active.map(s=>`<button data-stage="${s}" class="${stageFilter===s&&tab==="jobs"?"on":""}"><b>${n(s)}</b><span>${s}</span></button>`).join("")
+   +`<button data-due="1" class="due ${dueOnly&&tab==="jobs"?"on":""}"><b>${due}</b><span>Follow-ups due</span></button>`
+   +`<button data-stage="__closed" class="${stageFilter==="__closed"&&tab==="jobs"?"on":""}"><b>${j.filter(r=>CLOSED.has(r.current_stage)).length}</b><span>Closed</span></button>`;
+  $("#tabs").innerHTML=`<button data-tab="today" class="${tab==="today"?"on":""}">Today</button>`
+   +Object.entries(SCHEMA).map(([k,s])=>`<button data-tab="${k}" class="${tab===k?"on":""}">${s.title} <small>${(data[k]||[]).length}</small></button>`).join("")
+   +`<button data-tab="guide" class="${tab==="guide"?"on":""}">Agent guide</button>`;
+}
+
+function offline(){
+  return online?"":`<div class="banner warn"><span>Can't reach the tracker. Is <code>python -m jobsearch serve</code> still running? Trying again every few seconds.</span></div>`;
+}
+
+function render(){
+  renderHeader();
+  if(!SCHEMA.jobs){$("#main").innerHTML=offline()||`<div class="empty"><p>Loading…</p></div>`;return}
+  if(tab==="today"){renderToday();return}
+  todayShown="";
+  if(tab==="guide"){renderGuide();return}
+  const s=SCHEMA[tab], list=rows();
+  let filt="";
+  if(tab==="jobs")filt=`<select id="trk" aria-label="Filter by track"><option value="">All tracks</option>${TRACKS.map(t=>`<option ${t===trackFilter?"selected":""}>${t}</option>`).join("")}</select>`
+    +((stageFilter||dueOnly)?`<button class="btn" id="clr">Showing ${esc(stageFilter==="__closed"?"closed":stageFilter||"due follow-ups")} · show all</button>`:"");
+  if(tab==="companies"){const secs=[...new Set(data.companies.map(r=>r.sector).filter(Boolean))].sort();
+    filt=`<select id="sec" aria-label="Filter by sector"><option value="">All sectors</option>${secs.map(t=>`<option ${t===sectorFilter?"selected":""}>${esc(t)}</option>`).join("")}</select>`}
+  const head=s.cols.map(k=>`<th data-sort="${k}">${esc(label(tab,k))}${(sortKey||s.id)===k?`<span class="ar"> ${sortDir>0?"▲":"▼"}</span>`:""}</th>`).join("");
+  const body=list.map(r=>`<tr tabindex="0" data-id="${esc(r[s.id])}">${s.cols.map(k=>`<td class="${CLIP.includes(k)?"clip":""}">${cell(tab,r,k)}${k===s.id&&r.updated_by&&r.updated_by!=="you"?`<div class="by">by ${esc(r.updated_by)}</div>`:""}</td>`).join("")}</tr>`).join("");
+  let extra="";
+  if(tab==="companies"){
+    const pend=queue.filter(b=>b.status!=="done"), n=pend.reduce((a,b)=>a+b.rows,0);
+    const more=pend.length>1?` and ${pend.length-1} more batch${pend.length>2?"es":""}`:"";
+    if(queueJob)extra=`<div class="banner"><span>${esc(queueJob.msg)}</span><div class="bar"><i style="width:${Math.round(100*queueJob.done/Math.max(1,queueJob.total))}%"></i></div></div>`;
+    else if(n)extra=`<div class="banner"><span>${n} ${n===1?"company is":"companies are"} waiting to be added (${esc(pend[0].label)}${more}, from ${esc(pend[0].added_by)}).</span><button class="btn primary" data-act="runimport">Add them</button></div>`;
+  }
+  const empty=!loaded[tab]?`<div class="empty"><p>Loading…</p></div>`:data[tab].length===0
+    ?`<div class="empty"><p>No ${s.title.toLowerCase()} yet. Add one by hand, import a CSV, or let an agent add them (see the Agent guide).</p><button class="btn primary" data-act="add">Add ${s.title.toLowerCase().replace(/s$/,"")}</button> <button class="btn" data-act="import">Import CSV</button></div>`
+    :`<div class="empty"><p>Nothing matches these filters.</p></div>`;
+  $("#main").innerHTML=offline()+extra+`<div class="tools"><input type="search" id="q" placeholder="Search ${s.title.toLowerCase()}…" value="${esc(q)}" aria-label="Search">${filt}
+    <button class="btn primary" data-act="add">Add</button><button class="btn" data-act="import">Import CSV</button><button class="btn" data-act="export">Export CSV</button></div>
+    ${list.length?`<div class="wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`:`<div class="wrap">${empty}</div>`}
+    <p class="status" id="status" role="status"></p>`;
+  const qi=$("#q"); qi.oninput=e=>{q=e.target.value;const pos=e.target.selectionStart;render();const n=$("#q");n.focus();n.setSelectionRange(pos,pos)};
+}
+
+// The newest daily report, as the nightly wrote it. Left alone while showing, so polling never reloads it.
+function renderToday(){
+  const key=`${report}|${online}`;
+  if(todayShown===key&&$("#main iframe.report"))return;
+  todayShown=key;
+  if(!report){$("#main").innerHTML=offline()+`<div class="wrap"><div class="empty"><p>No report yet. The nightly run writes one each morning, and it shows up here.</p></div></div>`;return}
+  const day=report.split("/")[2];
+  $("#main").innerHTML=offline()+`<div class="tools"><span class="muted grow">The daily report for ${esc(day)}: jobs to apply to next, what's new, follow-ups and anything that went wrong overnight.</span><a class="btn" href="${esc(report)}" target="_blank" rel="noopener">Open in its own tab</a></div><iframe class="report" title="Daily report" src="${esc(report)}"></iframe>`;
+  const fr=$("#main iframe.report");
+  fr.addEventListener("load",()=>{try{fr.contentDocument.querySelectorAll("a[href]").forEach(a=>{if(!a.getAttribute("href").startsWith("#"))a.target="_blank"})}catch(e){}});
+}
+
+function renderGuide(){
+  const fields=Object.entries(SCHEMA).map(([k,s])=>`${k}  (row ID = ${s.id}, e.g. ${s.prefix}001)\n  `+s.fields.map(f=>f[0]+(f[3]?` [${f[3].join(" | ")}]`:"")).join(", ")).join("\n\n");
+  $("#main").innerHTML=offline()+`<div class="guide">
+  <h2>Agents working on this tracker</h2>
+  <p>Claude Code, Codex and scripts on this PC can read and change the tracker. The nightly run is one of them: rows it wrote show "by pipeline" under the ID. Every change is also kept, with the old value, in <code>data/tracker/history.jsonl</code>.</p>
+  <h2>Rules every agent follows</h2>
+  <ul>
+  <li>Read <code>AGENTS.md</code> in the repo first.</li>
+  <li>Change rows only with <code>python -m jobsearch tracker …</code> and <code>--by "&lt;agent name&gt;"</code>; <code>python -m jobsearch tracker --help</code> lists the commands. Never edit the files in <code>data/tracker/</code> by hand: the command is what enforces these rules.</li>
+  <li>Agents may change research, screening and outreach fields on companies, and listing, pay and fit fields on jobs. A job's track, stage (Lead), next action and date found, and a person's status, connection and next step, they set only when adding the row.</li>
+  <li>Your ranks, preference scores, dealbreakers and notes, a job's stage after it's added, application and interview fields, and the whole Activity and Materials tabs are yours. Agents can't change them, can't blank anything you filled in, and can't delete rows.</li>
+  <li>Dates are YYYY-MM-DD and numbers are numbers. Never invent pay, eligibility or benefits.</li>
+  <li>People come only from public professional pages, with the source URL. No personal contact details and no LinkedIn scraping.</li>
+  </ul>
+  <h2>Brief: research a few companies</h2>
+  <pre>Read AGENTS.md. Research these companies on the web: [C077, C158, ...].
+For each one, update the company with what you found (career_url, maine_remote, research_notes citing your sources, hiring_difficulty) using: python -m jobsearch tracker update companies &lt;ID&gt; field=value ... --by "&lt;your name&gt;"
+Add any matching opening as a new job (stage Lead) and any publicly named engineering or QA leader as a person (name, title, source_url).
+Finish with a short summary of what you changed.</pre>
+  <h2>Brief: add companies in bulk</h2>
+  <pre>Read AGENTS.md. Find [50] employers in [area] that aren't in the tracker yet (check with: python -m jobsearch tracker list companies).
+Write them to a JSON file as a list of {company, sector, interests, career_url, research_notes}, then queue them for me:
+python -m jobsearch tracker queue-companies --file companies.json --label "[area] from [your name]" --by "[your name]"
+Don't add them one by one: they show on my Companies tab with an "Add them" button.</pre>
+  <p>Queued companies wait on the Companies tab until you click <b>Add them</b>. Each gets the next company ID and research status "Not started"; a name already in the tracker is skipped.</p>
+  <h2>Fields</h2><pre>${esc(fields)}</pre></div>`;
+}
+
+async function openDrawer(t,id,msg){
+  const s=SCHEMA[t]; const existing=id?data[t].find(r=>r[s.id]===id):null;
+  let r;
+  if(existing)r={...existing};
+  else{
+    let nid=""; try{nid=(await api("GET",`/api/next-id/${t}`)).id}catch(e){}
+    r={[s.id]:nid};
+    if(t==="jobs"){r.current_stage="Lead";r.highest_stage="None";r.date_discovered=isoToday()}
+  }
+  editing={t,isNew:!existing,id:r[s.id],orig:existing?{...existing}:{}};
+  const groups=[...new Set(s.fields.map(f=>f[4]))];
+  const input=f=>{const [k,l,type,opts]=f, v=r[k]??"", ro=k===s.id?"readonly":"";
+    if(type==="select")return `<label>${esc(l)}<select name="${k}"><option value=""></option>${opts.map(o=>`<option ${o===v?"selected":""}>${esc(o)}</option>`).join("")}${v&&!opts.includes(v)?`<option selected>${esc(v)}</option>`:""}</select></label>`;
+    if(type==="long")return `<label>${esc(l)}<textarea name="${k}">${esc(v)}</textarea></label>`;
+    return `<label>${esc(l)}<input name="${k}" ${ro} value="${esc(v)}" ${type==="num"?'inputmode="decimal"':""} ${type==="date"?'placeholder="YYYY-MM-DD"':""} ${type==="url"?'inputmode="url"':""}></label>`};
+  const d=$("#drawer");
+  d.innerHTML=`<div class="hd"><h2>${existing?esc(r[s.id]+" · "+(r.job_title||r.name||r.company||r.file_name||r.type||"")):"New "+s.title.toLowerCase().replace(/s$/,"")}</h2><button class="btn" data-act="close">Close</button></div>
+   <form id="frm"><p class="banner warn" id="dmsg" role="alert" ${msg?"":"hidden"}>${esc(msg||"")}</p>${groups.map(g=>`<div class="grp"><h3>${g}</h3><div class="row2">${s.fields.filter(f=>f[4]===g&&f[2]!=="long").map(input).join("")}</div>${s.fields.filter(f=>f[4]===g&&f[2]==="long").map(input).join("")}</div>`).join("")}
+   ${existing&&existing.updated_at?`<p class="by">Last saved ${esc(existing.updated_at.slice(0,16).replace("T"," "))} by ${esc(existing.updated_by||"you")}</p>`:""}</form>
+   <div class="ft">${existing?`<button class="btn danger" data-act="del">Delete</button>`:"<span></span>"}<span><button class="btn" data-act="close">Cancel</button> <button class="btn primary" data-act="save">Save</button></span></div>`;
+  d.classList.add("open");d.setAttribute("aria-hidden","false");$("#scrim").classList.add("open");
+  setTimeout(()=>{const f=d.querySelector("input:not([readonly])");f&&f.focus()},50);
+}
+function closeDrawer(){editing=null;$("#drawer").classList.remove("open");$("#drawer").setAttribute("aria-hidden","true");$("#scrim").classList.remove("open");render()}
+function drawerMsg(m){const p=$("#dmsg"); if(p){p.textContent=m;p.hidden=false;p.scrollIntoView({block:"nearest"})} else alert(m)}
+function upsert(t,row){const k=SCHEMA[t].id, i=data[t].findIndex(r=>r[k]===row[k]); if(i<0)data[t].push(row); else data[t][i]=row}
+
+// Sends only the fields you changed, with the values you started from: if one of them changed elsewhere meanwhile,
+// the server refuses the save instead of overwriting it. The row that comes back is the saved one (the server raises
+// the highest stage when the stage moves forward).
+async function save(){
+  if(!editing)return;
+  const {t,isNew,orig,id}=editing, s=SCHEMA[t], fd=new FormData($("#frm"));
+  if(!id){drawerMsg("This row has no ID.");return}
+  const changes={}, seen={};
+  for(const f of s.fields){
+    const k=f[0]; if(k===s.id)continue;
+    const v=(fd.get(k)??"").toString().trim(), was=orig[k]==null?"":String(orig[k]);
+    if(v!==was){changes[k]=v; if(!isNew)seen[k]=orig[k]??null}
+  }
+  if(!isNew&&!Object.keys(changes).length){closeDrawer();return}
+  const btn=$('#drawer [data-act="save"]'); if(btn)btn.disabled=true;
+  try{
+    const res=await api("POST",`/api/rows/${t}/${encodeURIComponent(id)}`,{changes,seen,create:isNew});
+    upsert(t,res.row); closeDrawer();
+  }catch(e){
+    if(btn)btn.disabled=false;
+    if(e.status===409&&e.data&&e.data.current){upsert(t,e.data.current);openDrawer(t,id,"Changed elsewhere after you opened it, so nothing was saved. The row is reloaded below: make your change again.")}
+    else drawerMsg("Couldn't save: "+e.message);
+  }
+}
+async function del(){
+  const {t,id}=editing; if(!confirm(`Delete ${id}? The history log keeps a copy, but there's no undo button.`))return;
+  try{await api("DELETE",`/api/rows/${t}/${encodeURIComponent(id)}`);const k=SCHEMA[t].id;data[t]=data[t].filter(r=>r[k]!==id);closeDrawer()}
+  catch(e){drawerMsg("Couldn't delete: "+e.message)}
+}
+
+async function importCsv(file){
+  const t=tab, s=SCHEMA[t]; bulk=true; $("#status").textContent=`Importing ${file.name}…`;
+  try{
+    const r=await api("POST",`/api/csv/${t}`,await file.text(),"text/csv; charset=utf-8");
+    await loadRows(t); bulk=false; render();
+    const parts=[`${r.created.length} new`,`${r.updated.length} updated`,`${r.unchanged} unchanged`];
+    if(r.refused.length)parts.push(`${r.refused.length} refused (${r.refused.slice(0,3).join("; ")}${r.refused.length>3?" …":""})`);
+    $("#status").textContent=`Imported into ${s.title}: ${parts.join(", ")}.`+(r.ignored_columns.length?` Ignored columns: ${r.ignored_columns.slice(0,6).join(", ")}${r.ignored_columns.length>6?" …":""}.`:"");
+  }catch(e){bulk=false;render();$("#status").textContent="Import failed: "+e.message}
+}
+// Adds every queued batch, one after another. The server does the adding (skipping names already listed); this
+// polls the batch for progress. If it stops halfway, clicking again carries on and adds nothing twice.
+async function runImport(){
+  const pend=queue.filter(b=>b.status!=="done"); if(!pend.length||queueJob)return;
+  const total=pend.reduce((a,b)=>a+b.rows,0); let base=0, added=0, dup=0, refused=[];
+  queueJob={done:0,total,msg:"Adding companies…"}; bulk=true; render();
+  try{
+    for(const b of pend){
+      let outcome=null;
+      api("POST",`/api/imports/${encodeURIComponent(b.id)}/accept`).then(r=>outcome={ok:r},e=>outcome={err:e});
+      while(!outcome){
+        await sleep(700);
+        try{const cur=(await api("GET","/api/imports")).imports.find(x=>x.id===b.id);
+          if(cur&&cur.done_rows){queueJob.done=base+cur.done_rows;queueJob.msg=`Adding companies… ${queueJob.done} of ${total}`;render()}}catch(e){}
+      }
+      if(outcome.err)throw outcome.err;
+      const res=outcome.ok.batch; base+=b.rows; added+=res.imported||0; dup+=res.skipped_duplicates||0; refused=refused.concat(res.refused||[]);
+    }
+    queueJob=null; bulk=false; await loadRows("companies"); await loadImports(); render();
+    $("#status").textContent=`Added ${added} ${added===1?"company":"companies"}`+(dup?`; skipped ${dup} already in the list`:"")
+      +(refused.length?`; refused ${refused.length} (${refused.slice(0,3).join("; ")}${refused.length>3?" …":""})`:"")+".";
+  }catch(e){queueJob=null;bulk=false;try{await loadImports()}catch(x){}render();$("#status").textContent=`Stopped: ${e.message}. Click "Add them" again to carry on; nothing is added twice.`}
+}
+async function loadImports(){queue=(await api("GET","/api/imports")).imports}
+
+// Every row of the tab, whatever the search and filters show.
+function exportCsv(){const a=document.createElement("a");a.href=`/api/csv/${tab}`;a.download="";document.body.appendChild(a);a.click();a.remove()}
+
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-act],[data-tab],[data-stage],[data-due],[data-sort],tbody tr,#clr");
+  if(!b)return;
+  if(b.id==="clr"){stageFilter=null;dueOnly=false;render();return}
+  if(b.dataset.tab){tab=b.dataset.tab;sortKey=null;sortDir=1;q="";render();return}
+  if(b.dataset.stage){tab="jobs";dueOnly=false;stageFilter=stageFilter===b.dataset.stage?null:b.dataset.stage;render();return}
+  if(b.dataset.due){tab="jobs";stageFilter=null;dueOnly=!dueOnly;render();return}
+  if(b.dataset.sort){const k=b.dataset.sort;if(sortKey===k)sortDir=-sortDir;else{sortKey=k;sortDir=1}render();return}
+  if(b.matches("tbody tr")){openDrawer(tab,b.dataset.id);return}
+  const a=b.dataset.act;
+  if(a==="add")openDrawer(tab,null);
+  else if(a==="import")$("#file").click();
+  else if(a==="export")exportCsv();
+  else if(a==="close")closeDrawer();
+  else if(a==="save")save();
+  else if(a==="del")del();
+  else if(a==="runimport")runImport();
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="trk"){trackFilter=e.target.value;render()}
+  if(e.target.id==="sec"){sectorFilter=e.target.value;render()}
+  if(e.target.id==="file"&&e.target.files[0]){importCsv(e.target.files[0]);e.target.value=""}
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&editing)closeDrawer();
+  if(e.key==="Enter"&&e.target.matches("tbody tr"))openDrawer(tab,e.target.dataset.id);
+});
+$("#scrim").onclick=closeDrawer;
+
+async function loadSchema(){
+  const s=await api("GET","/api/schema");
+  STAGES=s.stages; CLOSED=new Set(s.closed);
+  for(const c of s.collections){
+    SCHEMA[c.name]={title:c.title,id:c.id,prefix:c.prefix,cols:c.columns,fields:c.fields.map(f=>[f.key,f.label,f.kind,f.options.length?f.options:0,f.group])};
+    data[c.name]=[];
+  }
+  TRACKS=(fdef("jobs","track")||[])[3]||[];
+}
+async function loadRows(t){const r=await api("GET",`/api/rows/${t}`);data[t]=r.rows;prints[t]=r.fingerprint;loaded[t]=true}
+// Every 5 seconds: refetch only the tabs whose rows changed (the nightly, an agent or another browser tab).
+// While the drawer is open only the header redraws, so an update can't wipe what you're typing.
+async function poll(){
+  let changed=false;
+  try{
+    const st=await api("GET","/api/state");
+    if(st.report!==report){report=st.report;changed=true}
+    for(const t of Object.keys(SCHEMA))if(st.collections[t]!==prints[t]){await loadRows(t);changed=true}
+    if(st.imports!==prints.imports){await loadImports();prints.imports=st.imports;changed=true}
+    if(!online){online=true;changed=true}
+  }catch(e){if(online){online=false;changed=true}}
+  if(changed&&!bulk){if(editing)renderHeader();else render()}
+  setTimeout(poll,5000);
+}
+
+render();
+(async()=>{
+  try{await loadSchema()}catch(e){online=false;render();setTimeout(()=>location.reload(),5000);return}
+  render(); poll();
+})();
+</script>
+</body>
+</html>

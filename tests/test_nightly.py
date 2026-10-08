@@ -5,14 +5,16 @@ No real stage ever runs here: a fake runner records the commands instead.
 
 import re
 import subprocess
+from contextlib import ExitStack
 from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
 
-from jobsearch.nightly import AlreadyRunning, run_lock, run_nightly, stages
+from jobsearch.nightly import LOCK_WAIT_S, AlreadyRunning, run_lock, run_nightly, stages
 
 TODAY = "2026-10-06"
+REGISTER = Path(__file__).parents[1] / "tools" / "register_tasks.ps1"
 
 
 def names(cfg, **kw):
@@ -30,20 +32,20 @@ def test_lock_is_exclusive_and_released(tmp_path):
 def test_stage_order_and_export_mode(cfg):
     assert names(cfg) == ["ingest", "detect", "discover", "watch", "triage", "verify", "rank", "export", "digest"]
     export = next(s for s in stages(cfg) if s.name == "export")
-    assert export.args == ("export", "--dry-run")  # preview by default: the owner exports when importing
-    cfg.nightly.export = "real"
-    assert next(s for s in stages(cfg) if s.name == "export").args == ("export",)
+    assert export.args == ("export",)  # straight into the tracker by default (plan-tracker.md)
+    cfg.nightly.export = "preview"
+    assert next(s for s in stages(cfg) if s.name == "export").args == ("export", "--dry-run")
     cfg.nightly.discover_limit = 0
     assert "discover" not in names(cfg)
     assert names(cfg, watch_only=True) == ["watch", "rank"]
 
 
 def test_scheduled_task_outlasts_every_stage_limit(cfg):
-    # A slow night must still reach the report before Task Scheduler stops the run.
-    script = (Path(__file__).parents[1] / "tools" / "register_tasks.ps1").read_text(encoding="utf-8")
+    # A slow night must still reach the report before Task Scheduler stops the run, even after waiting for the lock.
+    script = REGISTER.read_text(encoding="utf-8")
     hours = int(re.search(r"-ExecutionTimeLimit \(New-TimeSpan -Hours (\d+)\)", script).group(1))
     cfg.verify.max_minutes = 120  # the owner's setting
-    assert sum(s.timeout_s for s in stages(cfg)) < hours * 3600
+    assert LOCK_WAIT_S + sum(s.timeout_s for s in stages(cfg)) < hours * 3600
 
 
 class Runner:
@@ -58,8 +60,8 @@ class Runner:
         return SimpleNamespace(returncode=self.codes.get(stage, 0))
 
 
-def run(cfg, tmp_path, runner, search_ok=True, **kw):
-    logged = []
+def run(cfg, tmp_path, runner, search_ok=True, logged=None, **kw):
+    logged = [] if logged is None else logged
     entry = run_nightly(cfg, runner=runner, search_ok=lambda c: search_ok, log=logged.append,
                         lock_path=tmp_path / "lock", logs_dir=tmp_path / "logs", today=TODAY, **kw)  # fmt: skip
     return entry, logged
@@ -85,6 +87,32 @@ def test_watch_only_runs_two_stages_without_needing_search(cfg, tmp_path):
     assert logged[0]["command"] == "nightly --watch-only"
 
 
-def test_a_second_run_exits_while_the_first_holds_the_lock(cfg, tmp_path):
-    with run_lock(tmp_path / "lock"), pytest.raises(AlreadyRunning):
-        run(cfg, tmp_path, Runner())
+def test_the_nightly_waits_for_a_watch_run_to_finish(cfg, tmp_path):
+    watch_run, waits = ExitStack(), []
+    watch_run.enter_context(run_lock(tmp_path / "lock"))
+
+    def sleep(s):
+        waits.append(s)
+        if len(waits) == 3:
+            watch_run.close()  # the watch run ends
+
+    runner = Runner()
+    run(cfg, tmp_path, runner, sleep=sleep)
+    assert len(waits) == 3 and runner.calls[-1] == "digest"
+    log = (tmp_path / "logs" / f"nightly-{TODAY}.txt").read_text(encoding="utf-8")
+    assert "nightly: waited 3 minutes" in log
+
+
+def test_a_run_that_cannot_get_the_lock_says_so(cfg, tmp_path):
+    logged, waits = [], []
+    with run_lock(tmp_path / "lock"):
+        with pytest.raises(AlreadyRunning):
+            run(cfg, tmp_path, Runner(), logged=logged, watch_only=True, sleep=waits.append)
+        assert waits == [] and logged == []  # steps aside at once: the run going watches the boards too
+        with pytest.raises(AlreadyRunning):
+            run(cfg, tmp_path, Runner(), logged=logged, sleep=waits.append)
+    assert sum(waits) == LOCK_WAIT_S
+    [entry] = logged  # the nightly's alert goes in the next report
+    assert entry["command"] == "nightly" and "did not start" in entry["alerts"][0]
+    log = (tmp_path / "logs" / f"nightly-{TODAY}.txt").read_text(encoding="utf-8")
+    assert "nightly --watch-only: skipped" in log and "nightly: did not run" in log

@@ -223,3 +223,43 @@ def test_company_ids_sort_numerically(store):
     for cid in ("C1000", "C101", "C2", "C010"):
         store.save_company({"company_id": cid, "tracker": {}, "history": []})
     assert store.company_ids() == ["C2", "C010", "C101", "C1000"]
+
+
+# --- the tracker as the source (plan-tracker.md) ----------------------------------------------------------
+
+
+def test_ingest_from_the_tracker_matches_a_csv_ingest_and_tracks_owner_changes(store, tmp_path):
+    from jobsearch.ingest import ingest_tracker
+    from jobsearch.tracker import OWNER, Tracker
+
+    rows = [{"company_id": "C001", "company": "Acme", "sector": "Games & stories", "overall_rank": 2,
+             "research_status": "Initial research"},
+            {"company_id": "C002", "company": "Beta", "research_status": "Not started"}]  # fmt: skip
+    ingest_rows(store, rows, T0)  # the pipeline's copy, as a CSV export left it
+    t = Tracker(tmp_path / "tracker")
+    for r in rows:
+        t.write("companies", r["company_id"], {k: v for k, v in r.items() if k != "company_id"}, by=OWNER,
+                create=True)  # fmt: skip
+    before = snapshot(store)
+    rep = ingest_tracker(store, t, at=T1)
+    assert not rep.changed and rep.unchanged == 2 and snapshot(store) == before  # same rows, same records
+    assert set(store.load_company("C001")["tracker"]) == set(COMPANY_LABELS)  # every field, blanks as None
+
+    t.write("companies", "C002", {"research_status": "Researching"}, by=OWNER)
+    t.delete("companies", "C001", by=OWNER)
+    rep = ingest_tracker(store, t, at=T1)
+    assert rep.owner_changes == [("C002", "research_status", "Not started", "Researching")]
+    assert rep.marked_missing == ["C001"] and store.load_company("C001")["missing_from_tracker"] is True
+
+
+def test_ingest_refuses_a_tracker_with_most_companies_gone(store, tmp_path):
+    from jobsearch.ingest import ingest_tracker
+    from jobsearch.tracker import OWNER, Tracker
+
+    ingest_rows(store, [{"company_id": f"C{i:03d}"} for i in range(1, 11)], T0)
+    t = Tracker(tmp_path / "tracker")
+    t.write("companies", "C001", {"company": "Acme"}, by=OWNER, create=True)
+    before = snapshot(store)
+    with pytest.raises(PartialExportError, match="the tracker holds 1 companies but 10 are known"):
+        ingest_tracker(store, t, at=T1)
+    assert snapshot(store) == before

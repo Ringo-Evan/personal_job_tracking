@@ -2,11 +2,12 @@
 
 from __future__ import annotations
 
+import json
 import time
 from collections import Counter
 from datetime import date
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, NoReturn
 
 import typer
 import yaml
@@ -50,16 +51,27 @@ def status(config: Annotated[Path | None, typer.Option(help="Path to config.yaml
 
 @app.command()
 def ingest(
-    file: Annotated[list[Path] | None, typer.Option(help="Ingest these files instead of inbox/*.csv")] = None,
-    force: Annotated[bool, typer.Option(help="Re-ingest files already ingested")] = False,
+    file: Annotated[
+        list[Path] | None,
+        typer.Option(help="One-off: read these tracker CSV exports into the pipeline instead of the tracker"),
+    ] = None,
+    force: Annotated[bool, typer.Option(help="With --file: re-read files already read")] = False,
     allow_partial: Annotated[
-        bool, typer.Option(help="Accept an export much smaller than the known company list")
+        bool, typer.Option(help="With --file: accept an export much smaller than the known company list")
     ] = False,
 ) -> None:
-    """Ingest tracker Companies CSV exports from inbox/."""
+    """Refresh the pipeline's copy of every company from the tracker (data/tracker/companies)."""
+    from jobsearch.ingest import ingest_tracker
+    from jobsearch.tracker import Tracker
+
     started = time.monotonic()
     try:
-        reports = ingest_inbox(Store(), ROOT / "inbox", files=file, force=force, allow_partial=allow_partial)
+        if file:
+            reports = ingest_inbox(Store(), ROOT / "inbox", files=file, force=force, allow_partial=allow_partial)
+            typer.echo("note: the tracker itself is unchanged, so the next ingest from it undoes what differs. "
+                       "To bring a CSV into the tracker, import it on the tracker page.")  # fmt: skip
+        else:
+            reports = [ingest_tracker(Store(), Tracker())]
     except PartialExportError as e:
         typer.echo(f"Refused: {e}", err=True)
         log_run({"at": now_iso(), "command": "ingest", "error": str(e)})
@@ -550,23 +562,34 @@ def rank(
 def export(
     dry_run: Annotated[
         bool,
-        typer.Option("--dry-run", help="Write a preview to out/DATE/preview/ and mark nothing as exported"),
+        typer.Option("--dry-run", help="Change nothing; write a CSV preview of the export to out/DATE/preview/"),
     ] = False,
+    csv: Annotated[bool, typer.Option("--csv", help="Also write the import CSVs to out/DATE/ as a backup")] = False,
 ) -> None:
-    """Write tracker import CSVs (changed rows and cells only) to out/YYYY-MM-DD/."""
+    """Send the pipeline's research, jobs and people into the tracker (changed cells only), as the pipeline."""
     from jobsearch.export import run_export
+    from jobsearch.ingest import ingest_tracker
+    from jobsearch.tracker import Tracker
 
     started = time.monotonic()
-    r = run_export(Store(), load_config(), today=date.today().isoformat(), now=now_iso(), dry_run=dry_run)
+    store, tracker = Store(), Tracker()
+    if not dry_run:
+        ingest_tracker(store, tracker)  # so the rules see the owner's latest edits, research status above all
+    r = run_export(store, load_config(), today=date.today().isoformat(), now=now_iso(), dry_run=dry_run,
+                   tracker=tracker, csv_backup=csv)  # fmt: skip
     typer.echo(
         ("would export: " if dry_run else "exported: ") + ", ".join(f"{k}={v}" for k, v in r.counts().items())
     )
     if r.skipped_status:
         typer.echo(f"  research_status left alone (owner set it): {len(r.skipped_status)} companies")
+    if r.gone:
+        typer.echo(f"  deleted in the tracker, left deleted: {', '.join(r.gone)}")
+    for msg in r.refused[:20]:
+        typer.echo(f"  refused: {msg}")
     for name, path in r.files.items():
         typer.echo(f"  {name}: {path}")
     if not dry_run:
-        log_run({"at": now_iso(), "command": "export", "counts": r.counts(),
+        log_run({"at": now_iso(), "command": "export", "counts": r.counts(), "failed": r.refused,
                  "files": {k: str(v) for k, v in r.files.items()},
                  "duration_s": round(time.monotonic() - started, 2)})  # fmt: skip
 
@@ -578,8 +601,7 @@ def dismiss(
     undo: Annotated[bool, typer.Option(help="Bring them back")] = False,
 ) -> None:
     """Hide jobs you've ruled out from the report. The tracker is never touched: close them there yourself."""
-    from jobsearch.digest import DISMISSED
-    from jobsearch.export import _all
+    from jobsearch.export import DISMISSED, _all
     from jobsearch.store import read_json, write_json
 
     store = Store()
@@ -604,30 +626,247 @@ def dismiss(
 def digest() -> None:
     """Write the report: out/YYYY-MM-DD/digest.md and digest.html (open it in a browser)."""
     from jobsearch.digest import write_digest
+    from jobsearch.tracker import Tracker
 
     cfg = load_config()
-    path = write_digest(
-        Store(), date.today().isoformat(), export_mode=cfg.nightly.export, top=cfg.nightly.report_top
-    )
+    path = write_digest(Store(), date.today().isoformat(), tracker=Tracker(), top=cfg.nightly.report_top)
     typer.echo(f"report: {path.with_suffix('.html')} (markdown: {path})")
 
 
 @app.command()
 def nightly(
     watch_only: Annotated[
-        bool, typer.Option(help="Only watch the boards and score new postings (the 6-hourly scheduled task)")
+        bool, typer.Option(help="Only watch the boards and score new postings")
     ] = False,
 ) -> None:
-    """Run every stage in order and end with the report (plan phase 7). Exits at once if another run is going."""
+    """Run every stage in order and end with the report (plan phase 7).
+
+    If another run is going, waits up to an hour for it (--watch-only exits at once instead).
+    """
     from jobsearch.nightly import AlreadyRunning, run_nightly
 
     try:
         entry = run_nightly(load_config(), watch_only=watch_only)
     except AlreadyRunning as e:
         typer.echo(f"nightly: {e}; exiting")
+        if not watch_only:  # Task Scheduler's last result then shows the nightly didn't run
+            raise typer.Exit(code=1) from e
         return
     for s in entry["stages"]:
         state = s.get("skipped") or ("ok" if s.get("exit") == 0 else f"exit {s.get('exit')}")
         typer.echo(f"  {s['stage']:<9} {state:<16} {s.get('minutes', 0):>5} min")
     for a in entry["alerts"]:
         typer.echo(f"ALERT: {a}")
+
+
+@app.command()
+def serve(
+    port: Annotated[int, typer.Option(help="Port on 127.0.0.1")] = 8787,
+    data: Annotated[
+        Path | None, typer.Option(help="Use another tracker folder instead of data/tracker (for trying things out)")
+    ] = None,
+    open_browser: Annotated[bool, typer.Option("--open", help="Open the page in your browser")] = False,
+) -> None:
+    """Open the tracker: a page on this PC only, at http://127.0.0.1:8787 (plan-tracker.md)."""
+    from jobsearch.server import serve as run
+
+    try:
+        run(port=port, root=data, open_browser=open_browser)
+    except OSError as e:
+        typer.echo(f"serve: can't use port {port} ({e}); is the tracker already open? Try --port 8788", err=True)
+        raise typer.Exit(code=1) from e
+
+
+tracker_app = typer.Typer(no_args_is_help=True, help="The job-search tracker in data/tracker/ (plan-tracker.md).")
+app.add_typer(tracker_app, name="tracker")
+
+CLAUDE_AI_SNAPSHOT = ROOT / "data" / "snapshots" / "claude-ai-tracker-2026-10-07"
+
+
+@tracker_app.command("migrate")
+def tracker_migrate(
+    src: Annotated[
+        Path, typer.Option("--from", help="The claude.ai tracker's downloaded collections, one folder each")
+    ] = CLAUDE_AI_SNAPSHOT,
+) -> None:
+    """Load the claude.ai tracker's rows into data/tracker/. A row already there is never overwritten."""
+    from jobsearch.tracker import Tracker
+
+    started = time.monotonic()
+    rep = Tracker().migrate(src)
+    typer.echo("created:   " + (", ".join(f"{k} {v}" for k, v in rep.created.items()) or "nothing"))
+    typer.echo("unchanged: " + (", ".join(f"{k} {v}" for k, v in rep.unchanged.items()) or "nothing"))
+    typer.echo(f"sectors merged: {rep.sectors_merged}; rows linked to their company: {rep.linked}")
+    for label, items in (("no company matches", rep.unlinked), ("left alone, differs from the source", rep.differs)):
+        if items:
+            typer.echo(f"{label} ({len(items)}): " + ", ".join(items[:20]) + (" ..." if len(items) > 20 else ""))
+    if rep.unknown_fields:
+        typer.echo("kept, but not in the schema: " + ", ".join(f"{k} {v}" for k, v in rep.unknown_fields.items()))
+    log_run({"at": now_iso(), "command": "tracker migrate", "counts": dict(rep.created),
+             "duration_s": round(time.monotonic() - started, 2)})  # fmt: skip
+
+
+TrackerData = Annotated[Path | None, typer.Option("--data", help="Use another tracker folder instead of data/tracker")]
+AgentName = Annotated[str, typer.Option("--by", help='Your agent name, shown as the writer (never "you": that is the owner)')]
+Fields = Annotated[list[str] | None, typer.Argument(help='Fields as key=value, e.g. research_notes="..."')]
+TabName = Annotated[str, typer.Argument(help="jobs, companies, people, activity or materials")]
+
+
+def _tracker(data: Path | None):
+    from jobsearch.tracker import Tracker
+
+    return Tracker(data) if data else Tracker()
+
+
+def _refuse(message: str) -> NoReturn:
+    typer.echo(f"refused: {message}", err=True)
+    raise typer.Exit(code=1)
+
+
+def _agent(by: str) -> str:
+    """Agents write under their own name. The owner is "you" and edits in the page, so the CLI never writes as "you"."""
+    from jobsearch.tracker import OWNER
+
+    by = by.strip()
+    if not by or by.lower() == OWNER:
+        _refuse('--by must be your agent name; "you" is the owner, who edits in the page')
+    return by
+
+
+def _pairs(items: list[str] | None) -> dict[str, str]:
+    out = {}
+    for item in items or []:
+        key, sep, value = item.partition("=")
+        if not sep or not key.strip():
+            _refuse(f"expected key=value, got {item!r}")
+        out[key.strip()] = value
+    return out
+
+
+@tracker_app.command("stats")
+def tracker_stats(data: TrackerData = None) -> None:
+    """Rows per tab, and who last wrote them."""
+    for name, writers in _tracker(data).stats().items():
+        by = ", ".join(f"{w} {n}" for w, n in writers.most_common())
+        typer.echo(f"{name:<10} {sum(writers.values()):>5}" + (f"   last written by: {by}" if by else ""))
+
+
+@tracker_app.command("list")
+def tracker_list(
+    name: TabName,
+    where: Annotated[
+        list[str] | None, typer.Option(help='Only rows whose field equals the value, e.g. research_status="Not started"')
+    ] = None,
+    as_json: Annotated[bool, typer.Option("--json", help="Print the rows as JSON")] = False,
+    data: TrackerData = None,
+) -> None:
+    """List a tab's rows. Check what's there before adding anything."""
+    from jobsearch.tracker import TrackerError, collection
+
+    try:
+        col, rows = collection(name), _tracker(data).load(name)
+    except TrackerError as e:
+        _refuse(str(e))
+    for key, value in _pairs(where).items():
+        rows = [r for r in rows if str(r.get(key, "")) == value]
+    if as_json:
+        typer.echo(json.dumps(rows, ensure_ascii=False, indent=2))
+        return
+    cols = [c for c in col.columns if c in col.keys][:5]
+    for r in rows:
+        typer.echo(" | ".join(str(r.get(c, ""))[:40] for c in cols))
+    typer.echo(f"{len(rows)} {name}")
+
+
+@tracker_app.command("get")
+def tracker_get(
+    name: TabName, row_id: Annotated[str, typer.Argument(help="The row's ID")], data: TrackerData = None
+) -> None:
+    """Print one row as JSON."""
+    from jobsearch.tracker import TrackerError
+
+    try:
+        row = _tracker(data).get(name, row_id)
+    except TrackerError as e:
+        _refuse(str(e))
+    if row is None:
+        _refuse(f"there is no {name} row {row_id}")
+    typer.echo(json.dumps(row, ensure_ascii=False, indent=2))
+
+
+@tracker_app.command("next-id")
+def tracker_next_id(name: TabName, data: TrackerData = None) -> None:
+    """The ID the next added row gets: J037, C1220, P005..."""
+    from jobsearch.tracker import TrackerError
+
+    try:
+        typer.echo(_tracker(data).next_id(name))
+    except TrackerError as e:
+        _refuse(str(e))
+
+
+@tracker_app.command("add")
+def tracker_add(
+    name: TabName,
+    fields: Fields = None,
+    by: AgentName = ...,
+    row_id: Annotated[str | None, typer.Option("--id", help="The new row's ID (default: the next free one)")] = None,
+    data: TrackerData = None,
+) -> None:
+    """Add a row as an agent. Jobs start at stage Lead. A field you may not set refuses the whole row."""
+    from jobsearch.tracker import TrackerError
+
+    t, by = _tracker(data), _agent(by)
+    try:
+        row_id = row_id or t.next_id(name)
+        row = t.write(name, row_id, _pairs(fields), by=by, create=True)
+    except TrackerError as e:
+        _refuse(str(e))
+    typer.echo(f"added {row_id}")
+    typer.echo(json.dumps(row, ensure_ascii=False, indent=2))
+
+
+@tracker_app.command("update")
+def tracker_update(
+    name: TabName,
+    row_id: Annotated[str, typer.Argument(help="The row's ID")],
+    fields: Fields = None,
+    by: AgentName = ...,
+    data: TrackerData = None,
+) -> None:
+    """Change fields of a row as an agent. A field you may not change refuses the whole update; blanks are ignored."""
+    from jobsearch.tracker import TrackerError
+
+    t, by = _tracker(data), _agent(by)
+    try:
+        before = t.get(name, row_id) or {}
+        after = t.write(name, row_id, _pairs(fields), by=by)
+    except TrackerError as e:
+        _refuse(str(e))
+    changed = sorted(k for k in after if k not in ("updated_by", "updated_at") and before.get(k) != after.get(k))
+    typer.echo(f"updated {row_id}: {', '.join(changed)}" if changed else f"{row_id}: nothing changed")
+
+
+@tracker_app.command("queue-companies")
+def tracker_queue_companies(
+    file: Annotated[Path, typer.Option(help="A JSON list of {company, sector, interests, career_url, research_notes}")],
+    label: Annotated[str, typer.Option(help='What the batch is, shown to the owner, e.g. "Maine nonprofits from Codex"')],
+    by: AgentName = ...,
+    data: TrackerData = None,
+) -> None:
+    """Queue companies for the owner to add with one click on the Companies tab. Use it for more than a few."""
+    from jobsearch.tracker import TrackerError
+
+    by = _agent(by)
+    try:
+        rows = json.loads(file.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        _refuse(f"can't read {file}: {e}")
+    rows = rows.get("rows") if isinstance(rows, dict) else rows
+    if not isinstance(rows, list):
+        _refuse("the file must hold a JSON list of companies")
+    try:
+        batch = _tracker(data).queue_companies(rows, label=label, by=by)
+    except TrackerError as e:
+        _refuse(str(e))
+    typer.echo(f"queued {len(rows)} companies as {batch}: they wait on the Companies tab until the owner adds them")

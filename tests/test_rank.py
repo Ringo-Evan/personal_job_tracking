@@ -211,14 +211,11 @@ def test_stops_cleanly_when_out_of_capacity(rcfg, store, tmp_path):
 # --- wiring: export, digest, verify queue -----------------------------------------------------------------
 
 
-def test_export_carries_skill_match_track_and_maine_from_the_score(rcfg, store, tmp_path):
-    from jobsearch.export import run_export
-    from jobsearch.tracker_csv import JOBS, parse_text
+def test_export_carries_skill_match_track_and_maine_from_the_score():
+    from jobsearch.export import job_insert_values, job_values
 
-    save(store, job("greenhouse-1", score=GOOD | {"maine_eligible": "no", "track": "QA leadership",
-                                                  "notes": "Must live in WA."}))  # fmt: skip
-    rep = run_export(store, rcfg, today=TODAY, now="2026-10-05T03:00:00-04:00", out_root=tmp_path / "out")
-    row = parse_text(rep.files["jobs_import"].read_text(encoding="utf-8"), JOBS).rows[0]
+    j = job("greenhouse-1", score=GOOD | {"maine_eligible": "no", "track": "QA leadership", "notes": "Must live in WA."})
+    row = job_values(j, None) | job_insert_values(j)
     assert row["skill_match"] == 5 and row["track"] == "QA leadership" and row["maine_eligible"] == "No"
     assert row["fit_notes"] == "Must live in WA. remote US"
 

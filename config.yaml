@@ -91,5 +91,5 @@ rank:                     # job scoring (python -m jobsearch rank)
   timeout_s: 300
 nightly:                  # python -m jobsearch nightly (scheduled by tools/register_tasks.ps1)
   discover_limit: 60      # web searches per night for companies without a job board; spares the search engines
-  export: preview         # preview: CSVs written, nothing marked sent (run `export` when you import). real: every night
+  export: store           # store: research, jobs and people go straight into the tracker. preview: CSV preview only
   report_top: 8           # jobs written up in full under "Apply next"

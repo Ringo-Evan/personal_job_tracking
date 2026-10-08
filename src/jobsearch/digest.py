@@ -12,7 +12,7 @@ import json
 import os
 import re
 import sqlite3
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote_plus
@@ -21,20 +21,40 @@ from markdown_it import MarkdownIt
 
 from jobsearch.config import ROOT
 from jobsearch.detect import SUPPORTED
-from jobsearch.export import OUT, _all, company_values
+from jobsearch.export import OUT, SHORTLIST_SKILL, _all, company_values, dismissed, lead_duplicates
 from jobsearch.rank import maine_verdict, priority
 from jobsearch.runlog import RUNS_LOG
 from jobsearch.store import Store, read_json, write_json
+from jobsearch.tracker import CLOSED_STAGES, STAGES, Tracker
 from jobsearch.usage import ROUTER_DB
 
 REPORT_STATE = ROOT / "state" / "report_state.json"
-SHORTLIST_SKILL = 3  # skill match from the job scorer, 1-5
-DISMISSED = "dismissed.json"  # in data/: {job key: reason} for jobs ruled out by hand (`jobsearch dismiss`)
+# Stages past Lead and Verified: the owner is on it, so the job leaves Apply next and goes under In progress.
+ACTIVE_STAGES = ("Applied", "Screen", "Interview", "Offer")
 
 
-def dismissed(store: Store) -> dict[str, str]:
-    path = store.data_dir / DISMISSED
-    return read_json(path) if path.exists() else {}
+def _day(value: Any) -> date | None:
+    """A tracker date: YYYY-MM-DD, or MM/DD/YY(YY) from the owner's old spreadsheet."""
+    s = str(value or "").strip()
+    if m := re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", s):
+        y, mo, d = (int(x) for x in m.groups())
+    elif m := re.match(r"^(\d{1,2})/(\d{1,2})/(\d{2,4})$", s):
+        mo, d, y = (int(x) for x in m.groups())
+        y += 2000 if y < 100 else 0
+    else:
+        return None
+    try:
+        return date(y, mo, d)
+    except ValueError:
+        return None
+
+
+def due_state(row: dict[str, Any], today: date) -> str:
+    """The tracker page's due flag: Overdue, Today, Soon (within 3 days) or nothing; never for a closed job."""
+    if (row.get("current_stage") or "Lead") in CLOSED_STAGES or not (due := _day(row.get("follow_up_due"))):
+        return ""
+    days = (due - today).days
+    return "Overdue" if days < 0 else "Today" if days == 0 else "Soon" if days <= 3 else ""
 
 
 # --- small helpers ---------------------------------------------------------------------------------------
@@ -196,9 +216,10 @@ def build_digest(
     now: datetime | None = None,
     out_root: Path = OUT,
     router_db: Path | None = None,
-    export_mode: str = "preview",
+    tracker: Tracker | None = None,
     top: int = 8,
 ) -> str:
+    """tracker: where the owner's job stages live; without it every published job counts as still at Lead."""
     now = now or datetime.now().astimezone()
     since = _dt((prev or {}).get("at")) or datetime.fromisoformat(today).astimezone()  # first report: since midnight
     companies = {r["company_id"]: r for r in store.iter_companies()}
@@ -207,14 +228,18 @@ def build_digest(
     letters = _cover_letters(out_root)
     all_jobs = _all(store.data_dir / "jobs")
     gone = dismissed(store)
-    open_jobs = [j for j in all_jobs if not j.get("closed_at") and j["key"] not in gone]
-    # A research lead for a posting the watcher already tracks is the same job twice (Motional, 2026-10-06).
-    watched = {(j.get("company_id"), _slug(j.get("title") or "")) for j in open_jobs if j.get("source") != "verify"}
-    open_jobs = [
-        j
-        for j in open_jobs
-        if not (j.get("source") == "verify" and (j.get("company_id"), _slug(j.get("title") or "")) in watched)
-    ]
+    dupes = lead_duplicates(all_jobs)
+    open_jobs = [j for j in all_jobs if not j.get("closed_at") and j["key"] not in gone and j["key"] not in dupes]
+    # The owner's stages, set in the tracker: a job they've applied to, or closed, leaves the lists below.
+    rows = tracker.load("jobs") if tracker else []
+    stage = {r["job_id"]: r.get("current_stage") or "Lead" for r in rows if r.get("job_id")}
+    open_jobs = [j for j in open_jobs if stage.get(j.get("job_id") or "", "Lead") in ("Lead", "Verified")]
+    day = date.fromisoformat(today)
+    in_progress = sorted(
+        (r for r in rows if (r.get("current_stage") or "Lead") in ACTIVE_STAGES),
+        key=lambda r: (_day(r.get("follow_up_due")) or date.max, -STAGES.index(r["current_stage"]), r["job_id"]),
+    )
+    due = [r for r in rows if due_state(r, day) in ("Overdue", "Today")]
     runs = _runs_since(runs_log, since)
 
     def rank_key(j: dict[str, Any]) -> tuple:
@@ -265,6 +290,9 @@ def build_digest(
     unscored = sum(1 for j in new_jobs if not j.get("score"))
     if unscored:
         alerts.append(f"{unscored} new jobs are not scored yet: run `python -m jobsearch rank`.")
+    for r in due:
+        alerts.append(f"Follow-up {due_state(r, day).lower()}: {r['job_id']} {r.get('job_title') or ''}, "
+                      f"{r.get('company') or ''} (due {r.get('follow_up_due')}). {r.get('next_action') or ''}".strip())  # fmt: skip
     if alerts:
         lines += ["", "> **Alerts**", ">"] + [f"> - {_md(a)[:300]}" for a in alerts]
 
@@ -277,6 +305,8 @@ def build_digest(
     last_full = max(watches, key=lambda e: e["counts"].get("boards_ok", 0), default=None)
     lines += ["", "## At a glance", "", "| | |", "|---|---|"]
     lines.append(f"| Open jobs tracked | {len(open_jobs)} ({len(new_jobs)} new) |")
+    if in_progress:
+        lines.append(f"| In progress (applied or later) | {len(in_progress)} ({len(due)} follow-ups due) |")
     lines.append(f"| Shortlist (skill {SHORTLIST_SKILL}+, Maine not ruled out) | {len(shortlist)} |")
     if gone:
         lines.append(f"| Dismissed by hand (hidden here, untouched in the tracker) | {len(gone)} |")
@@ -291,10 +321,26 @@ def build_digest(
     if calls := _model_calls(router_db, since):
         lines.append(f"| Model calls | {', '.join(f'{m} {n}' for m, n in calls.items())} |")
 
+    # in progress ----------------------------------------------------------------------------------------------
+    lines += ["", f"## In progress ({len(in_progress)})", ""]
+    if in_progress:
+        lines += ["| Due | Stage | Job | Company | Next action | Applied |", "|---|---|---|---|---|---|"]
+        for r in in_progress:
+            flag = due_state(r, day)
+            when = f"{flag} {r['follow_up_due']}" if flag else _md(r.get("follow_up_due"))
+            title = _md(r.get("job_title")) or r["job_id"]
+            link = f"[{title}]({_url(r['posting_url'])})" if r.get("posting_url") else title
+            lines.append(f"| {when} | {r['current_stage']} | {link} ({r['job_id']}) | {_md(r.get('company'))} | "
+                         f"{_short(r.get('next_action'), 120)} | {_md(r.get('date_applied'))} |")  # fmt: skip
+    else:
+        lines.append("Nothing yet. When you apply, set the job's stage in the tracker and it moves here.")
+
     # apply next -----------------------------------------------------------------------------------------------
     lines += ["", f"## Apply next ({len(picks)})", ""]
     if picks:
-        lines.append("Best open jobs first. Priority = 2 × skill match + company fit, minus penalties.")
+        lines.append("Best open jobs first. Priority = 2 × skill match + company fit, minus penalties. Applied, or "
+                     "not for you? Set the job's stage in the tracker (each card shows its ID); "
+                     "`python -m jobsearch dismiss <posting URL>` hides a job that isn't in the tracker.")  # fmt: skip
     else:
         lines.append("No open job has a skill match of 3 or more without a Maine 'no' yet.")
     for i, j in enumerate(picks, 1):
@@ -427,16 +473,6 @@ def build_digest(
             lines.append(f"| {command} | {len(entries)} | {counts or '-'} | {secs / 60:.1f} min |")
     else:
         lines.append("No runs logged in this period.")
-
-    # importing ------------------------------------------------------------------------------------------------
-    lines += ["", "## Importing into the tracker", ""]
-    if export_mode == "real":
-        lines.append(f"Import `out/{today}/companies_import.csv`, `jobs_import.csv` and `people_import.csv` on "
-                     "their tabs. Import every night's files, in order, or changes are lost.")  # fmt: skip
-    else:
-        lines.append(f"When you want to import: run `.venv\\Scripts\\python -m jobsearch export`, then import "
-                     "`companies_import.csv`, `jobs_import.csv` and `people_import.csv` from that day's `out/` "
-                     f"folder on their tabs. Tonight's preview of the same files: `out/{today}/preview/`.")  # fmt: skip
     return "\n".join(lines) + "\n"
 
 
@@ -454,6 +490,7 @@ def _job_card(
             j.get("work_mode") if j.get("work_mode") not in (None, "Unknown") else "",
             _pay(j),
             f"posted {j['posted_at']}" if j.get("posted_at") else "",
+            f"tracker {j['job_id']}" if j.get("job_id") else "",
         )
         if x
     )
@@ -537,7 +574,7 @@ def write_digest(
     *,
     state_path: Path = REPORT_STATE,
     router_db: Path | None = ROUTER_DB,
-    export_mode: str = "preview",
+    tracker: Tracker | None = None,
     top: int = 8,
 ) -> Path:
     out_dir = out_root / today
@@ -545,7 +582,7 @@ def write_digest(
     prev = read_json(state_path) if state_path.exists() else None
     now = datetime.now().astimezone()
     md = build_digest(store, today, runs_log, prev=prev, now=now, out_root=out_root, router_db=router_db,
-                      export_mode=export_mode, top=top)  # fmt: skip
+                      tracker=tracker, top=top)  # fmt: skip
     path = out_dir / "digest.md"
     path.write_text(md, encoding="utf-8")
     (out_dir / "digest.html").write_text(render_html(md, f"Job search report, {today}"), encoding="utf-8")

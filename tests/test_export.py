@@ -1,4 +1,5 @@
-"""Export and digest (plan.md Phase 6): CSV contract, field ownership, insert-only, change tracking."""
+"""Export and digest (plan.md Phase 6, plan-tracker.md): writing into the tracker, the CSV contract, field ownership,
+insert-only fields, change tracking, and the report."""
 
 import copy
 import csv
@@ -18,6 +19,7 @@ from jobsearch.export import (
     run_export,
 )
 from jobsearch.store import Store, read_json, write_json
+from jobsearch.tracker import OWNER, PIPELINE, Tracker, TrackerError
 from jobsearch.tracker_csv import COMPANIES, JOBS, PEOPLE, normalize_label, parse_text
 
 TODAY = "2026-10-05"
@@ -52,6 +54,8 @@ WATCHED_JOB = {
     "raw_ref": "x", "maine_eligible": "yes", "eligibility_reason": "remote US", "track": "QA leadership",
     "source": "watcher", "first_seen": TODAY, "last_seen": TODAY, "missed_runs": 0, "closed_at": None,
     "reopened_at": None, "job_id": None,
+    "score": {"why": "QA lead.", "skill_match": 4, "seniority": "match", "maine_eligible": "yes", "notes": "",
+              "track": "QA leadership"},
 }  # fmt: skip
 
 
@@ -77,11 +81,20 @@ def store(tmp_path):
     s.save_company(company("C5", "Owner Researched", "Researched", triage=TRIAGE,
                            owner_changes={"research_status": {"value": "Researched", "at": "2026-10-04T10:00:00"}}))  # fmt: skip
     write_json(s.data_dir / "jobs" / "greenhouse-1.json", dict(WATCHED_JOB))
+    t = Tracker(tmp_path / "tracker")  # the companies the owner keeps there, as migrated
+    for rec in s.iter_companies():
+        row = {k: v for k, v in rec["tracker"].items() if v is not None and k != "company_id"}
+        t.write("companies", rec["company_id"], row, by=OWNER, create=True)
     return s
 
 
+def tracker(tmp_path):
+    return Tracker(tmp_path / "tracker")
+
+
 def export(store, tmp_path, now=NOW):
-    return run_export(store, None or _cfg(), today=TODAY, now=now, out_root=tmp_path / "out")
+    return run_export(store, _cfg(), today=TODAY, now=now, out_root=tmp_path / "out", tracker=tracker(tmp_path),
+                      csv_backup=True)  # fmt: skip
 
 
 def _cfg():
@@ -190,9 +203,11 @@ def test_jobs_watched_and_leads(store, tmp_path):
     assert w["company"] == "Acme, Inc."  # tracker's exact name, not the board's
     assert w["pay_low"] == 120000 and w["maine_eligible"] == "Yes" and w["date_discovered"] == TODAY
     assert w["track"] == "QA leadership" and w["current_stage"] == "Lead" and w["highest_stage"] == "None"
-    lead = by_title["Senior SDET"]
+    assert rep.leads_added == 1 and "Senior SDET" not in by_title  # a lead waits for its score
+    lead_path = next((store.data_dir / "jobs").glob("lead-*.json"))
+    write_json(lead_path, read_json(lead_path) | {"score": WATCHED_JOB["score"]})
+    lead = parsed(export(store, tmp_path, now="2026-10-05T03:30:00-04:00"), "jobs_import", JOBS).rows[0]
     assert lead["listing_evidence"] == "Indexed lead - verify" and lead["job_id"] == "JW0002"
-    assert rep.leads_added == 1
 
 
 def test_lead_not_duplicated_when_watcher_has_the_url(store, tmp_path):
@@ -215,10 +230,10 @@ def test_people_rows(store, tmp_path):
 
 def test_second_export_is_empty_and_insert_only_fields_appear_once(store, tmp_path):
     first = export(store, tmp_path)
-    assert first.counts()["jobs_new"] == 2
+    assert first.counts()["jobs_new"] == 1
     again = export(store, tmp_path, now="2026-10-05T04:00:00-04:00")
     assert again.counts() == {"companies": 0, "jobs_new": 0, "jobs_updated": 0, "people_new": 0,
-                              "people_updated": 0, "leads_added": 0}  # fmt: skip
+                              "people_updated": 0, "leads_added": 0, "refused": 0}  # fmt: skip
     assert again.files == {}
 
     # The board refreshes last_checked: only that cell (plus ID/company) is exported, no insert-only fields.
@@ -262,8 +277,8 @@ def test_ids_never_reused(store, tmp_path):
         dict(WATCHED_JOB, key="greenhouse-2", url="https://x/2"),
     )
     rows = parsed(export(store, tmp_path, now="2026-10-05T09:00:00-04:00"), "jobs_import", JOBS).rows
-    assert [r["job_id"] for r in rows] == ["JW0003"]
-    assert read_json(store.data_dir / "ids.json") == {"job": 3, "person": 1}
+    assert [r["job_id"] for r in rows] == ["JW0002"]
+    assert read_json(store.data_dir / "ids.json") == {"job": 2, "person": 1}
 
 
 def test_dry_run_writes_and_marks_nothing(store, tmp_path):
@@ -302,15 +317,15 @@ def test_digest_sections(store, tmp_path):
                    '{"at": "2026-10-04T01:00:00", "command": "watch", "counts": {}, "failed": ["old"]}\n',
                    encoding="utf-8")  # fmt: skip
     md = build_digest(store, TODAY, runs_log=log, out_root=tmp_path / "out")
-    for heading in ("## At a glance", "## Apply next (0)", "## New since the last report (2)",
+    for heading in ("## At a glance", "## Apply next (1)", "## New since the last report (2)",
                     "## Rest of the shortlist (0)", "## Approach without an opening", "## Companies researched (2)",
                     "## People found (1)", "## Job boards", "no supported board: check by hand (1)",
-                    "## Rejects and errors (2)", "## Run totals", "## Importing into the tracker"):  # fmt: skip
+                    "## Rejects and errors (2)", "## Run totals", "## In progress (0)"):  # fmt: skip
         assert heading in md, heading
     assert "[QA Manager](<https://job-boards.greenhouse.io/acme/jobs/1>)" in md
     assert "Tiny Games: https://acme.example/careers" in md
     assert "C9 lever:x: 500" in md and "watch: old" not in md  # only runs since the last report (here: midnight)
-    assert "jobsearch export`, then import" in md  # preview mode: the owner exports when importing
+    assert "Importing into the tracker" not in md and "import" not in md.split("## Run totals")[1]  # no CSV step
     path = write_digest(store, TODAY, out_root=tmp_path / "out", runs_log=log, state_path=tmp_path / "state.json",
                         router_db=None)  # fmt: skip
     same = lambda s: re.sub(r"_Generated [^_]*_", "", s)  # noqa: E731 - only the generated time differs
@@ -419,3 +434,122 @@ def test_leads_get_the_title_filter_and_stale_leads_are_removed(store, tmp_path)
     rep = export(store, tmp_path)
     assert rep.leads_added == 1  # Senior SDET only
     assert not stale.exists()
+
+
+# --- the tracker (plan-tracker.md) ----------------------------------------------------------------------
+
+
+def test_a_real_export_needs_the_tracker(store, tmp_path):
+    with pytest.raises(ValueError, match="tracker"):
+        run_export(store, _cfg(), today=TODAY, now=NOW, out_root=tmp_path / "out")
+
+
+def test_export_writes_into_the_tracker_as_the_pipeline_and_leaves_owner_fields_alone(store, tmp_path):
+    rep = export(store, tmp_path)
+    t = tracker(tmp_path)
+    c1 = t.get("companies", "C1")
+    assert c1["research_status"] == "Researched" and c1["fit_score"] == 4 and c1["updated_by"] == PIPELINE
+    assert c1["dealbreakers"] == "secret owner note" and c1["your_notes"] == "owner only" and c1["interest"] == 5
+    assert "fit_score" not in t.get("companies", "C3")  # parked: never touched
+    job = t.get("jobs", "JW0001")
+    assert (job["current_stage"], job["highest_stage"], job["company_id"]) == ("Lead", "None", "C1")
+    assert job["skill_match"] == 4 and job["listing_evidence"] == "Verified live"
+    person = t.get("people", "PA0001")
+    assert person["name"] == "Dana Whitfield" and person["company_id"] == "C1" and person["status"] == "To research"
+    assert rep.refused == [] and rep.files  # the CSV backup was asked for
+    assert not run_export(store, _cfg(), today=TODAY, now="2026-10-05T04:00:00-04:00", out_root=tmp_path / "out",
+                          tracker=t).files  # fmt: skip  # no CSVs unless asked
+
+
+def test_the_owners_stage_and_edits_survive_the_next_export(store, tmp_path):
+    export(store, tmp_path)
+    t = tracker(tmp_path)
+    t.write("jobs", "JW0001", {"current_stage": "Applied", "date_applied": "2026-10-05", "fit_notes": "mine"},
+            by=OWNER)  # fmt: skip
+    job = read_json(store.data_dir / "jobs" / "greenhouse-1.json")
+    write_json(store.data_dir / "jobs" / "greenhouse-1.json", job | {"last_seen": "2026-10-06"})
+    rep = export(store, tmp_path, now="2026-10-06T03:00:00-04:00")
+    row = t.get("jobs", "JW0001")
+    assert row["current_stage"] == "Applied" and row["highest_stage"] == "Applied" and row["date_applied"]
+    assert row["last_checked"] == "2026-10-06" and row["fit_notes"] == "mine"  # the pipeline's notes didn't change
+    assert rep.jobs_updated == ["greenhouse-1"] and rep.refused == []
+
+
+def test_only_shortlisted_jobs_reach_the_tracker_and_published_ones_keep_updating(store, tmp_path):
+    jobs = store.data_dir / "jobs"
+    for key, score, extra in (("greenhouse-2", 2, {}), ("greenhouse-3", 4, {"closed_at": "2026-10-04"}),
+                              ("greenhouse-4", 4, {}), ("greenhouse-5", 5, {})):  # fmt: skip
+        write_json(jobs / f"{key}.json", dict(WATCHED_JOB, key=key, url=f"https://x/{key}", **extra,
+                                             score=WATCHED_JOB["score"] | {"skill_match": score}))  # fmt: skip
+    write_json(jobs / "greenhouse-4.json", read_json(jobs / "greenhouse-4.json") | {
+        "score": WATCHED_JOB["score"] | {"maine_eligible": "no"}})  # fmt: skip
+    write_json(store.data_dir / "dismissed.json", {"greenhouse-5": "not for me"})
+    rep = export(store, tmp_path)
+    assert rep.jobs_new == ["greenhouse-1"]  # skill 2, closed, Maine no and dismissed stay in the report only
+    job = read_json(jobs / "greenhouse-1.json")
+    write_json(jobs / "greenhouse-1.json", job | {"score": job["score"] | {"skill_match": 2}})
+    export(store, tmp_path, now="2026-10-05T05:00:00-04:00")
+    assert tracker(tmp_path).get("jobs", "JW0001")["skill_match"] == 2  # already in the tracker: still updated
+
+
+def test_a_refused_row_is_reported_and_tried_again_next_time(store, tmp_path):
+    t = tracker(tmp_path)
+    t.delete("companies", "C2", by=OWNER)  # e.g. a company the pipeline knows but the tracker doesn't have now
+    rep = export(store, tmp_path)
+    assert [r.split(":")[0] for r in rep.refused] == ["companies/C2"]
+    assert store.load_company("C2")["exported"] == {}  # not marked sent
+    t.write("companies", "C2", {"company": "Tiny Games"}, by=OWNER, create=True)
+    again = export(store, tmp_path, now="2026-10-05T04:00:00-04:00")
+    assert again.companies == ["C2"] and again.refused == []
+
+
+def test_a_job_deleted_in_the_tracker_stays_deleted(store, tmp_path):
+    export(store, tmp_path)
+    t = tracker(tmp_path)
+    t.delete("jobs", "JW0001", by=OWNER)
+    job = read_json(store.data_dir / "jobs" / "greenhouse-1.json")
+    write_json(store.data_dir / "jobs" / "greenhouse-1.json", job | {"last_seen": "2026-10-06"})
+    rep = export(store, tmp_path, now="2026-10-06T03:00:00-04:00")
+    assert rep.gone == ["JW0001"] and t.get("jobs", "JW0001") is None and rep.refused == []
+
+
+def test_the_report_follows_the_owners_stages(store, tmp_path):
+    export(store, tmp_path)
+    t = tracker(tmp_path)
+    t.write("jobs", "JW0001", {"current_stage": "Applied", "follow_up_due": "2026-10-04",
+                               "next_action": "Email the recruiter"}, by=OWNER)  # fmt: skip
+    t.write("jobs", "J001", {"company": "Beta", "job_title": "Test Lead", "current_stage": "Interview",
+                             "follow_up_due": "2026-10-07"}, by=OWNER, create=True)  # fmt: skip
+    t.write("jobs", "J002", {"company": "Gamma", "job_title": "Old Lead", "current_stage": "Rejected",
+                             "follow_up_due": "2026-10-01"}, by=OWNER, create=True)  # fmt: skip
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out", tracker=t)
+    new = md.split("## New since the last report")[1].split("## Rest of the shortlist")[0]
+    assert "## Apply next (0)" in md and "QA Manager" not in new  # applied: out of Apply next and New
+    progress = md.split("## In progress (2)")[1].split("## Apply next")[0]
+    assert progress.index("JW0001") < progress.index("J001")  # overdue first
+    assert "Overdue 2026-10-04 | Applied | [QA Manager]" in progress and "Soon 2026-10-07 | Interview" in progress
+    assert "Old Lead" not in md  # closed stages drop out
+    assert "Follow-up overdue: JW0001 QA Manager, Acme, Inc. (due 2026-10-04). Email the recruiter" in md
+    t.write("jobs", "JW0001", {"current_stage": "Withdrawn"}, by=OWNER)
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out", tracker=t)
+    assert "QA Manager" not in md and "## In progress (1)" in md
+
+
+def test_apply_next_cards_show_the_tracker_id(store, tmp_path):
+    export(store, tmp_path)
+    md = build_digest(store, TODAY, runs_log=tmp_path / "none.jsonl", out_root=tmp_path / "out",
+                      tracker=tracker(tmp_path))  # fmt: skip
+    card = md.split("## Apply next (1)")[1].split("## New since")[0]
+    assert "tracker JW0001" in card and "Set the job's stage in the tracker" in card
+
+
+def test_tracker_errors_are_tracker_errors():
+    assert issubclass(TrackerError, ValueError)
+
+
+def test_a_lead_for_a_posting_the_watcher_tracks_is_not_published_twice(store, tmp_path):
+    write_json(store.data_dir / "jobs" / "lead-dup.json",
+               dict(WATCHED_JOB, key="lead-dup", board="lead", source="verify", url="https://acme.example/jobs/qa",
+                    title="QA  manager"))  # fmt: skip  # same company, same title once letters only
+    rep = export(store, tmp_path)
+    assert "lead-dup" not in rep.jobs_new and "greenhouse-1" in rep.jobs_new

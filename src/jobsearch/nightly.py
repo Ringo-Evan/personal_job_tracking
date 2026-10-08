@@ -2,7 +2,7 @@
 
 Each stage runs as its own `python -m jobsearch <stage>` process, so a crash or a hang in one can't take the rest
 down; their output goes to logs/nightly-<date>.txt. Stages that need web search are skipped, with an alert in the
-report, when SearXNG isn't answering. `--watch-only` is the 6-hourly job: watch the boards and score new postings.
+report, when SearXNG isn't answering. `--watch-only` only watches the boards and scores new postings.
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ import subprocess
 import sys
 import time
 from collections.abc import Callable, Iterator
-from contextlib import contextmanager
+from contextlib import ExitStack, contextmanager
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
@@ -25,6 +25,9 @@ from jobsearch.runlog import log_run
 
 LOCK = ROOT / "state" / "nightly.lock"
 LOGS = ROOT / "logs"
+# How long the nightly waits for a run holding the lock (a watch run took 43 minutes on 2026-10-07). A watch-only run
+# never waits: whatever holds the lock watches the boards too.
+LOCK_WAIT_S = 3600
 
 
 class AlreadyRunning(RuntimeError):
@@ -32,25 +35,36 @@ class AlreadyRunning(RuntimeError):
 
 
 @contextmanager
-def run_lock(path: Path = LOCK) -> Iterator[None]:
-    """An OS-level lock held for the whole run. The OS frees it if the process dies, so it never goes stale."""
+def run_lock(
+    path: Path = LOCK, wait_s: float = 0, poll_s: float = 60, sleep: Callable[[float], None] = time.sleep
+) -> Iterator[float]:
+    """An OS-level lock held for the whole run. The OS frees it if the process dies, so it never goes stale.
+
+    Waits up to `wait_s` seconds for another run to let go, then raises AlreadyRunning. Yields the seconds waited.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
     f = open(path, "a+b")  # noqa: SIM115 - held open for the lifetime of the lock
     try:
-        try:
-            f.seek(0)
-            if os.name == "nt":
-                import msvcrt
+        waited = 0.0
+        while True:
+            try:
+                f.seek(0)
+                if os.name == "nt":
+                    import msvcrt
 
-                msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
-            else:
-                import fcntl
+                    msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+                else:
+                    import fcntl
 
-                fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except OSError as e:
-            raise AlreadyRunning(f"another run holds {path}") from e
+                    fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except OSError as e:
+                if waited >= wait_s:
+                    raise AlreadyRunning(f"another run holds {path}") from e
+            sleep(poll_s)
+            waited += poll_s
         try:
-            yield
+            yield waited
         finally:
             f.seek(0)
             if os.name == "nt":
@@ -83,7 +97,7 @@ def stages(cfg: Config, watch_only: bool = False) -> list[Stage]:
         Stage("triage", ("triage",)),
         Stage("verify", ("verify",), needs_search=True, timeout_s=cfg.verify.max_minutes * 60 + 900),
         Stage("rank", ("rank",)),
-        Stage("export", ("export",) if cfg.nightly.export == "real" else ("export", "--dry-run"), timeout_s=900),
+        Stage("export", ("export",) if cfg.nightly.export == "store" else ("export", "--dry-run"), timeout_s=900),
         Stage("digest", ("digest",), timeout_s=600),
     ]
 
@@ -115,6 +129,12 @@ def run_stage(stage: Stage, log_file: Path, runner: Callable[..., Any] = subproc
             return None
 
 
+def _note(log_file: Path, text: str) -> None:
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_file, "a", encoding="utf-8") as log:
+        log.write(f"\n===== {datetime.now():%H:%M:%S} {text}\n")
+
+
 def run_nightly(
     cfg: Config,
     *,
@@ -125,13 +145,33 @@ def run_nightly(
     lock_path: Path = LOCK,
     logs_dir: Path = LOGS,
     today: str | None = None,
+    sleep: Callable[[float], None] = time.sleep,
 ) -> dict[str, Any]:
-    """Run every stage; never stops early on a failed stage. Returns the run-log entry (also logged)."""
+    """Run every stage; never stops early on a failed stage. Returns the run-log entry (also logged).
+
+    A run that can't get the lock says so in the day's log, and a nightly that couldn't is an alert in the next
+    report: on 2026-10-07 the nightly exited without a trace while a watch run held the lock, and there was no report.
+    """
     today = today or date.today().isoformat()
     log_file = logs_dir / f"nightly-{today}.txt"
     started = time.monotonic()
     entry: dict[str, Any] = {"command": "nightly --watch-only" if watch_only else "nightly", "stages": [], "alerts": []}
-    with run_lock(lock_path):
+    wait_s = 0 if watch_only else LOCK_WAIT_S  # watch-only steps aside: the run going watches the boards too
+    with ExitStack() as held:
+        try:
+            waited = held.enter_context(run_lock(lock_path, wait_s=wait_s, sleep=sleep))
+        except AlreadyRunning:
+            if watch_only:
+                _note(log_file, "nightly --watch-only: skipped, another run is going")
+            else:
+                gave_up = f"another run still held the lock after {LOCK_WAIT_S // 60} minutes"
+                _note(log_file, f"nightly: did not run, {gave_up}")
+                entry["alerts"].append(f"No report on {today}: the nightly did not start, {gave_up}.")
+                log(entry | {"at": datetime.now().astimezone().isoformat(timespec="seconds"),
+                             "duration_s": round(time.monotonic() - started, 2)})  # fmt: skip
+            raise
+        if waited:
+            _note(log_file, f"nightly: waited {waited / 60:.0f} minutes for another run to finish")
         search = True
         if any(s.needs_search for s in stages(cfg, watch_only)) and not (search := search_ok(cfg)):
             entry["alerts"].append(

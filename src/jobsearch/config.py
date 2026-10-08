@@ -117,9 +117,9 @@ class EvidenceCfg(_Strict):
 
 class NightlyCfg(_Strict):
     discover_limit: int = Field(60, ge=0)  # web searches per night for companies without a job board
-    # "preview" writes the import CSVs without marking anything sent: run `export` yourself when you import, so a
-    # skipped day never drops changes. "real" exports every night, and then every night's CSVs must be imported.
-    export: Literal["preview", "real"] = "preview"
+    # "store": the nightly sends research, screening, jobs and people straight into the tracker (plan-tracker.md).
+    # "preview": it only writes a CSV preview of that to out/<date>/preview/ and changes nothing.
+    export: Literal["store", "preview"] = "store"
     report_top: int = Field(8, ge=1)  # jobs written up in full at the top of the report
 
 

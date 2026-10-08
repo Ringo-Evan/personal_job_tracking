@@ -1,10 +1,10 @@
-"""Tracker import CSVs (plan.md Phase 6, contract in section 5).
+"""Export: the pipeline's research, jobs and people go into the tracker (plan.md Phase 6, plan-tracker.md).
 
-Only pipeline-owned columns (5.3) are written, plus the ID and name columns. Within a row, only cells whose value
-changed since the last export are filled: the tracker's importer leaves existing values alone for blank cells, so
-an owner's hand edit of a pipeline field survives until the pipeline's own value changes. Insert-only fields are
-written on a row's first export only. What was exported is remembered per record (`exported`), so a rerun writes
-nothing new.
+Only pipeline-owned fields (section 5.3) are written, as the writer "pipeline", through the tracker's one write path,
+which refuses anything else. Within a row, only cells whose value changed since the last export are sent, so an
+owner's hand edit of a pipeline field survives until the pipeline's own value changes. Insert-only fields are written
+when a row is created only. What was exported is remembered per record (`exported`), so a rerun writes nothing new.
+The tracker's import CSVs can still be written: as a preview (`--dry-run`) or as a backup (`--csv`).
 """
 
 from __future__ import annotations
@@ -25,26 +25,22 @@ from jobsearch.grounding import person_problem
 from jobsearch.models import is_skipped
 from jobsearch.rank import maine_verdict
 from jobsearch.store import Store, read_json, write_json
+from jobsearch.tracker import (  # section 5.3 field ownership
+    COMPANY_OWNED,
+    JOB_INSERT_ONLY,
+    JOB_OWNED,
+    PEOPLE_INSERT_ONLY,
+    PEOPLE_OWNED,
+    PIPELINE,
+    Tracker,
+    TrackerError,
+)
 from jobsearch.tracker_csv import COMPANIES, JOBS, PEOPLE, Tab
 from jobsearch.watch import JobStore
 
 OUT = ROOT / "out"
-
-# Section 5.3 field ownership.
-COMPANY_OWNED = (
-    "career_url", "role_families", "hiring_difficulty", "estimate_confidence", "estimate_rationale", "research_notes",
-    "research_status", "maine_remote", "benefit_source", "research_as_of", "next_research_action", "fit_score",
-    "stability_score", "remote_likelihood", "size_estimate", "ai_summary", "ai_red_flags", "ai_scored_at",
-    "approach_role", "people_search_url", "outreach_notes",
-)  # fmt: skip
-JOB_OWNED = (
-    "company", "job_title", "posting_url", "application_url", "source_url", "listing_evidence", "last_checked",
-    "location", "work_mode", "maine_eligible", "pay_low", "pay_high", "currency", "pay_period", "skill_match",
-    "fit_notes",
-)  # fmt: skip
-JOB_INSERT_ONLY = ("track", "current_stage", "highest_stage", "next_action", "date_discovered")
-PEOPLE_OWNED = ("name", "company", "title", "profile_url", "source_url", "why_approach")
-PEOPLE_INSERT_ONLY = ("status", "relationship", "next_step")
+SHORTLIST_SKILL = 3  # skill match from the job scorer, 1-5
+DISMISSED = "dismissed.json"  # in data/: {job key: reason} for jobs ruled out by hand (`jobsearch dismiss`)
 
 OWNER_STATUSES_KEPT = ("Researching", "Researched", "Parked")  # never overwritten if the owner set them last
 SIGNAL_STRENGTH = ("revenue", "growth", "funding", "public-sector", "acquisition", "other", "layoffs")
@@ -314,11 +310,14 @@ class ExportReport:
     people_updated: list[str] = field(default_factory=list)
     leads_added: int = 0
     skipped_status: list[str] = field(default_factory=list)  # owner-set research_status left alone
+    refused: list[str] = field(default_factory=list)  # rows the tracker refused: tried again next time
+    gone: list[str] = field(default_factory=list)  # rows deleted in the tracker: left deleted
 
     def counts(self) -> dict[str, int]:
         return {"companies": len(self.companies), "jobs_new": len(self.jobs_new),
                 "jobs_updated": len(self.jobs_updated), "people_new": len(self.people_new),
-                "people_updated": len(self.people_updated), "leads_added": self.leads_added}  # fmt: skip
+                "people_updated": len(self.people_updated), "leads_added": self.leads_added,
+                "refused": len(self.refused)}  # fmt: skip
 
 
 def _diff(values: dict[str, Any], exported: dict[str, Any]) -> dict[str, Any]:
@@ -346,14 +345,73 @@ def _out_path(out_dir: Path, name: str, stamp: str) -> Path:
     return p if not p.exists() else out_dir / f"{name}-{stamp}.csv"
 
 
+def dismissed(store: Store) -> dict[str, str]:
+    path = store.data_dir / DISMISSED
+    return read_json(path) if path.exists() else {}
+
+
+def _title_key(job: dict[str, Any]) -> tuple[Any, str]:
+    return job.get("company_id"), re.sub(r"[^a-z0-9]+", "", (job.get("title") or "").lower())
+
+
+def lead_duplicates(jobs: list[dict[str, Any]]) -> set[str]:
+    """Keys of research leads for a posting the watcher already tracks: the same job twice (Motional, 2026-10-06)."""
+    watched = {_title_key(j) for j in jobs if not j.get("closed_at") and j.get("source") != "verify"}
+    return {j["key"] for j in jobs if j.get("source") == "verify" and _title_key(j) in watched}
+
+
+def publishable(job: dict[str, Any], gone: dict[str, str]) -> bool:
+    """Which pipeline jobs reach the tracker's Jobs tab (plan-tracker.md): open ones on the shortlist (skill match
+    3+, Maine not ruled out) that weren't dismissed. The rest stay in the report, ranked low."""
+    return (
+        not job.get("closed_at")
+        and ((job.get("score") or {}).get("skill_match") or 0) >= SHORTLIST_SKILL
+        and maine_verdict(job) != "no"
+        and job["key"] not in gone
+    )
+
+
 def run_export(
-    store: Store, cfg: Config, *, today: str, now: str, out_root: Path = OUT, dry_run: bool = False
+    store: Store,
+    cfg: Config,
+    *,
+    today: str,
+    now: str,
+    out_root: Path = OUT,
+    dry_run: bool = False,
+    tracker: Tracker | None = None,
+    csv_backup: bool = False,
 ) -> ExportReport:
+    """Send everything that changed since the last export into `tracker`.
+
+    A row the tracker refuses goes in `refused` and is tried again next time; a job or person deleted in the tracker
+    stays deleted. dry_run: change nothing anywhere and write the CSV preview to out/<date>/preview/ instead.
+    csv_backup: also write the import CSVs to out/<date>/.
+    """
+    if tracker is None and not dry_run:
+        raise ValueError("a real export needs the tracker to write into")
     rep = ExportReport()
     ids = Ids(store, cfg)
     flt = PostingFilter(cfg)  # leads get the same title rules as board postings
+    gone = dismissed(store)
     company_rows: list[dict[str, Any]] = []
     companies: dict[str, dict[str, Any]] = {}
+
+    def send(name: str, row_id: str, values: dict[str, Any], create: bool = False) -> bool:
+        if dry_run:
+            return True
+        try:
+            tracker.write(name, row_id, values, by=PIPELINE, create=create)
+        except TrackerError as e:
+            rep.refused.append(f"{name}/{row_id}: {e}"[:300])
+            return False
+        return True
+
+    def deleted(name: str, row_id: str) -> bool:
+        if dry_run or tracker.get(name, row_id) is not None:
+            return False
+        rep.gone.append(row_id)
+        return True
 
     for rec in store.iter_companies():
         companies[rec["company_id"]] = rec
@@ -370,7 +428,7 @@ def run_export(
         ):
             rep.skipped_status.append(rec["company_id"])
         changed = _diff(values, rec.get("exported") or {})
-        if not changed:
+        if not changed or not send("companies", rec["company_id"], changed):  # the pipeline never adds companies
             continue
         company_rows.append(
             {"company_id": rec["company_id"], "company": rec["tracker"].get("company"), **changed}
@@ -384,26 +442,34 @@ def run_export(
 
     jobs = JobStore(store)
     job_rows: list[dict[str, Any]] = []
-    for job in _all(jobs.dir):
+    all_jobs = _all(jobs.dir)
+    dupes = lead_duplicates(all_jobs)
+    for job in all_jobs:
         company = companies.get(job.get("company_id"))
         if not company or is_skipped(company) or company.get("missing_from_tracker"):
             continue
-        if company:
-            job["company"] = company["tracker"].get("company")  # tracker's exact name string (5.4)
-        values = job_values(job, company)
+        job["company"] = company["tracker"].get("company")  # tracker's exact name string (5.4)
+        values = job_values(job, company) | ({"company_id": job["company_id"]} if job.get("company_id") else {})
         first = not job.get("job_id")
+        if first and (not publishable(job, gone) or job["key"] in dupes):
+            continue
         changed = _diff(values, job.get("exported") or {})
         if not changed and not first:
             continue
         if first:
-            job["job_id"] = ids.next("job")
-            row = {"job_id": job["job_id"], **values, **job_insert_values(job)}
+            job_id = ids.next("job")
+            row = values | job_insert_values(job)
+            if not send("jobs", job_id, row, create=True):
+                continue
+            job["job_id"] = job_id
+            job_rows.append({"job_id": job_id, **row})
             rep.jobs_new.append(job["key"])
             job["first_exported"] = today
         else:
-            row = {"job_id": job["job_id"], "company": values.get("company"), **changed}
+            if deleted("jobs", job["job_id"]) or not send("jobs", job["job_id"], changed):
+                continue
+            job_rows.append({"job_id": job["job_id"], "company": values.get("company"), **changed})
             rep.jobs_updated.append(job["key"])
-        job_rows.append(row)
         job["exported"] = (job.get("exported") or {}) | values
         if not dry_run:
             jobs.save(job)
@@ -415,17 +481,22 @@ def run_export(
         if not company or is_skipped(company) or company.get("missing_from_tracker"):
             continue
         p["company"] = company["tracker"].get("company")
-        values = person_values(p)
+        values = person_values(p) | ({"company_id": p["company_id"]} if p.get("company_id") else {})
         first = not p.get("person_id")
         changed = _diff(values, p.get("exported") or {})
         if not changed and not first:
             continue
         if first:
-            p["person_id"] = ids.next("person")
-            people_rows.append({"person_id": p["person_id"], **values, **PERSON_INSERT})
+            person_id = ids.next("person")
+            if not send("people", person_id, values | PERSON_INSERT, create=True):
+                continue
+            p["person_id"] = person_id
+            people_rows.append({"person_id": person_id, **values, **PERSON_INSERT})
             rep.people_new.append(p["key"])
             p["first_exported"] = today
         else:
+            if deleted("people", p["person_id"]) or not send("people", p["person_id"], changed):
+                continue
             people_rows.append({"person_id": p["person_id"], "name": values.get("name"), **changed})
             rep.people_updated.append(p["key"])
         p["exported"] = (p.get("exported") or {}) | values
@@ -434,6 +505,8 @@ def run_export(
 
     if not dry_run:
         ids.save()
+    if not dry_run and not csv_backup:
+        return rep
     # A dry run writes a preview (same IDs a real export would allocate) and marks nothing.
     out_dir = out_root / today / "preview" if dry_run else out_root / today
     out_dir.mkdir(parents=True, exist_ok=True)

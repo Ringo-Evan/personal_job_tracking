@@ -1,4 +1,8 @@
-"""Ingest tracker CSV exports into data/companies/*.json (plan phase 1)."""
+"""Refresh data/companies/*.json from the tracker (plan phase 1; plan-tracker.md).
+
+The tracker's company rows in data/tracker/ are the source now. A tracker CSV export can still be read once by hand
+(`ingest --file`), the original path.
+"""
 
 from __future__ import annotations
 
@@ -10,7 +14,8 @@ from typing import Any
 
 from jobsearch.models import CompanyRecord
 from jobsearch.store import Store, read_json, write_json
-from jobsearch.tracker_csv import COMPANIES, ParseResult, detect_tab, parse_text, read_file
+from jobsearch.tracker import Tracker
+from jobsearch.tracker_csv import COMPANIES, COMPANY_LABELS, ParseResult, detect_tab, parse_text, read_file
 
 # Owner-set fields whose changes drive the section 5.3 exceptions.
 WATCHED_FIELDS = ("research_status", "overall_rank")
@@ -132,6 +137,30 @@ def ingest_companies(
         store.save_company(rec)
         report.marked_missing.append(cid)
 
+    return report
+
+
+def tracker_rows(tracker: Tracker) -> ParseResult:
+    """The tracker's company rows in the shape a CSV export parses to: every Companies field, blanks as None."""
+    rows = [
+        {k: None if r.get(k) in (None, "") else r[k] for k in COMPANY_LABELS} for r in tracker.load("companies")
+    ]
+    return ParseResult(COMPANIES, rows, 0, [], [])
+
+
+def ingest_tracker(store: Store, tracker: Tracker, at: str | None = None) -> IngestReport:
+    """Refresh every company's `tracker` block from the tracker's rows, the way a CSV export was ingested: owner
+    changes to status and rank are recorded, and a company gone from the tracker is marked missing, never deleted."""
+    parsed = tracker_rows(tracker)
+    known = [cid for cid in store.company_ids() if not (store.load_company(cid) or {}).get("missing_from_tracker")]
+    if known and len(parsed.rows) < len(known) * PARTIAL_EXPORT_RATIO:
+        # Most likely a damaged or half-restored data/tracker/: refuse rather than mark everything missing.
+        raise PartialExportError(
+            f"the tracker holds {len(parsed.rows)} companies but {len(known)} are known; refusing to mark the rest "
+            f"missing. Check {tracker.root / 'companies'}."
+        )
+    report = ingest_companies(parsed, store, at=at, allow_partial=True)
+    report.source = "tracker"
     return report
 
 

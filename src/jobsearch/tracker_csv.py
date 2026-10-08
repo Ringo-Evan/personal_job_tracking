@@ -80,6 +80,19 @@ JOB_LABELS: dict[str, str] = {
     "hiring_difficulty": "Hiring difficulty (1-5 hard)",
     "skill_match": "Skill match (1-5 high)",
     "fit_notes": "Difficulty / fit notes",
+    # The rest are the owner's (plan-tracker.md); company_id joins a row to its company by ID, not by name.
+    "company_id": "Company ID",
+    "resume_version_id": "Resume version ID",
+    "resume_link": "Exact resume link used",
+    "cover_version_id": "Cover letter version ID",
+    "cover_link": "Exact cover letter link used",
+    "recruiter_contact": "Recruiter / contact",
+    "referral": "Referral / connection",
+    "application_confirmation": "Application confirmation",
+    "last_contact_date": "Last contact date",
+    "next_interview_date": "Next interview date",
+    "outcome_feedback": "Outcome / feedback",
+    "role_research": "Your role research / questions",
 }
 
 PEOPLE_LABELS: dict[str, str] = {
@@ -96,6 +109,38 @@ PEOPLE_LABELS: dict[str, str] = {
     "next_step_date": "Next step date",
     "why_approach": "Why approach them",
     "notes": "Notes / conversation log",
+    "company_id": "Company ID",
+}
+
+ACTIVITY_LABELS: dict[str, str] = {
+    "activity_id": "Activity ID",
+    "job_id": "Job ID",
+    "company": "Company / group",
+    "company_id": "Company ID",
+    "date": "Date",
+    "type": "Type",
+    "stage_round": "Stage / round",
+    "contact": "Contact / interviewer",
+    "channel": "Channel",
+    "preparation": "Preparation / research",
+    "questions_asked": "Questions asked",
+    "your_answers": "Your answers / examples",
+    "feedback_outcome": "Feedback / outcome",
+    "next_action": "Next action",
+    "next_action_date": "Next action date",
+    "notes_url": "Notes / document URL",
+}
+
+MATERIALS_LABELS: dict[str, str] = {
+    "version_id": "Version ID",
+    "doc_type": "Document type",
+    "file_name": "File / version name",
+    "doc_url": "Drive / document URL",
+    "created_date": "Created date",
+    "target_role": "Target role / sector",
+    "key_changes": "Key changes / emphasis",
+    "base_version_id": "Base version ID",
+    "notes": "Notes",
 }
 
 
