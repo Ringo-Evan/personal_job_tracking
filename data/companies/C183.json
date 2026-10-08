@@ -5,8 +5,8 @@
     "company": "Pulumi",
     "sector": "Test tooling",
     "interests": "Infra as code",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.pulumi.com/careers/",
+    "role_families": "SDET/Quality Engineering; Release Engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Fully remote since 2020; Maine-eligible positions exist. Stability appears high given the essential nature of infrastructure tooling and cloud-native status. Sources: https://www.pulumi.com/careers/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "yes: Fully remote company since March 2020; unless otherwise specified, all open positions are remote.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Pulumi is a fully remote test-tooling company eligible for Maine residents. It fits Evan's tooling interests and offers stability in cloud infra, but the sector lacks direct domain overlap with his medical/RFID experience.",
     "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Hiring Manager for Software Engineers or Quality Engineer",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Hiring%20Manager%20for%20Software%20Engineers%20or%20Quality%20Engineer%20Pulumi",
+    "outreach_notes": "Your deep expertise in test automation and tooling aligns with Pulumi's mission to improve developer workflows, offering a chance to build scalable quality solutions remotely from Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,43 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.pulumi.com/careers/",
+    "research_notes": "Fully remote since 2020; Maine-eligible positions exist. Stability appears high given the essential nature of infrastructure tooling and cloud-native status. Sources: https://www.pulumi.com/careers/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Fully remote company since March 2020; unless otherwise specified, all open positions are remote.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Pulumi is a fully remote test-tooling company eligible for Maine residents. It fits Evan's tooling interests and offers stability in cloud infra, but the sector lacks direct domain overlap with his medical/RFID experience.",
+    "role_families": "SDET/Quality Engineering; Release Engineering",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
+    "approach_role": "Hiring Manager for Software Engineers or Quality Engineer",
+    "outreach_notes": "Your deep expertise in test automation and tooling aligns with Pulumi's mission to improve developer workflows, offering a chance to build scalable quality solutions remotely from Maine.",
+    "next_research_action": "No supported job board - check https://www.pulumi.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Hiring%20Manager%20for%20Software%20Engineers%20or%20Quality%20Engineer%20Pulumi"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "pulumicorporation",
-    "board_url": "https://job-boards.greenhouse.io/pulumicorporation",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Pulumi",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.pulumi.com/careers/",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:pulumicorporation (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -121,6 +147,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -150,15 +177,75 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:35-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:pulumicorporation (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

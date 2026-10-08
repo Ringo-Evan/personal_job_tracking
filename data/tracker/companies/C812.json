@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Few dedicated QA roles; small team",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first gym management SaaS; martial-arts-adjacent and likely remote friendly, but small with few dedicated test roles.",
+  "approach_role": "Head of Engineering",
+  "company": "PushPress",
+  "company_id": "C812",
+  "fit_score": 3,
+  "interests": "Gym software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20PushPress",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Senior Test Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

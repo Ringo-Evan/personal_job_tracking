@@ -5,8 +5,8 @@
     "company": "Epoch / CCBill",
     "sector": "Adult & sexuality",
     "interests": "Adult payment processing",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://epoch.ai/about/careers",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified facts are almost empty: no job board, ATS, remote policy, size, stability signals, QA openings or contacts. Epoch/CCBill is an established private adult/high-risk payment processor (est. late 1990s). Treat as speculative; confirm remote-Maine eligibility, current QA reqs and reporting line before investing effort. Sources: https://epoch.ai/about/careers",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching lever board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Epoch/CCBill processes payments for adult and high-risk merchants — a sector the candidate flags as a fit, and its compliance-heavy platform suits regulated V&V experience. But nothing verified about remote-from-Maine, QA openings, teams, or leadership, so fit is speculative.",
+    "ai_red_flags": "Card-network and adult-content compliance risk; remote policy, openings and leadership all unverified in the facts.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering / Head of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20/%20Head%20of%20Quality%20Engineering%20Epoch%20/%20CCBill",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps onto a compliance-heavy payment platform, where test rigor around transaction integrity and card-network rules is the core quality risk."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://epoch.ai/about/careers",
+    "research_notes": "Verified facts are almost empty: no job board, ATS, remote policy, size, stability signals, QA openings or contacts. Epoch/CCBill is an established private adult/high-risk payment processor (est. late 1990s). Treat as speculative; confirm remote-Maine eligibility, current QA reqs and reporting line before investing effort. Sources: https://epoch.ai/about/careers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Epoch/CCBill processes payments for adult and high-risk merchants — a sector the candidate flags as a fit, and its compliance-heavy platform suits regulated V&V experience. But nothing verified about remote-from-Maine, QA openings, teams, or leadership, so fit is speculative.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "Card-network and adult-content compliance risk; remote policy, openings and leadership all unverified in the facts.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Engineering / Head of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps onto a compliance-heavy payment platform, where test rigor around transaction integrity and card-network rules is the core quality risk.",
+    "next_research_action": "Watching lever board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20/%20Head%20of%20Quality%20Engineering%20Epoch%20/%20CCBill"
+  },
   "ats": {
     "type": "lever",
     "token": "epoch-ai",
     "board_url": "https://jobs.lever.co/epoch-ai",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://epoch.ai/about/careers",
-    "job_count": 9
+    "source": "https://epoch.ai/about/careers",
+    "note": "",
+    "job_count": 8
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://epoch.ai/about/careers",
+    "found": "lever:epoch-ai (embedded in https://epoch.ai/about/careers)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -122,6 +149,7 @@
       "model": "gemini/gemini-3.5-flash-lite"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -151,15 +179,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:35-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://epoch.ai/about/careers",
-    "found": "lever:epoch-ai (embedded in https://epoch.ai/about/careers)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

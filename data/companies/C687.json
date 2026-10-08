@@ -5,8 +5,8 @@
     "company": "Dire Wolf Digital",
     "sector": "Games & stories",
     "interests": "Digital card/board games",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.direwolfdigital.com/careers/",
+    "role_families": "SDET / test automation; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified facts are thin: only that Dire Wolf Digital works in games and stories, specifically digital card/board games, and that the candidate is interested in that space. Remote policy, headcount, stability signals, QA openings and contacts are all unverified — confirm before investing. Mid-size, service-based studio. Sources: https://www.direwolfdigital.com/careers/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.direwolfdigital.com/careers/ manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Dire Wolf Digital makes digital card and board games, a strong match to the candidate's games/tabletop interest and his automation depth. But no verified remote policy, size, stability signals, QA openings or contacts were found, so fit rests on domain",
+    "ai_red_flags": "No verified remote policy or QA openings; game studio hiring is often crunch-driven, contract-heavy and location-bound.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of QA or QA Manager (no named leader in verified facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20QA%20or%20QA%20Manager%20%28no%20named%20leader%20in%20verified%20facts%29%20Dire%20Wolf%20Digital",
+    "outreach_notes": "Fifteen years of C#/.NET test automation, including V&V for live, content-heavy products, maps well to keeping a digital card game's frequent releases shippable and fair."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.direwolfdigital.com/careers/",
+    "research_notes": "Verified facts are thin: only that Dire Wolf Digital works in games and stories, specifically digital card/board games, and that the candidate is interested in that space. Remote policy, headcount, stability signals, QA openings and contacts are all unverified — confirm before investing. Mid-size, service-based studio. Sources: https://www.direwolfdigital.com/careers/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Dire Wolf Digital makes digital card and board games, a strong match to the candidate's games/tabletop interest and his automation depth. But no verified remote policy, size, stability signals, QA openings or contacts were found, so fit rests on domain",
+    "role_families": "SDET / test automation; QA engineering; release engineering",
+    "ai_red_flags": "No verified remote policy or QA openings; game studio hiring is often crunch-driven, contract-heavy and location-bound.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Head of QA or QA Manager (no named leader in verified facts)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation, including V&V for live, content-heavy products, maps well to keeping a digital card game's frequent releases shippable and fair.",
+    "next_research_action": "No supported job board - check https://www.direwolfdigital.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20QA%20or%20QA%20Manager%20%28no%20named%20leader%20in%20verified%20facts%29%20Dire%20Wolf%20Digital"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.direwolfdigital.com/careers/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.direwolfdigital.com/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 5,
     "stability": 4,
@@ -112,6 +150,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -140,16 +179,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.direwolfdigital.com/careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

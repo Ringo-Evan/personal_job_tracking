@@ -1,0 +1,20 @@
+{
+  "key": "8af146100a75",
+  "company_id": "C425",
+  "company": "SimpliSafe",
+  "name": "Don Nelson",
+  "title": "Chief Technology Officer",
+  "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering",
+  "why_approach": "Chief Technology Officer at SimpliSafe. I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+  "first_seen": "2026-10-07",
+  "person_id": "PA0023",
+  "exported": {
+    "name": "Don Nelson",
+    "company": "SimpliSafe",
+    "title": "Chief Technology Officer",
+    "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering",
+    "why_approach": "Chief Technology Officer at SimpliSafe. I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+    "company_id": "C425"
+  },
+  "first_exported": "2026-10-07"
+}

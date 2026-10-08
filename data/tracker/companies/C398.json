@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small AEC software; remote possible.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "AEC software company; QA/SDET roles plausible. Smaller company, remote possible. AEC not core interest.",
+  "approach_role": "Engineering Manager",
+  "company": "Newforma",
+  "company_id": "C398",
+  "fit_score": 3,
+  "interests": "Manchester NH AEC software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Newforma",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

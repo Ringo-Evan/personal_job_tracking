@@ -1,0 +1,21 @@
+{
+  "company": "Aylo",
+  "company_id": "C015",
+  "current_stage": "Lead",
+  "date_discovered": "2026-09-29",
+  "fit_notes": "Indexed requirements mention 1-3 years manual QA and reviewing AI-generated code. Likely below current seniority; location/pay unresolved.",
+  "highest_stage": "None",
+  "hiring_difficulty": 3,
+  "job_id": "J005",
+  "job_title": "SQA Developer",
+  "last_checked": "2026-09-29",
+  "listing_evidence": "Indexed lead - verify",
+  "location": "Not verified",
+  "maine_eligible": "Unknown",
+  "next_action": "Confirm vacancy, location and requirements",
+  "posting_url": "https://job-boards.greenhouse.io/aylo/jobs/8605526002",
+  "source_url": "https://job-boards.greenhouse.io/aylo/jobs/8605526002",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import",
+  "work_mode": "Unknown"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "small team; limited roles.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Board game simulator using C#/Unity; strong domain match, remote-friendly, but small team may lack QA roles.",
+  "approach_role": "Lead Developer",
+  "company": "Tabletop Simulator (Berserk Games)",
+  "company_id": "C686",
+  "fit_score": 4,
+  "interests": "Board game sim",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Lead%20Developer%20Tabletop%20Simulator%20%28Berserk%20Games%29",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

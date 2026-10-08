@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "K12 mismatch; remote policy unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "K12 app; QA roles plausible, but domain mismatch and remote policy unclear.",
+  "approach_role": "Director of Quality",
+  "company": "Seesaw",
+  "company_id": "C544",
+  "fit_score": 2,
+  "interests": "K12 app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Seesaw",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; QA Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:18Z",
+  "updated_by": "pipeline"
+}

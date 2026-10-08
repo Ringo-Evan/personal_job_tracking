@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "IaC orchestration",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Quality Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "IaC testing expertise; remote-friendly startup; infrastructure focus",
+    "ai_red_flags": "Smaller company; specialized infrastructure market",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Spacelift",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,37 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA engineering; release engineering",
+    "approach_role": "Co-founder",
+    "ai_summary": "Spacelift is a remote-first IaC orchestration platform, so senior test roles are plausible but likely Go/K8s-centric; candidate's C#/.NET and regulated device testing are a lateral gap. Maine-eligible remote is a plus.",
+    "ai_red_flags": "No QA openings listed; stack may favor Go/K8s over C#/.NET.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Co-founder%20Spacelift",
+    "career_url": "https://careers.spacelift.io/",
+    "research_notes": "Fully remote, Maine eligible. Raised $82.3M; 130+ employees. No QA openings listed. Co-founders only contacts; no QA leader. Stability moderate: VC-backed devtools, not essential/public. Stack likely IaC/Go/K8s, so emphasize transferable test automation. Sources: https://careers.spacelift.io/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Fully remote company; Spacelifters can base themselves anywhere in Europe (CET +/- 3h) or North America.",
+    "benefit_source": "https://careers.spacelift.io/",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "With 15 years in test automation and regulated V&V, I can bring rigor to Spacelift's IaC orchestration quality, especially around release tooling, policy validation, and remote-first collaboration.",
+    "next_research_action": "No supported job board - check https://careers.spacelift.io/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.spacelift.io/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses teamtailor"
+  },
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -61,7 +90,82 @@
     "model": "claude-haiku-4-5-20251001",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C185",
+    "career_url": "https://careers.spacelift.io/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Fully remote company; Spacelifters can base themselves anywhere in Europe (CET +/- 3h) or North America.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.spacelift.io/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "Raised $82.3M over four rounds from Insight Partners, Blossom Capital, Hoxton Ventures, Inovo and Five Elms.",
+          "date": null,
+          "url": "https://careers.spacelift.io/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company has grown to more than 130 employees across the United States and Europe.",
+          "date": null,
+          "url": "https://careers.spacelift.io/"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 3,
+      "rationale": "Spacelift is a remote-first IaC orchestration platform, so senior test roles are plausible but likely Go/K8s-centric; candidate's C#/.NET and regulated device testing are a lateral gap. Maine-eligible remote is a plus.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Marcin Wyszynski",
+        "title": "Co-founder",
+        "source_url": "https://careers.spacelift.io/"
+      },
+      {
+        "name": "Pawel Hytry",
+        "title": "Co-founder",
+        "source_url": "https://careers.spacelift.io/"
+      }
+    ],
+    "approach_role": "Co-founder",
+    "outreach_angle": "With 15 years in test automation and regulated V&V, I can bring rigor to Spacelift's IaC orchestration quality, especially around release tooling, policy validation, and remote-first collaboration.",
+    "red_flags": "No QA openings listed; stack may favor Go/K8s over C#/.NET.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.spacelift.io/"
+    ],
+    "notes": "Fully remote, Maine eligible. Raised $82.3M; 130+ employees. No QA openings listed. Co-founders only contacts; no QA leader. Stability moderate: VC-backed devtools, not essential/public. Stack likely IaC/Go/K8s, so emphasize transferable test automation.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +187,71 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.spacelift.io/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses teamtailor"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

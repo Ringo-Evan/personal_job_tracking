@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Absorbed into Spotify; hires via parent.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Spotify's audiobook distribution arm; audio and playback hardware adjacency, but hiring is now consolidated under its parent.",
+  "approach_role": "Engineering Manager, Findaway",
+  "company": "Findaway (Spotify)",
+  "company_id": "C767",
+  "fit_score": 2,
+  "interests": "Audiobook distribution",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Findaway%20Findaway%20%28Spotify%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Lead",
+  "sector": "Books, history & media",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

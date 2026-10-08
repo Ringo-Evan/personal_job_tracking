@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site only, no remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "EHR vendor, on-site only in WI; no remote and not commutable, poor fit.",
+  "approach_role": "QA Manager",
+  "company": "Epic Systems",
+  "company_id": "C277",
+  "fit_score": 2,
+  "interests": "EHR; on-site WI (likely no)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Epic%20Systems",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:10Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote policy unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mail and locker tech; large established firm with QA needs, but IoT/location overlap moderate and remote policy uncertain.",
+  "approach_role": "Director of Quality",
+  "company": "Quadient",
+  "company_id": "C232",
+  "fit_score": 3,
+  "interests": "Package lockers, mail tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Quadient",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "IoT / location tech",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

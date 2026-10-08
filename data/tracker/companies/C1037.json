@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Journalism; criminal justice; not tech company",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Criminal justice journalism; values-aligned but no tech QA roles",
+  "approach_role": "Executive Director",
+  "company": "The Marshall Project",
+  "company_id": "C1037",
+  "fit_score": 1,
+  "interests": "Criminal justice journalism",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Executive%20Director%20The%20Marshall%20Project",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Journalist; Web Developer",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

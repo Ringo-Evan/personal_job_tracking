@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.reuters.com/business/anthropic-boost-hiring-europe-after-opening-milan-office-2026-05-28/",
+  "career_url": "https://www.anthropic.com/careers",
+  "company": "Anthropic",
+  "company_id": "C037",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Highly competitive engineering hiring; ML/evaluation systems depth not demonstrated.",
+  "hiring_difficulty": 5,
+  "interests": "AI, technology",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "International workforce expansion reported; not evidence of easy entry or US-remote eligibility.",
+  "research_status": "Initial research",
+  "role_families": "Evaluation infrastructure; product reliability; research tools",
+  "sector": "Growth technology",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

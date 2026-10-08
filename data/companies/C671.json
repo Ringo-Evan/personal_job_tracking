@@ -5,8 +5,8 @@
     "company": "Tripwire Interactive",
     "sector": "Games & stories",
     "interests": "Shooters",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://job-boards.greenhouse.io/tripwireinteractive",
+    "role_families": "QA leadership; Test automation / SDET; Release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote, hybrid, or in-office allowed; remote hires must be US-authorized; core hours 10am-4pm EST, so Maine works. Studio of 50-500, owned by Embracer via Saber Interactive. Only QA contact listed is a principal tester; no senior openings currently posted — likely cold outreach or monitor the Greenhouse board. Sources: https://job-boards.greenhouse.io/tripwireinteractive https://job-boards.greenhouse.io/tripwireinteractive/jobs/8282003002 https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Employees may choose in-office, at-home, or hybrid work; remote hires must be legally authorized to work in the USA; core hours are 10am to 4pm EST.",
+    "benefit_source": "https://wfh.team/companies/tripwire-interactive",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Tripwire Interactive is a shooter-focused game studio (Killing Floor, Rising Storm) matching the candidate's games and shooter interest, with US-remote work open to Maine. But no QA openings are posted, the studio is Embracer-owned, and it recently laid off 23",
+    "ai_red_flags": "No QA openings posted; 23-person layoff citing 'business realities'; Embracer/Saber ownership has seen industry-wide restructuring and cuts.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Principal QA tester",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Principal%20QA%20tester%20Tripwire%20Interactive",
+    "outreach_notes": "Fifteen years in C#/.NET test automation and regulated V&V, plus a lifelong shooter fan — I can bring shipped-game QA rigor and tooling to Tripwire's Killing Floor and Rising Storm pipelines."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://job-boards.greenhouse.io/tripwireinteractive",
+    "research_notes": "Remote, hybrid, or in-office allowed; remote hires must be US-authorized; core hours 10am-4pm EST, so Maine works. Studio of 50-500, owned by Embracer via Saber Interactive. Only QA contact listed is a principal tester; no senior openings currently posted — likely cold outreach or monitor the Greenhouse board. Sources: https://job-boards.greenhouse.io/tripwireinteractive https://job-boards.greenhouse.io/tripwireinteractive/jobs/8282003002 https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Employees may choose in-office, at-home, or hybrid work; remote hires must be legally authorized to work in the USA; core hours are 10am to 4pm EST.",
+    "remote_likelihood": "High",
+    "stability_score": 2,
+    "benefit_source": "https://wfh.team/companies/tripwire-interactive",
+    "fit_score": 4,
+    "ai_summary": "Tripwire Interactive is a shooter-focused game studio (Killing Floor, Rising Storm) matching the candidate's games and shooter interest, with US-remote work open to Maine. But no QA openings are posted, the studio is Embracer-owned, and it recently laid off 23",
+    "role_families": "QA leadership; Test automation / SDET; Release engineering",
+    "ai_red_flags": "No QA openings posted; 23-person layoff citing 'business realities'; Embracer/Saber ownership has seen industry-wide restructuring and cuts.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Principal QA tester",
+    "outreach_notes": "Fifteen years in C#/.NET test automation and regulated V&V, plus a lifelong shooter fan — I can bring shipped-game QA rigor and tooling to Tripwire's Killing Floor and Rising Storm pipelines.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Principal%20QA%20tester%20Tripwire%20Interactive"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "tripwireinteractive",
     "board_url": "https://job-boards.greenhouse.io/tripwireinteractive",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Tripwire Interactive",
+    "source": "https://job-boards.greenhouse.io/tripwireinteractive",
+    "note": "Tripwire Interactive",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:tripwireinteractive (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,80 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C671",
+    "career_url": "https://job-boards.greenhouse.io/tripwireinteractive",
+    "ats": {
+      "type": "greenhouse",
+      "token": "tripwireinteractive",
+      "board_url": "https://job-boards.greenhouse.io/tripwireinteractive"
+    },
+    "remote_policy": {
+      "summary": "Employees may choose in-office, at-home, or hybrid work; remote hires must be legally authorized to work in the USA; core hours are 10am to 4pm EST.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://job-boards.greenhouse.io/tripwireinteractive/jobs/8282003002"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Studio laid off 23 people across different areas, citing 'business realities' and an evolving games industry.",
+          "date": null,
+          "url": "https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Acquired by Embracer Group in 2022 and now operates as a subsidiary under the Saber Interactive operative group.",
+          "date": null,
+          "url": "https://wfh.team/companies/tripwire-interactive"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 4,
+      "rationale": "Tripwire Interactive is a shooter-focused game studio (Killing Floor, Rising Storm) matching the candidate's games and shooter interest, with US-remote work open to Maine. But no QA openings are posted, the studio is Embracer-owned, and it recently laid off 23",
+      "role_families": [
+        "QA leadership",
+        "Test automation / SDET",
+        "Release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "David S. Goldfarb",
+        "title": "Principal QA tester",
+        "source_url": "https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/"
+      }
+    ],
+    "approach_role": "Principal QA tester",
+    "outreach_angle": "Fifteen years in C#/.NET test automation and regulated V&V, plus a lifelong shooter fan — I can bring shipped-game QA rigor and tooling to Tripwire's Killing Floor and Rising Storm pipelines.",
+    "red_flags": "No QA openings posted; 23-person layoff citing 'business realities'; Embracer/Saber ownership has seen industry-wide restructuring and cuts.",
+    "confidence": "medium",
+    "sources": [
+      "https://job-boards.greenhouse.io/tripwireinteractive",
+      "https://job-boards.greenhouse.io/tripwireinteractive/jobs/8282003002",
+      "https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/",
+      "https://wfh.team/companies/tripwire-interactive"
+    ],
+    "notes": "Remote, hybrid, or in-office allowed; remote hires must be US-authorized; core hours 10am-4pm EST, so Maine works. Studio of 50-500, owned by Embracer via Saber Interactive. Only QA contact listed is a principal tester; no senior openings currently posted — likely cold outreach or monitor the Greenhouse board.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +195,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:tripwireinteractive (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

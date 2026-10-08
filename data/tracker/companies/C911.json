@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Smaller private firm; confirm Maine remote.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Hotel revenue management software; travel tech with likely QA/SDET roles, but smaller firm and remote policy unknown.",
+  "approach_role": "VP Engineering",
+  "company": "Duetto",
+  "company_id": "C911",
+  "fit_score": 4,
+  "interests": "Revenue mgmt",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Duetto",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Travel",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:30Z",
+  "updated_by": "pipeline"
+}

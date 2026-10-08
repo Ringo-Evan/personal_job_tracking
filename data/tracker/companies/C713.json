@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tabletop only; Kickstarter-dependent.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small UK minis/board game publisher; domain match but no software QA and Kickstarter-dependent.",
+  "approach_role": "Operations Director",
+  "company": "Steamforged Games",
+  "company_id": "C713",
+  "fit_score": 1,
+  "interests": "Minis/board games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Director%20Steamforged%20Games",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Playtesting/QA; Production QA; Customer Support",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.gunbroker.com/c/career/",
+  "career_url": "https://www.gunbroker.com/c/career/",
+  "company": "GunBroker.com",
+  "company_id": "C023",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Marketplace and API testing are plausible fits; technology stack needs checking.",
+  "hiring_difficulty": 3,
+  "interests": "Firearms marketplace, auctions",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Career page has surfaced .NET development hiring.",
+  "research_status": "Initial research",
+  "role_families": "Web/backend QA; transactions; platform testing",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

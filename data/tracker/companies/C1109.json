@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "All-volunteer; no tech roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small volunteer-run trans support nonprofit providing grants; mission aligns but there is no engineering function for a senior test engineer.",
+  "approach_role": "Executive Director",
+  "company": "Point of Pride",
+  "company_id": "C1109",
+  "fit_score": 1,
+  "interests": "Trans support",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Executive%20Director%20Point%20of%20Pride",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Operations Coordinator",
+  "sector": "LGBTQ",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

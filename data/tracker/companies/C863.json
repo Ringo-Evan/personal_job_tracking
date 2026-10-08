@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site, retail focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "California tactical gear brand; interest aligns, but QA roles likely on-site and retail/manufacturing focused, not remote.",
+  "approach_role": "QA Manager",
+  "company": "5.11 Tactical",
+  "company_id": "C863",
+  "fit_score": 3,
+  "interests": "Gear",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%205.11%20Tactical",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Quality Manager",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "Cloud cross-browser/device testing",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Senior QA Engineer; Solutions Architect",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Cloud mobile/web testing platform; direct expertise with Appium/Selenium",
+    "ai_red_flags": "India-based; may require visa sponsorship consideration",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Quality%20LambdaTest",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA/test engineering; solutions engineering",
+    "approach_role": "Co-Founder & CEO",
+    "ai_summary": "LambdaTest/TestMu AI is a cloud cross-browser/device testing platform, matching the candidate's test-tooling interest. But hiring is mainly India-based, remote policy is unstated, and no QA openings are listed, so fit is limited.",
+    "ai_red_flags": "No US-remote policy stated; roles listed mainly for India; no public QA openings; rebrand may signal strategic shift.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Co-Founder%20%26%20CEO%20LambdaTest",
+    "career_url": "https://www.testmuai.com/career/",
+    "research_notes": "TestMu AI (rebranded from LambdaTest) offers cloud cross-browser/device testing. Verified: 3M+ users, 18k enterprises, Gartner MQ Challenger 2025. Hiring engineering/SDET mainly in India. Remote policy, size, and QA openings unstated; confirm US-remote eligibility before applying. Sources: https://www.testmuai.com/career/ https://www.testmuai.com/lambdatest-is-now-testmuai/ https://www.testmuai.com/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.testmuai.com/",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I can help TestMu AI's enterprise customers adopt reliable cross-browser and device test suites.",
+    "next_research_action": "No supported job board - check https://www.testmuai.com/career/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -61,7 +89,92 @@
     "model": "claude-haiku-4-5-20251001",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C151",
+    "career_url": "https://www.testmuai.com/career/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "other",
+          "summary": "Company rebranded from LambdaTest to TestMu AI, keeping the same team, infrastructure and customer accounts.",
+          "date": "2026-01",
+          "url": "https://www.testmuai.com/lambdatest-is-now-testmuai/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Platform claims 3M+ users, 18,000+ enterprises including Microsoft, OpenAI and Nvidia, across 132+ countries.",
+          "date": null,
+          "url": "https://www.testmuai.com/"
+        },
+        {
+          "kind": "other",
+          "summary": "Named a Challenger in the 2025 Gartner Magic Quadrant for AI-Augmented Software Testing Tools.",
+          "date": "2025-01",
+          "url": "https://www.testmuai.com/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Active hiring across engineering, SDET, sales and product roles, listed mainly for India.",
+          "date": null,
+          "url": "https://itechmap.com/lambdatest-careers/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "LambdaTest/TestMu AI is a cloud cross-browser/device testing platform, matching the candidate's test-tooling interest. But hiring is mainly India-based, remote policy is unstated, and no QA openings are listed, so fit is limited.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "solutions engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Asad Khan",
+        "title": "Co-Founder & CEO",
+        "source_url": "https://www.testmuai.com/lambdatest-is-now-testmuai/"
+      }
+    ],
+    "approach_role": "Co-Founder & CEO",
+    "outreach_angle": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I can help TestMu AI's enterprise customers adopt reliable cross-browser and device test suites.",
+    "red_flags": "No US-remote policy stated; roles listed mainly for India; no public QA openings; rebrand may signal strategic shift.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.testmuai.com/career/",
+      "https://www.testmuai.com/lambdatest-is-now-testmuai/",
+      "https://www.testmuai.com/",
+      "https://itechmap.com/lambdatest-careers/"
+    ],
+    "notes": "TestMu AI (rebranded from LambdaTest) offers cloud cross-browser/device testing. Verified: 3M+ users, 18k enterprises, Gartner MQ Challenger 2025. Hiring engineering/SDET mainly in India. Remote policy, size, and QA openings unstated; confirm US-remote eligibility before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +196,74 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

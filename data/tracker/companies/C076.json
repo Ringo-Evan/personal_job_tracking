@@ -1,0 +1,19 @@
+{
+  "benefit_source": "https://job-boards.greenhouse.io/impinjexternal/jobs/4578941005",
+  "career_url": "https://job-boards.greenhouse.io/impinjexternal",
+  "company": "Impinj",
+  "company_id": "C076",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "RFID/BLE product testing is rare domain experience; seen test team is Seattle-centric.",
+  "hiring_difficulty": 4,
+  "interests": "RAIN RFID - direct Position Imaging overlap; airline baggage use case",
+  "maine_remote": "Unknown - Seattle on seen req",
+  "next_research_action": "Watch for re-post; ask recruiter about remote",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Reader test team (StaQ) Sr SDET, $106K-163K, Seattle; req expired 04/30/2026. Site advertises remote-or-office support.",
+  "research_status": "Initial research",
+  "role_families": "Sr SDET (reader test); applications engineering",
+  "sector": "IoT / location tech",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Trade association; few QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine Credit Union League is a trade association; few QA roles and likely onsite in Maine.",
+  "approach_role": "IT Director",
+  "company": "Maine Credit Union League",
+  "company_id": "C363",
+  "fit_score": 1,
+  "interests": "Credit union services",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Director%20Maine%20Credit%20Union%20League",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; IT Support; Compliance Tester",
+  "sector": "Maine & New England",
+  "size_estimate": "<50",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

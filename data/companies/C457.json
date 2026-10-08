@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Dispatch software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hexagon Safety (Hexagon AB) supplies CAD/RMS dispatch software to public-safety agencies; govtech is durable, but no stability or QA-opening facts were verified. Named leaders are sales/executive, not QA. The quoted remote policy concerns dispatcher customers, not staff. Confirm US-remote-to-Maine eligibility and senior QA/SDET requisitions before applying. Sources: https://www.police1.com/911/could-remote-dispatching-solve-911-comm-center-staffing-shortages-burnout https://sigblog.hexagon.com/ai-for-law-enforcement-public-safety-guilford-metro-911s-leap-into-the-future-with-hexagon/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote dispatching is used to promote retention and satisfaction, and allows dispatchers to work from secure, remote environments.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Hexagon Safety builds public-safety dispatch and records software for 911 agencies — regulated govtech adjacent to the candidate's compliance-heavy testing. Fit hinges on remote-from-Maine eligibility and QA openings, both unverified in these facts.",
+    "ai_red_flags": "Remote policy fact describes dispatchers, not employees; Maine eligibility and QA openings unverified.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "senior vice president (engineering leadership)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=senior%20vice%20president%20%28engineering%20leadership%29%20Hexagon%20Safety",
+    "outreach_notes": "Lead with FDA-regulated V&V and design-controls experience, framing mission-critical 911 dispatch reliability as the same discipline: verification evidence, traceability, and automated regression at scale."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,34 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Hexagon Safety (Hexagon AB) supplies CAD/RMS dispatch software to public-safety agencies; govtech is durable, but no stability or QA-opening facts were verified. Named leaders are sales/executive, not QA. The quoted remote policy concerns dispatcher customers, not staff. Confirm US-remote-to-Maine eligibility and senior QA/SDET requisitions before applying. Sources: https://www.police1.com/911/could-remote-dispatching-solve-911-comm-center-staffing-shortages-burnout https://sigblog.hexagon.com/ai-for-law-enforcement-public-safety-guilford-metro-911s-leap-into-the-future-with-hexagon/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Remote dispatching is used to promote retention and satisfaction, and allows dispatchers to work from secure, remote environments.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Hexagon Safety builds public-safety dispatch and records software for 911 agencies — regulated govtech adjacent to the candidate's compliance-heavy testing. Fit hinges on remote-from-Maine eligibility and QA openings, both unverified in these facts.",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "ai_red_flags": "Remote policy fact describes dispatchers, not employees; Maine eligibility and QA openings unverified.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "senior vice president (engineering leadership)",
+    "outreach_notes": "Lead with FDA-regulated V&V and design-controls experience, framing mission-critical 911 dispatch reliability as the same discipline: verification evidence, traceability, and automated regression at scale.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=senior%20vice%20president%20%28engineering%20leadership%29%20Hexagon%20Safety"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 31,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -61,7 +87,70 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C457",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote dispatching is used to promote retention and satisfaction, and allows dispatchers to work from secure, remote environments.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.police1.com/911/could-remote-dispatching-solve-911-comm-center-staffing-shortages-burnout"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Hexagon Safety builds public-safety dispatch and records software for 911 agencies — regulated govtech adjacent to the candidate's compliance-heavy testing. Fit hinges on remote-from-Maine eligibility and QA openings, both unverified in these facts.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Bill Campbell",
+        "title": "senior vice president",
+        "source_url": "https://www.police1.com/911/could-remote-dispatching-solve-911-comm-center-staffing-shortages-burnout"
+      },
+      {
+        "name": "Tammy Heaton",
+        "title": "vice president of customer success",
+        "source_url": "https://sigblog.hexagon.com/ai-for-law-enforcement-public-safety-guilford-metro-911s-leap-into-the-future-with-hexagon/"
+      }
+    ],
+    "approach_role": "senior vice president (engineering leadership)",
+    "outreach_angle": "Lead with FDA-regulated V&V and design-controls experience, framing mission-critical 911 dispatch reliability as the same discipline: verification evidence, traceability, and automated regression at scale.",
+    "red_flags": "Remote policy fact describes dispatchers, not employees; Maine eligibility and QA openings unverified.",
+    "confidence": "low",
+    "sources": [
+      "https://www.police1.com/911/could-remote-dispatching-solve-911-comm-center-staffing-shortages-burnout",
+      "https://sigblog.hexagon.com/ai-for-law-enforcement-public-safety-guilford-metro-911s-leap-into-the-future-with-hexagon/"
+    ],
+    "notes": "Hexagon Safety (Hexagon AB) supplies CAD/RMS dispatch software to public-safety agencies; govtech is durable, but no stability or QA-opening facts were verified. Named leaders are sales/executive, not QA. The quoted remote policy concerns dispatcher customers, not staff. Confirm US-remote-to-Maine eligibility and senior QA/SDET requisitions before applying.",
+    "model": {
+      "extract": "gemini/gemini-3.1-flash-lite",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "gemini/gemini-3.1-flash-lite"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -76,8 +165,69 @@
       "changed": [
         "triage"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 1
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

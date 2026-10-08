@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Venture-funded; limited remote postings",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Connected strength-training hardware; embedded and app testing matches the candidate, but funding risk and little remote hiring.",
+  "approach_role": "VP of Engineering",
+  "company": "Tonal",
+  "company_id": "C802",
+  "fit_score": 3,
+  "interests": "Connected fitness",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Tonal",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET, firmware and app; QA Engineer; Test Automation Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

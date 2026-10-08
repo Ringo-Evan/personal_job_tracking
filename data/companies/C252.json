@@ -5,8 +5,8 @@
     "company": "Collins Aerospace (ARINC)",
     "sector": "IoT / location tech",
     "interests": "Airport/bag systems",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.rtx.com/collinsaerospace/careers/engineering",
+    "role_families": "SDET; QA/Test Engineering; Quality Leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote policy not stated; multiple 2025 layoffs and restructuring targeting 3-4% workforce reduction; no QA openings listed; large 5k+ employer in aerospace/airport systems. Sources: https://www.rtx.com/collinsaerospace/careers/engineering https://warnact.io/company-collins-aerospace https://www.kcrg.com/2025/11/06/new-details-emerge-collins-aerospace-layoff/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.cgaa.org/article/collins-aerospace-layoffs",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.rtx.com/collinsaerospace/careers/engineering manually",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Collins Aerospace (ARINC) builds airport systems and avionics, aligning with the candidate's airport/bag interest but not medical devices. Remote policy unknown; recent layoffs and no QA openings suggest limited fit.",
+    "ai_red_flags": "Recent layoffs and restructuring, no stated remote policy, no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Collins%20Aerospace%20%28ARINC%29",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Collins' avionics and airport systems where rigorous verification is critical."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.rtx.com/collinsaerospace/careers/engineering",
+    "research_notes": "Remote policy not stated; multiple 2025 layoffs and restructuring targeting 3-4% workforce reduction; no QA openings listed; large 5k+ employer in aerospace/airport systems. Sources: https://www.rtx.com/collinsaerospace/careers/engineering https://warnact.io/company-collins-aerospace https://www.kcrg.com/2025/11/06/new-details-emerge-collins-aerospace-layoff/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://www.cgaa.org/article/collins-aerospace-layoffs",
+    "fit_score": 2,
+    "ai_summary": "Collins Aerospace (ARINC) builds airport systems and avionics, aligning with the candidate's airport/bag interest but not medical devices. Remote policy unknown; recent layoffs and no QA openings suggest limited fit.",
+    "role_families": "SDET; QA/Test Engineering; Quality Leadership",
+    "ai_red_flags": "Recent layoffs and restructuring, no stated remote policy, no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Collins' avionics and airport systems where rigorous verification is critical.",
+    "next_research_action": "No supported job board - check https://www.rtx.com/collinsaerospace/careers/engineering manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Collins%20Aerospace%20%28ARINC%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.rtx.com/collinsaerospace/careers/engineering",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.collinsaerospace.com/careers",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -140,6 +178,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -168,15 +207,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:48-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.collinsaerospace.com/careers",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

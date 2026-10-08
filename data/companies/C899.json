@@ -5,8 +5,8 @@
     "company": "Booking Holdings",
     "sector": "Travel",
     "interests": "Travel",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.booking.com/",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: hybrid ~40% in-office with home near assigned office; Maine explicitly not eligible (up to 20 days/year abroad). 5k+ employees, travel sector. Two layoff rounds reported, one cutting 13% of Amsterdam managers. No QA openings listed and no named contacts, so approach must be cold. Sources: https://careers.booking.com/ https://jobs.booking.com/booking/jobs https://careers.booking.com/hybrid-ways-of-working/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Hybrid: about 40% of working time in the office; assigned office is the place of work and the home location must be within commuting distance, with up to 20 days/year working abroad.",
+    "benefit_source": "https://nltimes.nl/2025/04/24/bookingcom-looking-cut-workforce-10-next-phase-reorganization",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 1,
+    "stability_score": 3,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "Booking Holdings runs Booking.com, Priceline and Kayak — travel, a candidate interest. But its hybrid model requires ~40% office time near an assigned office, explicitly not Maine-eligible, and it has no listed QA openings amid reorganization layoffs.",
+    "ai_red_flags": "Hybrid mandate excludes Maine; no US-remote option stated; active layoffs and reorganizations.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering, Quality (no named leader in verified facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20Quality%20%28no%20named%20leader%20in%20verified%20facts%29%20Booking%20Holdings",
+    "outreach_notes": "Fifteen years of test automation and transaction-heavy V&V work at consumer scale maps well to booking and payments platform testing — but only if a US-remote-from-Maine exception exists."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.booking.com/",
+    "research_notes": "Verified: hybrid ~40% in-office with home near assigned office; Maine explicitly not eligible (up to 20 days/year abroad). 5k+ employees, travel sector. Two layoff rounds reported, one cutting 13% of Amsterdam managers. No QA openings listed and no named contacts, so approach must be cold. Sources: https://careers.booking.com/ https://jobs.booking.com/booking/jobs https://careers.booking.com/hybrid-ways-of-working/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Hybrid: about 40% of working time in the office; assigned office is the place of work and the home location must be within commuting distance, with up to 20 days/year working abroad.",
+    "remote_likelihood": "Low",
+    "stability_score": 3,
+    "benefit_source": "https://nltimes.nl/2025/04/24/bookingcom-looking-cut-workforce-10-next-phase-reorganization",
+    "fit_score": 1,
+    "ai_summary": "Booking Holdings runs Booking.com, Priceline and Kayak — travel, a candidate interest. But its hybrid model requires ~40% office time near an assigned office, explicitly not Maine-eligible, and it has no listed QA openings amid reorganization layoffs.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "Hybrid mandate excludes Maine; no US-remote option stated; active layoffs and reorganizations.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Engineering, Quality (no named leader in verified facts)",
+    "outreach_notes": "Fifteen years of test automation and transaction-heavy V&V work at consumer scale maps well to booking and payments platform testing — but only if a US-remote-from-Maine exception exists.",
+    "next_research_action": "No supported job board - check https://careers.booking.com/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20Quality%20%28no%20named%20leader%20in%20verified%20facts%29%20Booking%20Holdings"
+  },
   "ats": {
-    "type": "workday",
-    "token": "priceline|1|BookingHoldings",
-    "board_url": "https://priceline.wd1.myworkdayjobs.com/BookingHoldings",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 20
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://careers.booking.com/",
+    "note": "uses icims",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:priceline|1|BookingHoldings (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -138,6 +166,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -167,15 +196,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:25-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:priceline|1|BookingHoldings (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

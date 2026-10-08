@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Health-data compliance could demand onsite staff",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Sex-therapy app aligns with candidate interests; small health app team, so QA roles would likely be broad rather than senior SDET.",
+  "approach_role": "Head of Engineering",
+  "company": "Blueheart",
+  "company_id": "C1155",
+  "fit_score": 2,
+  "interests": "Sex therapy app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Blueheart",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Release QA",
+  "sector": "Adult & sexuality",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:38Z",
+  "updated_by": "pipeline"
+}

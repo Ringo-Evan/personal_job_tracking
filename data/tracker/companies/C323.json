@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Boston-based, remote unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "FHIR platform for health data; regulated healthtech but Boston-based with unknown remote options.",
+  "approach_role": "Head of Engineering",
+  "company": "1upHealth",
+  "company_id": "C323",
+  "fit_score": 3,
+  "interests": "FHIR platform; Boston",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%201upHealth",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

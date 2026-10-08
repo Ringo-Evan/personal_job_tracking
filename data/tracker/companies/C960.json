@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Israel-centric; small team",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Soil-sensor IoT for irrigation decisions; embedded and cloud QA fit the hardware-adjacent background, but small and Israel-centric.",
+  "approach_role": "VP R&D",
+  "company": "CropX",
+  "company_id": "C960",
+  "fit_score": 2,
+  "interests": "Soil sensors",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20R%26D%20CropX",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Embedded Test Engineer; SDET",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

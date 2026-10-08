@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Ohio-based; remote posture unclear.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Midwest Tape's library digital-media service; stable library market and content platform, though hardware/regulated QA relevance is limited.",
+  "approach_role": "Director of QA",
+  "company": "Hoopla (Midwest Tape)",
+  "company_id": "C768",
+  "fit_score": 2,
+  "interests": "Library media",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%20Hoopla%20%28Midwest%20Tape%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

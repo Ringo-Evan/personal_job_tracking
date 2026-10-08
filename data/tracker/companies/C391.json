@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote possible; NH office.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Software company with CAD/AEC products; likely QA/SDET roles. Manchester NH office, but remote possible.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "Autodesk Manchester",
+  "company_id": "C391",
+  "fit_score": 3,
+  "interests": "NH software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Autodesk%20Manchester",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

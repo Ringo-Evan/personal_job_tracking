@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Media organization; not tech product; production focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Media production foundation; web support possible; no test automation",
+  "approach_role": "Executive Director",
+  "company": "The Leap / Jacobin Foundation",
+  "company_id": "C1032",
+  "fit_score": 1,
+  "interests": "Left media",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Executive%20Director%20The%20Leap%20/%20Jacobin%20Foundation",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Web Developer; Media Support",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

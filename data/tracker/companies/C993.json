@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Few software roles; Portland-area based",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Employee-owned Maine solar installer; stable and local, but field-operations focused with few in-house software QA roles.",
+  "approach_role": "Director of Information Technology",
+  "company": "ReVision Energy",
+  "company_id": "C993",
+  "fit_score": 2,
+  "interests": "Maine solar; employee-owned",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Information%20Technology%20ReVision%20Energy",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Software Test Engineer; Business Systems Analyst",
+  "sector": "Agriculture",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

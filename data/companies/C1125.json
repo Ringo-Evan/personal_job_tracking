@@ -6,7 +6,7 @@
     "sector": "Adult & sexuality",
     "interests": "Cam platform",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Test Automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "ai_summary": "Large adult cam platform; high-scale tech likely needs QA, sector fits, but remote-from-Maine unverified.",
+    "ai_red_flags": "Adult industry; remote policy unknown.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Chaturbate%20%28Multi%20Media%20LLC%29",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; release engineering",
+    "approach_role": "Head of Engineering / Director of Engineering",
+    "ai_summary": "Chaturbate is a large adult live-streaming platform, matching the candidate's stated interest in the adult industry and sex-worker-adjacent work. But no verified remote policy, QA openings, leadership names, or stability data exist, so fit rests on domain interest plus high-scale",
+    "ai_red_flags": "Remote-to-Maine policy unverified; age-verification and payment-processor regulatory risk; adult-industry name can complicate later searches.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20/%20Director%20of%20Engineering%20Chaturbate%20%28Multi%20Media%20LLC%29",
+    "career_url": "https://chaturbate.com/careers/",
+    "research_notes": "Verified facts are almost empty: no job board, ATS, remote policy, size, stability signals, QA openings, or named people. General knowledge: Chaturbate is a profitable, privately held adult cam platform with a lean engineering org. Treat remote eligibility and any QA headcount as unconfirmed; verify directly before investing effort. Sources: https://chaturbate.com/careers/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Fifteen years of test automation and regulated V&V experience plus genuine adult-industry interest maps to a high-scale live-video platform where stream reliability and payment-critical flows need rigorous testing.",
+    "next_research_action": "No supported job board - check https://chaturbate.com/careers/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://chaturbate.com/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +89,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1125",
+    "career_url": "https://chaturbate.com/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Chaturbate is a large adult live-streaming platform, matching the candidate's stated interest in the adult industry and sex-worker-adjacent work. But no verified remote policy, QA openings, leadership names, or stability data exist, so fit rests on domain interest plus high-scale",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Engineering / Director of Engineering",
+    "outreach_angle": "Fifteen years of test automation and regulated V&V experience plus genuine adult-industry interest maps to a high-scale live-video platform where stream reliability and payment-critical flows need rigorous testing.",
+    "red_flags": "Remote-to-Maine policy unverified; age-verification and payment-processor regulatory risk; adult-industry name can complicate later searches.",
+    "confidence": "low",
+    "sources": [
+      "https://chaturbate.com/careers/"
+    ],
+    "notes": "Verified facts are almost empty: no job board, ATS, remote policy, size, stability signals, QA openings, or named people. General knowledge: Chaturbate is a profitable, privately held adult cam platform with a lean engineering org. Treat remote eligibility and any QA headcount as unconfirmed; verify directly before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +162,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://chaturbate.com/careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

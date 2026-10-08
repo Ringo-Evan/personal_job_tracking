@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite corporate culture; Tennessee HQ",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Publicly traded behavioral health hospital operator; stable and healthcare-adjacent, but software QA is corporate overhead, not product engineering.",
+  "approach_role": "Director of IT Applications",
+  "company": "Acadia Healthcare",
+  "company_id": "C1096",
+  "fit_score": 2,
+  "interests": "Addiction treatment",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20IT%20Applications%20Acadia%20Healthcare",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer",
+  "sector": "Addiction & recovery",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

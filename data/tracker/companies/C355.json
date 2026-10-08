@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Portland-based; telecom infra",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Tilson does telecom and infrastructure work; telecom test interest fits, QA roles possible, some remote.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Tilson",
+  "company_id": "C355",
+  "fit_score": 3,
+  "interests": "Telecom/infra; Portland ME",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Tilson",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Network Test Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

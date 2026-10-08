@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Quit smoking/addiction",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; QA Lead; QA Manager",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Same company as Pelago under its former Quit Genius name; addiction-treatment app fits interest, duplicate tracker entry.",
+    "ai_red_flags": "Duplicate of C306; same employer, one application only.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Quit%20Genius%20%28Pelago%29",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,19 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "role_families": "Senior SDET; QA Lead; QA Manager",
+    "approach_role": "VP of Engineering",
+    "ai_summary": "Same company as Pelago under its former Quit Genius name; addiction-treatment app fits interest, duplicate tracker entry.",
+    "ai_red_flags": "Duplicate of C306; same employer, one application only.",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Quit%20Genius%20%28Pelago%29"
+  },
   "ats": {
     "type": "workable",
     "token": "quit-genius",
@@ -54,6 +66,16 @@
     "source": null,
     "note": "noted by an earlier search; board system now supported; board name Quit Genius",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/quit-genius/",
+      "wellfound https://wellfound.com/company/quit-genius-1"
+    ]
   },
   "triage": {
     "fit": 4,
@@ -72,6 +94,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -100,17 +123,41 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": [
-      "workable https://apply.workable.com/quit-genius/",
-      "wellfound https://wellfound.com/company/quit-genius-1"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

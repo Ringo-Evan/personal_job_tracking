@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Large corp; remote flexibility unclear for Maine",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Public company stability; QA roles exist in established platform",
+  "approach_role": "Engineering Manager",
+  "company": "Dynatrace",
+  "company_id": "C176",
+  "fit_score": 3,
+  "interests": "Observability",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Dynatrace",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; QA Engineer; Test Automation Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

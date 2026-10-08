@@ -5,8 +5,8 @@
     "company": "Postman",
     "sector": "Test tooling",
     "interests": "API platform you already use",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.postman.com/company/careers/",
+    "role_families": "SDET; QA/test engineering; developer tooling and release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: remote-friendly with confirmed remote hiring, but Maine eligibility unknown; offices in San Francisco, Bangalore and Japan. Stability mixed — $225M Series D (Insight-led) and 40M+ developers, yet recent team-wide layoffs. No QA openings found in the data. Sources: https://www.postman.com/company/careers/ https://wfh.team/remote-policy-tracker/postman https://apisyouwonthate.com/newsletter/layoffs-at-postman/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote-friendly employer with confirmed remote hiring; hybrid workplace spanning the globe with offices in San Francisco, Bangalore and Japan.",
+    "benefit_source": "https://www.postman.com/company/careers/open-positions/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workable board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Postman builds API development and testing tooling (collections, Newman) — squarely in the candidate's test-tooling interest and a platform he already uses. But no QA openings are listed, Maine remote eligibility is unconfirmed, and the company cut whole engineering teams,",
+    "ai_red_flags": "Recently cut entire JSON Schema and Async API teams; no listed QA openings; Maine-remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Co-founder and CTO (Ankit Sobti)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Co-founder%20and%20CTO%20%28Ankit%20Sobti%29%20Postman",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and regulated V&V, plus daily Postman use, maps to building quality into API tooling and reliability engineering at scale."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,49 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.postman.com/company/careers/",
+    "research_notes": "Verified: remote-friendly with confirmed remote hiring, but Maine eligibility unknown; offices in San Francisco, Bangalore and Japan. Stability mixed — $225M Series D (Insight-led) and 40M+ developers, yet recent team-wide layoffs. No QA openings found in the data. Sources: https://www.postman.com/company/careers/ https://wfh.team/remote-policy-tracker/postman https://apisyouwonthate.com/newsletter/layoffs-at-postman/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Remote-friendly employer with confirmed remote hiring; hybrid workplace spanning the globe with offices in San Francisco, Bangalore and Japan.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.postman.com/company/careers/open-positions/",
+    "fit_score": 3,
+    "ai_summary": "Postman builds API development and testing tooling (collections, Newman) — squarely in the candidate's test-tooling interest and a platform he already uses. But no QA openings are listed, Maine remote eligibility is unconfirmed, and the company cut whole engineering teams,",
+    "role_families": "SDET; QA/test engineering; developer tooling and release engineering",
+    "ai_red_flags": "Recently cut entire JSON Schema and Async API teams; no listed QA openings; Maine-remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Co-founder and CTO (Ankit Sobti)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and regulated V&V, plus daily Postman use, maps to building quality into API tooling and reliability engineering at scale.",
+    "next_research_action": "No supported job board - check https://www.postman.com/company/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Co-founder%20and%20CTO%20%28Ankit%20Sobti%29%20Postman"
+  },
   "ats": {
-    "type": "workable",
-    "token": "postman",
-    "board_url": "https://apply.workable.com/postman/",
-    "detected_by": "search",
-    "checked_at": "2026-10-06",
-    "confirmed": true,
-    "source": null,
-    "note": "noted by an earlier search; board system now supported; board name Postman",
-    "job_count": 0
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.postman.com/company/careers/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.postman.com/company/careers/",
+    "found": null,
+    "other": [
+      "wellfound https://wellfound.com/company/postman/jobs",
+      "workable https://apply.workable.com/postman/"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
   },
   "triage": {
     "fit": 4,
@@ -163,6 +195,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -198,19 +231,80 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:26-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.postman.com/company/careers/",
-    "found": null,
-    "other": [
-      "wellfound https://wellfound.com/company/postman/jobs",
-      "workable https://apply.workable.com/postman/"
-    ],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

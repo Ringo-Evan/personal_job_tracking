@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Volunteer-run, no tech",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Overdose prevention hotline; volunteer-run, no tech or QA roles evident.",
+  "approach_role": "Volunteer Coordinator",
+  "company": "Never Use Alone",
+  "company_id": "C1087",
+  "fit_score": 1,
+  "interests": "Overdose hotline",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Volunteer%20Coordinator%20Never%20Use%20Alone",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Volunteer Coordination; Operations",
+  "sector": "Addiction & recovery",
+  "size_estimate": "<50",
+  "stability_score": 1,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

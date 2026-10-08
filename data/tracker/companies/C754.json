@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Return-to-office; unlikely remote-from-Maine.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Amazon-owned book community; scaled testing roles exist under a durable parent, but in-office mandates and no Maine site block remote.",
+  "approach_role": "QA Manager, Goodreads",
+  "company": "Goodreads (Amazon)",
+  "company_id": "C754",
+  "fit_score": 2,
+  "interests": "Books community",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20Goodreads%20Goodreads%20%28Amazon%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Manager",
+  "sector": "Books, history & media",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

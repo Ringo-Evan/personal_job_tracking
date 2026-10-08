@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Media; unlikely QA hiring",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Adult trade media; sector interest fits. Similar to AVN: few technical QA roles and remote-Maine unlikely.",
+  "approach_role": "IT Manager",
+  "company": "XBIZ",
+  "company_id": "C1135",
+  "fit_score": 2,
+  "interests": "Adult trade media",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Manager%20XBIZ",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Web QA; QA Engineer; Editorial QA",
+  "sector": "Adult & sexuality",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:37Z",
+  "updated_by": "pipeline"
+}

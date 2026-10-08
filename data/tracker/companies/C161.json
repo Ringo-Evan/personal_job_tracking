@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Holding company; sales/solutions-heavy; not pure QA/SDET",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Direct TestRail expertise; Idera backing; test management focus",
+  "approach_role": "VP Solutions",
+  "company": "TestRail (Idera)",
+  "company_id": "C161",
+  "fit_score": 3,
+  "interests": "Test case management you use",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Solutions%20TestRail%20%28Idera%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Solutions Engineer; Senior QA; Product Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "PE-owned; QA team size Unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Local-government websites, agenda and permitting SaaS; regulated govtech fit, though QA maturity, .NET stack and remote policy are unclear.",
+  "approach_role": "QA Manager",
+  "company": "CivicPlus",
+  "company_id": "C452",
+  "fit_score": 3,
+  "interests": "Local gov software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20CivicPlus",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; QA Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

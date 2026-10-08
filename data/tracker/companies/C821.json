@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retail shop; no QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "HEMA gear retailer and maker; personal interest match only, with no realistic software testing or quality engineering roles.",
+  "approach_role": "Owner",
+  "company": "Purpleheart Armoury",
+  "company_id": "C821",
+  "fit_score": 1,
+  "interests": "HEMA gear",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Owner%20Purpleheart%20Armoury",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "E-commerce/IT support",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "bc82b1dd8c90",
+  "company_id": "C603",
+  "company": "Stripe",
+  "name": "David Singleton",
+  "title": "CTO",
+  "source_url": "https://newsletter.pragmaticengineer.com/p/stripe",
+  "why_approach": "CTO at Stripe. Stripe's payments platform and my 15 years of regulated test automation (FDA V&V, C#/.NET) align—I could bring quality rigor to revenue and financial automation.",
+  "first_seen": "2026-10-07",
+  "person_id": "PA0035",
+  "exported": {
+    "name": "David Singleton",
+    "company": "Stripe",
+    "title": "CTO",
+    "source_url": "https://newsletter.pragmaticengineer.com/p/stripe",
+    "why_approach": "CTO at Stripe. Stripe's payments platform and my 15 years of regulated test automation (FDA V&V, C#/.NET) align—I could bring quality rigor to revenue and financial automation.",
+    "company_id": "C603"
+  },
+  "first_exported": "2026-10-07"
+}

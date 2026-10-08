@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "W2 agency contract; limited benefits",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Staffing agency placing contract game QA testers at publishers; senior roles possible but no direct employer stability or benefits.",
+  "approach_role": "Technical Recruiter / Account Manager",
+  "company": "VMC (Volt)",
+  "company_id": "C653",
+  "fit_score": 3,
+  "interests": "Game QA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Technical%20Recruiter%20/%20Account%20Manager%20VMC%20%28Volt%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Contract QA Tester; Senior SDET (contract); Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Job Search Tracker — Evan Ringo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+:root{
+  --bg:#F4F6F3; --panel:#FFFFFF; --ink:#1C2A26; --muted:#5B6B65; --line:#D3DBD5;
+  --accent:#3F4F8C; --accent-ink:#FFFFFF; --soft:#E6EAF4; --warn:#B8740F; --warn-soft:#FBEFD9;
+  --bad:#A3362E; --good:#2F6B4B;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121815; --panel:#1A221E; --ink:#E4EBE6; --muted:#9AAAA2; --line:#2F3A35;
+    --accent:#8C9CE0; --accent-ink:#10152A; --soft:#242C45; --warn:#E3A441; --warn-soft:#3A2E17;
+    --bad:#E0776E; --good:#79C299;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121815; --panel:#1A221E; --ink:#E4EBE6; --muted:#9AAAA2; --line:#2F3A35;
+  --accent:#8C9CE0; --accent-ink:#10152A; --soft:#242C45; --warn:#E3A441; --warn-soft:#3A2E17;
+  --bad:#E0776E; --good:#79C299;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+header{padding:20px 20px 8px;max-width:1400px;margin:0 auto}
+h1{font-size:1.45rem;font-weight:600;margin:0}
+.sub{color:var(--muted);margin:2px 0 14px;font-size:.92rem}
+/* the one bold element: the pipeline strip */
+.pipe{display:flex;gap:3px;margin:6px 0 4px;overflow-x:auto}
+.pipe button{flex:1 1 0;min-width:78px;border:0;background:var(--panel);padding:8px 10px;text-align:left;cursor:pointer;border-bottom:3px solid var(--line)}
+.pipe button:first-child{border-radius:6px 0 0 6px}.pipe button:last-child{border-radius:0 6px 6px 0}
+.pipe b{display:block;font-size:1.5rem;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.pipe span{font-size:.8rem;color:var(--muted)}
+.pipe button.on{border-bottom-color:var(--accent);background:var(--soft)}
+.pipe button.due b{color:var(--warn)}
+nav{display:flex;gap:4px;max-width:1400px;margin:10px auto 0;padding:0 20px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav button{border:0;background:none;padding:9px 14px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+nav button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:500}
+nav small{color:var(--muted);font-variant-numeric:tabular-nums}
+main{max-width:1400px;margin:0 auto;padding:14px 20px 40px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.tools input[type=search]{flex:1 1 220px;min-width:180px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.tools select{padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.btn{padding:8px 13px;border:1px solid var(--line);border-radius:6px;background:var(--panel);cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.danger{color:var(--bad)}
+.btn:focus-visible,nav button:focus-visible,.pipe button:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif;font-size:.9rem}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none}
+th .ar{color:var(--accent)}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;max-width:320px}
+tr:last-child td{border-bottom:0}
+tbody tr{cursor:pointer}
+tbody tr:hover td{background:var(--soft)}
+td.clip{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}
+td a{color:var(--accent)}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;background:var(--soft);font-size:.8rem;white-space:nowrap}
+.tag.due{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.by{font-size:.75rem;color:var(--muted)}
+.empty{padding:36px 20px;text-align:center;color:var(--muted)}
+.empty p{max-width:520px;margin:0 auto 12px}
+.status{min-height:1.4em;font-size:.88rem;color:var(--muted);margin:4px 0 0}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none}
+.scrim.open{display:block}
+aside{position:fixed;top:0;right:0;height:100%;width:min(560px,100%);background:var(--panel);border-left:1px solid var(--line);transform:translateX(100%);transition:transform .2s ease;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+aside.open{transform:none}
+aside .hd{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+aside .hd h2{font-size:1.1rem;margin:0;font-weight:600}
+aside form{overflow-y:auto;padding:14px 18px;flex:1}
+.grp{margin:4px 0 16px}
+.grp h3{font-size:.85rem;color:var(--muted);font-weight:500;margin:0 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+label{display:block;margin:0 0 10px;font-size:.85rem;color:var(--muted)}
+label input,label select,label textarea{display:block;width:100%;margin-top:3px;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font-size:.93rem}
+label textarea{min-height:72px;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+aside .ft{padding:12px 18px;border-top:1px solid var(--line);display:flex;gap:8px;justify-content:space-between}
+.banner{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:12px}
+.banner.quiet{background:var(--panel)}
+.banner span{flex:1 1 300px}
+.bar{flex:1 1 160px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.guide{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px 22px;max-width:820px}
+.guide h2{font-size:1.1rem;margin:0 0 8px}
+.guide p,.guide li{max-width:72ch}
+.guide pre{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px;white-space:pre-wrap;font-size:.85rem;overflow-x:auto}
+@media (max-width:600px){.row2{grid-template-columns:1fr}header,main{padding-left:12px;padding-right:12px}nav{padding:0 12px}}
+@media (prefers-reduced-motion:reduce){aside{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Job search tracker</h1>
+  <p class="sub" id="sub">Loading…</p>
+  <div class="pipe" id="pipe" aria-label="Pipeline by stage"></div>
+</header>
+<nav id="tabs"></nav>
+<main id="main"></main>
+<div class="scrim" id="scrim"></div>
+<aside id="drawer" aria-hidden="true"></aside>
+<input type="file" id="file" accept=".csv,text/csv" hidden>
+
+<script>
+const STAGES=["Lead","Verified","Applied","Screen","Interview","Offer","Accepted","Rejected","Withdrawn","Closed"];
+const CLOSED=new Set(["Accepted","Rejected","Withdrawn","Closed"]);
+const EVIDENCE=["Employer page read","Indexed lead - verify","Historical lead - recheck","Conflicting status - verify","Verified live"];
+const MODES=["Remote","Hybrid","On-site","Unknown"];
+const TRACKS=["Core QA","QA leadership","SDE pivot","Domain pivot","Exploratory"];
+const PSTATUS=["To research","To contact","Contacted","Replied","Meeting","Referral","Parked"];
+const RSTATUS=["Not started","Initial research","Researching","Researched","Parked"];
+
+// [key, sheet label, type, options, group]
+const SCHEMA={
+ jobs:{title:"Jobs",id:"job_id",prefix:"J",pad:3,
+  cols:["job_id","company","job_title","track","current_stage","_due","next_action","location","work_mode","maine_eligible","pay","hiring_difficulty","listing_evidence","date_discovered"],
+  fields:[
+   ["job_id","Job ID","text",0,"Basics"],["company","Company / group","text",0,"Basics"],["job_title","Job title","text",0,"Basics"],
+   ["track","Track","select",TRACKS,"Basics"],["job_rank","Your job rank (1 best)","num",0,"Basics"],
+   ["current_stage","Current stage","select",STAGES,"Status"],["highest_stage","Highest stage reached","select",["None"].concat(STAGES),"Status"],
+   ["next_action","Next action","text",0,"Status"],["follow_up_due","Follow-up due","date",0,"Status"],["date_applied","Date applied","date",0,"Status"],
+   ["application_method","Application method","text",0,"Status"],["deadline","Deadline","date",0,"Status"],
+   ["posting_url","Job posting URL","url",0,"Listing"],["application_url","Application URL / portal","url",0,"Listing"],["source_url","Source URL","url",0,"Listing"],
+   ["listing_evidence","Listing evidence","select",EVIDENCE,"Listing"],["last_checked","Last checked","date",0,"Listing"],["date_discovered","Date discovered","date",0,"Listing"],
+   ["location","Location","text",0,"Fit"],["work_mode","Work mode","select",MODES,"Fit"],["maine_eligible","Maine eligible?","text",0,"Fit"],["travel_fraction","Travel fraction","text",0,"Fit"],
+   ["pay_low","Published pay low","num",0,"Fit"],["pay_high","Published pay high","num",0,"Fit"],["currency","Currency","text",0,"Fit"],["pay_period","Pay period","text",0,"Fit"],
+   ["hiring_difficulty","Hiring difficulty (1-5 hard)","num",0,"Fit"],["skill_match","Skill match (1-5 high)","num",0,"Fit"],["fit_notes","Difficulty / fit notes","long",0,"Fit"],
+   ["resume_version_id","Resume version ID","text",0,"Materials & contacts"],["resume_link","Exact resume link used","url",0,"Materials & contacts"],
+   ["cover_version_id","Cover letter version ID","text",0,"Materials & contacts"],["cover_link","Exact cover letter link used","url",0,"Materials & contacts"],
+   ["recruiter_contact","Recruiter / contact","text",0,"Materials & contacts"],["referral","Referral / connection","text",0,"Materials & contacts"],
+   ["application_confirmation","Application confirmation","text",0,"Materials & contacts"],["last_contact_date","Last contact date","date",0,"Materials & contacts"],
+   ["next_interview_date","Next interview date","date",0,"Materials & contacts"],["outcome_feedback","Outcome / feedback","long",0,"Materials & contacts"],
+   ["role_research","Your role research / questions","long",0,"Materials & contacts"]]},
+ companies:{title:"Companies",id:"company_id",prefix:"C",pad:3,
+  cols:["company_id","company","sector","interests","fit_score","stability_score","remote_likelihood","overall_rank","research_status"],
+  fields:[
+   ["company_id","Company ID","text",0,"Basics"],["company","Company / group","text",0,"Basics"],["sector","Sector","text",0,"Basics"],
+   ["interests","Interests / connection","text",0,"Basics"],["career_url","Career / company URL","url",0,"Basics"],["role_families","Role families to search","text",0,"Basics"],
+   ["overall_rank","Your overall rank (1 best)","num",0,"Your scores"],["interest","Interest (1-5 high best)","num",0,"Your scores"],["values","Values (1-5 high best)","num",0,"Your scores"],
+   ["pay","Pay (1-5 high best)","num",0,"Your scores"],["flexibility","Flexibility (1-5 high best)","num",0,"Your scores"],["travel_perks","Travel / perks (1-5 high best)","num",0,"Your scores"],
+   ["homestead_fit","Homestead fit (1-5 high best)","num",0,"Your scores"],["dealbreakers","Your dealbreakers","long",0,"Your scores"],
+   ["hiring_difficulty","Hiring difficulty (1-5 hard)","num",0,"Research"],["estimate_confidence","Estimate confidence","text",0,"Research"],
+   ["estimate_rationale","Estimate rationale","long",0,"Research"],["research_notes","Research notes from search","long",0,"Research"],["your_notes","Your research notes","long",0,"Research"],
+   ["research_status","Research status","select",RSTATUS,"Research"],["maine_remote","Maine / remote eligibility","text",0,"Research"],
+   ["benefit_source","Known benefit / growth source","url",0,"Research"],["research_as_of","Research as of","date",0,"Research"],["next_research_action","Next research action","text",0,"Research"],
+   ["fit_score","Fit score (1-5, Claude estimate)","num",0,"Claude screening"],["stability_score","Stability in a downturn (1-5, Claude estimate)","num",0,"Claude screening"],
+   ["remote_likelihood","Remote-from-Maine likelihood","select",["High","Medium","Low","Unknown"],"Claude screening"],["size_estimate","Size estimate","text",0,"Claude screening"],
+   ["ai_summary","Why it might fit","long",0,"Claude screening"],["ai_red_flags","Red flags","long",0,"Claude screening"],["ai_scored_at","Screened on","date",0,"Claude screening"],
+   ["approach_role","Who to approach (role)","text",0,"Outreach"],["people_search_url","People search link","url",0,"Outreach"],["outreach_notes","Outreach angle","long",0,"Outreach"]]},
+ people:{title:"People",id:"person_id",prefix:"P",pad:3,
+  cols:["person_id","name","company","title","status","next_step","next_step_date"],
+  fields:[
+   ["person_id","Person ID","text",0,"Who"],["name","Name","text",0,"Who"],["company","Company / group","text",0,"Who"],["title","Title","text",0,"Who"],
+   ["profile_url","Profile URL","url",0,"Who"],["source_url","Where found (source URL)","url",0,"Who"],
+   ["status","Status","select",PSTATUS,"Outreach"],["relationship","Connection (cold / warm / referral)","text",0,"Outreach"],
+   ["last_contact_date","Last contact date","date",0,"Outreach"],["next_step","Next step","text",0,"Outreach"],["next_step_date","Next step date","date",0,"Outreach"],
+   ["why_approach","Why approach them","long",0,"Outreach"],["notes","Notes / conversation log","long",0,"Outreach"]]},
+ activity:{title:"Activity",id:"activity_id",prefix:"A",pad:3,
+  cols:["activity_id","date","job_id","company","type","stage_round","next_action","next_action_date"],
+  fields:[
+   ["activity_id","Activity ID","text",0,"Event"],["job_id","Job ID","text",0,"Event"],["company","Company / group","text",0,"Event"],["date","Date","date",0,"Event"],
+   ["type","Type","text",0,"Event"],["stage_round","Stage / round","text",0,"Event"],["contact","Contact / interviewer","text",0,"Event"],["channel","Channel","text",0,"Event"],
+   ["preparation","Preparation / research","long",0,"Details"],["questions_asked","Questions asked","long",0,"Details"],["your_answers","Your answers / examples","long",0,"Details"],
+   ["feedback_outcome","Feedback / outcome","long",0,"Details"],["next_action","Next action","text",0,"Details"],["next_action_date","Next action date","date",0,"Details"],
+   ["notes_url","Notes / document URL","url",0,"Details"]]},
+ materials:{title:"Materials",id:"version_id",prefix:"R",pad:3,
+  cols:["version_id","doc_type","file_name","target_role","created_date","base_version_id"],
+  fields:[
+   ["version_id","Version ID","text",0,"Version"],["doc_type","Document type","text",0,"Version"],["file_name","File / version name","text",0,"Version"],
+   ["doc_url","Drive / document URL","url",0,"Version"],["created_date","Created date","date",0,"Version"],["target_role","Target role / sector","text",0,"Version"],
+   ["key_changes","Key changes / emphasis","long",0,"Version"],["base_version_id","Base version ID","text",0,"Version"],["notes","Notes","long",0,"Version"]]}
+};
+const COLLABEL={_due:"Due",pay:"Pay",fit_score:"Fit",stability_score:"Stability",remote_likelihood:"Remote"};
+const data={jobs:[],companies:[],people:[],activity:[],materials:[]};
+const loaded={};
+let db=null, downloads=null, sample=null, bulk=false, imports=[], job=null, tab="jobs", q="", sortKey=null, sortDir=1, stageFilter=null, dueOnly=false, trackFilter="", sectorFilter="", editing=null;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fdef=(t,k)=>SCHEMA[t].fields.find(f=>f[0]===k);
+const label=(t,k)=>COLLABEL[k]||(fdef(t,k)||[k,k])[1].replace(/ \(.*\)$/,"");
+
+function parseDate(s){
+  if(!s)return null; s=String(s).trim();
+  let m=s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/); if(m)return new Date(+m[1],m[2]-1,+m[3]);
+  m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/); if(m){let y=+m[3]; if(y<100)y+=2000; return new Date(y,m[1]-1,+m[2]);}
+  return null;
+}
+function today(){const d=new Date();d.setHours(0,0,0,0);return d}
+function dueState(r){
+  if(CLOSED.has(r.current_stage))return "";
+  const d=parseDate(r.follow_up_due); if(!d)return "";
+  const diff=Math.round((d-today())/864e5);
+  return diff<0?"Overdue":diff===0?"Today":diff<=3?"Soon":"";
+}
+function payText(r){
+  if(!r.pay_low&&!r.pay_high)return "";
+  const f=n=>n?Number(n).toLocaleString():"?";
+  return `${f(r.pay_low)}–${f(r.pay_high)} ${r.currency||""}${r.pay_period?" / "+r.pay_period.toLowerCase():""}`;
+}
+function cell(t,r,k){
+  if(k==="_due"){const s=dueState(r);return s?`<span class="tag due">${s}</span>`:""}
+  if(k==="pay")return esc(payText(r));
+  const v=r[k]; if(v==null||v==="")return "";
+  if(k==="current_stage"||k==="track"||k==="research_status"||k==="status")return `<span class="tag">${esc(v)}</span>`;
+  const f=fdef(t,k);
+  if(f&&f[2]==="url")return `<a href="${esc(v)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">link</a>`;
+  return esc(v);
+}
+
+function rows(){
+  const s=SCHEMA[tab]; let list=data[tab].slice();
+  if(tab==="jobs"){
+    if(stageFilter==="__closed")list=list.filter(r=>CLOSED.has(r.current_stage));
+    else if(stageFilter)list=list.filter(r=>(r.current_stage||"Lead")===stageFilter);
+    if(dueOnly)list=list.filter(r=>dueState(r));
+    if(trackFilter)list=list.filter(r=>(r.track||"")===trackFilter);
+  }
+  if(tab==="companies"&&sectorFilter)list=list.filter(r=>(r.sector||"")===sectorFilter);
+  if(q){const t=q.toLowerCase();list=list.filter(r=>Object.values(r).some(v=>String(v??"").toLowerCase().includes(t)))}
+  const k=sortKey||s.id;
+  list.sort((a,b)=>{
+    let x=k==="_due"?dueState(a):k==="pay"?+a.pay_high||0:a[k], y=k==="_due"?dueState(b):k==="pay"?+b.pay_high||0:b[k];
+    const nx=parseFloat(x),ny=parseFloat(y);
+    if(!isNaN(nx)&&!isNaN(ny)&&String(x).match(/^[\d.,]+$/))return (nx-ny)*sortDir;
+    x=String(x??"");y=String(y??"");
+    if(!x&&y)return 1; if(x&&!y)return -1;
+    return x.localeCompare(y,undefined,{numeric:true})*sortDir;
+  });
+  return list;
+}
+
+function renderHeader(){
+  const j=data.jobs, n=c=>j.filter(r=>(r.current_stage||"Lead")===c).length;
+  const due=j.filter(r=>dueState(r)).length;
+  const active=["Lead","Verified","Applied","Screen","Interview","Offer"];
+  $("#sub").textContent=`${j.length} jobs across ${data.companies.length} companies · ${j.filter(r=>r.date_applied).length} applied`;
+  $("#pipe").innerHTML=active.map(s=>`<button data-stage="${s}" class="${stageFilter===s&&tab==="jobs"?"on":""}"><b>${n(s)}</b><span>${s}</span></button>`).join("")
+   +`<button data-due="1" class="due ${dueOnly&&tab==="jobs"?"on":""}"><b>${due}</b><span>Follow-ups due</span></button>`
+   +`<button data-stage="__closed" class="${stageFilter==="__closed"&&tab==="jobs"?"on":""}"><b>${j.filter(r=>CLOSED.has(r.current_stage)).length}</b><span>Closed</span></button>`;
+  $("#tabs").innerHTML=Object.entries(SCHEMA).map(([k,s])=>`<button data-tab="${k}" class="${tab===k?"on":""}">${s.title} <small>${data[k].length}</small></button>`).join("")
+   +`<button data-tab="guide" class="${tab==="guide"?"on":""}">Agent guide</button>`;
+}
+
+function render(){
+  renderHeader();
+  if(!db){$("#main").innerHTML=`<div class="empty"><p>Your tracker data lives in claude.ai. Open this page from claude.ai while signed in to load and edit it.</p></div>`;return}
+  if(tab==="guide"){renderGuide();return}
+  const s=SCHEMA[tab], list=rows();
+  let filt="";
+  if(tab==="jobs")filt=`<select id="trk" aria-label="Filter by track"><option value="">All tracks</option>${TRACKS.map(t=>`<option ${t===trackFilter?"selected":""}>${t}</option>`).join("")}</select>`
+    +((stageFilter||dueOnly)?`<button class="btn" id="clr">Showing ${esc(stageFilter==="__closed"?"closed":stageFilter||"due follow-ups")} · show all</button>`:"");
+  if(tab==="companies"){const secs=[...new Set(data.companies.map(r=>r.sector).filter(Boolean))].sort();
+    filt=`<select id="sec" aria-label="Filter by sector"><option value="">All sectors</option>${secs.map(t=>`<option ${t===sectorFilter?"selected":""}>${esc(t)}</option>`).join("")}</select>`}
+  const head=s.cols.map(k=>`<th data-sort="${k}">${esc(label(tab,k))}${(sortKey||s.id)===k?`<span class="ar"> ${sortDir>0?"▲":"▼"}</span>`:""}</th>`).join("");
+  const body=list.map(r=>`<tr tabindex="0" data-id="${esc(r[s.id])}">${s.cols.map(k=>`<td class="${["next_action","role_families","interests","location","approach_role","next_step","title"].includes(k)?"clip":""}">${cell(tab,r,k)}${k===s.id&&r.updated_by&&r.updated_by!=="you"?`<div class="by">by ${esc(r.updated_by)}</div>`:""}</td>`).join("")}</tr>`).join("");
+  const empty=!loaded[tab]?`<div class="empty"><p>Loading…</p></div>`:data[tab].length===0
+    ?`<div class="empty"><p>No ${s.title.toLowerCase()} yet. Import the matching sheet from your spreadsheet as a CSV, add one by hand, or ask Claude to fill it in.</p><button class="btn primary" data-act="import">Import CSV</button> <button class="btn" data-act="add">Add ${s.title.toLowerCase().replace(/s$/,"")}</button></div>`
+    :`<div class="empty"><p>Nothing matches these filters.</p></div>`;
+  let extra="";
+  if(tab==="companies"){
+    const pend=imports.filter(i=>i.status==="pending"&&i.collection==="companies");
+    const n=pend.reduce((a,i)=>a+(i.rows||[]).length,0);
+    if(n&&!job)extra+=`<div class="banner"><span>${n} companies are waiting to be added${pend[0].label?` (${esc(pend[0].label)})`:""}.</span><button class="btn primary" data-act="runimport">Add them</button></div>`;
+    const unscored=data.companies.filter(r=>r.fit_score===undefined||r.fit_score==="").length;
+    if(job)extra+=`<div class="banner"><span>${esc(job.msg)}</span><div class="bar"><i style="width:${Math.round(100*job.done/Math.max(1,job.total))}%"></i></div>${job.kind==="score"?`<button class="btn" data-act="stop">Stop</button>`:""}</div>`;
+    else if(sample&&unscored)extra+=`<div class="banner quiet"><span>${unscored} companies haven't been screened. Claude can estimate fit, downturn stability and remote likelihood from what it already knows (no web lookups; uses your Claude usage, about one request per 10 companies).</span><button class="btn" data-act="score">Screen ${Math.min(unscored,100)} with Claude</button></div>`;
+  }
+  $("#main").innerHTML=extra+`<div class="tools"><input type="search" id="q" placeholder="Search ${s.title.toLowerCase()}…" value="${esc(q)}" aria-label="Search">${filt}
+    <button class="btn primary" data-act="add">Add</button><button class="btn" data-act="import">Import CSV</button>${downloads?`<button class="btn" data-act="export">Export CSV</button>`:""}</div>
+    ${list.length?`<div class="wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`:`<div class="wrap">${empty}</div>`}
+    <p class="status" id="status" role="status"></p>`;
+  const qi=$("#q"); qi.oninput=e=>{q=e.target.value;const pos=e.target.selectionStart;render();const n=$("#q");n.focus();n.setSelectionRange(pos,pos)};
+}
+
+function renderGuide(){
+  const schema=Object.entries(SCHEMA).map(([k,s])=>`${k}  (doc id = ${s.id}, e.g. ${s.prefix}${"1".padStart(s.pad,"0")})\n  `+s.fields.map(f=>f[0]+(f[3]?` [${f[3].join(" | ")}]`:"")).join(", ")).join("\n\n");
+  $("#main").innerHTML=`<div class="guide">
+  <h2>Sending an agent to fill this in</h2>
+  <p>Any Claude chat that has this artifact's link can read and write the tracker. Start a fresh chat per batch, paste the link and one of these briefs. Rows an agent writes show its name under the ID.</p>
+  <h2>Brief 1: verify a batch of companies</h2>
+  <pre>Here is my job tracker artifact: [paste link]
+Read the db doc meta/schema first and follow its agent_rules.
+List the companies collection. Take the [25] companies with the highest fit_score whose research_status is "Not started" (skip any I've ranked below 3 in overall_rank).
+For each one, search the web and update that company doc (update, don't overwrite):
+- career_url (the real careers page), maine_remote (what their remote policy actually says), research_notes (2-3 sentences, cite what you found), hiring_difficulty 1-5
+- research_status "Researched", research_as_of today, updated_by "[agent name]"
+If you find a current QA/SDET/test/quality-leadership or strong-fit engineering opening that is remote-in-US or near Bangor ME, add it to jobs with the next free Job ID.
+If a public source names the engineering or QA leader, add them to people (name, title, source_url only).
+Finish with a short summary of what you changed.</pre>
+  <h2>Brief 2: add more companies in bulk</h2>
+  <pre>Here is my job tracker artifact: [paste link]
+Read meta/schema. List the companies collection so you know what's already there.
+Find [100] more employers in [area] that are not already listed.
+Write ONE doc to the imports collection: {collection:"companies", status:"pending", label:"[area] from [agent name]", added_by:"[agent name]", rows:[{company, sector, interests, career_url, research_notes}]}.
+Don't write to companies directly; I'll review and click "Add them".</pre>
+  <h2>Rules the page follows</h2>
+  <ul><li>Each row is one document whose id is its ID (J001, C001, A001, R001). Never reuse an ID.</li>
+  <li>Dates are text, YYYY-MM-DD preferred; MM/DD/YY from your old sheet also works.</li>
+  <li>Due flags come from follow_up_due and stop once a job is Accepted, Rejected, Withdrawn or Closed.</li>
+  <li>Bulk adds go through the imports collection; the Companies tab shows a button to add them, skipping names already listed.</li>
+  <li>CSV import matches your old sheet's column headers and merges into existing rows by ID, keeping fields the CSV leaves blank.</li></ul>
+  <h2>Fields</h2><pre>${esc(schema)}</pre></div>`;
+}
+
+function nextId(t){
+  const s=SCHEMA[t]; let max=0;
+  data[t].forEach(r=>{const m=String(r[s.id]||"").match(/(\d+)$/); if(m)max=Math.max(max,+m[1])});
+  return s.prefix+String(max+1).padStart(s.pad,"0");
+}
+
+function openDrawer(t,id){
+  const s=SCHEMA[t]; const existing=id?data[t].find(r=>r[s.id]===id):null;
+  const r=existing?{...existing}:{[s.id]:nextId(t)};
+  if(!existing&&t==="jobs"){r.current_stage="Lead";r.highest_stage="None";r.date_discovered=new Date().toISOString().slice(0,10)}
+  editing={t,isNew:!existing,id:r[s.id]};
+  const groups=[...new Set(s.fields.map(f=>f[4]))];
+  const input=f=>{const [k,l,type,opts]=f, v=r[k]??"", ro=k===s.id?"readonly":"";
+    if(type==="select")return `<label>${esc(l)}<select name="${k}"><option value=""></option>${opts.map(o=>`<option ${o===v?"selected":""}>${esc(o)}</option>`).join("")}${v&&!opts.includes(v)?`<option selected>${esc(v)}</option>`:""}</select></label>`;
+    if(type==="long")return `<label>${esc(l)}<textarea name="${k}">${esc(v)}</textarea></label>`;
+    return `<label>${esc(l)}<input name="${k}" ${ro} value="${esc(v)}" ${type==="num"?'inputmode="decimal"':""} ${type==="date"?'placeholder="YYYY-MM-DD"':""} ${type==="url"?'inputmode="url"':""}></label>`};
+  const d=$("#drawer");
+  d.innerHTML=`<div class="hd"><h2>${existing?esc(r[s.id]+" · "+(r.job_title||r.name||r.company||r.file_name||r.type||"")):"New "+s.title.toLowerCase().replace(/s$/,"")}</h2><button class="btn" data-act="close">Close</button></div>
+   <form id="frm">${groups.map(g=>`<div class="grp"><h3>${g}</h3><div class="row2">${s.fields.filter(f=>f[4]===g&&f[2]!=="long").map(input).join("")}</div>${s.fields.filter(f=>f[4]===g&&f[2]==="long").map(input).join("")}</div>`).join("")}
+   ${existing&&existing.updated_at?`<p class="by">Last saved ${esc(existing.updated_at.slice(0,16).replace("T"," "))} by ${esc(existing.updated_by||"you")}</p>`:""}</form>
+   <div class="ft">${existing?`<button class="btn danger" data-act="del">Delete</button>`:"<span></span>"}<span><button class="btn" data-act="close">Cancel</button> <button class="btn primary" data-act="save">Save</button></span></div>`;
+  d.classList.add("open");d.setAttribute("aria-hidden","false");$("#scrim").classList.add("open");
+  setTimeout(()=>{const f=d.querySelector("input:not([readonly])");f&&f.focus()},50);
+}
+function closeDrawer(){editing=null;$("#drawer").classList.remove("open");$("#drawer").setAttribute("aria-hidden","true");$("#scrim").classList.remove("open")}
+
+async function save(){
+  const {t}=editing, s=SCHEMA[t], fd=new FormData($("#frm"));
+  const base=editing.isNew?{}:{...(data[t].find(r=>r[s.id]===editing.id)||{})};
+  for(const f of s.fields){let v=(fd.get(f[0])??"").toString().trim(); if(f[2]==="num"&&v!==""){const n=Number(v.replace(/,/g,""));v=isNaN(n)?v:n} base[f[0]]=v}
+  if(!base[s.id]){alert("An ID is required.");return}
+  if(editing.isNew&&data[t].some(r=>r[s.id]===base[s.id])){alert(base[s.id]+" already exists.");return}
+  if(t==="jobs"&&base.current_stage&&(!base.highest_stage||base.highest_stage==="None"||STAGES.indexOf(base.current_stage)>STAGES.indexOf(base.highest_stage))&&!CLOSED.has(base.current_stage))base.highest_stage=base.current_stage;
+  base.updated_at=new Date().toISOString(); base.updated_by="you";
+  try{await db.collection(t).doc(base[s.id]).set(base);closeDrawer()}
+  catch(e){alert("Couldn't save: "+(e.code==="quota_exceeded"?"the tracker is full. Delete old rows first.":e.message||e.code))}
+}
+async function del(){
+  const {t,id}=editing; if(!confirm(`Delete ${id}? This can't be undone.`))return;
+  try{await db.collection(t).doc(id).delete();closeDrawer()}catch(e){alert("Couldn't delete: "+(e.message||e.code))}
+}
+
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function progress(msg,done,total){job.msg=msg;job.done=done;job.total=total;render()}
+async function write(ref,body,merge){
+  for(let i=0;i<4;i++){try{return merge?await ref.update(body):await ref.set(body)}catch(e){if(e.code==="resource_exhausted"||e.code==="unavailable"){await sleep(1500*(i+1));continue}throw e}}
+  throw {code:"resource_exhausted",message:"Too many writes; try again in a minute."};
+}
+const key=n=>String(n||"").toLowerCase().replace(/\(.*?\)/g,"").replace(/[^a-z0-9]/g,"");
+async function runImport(){
+  const pend=imports.filter(i=>i.status==="pending"&&i.collection==="companies"); if(!pend.length)return;
+  const s=SCHEMA.companies; const have=new Set(data.companies.map(r=>key(r.company)));
+  let n=0; data.companies.forEach(r=>{const m=String(r.company_id||"").match(/(\d+)$/);if(m)n=Math.max(n,+m[1])});
+  const total=pend.reduce((a,i)=>a+i.rows.length,0); let done=0, added=0, dup=0;
+  bulk=true; job={kind:"import",done:0,total,msg:"Adding companies…"}; render();
+  try{
+    for(const imp of pend){
+      for(const row of imp.rows){
+        done++;
+        if(have.has(key(row.company))){dup++;continue}
+        n++; const id=s.prefix+String(n).padStart(s.pad,"0"); have.add(key(row.company));
+        await write(db.collection("companies").doc(id),{...row,company_id:id,research_status:row.research_status||"Not started",updated_at:new Date().toISOString(),updated_by:imp.added_by||"import"});
+        added++; if(added%10===0)progress(`Adding companies… ${done} of ${total}`,done,total);
+        await sleep(40);
+      }
+      await write(db.collection("imports").doc(imp._id),{status:"done",imported:added,skipped_duplicates:dup,finished_at:new Date().toISOString()},true);
+    }
+    job=null; bulk=false; render(); $("#status").textContent=`Added ${added} companies${dup?`; skipped ${dup} already in the list`:""}.`;
+  }catch(e){job=null;bulk=false;render();$("#status").textContent=`Stopped after ${added} companies: ${e.message||e.code}. Click the button again to resume; duplicates are skipped.`}
+}
+const PROFILE=`Evan Ringo: Senior Software Test Engineer, ~15 years. C#/.NET primary, Python for tooling. Mobile (Appium, iOS/Android), API (Postman), web (Selenium, Cypress), load (Locust), WinAppDriver; CI/CD (GitLab, Jenkins, Azure DevOps), Docker, Terraform on Azure, PostgreSQL, Angular. Domains: FDA-regulated medical device testing (DEKA), RFID/BLE indoor location and smart package rooms (Position Imaging), fiber-optic test equipment (AFL); built a QA group from scratch; Certified ScrumMaster; led a microservice project and airline digital bag-tag backend. Lives in Columbia, Maine (Downeast): needs US-remote roles open to Maine residents, or on-site/hybrid within ~1 hour (Bangor, Bar Harbor, Machias). Currently employed; wants a more secure or better job, so downturn stability matters. Interest areas that raise fit: video/board/TTRPG games, martial arts, history, fantasy fiction and writing, firearms, travel, homesteading/agriculture, labor rights, housing, food access, criminal justice reform, addiction recovery, LGBTQ, sex-worker rights and the adult industry.`;
+async function runScore(){
+  const todo=data.companies.filter(r=>r.fit_score===undefined||r.fit_score==="").slice(0,100); if(!todo.length)return;
+  bulk=true; job={kind:"score",done:0,total:todo.length,msg:"Screening with Claude…",stop:false}; render();
+  let scored=0, err="";
+  for(let i=0;i<todo.length&&!job.stop;i+=10){
+    const batch=todo.slice(i,i+10);
+    const list=batch.map(r=>`${r.company_id} | ${r.company} | ${r.sector||""} | ${r.interests||""}`).join("\n");
+    const prompt=`You are screening employers for a job seeker. Use only what you already know; never invent facts, and write "Unknown" when unsure.\n\nCandidate:\n${PROFILE}\n\nScores:\n- fit 1-5: 5 = senior QA/SDET/test-lead/quality-leadership roles are plausible there AND remote-from-Maine or commutable AND strong match to his domains or interests; 3 = plausible but with a clear gap; 1 = no realistic role for him.\n- stability 1-5: financial durability and job security in an economic downturn (5 = very durable).\n- remote: likelihood of US-remote roles open to Maine residents: High, Medium, Low or Unknown.\n\nCompanies (id | name | sector | note):\n${list}\n\nReturn ONLY a JSON array with one object per company: {"id","fit","stability","remote","size" (one of "<50","50-500","500-5k","5k+","Unknown"),"roles" (2-3 role families he should search there),"approach" (title of the manager he should contact),"why" (max 25 words),"flags" (max 15 words of red flags, or "")}.`;
+    job.ctrl=new AbortController();
+    try{
+      const out=await sample.json(prompt,{modelTier:"quick",signal:job.ctrl.signal});
+      const arr=Array.isArray(out)?out:(out&&Array.isArray(out.companies)?out.companies:[]);
+      for(const o of arr){
+        const r=batch.find(b=>b.company_id===o.id); if(!r)continue;
+        const upd={fit_score:+o.fit||"",stability_score:+o.stability||"",remote_likelihood:o.remote||"Unknown",size_estimate:o.size||"",ai_summary:o.why||"",ai_red_flags:o.flags||"",ai_scored_at:new Date().toISOString().slice(0,10)};
+        if(!r.role_families&&o.roles)upd.role_families=Array.isArray(o.roles)?o.roles.join("; "):String(o.roles);
+        if(!r.approach_role&&o.approach)upd.approach_role=String(o.approach);
+        await write(db.collection("companies").doc(r.company_id),upd,true); scored++;
+      }
+    }catch(e){ if(e.code==="cancelled")break; if(e.code==="not_granted"){err="Claude access wasn't granted for this page.";break} if(e.code==="rate_limited"){await sleep(5000);i-=10;continue} err=e.message||e.code; }
+    progress(`Screening with Claude… ${Math.min(i+10,todo.length)} of ${todo.length}`,Math.min(i+10,todo.length),todo.length);
+  }
+  job=null; bulk=false; render(); $("#status").textContent=`Screened ${scored} companies.${err?" Last error: "+err:""} Sort by Fit to see the top.`;
+}
+function norm(h){return String(h||"").toLowerCase().replace(/\(auto\)/,"").replace(/[^a-z0-9]+/g," ").trim()}
+async function importCsv(file){
+  const s=SCHEMA[tab]; let st=$("#status");
+  const text=await file.text();
+  const grid=Papa.parse(text,{skipEmptyLines:false}).data;
+  const idLabel=norm(s.fields[0][1]);
+  const hi=grid.findIndex(row=>norm(row[0])===idLabel);
+  if(hi<0){st.textContent=`That file has no "${s.fields[0][1]}" header row. Export the ${s.title} sheet from your spreadsheet and try again.`;return}
+  const map=grid[hi].map(h=>{const n=norm(h);const f=s.fields.find(f=>norm(f[1])===n);return f?f[0]:null});
+  const recs=grid.slice(hi+1).filter(r=>r[0]&&String(r[0]).trim());
+  let done=0,fail=0; bulk=true;
+  for(const row of recs){
+    const id=String(row[0]).trim(); const prev=data[tab].find(r=>r[s.id]===id)||{}; const out={...prev};
+    row.forEach((v,i)=>{const k=map[i]; if(!k)return; v=String(v??"").trim(); if(v==="")return;
+      if(fdef(tab,k)[2]==="num"){const n=Number(v.replace(/,/g,""));out[k]=isNaN(n)?v:n}else out[k]=v});
+    out[s.id]=id; out.updated_at=new Date().toISOString(); out.updated_by=prev.updated_by||"import";
+    try{await write(db.collection(tab).doc(id),out);done++}catch(e){fail++; if(e.code==="quota_exceeded")break}
+    if(done%10===0)st.textContent=`Importing… ${done} of ${recs.length}`;
+  }
+  bulk=false; render(); st=$("#status");
+  st.textContent=`Imported ${done} ${s.title.toLowerCase()}${fail?`, ${fail} failed`:""}.`;
+}
+async function exportCsv(){
+  const s=SCHEMA[tab];
+  const csv=Papa.unparse({fields:s.fields.map(f=>f[1]),data:rows().map(r=>s.fields.map(f=>r[f[0]]??""))});
+  try{await downloads.save({filename:`${tab}-${new Date().toISOString().slice(0,10)}.csv`,data:csv})}
+  catch(e){if(e.code!=="declined")$("#status").textContent="Export isn't available here."}
+}
+
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-act],[data-tab],[data-stage],[data-due],[data-sort],tbody tr,#clr");
+  if(!b)return;
+  if(b.id==="clr"){stageFilter=null;dueOnly=false;render();return}
+  if(b.dataset.tab){tab=b.dataset.tab;sortKey=null;sortDir=1;q="";render();return}
+  if(b.dataset.stage){tab="jobs";dueOnly=false;stageFilter=stageFilter===b.dataset.stage?null:b.dataset.stage;render();return}
+  if(b.dataset.due){tab="jobs";stageFilter=null;dueOnly=!dueOnly;render();return}
+  if(b.dataset.sort){const k=b.dataset.sort;if(sortKey===k)sortDir=-sortDir;else{sortKey=k;sortDir=1}render();return}
+  if(b.matches("tbody tr")){openDrawer(tab,b.dataset.id);return}
+  const a=b.dataset.act;
+  if(a==="add")openDrawer(tab,null);
+  else if(a==="import")$("#file").click();
+  else if(a==="export")exportCsv();
+  else if(a==="close")closeDrawer();
+  else if(a==="save")save();
+  else if(a==="del")del();
+  else if(a==="runimport")runImport();
+  else if(a==="score")runScore();
+  else if(a==="stop"&&job){job.stop=true;job.ctrl&&job.ctrl.abort()}
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="trk"){trackFilter=e.target.value;render()}
+  if(e.target.id==="sec"){sectorFilter=e.target.value;render()}
+  if(e.target.id==="file"&&e.target.files[0]){importCsv(e.target.files[0]);e.target.value=""}
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&editing)closeDrawer();
+  if(e.key==="Enter"&&e.target.matches("tbody tr"))openDrawer(tab,e.target.dataset.id);
+});
+$("#scrim").onclick=closeDrawer;
+
+render();
+(async()=>{
+  if(!window.claude||!window.claude.use){render();return}
+  db=await claude.use("db");
+  downloads=await claude.use("downloads").catch(()=>null);
+  if(!db){render();return}
+  for(const t of Object.keys(SCHEMA)){
+    db.collection(t).onSnapshot(snap=>{data[t]=snap.docs.map(d=>d.data());loaded[t]=true;if(bulk)return;if(!editing)render();else renderHeader()},
+      err=>{loaded[t]=true;const st=$("#status");if(st)st.textContent="Lost connection to the tracker. Reload the page."});
+  }
+  db.collection("imports").onSnapshot(snap=>{imports=snap.docs.map(d=>({_id:d.id,...d.data()}));if(!bulk&&!editing)render()},()=>{});
+  sample=await claude.use("sample").catch(()=>null);
+  render();
+})();
+</script>
+</body>
+</html>

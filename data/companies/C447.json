@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Federal digital service (hiring varies)",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA engineering; test automation; accessibility/compliance testing",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 5,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Fully distributed, remote-eligible including Maine, funded via interagency cost recovery rather than appropriations. Verified facts show zero QA openings and no named people. Organization was eliminated on 1 March 2025 with an MSPB appeal filed in May 2025, so treat as inactive; monitor GSA/TTS for reconstituted teams. Sources: https://betterusajobs.com/blog/federal-telework-eligibility-2026 https://18f.org/about/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Fully distributed team; many positions are remote-eligible, with fully remote roles that can be done from anywhere in the US.",
+    "benefit_source": "https://18f.org/about/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 1,
+    "stability_score": 1,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "18F was a federal civic-tech consultancy doing digital services for government agencies, remote-friendly and Maine-eligible. It was eliminated in March 2025, so there is no employer to join now; fit and stability are effectively nil despite a plausible QA/public-sector match.",
+    "ai_red_flags": "18F eliminated March 2025 by DOGE; appeal pending at MSPB; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering, GSA Technology Transformation Services (no named leaders in verified",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20GSA%20Technology%20Transformation%20Services%20%28no%20named%20leaders%20in%20verified%2018F%20/%20TTS%20%28GSA%29",
+    "outreach_notes": "Your FDA-regulated V&V and automation background suits civic-tech quality work, but 18F is defunct; watch GSA/TTS successor teams and federal digital-service re-formation."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Fully distributed, remote-eligible including Maine, funded via interagency cost recovery rather than appropriations. Verified facts show zero QA openings and no named people. Organization was eliminated on 1 March 2025 with an MSPB appeal filed in May 2025, so treat as inactive; monitor GSA/TTS for reconstituted teams. Sources: https://betterusajobs.com/blog/federal-telework-eligibility-2026 https://18f.org/about/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Fully distributed team; many positions are remote-eligible, with fully remote roles that can be done from anywhere in the US.",
+    "remote_likelihood": "High",
+    "stability_score": 1,
+    "benefit_source": "https://18f.org/about/",
+    "fit_score": 1,
+    "ai_summary": "18F was a federal civic-tech consultancy doing digital services for government agencies, remote-friendly and Maine-eligible. It was eliminated in March 2025, so there is no employer to join now; fit and stability are effectively nil despite a plausible QA/public-sector match.",
+    "role_families": "QA engineering; test automation; accessibility/compliance testing",
+    "ai_red_flags": "18F eliminated March 2025 by DOGE; appeal pending at MSPB; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 5,
+    "estimate_confidence": "High",
+    "approach_role": "Director of Engineering, GSA Technology Transformation Services (no named leaders in verified",
+    "outreach_notes": "Your FDA-regulated V&V and automation background suits civic-tech quality work, but 18F is defunct; watch GSA/TTS successor teams and federal digital-service re-formation.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20GSA%20Technology%20Transformation%20Services%20%28no%20named%20leaders%20in%20verified%2018F%20/%20TTS%20%28GSA%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://guides.18f.org/eng-hiring/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -144,6 +172,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -172,16 +201,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://guides.18f.org/eng-hiring/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

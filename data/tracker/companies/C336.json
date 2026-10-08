@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "EU headquarters; US-remote openings unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Dutch clinical trial platform; regulated eClinical testing fits the candidate, but small EU company with unclear US-remote hiring.",
+  "approach_role": "Head of Engineering",
+  "company": "Castor",
+  "company_id": "C336",
+  "fit_score": 3,
+  "interests": "Clinical trial platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Castor",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; SDET",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

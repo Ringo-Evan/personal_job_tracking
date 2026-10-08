@@ -5,8 +5,8 @@
     "company": "Jonas Software",
     "sector": "Enterprise & govtech",
     "interests": "Constellation group",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA",
+    "role_families": "SDET; QA/test engineering; QA leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Workday ATS (token talentmanagementsolution|3|JonasSoftwareUSA). Listed fully remote per candidate reports; Maine eligibility unknown. No QA openings, people, size or stability signals captured. Constellation-owned VMS group known for profitability and lean per-unit teams. Verify remote policy and business-unit QA headcount before applying. Sources: https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA https://remotejobs.org/companies/jonas-software",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Listed as fully remote, based on candidate reports (Beta).",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Jonas Software, a Constellation-owned vertical market software group, sells enterprise and govtech products. Its many business units plausibly host senior QA roles, but domain overlap with medical devices/RFID is thin and Maine remote eligibility is unverified.",
+    "ai_red_flags": "Remote-from-Maine eligibility unconfirmed; no QA openings or stability data in verified facts; large parent may mean small, siloed QA teams.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28no%20named%20leader%20in%20facts%29%20Jonas%20Software",
+    "outreach_notes": "Fifteen years in test automation and FDA-regulated V&V, including design controls, maps to Jonas's compliance-heavy vertical software; I can build release-quality tooling across business units and work remotely from Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA",
+    "research_notes": "Workday ATS (token talentmanagementsolution|3|JonasSoftwareUSA). Listed fully remote per candidate reports; Maine eligibility unknown. No QA openings, people, size or stability signals captured. Constellation-owned VMS group known for profitability and lean per-unit teams. Verify remote policy and business-unit QA headcount before applying. Sources: https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA https://remotejobs.org/companies/jonas-software",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Listed as fully remote, based on candidate reports (Beta).",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Jonas Software, a Constellation-owned vertical market software group, sells enterprise and govtech products. Its many business units plausibly host senior QA roles, but domain overlap with medical devices/RFID is thin and Maine remote eligibility is unverified.",
+    "role_families": "SDET; QA/test engineering; QA leadership",
+    "ai_red_flags": "Remote-from-Maine eligibility unconfirmed; no QA openings or stability data in verified facts; large parent may mean small, siloed QA teams.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Assurance (no named leader in facts)",
+    "outreach_notes": "Fifteen years in test automation and FDA-regulated V&V, including design controls, maps to Jonas's compliance-heavy vertical software; I can build release-quality tooling across business units and work remotely from Maine.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28no%20named%20leader%20in%20facts%29%20Jonas%20Software"
+  },
   "ats": {
     "type": "workday",
     "token": "talentmanagementsolution|3|JonasSoftwareUSA",
     "board_url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
+    "source": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA",
+    "note": "",
     "job_count": 28
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:talentmanagementsolution|3|JonasSoftwareUSA (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -123,6 +150,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -152,15 +180,66 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:35-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:talentmanagementsolution|3|JonasSoftwareUSA (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

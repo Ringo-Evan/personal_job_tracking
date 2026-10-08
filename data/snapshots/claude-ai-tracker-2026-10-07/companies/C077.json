@@ -1,0 +1,21 @@
+{
+  "approach_role": "Head of Engineering / Implementation Engineering lead",
+  "career_url": "https://job-boards.greenhouse.io/recidiviz",
+  "company": "Recidiviz",
+  "company_id": "C077",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Implementation work is ingest + integration testing + validation - close to your API/data testing; small nonprofit.",
+  "hiring_difficulty": 3,
+  "interests": "Criminal justice reform, data",
+  "maine_remote": "US remote",
+  "next_research_action": "Read engineering blog; find eng leads on LinkedIn",
+  "outreach_notes": "Pitch: you validate messy real-world integrations for a living (RFID/BLE sensor data, FDA traceability). Offer to own test strategy for state data ingest.",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Recidiviz",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Verified in 09/30 search. Tech nonprofit (51-200) partnering with state corrections agencies. All indexed roles remote-friendly; hires remotely in US. Implementation Engineer posted Aug 2026, ~10% travel.",
+  "research_status": "Initial research",
+  "role_families": "Implementation engineering; data QA; platform engineering",
+  "sector": "Criminal justice reform",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude"
+}

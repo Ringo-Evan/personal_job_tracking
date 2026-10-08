@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.husqvarnagroup.com/",
+  "career_url": "https://www.husqvarnagroup.com/",
+  "company": "Husqvarna Group",
+  "company_id": "C068",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Hardware/embedded requirements may be gaps; many engineering roles are outside US.",
+  "hiring_difficulty": 4,
+  "interests": "Outdoor equipment, robotic products",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Motor-tool, robotics and digital software teams have advertised roles.",
+  "research_status": "Initial research",
+  "role_families": "Embedded QA; connected products; technical leadership",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

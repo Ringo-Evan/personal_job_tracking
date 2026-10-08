@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Union; tech is worker organizing not software development",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Labor union; tech worker organizing focus; not software development",
+  "approach_role": "Organizing Director",
+  "company": "CWA (Communications Workers)",
+  "company_id": "C1017",
+  "fit_score": 1,
+  "interests": "Union - tech workers organizing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Organizing%20Director%20CWA%20%28Communications%20Workers%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Union Organizing; Tech Worker Organizing; Advocacy Staff",
+  "sector": "Labor & organizing",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

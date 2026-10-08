@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No C#/.NET focus known",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first productivity app (Todoist); likely web/mobile QA, no hardware/regulated domain; moderate fit.",
+  "approach_role": "Head of Engineering",
+  "company": "Doist",
+  "company_id": "C550",
+  "fit_score": 3,
+  "interests": "Todoist; fully remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Doist",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

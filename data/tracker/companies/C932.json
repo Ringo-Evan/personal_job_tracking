@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite/hybrid; no Maine location",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Avionics hardware-adjacent testing fits candidate; Garmin likely onsite/hybrid and no Maine presence, so remote gap.",
+  "approach_role": "Engineering Manager, Test",
+  "company": "Garmin Aviation",
+  "company_id": "C932",
+  "fit_score": 3,
+  "interests": "Avionics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Test%20Garmin%20Aviation",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior Test Engineer; QA Engineer; SDET",
+  "sector": "Travel",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

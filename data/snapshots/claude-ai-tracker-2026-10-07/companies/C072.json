@@ -1,0 +1,19 @@
+{
+  "benefit_source": "https://careers.wexinc.com/us/en/job/R21098/Senior-Software-Engineer",
+  "career_url": "https://careers.wexinc.com/us/en/",
+  "company": "WEX",
+  "company_id": "C072",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Stack overlaps yours closely; integrated-engineer model means SDE-style coding interviews.",
+  "hiring_difficulty": 3,
+  "interests": "Portland ME HQ; C#/.NET, Angular, Postgres stack",
+  "maine_remote": "Some reqs Remote-Maine; some have 30-mile metro rule",
+  "next_research_action": "Filter current reqs by 'Remote' and read residency line",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Posts 'Remote, Maine' reqs. At least one remote platform role required residence within 30 mi of Portland ME, Boston, Chicago or SF Bay.",
+  "research_status": "Initial research",
+  "role_families": "Senior/Staff Software Engineer; quality & platform",
+  "sector": "Maine employers",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude"
+}

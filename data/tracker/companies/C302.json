@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Well funded but benefit-spend sensitive; watch hiring freezes.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mental health benefits for employers; remote roles plausible, yet domain is pure software benefits administration with no hardware angle.",
+  "approach_role": "Director of Engineering, Quality",
+  "company": "Lyra Health",
+  "company_id": "C302",
+  "fit_score": 3,
+  "interests": "Mental health benefits",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20Quality%20Lyra%20Health",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineering Manager; Test Automation Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

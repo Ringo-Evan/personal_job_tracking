@@ -23,21 +23,21 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "Field/installation quality engineering for warehouse robotics: 8D, FMEA, Six Sigma, 75% construction-site travel. Manufacturing quality, not software testing; hardware adjacency only.",
+    "why": "Field/site quality engineering for warehouse automation installations: 8D, FMEA, Six Sigma, supplier surveillance. Hardware-manufacturing quality, not software test automation; 75% travel with on-site conditions. Adjacent regulated-domain QA, but wrong discipline",
     "skill_match": 2,
     "seniority": "match",
-    "maine_eligible": "unknown",
+    "maine_eligible": "yes",
     "track": "Domain pivot",
-    "notes": "Requires 10+ yrs manufacturing/field quality (PPAP, 8D, Six Sigma), PPE, 75% travel, Northeast base; confirm Maine home base accepted.",
+    "notes": "US-remote with heavy travel (75%) and site conditions; manufacturing/installation quality, not software QA — confirm travel tolerance before applying.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "7aeec15267b028f1",
+    "text_hash": "54e96ee9e1b5d565",
     "text_source": "board"
   }
 }

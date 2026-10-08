@@ -6,7 +6,7 @@
     "sector": "Agriculture",
     "interests": "Heat pumps",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Software Test Engineer; Embedded QA Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "HVAC equipment joint venture with embedded controls software; regulated hardware-adjacent testing fits, but US roles cluster onsite in Georgia.",
+    "ai_red_flags": "Onsite Georgia; limited remote",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Engineering Manager, Controls Software",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Controls%20Software%20Mitsubishi%20Electric%20Trane%20HVAC",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "role_families": "Software Test Engineer; Embedded QA Engineer; Test Automation Engineer",
+    "approach_role": "Engineering Manager, Controls Software",
+    "ai_summary": "HVAC equipment joint venture with embedded controls software; regulated hardware-adjacent testing fits, but US roles cluster onsite in Georgia.",
+    "ai_red_flags": "Onsite Georgia; limited remote",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Controls%20Software%20Mitsubishi%20Electric%20Trane%20HVAC"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://us.mitsubishielectric.com/en/about/local/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 3,
     "stability": 4,
@@ -62,6 +82,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +104,41 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://us.mitsubishielectric.com/en/about/local/careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

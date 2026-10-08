@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Some roles restricted by state; confirm Maine eligibility.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Employer mental-health benefits platform; remote-friendly engineering, but software-only with no device or listed-interest domain.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Spring Health",
+  "company_id": "C301",
+  "fit_score": 3,
+  "interests": "Mental health benefits",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Spring%20Health",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Lead; Test Automation Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

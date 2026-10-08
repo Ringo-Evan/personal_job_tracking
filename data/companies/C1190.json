@@ -6,7 +6,7 @@
     "sector": "Defense, aerospace & robotics",
     "interests": "Automotive test tools",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; Test Automation Engineer; Quality Engineering Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Automotive test-tool vendor; strong overlap with C#/.NET test automation and hardware-adjacent regulated QA; US-remote-from-Maine unclear.",
+    "ai_red_flags": "US-remote-from-Maine unclear.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Vector%20Informatik",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; Test Automation Engineer; Quality Engineering Lead",
+    "approach_role": "Engineering Manager, Test Tools",
+    "ai_summary": "Vector Informatik makes automotive test and development tools (CANoe, etc.). Strong domain match to candidate's test-tooling background, but remote policy and US openings are unverified.",
+    "ai_red_flags": "Remote policy unverified; no US QA openings listed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Test%20Tools%20Vector%20Informatik",
+    "career_url": "https://jobs.vector.com/global?r=1",
+    "research_notes": "Verified: Vector Informatik, 500-5k employees, sector listed as defense/aerospace/robotics but known for automotive test tools. No remote policy, stability signals, QA openings, or people found. Candidate interest: automotive test tools. Confidence low due to missing key facts. Sources: https://jobs.vector.com/global?r=1 https://jobs.vector.com/de?r=1",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Leverage 15 years in hardware-adjacent test automation and C#/.NET to support Vector's automotive toolchain; ask about US-remote roles in test tooling.",
+    "next_research_action": "No supported job board - check https://jobs.vector.com/global?r=1 manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.vector.com/de?r=1",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +89,59 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1190",
+    "career_url": "https://jobs.vector.com/global?r=1",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Vector Informatik makes automotive test and development tools (CANoe, etc.). Strong domain match to candidate's test-tooling background, but remote policy and US openings are unverified.",
+      "role_families": [
+        "SDET",
+        "Test Automation Engineer",
+        "Quality Engineering Lead"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Engineering Manager, Test Tools",
+    "outreach_angle": "Leverage 15 years in hardware-adjacent test automation and C#/.NET to support Vector's automotive toolchain; ask about US-remote roles in test tooling.",
+    "red_flags": "Remote policy unverified; no US QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://jobs.vector.com/global?r=1",
+      "https://jobs.vector.com/de?r=1"
+    ],
+    "notes": "Verified: Vector Informatik, 500-5k employees, sector listed as defense/aerospace/robotics but known for automotive test tools. No remote policy, stability signals, QA openings, or people found. Candidate interest: automotive test tools. Confidence low due to missing key facts.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +163,70 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://jobs.vector.com/de?r=1",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

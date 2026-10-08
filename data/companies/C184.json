@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "Terraform automation",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Quality Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Direct Terraform expertise match; modern startup; remote work",
+    "ai_red_flags": "Smaller company; specialized Terraform market",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20env0",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 1,
+    "stability_score": 3,
+    "remote_likelihood": "Low",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; test tooling engineering; release engineering",
+    "approach_role": "Head of Engineering",
+    "ai_summary": "env0 builds Infrastructure-as-Code automation and governance tooling (Terraform), adjacent to the candidate's test-tooling interest. But openings are Boston hybrid or on-site preferred, explicitly not Maine-eligible, and no QA/test roles are posted.",
+    "ai_red_flags": "No remote-from-Maine option; postings are Boston hybrid/on-site only. No QA or test roles currently listed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20env0",
+    "career_url": "https://www.envzero.com/careers",
+    "research_notes": "env0 (IaC/Terraform automation tooling) is combining with CloudQuery into one portfolio; no deal terms or dates given. All listed openings are Boston hybrid or on-site preferred, and the pack marks Maine eligibility 'no'. No QA openings, no named people, no size or funding data. Location mismatch is decisive. Sources: https://www.envzero.com/careers/customer-success-manager",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "no: Listed openings are Boston, Massachusetts roles described as hybrid or on-site preferred; no remote-work policy is published in the pack.",
+    "benefit_source": "https://www.envzero.com/careers/customer-success-manager",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your C#/.NET automation plus regulated V&V background could strengthen CI/IaC test pipelines, but first ask whether env0 will hire remote from Maine or open QA roles.",
+    "next_research_action": "No supported job board - check https://www.envzero.com/careers manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -61,7 +89,65 @@
     "model": "claude-haiku-4-5-20251001",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C184",
+    "career_url": "https://www.envzero.com/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Listed openings are Boston, Massachusetts roles described as hybrid or on-site preferred; no remote-work policy is published in the pack.",
+      "maine_eligible": "no",
+      "evidence_url": "https://www.envzero.com/careers/customer-success-manager"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "env0 and CloudQuery are described as one combined product portfolio serving a shared customer base; no deal date or terms given.",
+          "date": null,
+          "url": "https://www.envzero.com/careers/customer-success-manager"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 1,
+      "rationale": "env0 builds Infrastructure-as-Code automation and governance tooling (Terraform), adjacent to the candidate's test-tooling interest. But openings are Boston hybrid or on-site preferred, explicitly not Maine-eligible, and no QA/test roles are posted.",
+      "role_families": [
+        "SDET",
+        "test tooling engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Engineering",
+    "outreach_angle": "Your C#/.NET automation plus regulated V&V background could strengthen CI/IaC test pipelines, but first ask whether env0 will hire remote from Maine or open QA roles.",
+    "red_flags": "No remote-from-Maine option; postings are Boston hybrid/on-site only. No QA or test roles currently listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.envzero.com/careers/customer-success-manager"
+    ],
+    "notes": "env0 (IaC/Terraform automation tooling) is combining with CloudQuery into one portfolio; no deal terms or dates given. All listed openings are Boston hybrid or on-site preferred, and the pack marks Maine eligibility 'no'. No QA openings, no named people, no size or funding data. Location mismatch is decisive.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +169,73 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

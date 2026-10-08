@@ -5,8 +5,8 @@
     "company": "Benchling",
     "sector": "Regulated healthtech",
     "interests": "Life sciences R&D software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.benchling.com/careers",
+    "role_families": "SDET; QA automation engineering; Quality engineering (regulated software)",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Benchling: life-sciences R&D software (regulated healthtech), Ashby ATS. Raised $400M+ (Series E/F, 2021) but cut 9% of staff. Hybrid, cited as three office days weekly, remote for many roles but Maine eligibility unknown. No QA openings listed and no named quality leaders in the facts. Sources: https://www.benchling.com/careers https://builtin.com/company/benchling/faq/work-life-balance-wellbeing https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model: employees combine remote and on-site work, with hybrid roles cited as 3 in-office days per week; remote options are available for many roles.",
+    "benefit_source": "https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Benchling builds R&D software for life sciences, a regulated-software world close to the candidate's FDA-regulated V&V background. But hybrid three-day office norms, unknown Maine eligibility, recent layoffs and no posted QA roles make it a stretch rather than a clean",
+    "ai_red_flags": "Recent 9% layoff (~74 staff, mostly marketing); solidly hybrid, three in-office days; no QA openings posted; Maine eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Benchling",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to the validation and compliance needs of Benchling's life-sciences customers; ask how the quality function supports regulated workflows."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.benchling.com/careers",
+    "research_notes": "Benchling: life-sciences R&D software (regulated healthtech), Ashby ATS. Raised $400M+ (Series E/F, 2021) but cut 9% of staff. Hybrid, cited as three office days weekly, remote for many roles but Maine eligibility unknown. No QA openings listed and no named quality leaders in the facts. Sources: https://www.benchling.com/careers https://builtin.com/company/benchling/faq/work-life-balance-wellbeing https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid model: employees combine remote and on-site work, with hybrid roles cited as 3 in-office days per week; remote options are available for many roles.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://pharmaphorum.com/news/lab-software-firm-benchling-sheds-staff",
+    "fit_score": 3,
+    "ai_summary": "Benchling builds R&D software for life sciences, a regulated-software world close to the candidate's FDA-regulated V&V background. But hybrid three-day office norms, unknown Maine eligibility, recent layoffs and no posted QA roles make it a stretch rather than a clean",
+    "role_families": "SDET; QA automation engineering; Quality engineering (regulated software)",
+    "ai_red_flags": "Recent 9% layoff (~74 staff, mostly marketing); solidly hybrid, three in-office days; no QA openings posted; Maine eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Head of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to the validation and compliance needs of Benchling's life-sciences customers; ask how the quality function supports regulated workflows.",
+    "next_research_action": "Watching ashby board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Benchling"
+  },
   "ats": {
     "type": "ashby",
     "token": "benchling",
     "board_url": "https://jobs.ashbyhq.com/benchling",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 53
+    "source": "https://www.benchling.com/careers",
+    "note": "",
+    "job_count": 57
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:benchling (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -136,6 +164,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -165,15 +194,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:18-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "ashby:benchling (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

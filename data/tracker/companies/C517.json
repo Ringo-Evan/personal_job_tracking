@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Design software, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Design software giant; QA roles plausible, but design domain not in interests; remote likely.",
+  "approach_role": "QA Manager",
+  "company": "Autodesk",
+  "company_id": "C517",
+  "fit_score": 3,
+  "interests": "Design software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Autodesk",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:18Z",
+  "updated_by": "pipeline"
+}

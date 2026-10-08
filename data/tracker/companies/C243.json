@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid possible",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Warehouse management software; stable public firm with QA needs, but domain fit moderate and remote likely hybrid.",
+  "approach_role": "QA Manager",
+  "company": "Manhattan Associates",
+  "company_id": "C243",
+  "fit_score": 3,
+  "interests": "Warehouse management software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Manhattan%20Associates",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "IoT / location tech",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:09Z",
+  "updated_by": "pipeline"
+}

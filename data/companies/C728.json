@@ -5,8 +5,8 @@
     "company": "BackerKit",
     "sector": "Games & stories",
     "interests": "Crowdfunding tooling (TTRPG heavy)",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://jobs.lever.co/backerkit",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: BackerKit, games/stories sector, crowdfunding tooling popular with TTRPG creators, Lever ATS (token 'backerkit'). No remote policy, size, stability signals, QA openings or named people found. Candidate should confirm remote-from-Maine policy and whether any QA/test role exists before investing effort. Sources: https://jobs.lever.co/backerkit",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching lever board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "BackerKit builds crowdfunding and pledge-manager tooling, heavily used by tabletop RPG creators, which matches the candidate's TTRPG and games interest. But its remote policy, headcount and QA openings are unverified, so fit rests on domain appeal and a plausible small-team",
+    "ai_red_flags": "No verified remote policy or Maine eligibility; small company with few senior QA roles.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20BackerKit",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus genuine TTRPG crowdfunding familiarity; I could own quality and release tooling for a platform creators depend on during their biggest campaigns."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://jobs.lever.co/backerkit",
+    "research_notes": "Verified: BackerKit, games/stories sector, crowdfunding tooling popular with TTRPG creators, Lever ATS (token 'backerkit'). No remote policy, size, stability signals, QA openings or named people found. Candidate should confirm remote-from-Maine policy and whether any QA/test role exists before investing effort. Sources: https://jobs.lever.co/backerkit",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "BackerKit builds crowdfunding and pledge-manager tooling, heavily used by tabletop RPG creators, which matches the candidate's TTRPG and games interest. But its remote policy, headcount and QA openings are unverified, so fit rests on domain appeal and a plausible small-team",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "No verified remote policy or Maine eligibility; small company with few senior QA roles.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "Head of Engineering",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus genuine TTRPG crowdfunding familiarity; I could own quality and release tooling for a platform creators depend on during their biggest campaigns.",
+    "next_research_action": "Watching lever board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20BackerKit"
+  },
   "ats": {
     "type": "lever",
     "token": "backerkit",
     "board_url": "https://jobs.lever.co/backerkit",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
+    "source": "https://jobs.lever.co/backerkit",
+    "note": "",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "lever:backerkit (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -122,6 +149,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -151,15 +179,66 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:17-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "lever:backerkit (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

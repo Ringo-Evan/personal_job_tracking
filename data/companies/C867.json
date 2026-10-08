@@ -5,8 +5,8 @@
     "company": "onX",
     "sector": "Firearms",
     "interests": "Hunting/offroad maps app; Missoula; strong mobile QA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.onxmaps.com/careers",
+    "role_families": "Mobile QA / SDET; QA leadership; Release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "onX: subscription GPS/mapping apps for hunting, offroad, hiking; Montana HQ with distributed 'Basecamps' nationally. Remote-friendly, Maine eligible. Hiring across Engineering, Product, Geospatial, CX; no QA roles verified. No named contacts. Third-party tracker rates remote policy 72/100, stable hiring direction. Sources: https://www.onxmaps.com/careers https://wfh.team/remote-policy-tracker/onx",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Distributed company: Montana headquarters plus virtual Basecamps across the country, giving flexibility to work where you are inspired.",
+    "benefit_source": "https://www.onxmaps.com/careers",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "onX builds subscription GPS map apps for hunting, offroad and outdoor use — a firearms/outdoors-adjacent domain the candidate likes. It is distributed and Maine-eligible with strong mobile QA, but no verified QA openings or named quality leaders are shown.",
+    "ai_red_flags": "No verified QA openings posted; no named QA leaders; size and funding durability unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering (or VP Engineering)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20%28or%20VP%20Engineering%29%20onX",
+    "outreach_notes": "15 years in test automation, C#/.NET tooling and FDA-regulated V&V maps well onto onX's mobile map quality needs, and your hunting/outdoors interest fits their user base."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.onxmaps.com/careers",
+    "research_notes": "onX: subscription GPS/mapping apps for hunting, offroad, hiking; Montana HQ with distributed 'Basecamps' nationally. Remote-friendly, Maine eligible. Hiring across Engineering, Product, Geospatial, CX; no QA roles verified. No named contacts. Third-party tracker rates remote policy 72/100, stable hiring direction. Sources: https://www.onxmaps.com/careers https://wfh.team/remote-policy-tracker/onx",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Distributed company: Montana headquarters plus virtual Basecamps across the country, giving flexibility to work where you are inspired.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://www.onxmaps.com/careers",
+    "fit_score": 4,
+    "ai_summary": "onX builds subscription GPS map apps for hunting, offroad and outdoor use — a firearms/outdoors-adjacent domain the candidate likes. It is distributed and Maine-eligible with strong mobile QA, but no verified QA openings or named quality leaders are shown.",
+    "role_families": "Mobile QA / SDET; QA leadership; Release engineering",
+    "ai_red_flags": "No verified QA openings posted; no named QA leaders; size and funding durability unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Engineering (or VP Engineering)",
+    "outreach_notes": "15 years in test automation, C#/.NET tooling and FDA-regulated V&V maps well onto onX's mobile map quality needs, and your hunting/outdoors interest fits their user base.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20%28or%20VP%20Engineering%29%20onX"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "onxmaps",
@@ -54,6 +75,16 @@
     "source": null,
     "note": "onX",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.onx.com/careers",
+    "found": null,
+    "other": [
+      "rippling https://ats.rippling.com/onx/jobs"
+    ],
+    "careers_page_note": "uses rippling"
   },
   "triage": {
     "fit": 4,
@@ -136,6 +167,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -171,18 +203,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.onx.com/careers",
-    "found": null,
-    "other": [
-      "rippling https://ats.rippling.com/onx/jobs"
-    ],
-    "careers_page_note": "uses rippling"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

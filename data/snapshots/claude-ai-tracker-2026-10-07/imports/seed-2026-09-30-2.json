@@ -1,0 +1,2172 @@
+{
+  "added_by": "Claude (seed)",
+  "collection": "companies",
+  "created_at": "2026-09-30T18:00:00Z",
+  "finished_at": "2026-09-30T14:30:35.042Z",
+  "imported": 720,
+  "label": "wide-net seed part 2 of 3",
+  "rows": [
+    {
+      "company": "Infor",
+      "interests": "ERP",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Epicor",
+      "interests": "ERP; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Acumatica",
+      "interests": "Cloud ERP; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "IFS",
+      "interests": "ERP",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Unit4",
+      "interests": "ERP",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "ServiceTitan",
+      "interests": "Trades software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Procore",
+      "interests": "Construction software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Autodesk",
+      "interests": "Design software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Bentley Systems",
+      "interests": "Infrastructure engineering software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Trimble Viewpoint",
+      "interests": "Construction ERP",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "RealPage",
+      "interests": "Property management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "AppFolio",
+      "interests": "Property management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Entrata",
+      "interests": "Property management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Yardi",
+      "interests": "Property software; .NET heavy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "MRI Software",
+      "interests": "Real estate software; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Buildertrend",
+      "interests": "Construction software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Blackbaud",
+      "interests": "Nonprofit software; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Bonterra (EveryAction)",
+      "interests": "Nonprofit/organizing software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Bloomerang",
+      "interests": "Donor software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Classy (GoFundMe Pro)",
+      "interests": "Fundraising",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Neon One",
+      "interests": "Nonprofit CRM",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "DonorPerfect",
+      "interests": "Nonprofit CRM",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Instructure (Canvas)",
+      "interests": "Edtech; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "PowerSchool",
+      "interests": "K12 software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Frontline Education",
+      "interests": "K12 software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Blackboard/Anthology",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "D2L",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Khan Academy",
+      "interests": "Nonprofit edtech; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Duolingo",
+      "interests": "Language app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Coursera",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Chegg",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Quizlet",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Clever",
+      "interests": "K12 login platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Epic! (kids books)",
+      "interests": "Reading app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Seesaw",
+      "interests": "K12 app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Nearpod",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "ClassDojo",
+      "interests": "K12 app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Discovery Education",
+      "interests": "Edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Automattic",
+      "interests": "WordPress.com; fully remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Zapier",
+      "interests": "Fully remote automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Doist",
+      "interests": "Todoist; fully remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Buffer",
+      "interests": "Fully remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Basecamp (37signals)",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Help Scout",
+      "interests": "Remote; Boston roots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Toggl",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Hotjar",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Close",
+      "interests": "Remote CRM",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Wildbit/ActiveCampaign",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "ConvertKit (Kit)",
+      "interests": "Remote creator email",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Ghost",
+      "interests": "Remote publishing platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Discourse",
+      "interests": "Remote forum software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Mozilla",
+      "interests": "Firefox; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "DuckDuckGo",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Proton",
+      "interests": "Privacy; mostly EU",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Signal",
+      "interests": "Messaging nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Tailscale",
+      "interests": "Remote networking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "1Password",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Bitwarden",
+      "interests": "Remote password manager; .NET/C# backend!",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Mattermost",
+      "interests": "Remote chat",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Sourcegraph",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Vercel",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Netlify",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Supabase",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "PlanetScale",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Fly.io",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Render",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "DigitalOcean",
+      "interests": "Remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Linode (Akamai)",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Cloudflare",
+      "interests": "Hybrid/remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Twilio",
+      "interests": "Remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "SendGrid (Twilio)",
+      "interests": "Email API",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Mailchimp (Intuit)",
+      "interests": "Email marketing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Canva",
+      "interests": "Design",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Figma",
+      "interests": "Design",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Miro",
+      "interests": "Collaboration",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Notion",
+      "interests": "Workspace",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Airtable",
+      "interests": "Database SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Smartsheet",
+      "interests": "Work mgmt",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Asana",
+      "interests": "Work mgmt",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "monday.com",
+      "interests": "Work mgmt",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "ClickUp",
+      "interests": "Work mgmt",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Atlassian",
+      "interests": "Jira; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Zendesk",
+      "interests": "Support SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Freshworks",
+      "interests": "Support SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Intercom",
+      "interests": "Support SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Calendly",
+      "interests": "Scheduling",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Loom (Atlassian)",
+      "interests": "Video messaging",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Zoom",
+      "interests": "Video",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Dropbox",
+      "interests": "Remote-first",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Box",
+      "interests": "Content cloud",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "DocuSign",
+      "interests": "E-signature",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Okta",
+      "interests": "Identity",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Auth0 (Okta)",
+      "interests": "Identity",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Stripe",
+      "interests": "Payments",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Square (Block)",
+      "interests": "Payments",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Shopify",
+      "interests": "E-commerce; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "BigCommerce",
+      "interests": "E-commerce",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Etsy",
+      "interests": "Marketplace (maker goods)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Reddit",
+      "interests": "Communities",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Discord",
+      "interests": "Gaming chat",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Patreon",
+      "interests": "Creator membership (incl. adult-adjacent creators)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Substack",
+      "interests": "Writing platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Medium",
+      "interests": "Writing platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Wikimedia Foundation",
+      "interests": "Remote nonprofit; access to information",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "GitHub (Microsoft)",
+      "interests": "Remote-first",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Elastic",
+      "interests": "Distributed",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "MongoDB",
+      "interests": "Database",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Redis",
+      "interests": "Database",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Couchbase",
+      "interests": "Database",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Confluent",
+      "interests": "Streaming",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Fivetran",
+      "interests": "Data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "dbt Labs",
+      "interests": "Remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Starburst",
+      "interests": "Data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Seeq",
+      "interests": "Industrial analytics; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Inductive Automation",
+      "interests": "Industrial SCADA software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Remote-first software"
+    },
+    {
+      "company": "Bungie",
+      "interests": "Destiny; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Bethesda (ZeniMax)",
+      "interests": "RPGs; unionized QA (ZeniMax Workers United)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Obsidian Entertainment",
+      "interests": "RPGs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "inXile Entertainment",
+      "interests": "RPGs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Blizzard Entertainment",
+      "interests": "Unionized QA teams",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Activision (Raven QA union)",
+      "interests": "Unionized QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Riot Games",
+      "interests": "LA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Epic Games",
+      "interests": "Unreal; Cary NC",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Valve",
+      "interests": "Bellevue",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "CD PROJEKT RED",
+      "interests": "Also Boston studio",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Owlcat Games",
+      "interests": "CRPGs (Pathfinder games)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Harebrained Schemes",
+      "interests": "Battletech/Shadowrun",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Firaxis Games",
+      "interests": "XCOM - your DG:XCOM hack",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "2K Games",
+      "interests": "Firaxis parent",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Creative Assembly",
+      "interests": "Total War - history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Slitherine / Matrix Games",
+      "interests": "Wargames - history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Hooded Horse",
+      "interests": "Strategy publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Ubisoft (Red Storm)",
+      "interests": "Cary NC",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Arkane Studios",
+      "interests": "Austin/Lyon",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Double Fine",
+      "interests": "Adventure games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Supergiant Games",
+      "interests": "Hades",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Klei Entertainment",
+      "interests": "Strategy/survival",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Paradox Tectonic",
+      "interests": "Paradox US studio",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Iron Galaxy",
+      "interests": "Co-dev; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Keywords Studios",
+      "interests": "Game QA services; huge QA employer",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "PTW (Pole To Win)",
+      "interests": "Game QA services",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Lionbridge Games",
+      "interests": "Game QA/localization",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Testronic",
+      "interests": "Game QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "VMC (Volt)",
+      "interests": "Game QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Unity Technologies",
+      "interests": "Engine + tools",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Rec Room",
+      "interests": "Social VR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Niantic",
+      "interests": "AR games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Zynga (Take-Two)",
+      "interests": "Mobile games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Scopely",
+      "interests": "Mobile games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Jagex",
+      "interests": "RuneScape",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Grinding Gear Games",
+      "interests": "Path of Exile",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Frost Giant Studios",
+      "interests": "RTS; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Stoic",
+      "interests": "Banner Saga",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Wushu Studios",
+      "interests": "Co-dev",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Irrational Games / Ghost Story",
+      "interests": "Boston area",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Harmonix (Epic)",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Proletariat",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Rockstar New England",
+      "interests": "Andover MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Turbine (WB Games Boston)",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Standard Games",
+      "interests": "Boston area",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Disbelief",
+      "interests": "Boston game tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Tripwire Interactive",
+      "interests": "Shooters",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "New World Interactive",
+      "interests": "Insurgency - firearms realism",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Offworld Industries",
+      "interests": "Squad - military sim",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Bohemia Interactive",
+      "interests": "Arma - military sim",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Bohemia Interactive Simulations",
+      "interests": "Military training sims (VBS)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Kalypso Media",
+      "interests": "Strategy publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Devolver Digital",
+      "interests": "Publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Annapurna Interactive",
+      "interests": "Publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Humble Games",
+      "interests": "Publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "GOG",
+      "interests": "Store (CD Projekt)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "itch.io",
+      "interests": "Indie store",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Humble Bundle",
+      "interests": "Store",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Nexus Mods",
+      "interests": "Modding platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Overwolf / CurseForge",
+      "interests": "Mod platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Mod.io",
+      "interests": "Mod platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Tabletop Simulator (Berserk Games)",
+      "interests": "Board game sim",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Dire Wolf Digital",
+      "interests": "Digital card/board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Playdek",
+      "interests": "Digital board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Asmodee Digital (Twin Sails)",
+      "interests": "Digital board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Tabletopia",
+      "interests": "Digital board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Owlbear Rodeo",
+      "interests": "VTT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Alchemy RPG",
+      "interests": "VTT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Shard Tabletop",
+      "interests": "VTT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Fantasy Grounds (SmiteWorks)",
+      "interests": "VTT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Talespire (Bouncyrock)",
+      "interests": "VTT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Arkenforge",
+      "interests": "VTT/maps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "World Anvil",
+      "interests": "Worldbuilding platform - writing + TTRPG",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Obsidian (md app)",
+      "interests": "Notes app popular with GMs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Inkarnate",
+      "interests": "Map making",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Hero Forge",
+      "interests": "Custom minis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Free League Publishing",
+      "interests": "TTRPGs (Alien, Forbidden Lands)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Modiphius",
+      "interests": "TTRPGs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Kobold Press",
+      "interests": "TTRPG",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "MCDM Productions",
+      "interests": "TTRPG (Draw Steel)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Critical Role (Darrington Press)",
+      "interests": "TTRPG/media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Pelgrane Press",
+      "interests": "Delta Green's cousin: GUMSHOE",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Arc Dream Publishing",
+      "interests": "Delta Green publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Evil Hat Productions",
+      "interests": "FATE TTRPG",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Monte Cook Games",
+      "interests": "TTRPG",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Green Ronin",
+      "interests": "TTRPG",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Catalyst Game Labs",
+      "interests": "BattleTech/Shadowrun",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Games Workshop",
+      "interests": "Warhammer; Memphis US",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Steamforged Games",
+      "interests": "Minis/board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "CMON",
+      "interests": "Minis board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Stonemaier Games",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Fantasy Flight Games (Asmodee)",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Z-Man Games",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Days of Wonder",
+      "interests": "Ticket to Ride digital apps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Restoration Games",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Leder Games",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "GMT Games",
+      "interests": "Historical wargames",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Compass Games",
+      "interests": "Historical wargames",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Osprey Publishing",
+      "interests": "Military history books + games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Worthington Publishing",
+      "interests": "Wargames",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Mayday Games",
+      "interests": "Board games",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "BoardGameGeek",
+      "interests": "Board game community site",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Gamefound",
+      "interests": "Board game crowdfunding",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "BackerKit",
+      "interests": "Crowdfunding tooling (TTRPG heavy)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "DriveThruRPG / OneBookShelf",
+      "interests": "TTRPG marketplace (merged w/ Roll20)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Exalted Funeral",
+      "interests": "TTRPG distributor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Miniature Market",
+      "interests": "Game retailer",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Alliance Game Distributors",
+      "interests": "Distributor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "GTS Distribution",
+      "interests": "Distributor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Lone Shark Games",
+      "interests": "Game design",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Reaper Miniatures",
+      "interests": "Minis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Wizkids (NECA)",
+      "interests": "Minis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "TCGplayer",
+      "interests": "Card marketplace; Syracuse NY",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Cardmarket",
+      "interests": "EU card marketplace",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Pokemon Company International",
+      "interests": "Bellevue",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Hasbro (corporate)",
+      "interests": "Pawtucket RI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Games & stories"
+    },
+    {
+      "company": "Penguin Random House",
+      "interests": "Publishing tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "HarperCollins",
+      "interests": "Publishing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Simon & Schuster",
+      "interests": "Publishing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Hachette Book Group (Orbit)",
+      "interests": "Fantasy imprint Orbit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Baen Books",
+      "interests": "SF/F publisher",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "DAW Books",
+      "interests": "SF/F",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Angry Robot",
+      "interests": "SF/F",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Subterranean Press",
+      "interests": "SF/F",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Podium Entertainment",
+      "interests": "Audiobooks (fantasy/litRPG)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Libro.fm",
+      "interests": "Indie bookstore audiobooks",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Spotify Audiobooks",
+      "interests": "Audio",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Kobo (Rakuten)",
+      "interests": "E-reader/books",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Barnes & Noble",
+      "interests": "Books",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Goodreads (Amazon)",
+      "interests": "Books community",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "StoryGraph",
+      "interests": "Book tracking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Royal Road",
+      "interests": "Web fiction",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Tapas (Kakao)",
+      "interests": "Web fiction/comics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Webtoon",
+      "interests": "Web comics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Inkitt",
+      "interests": "Fiction platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Archive of Our Own (OTW)",
+      "interests": "Fanfic nonprofit (volunteer)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Scrivener (Literature & Latte)",
+      "interests": "Writing software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Campfire Writing",
+      "interests": "Worldbuilding software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Reedsy",
+      "interests": "Author services",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Draft2Digital",
+      "interests": "Indie publishing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Smashwords",
+      "interests": "Indie publishing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "IngramSpark",
+      "interests": "Printing/distribution",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Findaway (Spotify)",
+      "interests": "Audiobook distribution",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Hoopla (Midwest Tape)",
+      "interests": "Library media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Bibliotheca",
+      "interests": "Library RFID tech - RFID + libraries!",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Envisionware",
+      "interests": "Library self-service",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Follett",
+      "interests": "School library software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Library of Congress",
+      "interests": "Federal (history)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Smithsonian Institution",
+      "interests": "Federal (history)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "National Archives (NARA)",
+      "interests": "Federal (history)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "History Hit",
+      "interests": "History streaming",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "The Great Courses (Wondrium)",
+      "interests": "History courses",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Osprey Games",
+      "interests": "Military history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "MyHeritage",
+      "interests": "Genealogy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "FamilySearch",
+      "interests": "Genealogy nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Findmypast",
+      "interests": "Genealogy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Atlas Obscura",
+      "interests": "History/travel media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Colonial Williamsburg",
+      "interests": "Living history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Mystic Seaport Museum",
+      "interests": "Maritime history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Maine Historical Society",
+      "interests": "Maine history",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "HistoryNet",
+      "interests": "History media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Indiegogo",
+      "interests": "Crowdfunding",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Nebula (streaming)",
+      "interests": "Creator-owned streaming (history channels)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "CuriosityStream",
+      "interests": "Documentary streaming",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "Dropout (CollegeHumor)",
+      "interests": "Comedy/TTRPG streaming (Dimension 20)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Books, history & media"
+    },
+    {
+      "company": "UFC (TKO Group)",
+      "interests": "MMA; Fight Pass streaming",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "PFL",
+      "interests": "MMA league",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "ONE Championship",
+      "interests": "MMA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Gracie University",
+      "interests": "BJJ online",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "BJJ Fanatics",
+      "interests": "Instructionals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Grapplearts",
+      "interests": "Instructionals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Hayabusa",
+      "interests": "Martial arts gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Century Martial Arts",
+      "interests": "Gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Everlast",
+      "interests": "Boxing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Title Boxing",
+      "interests": "Boxing gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Rogue Fitness",
+      "interests": "Fitness equipment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Peloton",
+      "interests": "Connected fitness",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Tonal",
+      "interests": "Connected fitness",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Hydrow",
+      "interests": "Connected rowing; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Mirror (Lululemon)",
+      "interests": "Connected fitness",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Strava",
+      "interests": "Fitness app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Polar",
+      "interests": "Wearables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Coros",
+      "interests": "Wearables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Mindbody",
+      "interests": "Fitness studio software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "ABC Fitness",
+      "interests": "Gym software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Daxko",
+      "interests": "Y/gym software (owns Zen Planner?)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Wodify",
+      "interests": "Gym software; Philadelphia",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "PushPress",
+      "interests": "Gym software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "TeamUp",
+      "interests": "Gym software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "WellnessLiving",
+      "interests": "Studio software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Glofox (ABC)",
+      "interests": "Gym software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "MyStudio",
+      "interests": "Martial arts software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Recess",
+      "interests": "Studio software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Clubworx",
+      "interests": "Martial arts software (AU)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Smoothcomp",
+      "interests": "BJJ tournament software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Armstreet",
+      "interests": "Medieval armor maker (buhurt)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Purpleheart Armoury",
+      "interests": "HEMA gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "HEMA Supplies",
+      "interests": "HEMA gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Kvetun Armoury",
+      "interests": "Armor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Arms & Armor",
+      "interests": "Medieval replicas; Minneapolis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Kult of Athena",
+      "interests": "Swords retailer",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "TeamSnap",
+      "interests": "Youth sports software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "SportsEngine (NBC)",
+      "interests": "Youth sports software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "LeagueApps",
+      "interests": "Youth sports software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "GameChanger (DICK'S)",
+      "interests": "Youth sports app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Catapult Sports",
+      "interests": "Sports wearables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Sportlogiq",
+      "interests": "Sports analytics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Veo",
+      "interests": "Soccer cameras",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Trace (soccer video)",
+      "interests": "Soccer video",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Martial arts & fitness"
+    },
+    {
+      "company": "Palmetto State Armory",
+      "interests": "Firearms retail/manufacturing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Primary Arms",
+      "interests": "Optics retail; strong e-commerce tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Sportsman's Warehouse",
+      "interests": "Outdoor retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Bass Pro Shops / Cabela's",
+      "interests": "Outdoor retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Academy Sports",
+      "interests": "Retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Scheels",
+      "interests": "Retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "MidwayUSA",
+      "interests": "Shooting retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Optics Planet",
+      "interests": "Optics retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Ammo.com",
+      "interests": "Ammo retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Lucky Gunner",
+      "interests": "Ammo retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Vista Outdoor / Revelyst",
+      "interests": "Outdoor brands",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Olin Winchester",
+      "interests": "Ammo",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Hornady",
+      "interests": "Ammo",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Federal Premium (Kinetic Group)",
+      "interests": "Ammo",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Leupold",
+      "interests": "Optics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Trijicon",
+      "interests": "Optics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Aimpoint",
+      "interests": "Optics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Holosun",
+      "interests": "Optics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Burris Optics",
+      "interests": "Optics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Daniel Defense",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Beretta USA",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Glock Inc",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Springfield Armory",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Savage Arms",
+      "interests": "Firearms; Westfield MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Henry Repeating Arms",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Magpul",
+      "interests": "Accessories",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Streamlight",
+      "interests": "Lights",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "SureFire",
+      "interests": "Lights",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Safariland",
+      "interests": "Duty gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "5.11 Tactical",
+      "interests": "Gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Crye Precision",
+      "interests": "Gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "First Lite",
+      "interests": "Hunting apparel",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Sitka Gear",
+      "interests": "Hunting apparel",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "onX",
+      "interests": "Hunting/offroad maps app; Missoula; strong mobile QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "HuntStand",
+      "interests": "Hunting app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Spartan Forge",
+      "interests": "Hunting app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    }
+  ],
+  "skipped_duplicates": 0,
+  "status": "done"
+}

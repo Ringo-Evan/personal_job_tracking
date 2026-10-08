@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Infrastructure outsourcing; thin margins; frequent restructuring.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "IBM infrastructure spinoff doing managed IT services; QA roles are operational and manual, thin margins, restructuring.",
+  "approach_role": "Quality Assurance Manager",
+  "company": "Kyndryl",
+  "company_id": "C446",
+  "fit_score": 2,
+  "interests": "Infra services",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Assurance%20Manager%20Kyndryl",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Analyst; Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

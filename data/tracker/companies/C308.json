@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small startup; engineering roles intermittent.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Telehealth alcohol treatment matching recovery interest; remote-friendly, small venture-backed company with limited senior QA openings.",
+  "approach_role": "VP of Engineering",
+  "company": "Ria Health",
+  "company_id": "C308",
+  "fit_score": 4,
+  "interests": "Alcohol treatment telehealth",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Ria%20Health",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Senior Test Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

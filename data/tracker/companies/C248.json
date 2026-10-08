@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Shipping API startup; software QA roles remote-friendly, but early-stage and domain not a strong match.",
+  "approach_role": "QA Lead",
+  "company": "Shippo",
+  "company_id": "C248",
+  "fit_score": 4,
+  "interests": "Shipping API",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Shippo",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:09Z",
+  "updated_by": "pipeline"
+}

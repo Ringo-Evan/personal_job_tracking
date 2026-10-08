@@ -1,0 +1,15 @@
+{
+  "company": "Propel",
+  "company_id": "C078",
+  "name": "Jimmy Chen",
+  "next_step": "Find profile; check for mutual connections",
+  "person_id": "P004",
+  "profile_url": "https://www.linkedin.com/search/results/people/?keywords=Jimmy%20Chen%20Propel",
+  "relationship": "Cold",
+  "source_url": "https://app.welcometothejungle.com/jobs/wQ9agZtt",
+  "status": "To research",
+  "title": "Founder & CEO",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude",
+  "why_approach": "Founder of the SNAP/EBT app. Better target is the eng manager for mobile; use CEO only if no eng lead is findable."
+}

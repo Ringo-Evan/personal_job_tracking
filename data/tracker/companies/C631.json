@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "LA hybrid; 2024 layoffs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "LA studio behind League and Valorant; strong games match but hub-centric hiring with few US-remote QA openings.",
+  "approach_role": "Quality Assurance Manager",
+  "company": "Riot Games",
+  "company_id": "C631",
+  "fit_score": 2,
+  "interests": "LA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Assurance%20Manager%20Riot%20Games",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://carbonrobotics.com/careers",
+  "career_url": "https://carbonrobotics.com/careers",
+  "company": "Carbon Robotics",
+  "company_id": "C062",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Hardware/robotics and field work may require experience beyond mobile/API QA.",
+  "hiring_difficulty": 4,
+  "interests": "Agricultural robotics, weeding",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "LaserWeeder and autonomy products; technical-team location must be checked.",
+  "research_status": "Initial research",
+  "role_families": "Robotics QA; integration; field validation",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

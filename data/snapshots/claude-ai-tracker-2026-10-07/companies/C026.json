@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.garmin.com/",
+  "career_url": "https://careers.garmin.com/",
+  "company": "Garmin",
+  "company_id": "C026",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Mobile skills help; embedded/electrical experience and location may be gaps.",
+  "hiring_difficulty": 4,
+  "interests": "Shooting instrumentation, outdoor electronics",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Check product team: Xero shooting products are only one part of Garmin.",
+  "research_status": "Initial research",
+  "role_families": "Device/mobile QA; embedded validation",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

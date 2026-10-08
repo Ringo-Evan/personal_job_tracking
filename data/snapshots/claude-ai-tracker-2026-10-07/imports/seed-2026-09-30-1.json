@@ -1,0 +1,2172 @@
+{
+  "added_by": "Claude (seed)",
+  "collection": "companies",
+  "created_at": "2026-09-30T18:00:00Z",
+  "finished_at": "2026-09-30T14:28:53.114Z",
+  "imported": 360,
+  "label": "wide-net seed part 1 of 3",
+  "rows": [
+    {
+      "company": "Katalon",
+      "interests": "Test automation platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "LambdaTest",
+      "interests": "Cloud cross-browser/device testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Perfecto (Perforce)",
+      "interests": "Mobile/web testing cloud",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Perforce",
+      "interests": "Dev tools; Perfecto, BlazeMeter",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Keysight (Eggplant)",
+      "interests": "Model-based test automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Postman",
+      "interests": "API platform you already use",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Cypress.io",
+      "interests": "E2E testing framework company",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Microsoft (Playwright / Azure DevOps)",
+      "interests": "Owns Playwright, Azure DevOps, .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "GitLab",
+      "interests": "DevSecOps platform you run daily; all-remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "JetBrains",
+      "interests": "IDEs, Rider for .NET; TeamCity",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Qase",
+      "interests": "Test management SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "TestRail (Idera)",
+      "interests": "Test case management you use",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Xray (Idera)",
+      "interests": "Jira test management",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Idera",
+      "interests": "Parent of TestRail, Xray",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Rainforest QA",
+      "interests": "QA-as-a-service",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "QA Wolf",
+      "interests": "Automated QA service; hires QA engineers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Global App Testing",
+      "interests": "Crowdtesting",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Applause",
+      "interests": "Crowdtesting; remote testers and managers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Functionize",
+      "interests": "AI test automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Testim (Tricentis)",
+      "interests": "AI test automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Kobiton",
+      "interests": "Mobile device testing cloud",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "HeadSpin",
+      "interests": "Mobile performance testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Sentry",
+      "interests": "Error monitoring",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Honeycomb",
+      "interests": "Observability",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Grafana Labs",
+      "interests": "Observability; remote-first; k6 load testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "New Relic",
+      "interests": "Observability",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Dynatrace",
+      "interests": "Observability",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "PagerDuty",
+      "interests": "Incident response",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "LaunchDarkly",
+      "interests": "Feature flags",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "CircleCI",
+      "interests": "CI/CD",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Harness",
+      "interests": "CI/CD and testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "JFrog",
+      "interests": "Artifact management",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "HashiCorp (IBM)",
+      "interests": "Terraform maker",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Pulumi",
+      "interests": "Infra as code",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "env0",
+      "interests": "Terraform automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Spacelift",
+      "interests": "IaC orchestration",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Octopus Deploy",
+      "interests": ".NET-heavy deployment tooling",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Progress Software",
+      "interests": "Telerik (.NET UI), Test Studio",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Syncfusion",
+      "interests": ".NET components",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Devart",
+      "interests": ".NET/database tools",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Redgate",
+      "interests": "SQL/database devops",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Checkmarx",
+      "interests": "AppSec testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Snyk",
+      "interests": "Security testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Veracode",
+      "interests": "AppSec testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Mend.io",
+      "interests": "Dependency security",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Sonar (SonarSource)",
+      "interests": "Code quality",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Qodo",
+      "interests": "AI code/test generation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Diffblue",
+      "interests": "AI unit test generation for Java",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Test tooling"
+    },
+    {
+      "company": "Honeywell",
+      "interests": "Scanners, warehouse automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Motive",
+      "interests": "Fleet IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Tive",
+      "interests": "Shipment trackers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Wiliot",
+      "interests": "Battery-free Bluetooth tags",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Avery Dennison Smartrac",
+      "interests": "RFID inlays; atma.io platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Checkpoint Systems",
+      "interests": "Retail RFID",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "SML RFID",
+      "interests": "Retail RFID",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Mojix",
+      "interests": "RFID software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Terso Solutions",
+      "interests": "RFID cabinets for healthcare",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Kontakt.io",
+      "interests": "BLE location for hospitals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "CenTrak",
+      "interests": "Healthcare RTLS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Midmark RTLS",
+      "interests": "Healthcare RTLS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Securitas Healthcare",
+      "interests": "RTLS/asset tracking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Sewio",
+      "interests": "UWB RTLS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Pozyx",
+      "interests": "UWB positioning",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Inpixon",
+      "interests": "Indoor positioning",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Quuppa",
+      "interests": "BLE/AoA positioning",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Estimote",
+      "interests": "BLE beacons",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Tile (Life360)",
+      "interests": "Bluetooth trackers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Life360",
+      "interests": "Location family app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Hoopo",
+      "interests": "GPS asset tracking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Geotab",
+      "interests": "Telematics; large .NET shop",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Verizon Connect",
+      "interests": "Fleet telematics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Trimble",
+      "interests": "Positioning, ag + construction tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Hexagon",
+      "interests": "Sensors/positioning software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Cognex",
+      "interests": "Machine vision, logistics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Zebra Aurora (machine vision)",
+      "interests": "Vision - see Zebra",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Locus Robotics",
+      "interests": "Warehouse robots; Wilmington MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Berkshire Grey",
+      "interests": "Warehouse robotics; MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Symbotic",
+      "interests": "Warehouse automation; MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "6 River Systems (Ocado)",
+      "interests": "Warehouse robots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Vecna Robotics",
+      "interests": "Autonomous forklifts; MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Amazon Robotics",
+      "interests": "North Reading MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Parcel Pending (Quadient)",
+      "interests": "Package lockers - direct competitor overlap",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Quadient",
+      "interests": "Package lockers, mail tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Luxer One",
+      "interests": "Package lockers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Package Concierge",
+      "interests": "Package lockers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Amazon Hub",
+      "interests": "Lockers/Counter",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Smiota",
+      "interests": "Smart lockers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Cleveron",
+      "interests": "Parcel robots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "ShipBob",
+      "interests": "Fulfillment tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Flexport",
+      "interests": "Freight tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "project44",
+      "interests": "Supply chain visibility",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "FourKites",
+      "interests": "Supply chain visibility",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Descartes Systems",
+      "interests": "Logistics software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Manhattan Associates",
+      "interests": "Warehouse management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Blue Yonder",
+      "interests": "Supply chain software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Körber Supply Chain",
+      "interests": "WMS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Pitney Bowes",
+      "interests": "Shipping/lockers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Stord",
+      "interests": "Fulfillment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Shippo",
+      "interests": "Shipping API",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "EasyPost",
+      "interests": "Shipping API",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Bringg",
+      "interests": "Delivery orchestration",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Onfleet",
+      "interests": "Last-mile software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Collins Aerospace (ARINC)",
+      "interests": "Airport/bag systems",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Brock Solutions",
+      "interests": "Airport baggage control software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Vanderlande",
+      "interests": "Baggage handling systems",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "BagTag",
+      "interests": "Electronic bag tags - your airline bag-tag work",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "IoT / location tech"
+    },
+    {
+      "company": "Dexcom",
+      "interests": "CGM devices + apps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Abbott (Diabetes Care)",
+      "interests": "FreeStyle Libre devices/software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Tandem Diabetes Care",
+      "interests": "Insulin pumps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Medtronic",
+      "interests": "Devices; connected care",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Boston Scientific",
+      "interests": "Devices; Marlborough MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Philips (Bedford MA)",
+      "interests": "Patient monitoring software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "GE HealthCare",
+      "interests": "Imaging/monitoring software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Siemens Healthineers",
+      "interests": "Imaging software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Stryker",
+      "interests": "Devices + connected care",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Zoll Medical",
+      "interests": "Defibrillators; Chelmsford MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Masimo",
+      "interests": "Monitoring devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "iRhythm Technologies",
+      "interests": "Cardiac wearables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Butterfly Network",
+      "interests": "Handheld ultrasound; MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Hologic",
+      "interests": "Imaging; Marlborough MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Werfen",
+      "interests": "Diagnostics; Bedford MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Thermo Fisher Scientific",
+      "interests": "Instruments/software; Waltham MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Waters Corporation",
+      "interests": "Lab instruments; Milford MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Becton Dickinson",
+      "interests": "Infusion/dispensing systems",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Baxter",
+      "interests": "Infusion pumps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "ICU Medical",
+      "interests": "Infusion pumps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Omnicell",
+      "interests": "Pharmacy automation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Epic Systems",
+      "interests": "EHR; on-site WI (likely no)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Oracle Health (Cerner)",
+      "interests": "EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "MEDITECH",
+      "interests": "EHR; Westwood MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Nuance (Microsoft)",
+      "interests": "Clinical documentation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Allscripts / Veradigm",
+      "interests": "Health IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "NextGen Healthcare",
+      "interests": "EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "eClinicalWorks",
+      "interests": "EHR; Westborough MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "WellSky",
+      "interests": "Human services + health software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Netsmart",
+      "interests": "Behavioral health EHR (addiction treatment clients)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Qualifacts",
+      "interests": "Behavioral health EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Kipu Health",
+      "interests": "Addiction treatment EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Lightning Step",
+      "interests": "Addiction treatment EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Valant",
+      "interests": "Behavioral health EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Owlet",
+      "interests": "Baby monitor wearables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Oura",
+      "interests": "Wearable ring",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Whoop",
+      "interests": "Wearable; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Hinge Health",
+      "interests": "Digital MSK care; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Sword Health",
+      "interests": "Digital physical therapy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Omada Health",
+      "interests": "Chronic care digital health",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Teladoc Health",
+      "interests": "Telehealth",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Amwell",
+      "interests": "Telehealth; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Included Health",
+      "interests": "Virtual care",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Talkspace",
+      "interests": "Virtual therapy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Headspace",
+      "interests": "Mental health app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Spring Health",
+      "interests": "Mental health benefits",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Lyra Health",
+      "interests": "Mental health benefits",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Cerebral",
+      "interests": "Telepsychiatry",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Brightline",
+      "interests": "Pediatric behavioral health",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Eleanor Health",
+      "interests": "Addiction + mental health care",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Pelago",
+      "interests": "Substance use management app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Monument",
+      "interests": "Alcohol use treatment online",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Ria Health",
+      "interests": "Alcohol treatment telehealth",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Quit Genius (Pelago)",
+      "interests": "Quit smoking/addiction",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Affect Therapeutics",
+      "interests": "Stimulant addiction digital therapeutics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "DynamiCare Health",
+      "interests": "Addiction contingency management app; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Sober Grid",
+      "interests": "Recovery social app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Tempest (Monument)",
+      "interests": "Alcohol recovery",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Oar Health",
+      "interests": "Alcohol treatment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Bamboo Health",
+      "interests": "Controlled-substance monitoring (PMP)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Appriss Health",
+      "interests": "PDMP software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Kareo / Tebra",
+      "interests": "Practice management",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Greenway Health",
+      "interests": "EHR",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Zus Health",
+      "interests": "Health data platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Redox",
+      "interests": "Health integration APIs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Health Gorilla",
+      "interests": "Health data exchange",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Particle Health",
+      "interests": "Health data APIs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "1upHealth",
+      "interests": "FHIR platform; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Datavant",
+      "interests": "Health data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Flatiron Health",
+      "interests": "Oncology software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Benchling",
+      "interests": "Life sciences R&D software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Dotmatics",
+      "interests": "Science software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "MasterControl",
+      "interests": "Quality/compliance software for FDA companies",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Greenlight Guru",
+      "interests": "Medical device QMS - your FDA background",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Ketryx",
+      "interests": "Compliance for medical device software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Sparta Systems (Honeywell)",
+      "interests": "Quality management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "IQVIA",
+      "interests": "Life sciences tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Medidata (Dassault)",
+      "interests": "Clinical trial software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Clario",
+      "interests": "Clinical trial tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Signant Health",
+      "interests": "Clinical trial tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Castor",
+      "interests": "Clinical trial platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Science 37",
+      "interests": "Decentralized trials",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Philips Respironics",
+      "interests": "Sleep/respiratory devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "ResMed",
+      "interests": "Connected sleep devices; strong device-cloud testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Inogen",
+      "interests": "Oxygen devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Mobius Bionics",
+      "interests": "Prosthetics (DEKA spinout)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Nuvectra",
+      "interests": "Neurostimulation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Neuronetics",
+      "interests": "TMS devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Axonics",
+      "interests": "Implantables",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Beta Bionics",
+      "interests": "Bionic pancreas",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Sequel Med Tech",
+      "interests": "Insulin pump",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Medtrum",
+      "interests": "Insulin devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Embecta",
+      "interests": "Diabetes devices",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Regulated healthtech"
+    },
+    {
+      "company": "Covetrus",
+      "interests": "Animal health tech; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Maine Medical / MaineHealth",
+      "interests": "Health system IT; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Central Maine Healthcare",
+      "interests": "Health IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Bath Iron Works (General Dynamics)",
+      "interests": "Shipbuilding; test/IT roles",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Hannaford",
+      "interests": "Grocery; Scarborough ME IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Garrand",
+      "interests": "Portland ME agency",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Tilson",
+      "interests": "Telecom/infra; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Certify (Emburse)",
+      "interests": "Expense software; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Emburse",
+      "interests": "Expense software; Portland ME roots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Kepware (PTC)",
+      "interests": "Industrial connectivity; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "PTC",
+      "interests": "Industrial software; Boston; owns Kepware",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "CashStar (Blackhawk)",
+      "interests": "Gift card tech; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Blackhawk Network",
+      "interests": "Payments; CashStar",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Northeast Credit Union",
+      "interests": "NH/ME credit union IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Maine Credit Union League",
+      "interests": "Credit union services",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Camden National Bank",
+      "interests": "Camden ME bank IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "First National Bank (The First Bancorp)",
+      "interests": "Damariscotta ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Machias Savings Bank",
+      "interests": "Machias ME - near Columbia",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Bar Harbor Bank & Trust",
+      "interests": "Bar Harbor ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Maine Maritime Academy",
+      "interests": "Castine - IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "College of the Atlantic",
+      "interests": "Bar Harbor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "MDI Biological Laboratory",
+      "interests": "Bar Harbor research",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Eastern Maine Community College",
+      "interests": "Bangor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Husson University",
+      "interests": "Bangor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Cianbro",
+      "interests": "Pittsfield ME construction; tech/IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Sargent Corporation",
+      "interests": "Stillwater ME construction",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Maine Department of Administrative & Financial Services (OIT)",
+      "interests": "State IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "InforME (Tyler)",
+      "interests": "Maine state online services",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Maine Public",
+      "interests": "Public media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Fleetcor/Corpay",
+      "interests": "Fleet payments",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Intelligent Controls (Franklin Fueling)",
+      "interests": "Saco ME fuel monitoring IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Texas Instruments South Portland",
+      "interests": "Semis fab",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Fairchild/ON Semi South Portland",
+      "interests": "Semis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "MEMIC",
+      "interests": "Workers comp insurer; Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Anthem Maine",
+      "interests": "Insurance",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Martin's Point Health Care",
+      "interests": "Portland ME health plan",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Northeast Delta Dental",
+      "interests": "Concord NH",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Dartmouth Health",
+      "interests": "Lebanon NH health IT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Hypertherm",
+      "interests": "Hanover NH; employee-owned",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Oracle (Manchester NH)",
+      "interests": "NH cloud",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Fidelity Investments (Merrimack NH)",
+      "interests": "Large NH tech site",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "BAE Systems (Nashua NH)",
+      "interests": "Defense electronics test",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Autodesk Manchester",
+      "interests": "NH software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Allegro MicroSystems",
+      "interests": "Manchester NH semis",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Velcro",
+      "interests": "Manchester NH",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Timberland (VF)",
+      "interests": "Stratham NH",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Lindt USA",
+      "interests": "Stratham NH",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Sprague Energy",
+      "interests": "Portsmouth NH",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Bottomline Technologies",
+      "interests": "Portsmouth NH fintech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Newforma",
+      "interests": "Manchester NH AEC software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "SilverTech",
+      "interests": "Manchester NH digital agency",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Kaseya (Datto)",
+      "interests": "IT management",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Wayfair",
+      "interests": "Boston e-commerce",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "HubSpot",
+      "interests": "Cambridge MA; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Toast",
+      "interests": "Boston restaurant tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "DraftKings",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Klaviyo",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Rapid7",
+      "interests": "Boston security",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Akamai",
+      "interests": "Cambridge",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Carbonite (OpenText)",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Buildium (RealPage)",
+      "interests": "Boston property software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Care.com",
+      "interests": "Waltham",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "EverQuote",
+      "interests": "Cambridge",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Cengage",
+      "interests": "Boston edtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Pegasystems",
+      "interests": "Cambridge; low-code",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Brightcove",
+      "interests": "Boston video",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Mimecast",
+      "interests": "Lexington",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Jobcase",
+      "interests": "Cambridge",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Vistaprint (Cimpress)",
+      "interests": "Waltham",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "iRobot",
+      "interests": "Bedford MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Formlabs",
+      "interests": "Somerville 3D printing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Desktop Metal",
+      "interests": "Burlington",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "MathWorks",
+      "interests": "Natick; big QA org",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Bose",
+      "interests": "Framingham",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Analog Devices",
+      "interests": "Wilmington MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Keurig Dr Pepper (Burlington)",
+      "interests": "IoT brewers",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "SimpliSafe",
+      "interests": "Boston home security IoT; strong QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Arlo",
+      "interests": "Home security IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Ring (Amazon)",
+      "interests": "Home security IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "Rue La La",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Maine & New England"
+    },
+    {
+      "company": "CGI",
+      "interests": "Government IT; many remote QA roles",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Maximus",
+      "interests": "Government services tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Conduent",
+      "interests": "Government/benefits tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Deloitte Government",
+      "interests": "Consulting QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Accenture Federal",
+      "interests": "Federal QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Booz Allen Hamilton",
+      "interests": "Federal tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Leidos",
+      "interests": "Federal tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "SAIC",
+      "interests": "Federal tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Nava PBC",
+      "interests": "Public benefit gov tech; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Ad Hoc",
+      "interests": "Gov digital services; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Coforma",
+      "interests": "Gov digital; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Bloom Works",
+      "interests": "Gov digital; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Skylight",
+      "interests": "Gov digital; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Truss",
+      "interests": "Gov digital; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Oddball",
+      "interests": "VA digital; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Agile Six",
+      "interests": "VA digital; remote; employee-owned",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Aquia",
+      "interests": "Federal cloud security",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Kyndryl",
+      "interests": "Infra services",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "18F / TTS (GSA)",
+      "interests": "Federal digital service (hiring varies)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "US Digital Response",
+      "interests": "Civic tech nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Civilla",
+      "interests": "Human-centered gov redesign",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Benefits Data Trust",
+      "interests": "Benefits access nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Granicus",
+      "interests": "Gov comms software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "CivicPlus",
+      "interests": "Local gov software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "OpenGov",
+      "interests": "Gov budgeting software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Accela",
+      "interests": "Gov permitting software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Mark43",
+      "interests": "Public safety software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Motorola Solutions",
+      "interests": "Public safety tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Hexagon Safety",
+      "interests": "Dispatch software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "NIC (Tyler)",
+      "interests": "State portals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Edmunds GovTech",
+      "interests": "Municipal software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Harris Computer",
+      "interests": "Many vertical .NET products",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Constellation Software",
+      "interests": "Hundreds of vertical software cos (.NET heavy)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Jonas Software",
+      "interests": "Constellation group",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Volaris Group",
+      "interests": "Constellation group",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "N. Harris Computer",
+      "interests": "Constellation group",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Vela Software",
+      "interests": "Constellation group",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Perseus Group",
+      "interests": "Constellation group",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Sapiens",
+      "interests": "Insurance software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Guidewire",
+      "interests": "Insurance core systems; large QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Duck Creek",
+      "interests": "Insurance SaaS; Boston; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Majesco",
+      "interests": "Insurance software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Vertafore",
+      "interests": "Insurance agency software; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Applied Systems",
+      "interests": "Insurance agency software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Zywave",
+      "interests": "Insurance software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Liberty Mutual",
+      "interests": "Boston insurer; big tech org",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Hanover Insurance",
+      "interests": "Worcester MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Travelers",
+      "interests": "Hartford; tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "The Hartford",
+      "interests": "Insurance tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "MassMutual",
+      "interests": "Springfield MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "John Hancock/Manulife",
+      "interests": "Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Progressive",
+      "interests": "Remote-friendly insurer tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "USAA",
+      "interests": "Military-member insurer",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "State Farm",
+      "interests": "Insurance tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Nationwide",
+      "interests": "Insurance tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Lemonade",
+      "interests": "Insurtech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Paylocity",
+      "interests": "HR/payroll SaaS; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Paycom",
+      "interests": "Payroll SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Paychex",
+      "interests": "Payroll",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "ADP",
+      "interests": "Payroll",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Gusto",
+      "interests": "Payroll SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Rippling",
+      "interests": "HR SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "BambooHR",
+      "interests": "HR SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Workday",
+      "interests": "HR/finance SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Intuit",
+      "interests": "Tax/finance software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Jack Henry",
+      "interests": "Bank core systems; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Fiserv",
+      "interests": "Fintech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "FIS",
+      "interests": "Fintech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Q2 Holdings",
+      "interests": "Digital banking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Alkami",
+      "interests": "Digital banking; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "nCino",
+      "interests": "Bank software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Temenos",
+      "interests": "Bank software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Ellie Mae/ICE Mortgage Tech",
+      "interests": "Mortgage software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Black Knight (ICE)",
+      "interests": "Mortgage software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Blend",
+      "interests": "Mortgage software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Bill.com",
+      "interests": "AP/AR SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Avalara",
+      "interests": "Tax compliance SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Vertex Inc",
+      "interests": "Tax software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Sage",
+      "interests": "Accounting software; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Xero",
+      "interests": "Accounting SaaS",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    },
+    {
+      "company": "Deltek",
+      "interests": "Gov contractor ERP",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Enterprise & govtech"
+    }
+  ],
+  "skipped_duplicates": 0,
+  "status": "done"
+}

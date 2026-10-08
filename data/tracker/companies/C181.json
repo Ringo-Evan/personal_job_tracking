@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Not core testing automation focused",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "CI/CD pipeline adjacent; public company stability; profitable",
+  "approach_role": "Engineering Manager",
+  "company": "JFrog",
+  "company_id": "C181",
+  "fit_score": 3,
+  "interests": "Artifact management",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20JFrog",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; QA Engineer; DevOps QA",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

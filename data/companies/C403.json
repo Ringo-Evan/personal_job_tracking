@@ -5,8 +5,8 @@
     "company": "Toast",
     "sector": "Maine & New England",
     "interests": "Boston restaurant tech",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.toasttab.com/",
+    "role_families": "SDET; QA/test engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Toast: 5k+ staff, Boston restaurant POS/payments. Hybrid model, but some roles posted Remote - USA, and Maine is eligible. Revenue $3.9B, up 42% YoY, $246M net loss; 550 cut in restructuring. Only verified opening is Senior Software Engineer, Release Engineering (Remote). Sources: https://careers.toasttab.com/frequently-asked-questions https://www.restaurantbusinessonline.com/technology/toast-lays-550-employees-restructuring https://www.cnbc.com/2024/02/15/toast-will-reduce-workforce-by-10percent-as-growth-slows.html",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Hybrid work model with in-person collaboration; some roles are posted as Remote, US (Remote - USA).",
+    "benefit_source": "https://www.restaurantbusinessonline.com/technology/toast-lays-550-employees-restructuring",
+    "research_as_of": "2026-10-06",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Toast sells restaurant POS and payments hardware/software, so hardware-adjacent, payments-regulated test automation is relevant, and remote-US roles are Maine-eligible. But only one release-engineering opening is verified and no QA roles, so fit is plausible, not strong.",
+    "ai_red_flags": "550 employees (~10%) laid off in restructuring; net loss despite 42% revenue growth; no verified QA openings.",
+    "ai_scored_at": "2026-10-06",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Toast",
+    "outreach_notes": "Your FDA-regulated V&V background and C#/.NET hardware-adjacent automation map well to testing Toast's POS devices, payments flows and release pipelines."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.toasttab.com/",
+    "research_notes": "Toast: 5k+ staff, Boston restaurant POS/payments. Hybrid model, but some roles posted Remote - USA, and Maine is eligible. Revenue $3.9B, up 42% YoY, $246M net loss; 550 cut in restructuring. Only verified opening is Senior Software Engineer, Release Engineering (Remote). Sources: https://careers.toasttab.com/frequently-asked-questions https://www.restaurantbusinessonline.com/technology/toast-lays-550-employees-restructuring https://www.cnbc.com/2024/02/15/toast-will-reduce-workforce-by-10percent-as-growth-slows.html",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-06",
+    "maine_remote": "yes: Hybrid work model with in-person collaboration; some roles are posted as Remote, US (Remote - USA).",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://www.restaurantbusinessonline.com/technology/toast-lays-550-employees-restructuring",
+    "fit_score": 3,
+    "ai_summary": "Toast sells restaurant POS and payments hardware/software, so hardware-adjacent, payments-regulated test automation is relevant, and remote-US roles are Maine-eligible. But only one release-engineering opening is verified and no QA roles, so fit is plausible, not strong.",
+    "role_families": "SDET; QA/test engineering; release engineering",
+    "ai_red_flags": "550 employees (~10%) laid off in restructuring; net loss despite 42% revenue growth; no verified QA openings.",
+    "ai_scored_at": "2026-10-06",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "outreach_notes": "Your FDA-regulated V&V background and C#/.NET hardware-adjacent automation map well to testing Toast's POS devices, payments flows and release pipelines.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Toast"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "toast",
     "board_url": "https://job-boards.greenhouse.io/toast",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://careers.toasttab.com/; token guessed from name; page mentions greenhouse; board name Toast",
+    "source": "https://careers.toasttab.com/",
+    "note": "token guessed from name; page mentions greenhouse; board name Toast",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.toasttab.com/",
+    "found": "greenhouse:toast (embedded in https://careers.toasttab.com/)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -158,6 +186,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -187,15 +216,68 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:31-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.toasttab.com/",
-    "found": "greenhouse:toast (embedded in https://careers.toasttab.com/)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

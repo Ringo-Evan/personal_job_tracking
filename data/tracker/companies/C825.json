@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retailer; no QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Online sword and armor retailer; hobby interest match only, a retail operation with no test engineering or quality roles.",
+  "approach_role": "Operations Manager",
+  "company": "Kult of Athena",
+  "company_id": "C825",
+  "fit_score": 1,
+  "interests": "Swords retailer",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Manager%20Kult%20of%20Athena",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "E-commerce/IT support",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

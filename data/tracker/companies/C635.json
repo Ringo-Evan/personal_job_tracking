@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "EU-centric hiring; US eligibility unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "CRPG studio behind Pathfinder; distributed workforce and fantasy-fiction fit, but no US entity confirmed.",
+  "approach_role": "QA Lead",
+  "company": "Owlcat Games",
+  "company_id": "C635",
+  "fit_score": 3,
+  "interests": "CRPGs (Pathfinder games)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Owlcat%20Games",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

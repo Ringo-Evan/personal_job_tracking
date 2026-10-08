@@ -5,8 +5,8 @@
     "company": "Stripe",
     "sector": "Remote-first software",
     "interests": "Payments",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://stripe.com/careers",
+    "role_families": "SDET; QA/Test Engineering; Release Engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 5,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Stripe: ~40% fully remote, Maine eligible; hybrid option requires 50% office days monthly. Layoffs of 300 (3.5%) in product/eng/ops, but hiring toward 10k, $1.9T payment volume, $6.5B secondary raise. Only listed QA-adjacent opening is SWE, Revenue & Financial Automation (US-Remote). Sources: https://stripe.com/careers https://jobsbyculture.com/blog/stripe-remote-work-policy-2026 https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Hybrid with a remote track: about 40% of staff are fully remote, office-assigned employees spend at least 50% of working days in their local office monthly.",
+    "benefit_source": "https://stripe.com/careers",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Stripe is a large payments platform with a remote track open to Maine. It fits interest in payments and remote senior QA/automation roles, but few QA-specific openings and a domain gap from medical devices.",
+    "ai_red_flags": "Only one listed opening is not QA-focused; recent layoffs in engineering; elite hiring bar. Payments domain gap.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "CTO",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Stripe",
+    "outreach_notes": "Stripe's payments platform and my 15 years of regulated test automation (FDA V&V, C#/.NET) align—I could bring quality rigor to revenue and financial automation."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://stripe.com/careers",
+    "research_notes": "Stripe: ~40% fully remote, Maine eligible; hybrid option requires 50% office days monthly. Layoffs of 300 (3.5%) in product/eng/ops, but hiring toward 10k, $1.9T payment volume, $6.5B secondary raise. Only listed QA-adjacent opening is SWE, Revenue & Financial Automation (US-Remote). Sources: https://stripe.com/careers https://jobsbyculture.com/blog/stripe-remote-work-policy-2026 https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Hybrid with a remote track: about 40% of staff are fully remote, office-assigned employees spend at least 50% of working days in their local office monthly.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://stripe.com/careers",
+    "fit_score": 3,
+    "ai_summary": "Stripe is a large payments platform with a remote track open to Maine. It fits interest in payments and remote senior QA/automation roles, but few QA-specific openings and a domain gap from medical devices.",
+    "role_families": "SDET; QA/Test Engineering; Release Engineering",
+    "ai_red_flags": "Only one listed opening is not QA-focused; recent layoffs in engineering; elite hiring bar. Payments domain gap.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 5,
+    "estimate_confidence": "Medium",
+    "approach_role": "CTO",
+    "outreach_notes": "Stripe's payments platform and my 15 years of regulated test automation (FDA V&V, C#/.NET) align—I could bring quality rigor to revenue and financial automation.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Stripe"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "stripe",
     "board_url": "https://job-boards.greenhouse.io/stripe",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://stripe.com/careers; token guessed from name; page mentions greenhouse; board name Stripe",
+    "source": "https://stripe.com/careers",
+    "note": "token guessed from name; page mentions greenhouse; board name Stripe",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://stripe.com/careers",
+    "found": "greenhouse:stripe (embedded in https://stripe.com/careers)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -71,7 +99,101 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C603",
+    "career_url": "https://stripe.com/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "stripe",
+      "board_url": "https://job-boards.greenhouse.io/stripe"
+    },
+    "remote_policy": {
+      "summary": "Hybrid with a remote track: about 40% of staff are fully remote, office-assigned employees spend at least 50% of working days in their local office monthly.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://jobsbyculture.com/blog/stripe-remote-work-policy-2026"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Stripe laid off 300 employees, roughly 3.5% of staff, mainly in product, engineering and operations.",
+          "date": null,
+          "url": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company said it is not slowing hiring and expects to reach about 10,000 employees, a 17% year-over-year increase.",
+          "date": null,
+          "url": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1"
+        },
+        {
+          "kind": "funding",
+          "summary": "Stripe executed a $6.5B secondary market raise to cover RSU taxes and give employees liquidity.",
+          "date": null,
+          "url": "https://newsletter.pragmaticengineer.com/p/stripe"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Stripe says businesses on its platform generated $1.9 trillion in payment volume in 2025.",
+          "date": null,
+          "url": "https://stripe.com/careers"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 3,
+      "rationale": "Stripe is a large payments platform with a remote track open to Maine. It fits interest in payments and remote senior QA/automation roles, but few QA-specific openings and a domain gap from medical devices.",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Release Engineering"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [
+      {
+        "title": "Software Engineer, Revenue and Financial Automation",
+        "location": "San Francisco, New York City, Seattle, Chicago, US-Remote",
+        "work_mode": "Remote",
+        "url": "https://stripe.com/jobs/search?gh_jid=8127182"
+      }
+    ],
+    "people": [
+      {
+        "name": "David Singleton",
+        "title": "CTO",
+        "source_url": "https://newsletter.pragmaticengineer.com/p/stripe"
+      }
+    ],
+    "approach_role": "CTO",
+    "outreach_angle": "Stripe's payments platform and my 15 years of regulated test automation (FDA V&V, C#/.NET) align—I could bring quality rigor to revenue and financial automation.",
+    "red_flags": "Only one listed opening is not QA-focused; recent layoffs in engineering; elite hiring bar. Payments domain gap.",
+    "confidence": "medium",
+    "sources": [
+      "https://stripe.com/careers",
+      "https://jobsbyculture.com/blog/stripe-remote-work-policy-2026",
+      "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1",
+      "https://newsletter.pragmaticengineer.com/p/stripe",
+      "https://job-boards.greenhouse.io/stripe",
+      "https://stripe.com/jobs/search?gh_jid=8127182"
+    ],
+    "notes": "Stripe: ~40% fully remote, Maine eligible; hybrid option requires 50% office days monthly. Layoffs of 300 (3.5%) in product/eng/ops, but hiring toward 10k, $1.9T payment volume, $6.5B secondary raise. Only listed QA-adjacent opening is SWE, Revenue & Financial Automation (US-Remote).",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +216,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:09-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://stripe.com/careers",
-    "found": "greenhouse:stripe (embedded in https://stripe.com/careers)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

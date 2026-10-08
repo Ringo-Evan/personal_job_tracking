@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "Managed testing services",
     "career_url": "https://testlio.com/careers/",
-    "role_families": "Test lead; QA manager; engagement lead",
+    "role_families": "Manual/crowdsourced QA testing; QA analyst; Test automation engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": 3,
-    "estimate_confidence": "Low",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Medium",
     "estimate_rationale": "Remote QA services firm; hires test leads/managers.",
-    "research_notes": "From general knowledge, not yet searched - verify. Remote-first networked testing company.",
+    "research_notes": "Fully distributed, no offices; every full-time role is region-tied and Maine sits in AMER, so remote-from-Maine is eligible. No stability signals on file (no funding, revenue or layoff data). QA board shows junior/freelance openings only; no named QA or engineering leader, just Founder Marko Kruustük. Sources: https://www.testlio.com/careers https://www.testlio.com/blog/distributed-by-design-work-from-region https://job-boards.greenhouse.io/testlio",
     "your_notes": null,
-    "research_status": "Initial research",
-    "maine_remote": "Likely remote",
+    "research_status": "Researched",
+    "maine_remote": "yes: Fully distributed, no daily offices; every full-time position is tied to a region (AMER, EMEA or APAC) and people work remotely from within that region, with Tallinn kept only as a gathering center.",
     "benefit_source": null,
-    "research_as_of": "2026-09-30",
-    "next_research_action": "Check careers",
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": "Delivery / engagement director",
-    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Delivery%20Testlio",
-    "outreach_notes": "QA leadership + remote."
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Testlio runs managed/crowdsourced testing services for apps, fully distributed with every role tied to a region and AMER including Maine. Its listed QA openings are junior or freelance gigs, not senior SDET or QA-leadership seats, so fit is plausible but",
+    "ai_red_flags": "Listed roles are 'future roles' and freelance Apple Vision Pro gigs, not senior full-time positions; likely contractor pay with little job security.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Founder",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Founder%20Testlio",
+    "outreach_notes": "Fifteen years of C#/.NET automation and FDA-regulated V&V could help Testlio's enterprise clients in regulated domains, and I can work remotely from Maine within your AMER region."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,26 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Fully distributed, no offices; every full-time role is region-tied and Maine sits in AMER, so remote-from-Maine is eligible. No stability signals on file (no funding, revenue or layoff data). QA board shows junior/freelance openings only; no named QA or engineering leader, just Founder Marko Kruustük. Sources: https://www.testlio.com/careers https://www.testlio.com/blog/distributed-by-design-work-from-region https://job-boards.greenhouse.io/testlio",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Fully distributed, no daily offices; every full-time position is tied to a region (AMER, EMEA or APAC) and people work remotely from within that region, with Tallinn kept only as a gathering center.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Testlio runs managed/crowdsourced testing services for apps, fully distributed with every role tied to a region and AMER including Maine. Its listed QA openings are junior or freelance gigs, not senior SDET or QA-leadership seats, so fit is plausible but",
+    "role_families": "Manual/crowdsourced QA testing; QA analyst; Test automation engineering",
+    "ai_red_flags": "Listed roles are 'future roles' and freelance Apple Vision Pro gigs, not senior full-time positions; likely contractor pay with little job security.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Medium",
+    "approach_role": "Founder",
+    "outreach_notes": "Fifteen years of C#/.NET automation and FDA-regulated V&V could help Testlio's enterprise clients in regulated domains, and I can work remotely from Maine within your AMER region.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Founder%20Testlio"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "testlio",
@@ -55,6 +74,7 @@
     "note": "Testlio",
     "job_count": null
   },
+  "discovery": null,
   "triage": null,
   "research": {
     "company_id": "C140",
@@ -137,6 +157,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -164,8 +185,55 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://company.wizards.com/en/careers",
+  "career_url": "https://company.wizards.com/en/careers",
+  "company": "Wizards of the Coast / Hasbro",
+  "company_id": "C006",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Strong interest match; competitive gaming employer and team-specific technical requirements.",
+  "hiring_difficulty": 4,
+  "interests": "D&D, fantasy, tabletop games",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Treat D&D Beyond and corporate business systems as distinct teams.",
+  "research_status": "Initial research",
+  "role_families": "D&D Beyond QA; automation; digital platforms",
+  "sector": "Games & stories",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

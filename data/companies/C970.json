@@ -6,7 +6,7 @@
     "sector": "Agriculture",
     "interests": "Feed",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA leadership; SDET; Manufacturing/quality systems engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: remote/hybrid exists in some corporate and field roles but is role- and leader-dependent, Maine eligibility unknown. No QA openings on file; no contacts listed. Stability signals mixed: huge profitable parent, yet WARN-listed layoffs and a South Whitehall plant strike. Fit rests on regulated-V&V transferability, not software QA demand. Sources: https://builtin.com/company/nestle-purina-north-america/faq/work-life-balance-wellbeing https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/ https://layoffdata.com/company/nestle/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "varies: Remote/hybrid work is available in some corporate and field roles; eligibility is role- and leader-dependent, with some teams expected on-site.",
+    "benefit_source": "https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Medium",
+    "size_estimate": "Unknown",
+    "ai_summary": "Nestlé Purina is a global pet-food and animal-feed manufacturer; the candidate's interest in agriculture/feed makes it topical, but quality roles there are food-safety and plant QA rather than software SDET work, and openings and Maine-eligible remote are unconfirmed.",
+    "ai_red_flags": "No QA openings listed; recent Nestlé layoffs (11,030 across WARN notices) and a Purina plant strike; remote eligibility varies by leader.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance (or Head of IT Quality Engineering)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28or%20Head%20of%20IT%20Quality%20Engineering%29%20Purina%20%28Nestle%29",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps to Purina's validated, audited quality systems; you could bring automated test tooling to plant and corporate quality workflows."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Verified: remote/hybrid exists in some corporate and field roles but is role- and leader-dependent, Maine eligibility unknown. No QA openings on file; no contacts listed. Stability signals mixed: huge profitable parent, yet WARN-listed layoffs and a South Whitehall plant strike. Fit rests on regulated-V&V transferability, not software QA demand. Sources: https://builtin.com/company/nestle-purina-north-america/faq/work-life-balance-wellbeing https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/ https://layoffdata.com/company/nestle/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "varies: Remote/hybrid work is available in some corporate and field roles; eligibility is role- and leader-dependent, with some teams expected on-site.",
+    "remote_likelihood": "Medium",
+    "stability_score": 3,
+    "benefit_source": "https://www.mcall.com/2025/03/03/workers-at-lehigh-valleys-nestle-purina-plant-that-makes-alpo-and-other-pet-foods-go-on-strike/",
+    "fit_score": 2,
+    "ai_summary": "Nestlé Purina is a global pet-food and animal-feed manufacturer; the candidate's interest in agriculture/feed makes it topical, but quality roles there are food-safety and plant QA rather than software SDET work, and openings and Maine-eligible remote are unconfirmed.",
+    "role_families": "QA leadership; SDET; Manufacturing/quality systems engineering",
+    "ai_red_flags": "No QA openings listed; recent Nestlé layoffs (11,030 across WARN notices) and a Purina plant strike; remote eligibility varies by leader.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Assurance (or Head of IT Quality Engineering)",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps to Purina's validated, audited quality systems; you could bring automated test tooling to plant and corporate quality workflows.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28or%20Head%20of%20IT%20Quality%20Engineering%29%20Purina%20%28Nestle%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -127,6 +154,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -155,15 +183,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

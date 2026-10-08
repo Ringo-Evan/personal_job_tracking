@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Merged entity; duplicates Draft2Digital.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Indie ebook publisher absorbed into Draft2Digital in 2022; effectively no standalone employer or hiring pipeline remains today.",
+  "approach_role": "Unknown, now under Draft2Digital",
+  "company": "Smashwords",
+  "company_id": "C765",
+  "fit_score": 1,
+  "interests": "Indie publishing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Unknown%2C%20now%20under%20Draft2Digital%20Smashwords",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Support Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

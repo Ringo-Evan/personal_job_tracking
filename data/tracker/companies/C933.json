@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Ag-tech funding risk; remote policy unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Ag platform with ecommerce and data; agriculture interest fits, remote QA roles possible, but ag-tech stability moderate.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Farmers Business Network",
+  "company_id": "C933",
+  "fit_score": 4,
+  "interests": "Ag platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Farmers%20Business%20Network",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

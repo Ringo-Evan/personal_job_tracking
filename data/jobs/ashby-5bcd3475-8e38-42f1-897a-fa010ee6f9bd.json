@@ -23,21 +23,21 @@
   "track": "SDE pivot",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
-  "missed_runs": 0,
-  "closed_at": null,
+  "last_seen": "2026-10-07",
+  "missed_runs": 2,
+  "closed_at": "2026-10-08",
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "Influencer marketing automation with no-code tools and Python/JS; not QA/SDET. Lacks test automation, C#/.NET; domain pivot to AI marketing ops.",
+    "why": "Marketing/influencer ops automation (Zapier, n8n, CRM, contracts), not software testing. Coding skills transfer but no QA/SDET scope; strongly away from testing and regulated-domain fit.",
     "skill_match": 2,
-    "seniority": "unknown",
+    "seniority": "match",
     "maine_eligible": "yes",
     "track": "Exploratory",
-    "notes": "Marketing ops automation, not QA. Requires Zapier/Make/n8n, Python/JS, SQL; no test automation. Confirm US-remote includes Maine.",
+    "notes": "Global remote, so Maine OK, but role is martech workflow automation; no test engineering, automation framework, or regulated-domain work.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "8741b1484ef5b813",
+    "text_hash": "97cad08cb3369fc8",
     "text_source": "board"
   }
 }

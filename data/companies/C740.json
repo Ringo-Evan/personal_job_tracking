@@ -5,8 +5,8 @@
     "company": "Hasbro (corporate)",
     "sector": "Games & stories",
     "interests": "Pawtucket RI",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://jobs.hasbro.com/en-us?locale=en_US",
+    "role_families": "QA engineering; SDET / test automation; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hasbro is a large established games and entertainment company with 122 open roles, but the board shows no QA openings and no verified remote policy; the Remote Policy Index reports insufficient evidence and zero measured remote roles. WARN records list five layoffs totaling 520 workers. Sources: https://jobs.hasbro.com/en-us?locale=en_US https://wfh.team/remote-policy-tracker/hasbro https://layoffdata.com/company/hasbro/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote Policy Index gives 'Not enough evidence'; no reviewed primary-source policy change is published and remote roles measured at 0.",
+    "benefit_source": "https://jobs.hasbro.com/view-all-jobs",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Hasbro makes toys, games and entertainment; strong match to the candidate's games, board-game and fantasy interests, but headquarters is in Rhode Island, remote-from-Maine eligibility is unproven, and no QA openings are posted.",
+    "ai_red_flags": "No evidence of remote roles open to Maine; 5 WARN layoffs covering 520 workers; zero QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Hasbro%20%28corporate%29",
+    "outreach_notes": "I'm a senior test engineer with 15 years in C#/.NET automation, FDA-regulated V&V and hardware-adjacent testing, and a lifelong tabletop and games player eager to bring rigor to Hasbro's product quality."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://jobs.hasbro.com/en-us?locale=en_US",
+    "research_notes": "Hasbro is a large established games and entertainment company with 122 open roles, but the board shows no QA openings and no verified remote policy; the Remote Policy Index reports insufficient evidence and zero measured remote roles. WARN records list five layoffs totaling 520 workers. Sources: https://jobs.hasbro.com/en-us?locale=en_US https://wfh.team/remote-policy-tracker/hasbro https://layoffdata.com/company/hasbro/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Remote Policy Index gives 'Not enough evidence'; no reviewed primary-source policy change is published and remote roles measured at 0.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://jobs.hasbro.com/view-all-jobs",
+    "fit_score": 2,
+    "ai_summary": "Hasbro makes toys, games and entertainment; strong match to the candidate's games, board-game and fantasy interests, but headquarters is in Rhode Island, remote-from-Maine eligibility is unproven, and no QA openings are posted.",
+    "role_families": "QA engineering; SDET / test automation; release engineering",
+    "ai_red_flags": "No evidence of remote roles open to Maine; 5 WARN layoffs covering 520 workers; zero QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "I'm a senior test engineer with 15 years in C#/.NET automation, FDA-regulated V&V and hardware-adjacent testing, and a lifelong tabletop and games player eager to bring rigor to Hasbro's product quality.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Hasbro%20%28corporate%29"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "hasbro",
     "board_url": "https://job-boards.greenhouse.io/hasbro",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Hasbro",
+    "source": "https://jobs.hasbro.com/en-us?locale=en_US",
+    "note": "Hasbro",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:hasbro (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,74 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C740",
+    "career_url": "https://jobs.hasbro.com/en-us?locale=en_US",
+    "ats": {
+      "type": "greenhouse",
+      "token": "hasbro",
+      "board_url": "https://job-boards.greenhouse.io/hasbro"
+    },
+    "remote_policy": {
+      "summary": "Remote Policy Index gives 'Not enough evidence'; no reviewed primary-source policy change is published and remote roles measured at 0.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://wfh.team/remote-policy-tracker/hasbro"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "WARN database lists 5 layoff notices for Hasbro affecting 520 workers.",
+          "date": null,
+          "url": "https://layoffdata.com/company/hasbro/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Hasbro careers site lists 122 open jobs.",
+          "date": null,
+          "url": "https://jobs.hasbro.com/view-all-jobs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Hasbro makes toys, games and entertainment; strong match to the candidate's games, board-game and fantasy interests, but headquarters is in Rhode Island, remote-from-Maine eligibility is unproven, and no QA openings are posted.",
+      "role_families": [
+        "QA engineering",
+        "SDET / test automation",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "I'm a senior test engineer with 15 years in C#/.NET automation, FDA-regulated V&V and hardware-adjacent testing, and a lifelong tabletop and games player eager to bring rigor to Hasbro's product quality.",
+    "red_flags": "No evidence of remote roles open to Maine; 5 WARN layoffs covering 520 workers; zero QA openings listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.hasbro.com/en-us?locale=en_US",
+      "https://wfh.team/remote-policy-tracker/hasbro",
+      "https://layoffdata.com/company/hasbro/",
+      "https://jobs.hasbro.com/view-all-jobs"
+    ],
+    "notes": "Hasbro is a large established games and entertainment company with 122 open roles, but the board shows no QA openings and no verified remote policy; the Remote Policy Index reports insufficient evidence and zero measured remote roles. WARN records list five layoffs totaling 520 workers.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +189,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:19-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:hasbro (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -5,8 +5,8 @@
     "company": "Priceline",
     "sector": "Travel",
     "interests": "Travel",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://priceline.wd1.myworkdayjobs.com/Priceline",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Workday ATS; hybrid two days in office, three remote, explicitly not fully remote and Maine-ineligible; layoffs and cost cuts reported; zero QA openings and no named quality leaders found. Travel sector matches candidate interest, but location and hiring signals block fit. Sources: https://priceline.wd1.myworkdayjobs.com/Priceline https://builtin.com/company/priceline/faq/work-life-balance-wellbeing",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Hybrid: two days per week in office with three remote days; explicitly not fully remote, and work tightens during peak travel seasons.",
+    "benefit_source": "https://builtin.com/company/priceline/faq/work-life-balance-wellbeing",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 1,
+    "stability_score": 3,
+    "remote_likelihood": "Low",
+    "size_estimate": "Unknown",
+    "ai_summary": "Priceline is a major online travel agency, a sector the candidate likes, but its hybrid policy requires two in-office days weekly and bars Maine residents, and it lists no QA roles while cutting costs and thinning teams.",
+    "ai_red_flags": "Not remote; Maine residents ineligible. Recent layoffs concentrate work on remaining staff, with no QA openings posted.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Priceline",
+    "outreach_notes": "Your 15 years of regulated, hardware-adjacent test automation in C#/.NET could serve a large travel platform's booking-critical QE work, but only if Priceline opens remote-from-Maine roles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://priceline.wd1.myworkdayjobs.com/Priceline",
+    "research_notes": "Verified: Workday ATS; hybrid two days in office, three remote, explicitly not fully remote and Maine-ineligible; layoffs and cost cuts reported; zero QA openings and no named quality leaders found. Travel sector matches candidate interest, but location and hiring signals block fit. Sources: https://priceline.wd1.myworkdayjobs.com/Priceline https://builtin.com/company/priceline/faq/work-life-balance-wellbeing",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Hybrid: two days per week in office with three remote days; explicitly not fully remote, and work tightens during peak travel seasons.",
+    "remote_likelihood": "Low",
+    "stability_score": 3,
+    "benefit_source": "https://builtin.com/company/priceline/faq/work-life-balance-wellbeing",
+    "fit_score": 1,
+    "ai_summary": "Priceline is a major online travel agency, a sector the candidate likes, but its hybrid policy requires two in-office days weekly and bars Maine residents, and it lists no QA roles while cutting costs and thinning teams.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "Not remote; Maine residents ineligible. Recent layoffs concentrate work on remaining staff, with no QA openings posted.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your 15 years of regulated, hardware-adjacent test automation in C#/.NET could serve a large travel platform's booking-critical QE work, but only if Priceline opens remote-from-Maine roles.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Priceline"
+  },
   "ats": {
     "type": "workday",
     "token": "priceline|1|Priceline",
     "board_url": "https://priceline.wd1.myworkdayjobs.com/Priceline",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 53
+    "source": "https://priceline.wd1.myworkdayjobs.com/Priceline",
+    "note": "",
+    "job_count": 54
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:priceline|1|Priceline (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -130,6 +158,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,15 +188,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:26-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:priceline|1|Priceline (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

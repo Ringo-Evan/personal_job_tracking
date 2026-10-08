@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Unpaid volunteer roles only.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Volunteer-run fanfiction archive nonprofit; strong writing-community affinity, yet all roles are unpaid with no professional QA openings.",
+  "approach_role": "OTW Volunteer Coordinator",
+  "company": "Archive of Our Own (OTW)",
+  "company_id": "C760",
+  "fit_score": 1,
+  "interests": "Fanfic nonprofit (volunteer)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=OTW%20Volunteer%20Coordinator%20Archive%20of%20Our%20Own%20%28OTW%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Volunteer QA Tester; Volunteer Systems Contributor",
+  "sector": "Books, history & media",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Nonprofit, limited QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Teaches coding in prisons; may have platform tech, some QA roles possible.",
+  "approach_role": "Engineering Manager",
+  "company": "The Last Mile",
+  "company_id": "C1080",
+  "fit_score": 3,
+  "interests": "Coding in prisons",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20The%20Last%20Mile",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Criminal justice reform",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Books, history & media",
     "interests": "Library self-service",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "ai_summary": "Library self-service software/hardware; C#/.NET and hardware-adjacent QA fit, but remote-from-Maine policy unclear.",
+    "ai_red_flags": "Unknown remote policy",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Envisionware",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET / test automation; QA engineering (kiosk/hardware-adjacent); release engineering",
+    "approach_role": "Director of Quality Assurance (no named leader in facts)",
+    "ai_summary": "EnvisionWare builds library self-service software and kiosks (self-checkout, PC/print management), a books-and-history-adjacent, hardware-adjacent .NET shop, plausibly matching the candidate's C#/kiosk testing background — but remote-from-Maine and senior QA openings are unverified.",
+    "ai_red_flags": "No verified remote policy or QA openings; roles may sit at Georgia HQ, so Maine remote is unconfirmed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28no%20named%20leader%20in%20facts%29%20Envisionware",
+    "career_url": "https://volarisgroup.wd3.myworkdayjobs.com/EnvisionWare",
+    "research_notes": "Volaris Group (Constellation Software) subsidiary; Workday board at volarisgroup|3|EnvisionWare. No verified remote policy, size, stability signals, QA openings, or named contacts. Domain: library self-service kiosks, largely .NET — hardware-adjacent testing plausible. Assume moderate stability and a small QA team; confirm remote eligibility before applying. Sources: https://volarisgroup.wd3.myworkdayjobs.com/EnvisionWare",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "I bring 15 years of C#/.NET test automation plus hardware-adjacent kiosk and RFID testing experience — directly relevant to library self-service checkout and print-management deployments.",
+    "next_research_action": "Watching workday board"
+  },
   "ats": {
     "type": "workday",
     "token": "volarisgroup|3|EnvisionWare",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 2
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:volarisgroup|3|EnvisionWare (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +98,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C770",
+    "career_url": "https://volarisgroup.wd3.myworkdayjobs.com/EnvisionWare",
+    "ats": {
+      "type": "workday",
+      "token": "volarisgroup|3|EnvisionWare",
+      "board_url": "https://volarisgroup.wd3.myworkdayjobs.com/EnvisionWare"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "EnvisionWare builds library self-service software and kiosks (self-checkout, PC/print management), a books-and-history-adjacent, hardware-adjacent .NET shop, plausibly matching the candidate's C#/kiosk testing background — but remote-from-Maine and senior QA openings are unverified.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering (kiosk/hardware-adjacent)",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (no named leader in facts)",
+    "outreach_angle": "I bring 15 years of C#/.NET test automation plus hardware-adjacent kiosk and RFID testing experience — directly relevant to library self-service checkout and print-management deployments.",
+    "red_flags": "No verified remote policy or QA openings; roles may sit at Georgia HQ, so Maine remote is unconfirmed.",
+    "confidence": "low",
+    "sources": [
+      "https://volarisgroup.wd3.myworkdayjobs.com/EnvisionWare"
+    ],
+    "notes": "Volaris Group (Constellation Software) subsidiary; Workday board at volarisgroup|3|EnvisionWare. No verified remote policy, size, stability signals, QA openings, or named contacts. Domain: library self-service kiosks, largely .NET — hardware-adjacent testing plausible. Assume moderate stability and a small QA team; confirm remote eligibility before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +172,71 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:volarisgroup|3|EnvisionWare (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

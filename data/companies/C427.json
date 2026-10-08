@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Home security IoT",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Ring is Amazon's home security IoT unit. Amazon cut roughly 30,000 corporate roles across late 2025 and early 2026, signaling low stability. No QA openings listed; remote policy unknown but Amazon generally requires in-office. Candidate's medical-device V&V and hardware-adjacent automation are relevant if any US-remote SDET role appears. Sources: https://www.amazon.jobs/en/teams/ring-blink-and-amazon-key%20 https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Ring makes home security IoT devices and cameras; hardware-adjacent QA fits the candidate's background, but Amazon's RTO and no listed remote QA roles plus recent layoffs make it a weak fit from Maine.",
+    "ai_red_flags": "Amazon layoffs in 2025-2026; no remote policy listed; no QA openings; RTO likely blocks Maine-based remote.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Ring%20%28Amazon%29",
+    "outreach_notes": "With 15 years in C#/.NET automation and FDA-regulated hardware V&V, I can help Ring's IoT quality efforts, though I need a US-remote opening open to Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Ring is Amazon's home security IoT unit. Amazon cut roughly 30,000 corporate roles across late 2025 and early 2026, signaling low stability. No QA openings listed; remote policy unknown but Amazon generally requires in-office. Candidate's medical-device V&V and hardware-adjacent automation are relevant if any US-remote SDET role appears. Sources: https://www.amazon.jobs/en/teams/ring-blink-and-amazon-key%20 https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
+    "fit_score": 2,
+    "ai_summary": "Ring makes home security IoT devices and cameras; hardware-adjacent QA fits the candidate's background, but Amazon's RTO and no listed remote QA roles plus recent layoffs make it a weak fit from Maine.",
+    "role_families": "SDET; QA engineering; test automation",
+    "ai_red_flags": "Amazon layoffs in 2025-2026; no remote policy listed; no QA openings; RTO likely blocks Maine-based remote.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Head of Quality Engineering",
+    "outreach_notes": "With 15 years in C#/.NET automation and FDA-regulated hardware V&V, I can help Ring's IoT quality efforts, though I need a US-remote opening open to Maine.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Ring%20%28Amazon%29"
+  },
   "ats": {
     "type": "workday",
     "token": "ringcentral|1|RingCentral_Careers",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "embedded in https://www.ringcentral.com/company/careers/overview.html",
     "job_count": 86
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.ringcentral.com/company/careers/overview.html",
+    "found": "workday:ringcentral|1|RingCentral_Careers (embedded in https://www.ringcentral.com/company/careers/overview.html)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -144,6 +171,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -173,15 +201,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.ringcentral.com/company/careers/overview.html",
-    "found": "workday:ringcentral|1|RingCentral_Careers (embedded in https://www.ringcentral.com/company/careers/overview.html)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

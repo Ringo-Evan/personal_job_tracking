@@ -5,8 +5,8 @@
     "company": "ResMed",
     "sector": "Regulated healthtech",
     "interests": "Connected sleep devices; strong device-cloud testing",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers-uat.resmed.com/testing-careers-resmed/",
+    "role_families": "SDET; QA engineering; design verification/V&V",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "ResMed: regulated healthtech, connected sleep devices. Remote policy flexible/hybrid, some fully remote; Maine eligibility unknown. Revenue ~$2.61B, stable. No QA openings currently listed. Strong domain match for FDA-regulated V&V testing. Sources: https://careers-uat.resmed.com/testing-careers-resmed/ https://builtin.com/company/resmed/faq/work-life-balance-wellbeing https://claveprep.com/blog/resmed-layoff-signals-guide-2026",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Flexible and hybrid working arrangements, with some roles fully remote or field-remote where feasible; flexibility varies by team and function.",
+    "benefit_source": "https://claveprep.com/blog/resmed-layoff-signals-guide-2026",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 5,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "ResMed develops connected sleep devices and cloud health platforms in a regulated, essential medical-device market. Strong fit for the candidate's FDA V&V background, but Maine remote eligibility is unconfirmed and no QA openings are listed.",
+    "ai_red_flags": "No current QA openings posted; Maine remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20ResMed",
+    "outreach_notes": "My 15 years in FDA-regulated V&V and design controls for medical devices aligns with ResMed's connected sleep devices; I'd welcome a chat about senior test automation roles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers-uat.resmed.com/testing-careers-resmed/",
+    "research_notes": "ResMed: regulated healthtech, connected sleep devices. Remote policy flexible/hybrid, some fully remote; Maine eligibility unknown. Revenue ~$2.61B, stable. No QA openings currently listed. Strong domain match for FDA-regulated V&V testing. Sources: https://careers-uat.resmed.com/testing-careers-resmed/ https://builtin.com/company/resmed/faq/work-life-balance-wellbeing https://claveprep.com/blog/resmed-layoff-signals-guide-2026",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Flexible and hybrid working arrangements, with some roles fully remote or field-remote where feasible; flexibility varies by team and function.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 5,
+    "benefit_source": "https://claveprep.com/blog/resmed-layoff-signals-guide-2026",
+    "fit_score": 4,
+    "ai_summary": "ResMed develops connected sleep devices and cloud health platforms in a regulated, essential medical-device market. Strong fit for the candidate's FDA V&V background, but Maine remote eligibility is unconfirmed and no QA openings are listed.",
+    "role_families": "SDET; QA engineering; design verification/V&V",
+    "ai_red_flags": "No current QA openings posted; Maine remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "My 15 years in FDA-regulated V&V and design controls for medical devices aligns with ResMed's connected sleep devices; I'd welcome a chat about senior test automation roles.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20ResMed"
+  },
   "ats": {
     "type": "workday",
     "token": "resmed|3|Brightree_External_Careers",
@@ -55,6 +76,7 @@
     "note": "",
     "job_count": 7
   },
+  "discovery": null,
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -131,6 +153,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,8 +182,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

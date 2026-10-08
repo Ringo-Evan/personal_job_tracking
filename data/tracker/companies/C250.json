@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Maine-remote eligibility unverified",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Delivery orchestration SaaS; location-adjacent but not regulated hardware; remote US roles unclear.",
+  "approach_role": "VP R&D/QA Manager",
+  "company": "Bringg",
+  "company_id": "C250",
+  "fit_score": 3,
+  "interests": "Delivery orchestration",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20R%26D/QA%20Manager%20Bringg",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:09Z",
+  "updated_by": "pipeline"
+}

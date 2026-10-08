@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://front.moveon.org/careers/",
+  "career_url": "https://front.moveon.org/careers/",
+  "company": "MoveOn",
+  "company_id": "C013",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Organizing and leadership are relevant; dedicated QA openings may be uncommon.",
+  "hiring_difficulty": 4,
+  "interests": "Progressive advocacy",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Watch technology and delivery functions as well as QA titles.",
+  "research_status": "Initial research",
+  "role_families": "Digital operations; technical programs",
+  "sector": "Mission & organizing",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small startup; remote hiring unverified",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Ag robot maker for precise weeding and spraying; robotics QA plausible, but small, on-site and venture-funded with unverified remote hiring.",
+  "approach_role": "Head of Engineering",
+  "company": "Verdant Robotics",
+  "company_id": "C954",
+  "fit_score": 2,
+  "interests": "Ag robots",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Verdant%20Robotics",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Automation Engineer; QA Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "St. Louis onsite likely; no Maine remote.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Online game retailer with e-commerce tech; possible QA but likely onsite St. Louis; remote from Maine not indicated; games domain match.",
+  "approach_role": "Director of Engineering",
+  "company": "Miniature Market",
+  "company_id": "C731",
+  "fit_score": 2,
+  "interests": "Game retailer",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Miniature%20Market",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; E-commerce QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

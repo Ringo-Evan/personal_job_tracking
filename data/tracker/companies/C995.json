@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Augusta-based; not commutable from Downeast",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Quasi-public Maine energy efficiency trust; very stable, but program administration focus means few software QA openings and Augusta location.",
+  "approach_role": "IT Manager",
+  "company": "Efficiency Maine",
+  "company_id": "C995",
+  "fit_score": 2,
+  "interests": "Maine energy programs",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Manager%20Efficiency%20Maine",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Data Quality Analyst; IT Systems Analyst",
+  "sector": "Agriculture",
+  "size_estimate": "<50",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

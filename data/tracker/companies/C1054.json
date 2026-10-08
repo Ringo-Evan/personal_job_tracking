@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Policy nonprofit; no software QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Housing policy nonprofit; no software engineering or QA roles, poor fit.",
+  "approach_role": "Operations Director",
+  "company": "National Low Income Housing Coalition",
+  "company_id": "C1054",
+  "fit_score": 1,
+  "interests": "Housing policy",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Director%20National%20Low%20Income%20Housing%20Coalition",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Housing",
+  "size_estimate": "<50",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

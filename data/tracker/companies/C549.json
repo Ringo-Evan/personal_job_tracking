@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Domain mismatch; fully remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first automation platform; QA roles plausible, but domain mismatch.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Zapier",
+  "company_id": "C549",
+  "fit_score": 3,
+  "interests": "Fully remote automation",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Zapier",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Quality Engineering Manager",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

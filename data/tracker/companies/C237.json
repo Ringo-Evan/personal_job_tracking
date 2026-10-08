@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Parcel robot hardware maker; hardware-adjacent QA roles plausible, but Estonian firm and remote-from-Maine unclear.",
+  "approach_role": "QA Lead",
+  "company": "Cleveron",
+  "company_id": "C237",
+  "fit_score": 3,
+  "interests": "Parcel robots",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Cleveron",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:09Z",
+  "updated_by": "pipeline"
+}

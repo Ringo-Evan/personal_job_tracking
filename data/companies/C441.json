@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Gov digital; remote",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior Test Engineer; QA Engineer; Quality Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Remote gov digital consultancy; project-based teams include QA and test engineering roles when contracts allow.",
+    "ai_red_flags": "Project-based staffing; contract renewals matter.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Skylight",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; release engineering",
+    "approach_role": "Director of Engineering",
+    "ai_summary": "Gov digital services shop per the interest note, but the fact sheet describes an SF/LA consumer-products startup — identity ambiguous. Profitable and growing. Remote offered, yet Maine eligibility is unknown and no QA openings are listed.",
+    "ai_red_flags": "Company identity ambiguous; Maine remote eligibility unverified; no QA postings and no named leaders.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Skylight",
+    "career_url": "https://myskylight.com/careers/",
+    "research_notes": "Skylight, Greenhouse board token skylighthq. Sector listed enterprise/govtech with note 'gov digital; remote', yet remote summary describes an SF/LA consumer-products startup — confirm which entity. Profitable, growing toward $1B+. No QA openings, people, or size data. Verify remote-from-Maine policy and current roles before applying. Sources: https://myskylight.com/careers/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote work is offered as a benefit at this San Francisco and Los Angeles based consumer-products startup.",
+    "benefit_source": "https://myskylight.com/careers/",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Senior test engineer with 15 years across FDA-regulated V&V and test automation; I can bring audit-ready quality practices to Skylight's public-sector digital delivery, working remotely from Maine.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "skylighthq",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results; Skylight",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:skylighthq (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,71 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C441",
+    "career_url": "https://myskylight.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "skylighthq",
+      "board_url": "https://job-boards.greenhouse.io/skylighthq"
+    },
+    "remote_policy": {
+      "summary": "Remote work is offered as a benefit at this San Francisco and Los Angeles based consumer-products startup.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://myskylight.com/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Profitable and growing, adding millions of dollars in revenue each year.",
+          "date": null,
+          "url": "https://myskylight.com/careers/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company states it is on its way to building a $1B+ business.",
+          "date": null,
+          "url": "https://myskylight.com/careers/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Gov digital services shop per the interest note, but the fact sheet describes an SF/LA consumer-products startup — identity ambiguous. Profitable and growing. Remote offered, yet Maine eligibility is unknown and no QA openings are listed.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering",
+    "outreach_angle": "Senior test engineer with 15 years across FDA-regulated V&V and test automation; I can bring audit-ready quality practices to Skylight's public-sector digital delivery, working remotely from Maine.",
+    "red_flags": "Company identity ambiguous; Maine remote eligibility unverified; no QA postings and no named leaders.",
+    "confidence": "low",
+    "sources": [
+      "https://myskylight.com/careers/"
+    ],
+    "notes": "Skylight, Greenhouse board token skylighthq. Sector listed enterprise/govtech with note 'gov digital; remote', yet remote summary describes an SF/LA consumer-products startup — confirm which entity. Profitable, growing toward $1B+. No QA openings, people, or size data. Verify remote-from-Maine policy and current roles before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +186,72 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:skylighthq (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

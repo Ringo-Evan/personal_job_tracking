@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid possible",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Logistics software public company; stable and QA roles exist, but IoT/location overlap limited and remote may be hybrid.",
+  "approach_role": "QA Manager",
+  "company": "Descartes Systems",
+  "company_id": "C242",
+  "fit_score": 3,
+  "interests": "Logistics software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Descartes%20Systems",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "IoT / location tech",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:09Z",
+  "updated_by": "pipeline"
+}

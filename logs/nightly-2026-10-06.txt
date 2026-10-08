@@ -76,3 +76,46 @@ summary: boards_ok=465, boards_failed=3, fetched=21628, title_matches=1778, kept
   workday-R0027199                         skill=1 below   maine=no      Quality Control Technician - Animal Care (Tuesday 
 
 summary: scored=60, unchanged=53, failed=0, fetched_pages=1  STOPPED: per-run budget of 60 scores used
+
+===== 14:00:02 watch: jobsearch watch --quiet
+  NEW  The Hartford             Sr Analyst Model Risk & AI, Gen AI Model Validation          [yes] Hartford, CT; United States - Remote (Hy  USD 108,000-162,000/year
+  NEW  The Hartford             Sr Analyst Model Risk & AI, Data Science and Actuarial Model [yes] Hartford, CT; United States - Remote (Hy  USD 108,000-162,000/year
+
+summary: boards_ok=467, boards_failed=1, fetched=21700, title_matches=1822, kept=131, new=2, updated=0, closed=0, reopened=0
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+
+===== 14:44:51 rank: jobsearch rank
+  workday-R2026-1274                       skill=1 match   maine=no      Senior Marketing Automation Solution Architect
+  workday-R26-03463                        skill=1 below   maine=no      Quality Assurance Caseworker
+  workday-R2627353                         skill=2 below   maine=yes     Sr Analyst Model Risk & AI, Gen AI Model Validatio
+  workday-R2627354                         skill=2 match   maine=yes     Sr Analyst Model Risk & AI, Data Science and Actua
+  workday-R7780                            skill=2 match   maine=yes     Sr. Site Quality Engineer
+  workday-590405                           skill=2 match   maine=no      Sr QA Manager, Distribution & Warehouse
+  workday-592009                           skill=3 below   maine=no      Service Quality Engineer
+  ashby-5bcd3475-8e38-42f1-897a-fa010ee6f9 skill=2 match   maine=yes     Automation Engineer - Influencers
+  greenhouse-5440636008                    skill=2 match   maine=unknown Data Center Engineer, Reliability & Infrastructure
+  greenhouse-5443572008                    skill=2 match   maine=yes     Senior Site Reliability Engineer (Systems Engineer
+  greenhouse-7728075003                    skill=2 match   maine=no      Senior Site Reliability Engineer I
+  greenhouse-7798749003                    skill=2 match   maine=no      Senior Site Reliability Engineer I
+  workday-R15477                           skill=2 below   maine=yes     Denials Process Automation Associate
+
+summary: scored=13, unchanged=128, failed=0, fetched_pages=1
+
+===== 20:00:02 watch: jobsearch watch --quiet
+  NEW  L.L.Bean                 Automation Mechanical Technician -2nd Shift                  [yes] Brunswick, ME  USD 29-34/hour
+  NEW  Stord                    Senior Software Development Engineer in Test                 [yes] Remote, United States; Remote - Canada
+  NEW  Toast                    Staff Software Engineer - AI/Agent Engineer, Care Automation [yes] Remote, USA (Remote - USA)  USD 193,000-309,000/year
+  NEW  Cengage                  AI Automation Engineer - Sales & Marketing                   [unknown] United States  USD 101,900-163,000/year
+  CLOSED greenhouse-7728075003
+  CLOSED greenhouse-7798749003
+
+summary: boards_ok=467, boards_failed=1, fetched=21727, title_matches=1830, kept=134, new=4, updated=0, closed=2, reopened=0
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+
+===== 20:43:18 rank: jobsearch rank
+  workday-JR103261                         skill=4 match   maine=yes     Senior Software Development Engineer in Test
+  greenhouse-8147449                       skill=2 above   maine=yes     Staff Software Engineer - AI/Agent Engineer, Care 
+  workday-R2026-557                        skill=2 match   maine=yes     AI Automation Engineer - Sales & Marketing
+  workday-JR11128                          skill=2 below   maine=no      Automation Mechanical Technician -2nd Shift
+
+summary: scored=4, unchanged=139, failed=0, fetched_pages=1

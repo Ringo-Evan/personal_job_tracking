@@ -6,7 +6,7 @@
     "sector": "IoT / location tech",
     "interests": "Airport baggage control software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; Test Automation Engineer; Controls Test Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "ai_summary": "Airport baggage control software; industrial automation and regulated; hardware-adjacent; likely travel/onsite.",
+    "ai_red_flags": "Travel/site work likely",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Brock%20Solutions",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "Test automation / SDET; QA engineering; Release and quality engineering",
+    "approach_role": "Director of Quality Assurance (or Engineering Manager, Baggage Handling Systems)",
+    "ai_summary": "Brock Solutions builds industrial automation and airport baggage-handling control software — hardware-adjacent, safety-critical work that matches the candidate's domain, but the company is Canadian with no verified US-remote policy or openings, so a Maine-based senior QA role is speculative.",
+    "ai_red_flags": "No verified remote policy, no confirmed US roles, Canadian-based hiring bias.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28or%20Engineering%20Manager%2C%20Baggage%20Handling%20Systems%29%20Brock%20Solutions",
+    "career_url": "https://careers.brocksolutions.com/",
+    "research_notes": "Facts were thin: no job board, ATS, size, remote policy, QA openings, or named people. Brock Solutions is an established Kitchener, Ontario industrial-automation firm known for airport baggage-handling control systems. Candidate should verify US-remote eligibility and current QA/test openings before investing effort. Domain alignment is strong; geography and hiring evidence are unverified. Sources: https://careers.brocksolutions.com/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps directly onto safety-critical baggage-handling and industrial control software.",
+    "next_research_action": "No supported job board - check https://careers.brocksolutions.com/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.brocksolutions.com/careers/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +88,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C253",
+    "career_url": "https://careers.brocksolutions.com/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Brock Solutions builds industrial automation and airport baggage-handling control software — hardware-adjacent, safety-critical work that matches the candidate's domain, but the company is Canadian with no verified US-remote policy or openings, so a Maine-based senior QA role is speculative.",
+      "role_families": [
+        "Test automation / SDET",
+        "QA engineering",
+        "Release and quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance (or Engineering Manager, Baggage Handling Systems)",
+    "outreach_angle": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps directly onto safety-critical baggage-handling and industrial control software.",
+    "red_flags": "No verified remote policy, no confirmed US roles, Canadian-based hiring bias.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.brocksolutions.com/"
+    ],
+    "notes": "Facts were thin: no job board, ATS, size, remote policy, QA openings, or named people. Brock Solutions is an established Kitchener, Ontario industrial-automation firm known for airport baggage-handling control systems. Candidate should verify US-remote eligibility and current QA/test openings before investing effort. Domain alignment is strong; geography and hiring evidence are unverified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +161,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.brocksolutions.com/careers/",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

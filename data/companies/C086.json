@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C086",
     "company": "UNITE HERE (tech team)",
-    "sector": "Labor",
+    "sector": "Labor & organizing",
     "interests": "Hospitality union, labor tech",
     "career_url": "https://jobs.unitehere.org/",
     "role_families": "Software dev; QA; tools",
@@ -55,8 +55,16 @@
     "note": "no known job-board system on careers page",
     "job_count": null
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.unitehere.org/",
+    "found": null,
+    "other": []
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -81,14 +89,14 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://jobs.unitehere.org/",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": null
 }

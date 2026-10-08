@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Unclear tech team, small",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Nonprofit for record clearance; unclear if they have in-house tech, possibly some QA roles.",
+  "approach_role": "Engineering Lead",
+  "company": "Clearpath / Clean Slate Initiative",
+  "company_id": "C1076",
+  "fit_score": 2,
+  "interests": "Record clearance",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Lead%20Clearpath%20/%20Clean%20Slate%20Initiative",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Software Engineer",
+  "sector": "Criminal justice reform",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

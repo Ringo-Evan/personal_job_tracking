@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Property management, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Property management software; private, QA roles plausible, but sector not in interests; remote likely.",
+  "approach_role": "QA Manager",
+  "company": "Entrata",
+  "company_id": "C522",
+  "fit_score": 2,
+  "interests": "Property management software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Entrata",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:18Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "E-commerce; layoff history; remote possible.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "E-commerce giant; QA/SDET roles plausible. Layoff history, remote possible. Domain not core interest.",
+  "approach_role": "Engineering Manager",
+  "company": "Wayfair",
+  "company_id": "C401",
+  "fit_score": 3,
+  "interests": "Boston e-commerce",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Wayfair",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

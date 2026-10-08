@@ -5,8 +5,8 @@
     "company": "Atlassian",
     "sector": "Remote-first software",
     "interests": "Jira; remote-friendly",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.atlassian.com/company/careers",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Team Anywhere remote-first, Maine-eligible, 11 offices, 3-4 in-person gatherings yearly. 5k+ staff; revenue $1.6bn up 23% YoY but $42m net loss; ~1,600 roles cut with 900+ in R&D; CTO transition to joint Mandhana/Rao. Job board and ATS unknown; no QA openings found. Sources: https://www.atlassian.com/company/careers https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx https://www.crn.com/news/ai/2026/atlassian-plans-1-600-layoffs-with-savings-shift-to-ai-enterprise-sales",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Team Anywhere: employees choose where, when and how they work; 11 offices they can work from; teams gather in person 3-4 times per year.",
+    "benefit_source": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.atlassian.com/company/careers manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Atlassian builds Jira, Confluence and other team collaboration software, remote-first and open to Maine. But its domain is SaaS dev tooling, not regulated medical devices or hardware test equipment, and no QA openings were verified.",
+    "ai_red_flags": "Recent layoffs of ~1,600 including 900+ software R&D roles; GAAP unprofitable; no verified QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Incoming CTO (joint)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Incoming%20CTO%20%28joint%29%20Atlassian",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and tooling at scale could support Atlassian's engineering quality as it restructures around AI, though your FDA-regulated V&V depth is a domain shift."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.atlassian.com/company/careers",
+    "research_notes": "Team Anywhere remote-first, Maine-eligible, 11 offices, 3-4 in-person gatherings yearly. 5k+ staff; revenue $1.6bn up 23% YoY but $42m net loss; ~1,600 roles cut with 900+ in R&D; CTO transition to joint Mandhana/Rao. Job board and ATS unknown; no QA openings found. Sources: https://www.atlassian.com/company/careers https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx https://www.crn.com/news/ai/2026/atlassian-plans-1-600-layoffs-with-savings-shift-to-ai-enterprise-sales",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Team Anywhere: employees choose where, when and how they work; 11 offices they can work from; teams gather in person 3-4 times per year.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
+    "fit_score": 3,
+    "ai_summary": "Atlassian builds Jira, Confluence and other team collaboration software, remote-first and open to Maine. But its domain is SaaS dev tooling, not regulated medical devices or hardware test equipment, and no QA openings were verified.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "Recent layoffs of ~1,600 including 900+ software R&D roles; GAAP unprofitable; no verified QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Incoming CTO (joint)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and tooling at scale could support Atlassian's engineering quality as it restructures around AI, though your FDA-regulated V&V depth is a domain shift.",
+    "next_research_action": "No supported job board - check https://www.atlassian.com/company/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Incoming%20CTO%20%28joint%29%20Atlassian"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.atlassian.com/company/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.atlassian.com/company/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -161,6 +200,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -189,16 +229,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:08-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.atlassian.com/company/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

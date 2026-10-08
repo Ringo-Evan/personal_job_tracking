@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "2024 layoffs; Bellevue hybrid.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Destiny studio under Sony; games interest matches and QA roles exist, but 2024 layoffs and Bellevue hybrid cut fit.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Bungie",
+  "company_id": "C625",
+  "fit_score": 4,
+  "interests": "Destiny; remote-friendly",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Bungie",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

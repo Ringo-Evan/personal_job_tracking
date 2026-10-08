@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Publishing; no QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Homestead and craft book publisher in Massachusetts; no software QA roles and not remote-friendly for test work.",
+  "approach_role": "N/A",
+  "company": "Storey Publishing",
+  "company_id": "C977",
+  "fit_score": 1,
+  "interests": "Homestead books; North Adams MA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=N/A%20Storey%20Publishing",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "No QA/SDET roles",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

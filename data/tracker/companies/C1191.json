@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site defense hardware; Maine remote unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Directed-energy defense hardware; test/QA roles plausible but on-site and not aligned with candidate's remote Maine needs.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Epirus",
+  "company_id": "C1191",
+  "fit_score": 2,
+  "interests": "Defense",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Epirus",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Quality Engineer; Automation Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

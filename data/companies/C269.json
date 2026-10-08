@@ -5,8 +5,8 @@
     "company": "Hologic",
     "sector": "Regulated healthtech",
     "interests": "Imaging; Marlborough MA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.hologic.com/en/search",
+    "role_families": "QA engineering; medical device V&V / design controls; test automation / SDET",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hologic: ~5k staff, ~$3.37B revenue, medtech/diagnostics. Remote/hybrid offered for some office roles but Maine eligibility unknown; one QA posting (Lead Risk Management Quality Engineer, MA/CO). 190 layoffs in Finland/France from Mobidiag wind-down; CFO cites no large-scale layoffs. Sources: https://careers.hologic.com/en/search https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX https://builtin.com/company/hologic/faq/work-life-balance-wellbeing",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote and hybrid schedules are described as available in a number of office-based roles, with flexible hours; field service roles carry 24/7 on-call and travel.",
+    "benefit_source": "https://claveprep.com/blog/hologic-layoff-signals-guide-2026",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://careers.hologic.com/en/search manually",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Hologic is a large regulated medical-device and diagnostics maker, matching the candidate's FDA V&V background, but the only listed QA opening is risk-management quality in MA/CO and Maine remote eligibility is unknown.",
+    "ai_red_flags": "Maine remote eligibility unknown; recent diagnostics layoffs; the listed QA role is risk-management, not test automation, and based in MA/CO.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Hologic",
+    "outreach_notes": "Fifteen years of FDA-regulated device V&V and design-controls testing, with C#/.NET automation tooling—offer to strengthen Hologic's quality engineering and risk-management workflows."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://careers.hologic.com/en/search",
+    "research_notes": "Hologic: ~5k staff, ~$3.37B revenue, medtech/diagnostics. Remote/hybrid offered for some office roles but Maine eligibility unknown; one QA posting (Lead Risk Management Quality Engineer, MA/CO). 190 layoffs in Finland/France from Mobidiag wind-down; CFO cites no large-scale layoffs. Sources: https://careers.hologic.com/en/search https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX https://builtin.com/company/hologic/faq/work-life-balance-wellbeing",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Remote and hybrid schedules are described as available in a number of office-based roles, with flexible hours; field service roles carry 24/7 on-call and travel.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://claveprep.com/blog/hologic-layoff-signals-guide-2026",
+    "fit_score": 3,
+    "ai_summary": "Hologic is a large regulated medical-device and diagnostics maker, matching the candidate's FDA V&V background, but the only listed QA opening is risk-management quality in MA/CO and Maine remote eligibility is unknown.",
+    "role_families": "QA engineering; medical device V&V / design controls; test automation / SDET",
+    "ai_red_flags": "Maine remote eligibility unknown; recent diagnostics layoffs; the listed QA role is risk-management, not test automation, and based in MA/CO.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Fifteen years of FDA-regulated device V&V and design-controls testing, with C#/.NET automation tooling—offer to strengthen Hologic's quality engineering and risk-management workflows.",
+    "next_research_action": "No supported job board - check https://careers.hologic.com/en/search manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Hologic"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://careers.hologic.com/en/search",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.hologic.com/en/search",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -142,6 +181,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -170,16 +210,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:00-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.hologic.com/en/search",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

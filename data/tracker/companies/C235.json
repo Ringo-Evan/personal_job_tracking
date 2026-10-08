@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "RTO/hybrid",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Amazon's locker network; large-scale IoT, strong stability, but remote roles may be limited by RTO and domain overlap moderate.",
+  "approach_role": "QA Manager",
+  "company": "Amazon Hub",
+  "company_id": "C235",
+  "fit_score": 3,
+  "interests": "Lockers/Counter",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Amazon%20Hub",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

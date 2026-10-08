@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite-centric in Oklahoma City",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Payroll SaaS with proprietary stack; automation roles exist but the company strongly expects onsite work in Oklahoma City.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Paycom",
+  "company_id": "C486",
+  "fit_score": 3,
+  "interests": "Payroll SaaS",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Paycom",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Automation Engineer; SDET; Test Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

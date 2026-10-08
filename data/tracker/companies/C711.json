@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tabletop only; no software QA roles.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "BattleTech/Shadowrun tabletop publisher; domain match but likely no software QA roles and no remote openings.",
+  "approach_role": "Operations Manager",
+  "company": "Catalyst Game Labs",
+  "company_id": "C711",
+  "fit_score": 2,
+  "interests": "BattleTech/Shadowrun",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Manager%20Catalyst%20Game%20Labs",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Playtesting/QA; Production QA; Customer Support",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

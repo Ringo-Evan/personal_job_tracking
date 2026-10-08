@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Domain mismatch; fully remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first WordPress company; QA roles plausible, but domain mismatch.",
+  "approach_role": "Head of Quality Engineering",
+  "company": "Automattic",
+  "company_id": "C548",
+  "fit_score": 3,
+  "interests": "WordPress.com; fully remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Automattic",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Quality Lead",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; no dedicated QA likely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Queer social startup; limited engineering staff, unlikely to have dedicated senior QA roles.",
+  "approach_role": "CTO",
+  "company": "Lex",
+  "company_id": "C1114",
+  "fit_score": 2,
+  "interests": "Queer social app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Lex",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Mobile QA; Community",
+  "sector": "LGBTQ",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

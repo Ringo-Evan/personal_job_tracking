@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Damariscotta ME",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Analyst; Test Engineer; IT QA",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "ai_summary": "First National Bank in Damariscotta has IT; regulated QA roles limited, not commutable from Downeast.",
+    "ai_red_flags": "Damariscotta; not commutable",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "IT Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Manager%20First%20National%20Bank%20%28The%20First%20Bancorp%29",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,40 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "role_families": "QA Analyst; Test Engineer; IT QA",
+    "approach_role": "IT Manager",
+    "ai_summary": "First National Bank in Damariscotta has IT; regulated QA roles limited, not commutable from Downeast.",
+    "ai_red_flags": "Damariscotta; not commutable",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Manager%20First%20National%20Bank%20%28The%20First%20Bancorp%29"
+  },
+  "ats": {
+    "type": "workday",
+    "token": "firstnational|12|fnbocareers",
+    "board_url": "https://firstnational.wd12.myworkdayjobs.com/fnbocareers",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 102
+  },
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 22,
+    "careers_page": null,
+    "found": "workday:firstnational|12|fnbocareers (linked from search results)",
+    "other": [],
+    "rejected": [
+      "workday:firstrand|3|frb"
+    ]
+  },
   "triage": {
     "fit": 2,
     "stability": 4,
@@ -62,6 +94,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -99,12 +132,49 @@
       "changed": [
         "discovery.rejected"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "rejected": [
-      "workday:firstrand|3|frb"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,419 @@
+
+===== 02:30:04 ingest: jobsearch ingest
+ingest tracker: rows=1219, created=0, updated=0, unchanged=1219, marked_missing=0, restored=0, owner_changes=0, warnings=0
+
+===== 02:30:20 detect: jobsearch detect
+detect: 733 companies to check
+  C152   Perfecto (Perforce)              other  no known job-board system on careers page
+  C153   Perforce                         lever (confirmed) perforce  
+  C155   Postman                          other  no known job-board system on careers page
+  C157   Microsoft (Playwright / Azure De other  no known job-board system on careers page
+  C158   GitLab                           greenhouse (confirmed) gitlab  token guessed from name; page mentions greenhouse; board nam
+  C159   JetBrains                        greenhouse (confirmed) jetbrains  JetBrains
+  C174   Grafana Labs                     greenhouse (confirmed) grafanalabs  Grafana Labs
+  C179   CircleCI                         greenhouse (confirmed) circleci  token guessed from name; page mentions greenhouse; board nam
+  C180   Harness                          other  no known job-board system on careers page
+  C182   HashiCorp (IBM)                  other  no known job-board system on careers page
+  C183   Pulumi                           other  no known job-board system on careers page
+  C186   Octopus Deploy                   other  no known job-board system on careers page
+  C187   Progress Software                other  uses jobvite
+  C198   Honeywell                        other  uses oracle
+  C202   Avery Dennison Smartrac          smartrecruiters (confirmed) AveryDennison  
+  C210   Securitas Healthcare             other  uses oracle
+  C221   Trimble                          other  no known job-board system on careers page
+  C222   Hexagon                          other  uses adp
+  C238   ShipBob                          other  no known job-board system on careers page
+  C247   Stord                            workday (confirmed) stord|503|Stord_External_Career  
+  C252   Collins Aerospace (ARINC)        other  no known job-board system on careers page
+  C254   Vanderlande                      workday (confirmed) vanderlande|3|careers  
+  C258   Tandem Diabetes Care             workday (confirmed) tandemdiabetes|12|tandemdiabetes  
+  C260   Boston Scientific                other  uses successfactors
+  C261   Philips (Bedford MA)             other  no known job-board system on careers page
+  C262   GE HealthCare                    other  no known job-board system on careers page
+  C263   Siemens Healthineers             other  no known job-board system on careers page
+  C265   Zoll Medical                     workday (confirmed) zoll|5|ZOLLMedicalCorp  
+  C267   iRhythm Technologies             workday (confirmed) irhythmtech|5|irhythm  
+  C268   Butterfly Network                greenhouse (confirmed) butterflynetwork  Butterfly Network
+  C269   Hologic                          other  no known job-board system on careers page
+  C270   Werfen                           other  no known job-board system on careers page
+  C271   Thermo Fisher Scientific         other  no known job-board system on careers page
+  C272   Waters Corporation               other  uses icims
+  C273   Becton Dickinson                 workday (confirmed) bdx|1|EXTERNAL_CAREER_SITE_USA  
+  C275   ICU Medical                      other  uses oracle
+  C276   Omnicell                         other  no known job-board system on careers page
+  C278   Oracle Health (Cerner)           other  no known job-board system on careers page
+  C280   Nuance (Microsoft)               greenhouse (confirmed) nuancelabs  Nuance Labs
+  C285   Netsmart                         workday (confirmed) ntst|1|Careers  
+  C290   Owlet                            workable (confirmed) owlet-baby-care-1  Owlet Baby Care
+  C315   Bamboo Health                    rippling (confirmed) bamboo-health-careers  Bamboo Health
+  C316   Appriss Health                   other  no known job-board system on careers page
+  C317   Kareo / Tebra                    other  no known job-board system on careers page
+  C318   Greenway Health                  other  no known job-board system on careers page
+  C325   Flatiron Health                  greenhouse (confirmed) flatironhealth  Flatiron Health
+  C326   Benchling                        ashby (confirmed) benchling  
+  C327   Dotmatics                        other  no known job-board system on careers page
+  C328   MasterControl                    other  no known job-board system on careers page
+  C329   Greenlight Guru                  greenhouse (confirmed) greenlightguru  Greenlight Guru
+  C332   IQVIA                            workday (confirmed) iqvia|1|IQVIA  
+  C333   Medidata (Dassault)              other  no known job-board system on careers page
+  C357   Emburse                          lever (confirmed) emburse  
+  C359   PTC                              workday (confirmed) ptc|1|ptc  
+  C375   Maine Department of Administrati other  no known job-board system on careers page
+  C383   Anthem Maine                     workday (confirmed) elevancehealth|1|ANT  
+  C388   Oracle (Manchester NH)           other  no known job-board system on careers page
+  C400   Kaseya (Datto)                   other  no known job-board system on careers page
+  C402   HubSpot                          other  no known job-board system on careers page
+  C403   Toast                            greenhouse (confirmed) toast  token guessed from name; page mentions greenhouse; board nam
+  C425   SimpliSafe                       greenhouse (confirmed) simplisafe  SimpliSafe
+  C429   CGI                              other  no known job-board system on careers page
+  C438   Ad Hoc                           other  no known job-board system on careers page
+  C444   Agile Six                        greenhouse (confirmed) agilesix  Agile Six Applications
+  C453   OpenGov                          unknown  careers page HTTP 403
+  C454   Accela                           greenhouse (confirmed) accela  Accela
+  C460   Harris Computer                  workday (confirmed) harriscomputer|3|1  
+  C462   Jonas Software                   workday (confirmed) talentmanagementsolution|3|JonasSoftwareUSA  
+  C463   Volaris Group                    workday (confirmed) volarisgroup|3|Volaris  
+  C465   Vela Software                    other  no known job-board system on careers page
+  C467   Sapiens                          other  no known job-board system on careers page
+  C468   Guidewire                        other  no known job-board system on careers page
+  C469   Duck Creek                       workday (confirmed) duckcreek|1|duckcreekcareers  
+  C471   Vertafore                        other  no known job-board system on careers page
+  C472   Applied Systems                  other  uses icims
+  C483   Nationwide                       other  no known job-board system on careers page
+  C485   Paylocity                        other  uses paylocity
+  C488   ADP                              other  uses adp
+  C492   Workday                          workday (confirmed) workday|5|Workday  
+  C493   Intuit                           other  no known job-board system on careers page
+  C494   Jack Henry                       other  no known job-board system on careers page
+  C495   Fiserv                           other  no known job-board system on careers page
+  C496   FIS                              workday (confirmed) fis|5|SearchJobs  
+  C497   Q2 Holdings                      workday (confirmed) q2ebanking|5|Q2  
+  C498   Alkami                           workday (confirmed) alkami|12|Alkami  
+  C504   Bill.com                         other  no known job-board system on careers page
+  C505   Avalara                          other  uses icims
+  C516   Procore                          other  no known job-board system on careers page
+  C567   Bitwarden                        greenhouse (confirmed) bitwarden  Bitwarden
+  C572   Supabase                         ashby (confirmed) supabase  
+  C579   Twilio                           other  no known job-board system on careers page
+  C591   Atlassian                        other  no known job-board system on careers page
+  C603   Stripe                           greenhouse (confirmed) stripe  token guessed from name; page mentions greenhouse; board nam
+  C609   Discord                          other  no known job-board system on careers page
+  C610   Patreon                          other  no known job-board system on careers page
+  C613   Wikimedia Foundation             greenhouse (confirmed) wikimedia  Wikimedia Foundation
+  C614   GitHub (Microsoft)               other  uses icims
+  C615   Elastic                          other  no known job-board system on careers page
+  C624   Inductive Automation             ashby (confirmed) inductive-automation-llc  
+  C648   Iron Galaxy                      other  no known job-board system on careers page
+  C649   Keywords Studios                 other  no known job-board system on careers page
+  C657   Zynga (Take-Two)                 greenhouse (confirmed) zyngacareers  Zynga 
+  C658   Scopely                          other  no known job-board system on careers page
+  C671   Tripwire Interactive             greenhouse (confirmed) tripwireinteractive  Tripwire Interactive
+  C675   Bohemia Interactive Simulations  workable (confirmed) bohemia-interactive-simulations-inc  Bohemia Interactive Simulations
+  C687   Dire Wolf Digital                other  no known job-board system on careers page
+  C694   Fantasy Grounds (SmiteWorks)     other  no known job-board system on careers page
+  C728   BackerKit                        lever (confirmed) backerkit  
+  C737   TCGplayer                        workday (confirmed) ebay|5|TCGPlayer_External_Career  
+  C739   Pokemon Company International    greenhouse (confirmed) pokemoncareers  The Pokémon Company International
+  C740   Hasbro (corporate)               greenhouse (confirmed) hasbro  Hasbro
+  C771   Follett                          other  no known job-board system on careers page
+  C778   MyHeritage                       greenhouse (confirmed) myheritage  MyHeritage
+  C779   FamilySearch                     other  no known job-board system on careers page
+  C810   Daxko                            other  uses gem
+  C830   Catapult Sports                  greenhouse (confirmed) catapultsports  Catapult Sports
+  C894   Sabre                            workday (confirmed) sabre|1|SabreJobs  
+  C896   Navitaire (Amadeus)              workday (confirmed) amadeus|502|jobs  
+  C898   Kayak (Booking)                  ashby (confirmed) KAYAK  
+  C899   Booking Holdings                 other  uses icims
+  C900   Priceline                        workday (confirmed) priceline|1|Priceline  
+  C901   TripAdvisor                      greenhouse (confirmed) tripadvisor  Tripadvisor
+  C904   Vrbo (Expedia)                   workday (confirmed) expedia|108|search  
+  C909   Oracle Hospitality (Opera)       other  no known job-board system on careers page
+  C910   Agilysys                         greenhouse (confirmed) agilysys  token guessed from name; page mentions greenhouse; board nam
+  C926   Asobo / Microsoft Flight Simulat other  no known job-board system on careers page
+  C928   FlightAware                      other  no known job-board system on careers page
+  C930   ForeFlight (Boeing)              other  uses ukg
+  C931   Jeppesen (Boeing)                other  no known job-board system on careers page
+  C935   Granular (Corteva)               ashby (confirmed) granular-energy.com  
+  C936   Climate FieldView (Bayer)        other  no known job-board system on careers page
+  C985   SolarEdge                        other  no known job-board system on careers page
+  C1010  NGP VAN (Bonterra)               workday (confirmed) bonterra|1|ngpvan  
+  C1057  Zillow (Housing Connector)       workday (confirmed) zillow|5|Zillow_Group_External  
+  C1061  Social Solutions (Bonterra Apric other  no known job-board system on careers page
+  C1063  findhelp (Aunt Bertha)           rippling (confirmed) findhelp  Findhelp
+  C1079  Unlocked Labs                    other  no known job-board system on careers page
+  C1136  Epoch / CCBill                   lever (confirmed) epoch-ai  
+  C1163  MITRE                            workday (confirmed) mitre|5|MITRE  
+  C1182  Waymo                            greenhouse (confirmed) waymo  token guessed from name; page mentions greenhouse; board nam
+  C1188  dSPACE                           other  no known job-board system on careers page
+  C1189  National Instruments (Emerson)   other  uses taleo
+
+summary: ashby (confirmed)=5, greenhouse (confirmed)=24, lever (confirmed)=4, no-url=591, other=77, rippling (confirmed)=2, smartrecruiters (confirmed)=1, unknown=1, workable (confirmed)=2, workday (confirmed)=26
+http: {'requests': 205, 'cache_hits': 2, 'retries': 4}
+
+===== 02:33:41 discover: jobsearch discover --limit 60
+discover: 1 companies to search
+  ---  C381 Fairchild/ON Semi South Portland: no results
+
+summary: searched=1, found=0, no_results=1, careers_pages=0, other_boards=0, errors=0
+
+===== 02:33:44 watch: jobsearch watch --quiet
+  NEW  Becton Dickinson         Lead QA Engineer                                             [yes] USA FL - Stuart Airport Road; USA - Arka
+  NEW  Vertex Inc               GTM Operations Analyst – Analytics & Automation              [yes] Remote USA  USD 99,500-129,400/year
+  CLOSED ashby-5bcd3475-8e38-42f1-897a-fa010ee6f9bd
+  CLOSED workday-JR006137
+
+summary: boards_ok=461, boards_failed=0, fetched=21237, title_matches=1898, kept=131, new=2, updated=129, closed=2, reopened=0
+
+===== 03:17:54 triage: jobsearch triage
+
+triaged=0 failed=0 calls=0 rejects=0 escalations=0 cached=0 models={} tokens={}
+{
+  "count": 1070,
+  "distribution": {
+    "fit": {
+      "1": 142,
+      "2": 262,
+      "3": 396,
+      "4": 238,
+      "5": 32
+    },
+    "stability": {
+      "1": 14,
+      "2": 211,
+      "3": 367,
+      "4": 329,
+      "5": 149
+    },
+    "remote": {
+      "High": 224,
+      "Low": 352,
+      "Medium": 318,
+      "Unknown": 176
+    },
+    "size": {
+      "50-500": 277,
+      "500-5k": 322,
+      "5k+": 231,
+      "<50": 189,
+      "Unknown": 51
+    }
+  },
+  "models": {
+    "claude-haiku-4-5-20251001": 100,
+    "deepseek/deepseek-flash": 970
+  },
+  "sample": [
+    {
+      "id": "C997",
+      "company": "Central Maine Power (Avangrid)",
+      "fit": 2,
+      "stability": 5,
+      "remote": "Low",
+      "size": "5k+",
+      "why": "Maine's largest utility under Avangrid; stable and essential, but vendor-driven IT with few remote QA roles and Augusta-area presence.",
+      "flags": "Augusta HQ; limited remote work",
+      "approach": "IT Quality Assurance Manager"
+    },
+    {
+      "id": "C1077",
+      "company": "Pigeonly",
+      "fit": 3,
+      "stability": 3,
+      "remote": "Medium",
+      "size": "50-500",
+      "why": "Prison communication tech company; QA roles plausible, but ethics concerns around inmate exploitation.",
+      "flags": "Ethics concerns; prison communication",
+      "approach": "Engineering Manager"
+    },
+    {
+      "id": "C840",
+      "company": "MidwayUSA",
+      "fit": 3,
+      "stability": 4,
+      "remote": "Medium",
+      "size": "500-5k",
+      "why": "Shooting sports e-commerce retailer; strong web tech could use QA/SDET, though remote policy and Maine eligibility unclear.",
+      "flags": "Missouri HQ; remote policy unclear",
+      "approach": "Director of IT"
+    },
+    {
+      "id": "C440",
+      "company": "Bloom Works",
+      "fit": 3,
+      "stability": 3,
+      "remote": "High",
+      "size": "<50",
+      "why": "Small remote gov digital cooperative; mission fits public interest but few dedicated QA or SDET openings.",
+      "flags": "Very small; few dedicated QA openings.",
+      "approach": "Director of Delivery"
+    },
+    {
+      "id": "C948",
+      "company": "Kubota",
+      "fit": 3,
+      "stability": 5,
+      "remote": "Low",
+      "size": "5k+",
+      "why": "Tractor manufacturer; hardware-adjacent testing fits, but onsite/hybrid roles and no Maine presence limit remote fit.",
+      "flags": "Onsite/hybrid; no Maine location",
+      "approach": "Quality Manager"
+    },
+    {
+      "id": "C456",
+      "company": "Motorola Solutions",
+      "fit": 5,
+      "stability": 5,
+      "remote": "Medium",
+      "size": "5k+",
+      "why": "Public-safety radios, dispatch and video hardware; strong hardware and telecom-test-equipment adjacency, profitable, with large QA organizations.",
+      "flags": "Many roles onsite or hybrid; security clearance sometimes required",
+      "approach": "Director of Quality Engineering"
+    },
+    {
+      "id": "C1018",
+      "company": "CODE-CWA",
+      "fit": 2,
+      "stability": 3,
+      "remote": "High",
+      "size": "<50",
+      "why": "Tech worker organizing campaign; strong labor mission fit; remote likely",
+      "flags": "Organizing campaign; not software company; labor mission very strong",
+      "approach": "Organizing Director"
+    },
+    {
+      "id": "C336",
+      "company": "Castor",
+      "fit": 3,
+      "stability": 3,
+      "remote": "Unknown",
+      "size": "50-500",
+      "why": "Dutch clinical trial platform; regulated eClinical testing fits the candidate, but small EU company with unclear US-remote hiring.",
+      "flags": "EU headquarters; US-remote openings unclear",
+      "approach": "Head of Engineering"
+    },
+    {
+      "id": "C444",
+      "company": "Agile Six",
+      "fit": 4,
+      "stability": 4,
+      "remote": "High",
+      "size": "50-500",
+      "why": "Employee-owned remote firm building VA digital services; hires senior QA and test engineers; stable federal contracts.",
+      "flags": "Employee-owned; VA contract concentration.",
+      "approach": "Director of Engineering"
+    },
+    {
+      "id": "C581",
+      "company": "Mailchimp (Intuit)",
+      "fit": 2,
+      "stability": 4,
+      "remote": "Medium",
+      "size": "5k+",
+      "why": "Email marketing platform owned by Intuit; stable but no candidate domain match and limited remote QA roles.",
+      "flags": "Domain mismatch; hybrid policy",
+      "approach": "Director of Quality Engineering"
+    }
+  ]
+}
+
+===== 03:17:55 verify: jobsearch verify
+  C358 Kepware (PTC) ...
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 8 sources (30000 chars); free-cloud/gemini/gem
+  C769 Bibliotheca ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C984 Enphase ...
+    verified fit=2 grounded 7/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C684 Overwolf / CurseForge ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C770 Envisionware ...
+    verified fit=2 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1125 Chaturbate (Multi Media LLC) ...
+    verified fit=3 grounded 1/1 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1126 Stripchat ...
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 7 sources (30000 chars); free-cloud/gemini/gem
+  C1127 LiveJasmin (Docler) ...
+    verified fit=3 grounded 1/1 via gemini/gemini-3.5-flash-lite, deepseek/deepseek-flash
+  C1137 Segpay ...
+    verified fit=3 grounded 1/1 via ollama_chat/qwen3.5:9b, deepseek/deepseek-flash
+  C1141 Lovense ...
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 7 sources (30000 chars); free-cloud/gemini/gem
+  C1142 We-Vibe / WOW Tech ...
+    verified fit=3 grounded 2/2 via ollama_chat/qwen3.5:9b, deepseek/deepseek-flash
+  C1143 Lelo ...
+    verified fit=3 grounded 1/1 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1190 Vector Informatik ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C253 Brock Solutions ...
+    verified fit=2 grounded 1/1 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C266 Masimo ...
+    verified fit=3 grounded 9/9 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C419 Formlabs ...
+    verified fit=3 grounded 10/11 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C422 Bose ...
+    verified fit=2 grounded 7/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1167 Blue Origin ...
+    verified fit=1 grounded 14/14 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C151 LambdaTest ...
+    verified fit=3 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C156 Cypress.io ...
+    verified fit=4 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C165 QA Wolf ...
+    verified fit=4 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C184 env0 ...
+    verified fit=1 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C185 Spacelift ...
+    verified fit=3 grounded 8/8 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C239 Flexport ...
+    verified fit=1 grounded 9/9 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C240 project44 ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C241 FourKites ...
+    verified fit=3 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C284 WellSky ...
+    verified fit=3 grounded 6/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C320 Redox ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C321 Health Gorilla ...
+    verified fit=4 grounded 5/5 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C322 Particle Health ...
+    verified fit=4 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C437 Nava PBC ...
+    verified fit=4 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C439 Coforma ...
+    verified fit=3 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C441 Skylight ...
+    verified fit=3 grounded 5/5 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C442 Truss ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, ollama_chat/qwen3.5:9b
+  C443 Oddball ...
+    verified fit=4 grounded 6/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C623 Seeq ...
+    verified fit=3 grounded 5/5 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C651 Lionbridge Games ...
+    verified fit=2 grounded 10/10 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C655 Rec Room ...
+    rejected  no evidence: every search and fetch failed
+  C686 Tabletop Simulator (Berserk Games) ...
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 8 sources (28752 chars); free-cloud/gemini/gem
+  C786 Indiegogo ...
+    verified fit=2 grounded 1/1 via deepseek/deepseek-flash, deepseek/deepseek-flash
+
+summary: queued=1040, verified=35, rejected=5
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C358-20261008T031756.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C1126-20261008T031756.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C1141-20261008T031756.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C655-20261008T031756.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C686-20261008T031756.json
+
+===== 03:44:37 rank: jobsearch rank
+  workday-JR102635                         skill=2 match   maine=yes     GTM Operations Analyst – Analytics & Automation
+  workday-R-552883                         skill=4 match   maine=yes     Lead QA Engineer
+  workday-R-58982                          skill=4 match   maine=no      Lead, Software Engineering QA
+
+summary: scored=3, unchanged=149, failed=0, fetched_pages=1
+
+===== 03:44:53 export: jobsearch export
+exported: companies=67, jobs_new=1, jobs_updated=23, people_new=10, people_updated=0, leads_added=2, refused=0
+
+===== 03:45:35 digest: jobsearch digest
+report: C:\Users\adict\Documents\dev\jobs\out\2026-10-08\digest.html (markdown: C:\Users\adict\Documents\dev\jobs\out\2026-10-08\digest.md)

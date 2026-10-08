@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.portofbrownsville.com/port-of-brownsville-announces-saronic-technologies-partnership-bringing-10000-jobs-to-the-region/",
+  "career_url": "https://jobs.ashbyhq.com/saronic",
+  "company": "Saronic",
+  "company_id": "C036",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "A direct systems-test lead exists; Rust/Linux and HIL domain gaps are unknown.",
+  "hiring_difficulty": 4,
+  "interests": "Autonomous vessels, systems technology",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Large shipyard expansion announcements; much hiring is manufacturing and on-site.",
+  "research_status": "Initial research",
+  "role_families": "Systems software test; quality strategy; integration",
+  "sector": "Growth technology",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

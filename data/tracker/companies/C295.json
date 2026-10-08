@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Applies state-by-state hiring restrictions; confirm Maine.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Chronic-care digital health programs; regulated health data and remote-friendly, but domain lacks hardware or personal-interest match.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Omada Health",
+  "company_id": "C295",
+  "fit_score": 3,
+  "interests": "Chronic care digital health",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Omada%20Health",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; QA Manager",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:10Z",
+  "updated_by": "pipeline"
+}

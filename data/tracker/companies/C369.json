@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small college; no QA focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "College of the Atlantic is a small Bar Harbor college; unlikely to have senior QA or test roles.",
+  "approach_role": "IT Director",
+  "company": "College of the Atlantic",
+  "company_id": "C369",
+  "fit_score": 1,
+  "interests": "Bar Harbor",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Director%20College%20of%20the%20Atlantic",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT Support; QA Analyst; Web QA",
+  "sector": "Maine & New England",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

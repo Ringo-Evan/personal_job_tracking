@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Legal services focus; minimal engineering",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "National LGBTQ legal nonprofit; stable and mission-aligned, but litigation focus means very little software testing work.",
+  "approach_role": "Director of Information Technology",
+  "company": "Lambda Legal",
+  "company_id": "C1104",
+  "fit_score": 1,
+  "interests": "LGBTQ legal",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Information%20Technology%20Lambda%20Legal",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT Support Engineer; QA Analyst",
+  "sector": "LGBTQ",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

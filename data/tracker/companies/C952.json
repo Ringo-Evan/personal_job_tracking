@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tiny team; no QA openings evident",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small farm-robot maker for autonomous hauling; robotics QA could fit, but tiny team with no sign of remote quality roles.",
+  "approach_role": "Head of Engineering",
+  "company": "Burro (Augean Robotics)",
+  "company_id": "C952",
+  "fit_score": 2,
+  "interests": "Farm robots",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Burro%20%28Augean%20Robotics%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Incident response tangential to test automation",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Public company stability; SRE testing skills relevant",
+  "approach_role": "Engineering Manager",
+  "company": "PagerDuty",
+  "company_id": "C177",
+  "fit_score": 2,
+  "interests": "Incident response",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20PagerDuty",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; QA Engineer; Site Reliability Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

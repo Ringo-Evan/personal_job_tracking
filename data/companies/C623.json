@@ -6,7 +6,7 @@
     "sector": "Remote-first software",
     "interests": "Industrial analytics; remote",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Industrial analytics for process manufacturing, remote-friendly; hardware-adjacent regulated data work suits candidate's background well.",
+    "ai_red_flags": "Small QA function; niche market.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Seeq",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA leadership; test automation",
+    "approach_role": "CEO",
+    "ai_summary": "Seeq builds industrial analytics software, remote-first. No QA openings or Maine eligibility confirmed; domain mismatch with regulated medical/hardware background, though candidate shows interest in industrial analytics and remote work.",
+    "ai_red_flags": "No QA openings; Maine eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20Seeq",
+    "career_url": "https://www.seeq.com/company/careers/",
+    "research_notes": "Remote-first industrial analytics company (50-500 employees). All roles remote but Maine eligibility unknown. No QA openings or stability signals listed. CEO Dr. Lisa Graham. Verify Maine eligibility and senior QA demand before applying. Sources: https://www.seeq.com/company/careers/ https://en.wikipedia.org/wiki/Seeq_Corporation",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Fully remote company; all roles are remote, though some positions have location-based eligibility requirements, so US coverage by state is not stated.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Leveraging 15 years of test automation and FDA-regulated V&V, I can help Seeq ensure reliable industrial analytics as a remote-first quality engineer.",
+    "next_research_action": "Watching workable board"
+  },
   "ats": {
     "type": "workable",
     "token": "seeq",
@@ -54,6 +74,16 @@
     "source": null,
     "note": "noted by an earlier search; board system now supported; board name Seeq",
     "job_count": 25
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.seeq.com/company/careers/",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/seeq/j/0C6A35BDE5/"
+    ],
+    "careers_page_note": "uses workable"
   },
   "triage": {
     "fit": 4,
@@ -71,7 +101,65 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C623",
+    "career_url": "https://www.seeq.com/company/careers/",
+    "ats": {
+      "type": "workable",
+      "token": "seeq",
+      "board_url": "https://apply.workable.com/seeq/"
+    },
+    "remote_policy": {
+      "summary": "Fully remote company; all roles are remote, though some positions have location-based eligibility requirements, so US coverage by state is not stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.seeq.com/company/careers/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 3,
+      "rationale": "Seeq builds industrial analytics software, remote-first. No QA openings or Maine eligibility confirmed; domain mismatch with regulated medical/hardware background, though candidate shows interest in industrial analytics and remote work.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Dr. Lisa Graham",
+        "title": "CEO",
+        "source_url": "https://www.seeq.com/company/careers/"
+      }
+    ],
+    "approach_role": "CEO",
+    "outreach_angle": "Leveraging 15 years of test automation and FDA-regulated V&V, I can help Seeq ensure reliable industrial analytics as a remote-first quality engineer.",
+    "red_flags": "No QA openings; Maine eligibility unconfirmed.",
+    "confidence": "low",
+    "sources": [
+      "https://www.seeq.com/company/careers/",
+      "https://en.wikipedia.org/wiki/Seeq_Corporation"
+    ],
+    "notes": "Remote-first industrial analytics company (50-500 employees). All roles remote but Maine eligibility unknown. No QA openings or stability signals listed. CEO Dr. Lisa Graham. Verify Maine eligibility and senior QA demand before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -100,17 +188,71 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.seeq.com/company/careers/",
-    "found": null,
-    "other": [
-      "workable https://apply.workable.com/seeq/j/0C6A35BDE5/"
-    ],
-    "careers_page_note": "uses workable"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Israel/US sites; small funding-dependent startup",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Autonomous orchard tractor startup (Israel and US); robotics test automation fits hardware-adjacent skills, but small and funding-dependent.",
+  "approach_role": "VP of Engineering",
+  "company": "Bluewhite",
+  "company_id": "C951",
+  "fit_score": 3,
+  "interests": "Autonomous orchard tractors",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Bluewhite",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

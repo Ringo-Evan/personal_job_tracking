@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Lebanon NH; remote uncertain",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Lebanon NH health system IT; regulated health IT QA roles possible, but not commutable; remote uncertain.",
+  "approach_role": "IT QA Manager",
+  "company": "Dartmouth Health",
+  "company_id": "C386",
+  "fit_score": 3,
+  "interests": "Lebanon NH health IT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Dartmouth%20Health",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; SDET; Test Lead",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

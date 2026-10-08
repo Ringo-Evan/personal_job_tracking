@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Public benefit gov tech; remote",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior QA Engineer; SDET; Test Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Public-benefit gov tech consultancy, remote-friendly, builds benefit delivery systems; hires QA and test engineers.",
+    "ai_red_flags": "Contract-dependent revenue; past contract losses.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Nava%20PBC",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "role_families": "SDET / test automation; QA leadership; release engineering",
+    "approach_role": "Director of Engineering (Quality)",
+    "ai_summary": "Nava is a public-benefit govtech consultancy delivering federal and state services, fully remote and hiring in Maine. Its regulated, public-sector delivery work suits a senior test engineer, though no QA openings are currently listed.",
+    "ai_red_flags": "No QA/test openings listed; no named QA leadership to gauge team maturity.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20%28Quality%29%20Nava%20PBC",
+    "career_url": "https://www.navapbc.com/careers",
+    "research_notes": "Remote roles hire in a listed state set that includes Maine. Stability rests on decade-plus federal/state contracts and 50M+ households served. No QA openings or named people appeared in the verified facts; team size and QA org structure unknown. Sources: https://www.navapbc.com/careers https://forgoodjobs.org/job_policy-strategist-9b2a4af3 https://www.navapbc.com/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Roles are remote, though hiring is limited to a specific list of states that includes Maine.",
+    "benefit_source": "https://www.navapbc.com/",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "I bring 15 years of C#/.NET test automation and FDA-regulated V&V, directly applicable to Nava's benefits-delivery platforms where reliability, accessibility and compliance decide whether millions of households get served.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "navapbc",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results; Nava PBC",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:navapbc (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,79 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C437",
+    "career_url": "https://www.navapbc.com/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "navapbc",
+      "board_url": "https://job-boards.greenhouse.io/navapbc"
+    },
+    "remote_policy": {
+      "summary": "Roles are remote, though hiring is limited to a specific list of states that includes Maine.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://forgoodjobs.org/job_policy-strategist-9b2a4af3"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Nava reports having delivered services and benefits to more than 50 million households.",
+          "date": null,
+          "url": "https://www.navapbc.com/"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "Company describes a decade-plus track record serving federal, state and local government agencies.",
+          "date": null,
+          "url": "https://www.navapbc.com/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company states it is growing and maturing while keeping its delivery objectives unchanged.",
+          "date": null,
+          "url": "https://www.navapbc.com/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Nava is a public-benefit govtech consultancy delivering federal and state services, fully remote and hiring in Maine. Its regulated, public-sector delivery work suits a senior test engineer, though no QA openings are currently listed.",
+      "role_families": [
+        "SDET / test automation",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering (Quality)",
+    "outreach_angle": "I bring 15 years of C#/.NET test automation and FDA-regulated V&V, directly applicable to Nava's benefits-delivery platforms where reliability, accessibility and compliance decide whether millions of households get served.",
+    "red_flags": "No QA/test openings listed; no named QA leadership to gauge team maturity.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.navapbc.com/careers",
+      "https://forgoodjobs.org/job_policy-strategist-9b2a4af3",
+      "https://www.navapbc.com/"
+    ],
+    "notes": "Remote roles hire in a listed state set that includes Maine. Stability rests on decade-plus federal/state contracts and 50M+ households served. No QA openings or named people appeared in the verified facts; team size and QA org structure unknown.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +194,72 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:navapbc (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

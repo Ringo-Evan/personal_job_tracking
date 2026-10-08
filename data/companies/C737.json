@@ -5,8 +5,8 @@
     "company": "TCGplayer",
     "sector": "Games & stories",
     "interests": "Card marketplace; Syracuse NY",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
+    "role_families": "SDET; QA engineering; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: eBay-owned card marketplace; Syracuse authentication center closing with ~220 union jobs cut and a WARN investigation; remote policy, size and QA openings all unrecorded; parent eBay profitable. Games/cards domain interest is a plus, but hiring and stability signals are poor. Sources: https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs https://www.valueaddedresource.net/ebay-tcgplayer-layoffs-warn-act-investigation/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "TCGplayer is an eBay-owned trading-card marketplace, matching the candidate's games interest, but a recent mass layoff in Syracuse, a WARN investigation and no posted QA roles undercut fit.",
+    "ai_red_flags": "~220 unionized jobs cut in Syracuse; WARN Act investigation; no QA openings posted; remote policy unstated.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Engineering / Head of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20/%20Head%20of%20Quality%20TCGplayer",
+    "outreach_notes": "Your 15 years of .NET test automation and regulated V&V could help TCGplayer keep its card catalog and marketplace transactions reliable as eBay consolidates operations."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
+    "research_notes": "Verified: eBay-owned card marketplace; Syracuse authentication center closing with ~220 union jobs cut and a WARN investigation; remote policy, size and QA openings all unrecorded; parent eBay profitable. Games/cards domain interest is a plus, but hiring and stability signals are poor. Sources: https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs https://www.valueaddedresource.net/ebay-tcgplayer-layoffs-warn-act-investigation/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs",
+    "fit_score": 3,
+    "ai_summary": "TCGplayer is an eBay-owned trading-card marketplace, matching the candidate's games interest, but a recent mass layoff in Syracuse, a WARN investigation and no posted QA roles undercut fit.",
+    "role_families": "SDET; QA engineering; test automation",
+    "ai_red_flags": "~220 unionized jobs cut in Syracuse; WARN Act investigation; no QA openings posted; remote policy unstated.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Engineering / Head of Quality",
+    "outreach_notes": "Your 15 years of .NET test automation and regulated V&V could help TCGplayer keep its card catalog and marketplace transactions reliable as eBay consolidates operations.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20/%20Head%20of%20Quality%20TCGplayer"
+  },
   "ats": {
     "type": "workday",
     "token": "ebay|5|TCGPlayer_External_Career",
     "board_url": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
+    "source": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
+    "note": "",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:ebay|5|TCGPlayer_External_Career (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,85 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C737",
+    "career_url": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
+    "ats": {
+      "type": "workday",
+      "token": "ebay|5|TCGPlayer_External_Career",
+      "board_url": "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "eBay announced it was closing TCGplayer's Syracuse authentication center and moving operations to Kentucky, eliminating about 220 unionized jobs.",
+          "date": null,
+          "url": "https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Law firm investigates possible WARN Act violations over the Syracuse mass layoff of about 215 employees at TCGplayer.",
+          "date": null,
+          "url": "https://www.valueaddedresource.net/ebay-tcgplayer-layoffs-warn-act-investigation/"
+        },
+        {
+          "kind": "other",
+          "summary": "Union members ratified a closing agreement with eBay/TCGplayer that substantially improved severance, COBRA and mental health benefits.",
+          "date": null,
+          "url": "https://www.valueaddedresource.net/ebay-tcgplayer-layoffs-warn-act-investigation/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Parent company eBay reported $2 billion in profits the prior year, per the union's account.",
+          "date": null,
+          "url": "https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "TCGplayer is an eBay-owned trading-card marketplace, matching the candidate's games interest, but a recent mass layoff in Syracuse, a WARN investigation and no posted QA roles undercut fit.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering / Head of Quality",
+    "outreach_angle": "Your 15 years of .NET test automation and regulated V&V could help TCGplayer keep its card catalog and marketplace transactions reliable as eBay consolidates operations.",
+    "red_flags": "~220 unionized jobs cut in Syracuse; WARN Act investigation; no QA openings posted; remote policy unstated.",
+    "confidence": "medium",
+    "sources": [
+      "https://ebay.wd5.myworkdayjobs.com/TCGPlayer_External_Career",
+      "https://www.labornotes.org/2025/06/ebay-aims-bust-trading-card-union-200-layoffs",
+      "https://www.valueaddedresource.net/ebay-tcgplayer-layoffs-warn-act-investigation/"
+    ],
+    "notes": "Verified: eBay-owned card marketplace; Syracuse authentication center closing with ~220 union jobs cut and a WARN investigation; remote policy, size and QA openings all unrecorded; parent eBay profitable. Games/cards domain interest is a plus, but hiring and stability signals are poor.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +200,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:18-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:ebay|5|TCGPlayer_External_Career (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

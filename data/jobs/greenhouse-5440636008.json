@@ -23,21 +23,21 @@
   "track": "SDE pivot",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "Data center facilities/power reliability engineering role, not software QA or test automation; candidate's C#/.NET testing and medical device V&V background does not transfer to power topology modeling.",
+    "why": "Data center power, cooling and reliability engineering role, not software testing; only FMEA/reliability-adjacent overlap. Requires EE/ME facilities background the candidate lacks.",
     "skill_match": 2,
     "seniority": "match",
-    "maine_eligible": "no",
+    "maine_eligible": "unknown",
     "track": "Exploratory",
-    "notes": "Requires data center power/cooling and reliability modeling experience; hybrid office attendance means Maine residency likely unworkable.",
+    "notes": "Remote-friendly US but SF/NYC anchored with travel; asks EE/ME degree plus data center power and cooling depth. Likely a stretch, not QA.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "43c5fbf8df24d27c",
+    "text_hash": "cae7d380ca65e740",
     "text_source": "board"
   }
 }

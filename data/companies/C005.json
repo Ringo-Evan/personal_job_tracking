@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "workable",
+    "token": "action-network",
+    "board_url": "https://apply.workable.com/action-network/",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
+    "source": "https://actionnetwork.org/",
+    "note": "linked from search results; Action Network",
+    "job_count": 0
+  },
   "triage": null,
   "research": null,
   "history": [
@@ -87,10 +97,33 @@
       "changed": [
         "discovery.rejected"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:36-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
+    "at": "2026-10-07",
+    "results": 28,
+    "careers_page": null,
+    "found": "workable:action-network (linked from search results)",
+    "other": [],
     "rejected": [
       "greenhouse:action"
     ]

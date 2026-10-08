@@ -5,8 +5,8 @@
     "company": "Patreon",
     "sector": "Remote-first software",
     "interests": "Creator membership (incl. adult-adjacent creators)",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.patreon.com/careers",
+    "role_families": "SDET; QA leadership; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Patreon is hybrid-listed; no statement on remote roles or Maine eligibility. It cut 20% of staff (93 people) recently. Revenue, creator and member metrics remain strong. No QA openings on its Ashby board. No named people in the pack. Sources: https://www.patreon.com/careers https://remotejobs.org/companies/patreon https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Listed as a hybrid-work employer; the pack gives no statement about remote roles or which states are eligible.",
+    "benefit_source": "https://www.businessinsider.com/patreon-creator-economy-cuts-93-employees-layoffs-ai-memo-2026-7",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Patreon is a creator-membership platform serving adult-adjacent creators, matching candidate interests. However, it lists hybrid work with unknown Maine eligibility, no QA openings, and recent 20% layoffs, making fit uncertain.",
+    "ai_red_flags": "Recent 20% layoff; no QA openings; hybrid policy, Maine remote eligibility unstated.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Patreon",
+    "outreach_notes": "With 15 years in test automation and FDA-regulated V&V, I can bring rigor to Patreon's payout and membership systems, ensuring reliable experiences for creators."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.patreon.com/careers",
+    "research_notes": "Patreon is hybrid-listed; no statement on remote roles or Maine eligibility. It cut 20% of staff (93 people) recently. Revenue, creator and member metrics remain strong. No QA openings on its Ashby board. No named people in the pack. Sources: https://www.patreon.com/careers https://remotejobs.org/companies/patreon https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Listed as a hybrid-work employer; the pack gives no statement about remote roles or which states are eligible.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.businessinsider.com/patreon-creator-economy-cuts-93-employees-layoffs-ai-memo-2026-7",
+    "fit_score": 3,
+    "ai_summary": "Patreon is a creator-membership platform serving adult-adjacent creators, matching candidate interests. However, it lists hybrid work with unknown Maine eligibility, no QA openings, and recent 20% layoffs, making fit uncertain.",
+    "role_families": "SDET; QA leadership; release engineering",
+    "ai_red_flags": "Recent 20% layoff; no QA openings; hybrid policy, Maine remote eligibility unstated.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "With 15 years in test automation and FDA-regulated V&V, I can bring rigor to Patreon's payout and membership systems, ensuring reliable experiences for creators.",
+    "next_research_action": "No supported job board - check https://www.patreon.com/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Patreon"
+  },
   "ats": {
-    "type": "ashby",
-    "token": "patreon",
-    "board_url": "https://jobs.ashbyhq.com/patreon",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 15
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.patreon.com/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:patreon (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -144,6 +172,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -173,15 +202,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:11-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "ashby:patreon (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

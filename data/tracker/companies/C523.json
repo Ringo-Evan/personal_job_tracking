@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Property software, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Property software, .NET heavy; QA roles likely, .NET strong match, but sector not in interests; remote unknown.",
+  "approach_role": "QA Manager",
+  "company": "Yardi",
+  "company_id": "C523",
+  "fit_score": 3,
+  "interests": "Property software; .NET heavy",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Yardi",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:18Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "US roles mostly retail; remote QA unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large public minis company with Warhammer interest; US roles mostly retail/manufacturing, remote software QA unlikely.",
+  "approach_role": "Head of Digital Product",
+  "company": "Games Workshop",
+  "company_id": "C712",
+  "fit_score": 3,
+  "interests": "Warhammer; Memphis US",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Digital%20Product%20Games%20Workshop",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Digital QA Engineer; SDET; Release QA",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

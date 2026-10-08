@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Parent layoffs; remote QA uncertain.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Board game publisher with Ticket to Ride digital apps; digital QA plausible, but parent layoffs and remote uncertainty.",
+  "approach_role": "Digital Product Manager",
+  "company": "Days of Wonder",
+  "company_id": "C718",
+  "fit_score": 4,
+  "interests": "Ticket to Ride digital apps",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Digital%20Product%20Manager%20Days%20of%20Wonder",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Release QA",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

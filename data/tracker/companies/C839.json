@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site likely; few remote QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Employee-owned sporting goods/firearms retailer; stable but retail IT QA likely on-site, remote-from-Maine unlikely.",
+  "approach_role": "IT QA Manager",
+  "company": "Scheels",
+  "company_id": "C839",
+  "fit_score": 2,
+  "interests": "Retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Scheels",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; IT QA Engineer",
+  "sector": "Firearms",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

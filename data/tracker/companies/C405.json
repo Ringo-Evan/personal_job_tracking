@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Marketing tech; remote possible.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Marketing automation software; QA/SDET roles plausible. Remote possible, domain not core interest.",
+  "approach_role": "Engineering Manager",
+  "company": "Klaviyo",
+  "company_id": "C405",
+  "fit_score": 3,
+  "interests": "Boston",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Klaviyo",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

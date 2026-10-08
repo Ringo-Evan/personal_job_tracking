@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Domain mismatch; remote unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Data labeling platform for AI; QA roles plausible but no strong domain match.",
+  "approach_role": "QA Manager",
+  "company": "Labelbox",
+  "company_id": "C1210",
+  "fit_score": 3,
+  "interests": "Data labeling",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Labelbox",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Data Quality Engineer",
+  "sector": "AI & evals",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline"
+}

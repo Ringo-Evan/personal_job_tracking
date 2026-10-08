@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tax domain distant; remote unclear.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Tax software; QA roles plausible in regulated domain, but no listed interest match.",
+  "approach_role": "QA Manager",
+  "company": "Vertex Inc",
+  "company_id": "C506",
+  "fit_score": 3,
+  "interests": "Tax software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Vertex%20Inc",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; Test Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

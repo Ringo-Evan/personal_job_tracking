@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Natick; big QA org",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA leadership; test automation engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified facts are thin: no job board, ATS, size, stability signals, QA openings, or named people. MathWorks is a long-established private, profitable scientific-software vendor with a large QA org, but the only remote note is vague and Maine eligibility is unknown. Confirm remote-from-Maine policy and current QA openings before applying. Sources: https://fairygodboss.com/work-life-balance-flexibility/the-mathworks-inc",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote policy unknown; only mentions if company offers remote jobs without specifying details or eligibility.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "MathWorks builds MATLAB and Simulink, used heavily in medical-device and regulated engineering workflows. It runs a large QA organization, so senior test roles exist, but the facts show no remote policy or Maine eligibility and no Bangor-area site, making location",
+    "ai_red_flags": "Remote policy and Maine eligibility unverified; headquarters is Natick, Massachusetts, with no commutable Downeast Maine presence.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20MathWorks",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience plus C#/.NET automation maps to verifying MathWorks toolchains that medical-device teams rely on for IEC 62304 and FDA submissions."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,34 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Verified facts are thin: no job board, ATS, size, stability signals, QA openings, or named people. MathWorks is a long-established private, profitable scientific-software vendor with a large QA org, but the only remote note is vague and Maine eligibility is unknown. Confirm remote-from-Maine policy and current QA openings before applying. Sources: https://fairygodboss.com/work-life-balance-flexibility/the-mathworks-inc",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Remote policy unknown; only mentions if company offers remote jobs without specifying details or eligibility.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 2,
+    "ai_summary": "MathWorks builds MATLAB and Simulink, used heavily in medical-device and regulated engineering workflows. It runs a large QA organization, so senior test roles exist, but the facts show no remote policy or Maine eligibility and no Bangor-area site, making location",
+    "role_families": "SDET; QA leadership; test automation engineering",
+    "ai_red_flags": "Remote policy and Maine eligibility unverified; headquarters is Natick, Massachusetts, with no commutable Downeast Maine presence.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience plus C#/.NET automation maps to verifying MathWorks toolchains that medical-device teams rely on for IEC 62304 and FDA submissions.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20MathWorks"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.mathworks.com/company/jobs/opportunities.html",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -112,6 +138,7 @@
       "model": "ollama_chat/qwen3.5:9b"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -140,15 +167,55 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.mathworks.com/company/jobs/opportunities.html",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

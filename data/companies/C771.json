@@ -5,8 +5,8 @@
     "company": "Follett",
     "sector": "Books, history & media",
     "interests": "School library software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.folletthiring.com/job-opportunities",
+    "role_families": "SDET / test automation; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Follett Software states it hires global talent and lets employees work from anywhere; Maine eligible. Company revenue US$2.8B (2022), size 500-5k. No QA openings and no people listed on the job board, so target engineering leadership directly and confirm current remote and education-sector budget posture. Sources: https://www.folletthiring.com/job-opportunities https://follett.applytojob.com/apply/ https://follettsoftware.com/culture/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Follett Software says it hires global talent and enables employees to work from anywhere; some retail roles are also listed as Remote.",
+    "benefit_source": "https://en.wikipedia.org/wiki/Follett_Corporation",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://www.folletthiring.com/job-opportunities manually",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "500-5k",
+    "ai_summary": "Follett supplies books, library software and education services; its school-library SaaS platforms offer plausible senior QA/test-automation work and claim work-from-anywhere including Maine, though no QA openings or named leaders are visible and domain alignment is only light.",
+    "ai_red_flags": "No QA openings or contacts verified; education budgets and low-margin book distribution pressure spending.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP or Director of Engineering, Follett Software",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20or%20Director%20of%20Engineering%2C%20Follett%20Software%20Follett",
+    "outreach_notes": "Your 15 years of C#/.NET test automation and FDA-regulated V&V experience maps to keeping a large school-library SaaS platform reliable, accessible and release-ready for districts nationwide."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,48 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.folletthiring.com/job-opportunities",
+    "research_notes": "Verified: Follett Software states it hires global talent and lets employees work from anywhere; Maine eligible. Company revenue US$2.8B (2022), size 500-5k. No QA openings and no people listed on the job board, so target engineering leadership directly and confirm current remote and education-sector budget posture. Sources: https://www.folletthiring.com/job-opportunities https://follett.applytojob.com/apply/ https://follettsoftware.com/culture/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Follett Software says it hires global talent and enables employees to work from anywhere; some retail roles are also listed as Remote.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://en.wikipedia.org/wiki/Follett_Corporation",
+    "fit_score": 4,
+    "ai_summary": "Follett supplies books, library software and education services; its school-library SaaS platforms offer plausible senior QA/test-automation work and claim work-from-anywhere including Maine, though no QA openings or named leaders are visible and domain alignment is only light.",
+    "role_families": "SDET / test automation; QA engineering; release engineering",
+    "ai_red_flags": "No QA openings or contacts verified; education budgets and low-margin book distribution pressure spending.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP or Director of Engineering, Follett Software",
+    "outreach_notes": "Your 15 years of C#/.NET test automation and FDA-regulated V&V experience maps to keeping a large school-library SaaS platform reliable, accessible and release-ready for districts nationwide.",
+    "next_research_action": "No supported job board - check https://www.folletthiring.com/job-opportunities manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20or%20Director%20of%20Engineering%2C%20Follett%20Software%20Follett"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.folletthiring.com/job-opportunities",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://follett.com/about-us/careers/",
+    "found": null,
+    "other": [
+      "jazzhr https://follett.applytojob.com/apply/"
+    ]
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +101,68 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C771",
+    "career_url": "https://www.folletthiring.com/job-opportunities",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Follett Software says it hires global talent and enables employees to work from anywhere; some retail roles are also listed as Remote.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://follettsoftware.com/culture/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "Follett Corporation reported annual revenue of US$2.8 billion in 2022.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/Follett_Corporation"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Follett supplies books, library software and education services; its school-library SaaS platforms offer plausible senior QA/test-automation work and claim work-from-anywhere including Maine, though no QA openings or named leaders are visible and domain alignment is only light.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP or Director of Engineering, Follett Software",
+    "outreach_angle": "Your 15 years of C#/.NET test automation and FDA-regulated V&V experience maps to keeping a large school-library SaaS platform reliable, accessible and release-ready for districts nationwide.",
+    "red_flags": "No QA openings or contacts verified; education budgets and low-margin book distribution pressure spending.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.folletthiring.com/job-opportunities",
+      "https://follett.applytojob.com/apply/",
+      "https://follettsoftware.com/culture/",
+      "https://en.wikipedia.org/wiki/Follett_Corporation"
+    ],
+    "notes": "Verified: Follett Software states it hires global talent and lets employees work from anywhere; Maine eligible. Company revenue US$2.8B (2022), size 500-5k. No QA openings and no people listed on the job board, so target engineering leadership directly and confirm current remote and education-sector budget posture.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,16 +184,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:20-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://follett.com/about-us/careers/",
-    "found": null,
-    "other": [
-      "jazzhr https://follett.applytojob.com/apply/"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

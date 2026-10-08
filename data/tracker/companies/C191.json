@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "AppSec focus narrow; not candidate expertise",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "AppSec testing specialized; outside core QA expertise and medical/RFID domains.",
+  "approach_role": "VP Engineering",
+  "company": "Checkmarx",
+  "company_id": "C191",
+  "fit_score": 2,
+  "interests": "AppSec testing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Checkmarx",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

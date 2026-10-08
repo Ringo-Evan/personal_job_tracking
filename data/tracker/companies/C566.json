@@ -1,0 +1,19 @@
+{
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first password manager; large, likely QA, no hardware/regulated; moderate fit.",
+  "approach_role": "Director of QA",
+  "company": "1Password",
+  "company_id": "C566",
+  "fit_score": 3,
+  "interests": "Remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%201Password",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://jobs.kickstarter.com/",
+  "career_url": "https://jobs.kickstarter.com/",
+  "company": "Kickstarter",
+  "company_id": "C014",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Relevant marketplace skills but competitive employer; Maine absent from current supported-state list.",
+  "hiring_difficulty": 4,
+  "interests": "Board games, TTRPGs, writing, independent creators",
+  "maine_remote": "Maine not listed; verify exception",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Remote does not mean eligible in Maine. Resolve state eligibility before applying.",
+  "research_status": "Initial research",
+  "role_families": "Platform QA; payments; technical delivery",
+  "sector": "Games & stories",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

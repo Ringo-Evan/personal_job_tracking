@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "manufacturing; not software",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Protective cases and outdoor gear; manufacturing QA, limited software test roles.",
+  "approach_role": "Quality Director",
+  "company": "Pelican Products",
+  "company_id": "C882",
+  "fit_score": 2,
+  "interests": "Cases",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Director%20Pelican%20Products",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer; QA Manager",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

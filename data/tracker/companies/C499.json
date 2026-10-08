@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Salesforce stack; limited .NET alignment.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Bank software on Salesforce; QA roles plausible but .NET and domain fit weaker.",
+  "approach_role": "Head of Quality",
+  "company": "nCino",
+  "company_id": "C499",
+  "fit_score": 3,
+  "interests": "Bank software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20nCino",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; QA Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

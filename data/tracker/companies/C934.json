@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Layoff history; ag-tech funding risk",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Ag tech and carbon platform; agriculture interest, but layoffs and funding risk lower stability and remote uncertain.",
+  "approach_role": "VP Engineering",
+  "company": "Indigo Ag",
+  "company_id": "C934",
+  "fit_score": 3,
+  "interests": "Boston ag tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Indigo%20Ag",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Lead",
+  "sector": "Agriculture",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

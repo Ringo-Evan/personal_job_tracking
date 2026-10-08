@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Missouri HQ; remote policy unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Shooting sports e-commerce retailer; strong web tech could use QA/SDET, though remote policy and Maine eligibility unclear.",
+  "approach_role": "Director of IT",
+  "company": "MidwayUSA",
+  "company_id": "C840",
+  "fit_score": 3,
+  "interests": "Shooting retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20IT%20MidwayUSA",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; E-commerce QA Engineer",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

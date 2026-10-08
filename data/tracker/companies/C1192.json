@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage hypersonics; on-site roles likely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Hypersonic aircraft startup; hardware test roles plausible but early-stage and on-site, remote-from-Maine unlikely.",
+  "approach_role": "VP of Engineering",
+  "company": "Hermeus",
+  "company_id": "C1192",
+  "fit_score": 2,
+  "interests": "Hypersonics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Hermeus",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; Automation Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

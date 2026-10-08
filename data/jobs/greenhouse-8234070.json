@@ -24,8 +24,8 @@
   "source": "watcher",
   "first_seen": "2026-10-06",
   "last_seen": "2026-10-06",
-  "missed_runs": 0,
-  "closed_at": null,
+  "missed_runs": 2,
+  "closed_at": "2026-10-07",
   "reopened_at": null,
   "job_id": null,
   "score": {

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Venture-backed; narrow security focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Security scanning specialized; outside core QA and medical/RFID expertise.",
+  "approach_role": "VP Engineering",
+  "company": "Snyk",
+  "company_id": "C192",
+  "fit_score": 2,
+  "interests": "Security testing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Snyk",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

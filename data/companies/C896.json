@@ -5,8 +5,8 @@
     "company": "Navitaire (Amadeus)",
     "sector": "Travel",
     "interests": "Airline reservations",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.navitaire.com/careers",
+    "role_families": "SDET; QA/test engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified facts are minimal: only sector (travel/airline reservations) and parent brand. No remote policy, size, stability signals, QA openings, or people listed. Amadeus is a large, profitable travel-IT group, so durability is likely decent, but Maine-remote eligibility and senior QA demand remain unconfirmed. Sources: https://www.navitaire.com/careers",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Navitaire builds airline reservation and ancillary-revenue software for low-cost carriers, part of Amadeus. The travel domain matches the candidate's stated interest, but no verified remote policy, QA openings, or contacts exist, so fit is speculative.",
+    "ai_red_flags": "No verified remote policy, openings, or staff contacts; hiring may center on other Amadeus sites.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Engineering Manager, Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Engineering%20Navitaire%20%28Amadeus%29",
+    "outreach_notes": "Fifteen years of test automation and regulated V&V maps well to airline reservation platforms; I would ask how Navitaire distributes quality engineering teams and whether Maine-based remote work is supported."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.navitaire.com/careers",
+    "research_notes": "Verified facts are minimal: only sector (travel/airline reservations) and parent brand. No remote policy, size, stability signals, QA openings, or people listed. Amadeus is a large, profitable travel-IT group, so durability is likely decent, but Maine-remote eligibility and senior QA demand remain unconfirmed. Sources: https://www.navitaire.com/careers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Navitaire builds airline reservation and ancillary-revenue software for low-cost carriers, part of Amadeus. The travel domain matches the candidate's stated interest, but no verified remote policy, QA openings, or contacts exist, so fit is speculative.",
+    "role_families": "SDET; QA/test engineering; release engineering",
+    "ai_red_flags": "No verified remote policy, openings, or staff contacts; hiring may center on other Amadeus sites.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Engineering Manager, Quality Engineering",
+    "outreach_notes": "Fifteen years of test automation and regulated V&V maps well to airline reservation platforms; I would ask how Navitaire distributes quality engineering teams and whether Maine-based remote work is supported.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Engineering%20Navitaire%20%28Amadeus%29"
+  },
   "ats": {
     "type": "workday",
     "token": "amadeus|502|jobs",
     "board_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://www.navitaire.com/careers",
-    "job_count": 108
+    "source": "https://www.navitaire.com/careers",
+    "note": "",
+    "job_count": 129
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.navitaire.com/careers",
+    "found": "workday:amadeus|502|jobs (embedded in https://www.navitaire.com/careers)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -122,6 +149,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -151,15 +179,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:23-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.navitaire.com/careers",
-    "found": "workday:amadeus|502|jobs (embedded in https://www.navitaire.com/careers)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

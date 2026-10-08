@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site in MA, no remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Massachusetts firearms manufacturer; interest aligns, but QA roles likely on-site and hardware-focused, not remote.",
+  "approach_role": "Director of Quality",
+  "company": "Savage Arms",
+  "company_id": "C857",
+  "fit_score": 3,
+  "interests": "Firearms; Westfield MA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Savage%20Arms",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer; QA Manager",
+  "sector": "Firearms",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

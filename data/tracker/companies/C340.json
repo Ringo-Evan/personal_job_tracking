@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite California; recent revenue declines",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Oxygen devices and connected respiratory products; regulated hardware testing fits, but mostly onsite and revenue declining.",
+  "approach_role": "Director of Quality",
+  "company": "Inogen",
+  "company_id": "C340",
+  "fit_score": 3,
+  "interests": "Oxygen devices",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Inogen",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Quality Engineer; V&V Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

@@ -5,8 +5,8 @@
     "company": "OpenGov",
     "sector": "Enterprise & govtech",
     "interests": "Gov budgeting software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://opengov.com/careers/",
+    "role_families": "SDET; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Govtech SaaS for public-sector budgeting; public-sector customer base implies durable, sticky revenue. Job board shows openings mostly anchored to Chicago, Boston, Atlanta, San Francisco, Dallas and Pune, with one US remote role; Maine eligibility appears possible but unconfirmed. No QA/SDET openings found, so outreach rather than application is needed. Sources: https://opengov.com/careers/ https://opengov.com/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Openings are mostly tied to US or India city locations (Chicago, Boston, Atlanta, San Francisco, Dallas, Pune); one US role is listed as Remote. No company-wide remote policy is stated.",
+    "benefit_source": "https://opengov.com/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "OpenGov builds AI-powered budgeting and permitting software for cities, counties and state agencies. Test work would suit a senior engineer, but the candidate's domains (medical devices, hardware, telecom) don't overlap, no QA roles are posted, and remote flexibility is limited.",
+    "ai_red_flags": "No QA openings posted; roles mostly tied to specific city locations; no stated company-wide remote policy; no domain overlap.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20OpenGov",
+    "outreach_notes": "Your 15 years in C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps to compliance-grade, audit-heavy govtech software where release confidence is a selling point."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://opengov.com/careers/",
+    "research_notes": "Govtech SaaS for public-sector budgeting; public-sector customer base implies durable, sticky revenue. Job board shows openings mostly anchored to Chicago, Boston, Atlanta, San Francisco, Dallas and Pune, with one US remote role; Maine eligibility appears possible but unconfirmed. No QA/SDET openings found, so outreach rather than application is needed. Sources: https://opengov.com/careers/ https://opengov.com/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Openings are mostly tied to US or India city locations (Chicago, Boston, Atlanta, San Francisco, Dallas, Pune); one US role is listed as Remote. No company-wide remote policy is stated.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://opengov.com/",
+    "fit_score": 2,
+    "ai_summary": "OpenGov builds AI-powered budgeting and permitting software for cities, counties and state agencies. Test work would suit a senior engineer, but the candidate's domains (medical devices, hardware, telecom) don't overlap, no QA roles are posted, and remote flexibility is limited.",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "ai_red_flags": "No QA openings posted; roles mostly tied to specific city locations; no stated company-wide remote policy; no domain overlap.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Your 15 years in C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps to compliance-grade, audit-heavy govtech software where release confidence is a selling point.",
+    "next_research_action": "No supported job board - check https://opengov.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20OpenGov"
+  },
   "ats": {
-    "type": "ashby",
-    "token": "opengov",
-    "board_url": "https://jobs.ashbyhq.com/opengov",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 68
+    "type": "unknown",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://opengov.com/careers/",
+    "note": "careers page HTTP 403",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:opengov (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -130,6 +158,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,15 +188,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:33-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "ashby:opengov (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

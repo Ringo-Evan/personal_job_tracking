@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.gadventures.com/careers/",
+  "career_url": "https://www.gadventures.com/careers/",
+  "company": "G Adventures",
+  "company_id": "C052",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Few senior software roles may exist; tour leading is a substantial career shift.",
+  "hiring_difficulty": 4,
+  "interests": "Adventure travel, community tourism",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Tour-leader jobs involve travel; office positions do not necessarily do so.",
+  "research_status": "Initial research",
+  "role_families": "Technology; tour operations; program management",
+  "sector": "Travel",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -7,6 +7,14 @@
   "source_url": "https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/",
   "why_approach": "CEO at Nationwide. Fifteen years of regulated testing (FDA V&V, design controls) maps well to a mutual insurer's compliance-heavy QA and automation needs, if remote work from Maine is permitted.",
   "first_seen": "2026-10-06",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0031",
+  "exported": {
+    "name": "Kirt Walker",
+    "company": "Nationwide",
+    "title": "CEO",
+    "source_url": "https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/",
+    "why_approach": "CEO at Nationwide. Fifteen years of regulated testing (FDA V&V, design controls) maps well to a mutual insurer's compliance-heavy QA and automation needs, if remote work from Maine is permitted.",
+    "company_id": "C483"
+  },
+  "first_exported": "2026-10-07"
 }

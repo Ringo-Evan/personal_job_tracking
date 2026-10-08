@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "RTO; hubs in IL, TX, AZ, GA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large insurer with in-house tech; regulated domain fits senior QA, but return-to-office posture limits remote-from-Maine prospects.",
+  "approach_role": "Quality Engineering Manager",
+  "company": "State Farm",
+  "company_id": "C482",
+  "fit_score": 3,
+  "interests": "Insurance tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Engineering%20Manager%20State%20Farm",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Lead; Test Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:16Z",
+  "updated_by": "pipeline"
+}

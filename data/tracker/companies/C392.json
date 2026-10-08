@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite semiconductor test; remote unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Semiconductor company; hardware-adjacent, regulated. Test engineering roles likely onsite in Manchester NH.",
+  "approach_role": "Test Engineering Manager",
+  "company": "Allegro MicroSystems",
+  "company_id": "C392",
+  "fit_score": 3,
+  "interests": "Manchester NH semis",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Allegro%20MicroSystems",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Automation Engineer; Quality Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

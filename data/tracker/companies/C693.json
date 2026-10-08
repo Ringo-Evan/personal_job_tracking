@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small VTT; limited QA openings.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "VTT platform; TTRPG interest match, but small scale likely means no dedicated senior QA roles and remote unknown.",
+  "approach_role": "CTO",
+  "company": "Shard Tabletop",
+  "company_id": "C693",
+  "fit_score": 2,
+  "interests": "VTT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Shard%20Tabletop",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Release QA",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

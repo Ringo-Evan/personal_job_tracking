@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Somerville 3D printing",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Test Engineer; QA Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "ai_summary": "3D printing hardware/software; excellent hardware-adjacent test automation fit, but Somerville likely onsite/hybrid and not commutable.",
+    "ai_red_flags": "Onsite/hybrid, Somerville location",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Formlabs",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; QA/Test Engineering; Release/Test-Tooling Engineering",
+    "approach_role": "VP of Engineering (no named QA leader in facts; Co-founder Maxim Lobovsky",
+    "ai_summary": "Formlabs builds professional 3D printers (hardware, firmware, software) in Somerville with dental/medical applications, matching the candidate's hardware-adjacent, FDA-regulated testing background. However, no QA openings are listed and Maine-remote eligibility is unconfirmed, so fit hinges on a remote-friendly senior test role.",
+    "ai_red_flags": "Recent layoffs (under 40 roles, in waves); no current QA openings; Maine-remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20%28no%20named%20QA%20leader%20in%20facts%3B%20Co-founder%20Maxim%20Lobovsky%20Formlabs",
+    "career_url": "https://careers.formlabs.com/",
+    "research_notes": "Hybrid with regular in-office days; careers page mentions HQ, R&D hubs, manufacturing sites or remote, but Maine eligibility unknown. Revenue ~$250M (2025), 38% professional 3D-printing shipment share, hiring across divisions, acquired Micronics. No QA/SDET openings listed; dental/medical focus suits FDA V&V background. Sources: https://careers.formlabs.com/ https://careers.formlabs.com/engineering-product/ https://techcrunch.com/2024/08/15/3d-printing-stalwart-formlabs-confirms-small-number-of-layoffs/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Hybrid model with regular in-office days reported; careers page says roles may sit at headquarters, R&D hubs, manufacturing sites, or remote.",
+    "benefit_source": "https://en.wikipedia.org/wiki/Formlabs",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation experience maps to Formlabs' dental/medical 3D printing platforms, where printer firmware, software, and hardware testing converge.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "formlabs",
@@ -54,6 +75,14 @@
     "source": null,
     "note": "greenhouse token guessed from name; board name Formlabs",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.formlabs.com/",
+    "found": "greenhouse:formlabs (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
   },
   "triage": {
     "fit": 4,
@@ -71,7 +100,100 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C419",
+    "career_url": "https://careers.formlabs.com/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "formlabs",
+      "board_url": "https://job-boards.greenhouse.io/formlabs"
+    },
+    "remote_policy": {
+      "summary": "Hybrid model with regular in-office days reported; careers page says roles may sit at headquarters, R&D hubs, manufacturing sites, or remote.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.formlabs.com/engineering-product/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Formlabs confirmed layoffs of under 40 people out of a headcount of just under 750, occurring in waves.",
+          "date": null,
+          "url": "https://techcrunch.com/2024/08/15/3d-printing-stalwart-formlabs-confirms-small-number-of-layoffs/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Formlabs acquired two-person SLS startup Micronics.",
+          "date": null,
+          "url": "https://techcrunch.com/2024/08/15/3d-printing-stalwart-formlabs-confirms-small-number-of-layoffs/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Spokesperson said the company is hiring new roles across all divisions and geographies and investing heavily in R&D.",
+          "date": null,
+          "url": "https://techcrunch.com/2024/08/15/3d-printing-stalwart-formlabs-confirms-small-number-of-layoffs/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Wikipedia lists Formlabs revenue as US$250 million for 2025.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/Formlabs"
+        },
+        {
+          "kind": "growth",
+          "summary": "Formlabs held leading global market share in the professional price-class category in 2025, with 38% of hardware shipments.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/Formlabs"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Formlabs builds professional 3D printers (hardware, firmware, software) in Somerville with dental/medical applications, matching the candidate's hardware-adjacent, FDA-regulated testing background. However, no QA openings are listed and Maine-remote eligibility is unconfirmed, so fit hinges on a remote-friendly senior test role.",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Release/Test-Tooling Engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Maxim Lobovsky",
+        "title": "Co-founder",
+        "source_url": "https://en.wikipedia.org/wiki/Formlabs"
+      }
+    ],
+    "approach_role": "VP of Engineering (no named QA leader in facts; Co-founder Maxim Lobovsky",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent automation experience maps to Formlabs' dental/medical 3D printing platforms, where printer firmware, software, and hardware testing converge.",
+    "red_flags": "Recent layoffs (under 40 roles, in waves); no current QA openings; Maine-remote eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.formlabs.com/",
+      "https://careers.formlabs.com/engineering-product/",
+      "https://techcrunch.com/2024/08/15/3d-printing-stalwart-formlabs-confirms-small-number-of-layoffs/",
+      "https://en.wikipedia.org/wiki/Formlabs"
+    ],
+    "notes": "Hybrid with regular in-office days; careers page mentions HQ, R&D hubs, manufacturing sites or remote, but Maine eligibility unknown. Revenue ~$250M (2025), 38% professional 3D-printing shipment share, hiring across divisions, acquired Micronics. No QA/SDET openings listed; dental/medical focus suits FDA V&V background.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 11,
+      "kept": 10,
+      "fail_rate": 0.091,
+      "dropped": [
+        "people[1]: not a full name"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,15 +216,72 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.formlabs.com/",
-    "found": "greenhouse:formlabs (greenhouse token guessed from name)",
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

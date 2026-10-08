@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Layoffs; return-to-office pressure",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Engine and tooling vendor; test automation and XR-adjacent QA roles exist, but hiring has contracted and offices dominate.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "Unity Technologies",
+  "company_id": "C654",
+  "fit_score": 4,
+  "interests": "Engine + tools",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Unity%20Technologies",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer, Engine/Tools; Quality Engineering Lead",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

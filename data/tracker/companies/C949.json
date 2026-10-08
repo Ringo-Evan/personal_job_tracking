@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite; hardware focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Tractor manufacturer; hardware-adjacent testing fits, but onsite roles and no Maine presence mean remote unlikely.",
+  "approach_role": "Quality Manager",
+  "company": "Mahindra Ag",
+  "company_id": "C949",
+  "fit_score": 3,
+  "interests": "Tractors",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%20Mahindra%20Ag",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; SDET",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

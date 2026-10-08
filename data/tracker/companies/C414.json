@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Acquired by Bending Spoons; restructuring risk",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Video streaming platform; QA automation roles plausible, but domain mismatch; recent acquisition may mean restructuring.",
+  "approach_role": "Quality Engineering Manager",
+  "company": "Brightcove",
+  "company_id": "C414",
+  "fit_score": 3,
+  "interests": "Boston video",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Engineering%20Manager%20Brightcove",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Fleet payments",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; test automation engineering; QA engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "S&P 500, $3.75B 2023 revenue, upsized revolver to $1.775B; rebranded FLEETCOR to Corpay (NYSE: CPAY) March 2024. Policy: flexible hybrid remote/office, no US state-eligibility details. No QA openings or named leaders found; verify Maine remote eligibility and QA headcount before pursuing. Sources: https://www.corpay.com/corporate-newsroom/15786/the-new-fleetcor-blog-why-this-why-now- https://www.corpay.com/corporate-newsroom/17261/fleetcor-upsizes-credit-facility-by-600-million-establishing-10b5-1-plan-to-repurchase-shares https://www.corpay.com/corporate-newsroom/17431/fleetcor-announces-rebranding-to-corpay",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Flexible hybrid model combining remote work with in-office collaboration; no US state-eligibility details given.",
+    "benefit_source": "https://www.corpay.com/corporate-newsroom/17431/fleetcor-announces-rebranding-to-corpay",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Corpay (ex-FLEETCOR) is a large fleet-payments fintech with heavy compliance and transaction-testing needs, so senior SDET/QA roles are plausible. But the flexible-hybrid policy gives no Maine-eligibility detail and no Maine site, so remote fit is unconfirmed.",
+    "ai_red_flags": "No QA openings listed; Maine remote eligibility unconfirmed and no Maine/New England office cited in the facts.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Fleetcor/Corpay",
+    "outreach_notes": "15 years of C#/.NET test automation and FDA-regulated V&V maps well to Corpay's payments-compliance testing; I'm a Maine-based remote engineer seeking a senior SDET or QA lead role."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "S&P 500, $3.75B 2023 revenue, upsized revolver to $1.775B; rebranded FLEETCOR to Corpay (NYSE: CPAY) March 2024. Policy: flexible hybrid remote/office, no US state-eligibility details. No QA openings or named leaders found; verify Maine remote eligibility and QA headcount before pursuing. Sources: https://www.corpay.com/corporate-newsroom/15786/the-new-fleetcor-blog-why-this-why-now- https://www.corpay.com/corporate-newsroom/17261/fleetcor-upsizes-credit-facility-by-600-million-establishing-10b5-1-plan-to-repurchase-shares https://www.corpay.com/corporate-newsroom/17431/fleetcor-announces-rebranding-to-corpay",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Flexible hybrid model combining remote work with in-office collaboration; no US state-eligibility details given.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 5,
+    "benefit_source": "https://www.corpay.com/corporate-newsroom/17431/fleetcor-announces-rebranding-to-corpay",
+    "fit_score": 3,
+    "ai_summary": "Corpay (ex-FLEETCOR) is a large fleet-payments fintech with heavy compliance and transaction-testing needs, so senior SDET/QA roles are plausible. But the flexible-hybrid policy gives no Maine-eligibility detail and no Maine site, so remote fit is unconfirmed.",
+    "role_families": "SDET; test automation engineering; QA engineering",
+    "ai_red_flags": "No QA openings listed; Maine remote eligibility unconfirmed and no Maine/New England office cited in the facts.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "15 years of C#/.NET test automation and FDA-regulated V&V maps well to Corpay's payments-compliance testing; I'm a Maine-based remote engineer seeking a senior SDET or QA lead role.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Fleetcor/Corpay"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -133,6 +160,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -161,15 +189,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

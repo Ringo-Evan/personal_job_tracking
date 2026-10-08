@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Limited in-house QA; travel volatility.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Expedition cruise operator; travel interest, but small IT footprint and QA roles/remote unclear.",
+  "approach_role": "Director of IT",
+  "company": "Lindblad Expeditions",
+  "company_id": "C920",
+  "fit_score": 2,
+  "interests": "Expedition cruises",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20IT%20Lindblad%20Expeditions",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; Software QA",
+  "sector": "Travel",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:30Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Adult & sexuality",
     "interests": "Adult payment processing",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Compliance QA",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "ai_summary": "Adult payment processor; regulated payments QA fits candidate. Stable niche, but remote-Maine policy not confirmed.",
+    "ai_red_flags": "Remote-Maine unknown",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Segpay",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; test automation",
+    "approach_role": "VP of Engineering / Head of Quality",
+    "ai_summary": "Segpay processes high-risk payments, including adult-industry merchants, matching the candidate's stated adult-industry interest; regulated payments echo their FDA V&V background. Remote-from-Maine policy, team size, and QA openings are unverified.",
+    "ai_red_flags": "No QA openings listed, remote policy unstated, team and leaders unknown; adult-payments compliance work can be demanding.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20/%20Head%20of%20Quality%20Segpay",
+    "research_notes": "Verified: adult/high-risk payment processing; a public company with a monitored status page; no QA openings, no named contacts, no remote policy, size or ATS details. Sector aligns with the candidate's adult-industry interest; regulated payments overlap with FDA V&V. Confirm Maine-remote eligibility and QA headcount before applying. Sources: https://gethelp.segpay.com/docs/Content/Home.htm",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://gethelp.segpay.com/docs/Content/Home.htm",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Fifteen years in C#/.NET test automation and FDA-regulated V&V maps to Segpay's PCI-compliant, high-risk payment platform; I can strengthen release quality and merchant-facing compliance testing.",
+    "next_research_action": "No supported job board found"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://segpay.isolvedhire.com/jobs/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +89,65 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1137",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "Public company with operational status page monitored for availability.",
+          "date": null,
+          "url": "https://gethelp.segpay.com/docs/Content/Home.htm"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Segpay processes high-risk payments, including adult-industry merchants, matching the candidate's stated adult-industry interest; regulated payments echo their FDA V&V background. Remote-from-Maine policy, team size, and QA openings are unverified.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering / Head of Quality",
+    "outreach_angle": "Fifteen years in C#/.NET test automation and FDA-regulated V&V maps to Segpay's PCI-compliant, high-risk payment platform; I can strengthen release quality and merchant-facing compliance testing.",
+    "red_flags": "No QA openings listed, remote policy unstated, team and leaders unknown; adult-payments compliance work can be demanding.",
+    "confidence": "low",
+    "sources": [
+      "https://gethelp.segpay.com/docs/Content/Home.htm"
+    ],
+    "notes": "Verified: adult/high-risk payment processing; a public company with a monitored status page; no QA openings, no named contacts, no remote policy, size or ATS details. Sector aligns with the candidate's adult-industry interest; regulated payments overlap with FDA V&V. Confirm Maine-remote eligibility and QA headcount before applying.",
+    "model": {
+      "extract": "ollama_chat/qwen3.5:9b",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "ollama_chat/qwen3.5:9b"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +169,71 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://segpay.isolvedhire.com/jobs/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

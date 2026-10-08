@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Scarborough hybrid; far from Downeast",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Hannaford is a grocery chain with IT in Scarborough; QA roles possible but hybrid, far from Downeast.",
+  "approach_role": "IT QA Manager",
+  "company": "Hannaford",
+  "company_id": "C353",
+  "fit_score": 2,
+  "interests": "Grocery; Scarborough ME IT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Hannaford",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Automation Engineer; SDET",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

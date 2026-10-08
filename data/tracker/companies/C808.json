@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "PE-owned; periodic restructuring",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Wellness studio booking SaaS with a sizeable QA org where senior automation roles exist, remote-friendly but under PE cost pressure.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Mindbody",
+  "company_id": "C808",
+  "fit_score": 3,
+  "interests": "Fitness studio software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Mindbody",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Manager",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

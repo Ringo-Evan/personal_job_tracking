@@ -1,0 +1,22 @@
+{
+  "company": "Procore",
+  "company_id": "C516",
+  "current_stage": "Lead",
+  "date_discovered": "2026-10-06",
+  "fit_notes": "Posting says remote but location field is US-Texas; confirm Maine eligibility. Check willingness for FAA Part 107 and quarterly travel. listed at US - Texas but the description says remote; check",
+  "highest_stage": "None",
+  "job_id": "JW0024",
+  "job_title": "Senior QA Engineer - DroneDeploy",
+  "last_checked": "2026-10-07",
+  "listing_evidence": "Verified live",
+  "location": "US - Texas",
+  "maine_eligible": "Unknown",
+  "next_action": "Review and apply",
+  "posting_url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers/job/US---Texas/Senior-QA-Engineer---DroneDeploy_R0018636",
+  "skill_match": 4,
+  "source_url": "https://procore.wd12.myworkdayjobs.com/Procore_External_Careers/job/US---Texas/Senior-QA-Engineer---DroneDeploy_R0018636",
+  "track": "Core QA",
+  "updated_at": "2026-10-08T07:45:35Z",
+  "updated_by": "pipeline",
+  "work_mode": "Unknown"
+}

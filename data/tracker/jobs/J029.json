@@ -1,0 +1,22 @@
+{
+  "company": "Tyler Technologies",
+  "company_id": "C073",
+  "current_stage": "Lead",
+  "date_discovered": "2026-09-30",
+  "fit_notes": "Full-stack .NET/JS/SQL/AWS. Developer role - only worth it if you want the SDE pivot. Tyler runs many .NET product teams, so its QA listings are the better primary search.",
+  "highest_stage": "None",
+  "hiring_difficulty": 4,
+  "job_id": "J029",
+  "job_title": "Senior .NET Software Engineer, Defendant Access (26-25330-01)",
+  "last_checked": "2026-09-30",
+  "listing_evidence": "Indexed lead - verify",
+  "location": "Not verified",
+  "maine_eligible": "Unknown",
+  "next_action": "Confirm vacancy and remote eligibility; also search Tyler QA titles",
+  "posting_url": "https://www.tylertech.com/careers/job-listings/Senior-NET-Software-Engineer-26-25330-01",
+  "source_url": "https://www.tylertech.com/careers/job-listings/Senior-NET-Software-Engineer-26-25330-01",
+  "track": "SDE pivot",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude",
+  "work_mode": "Unknown"
+}

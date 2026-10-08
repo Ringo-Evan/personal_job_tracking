@@ -1,0 +1,21 @@
+{
+  "approach_role": "Engineering lead",
+  "career_url": "https://archive.org/about/jobs.php",
+  "company": "Internet Archive",
+  "company_id": "C105",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Nonprofit; small eng team; SF.",
+  "hiring_difficulty": 4,
+  "interests": "Digital preservation, access to information",
+  "maine_remote": "Unknown",
+  "next_research_action": "Check jobs",
+  "outreach_notes": "Access-to-information mission.",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20lead%20Internet%20Archive",
+  "research_as_of": "2026-09-30",
+  "research_notes": "From general knowledge, not yet searched - verify. Wayback Machine, Open Library.",
+  "research_status": "Initial research",
+  "role_families": "Engineering; QA; infra",
+  "sector": "History",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude"
+}

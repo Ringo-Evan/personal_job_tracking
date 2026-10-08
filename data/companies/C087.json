@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C087",
     "company": "WorkMoney",
-    "sector": "Labor",
+    "sector": "Labor & organizing",
     "interests": "Economic organizing; unionized staff",
     "career_url": "https://jobs.ffwd.org/companies/workmoney",
     "role_families": "Tech; organizing tools",
@@ -55,8 +55,19 @@
     "note": "noted by an earlier search; board system now supported; board name WorkMoney, Inc.",
     "job_count": 0
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://workmoney.org/about-us/careers",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/workmoney/"
+    ],
+    "careers_page_note": "uses workable"
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -88,17 +99,14 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://workmoney.org/about-us/careers",
-    "found": null,
-    "other": [
-      "workable https://apply.workable.com/workmoney/"
-    ],
-    "careers_page_note": "uses workable"
-  }
+  "last_exported_at": null
 }

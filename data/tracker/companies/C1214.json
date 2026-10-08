@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote-friendly; domain mismatch",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Online IDE and AI coding platform; remote noted, QA roles plausible, weak domain match.",
+  "approach_role": "QA Lead",
+  "company": "Replit",
+  "company_id": "C1214",
+  "fit_score": 3,
+  "interests": "AI coding; remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Replit",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "AI & evals",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline"
+}

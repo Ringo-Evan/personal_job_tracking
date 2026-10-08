@@ -7,6 +7,14 @@
   "source_url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
   "why_approach": "Incoming CTO (joint) at Atlassian. Fifteen years of C#/.NET test automation and tooling at scale could support Atlassian's engineering quality as it restructures around AI, though your FDA-regulated V&V depth is a domain shift.",
   "first_seen": "2026-10-06",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0025",
+  "exported": {
+    "name": "Vikram Rao",
+    "company": "Atlassian",
+    "title": "Incoming CTO (joint)",
+    "source_url": "https://www.theguardian.com/technology/2026/mar/12/atlassian-layoffs-software-technology-ai-push-mike-cannon-brookes-asx",
+    "why_approach": "Incoming CTO (joint) at Atlassian. Fifteen years of C#/.NET test automation and tooling at scale could support Atlassian's engineering quality as it restructures around AI, though your FDA-regulated V&V depth is a domain shift.",
+    "company_id": "C591"
+  },
+  "first_exported": "2026-10-07"
 }

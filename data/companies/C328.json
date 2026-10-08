@@ -5,8 +5,8 @@
     "company": "MasterControl",
     "sector": "Regulated healthtech",
     "interests": "Quality/compliance software for FDA companies",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.mastercontrol.com/careers/",
+    "role_families": "SDET; QA leadership; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "MasterControl (500-5k employees) provides QMS software for FDA-regulated companies. Domain fit is strong for a regulated-industry test engineer. However, recent layoffs indicate instability, remote policy is unknown, and no QA openings are listed. Verify remote eligibility and team growth. Sources: https://www.mastercontrol.com/careers/ https://www.biopharmaboardroom.com/news/2/4604/mastercontrol-announces-workforce-reduction-as-part-of-strategic-restructuring-effort.html",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.mastercontrol.com/careers/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "MasterControl sells quality/compliance software for FDA-regulated life sciences. The candidate's FDA-regulated medical device V&V background is a direct domain match, but remote policy is unspecified and no QA openings are listed.",
+    "ai_red_flags": "Recent layoffs and restructuring; remote policy not stated; no QA roles currently listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20MasterControl",
+    "outreach_notes": "My 15 years in FDA-regulated medical device testing, including V&V and design controls, translates directly to ensuring MasterControl's QMS platform meets the same rigorous standards."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.mastercontrol.com/careers/",
+    "research_notes": "MasterControl (500-5k employees) provides QMS software for FDA-regulated companies. Domain fit is strong for a regulated-industry test engineer. However, recent layoffs indicate instability, remote policy is unknown, and no QA openings are listed. Verify remote eligibility and team growth. Sources: https://www.mastercontrol.com/careers/ https://www.biopharmaboardroom.com/news/2/4604/mastercontrol-announces-workforce-reduction-as-part-of-strategic-restructuring-effort.html",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.mastercontrol.com/careers/",
+    "fit_score": 3,
+    "ai_summary": "MasterControl sells quality/compliance software for FDA-regulated life sciences. The candidate's FDA-regulated medical device V&V background is a direct domain match, but remote policy is unspecified and no QA openings are listed.",
+    "role_families": "SDET; QA leadership; test automation",
+    "ai_red_flags": "Recent layoffs and restructuring; remote policy not stated; no QA roles currently listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "My 15 years in FDA-regulated medical device testing, including V&V and design controls, translates directly to ensuring MasterControl's QMS platform meets the same rigorous standards.",
+    "next_research_action": "No supported job board - check https://www.mastercontrol.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20MasterControl"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "mastercontrol",
-    "board_url": "https://job-boards.greenhouse.io/mastercontrol",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "greenhouse token guessed from name; board name MasterControl",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.mastercontrol.com/careers/",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.mastercontrol.com/careers/",
+    "found": "greenhouse:mastercontrol (greenhouse token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
   },
   "triage": {
     "fit": 5,
@@ -136,6 +165,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -165,16 +195,79 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:19-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.mastercontrol.com/careers/",
-    "found": "greenhouse:mastercontrol (greenhouse token guessed from name)",
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

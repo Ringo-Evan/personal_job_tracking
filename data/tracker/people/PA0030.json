@@ -1,0 +1,14 @@
+{
+  "company": "Postman",
+  "company_id": "C155",
+  "name": "Ankit Sobti",
+  "next_step": "Look up on LinkedIn (People search link)",
+  "person_id": "PA0030",
+  "relationship": "Cold",
+  "source_url": "https://blog.postman.com/how-and-why-postman-engineering-uses-foundation-teams/",
+  "status": "To research",
+  "title": "Co-founder and CTO",
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline",
+  "why_approach": "Co-founder and CTO at Postman. Fifteen years of C#/.NET test automation and regulated V&V, plus daily Postman use, maps to building quality into API tooling and reliability engineering at scale."
+}

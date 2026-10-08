@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Research org; not tech company; policy focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Policy research nonprofit; data roles possible; no QA testing focus",
+  "approach_role": "Executive Director",
+  "company": "Economic Policy Institute",
+  "company_id": "C1030",
+  "fit_score": 1,
+  "interests": "Labor research",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Executive%20Director%20Economic%20Policy%20Institute",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Research Support; Data Analyst",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

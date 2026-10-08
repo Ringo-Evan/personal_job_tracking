@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Few software QA roles; media domain",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine public media; Bangor presence, but broadcast IT has few senior software QA roles.",
+  "approach_role": "Director of Technology",
+  "company": "Maine Public",
+  "company_id": "C377",
+  "fit_score": 2,
+  "interests": "Public media",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Maine%20Public",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT Analyst; Broadcast Engineer; QA Analyst",
+  "sector": "Maine & New England",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

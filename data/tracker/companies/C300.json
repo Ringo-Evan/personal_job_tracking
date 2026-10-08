@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Post-merger layoffs; consumer subscription volatility.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mental health and meditation consumer app; QA roles exist but software-only, no device testing, no listed-interest domain.",
+  "approach_role": "Head of Quality",
+  "company": "Headspace",
+  "company_id": "C300",
+  "fit_score": 2,
+  "interests": "Mental health app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Headspace",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Lead",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

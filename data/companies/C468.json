@@ -5,8 +5,8 @@
     "company": "Guidewire",
     "sector": "Enterprise & govtech",
     "interests": "Insurance core systems; large QA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352",
+    "role_families": "SDET; test automation engineering; QA leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Guidewire: P&C insurance core systems, 500-5k employees, hybrid-first across 18 locations; only 30 workdays/year abroad, nothing about US-remote-from-Maine. No QA openings or people listed. Reviews cite benefit and LTI cuts, perks gone. Insurance sector outside candidate's stated interests. Sources: https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352 https://www.guidewire.com/about/careers/our-culture/the-perks https://www.comparably.com/companies/guidewire-software/reviews/compensation",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid-first workplace; employees with work authorization elsewhere may work in another country up to 30 workdays per year, not limited to Guidewire's 18 locations.",
+    "benefit_source": "https://www.comparably.com/companies/guidewire-software/reviews/compensation",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Guidewire builds P&C insurance core platforms—large enterprise software with heavy QA needs—but its hybrid-first model centers on 18 offices, with no evidence of Maine-remote eligibility. Candidate's medical-device and hardware-adjacent domain fit is weak; insurance isn't a listed interest.",
+    "ai_red_flags": "Hybrid-first with fixed office locations; no confirmation Maine residents can work remotely; no visible QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Guidewire",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and FDA-regulated V&V could map to Guidewire's insurance-platform regression and release quality needs—if a Maine-remote arrangement is possible."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352",
+    "research_notes": "Guidewire: P&C insurance core systems, 500-5k employees, hybrid-first across 18 locations; only 30 workdays/year abroad, nothing about US-remote-from-Maine. No QA openings or people listed. Reviews cite benefit and LTI cuts, perks gone. Insurance sector outside candidate's stated interests. Sources: https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352 https://www.guidewire.com/about/careers/our-culture/the-perks https://www.comparably.com/companies/guidewire-software/reviews/compensation",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid-first workplace; employees with work authorization elsewhere may work in another country up to 30 workdays per year, not limited to Guidewire's 18 locations.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.comparably.com/companies/guidewire-software/reviews/compensation",
+    "fit_score": 2,
+    "ai_summary": "Guidewire builds P&C insurance core platforms—large enterprise software with heavy QA needs—but its hybrid-first model centers on 18 offices, with no evidence of Maine-remote eligibility. Candidate's medical-device and hardware-adjacent domain fit is weak; insurance isn't a listed interest.",
+    "role_families": "SDET; test automation engineering; QA leadership",
+    "ai_red_flags": "Hybrid-first with fixed office locations; no confirmation Maine residents can work remotely; no visible QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and FDA-regulated V&V could map to Guidewire's insurance-platform regression and release quality needs—if a Maine-remote arrangement is possible.",
+    "next_research_action": "No supported job board - check https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352 manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Guidewire"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.guidewire.com/about/careers/jobs/engineering-manager-technical-lead----application-platform-jr_14352",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 25,
+    "careers_page": null,
+    "found": "workday:guidewire|5|external (linked from search results)",
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -122,6 +160,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -143,8 +182,88 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:41-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

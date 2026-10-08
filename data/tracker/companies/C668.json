@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site Boston; WB Games restructuring",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Warner Bros Boston studio (LOTRO, D&D Online); QA roles are on-site in Massachusetts with limited remote options.",
+  "approach_role": "QA Manager",
+  "company": "Turbine (WB Games Boston)",
+  "company_id": "C668",
+  "fit_score": 2,
+  "interests": "Boston",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Turbine%20%28WB%20Games%20Boston%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; QA Engineer; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

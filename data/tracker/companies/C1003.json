@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage startup; significant stability concerns in downturn",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mobile messaging platform; mobile/API expertise fits; organizing mission aligns",
+  "approach_role": "Engineering Manager",
+  "company": "Hustle",
+  "company_id": "C1003",
+  "fit_score": 3,
+  "interests": "Peer texting for campaigns",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Hustle",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Mobile Test Engineer; Automation Engineer",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

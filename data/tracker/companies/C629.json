@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid Irvine; 2024 layoffs; low QA pay.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Microsoft-owned game studio with unionized QA; games interest and QA scale fit, but hybrid Irvine and past layoffs constrain.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Blizzard Entertainment",
+  "company_id": "C629",
+  "fit_score": 3,
+  "interests": "Unionized QA teams",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Blizzard%20Entertainment",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Senior SDET; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

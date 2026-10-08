@@ -5,8 +5,8 @@
     "company": "Discord",
     "sector": "Remote-first software",
     "interests": "Gaming chat",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://discord.com/careers",
+    "role_families": "SDET; Test automation; QA engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Discord is remote-first with 100% remote roles listed and hiring reportedly increasing as of Oct 2026. Maine eligibility is unconfirmed. No QA openings on Greenhouse. CTO is Stanislav Vishnevskiy. Size and layoff history not provided. Sources: https://discord.com/careers https://wfh.team/remote-policy-tracker/discord https://www.gamedeveloper.com/business/valve-in-hot-water-discord-seeks-forgiveness-and-more-game-media-layoffs-patch-notes-42",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote-friendly employer with 100% remote roles listed; confirmed remote hiring and an increasing hiring direction as of October 2026.",
+    "benefit_source": "https://wfh.team/remote-policy-tracker/discord",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Discord builds remote-first gaming chat; the candidate's games interest fits. However, no QA openings appear and Maine-remote eligibility is unconfirmed, so senior QA roles are plausible but unproven.",
+    "ai_red_flags": "No QA openings listed; Maine remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "CTO & Co-Founder",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20%26%20Co-Founder%20Discord",
+    "outreach_notes": "I bring 15 years of QA automation, including regulated and hardware-adjacent testing; I'd love to help Discord scale quality across its gaming chat platform."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://discord.com/careers",
+    "research_notes": "Discord is remote-first with 100% remote roles listed and hiring reportedly increasing as of Oct 2026. Maine eligibility is unconfirmed. No QA openings on Greenhouse. CTO is Stanislav Vishnevskiy. Size and layoff history not provided. Sources: https://discord.com/careers https://wfh.team/remote-policy-tracker/discord https://www.gamedeveloper.com/business/valve-in-hot-water-discord-seeks-forgiveness-and-more-game-media-layoffs-patch-notes-42",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Remote-friendly employer with 100% remote roles listed; confirmed remote hiring and an increasing hiring direction as of October 2026.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://wfh.team/remote-policy-tracker/discord",
+    "fit_score": 3,
+    "ai_summary": "Discord builds remote-first gaming chat; the candidate's games interest fits. However, no QA openings appear and Maine-remote eligibility is unconfirmed, so senior QA roles are plausible but unproven.",
+    "role_families": "SDET; Test automation; QA engineering",
+    "ai_red_flags": "No QA openings listed; Maine remote eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "CTO & Co-Founder",
+    "outreach_notes": "I bring 15 years of QA automation, including regulated and hardware-adjacent testing; I'd love to help Discord scale quality across its gaming chat platform.",
+    "next_research_action": "No supported job board - check https://discord.com/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20%26%20Co-Founder%20Discord"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "discord",
-    "board_url": "https://job-boards.greenhouse.io/discord",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Discord",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://discord.com/careers",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:discord (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -137,6 +165,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -166,15 +195,79 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:10-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:discord (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

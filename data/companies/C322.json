@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Health data APIs",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Health data APIs for payers and providers; regulated healthtech with likely remote roles.",
     "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Particle%20Health",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,39 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "approach_role": "VP of Engineering",
+    "ai_summary": "Particle Health builds health data APIs in regulated healthtech. Its remote-first policy and regulatory domain suit the candidate's FDA V&V and test automation background, though no QA roles are posted and Maine eligibility is unconfirmed.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Particle%20Health",
+    "career_url": "https://www.particlehealth.com/careers",
+    "research_notes": "Remote-first, optional NYC, biannual on-sites; hiring a first chief growth officer signals expansion. No QA/test openings or QA leaders listed. Domain is regulated health data APIs, adjacent to the candidate's FDA medical-device testing background. Sources: https://www.particlehealth.com/careers https://medcitynews.com/2026/01/healthcare-moves-layoffs/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote-first company with optional NYC collaboration and biannual all-hands on-sites.",
+    "benefit_source": "https://medcitynews.com/2026/01/healthcare-moves-layoffs/",
+    "ai_red_flags": "No QA roles posted; Maine remote eligibility unconfirmed.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "My FDA-regulated V&V and C#/.NET automation experience maps to testing health data APIs and regulated pipelines at Particle Health.",
+    "next_research_action": "No supported job board - check https://www.particlehealth.com/careers manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.particlehealth.com/careers",
+    "found": null,
+    "other": [
+      "wellfound https://wellfound.com/company/particlehealth"
+    ],
+    "careers_page_note": "no known job-board system on careers page; board API 404 for greenhouse:particlehealth"
+  },
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -60,7 +91,66 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C322",
+    "career_url": "https://www.particlehealth.com/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote-first company with optional NYC collaboration and biannual all-hands on-sites.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.particlehealth.com/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Particle Health hired Abhi Sindhwani as its first chief growth officer, joining from CAQH.",
+          "date": null,
+          "url": "https://medcitynews.com/2026/01/healthcare-moves-layoffs/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Particle Health builds health data APIs in regulated healthtech. Its remote-first policy and regulatory domain suit the candidate's FDA V&V and test automation background, though no QA roles are posted and Maine eligibility is unconfirmed.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "My FDA-regulated V&V and C#/.NET automation experience maps to testing health data APIs and regulated pipelines at Particle Health.",
+    "red_flags": "No QA roles posted; Maine remote eligibility unconfirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.particlehealth.com/careers",
+      "https://medcitynews.com/2026/01/healthcare-moves-layoffs/"
+    ],
+    "notes": "Remote-first, optional NYC, biannual on-sites; hiring a first chief growth officer signals expansion. No QA/test openings or QA leaders listed. Domain is regulated health data APIs, adjacent to the candidate's FDA medical-device testing background.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -82,17 +172,70 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.particlehealth.com/careers",
-    "found": null,
-    "other": [
-      "wellfound https://wellfound.com/company/particlehealth"
-    ],
-    "careers_page_note": "no known job-board system on careers page; board API 404 for greenhouse:particlehealth"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

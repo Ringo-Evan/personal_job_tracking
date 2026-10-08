@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tiny team; generalist role likely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Software for martial arts and fitness studios; strong niche interest alignment but very small company with minimal QA headcount.",
+  "approach_role": "CTO or Founder",
+  "company": "MyStudio",
+  "company_id": "C816",
+  "fit_score": 3,
+  "interests": "Martial arts software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20or%20Founder%20MyStudio",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

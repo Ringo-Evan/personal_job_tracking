@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site; early-stage",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Autonomous trucking startup; validation/test roles relevant, but early-stage, on-site, remote unlikely.",
+  "approach_role": "Head of Validation",
+  "company": "Kodiak Robotics",
+  "company_id": "C1184",
+  "fit_score": 3,
+  "interests": "Autonomous trucks",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Validation%20Kodiak%20Robotics",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; SDET; QA Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

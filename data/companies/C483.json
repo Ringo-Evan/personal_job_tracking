@@ -5,8 +5,8 @@
     "company": "Nationwide",
     "sector": "Enterprise & govtech",
     "interests": "Insurance tech",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.nationwide.com/personal/about-us/careers/",
+    "role_families": "SDET; QA leadership; test automation engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hybrid at Columbus, Des Moines, Scottsdale, San Antonio; other-location staff reportedly permanent remote, so Maine eligibility is unclear. 5k+ employees, no QA openings listed. Stability signals mixed: Virgin Money integration, ~600 back-office cuts, but growing membership and branch network to 2030. Sources: https://www.nationwide.com/personal/about-us/careers/ https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/ https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model: primarily office-based at four main campuses (Columbus OH, Des Moines, Scottsdale, San Antonio); associates at other locations moved to permanent remote-working status.",
+    "benefit_source": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Nationwide is a large insurance/financial-services enterprise; senior QA and automation roles are plausible, but the verified facts conflate the US insurer with the UK building society, list no QA openings, and leave Maine remote eligibility unknown.",
+    "ai_red_flags": "Facts conflate US insurer with UK building society; no QA openings listed; Maine remote eligibility unknown; recent layoff of ~600 roles.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering (no named QA leader in facts; CEO Kirt",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20QA%20leader%20in%20facts%3B%20CEO%20Kirt%20Nationwide",
+    "outreach_notes": "Fifteen years of regulated testing (FDA V&V, design controls) maps well to a mutual insurer's compliance-heavy QA and automation needs, if remote work from Maine is permitted."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.nationwide.com/personal/about-us/careers/",
+    "research_notes": "Hybrid at Columbus, Des Moines, Scottsdale, San Antonio; other-location staff reportedly permanent remote, so Maine eligibility is unclear. 5k+ employees, no QA openings listed. Stability signals mixed: Virgin Money integration, ~600 back-office cuts, but growing membership and branch network to 2030. Sources: https://www.nationwide.com/personal/about-us/careers/ https://news.nationwide.com/nationwide-announces-permanent-shift-in-workplace-work-from-home-strategy/ https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid model: primarily office-based at four main campuses (Columbus OH, Des Moines, Scottsdale, San Antonio); associates at other locations moved to permanent remote-working status.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://totalnews.com/nationwide-plans-to-eliminate-600-positions-as-its-first-layoffs-following-the-acquisition-of-virgin-money/",
+    "fit_score": 3,
+    "ai_summary": "Nationwide is a large insurance/financial-services enterprise; senior QA and automation roles are plausible, but the verified facts conflate the US insurer with the UK building society, list no QA openings, and leave Maine remote eligibility unknown.",
+    "role_families": "SDET; QA leadership; test automation engineering",
+    "ai_red_flags": "Facts conflate US insurer with UK building society; no QA openings listed; Maine remote eligibility unknown; recent layoff of ~600 roles.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering (no named QA leader in facts; CEO Kirt",
+    "outreach_notes": "Fifteen years of regulated testing (FDA V&V, design controls) maps well to a mutual insurer's compliance-heavy QA and automation needs, if remote work from Maine is permitted.",
+    "next_research_action": "No supported job board - check https://www.nationwide.com/personal/about-us/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20QA%20leader%20in%20facts%3B%20CEO%20Kirt%20Nationwide"
+  },
   "ats": {
-    "type": "workday",
-    "token": "nationwide|1|Nationwide_Career",
-    "board_url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 161
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.nationwide.com/personal/about-us/careers/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:nationwide|1|Nationwide_Career (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -155,6 +183,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -184,15 +213,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:43-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:nationwide|1|Nationwide_Career (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Java-heavy; no domain alignment.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Kafka streaming vendor, remote-friendly public company; QA/SDET roles plausible but Java-centric and not domain-aligned.",
+  "approach_role": "Director of Engineering, Quality",
+  "company": "Confluent",
+  "company_id": "C619",
+  "fit_score": 3,
+  "interests": "Streaming",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20Quality%20Confluent",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

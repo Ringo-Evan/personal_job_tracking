@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C131",
     "company": "SEIU",
-    "sector": "Labor",
+    "sector": "Labor & organizing",
     "interests": "Service workers union",
     "career_url": "https://www.seiu.org/careers",
     "role_families": "IT; digital; data",
@@ -55,8 +55,18 @@
     "note": "careers page HTTP 403",
     "job_count": null
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.seiu.org/jobs/",
+    "found": null,
+    "other": [
+      "ukg https://recruiting.ultipro.com/SER1005SEIU/JobBoard/e131b2ae-a5ce-4fb1-a93c-84c36a485721"
+    ]
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -81,16 +91,14 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.seiu.org/jobs/",
-    "found": null,
-    "other": [
-      "ukg https://recruiting.ultipro.com/SER1005SEIU/JobBoard/e131b2ae-a5ce-4fb1-a93c-84c36a485721"
-    ]
-  }
+  "last_exported_at": null
 }

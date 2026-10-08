@@ -5,8 +5,8 @@
     "company": "SolarEdge",
     "sector": "Agriculture",
     "interests": "Solar",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://corporate.solaredge.com/en/careers",
+    "role_families": "SDET; QA/test engineering; embedded & firmware QA",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: SolarEdge is in restructuring, cutting 400 more jobs globally with headcount falling from 5,500 to ~3,300 and Q3 2024 revenue down 64% YoY. No QA openings or named QA leaders found; job board, ATS and remote policy all unverified, so Maine-remote eligibility is unknown. Sources: https://corporate.solaredge.com/en/careers https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/ https://www.calcalistech.com/ctechnews/article/jyznhrpr0",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://corporate.solaredge.com/en/careers manually",
+    "fit_score": 2,
+    "stability_score": 1,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "SolarEdge makes solar inverters and power optimizers — hardware-adjacent electronics where the candidate's firmware-adjacent test automation could apply, but it sits outside the candidate's stated interest sectors and is contracting hard.",
+    "ai_red_flags": "Four layoff waves in a year; headcount 5,500 to 3,300; revenue down 64% YoY; no QA openings listed; remote policy unknown.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP of Quality / Director of QA Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Quality%20/%20Director%20of%20QA%20Engineering%20SolarEdge",
+    "outreach_notes": "Your 15 years of hardware-adjacent, regulated test automation and V&V discipline maps to validating power-electronics firmware, inverters and battery systems at scale."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://corporate.solaredge.com/en/careers",
+    "research_notes": "Verified: SolarEdge is in restructuring, cutting 400 more jobs globally with headcount falling from 5,500 to ~3,300 and Q3 2024 revenue down 64% YoY. No QA openings or named QA leaders found; job board, ATS and remote policy all unverified, so Maine-remote eligibility is unknown. Sources: https://corporate.solaredge.com/en/careers https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/ https://www.calcalistech.com/ctechnews/article/jyznhrpr0",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 1,
+    "benefit_source": "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/",
+    "fit_score": 2,
+    "ai_summary": "SolarEdge makes solar inverters and power optimizers — hardware-adjacent electronics where the candidate's firmware-adjacent test automation could apply, but it sits outside the candidate's stated interest sectors and is contracting hard.",
+    "role_families": "SDET; QA/test engineering; embedded & firmware QA",
+    "ai_red_flags": "Four layoff waves in a year; headcount 5,500 to 3,300; revenue down 64% YoY; no QA openings listed; remote policy unknown.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "VP of Quality / Director of QA Engineering",
+    "outreach_notes": "Your 15 years of hardware-adjacent, regulated test automation and V&V discipline maps to validating power-electronics firmware, inverters and battery systems at scale.",
+    "next_research_action": "No supported job board - check https://corporate.solaredge.com/en/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Quality%20/%20Director%20of%20QA%20Engineering%20SolarEdge"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://corporate.solaredge.com/en/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://corporate.solaredge.com/en/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +100,85 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C985",
+    "career_url": "https://corporate.solaredge.com/en/careers",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 1,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Fourth layoff wave in a year; 400 jobs cut globally, part of a restructuring to cut operating expenses.",
+          "date": null,
+          "url": "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Workforce of 3,700 expected to shrink to 3,300 after the latest wave; down from 5,500.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/jyznhrpr0"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Revenue fell 64% year over year in Q3 2024 amid weak US demand and European inventory surplus.",
+          "date": null,
+          "url": "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/"
+        },
+        {
+          "kind": "other",
+          "summary": "Safe harbor agreements with Sunrun for US-made inverters and batteries supporting domestic content tax credits.",
+          "date": null,
+          "url": "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 2,
+      "rationale": "SolarEdge makes solar inverters and power optimizers — hardware-adjacent electronics where the candidate's firmware-adjacent test automation could apply, but it sits outside the candidate's stated interest sectors and is contracting hard.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "embedded & firmware QA"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Quality / Director of QA Engineering",
+    "outreach_angle": "Your 15 years of hardware-adjacent, regulated test automation and V&V discipline maps to validating power-electronics firmware, inverters and battery systems at scale.",
+    "red_flags": "Four layoff waves in a year; headcount 5,500 to 3,300; revenue down 64% YoY; no QA openings listed; remote policy unknown.",
+    "confidence": "low",
+    "sources": [
+      "https://corporate.solaredge.com/en/careers",
+      "https://www.pv-magazine.com/2025/01/07/solaredge-stock-jumps-as-the-company-announces-more-layoffs/",
+      "https://www.calcalistech.com/ctechnews/article/jyznhrpr0"
+    ],
+    "notes": "Verified: SolarEdge is in restructuring, cutting 400 more jobs globally with headcount falling from 5,500 to ~3,300 and Q3 2024 revenue down 64% YoY. No QA openings or named QA leaders found; job board, ATS and remote policy all unverified, so Maine-remote eligibility is unknown.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +200,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:27-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://corporate.solaredge.com/en/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

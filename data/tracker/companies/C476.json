@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid; Maine remote uncertain",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Hartford insurer with a large tech org; regulated, automation-heavy work fits, but hybrid culture keeps most QA roles onsite.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Travelers",
+  "company_id": "C476",
+  "fit_score": 3,
+  "interests": "Hartford; tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Travelers",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; Test Lead; QA Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:16Z",
+  "updated_by": "pipeline"
+}

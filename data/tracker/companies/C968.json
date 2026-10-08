@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid near US hubs likely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Largest animal-health company; regulated software QA and test leadership exist, but roles mostly hybrid near US hubs.",
+  "approach_role": "Director of Quality Engineering, Zoetis",
+  "company": "Zoetis",
+  "company_id": "C968",
+  "fit_score": 3,
+  "interests": "Animal health",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%2C%20Zoetis%20Zoetis",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; Test Lead",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

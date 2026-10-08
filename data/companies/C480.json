@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Remote-friendly insurer tech",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA/test automation engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Facts show fully remote (~8 roles), hybrid-remote (~200 roles), field/in-office, no sponsorship. No QA openings, size, people, or stability signals verified; Maine eligibility unknown. Stability inferred from Progressive's size and insurance profitability, not from supplied signals. Confirm remote-state eligibility before applying. Sources: https://delegatedai.com/blog/progressive-hiring-remote",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Offers fully remote (approx. 8 roles), hybrid-remote (approx. 200 roles), and field/in-office roles. Hybrid is the majority arrangement. Requires US work authorization without sponsorship.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Progressive is a large US insurer with C#/.NET engineering and some fully remote roles, but no QA openings, Maine eligibility, or alignment with the candidate's interest domains are verified.",
+    "ai_red_flags": "No verified QA openings; Maine remote eligibility unknown; insurance domain absent from candidate's stated interests.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director or Manager of Quality Engineering (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20or%20Manager%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Progressive",
+    "outreach_notes": "Your 15 years of C#/.NET test automation and FDA-regulated V&V, design-controls experience maps to Progressive's compliance-heavy, .NET-centric engineering and claims platforms."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,34 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Facts show fully remote (~8 roles), hybrid-remote (~200 roles), field/in-office, no sponsorship. No QA openings, size, people, or stability signals verified; Maine eligibility unknown. Stability inferred from Progressive's size and insurance profitability, not from supplied signals. Confirm remote-state eligibility before applying. Sources: https://delegatedai.com/blog/progressive-hiring-remote",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Offers fully remote (approx. 8 roles), hybrid-remote (approx. 200 roles), and field/in-office roles. Hybrid is the majority arrangement. Requires US work authorization without sponsorship.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Progressive is a large US insurer with C#/.NET engineering and some fully remote roles, but no QA openings, Maine eligibility, or alignment with the candidate's interest domains are verified.",
+    "role_families": "SDET; QA/test automation engineering; release engineering",
+    "ai_red_flags": "No verified QA openings; Maine remote eligibility unknown; insurance domain absent from candidate's stated interests.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director or Manager of Quality Engineering (no named leader in facts)",
+    "outreach_notes": "Your 15 years of C#/.NET test automation and FDA-regulated V&V, design-controls experience maps to Progressive's compliance-heavy, .NET-centric engineering and claims platforms.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20or%20Manager%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Progressive"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 29,
+    "careers_page": "https://careers.progressive.com/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -61,7 +87,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C480",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Offers fully remote (approx. 8 roles), hybrid-remote (approx. 200 roles), and field/in-office roles. Hybrid is the majority arrangement. Requires US work authorization without sponsorship.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://delegatedai.com/blog/progressive-hiring-remote"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Progressive is a large US insurer with C#/.NET engineering and some fully remote roles, but no QA openings, Maine eligibility, or alignment with the candidate's interest domains are verified.",
+      "role_families": [
+        "SDET",
+        "QA/test automation engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director or Manager of Quality Engineering (no named leader in facts)",
+    "outreach_angle": "Your 15 years of C#/.NET test automation and FDA-regulated V&V, design-controls experience maps to Progressive's compliance-heavy, .NET-centric engineering and claims platforms.",
+    "red_flags": "No verified QA openings; Maine remote eligibility unknown; insurance domain absent from candidate's stated interests.",
+    "confidence": "low",
+    "sources": [
+      "https://delegatedai.com/blog/progressive-hiring-remote"
+    ],
+    "notes": "Facts show fully remote (~8 roles), hybrid-remote (~200 roles), field/in-office, no sponsorship. No QA openings, size, people, or stability signals verified; Maine eligibility unknown. Stability inferred from Progressive's size and insurance profitability, not from supplied signals. Confirm remote-state eligibility before applying.",
+    "model": {
+      "extract": "ollama_chat/qwen3.5:9b",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "ollama_chat/qwen3.5:9b"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -76,8 +153,69 @@
       "changed": [
         "triage"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 1
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

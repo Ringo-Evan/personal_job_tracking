@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Database tools not application testing",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Database DevOps tools outside core QA/testing expertise; no domain alignment.",
+  "approach_role": "VP Engineering",
+  "company": "Redgate",
+  "company_id": "C190",
+  "fit_score": 2,
+  "interests": "SQL/database devops",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Redgate",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retail; onsite only",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Farm retail chain; agriculture interest but brick-and-mortar, no realistic remote QA or test roles from Maine.",
+  "approach_role": "IT QA Manager",
+  "company": "Rural King",
+  "company_id": "C944",
+  "fit_score": 1,
+  "interests": "Farm retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Rural%20King",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; IT Test Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

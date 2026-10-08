@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Union QA onsite Wisconsin; post-acquisition layoffs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Microsoft-owned publisher; Raven QA is unionized, matching labor-rights interest, but QA roles appear onsite in Wisconsin.",
+  "approach_role": "QA Manager, Raven Software",
+  "company": "Activision (Raven QA union)",
+  "company_id": "C630",
+  "fit_score": 3,
+  "interests": "Unionized QA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20Raven%20Software%20Activision%20%28Raven%20QA%20union%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

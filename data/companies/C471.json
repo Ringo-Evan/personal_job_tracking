@@ -5,8 +5,8 @@
     "company": "Vertafore",
     "sector": "Enterprise & govtech",
     "interests": "Insurance agency software; .NET",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.sircon.com/about/careers.jsp",
+    "role_families": "SDET; QA leadership; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Flexible First hybrid model allows work from home; PE-backed growth; no QA openings listed; Maine remote eligibility unknown. .NET stack aligns with candidate skills. Sources: https://www.sircon.com/about/careers.jsp https://builtin.com/company/vertafore/faq/work-life-balance-wellbeing",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Flexible First hybrid model: employees may work from home while offices serve as places for collaboration, community and team building.",
+    "benefit_source": "https://www.sircon.com/about/careers.jsp",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://www.sircon.com/about/careers.jsp manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Vertafore builds insurance agency software on .NET. It fits the candidate's .NET and regulated-domain background, but remote-from-Maine is unclear and QA openings are not posted, creating a moderate match.",
+    "ai_red_flags": "Remote policy is hybrid; Maine eligibility unclear; no QA openings posted.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Vertafore",
+    "outreach_notes": "Leveraging 15 years of .NET test automation and FDA-regulated V&V, I can strengthen Vertafore's insurance software quality and compliance."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.sircon.com/about/careers.jsp",
+    "research_notes": "Flexible First hybrid model allows work from home; PE-backed growth; no QA openings listed; Maine remote eligibility unknown. .NET stack aligns with candidate skills. Sources: https://www.sircon.com/about/careers.jsp https://builtin.com/company/vertafore/faq/work-life-balance-wellbeing",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Flexible First hybrid model: employees may work from home while offices serve as places for collaboration, community and team building.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.sircon.com/about/careers.jsp",
+    "fit_score": 3,
+    "ai_summary": "Vertafore builds insurance agency software on .NET. It fits the candidate's .NET and regulated-domain background, but remote-from-Maine is unclear and QA openings are not posted, creating a moderate match.",
+    "role_families": "SDET; QA leadership; test automation",
+    "ai_red_flags": "Remote policy is hybrid; Maine eligibility unclear; no QA openings posted.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Leveraging 15 years of .NET test automation and FDA-regulated V&V, I can strengthen Vertafore's insurance software quality and compliance.",
+    "next_research_action": "No supported job board - check https://www.sircon.com/about/careers.jsp manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Vertafore"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.sircon.com/about/careers.jsp",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.vertafore.com/about/join-our-team",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +99,66 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C471",
+    "career_url": "https://www.sircon.com/about/careers.jsp",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Flexible First hybrid model: employees may work from home while offices serve as places for collaboration, community and team building.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/vertafore/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Careers page describes Vertafore as a growing Michigan company backed by the resources of a leading private equity firm.",
+          "date": null,
+          "url": "https://www.sircon.com/about/careers.jsp"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Vertafore builds insurance agency software on .NET. It fits the candidate's .NET and regulated-domain background, but remote-from-Maine is unclear and QA openings are not posted, creating a moderate match.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Leveraging 15 years of .NET test automation and FDA-regulated V&V, I can strengthen Vertafore's insurance software quality and compliance.",
+    "red_flags": "Remote policy is hybrid; Maine eligibility unclear; no QA openings posted.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.sircon.com/about/careers.jsp",
+      "https://builtin.com/company/vertafore/faq/work-life-balance-wellbeing"
+    ],
+    "notes": "Flexible First hybrid model allows work from home; PE-backed growth; no QA openings listed; Maine remote eligibility unknown. .NET stack aligns with candidate skills.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +180,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:42-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.vertafore.com/about/join-our-team",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

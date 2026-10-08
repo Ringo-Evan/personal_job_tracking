@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Human services + health software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "500-5k",
+    "ai_summary": "Health software for human services; regulated, aligns with addiction recovery, remote likely.",
+    "ai_red_flags": "PE-owned",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20WellSky",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA leadership; quality engineering",
+    "approach_role": "Director of Quality Engineering",
+    "ai_summary": "WellSky builds post-acute and human-services health software, a regulated domain adjacent to the candidate's FDA device testing background. Senior QA/SDET roles are plausible, but Maine remote eligibility is unverified and no QA openings are currently posted.",
+    "ai_red_flags": "Maine remote eligibility unknown; no QA openings posted; PE-backed with ongoing acquisition integrations may bring reorganizations.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20WellSky",
+    "career_url": "https://wellsky.com/about-us/careers/",
+    "research_notes": "WellSky serves 20,000+ provider organizations and ongoing acquisitions signal resources and runway. Remote/hybrid varies by job family and manager, with HQ roles more in-office; no confirmation Maine residents qualify. No QA or SDET openings currently listed on its Workday board, so monitor for postings. Sources: https://wellsky.com/about-us/careers/ https://builtin.com/company/wellsky/faq/work-life-balance-wellbeing https://builtin.com/company/wellsky/faq/workplace-perception",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote or hybrid work is available in some functions depending on job family and manager; some HQ roles face more in-office expectations.",
+    "benefit_source": "https://wellsky.com/",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps neatly onto WellSky's regulated care software, where test rigor and compliance evidence are core to release quality.",
+    "next_research_action": "Watching workday board"
+  },
   "ats": {
     "type": "workday",
     "token": "wellsky|1|WellSkyCareers",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 47
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:wellsky|1|WellSkyCareers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,82 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C284",
+    "career_url": "https://wellsky.com/about-us/careers/",
+    "ats": {
+      "type": "workday",
+      "token": "wellsky|1|WellSkyCareers",
+      "board_url": "https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers"
+    },
+    "remote_policy": {
+      "summary": "Remote or hybrid work is available in some functions depending on job family and manager; some HQ roles face more in-office expectations.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/wellsky/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Ongoing acquisitions and product launches indicate resources and runway for the business.",
+          "date": null,
+          "url": "https://builtin.com/company/wellsky/faq/workplace-perception"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Integration program consolidates acquisitions such as CarePort and Bonafide under unified processes and timelines.",
+          "date": null,
+          "url": "https://builtin.com/company/wellsky/faq/workplace-perception"
+        },
+        {
+          "kind": "growth",
+          "summary": "Large customer base of 20,000+ provider organizations, powering care for one in three Americans.",
+          "date": null,
+          "url": "https://wellsky.com/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "WellSky builds post-acute and human-services health software, a regulated domain adjacent to the candidate's FDA device testing background. Senior QA/SDET roles are plausible, but Maine remote eligibility is unverified and no QA openings are currently posted.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps neatly onto WellSky's regulated care software, where test rigor and compliance evidence are core to release quality.",
+    "red_flags": "Maine remote eligibility unknown; no QA openings posted; PE-backed with ongoing acquisition integrations may bring reorganizations.",
+    "confidence": "medium",
+    "sources": [
+      "https://wellsky.com/about-us/careers/",
+      "https://builtin.com/company/wellsky/faq/work-life-balance-wellbeing",
+      "https://builtin.com/company/wellsky/faq/workplace-perception",
+      "https://wellsky.com/"
+    ],
+    "notes": "WellSky serves 20,000+ provider organizations and ongoing acquisitions signal resources and runway. Remote/hybrid varies by job family and manager, with HQ roles more in-office; no confirmation Maine residents qualify. No QA or SDET openings currently listed on its Workday board, so monitor for postings.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 7,
+      "kept": 6,
+      "fail_rate": 0.143,
+      "dropped": [
+        "stability_signals[3]: quote not found in S5"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +197,74 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:wellsky|1|WellSkyCareers (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

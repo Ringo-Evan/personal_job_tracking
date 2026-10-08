@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite-only; high-intensity culture",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Satellite internet provider with heavy hardware and software test needs matching candidate's domain, but roles are onsite and intense.",
+  "approach_role": "Test Engineering Manager",
+  "company": "Starlink (SpaceX)",
+  "company_id": "C998",
+  "fit_score": 3,
+  "interests": "Rural internet",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Starlink%20%28SpaceX%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; SDET; Software QA Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

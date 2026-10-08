@@ -23,21 +23,21 @@
   "track": "SDE pivot",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "Senior Salesforce Marketing Cloud solution-architecture role for marketing ops, not software testing; the word 'automation' refers to campaigns, so candidate's QA/SDET skills don't apply and much of the stack is",
-    "skill_match": 2,
+    "why": "Senior Salesforce Marketing Cloud solution-architecture role owning marketing automation roadmap; no testing, QA or automation-engineering scope, so it misses the candidate's core SDET skill set despite senior level and remote-ish",
+    "skill_match": 1,
     "seniority": "match",
-    "maine_eligible": "unknown",
+    "maine_eligible": "no",
     "track": "Exploratory",
-    "notes": "Marketing automation, not QA. Confirm remote eligibility for Maine and whether any test/quality responsibilities exist before applying.",
+    "notes": "Location listed Ohio; SFMC marketing-ops architecture, not software testing. Confirm any US-remote option before considering.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "73d4494213b13019",
+    "text_hash": "9ee7ab26b8332253",
     "text_source": "board"
   }
 }

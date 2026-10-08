@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "PE-backed; limited remote engineering roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "In-home addiction care across New England; regional footprint helps, tech team small, regulated healthcare software workflows.",
+  "approach_role": "VP of Technology",
+  "company": "Aware Recovery Care",
+  "company_id": "C1094",
+  "fit_score": 3,
+  "interests": "In-home addiction care; New England",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Technology%20Aware%20Recovery%20Care",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Lead",
+  "sector": "Addiction & recovery",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

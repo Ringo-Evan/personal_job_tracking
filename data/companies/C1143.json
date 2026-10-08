@@ -6,7 +6,7 @@
     "sector": "Adult & sexuality",
     "interests": "Adult products",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; Test Engineer; Mobile QA",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Premium adult products, some app-connected; hardware-adjacent QA fits. Remote-Maine policy and current QA openings unknown.",
+    "ai_red_flags": "Remote-Maine unknown",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Lelo",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA leadership; firmware/embedded test engineering",
+    "approach_role": "Head of Quality Assurance / Engineering (no named leader in facts)",
+    "ai_summary": "LELO is an established Swedish designer of premium adult products with connected devices, matching the candidate's stated interest in the adult industry. But facts show no remote policy, no openings, no people, and little evidence of US-based QA roles relevant",
+    "ai_red_flags": "No verified remote policy, US entity, or QA openings; Stockholm-centric engineering may mean no Maine-eligible roles.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Assurance%20/%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Lelo",
+    "career_url": "https://leloenergies.com/career/",
+    "research_notes": "Facts are essentially silent: no remote policy, size, ATS, stability signals, QA openings, or named people. LELO is a long-established premium adult-products brand with app-connected devices, so occasional hardware/firmware QA work is plausible, but US-remote or Bangor-area roles are unverified. Verify remote eligibility and openings before investing. Sources: https://leloenergies.com/career/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "FDA-regulated V&V and design-controls experience plus hardware-adjacent C#/.NET automation maps onto testing connected adult devices and companion apps; genuine interest in the category.",
+    "next_research_action": "No supported job board - check https://leloenergies.com/career/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://leloenergies.com/career/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +89,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1143",
+    "career_url": "https://leloenergies.com/career/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "LELO is an established Swedish designer of premium adult products with connected devices, matching the candidate's stated interest in the adult industry. But facts show no remote policy, no openings, no people, and little evidence of US-based QA roles relevant",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "firmware/embedded test engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Quality Assurance / Engineering (no named leader in facts)",
+    "outreach_angle": "FDA-regulated V&V and design-controls experience plus hardware-adjacent C#/.NET automation maps onto testing connected adult devices and companion apps; genuine interest in the category.",
+    "red_flags": "No verified remote policy, US entity, or QA openings; Stockholm-centric engineering may mean no Maine-eligible roles.",
+    "confidence": "low",
+    "sources": [
+      "https://leloenergies.com/career/"
+    ],
+    "notes": "Facts are essentially silent: no remote policy, size, ATS, stability signals, QA openings, or named people. LELO is a long-established premium adult-products brand with app-connected devices, so occasional hardware/firmware QA work is plausible, but US-remote or Bangor-area roles are unverified. Verify remote eligibility and openings before investing.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 1,
+      "kept": 1,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +162,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://leloenergies.com/career/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

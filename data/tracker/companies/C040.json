@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028904/rblx-20260331.htm",
+  "career_url": "https://careers.roblox.com/",
+  "company": "Roblox",
+  "company_id": "C040",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Large technical organization, but competitive coding and distributed-systems expectations.",
+  "hiring_difficulty": 4,
+  "interests": "Video games, creator tools",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "2026 filing attributes personnel-cost increases partly to engineering/product headcount growth.",
+  "research_status": "Initial research",
+  "role_families": "Platform QA; performance; developer tools",
+  "sector": "Games & stories",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

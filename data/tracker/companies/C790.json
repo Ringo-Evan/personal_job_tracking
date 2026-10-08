@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Las Vegas HQ; limited remote postings",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "MMA promotion plus Fight Pass streaming; sizeable software org with video-platform QA needs, but Las Vegas-centric with few Maine-remote test roles.",
+  "approach_role": "Director of Quality Engineering, UFC Fight Pass",
+  "company": "UFC (TKO Group)",
+  "company_id": "C790",
+  "fit_score": 3,
+  "interests": "MMA; Fight Pass streaming",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%2C%20UFC%20Fight%20Pass%20UFC%20%28TKO%20Group%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET, streaming; QA Engineer, Fight Pass; Test Manager",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,22 @@
+{
+  "company": "WEX",
+  "company_id": "C072",
+  "current_stage": "Lead",
+  "date_discovered": "2026-09-30",
+  "fit_notes": "'Integrated engineer' model: one role owns design, code and automated testing. C#/.NET-heavy, so this is an SDE-title pivot, not a QA title. Some WEX remote reqs require living within 30 mi of Portland ME - confirm per req.",
+  "highest_stage": "None",
+  "hiring_difficulty": 4,
+  "job_id": "J027",
+  "job_title": "Senior Software Engineer (R21098)",
+  "last_checked": "2026-09-30",
+  "listing_evidence": "Historical lead - recheck",
+  "location": "Remote, Maine",
+  "maine_eligible": "Yes (as listed)",
+  "next_action": "Recheck - posting dated Aug 2025; look for current equivalent",
+  "posting_url": "https://careers.wexinc.com/us/en/job/R21098/Senior-Software-Engineer",
+  "source_url": "https://careers.wexinc.com/us/en/job/R21098/Senior-Software-Engineer",
+  "track": "SDE pivot",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude",
+  "work_mode": "Remote"
+}

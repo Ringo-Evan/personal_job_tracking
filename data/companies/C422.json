@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Framingham",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Test Engineer; QA Manager",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "Audio consumer electronics; hardware-adjacent test automation fit, but Framingham non-commutable and likely onsite/hybrid.",
+    "ai_red_flags": "Onsite/hybrid, Framingham location",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Bose",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "role_families": "SDET; Test/QA Engineering; Release & Quality Engineering",
+    "approach_role": "Director of Software Quality Engineering",
+    "ai_summary": "Bose designs consumer audio and hearing-aid hardware in Framingham, MA, hybrid-only with no stated US-remote policy and no QA openings posted. Hardware-adjacent testing suits the candidate, but Downeast Maine location and shrinking headcount make fit weak.",
+    "ai_red_flags": "Hybrid-only at Framingham HQ with Maine eligibility unknown; repeated layoffs, including entire health division.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Software%20Quality%20Engineering%20Bose",
+    "career_url": "https://careers.bose.com/us/en",
+    "research_notes": "Verified: hybrid work model for most roles, no fully-remote policy stated, Maine eligibility unknown. Stability signals negative — 245 jobs cut in March, health/hearing-aid division reportedly eliminated, headcount fell 9,000 to 7,000 from 2019-2021. No QA openings surfaced on their Workday board; 200 roles open elsewhere. Sources: https://careers.bose.com/us/en https://www.bose.com/esg/us-benefits https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Hybrid work model for most job roles; the pack states no fully-remote or US-remote policy.",
+    "benefit_source": "https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation background maps to Bose's embedded audio and hearing-aid testing — worth exploring if any role can be Maine-remote.",
+    "next_research_action": "Watching workday board"
+  },
   "ats": {
     "type": "workday",
     "token": "boseallaboutme|503|Bose_Careers",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 84
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:boseallaboutme|503|Bose_Careers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,79 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C422",
+    "career_url": "https://careers.bose.com/us/en",
+    "ats": {
+      "type": "workday",
+      "token": "boseallaboutme|503|Bose_Careers",
+      "board_url": "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers"
+    },
+    "remote_policy": {
+      "summary": "Hybrid work model for most job roles; the pack states no fully-remote or US-remote policy.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.bose.com/esg/us-benefits"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Bose cut 245 jobs in March and reportedly wiped out its health division responsible for hearing aids.",
+          "date": null,
+          "url": "https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "Spokesperson said Bose was still hiring elsewhere, with 200 available roles.",
+          "date": null,
+          "url": "https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Public data showed headcount falling from 9,000 in 2019 to 7,000 in 2021 amid rolling layoffs.",
+          "date": null,
+          "url": "https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Bose designs consumer audio and hearing-aid hardware in Framingham, MA, hybrid-only with no stated US-remote policy and no QA openings posted. Hardware-adjacent testing suits the candidate, but Downeast Maine location and shrinking headcount make fit weak.",
+      "role_families": [
+        "SDET",
+        "Test/QA Engineering",
+        "Release & Quality Engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Software Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent automation background maps to Bose's embedded audio and hearing-aid testing — worth exploring if any role can be Maine-remote.",
+    "red_flags": "Hybrid-only at Framingham HQ with Maine eligibility unknown; repeated layoffs, including entire health division.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.bose.com/us/en",
+      "https://www.bose.com/esg/us-benefits",
+      "https://www.engadget.com/bose-layoffs-narrow-focus-160437358.html"
+    ],
+    "notes": "Verified: hybrid work model for most roles, no fully-remote policy stated, Maine eligibility unknown. Stability signals negative — 245 jobs cut in March, health/hearing-aid division reportedly eliminated, headcount fell 9,000 to 7,000 from 2019-2021. No QA openings surfaced on their Workday board; 200 roles open elsewhere.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +194,73 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:boseallaboutme|503|Bose_Careers (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

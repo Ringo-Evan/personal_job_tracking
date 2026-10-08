@@ -5,8 +5,8 @@
     "company": "Microsoft (Playwright / Azure DevOps)",
     "sector": "Test tooling",
     "interests": "Owns Playwright, Azure DevOps, .NET",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://apply.careers.microsoft.com/careers",
+    "role_families": "SDET; QA/test engineering; test tooling engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote: posting-dependent, fully remote open within country; Maine eligible yes. Stability: productizing 1ES Hosted Pools as Managed DevOps Pools. No QA openings listed. Contacts: Mukul Singhal, Partner group engineering manager; Veera Mamilla, Principal group engineering manager. Sources: https://careers.microsoft.com/v2/global/en/home.html https://careers.microsoft.com/v2/global/en/flexible-work https://devblogs.microsoft.com/engineering-at-microsoft/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Work site is listed per posting as in-office days per week, from fully remote (0 days) to fully on-site. Fully remote postings are open to anyone located within the listed country.",
+    "benefit_source": "https://devblogs.microsoft.com/engineering-at-microsoft/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://apply.careers.microsoft.com/careers manually",
+    "fit_score": 5,
+    "stability_score": 5,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Microsoft builds Playwright, Azure DevOps and .NET test tooling; remote roles open to Maine. Its regulated/hardware-adjacent testing aligns with candidate's C#/.NET automation and FDA V&V background, though current QA openings are unlisted.",
+    "ai_red_flags": "No QA openings listed; huge company may have few senior QA roles; competitive bar.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Partner group engineering manager, Microsoft Digital",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Partner%20group%20engineering%20manager%2C%20Microsoft%20Digital%20Microsoft%20%28Playwright%20/%20Azure%20DevOps%29",
+    "outreach_notes": "Your Playwright and Azure DevOps work plus 15 years in C#/.NET test automation and FDA-regulated V&V match Microsoft's test tooling and Managed DevOps Pools direction."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://apply.careers.microsoft.com/careers",
+    "research_notes": "Remote: posting-dependent, fully remote open within country; Maine eligible yes. Stability: productizing 1ES Hosted Pools as Managed DevOps Pools. No QA openings listed. Contacts: Mukul Singhal, Partner group engineering manager; Veera Mamilla, Principal group engineering manager. Sources: https://careers.microsoft.com/v2/global/en/home.html https://careers.microsoft.com/v2/global/en/flexible-work https://devblogs.microsoft.com/engineering-at-microsoft/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Work site is listed per posting as in-office days per week, from fully remote (0 days) to fully on-site. Fully remote postings are open to anyone located within the listed country.",
+    "remote_likelihood": "High",
+    "stability_score": 5,
+    "benefit_source": "https://devblogs.microsoft.com/engineering-at-microsoft/",
+    "fit_score": 5,
+    "ai_summary": "Microsoft builds Playwright, Azure DevOps and .NET test tooling; remote roles open to Maine. Its regulated/hardware-adjacent testing aligns with candidate's C#/.NET automation and FDA V&V background, though current QA openings are unlisted.",
+    "role_families": "SDET; QA/test engineering; test tooling engineering",
+    "ai_red_flags": "No QA openings listed; huge company may have few senior QA roles; competitive bar.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Partner group engineering manager, Microsoft Digital",
+    "outreach_notes": "Your Playwright and Azure DevOps work plus 15 years in C#/.NET test automation and FDA-regulated V&V match Microsoft's test tooling and Managed DevOps Pools direction.",
+    "next_research_action": "No supported job board - check https://apply.careers.microsoft.com/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Partner%20group%20engineering%20manager%2C%20Microsoft%20Digital%20Microsoft%20%28Playwright%20/%20Azure%20DevOps%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://apply.careers.microsoft.com/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.microsoft.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -135,6 +174,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -163,16 +203,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:27-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.microsoft.com/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

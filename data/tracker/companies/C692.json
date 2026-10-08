@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; QA roles speculative.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Immersive VTT for TTRPGs; strong domain interest, but early-stage and no clear senior QA need or remote policy.",
+  "approach_role": "Head of Product",
+  "company": "Alchemy RPG",
+  "company_id": "C692",
+  "fit_score": 2,
+  "interests": "VTT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Product%20Alchemy%20RPG",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Release QA",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

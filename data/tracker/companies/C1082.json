@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No tech roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Reentry employment services; no software engineering or QA roles evident.",
+  "approach_role": "HR Director",
+  "company": "Center for Employment Opportunities",
+  "company_id": "C1082",
+  "fit_score": 1,
+  "interests": "Reentry jobs",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=HR%20Director%20Center%20for%20Employment%20Opportunities",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Program Management; Operations; HR",
+  "sector": "Criminal justice reform",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

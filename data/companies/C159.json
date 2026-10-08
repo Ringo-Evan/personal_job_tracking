@@ -5,8 +5,8 @@
     "company": "JetBrains",
     "sector": "Test tooling",
     "interests": "IDEs, Rider for .NET; TeamCity",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.jetbrains.com/careers/",
+    "role_families": "SDET / test automation; developer tooling / test tooling engineering; QA engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 5,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: JetBrains is a profitable, bootstrapped tooling vendor with growth signals (Junie AI agent, Rider recognition) and a (Senior) ML Developer opening. QA openings: none listed. Remote policy explicitly Germany-only, so Downeast Maine is not workable today; monitor for US-remote QA or tooling roles. Sources: https://www.jetbrains.com/careers/ https://job-boards.eu.greenhouse.io/jetbrains https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Job listing lists European locations; only remote option is Germany. No US-remote or Maine eligibility shown.",
+    "benefit_source": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 1,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "Unknown",
+    "ai_summary": "JetBrains builds IDEs (Rider for .NET) and CI/test tooling like TeamCity and Qodana, aligning with the candidate's test-tooling and .NET interests. But listings restrict remote work to Germany, so Maine residency is ineligible, and no QA openings are shown.",
+    "ai_red_flags": "No US-remote or Maine eligibility; remote limited to Germany. No QA postings visible; elite developer-heavy bar.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Product",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Product%20JetBrains",
+    "outreach_notes": "Your 15 years automating .NET testing and TeamCity-adjacent tooling could inform JetBrains' QA tooling, though only if they open US-remote or Maine-eligible roles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.jetbrains.com/careers/",
+    "research_notes": "Verified: JetBrains is a profitable, bootstrapped tooling vendor with growth signals (Junie AI agent, Rider recognition) and a (Senior) ML Developer opening. QA openings: none listed. Remote policy explicitly Germany-only, so Downeast Maine is not workable today; monitor for US-remote QA or tooling roles. Sources: https://www.jetbrains.com/careers/ https://job-boards.eu.greenhouse.io/jetbrains https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Job listing lists European locations; only remote option is Germany. No US-remote or Maine eligibility shown.",
+    "remote_likelihood": "Low",
+    "stability_score": 4,
+    "benefit_source": "https://blog.jetbrains.com/dotnet/2026/01/29/game-dev-in-2025-excerpts-from-the-state-of-game-development-report/",
+    "fit_score": 1,
+    "ai_summary": "JetBrains builds IDEs (Rider for .NET) and CI/test tooling like TeamCity and Qodana, aligning with the candidate's test-tooling and .NET interests. But listings restrict remote work to Germany, so Maine residency is ineligible, and no QA openings are shown.",
+    "role_families": "SDET / test automation; developer tooling / test tooling engineering; QA engineering",
+    "ai_red_flags": "No US-remote or Maine eligibility; remote limited to Germany. No QA postings visible; elite developer-heavy bar.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 5,
+    "estimate_confidence": "High",
+    "approach_role": "Head of Product",
+    "outreach_notes": "Your 15 years automating .NET testing and TeamCity-adjacent tooling could inform JetBrains' QA tooling, though only if they open US-remote or Maine-eligible roles.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Product%20JetBrains"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "jetbrains",
     "board_url": "https://job-boards.greenhouse.io/jetbrains",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; JetBrains",
+    "source": "https://www.jetbrains.com/careers/",
+    "note": "JetBrains",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:jetbrains (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -156,6 +184,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -185,15 +214,68 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:29-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:jetbrains (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

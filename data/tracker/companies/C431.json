@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Weak financials; legacy manual QA culture.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Outsourcer for government benefits and payment systems; test roles exist but legacy, manual-heavy, and finances are weak.",
+  "approach_role": "VP of Quality Assurance",
+  "company": "Conduent",
+  "company_id": "C431",
+  "fit_score": 2,
+  "interests": "Government/benefits tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Quality%20Assurance%20Conduent",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Analyst; Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

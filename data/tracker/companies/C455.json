@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "VC-funded; policy-tech controversy; stack possibly Java/Go",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Cloud records and dispatch software for police agencies; public-safety and justice-reform adjacency, but stack, funding and remote policy are uncertain.",
+  "approach_role": "Director of Quality",
+  "company": "Mark43",
+  "company_id": "C455",
+  "fit_score": 3,
+  "interests": "Public safety software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Mark43",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:16Z",
+  "updated_by": "pipeline"
+}

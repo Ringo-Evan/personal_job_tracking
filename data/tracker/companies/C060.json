@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.agcocorp.com/go/PTX/9669900/",
+  "career_url": "https://careers.agcocorp.com/go/PTX/9669900/",
+  "company": "AGCO / PTx",
+  "company_id": "C060",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Embedded and farm-system domain knowledge may be a gap.",
+  "hiring_difficulty": 4,
+  "interests": "Precision farming software and equipment",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "PTx precision-agriculture group; use current group career portal.",
+  "research_status": "Initial research",
+  "role_families": "Integration QA; device/cloud testing; automation",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

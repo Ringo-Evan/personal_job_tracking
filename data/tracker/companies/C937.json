@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Australian HQ; US remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Farm management software, possibly remote-friendly; agriculture interest fits, but US remote from Maine uncertain.",
+  "approach_role": "Engineering Manager",
+  "company": "Agworld",
+  "company_id": "C937",
+  "fit_score": 3,
+  "interests": "Farm software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Agworld",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Lead",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

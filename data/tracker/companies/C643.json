@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Arkane Austin closed 2024",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Immersive-sim studio; Austin branch closed and remaining QA sits in Lyon, so US-remote prospects are poor.",
+  "approach_role": "QA Lead",
+  "company": "Arkane Studios",
+  "company_id": "C643",
+  "fit_score": 2,
+  "interests": "Austin/Lyon",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Arkane%20Studios",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

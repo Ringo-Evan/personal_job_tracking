@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Embracer restructuring; remote unclear.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Digital board game publisher under Asmodee; QA roles possible, but Embracer restructuring and remote unclear.",
+  "approach_role": "QA Manager",
+  "company": "Asmodee Digital (Twin Sails)",
+  "company_id": "C689",
+  "fit_score": 3,
+  "interests": "Digital board games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Asmodee%20Digital%20%28Twin%20Sails%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Lead; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

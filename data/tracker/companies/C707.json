@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Very small; no QA.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Delta Green TTRPG publisher; strong TTRPG interest, but very small with no software QA roles.",
+  "approach_role": "Publisher",
+  "company": "Arc Dream Publishing",
+  "company_id": "C707",
+  "fit_score": 1,
+  "interests": "Delta Green publisher",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Publisher%20Arc%20Dream%20Publishing",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester (contract); Playtest Coordinator; Editor",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 1,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

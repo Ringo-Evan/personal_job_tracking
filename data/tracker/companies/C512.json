@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "ERP domain, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Cloud ERP with .NET; QA roles plausible, .NET aligns, but ERP not in target sectors; remote likely.",
+  "approach_role": "QA Manager",
+  "company": "Acumatica",
+  "company_id": "C512",
+  "fit_score": 3,
+  "interests": "Cloud ERP; .NET",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Acumatica",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

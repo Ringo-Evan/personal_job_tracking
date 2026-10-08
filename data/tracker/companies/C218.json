@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Israel-based; no US remote likely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "GPS asset tracking startup; hardware-adjacent but small, likely no US-remote QA roles.",
+  "approach_role": "VP R&D",
+  "company": "Hoopo",
+  "company_id": "C218",
+  "fit_score": 2,
+  "interests": "GPS asset tracking",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20R%26D%20Hoopo",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

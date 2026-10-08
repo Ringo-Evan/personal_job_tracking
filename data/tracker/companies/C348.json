@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite-heavy; declining syringe market, debt load",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "BD-spun diabetes device maker; regulated device and software testing fits, but manufacturing-onsite and shrinking syringe market.",
+  "approach_role": "Director of Quality",
+  "company": "Embecta",
+  "company_id": "C348",
+  "fit_score": 3,
+  "interests": "Diabetes devices",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Embecta",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Quality Engineer; Design Assurance Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

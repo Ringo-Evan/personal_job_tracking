@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite/clearance; not remote-friendly.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Defense electronics test; hardware-adjacent, regulated, matches candidate's background. Nashua NH onsite/clearance; remote unlikely from Maine.",
+  "approach_role": "Test Engineering Manager",
+  "company": "BAE Systems (Nashua NH)",
+  "company_id": "C390",
+  "fit_score": 3,
+  "interests": "Defense electronics test",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20BAE%20Systems%20%28Nashua%20NH%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior Test Engineer; Test Automation Engineer; Quality Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

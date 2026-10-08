@@ -1,0 +1,19 @@
+{
+  "benefit_source": "https://www.tylertech.com/careers/job-listings",
+  "career_url": "https://www.tylertech.com/careers/job-listings",
+  "company": "Tyler Technologies",
+  "company_id": "C073",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Big .NET footprint and remote-friendly; public-sector domain is learnable.",
+  "hiring_difficulty": 3,
+  "interests": "Large .NET SaaS employer; many remote teams",
+  "maine_remote": "Unknown",
+  "next_research_action": "Search QA/SDET titles; check remote-state list",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Multiple 2026 senior .NET engineer reqs (Angular/SQL/AWS). QA listings not yet assessed.",
+  "research_status": "Initial research",
+  "role_families": "QA engineer / analyst; SDET; .NET engineer",
+  "sector": "Public-sector software",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude"
+}

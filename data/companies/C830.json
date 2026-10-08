@@ -5,8 +5,8 @@
     "company": "Catapult Sports",
     "sector": "Martial arts & fitness",
     "interests": "Sports wearables",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://job-boards.greenhouse.io/catapultsports",
+    "role_families": "SDET; QA/test engineering (hardware/firmware-adjacent); Quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Catapult Sports (Greenhouse token catapultsports), sports-wearables/martial-arts-fitness sector per listing. Remote policy, size, stability signals, QA openings and personnel are all unverified. Treat as exploratory: confirm Maine-remote eligibility and whether QA sits in a US or Melbourne office before investing effort. Sources: https://job-boards.greenhouse.io/catapultsports",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Catapult Sports makes wearable athlete-tracking hardware and analytics — sensors, firmware and sports data. That touches the candidate's RFID/indoor-location and hardware-adjacent testing interests, but no remote policy, QA openings or people are verified, so fit is speculative.",
+    "ai_red_flags": "No verified remote policy; no listed QA openings; no named QA leaders; largely Australia-based engineering.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Head of Quality Assurance / VP Engineering (no named leader verified)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Assurance%20/%20VP%20Engineering%20%28no%20named%20leader%20verified%29%20Catapult%20Sports",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation experience could help validate wearable sensor and firmware pipelines where device quality matters as much as app quality."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://job-boards.greenhouse.io/catapultsports",
+    "research_notes": "Verified: Catapult Sports (Greenhouse token catapultsports), sports-wearables/martial-arts-fitness sector per listing. Remote policy, size, stability signals, QA openings and personnel are all unverified. Treat as exploratory: confirm Maine-remote eligibility and whether QA sits in a US or Melbourne office before investing effort. Sources: https://job-boards.greenhouse.io/catapultsports",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 2,
+    "ai_summary": "Catapult Sports makes wearable athlete-tracking hardware and analytics — sensors, firmware and sports data. That touches the candidate's RFID/indoor-location and hardware-adjacent testing interests, but no remote policy, QA openings or people are verified, so fit is speculative.",
+    "role_families": "SDET; QA/test engineering (hardware/firmware-adjacent); Quality engineering leadership",
+    "ai_red_flags": "No verified remote policy; no listed QA openings; no named QA leaders; largely Australia-based engineering.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "Head of Quality Assurance / VP Engineering (no named leader verified)",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation experience could help validate wearable sensor and firmware pipelines where device quality matters as much as app quality.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Assurance%20/%20VP%20Engineering%20%28no%20named%20leader%20verified%29%20Catapult%20Sports"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "catapultsports",
     "board_url": "https://job-boards.greenhouse.io/catapultsports",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Catapult Sports",
+    "source": "https://job-boards.greenhouse.io/catapultsports",
+    "note": "Catapult Sports",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:catapultsports (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +98,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C830",
+    "career_url": "https://job-boards.greenhouse.io/catapultsports",
+    "ats": {
+      "type": "greenhouse",
+      "token": "catapultsports",
+      "board_url": "https://job-boards.greenhouse.io/catapultsports"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Catapult Sports makes wearable athlete-tracking hardware and analytics — sensors, firmware and sports data. That touches the candidate's RFID/indoor-location and hardware-adjacent testing interests, but no remote policy, QA openings or people are verified, so fit is speculative.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering (hardware/firmware-adjacent)",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Quality Assurance / VP Engineering (no named leader verified)",
+    "outreach_angle": "Your FDA-regulated V&V and hardware-adjacent automation experience could help validate wearable sensor and firmware pipelines where device quality matters as much as app quality.",
+    "red_flags": "No verified remote policy; no listed QA openings; no named QA leaders; largely Australia-based engineering.",
+    "confidence": "low",
+    "sources": [
+      "https://job-boards.greenhouse.io/catapultsports"
+    ],
+    "notes": "Verified: Catapult Sports (Greenhouse token catapultsports), sports-wearables/martial-arts-fitness sector per listing. Remote policy, size, stability signals, QA openings and personnel are all unverified. Treat as exploratory: confirm Maine-remote eligibility and whether QA sits in a US or Melbourne office before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +172,73 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:21-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:catapultsports (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

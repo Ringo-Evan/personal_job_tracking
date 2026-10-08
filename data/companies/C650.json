@@ -6,7 +6,7 @@
     "sector": "Games & stories",
     "interests": "Game QA services",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Game QA; QA leadership; Test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "PTW/Side is a game QA and services company. Facts show third-round layoffs in São Paulo (2025-09), 15 US and six Brazil cuts, 45 global layoffs, and an acquisition (Ghostpunch). A Brazilian studio opened 2025-05. No remote policy, no QA openings, no people listed. Sources: https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/ https://www.gamedeveloper.com/business/support-studio-ptw-lays-off-45-staff-across-global-teams",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 2,
+    "stability_score": 1,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "PTW/Side provides game QA and co-development services, matching the candidate's games interest. But repeated layoffs, no listed remote policy or senior QA openings, and an outsourcing model create a weak fit for a senior regulated-domain test engineer.",
+    "ai_red_flags": "Multiple layoff rounds in two years; no remote policy or QA openings listed; game QA outsourcing often low pay and high turnover.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20PTW%20%28Pole%20To%20Win%29",
+    "outreach_notes": "My 15 years in regulated test automation (C#/.NET, FDA V&V) and lifelong love of games could strengthen PTW's QA services—I'd welcome discussing senior SDET or QA lead needs."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "PTW/Side is a game QA and services company. Facts show third-round layoffs in São Paulo (2025-09), 15 US and six Brazil cuts, 45 global layoffs, and an acquisition (Ghostpunch). A Brazilian studio opened 2025-05. No remote policy, no QA openings, no people listed. Sources: https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/ https://www.gamedeveloper.com/business/support-studio-ptw-lays-off-45-staff-across-global-teams",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 1,
+    "benefit_source": "https://playersforlife.com/2025/10/02/exclusive-formerly-known-as-ptw-side-sao-paulo-has-implemented-layoffs-company-collaborated-with-nintendo/",
+    "fit_score": 2,
+    "ai_summary": "PTW/Side provides game QA and co-development services, matching the candidate's games interest. But repeated layoffs, no listed remote policy or senior QA openings, and an outsourcing model create a weak fit for a senior regulated-domain test engineer.",
+    "role_families": "Game QA; QA leadership; Test automation",
+    "ai_red_flags": "Multiple layoff rounds in two years; no remote policy or QA openings listed; game QA outsourcing often low pay and high turnover.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Assurance",
+    "outreach_notes": "My 15 years in regulated test automation (C#/.NET, FDA V&V) and lifelong love of games could strengthen PTW's QA services—I'd welcome discussing senior SDET or QA lead needs.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20PTW%20%28Pole%20To%20Win%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.ptw-usa.com/en/about/career-ptw/current-job-vacancies",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 5,
     "stability": 3,
@@ -144,6 +172,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -172,16 +201,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.ptw-usa.com/en/about/career-ptw/current-job-vacancies",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Studio-onsite; contract QA historically.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Microsoft-owned RPG studios with unionized QA aligning with labor-rights interest, but roles are largely studio-onsite.",
+  "approach_role": "QA Manager, ZeniMax QA",
+  "company": "Bethesda (ZeniMax)",
+  "company_id": "C626",
+  "fit_score": 3,
+  "interests": "RPGs; unionized QA (ZeniMax Workers United)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20ZeniMax%20QA%20Bethesda%20%28ZeniMax%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Test Engineer; Senior SDET; QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

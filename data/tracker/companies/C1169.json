@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite sites; public company, limited remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Space launch and systems company with test engineering roles fitting candidate's hardware-adjacent background; onsite only, remote unlikely.",
+  "approach_role": "Test Engineering Manager",
+  "company": "Rocket Lab",
+  "company_id": "C1169",
+  "fit_score": 3,
+  "interests": "Space",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Rocket%20Lab",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Integration & Test Engineer; QA Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:38Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.fnamerica.com/",
+  "career_url": "https://careers.fnamerica.com/",
+  "company": "FN America",
+  "company_id": "C032",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Specialized engineering and on-site requirements may be barriers.",
+  "hiring_difficulty": 4,
+  "interests": "Firearms manufacturing",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Review specific technical discipline before treating as software fit.",
+  "research_status": "Initial research",
+  "role_families": "Systems quality; technical programs; IT",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

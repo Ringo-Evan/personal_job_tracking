@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site California; ag-tech funding risk",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Electric autonomous tractor maker; hardware-adjacent autonomy software needs test automation, but on-site culture and ag-tech funding risk.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Monarch Tractor",
+  "company_id": "C950",
+  "fit_score": 3,
+  "interests": "Electric autonomous tractors",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Monarch%20Tractor",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; Test Automation Engineer; QA Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

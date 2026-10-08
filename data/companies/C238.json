@@ -5,8 +5,8 @@
     "company": "ShipBob",
     "sector": "IoT / location tech",
     "interests": "Fulfillment tech",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.shipbob.com/careers/",
+    "role_families": "Senior Software Engineer (C#/Go pivot); Release Engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote-first, Maine eligible. No verified QA openings; stability relies on sector health rather than specific company signals. Sources: https://www.shipbob.com/careers/ https://www.shipbob.com/careers/benefits/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-first company offering hybrid, flexible work. US job postings are listed as 'Remote - United States', so US-wide remote roles appear open to Maine residents.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "ShipBob is e-commerce fulfillment IoT. It fits for a C# engineer pivoting to Go/Python but lacks verified QA openings or stability signals, requiring reliance on general fit.",
+    "ai_red_flags": "No public data on QA-specific roles or recent stability metrics available.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Kirubakaran Girijanandan",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Kirubakaran%20Girijanandan%20ShipBob",
+    "outreach_notes": "Your extensive testing tooling expertise in C# and CI/CD aligns well with ShipBob's need for robust release engineering in a remote-friendly environment."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.shipbob.com/careers/",
+    "research_notes": "Remote-first, Maine eligible. No verified QA openings; stability relies on sector health rather than specific company signals. Sources: https://www.shipbob.com/careers/ https://www.shipbob.com/careers/benefits/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Remote-first company offering hybrid, flexible work. US job postings are listed as 'Remote - United States', so US-wide remote roles appear open to Maine residents.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "ShipBob is e-commerce fulfillment IoT. It fits for a C# engineer pivoting to Go/Python but lacks verified QA openings or stability signals, requiring reliance on general fit.",
+    "role_families": "Senior Software Engineer (C#/Go pivot); Release Engineering",
+    "ai_red_flags": "No public data on QA-specific roles or recent stability metrics available.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Kirubakaran Girijanandan",
+    "outreach_notes": "Your extensive testing tooling expertise in C# and CI/CD aligns well with ShipBob's need for robust release engineering in a remote-friendly environment.",
+    "next_research_action": "No supported job board - check https://www.shipbob.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Kirubakaran%20Girijanandan%20ShipBob"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "shipbobinc",
-    "board_url": "https://job-boards.greenhouse.io/shipbobinc",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results; ShipBob, Inc.",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.shipbob.com/careers/",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:shipbobinc (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -127,6 +154,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -156,15 +184,77 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:46-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:shipbobinc (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

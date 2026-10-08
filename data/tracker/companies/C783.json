@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site Connecticut",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maritime history museum; history interest, but on-site Connecticut and unlikely software QA roles.",
+  "approach_role": "IT Director",
+  "company": "Mystic Seaport Museum",
+  "company_id": "C783",
+  "fit_score": 1,
+  "interests": "Maritime history",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Director%20Mystic%20Seaport%20Museum",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT QA; Test Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

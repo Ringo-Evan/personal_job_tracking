@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "MA-based, likely on-site",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "EHR vendor in MA; regulated but likely on-site, remote limited, moderate fit.",
+  "approach_role": "QA Manager",
+  "company": "MEDITECH",
+  "company_id": "C279",
+  "fit_score": 3,
+  "interests": "EHR; Westwood MA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20MEDITECH",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:10Z",
+  "updated_by": "pipeline"
+}

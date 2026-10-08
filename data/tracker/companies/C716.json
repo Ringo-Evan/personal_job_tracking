@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Parent layoffs; remote QA uncertain.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Board game publisher under Asmodee; digital QA possible via parent, but layoffs and remote uncertainty.",
+  "approach_role": "QA Manager, Asmodee Digital",
+  "company": "Fantasy Flight Games (Asmodee)",
+  "company_id": "C716",
+  "fit_score": 3,
+  "interests": "Board games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20Asmodee%20Digital%20Fantasy%20Flight%20Games%20%28Asmodee%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Digital QA Engineer; SDET; Release QA",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

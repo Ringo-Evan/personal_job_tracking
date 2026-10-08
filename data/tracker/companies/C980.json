@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Nonprofit; no software QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Regional organic farming nonprofit; no software engineering or QA roles, so no realistic test position.",
+  "approach_role": "N/A",
+  "company": "Northeast Organic Farming Assn (NOFA)",
+  "company_id": "C980",
+  "fit_score": 1,
+  "interests": "Organic farming",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=N/A%20Northeast%20Organic%20Farming%20Assn%20%28NOFA%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "No QA/SDET roles",
+  "sector": "Agriculture",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

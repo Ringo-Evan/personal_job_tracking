@@ -6,7 +6,7 @@
     "sector": "Maine & New England",
     "interests": "Large NH tech site",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Fidelity is large and profitable ($37.7B 2025 revenue) and plans 3,300 2026 hires, but cut 800 tech/product jobs in 2026. No QA openings listed. Remote policy ends; five days in Merrimack NH from Sept 2026, so Maine candidates are ineligible. Sources: https://www.fa-mag.com/news/fidelity-mandates-five-days-in-office-in-end-to-hybrid-work-rule-86809.html https://layoffhedge.com/company/fidelity-investments https://finance.yahoo.com/markets/stocks/articles/boston-based-financial-company-fidelity-172203447.html?fr=sycsrp_catchall",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Five days in office starting September 2026, ending the hybrid policy that allowed staff to work remotely half the month; exceptions are phone-based customer service roles.",
+    "benefit_source": "https://finance.yahoo.com/markets/stocks/articles/boston-based-financial-company-fidelity-172203447.html?fr=sycsrp_catchall",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 1,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "Fidelity is a large financial-services firm; its Merrimack NH site requires five days in office from Sept 2026 and is not open to Maine remote, so it fails the candidate's location need despite scale and regulated-domain relevance.",
+    "ai_red_flags": "Five-day office mandate from Sept 2026; not Maine-eligible; tech layoffs amid hiring.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Fidelity%20Investments%20%28Merrimack%20NH%29",
+    "outreach_notes": "Your FDA-regulated V&V and C#/.NET automation background fits Fidelity's compliance-heavy quality needs, but the five-day Merrimack office policy and no Maine remote make this a poor location match."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Fidelity is large and profitable ($37.7B 2025 revenue) and plans 3,300 2026 hires, but cut 800 tech/product jobs in 2026. No QA openings listed. Remote policy ends; five days in Merrimack NH from Sept 2026, so Maine candidates are ineligible. Sources: https://www.fa-mag.com/news/fidelity-mandates-five-days-in-office-in-end-to-hybrid-work-rule-86809.html https://layoffhedge.com/company/fidelity-investments https://finance.yahoo.com/markets/stocks/articles/boston-based-financial-company-fidelity-172203447.html?fr=sycsrp_catchall",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Five days in office starting September 2026, ending the hybrid policy that allowed staff to work remotely half the month; exceptions are phone-based customer service roles.",
+    "remote_likelihood": "Low",
+    "stability_score": 4,
+    "benefit_source": "https://finance.yahoo.com/markets/stocks/articles/boston-based-financial-company-fidelity-172203447.html?fr=sycsrp_catchall",
+    "fit_score": 1,
+    "ai_summary": "Fidelity is a large financial-services firm; its Merrimack NH site requires five days in office from Sept 2026 and is not open to Maine remote, so it fails the candidate's location need despite scale and regulated-domain relevance.",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "ai_red_flags": "Five-day office mandate from Sept 2026; not Maine-eligible; tech layoffs amid hiring.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and C#/.NET automation background fits Fidelity's compliance-heavy quality needs, but the five-day Merrimack office policy and no Maine remote make this a poor location match.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Fidelity%20Investments%20%28Merrimack%20NH%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.fidelity.com/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -145,6 +172,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -173,15 +201,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://jobs.fidelity.com/",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

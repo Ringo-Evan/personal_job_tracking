@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-07",
+    "confirmed": null,
+    "source": "https://foundryvtt.com/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
   "triage": null,
   "research": null,
   "history": [
@@ -87,12 +97,35 @@
       "changed": [
         "discovery.rejected"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:37-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
+    "at": "2026-10-07",
+    "results": 24,
+    "careers_page": "https://foundryvtt.com/packages/arcane-marks-careers",
+    "found": null,
+    "other": [],
     "rejected": [
       "greenhouse:foundry"
-    ]
+    ],
+    "careers_page_note": "no known job-board system on careers page"
   }
 }

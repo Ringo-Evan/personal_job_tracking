@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage venture; limited Sr/Lead roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "BLE location tech matches; early-stage limits senior role availability.",
+  "approach_role": "VP Engineering",
+  "company": "Wiliot",
+  "company_id": "C201",
+  "fit_score": 3,
+  "interests": "Battery-free Bluetooth tags",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Wiliot",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; SDET",
+  "sector": "IoT / location tech",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

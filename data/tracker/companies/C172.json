@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Not core testing automation platform",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "QA roles exist; remote-first culture; observability valuable for testing",
+  "approach_role": "Engineering Lead",
+  "company": "Sentry",
+  "company_id": "C172",
+  "fit_score": 3,
+  "interests": "Error monitoring",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Lead%20Sentry",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; QA Engineer; Test Automation Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

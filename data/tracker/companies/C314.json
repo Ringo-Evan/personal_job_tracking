@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage, remote unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Alcohol treatment service; fits addiction recovery, but early-stage with unknown remote policies.",
+  "approach_role": "Head of Engineering",
+  "company": "Oar Health",
+  "company_id": "C314",
+  "fit_score": 3,
+  "interests": "Alcohol treatment",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Oar%20Health",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

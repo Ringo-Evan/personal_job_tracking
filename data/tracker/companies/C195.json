@@ -1,0 +1,19 @@
+{
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Code quality related to QA/testing; CI/CD experience fits; no domain alignment.",
+  "approach_role": "VP Engineering",
+  "company": "Sonar (SonarSource)",
+  "company_id": "C195",
+  "fit_score": 3,
+  "interests": "Code quality",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Sonar%20%28SonarSource%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Solutions Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

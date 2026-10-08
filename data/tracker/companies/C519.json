@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Construction ERP, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Construction ERP under Trimble; QA roles likely, .NET usage, but construction domain not a target sector.",
+  "approach_role": "QA Manager",
+  "company": "Trimble Viewpoint",
+  "company_id": "C519",
+  "fit_score": 3,
+  "interests": "Construction ERP",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Trimble%20Viewpoint",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:18Z",
+  "updated_by": "pipeline"
+}

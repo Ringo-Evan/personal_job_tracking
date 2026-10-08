@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Boston-centric; confirms US-remote case-by-case.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Wrist-worn performance wearable with firmware, mobile and cloud stack; hardware-adjacent testing, Boston HQ so remote openness unclear.",
+  "approach_role": "Director of Engineering, Quality",
+  "company": "Whoop",
+  "company_id": "C292",
+  "fit_score": 4,
+  "interests": "Wearable; Boston",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%2C%20Quality%20Whoop",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; Test Lead, Wearables; QA Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:10Z",
+  "updated_by": "pipeline"
+}

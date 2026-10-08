@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small; unclear QA needs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Benefits tech nonprofit; housing domain match but small and QA roles unlikely.",
+  "approach_role": "CTO",
+  "company": "Benefit Kitchen",
+  "company_id": "C1064",
+  "fit_score": 2,
+  "interests": "Benefits tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Benefit%20Kitchen",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Housing",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

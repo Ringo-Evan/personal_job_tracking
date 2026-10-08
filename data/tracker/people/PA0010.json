@@ -1,0 +1,14 @@
+{
+  "company": "Perforce",
+  "company_id": "C153",
+  "name": "Jim Cassens",
+  "next_step": "Look up on LinkedIn (People search link)",
+  "person_id": "PA0010",
+  "relationship": "Cold",
+  "source_url": "https://www.perforce.com/company",
+  "status": "To research",
+  "title": "CEO",
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline",
+  "why_approach": "CEO at Perforce. My C#/.NET test automation and FDA-regulated V&V experience maps to Perforce's Perfecto and BlazeMeter tooling; I'd value a conversation about QA or SDET roles, ideally with US-remote flexibility."
+}

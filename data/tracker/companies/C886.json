@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "IoT; remote policy uncertain",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Connected grills/IoT; QA/SDET roles plausible, hardware-adjacent match.",
+  "approach_role": "QA Director",
+  "company": "Weber (Weber Connect)",
+  "company_id": "C886",
+  "fit_score": 4,
+  "interests": "Connected grills",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Director%20Weber%20%28Weber%20Connect%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Quality Lead",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

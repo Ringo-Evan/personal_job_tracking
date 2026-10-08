@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Advocacy-first; few engineering openings",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large LGBTQ advocacy organization with digital campaigns; mission aligns, but QA and testing are not a core function.",
+  "approach_role": "Chief Technology Officer",
+  "company": "Human Rights Campaign",
+  "company_id": "C1103",
+  "fit_score": 2,
+  "interests": "LGBTQ advocacy",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Technology%20Officer%20Human%20Rights%20Campaign",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Digital Product Engineer",
+  "sector": "LGBTQ",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

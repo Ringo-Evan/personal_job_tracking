@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Boston insurer; big tech org",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "No QA openings or people listed; ATS unknown. Hybrid RTO with Maine eligibility unconfirmed. Stability tempered by 250 layoffs (~0.5% US workforce) in restructuring. Large insurer tech org may still have roles; verify remote-from-Maine policy before applying. Sources: https://searchjobs.libertymutualgroup.com/careers?query=remote https://buildremote.co/rto-tracker/liberty-mutual-insurance/ https://www.businessinsurance.com/4-liberty-mutual-announced-more-layoffs/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid return-to-office policy; the pack gives no detail on which states remote roles are open to.",
+    "benefit_source": "https://www.businessinsurance.com/4-liberty-mutual-announced-more-layoffs/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Liberty Mutual is a large Boston-based insurer with a sizable tech organization; insurance compliance work could suit a regulated-domain tester, but hybrid RTO and unconfirmed Maine-remote eligibility, plus no listed QA openings, make fit weak.",
+    "ai_red_flags": "Hybrid RTO; 250 layoffs in restructuring; no confirmed Maine-remote eligibility; no QA openings listed; insurance domain not among candidate's stated interests.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Liberty%20Mutual",
+    "outreach_notes": "My FDA-regulated V&V and design-controls background maps well to insurance compliance testing; I can bring test automation rigor to your quality engineering org, if Maine-remote is possible."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,37 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "No QA openings or people listed; ATS unknown. Hybrid RTO with Maine eligibility unconfirmed. Stability tempered by 250 layoffs (~0.5% US workforce) in restructuring. Large insurer tech org may still have roles; verify remote-from-Maine policy before applying. Sources: https://searchjobs.libertymutualgroup.com/careers?query=remote https://buildremote.co/rto-tracker/liberty-mutual-insurance/ https://www.businessinsurance.com/4-liberty-mutual-announced-more-layoffs/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid return-to-office policy; the pack gives no detail on which states remote roles are open to.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.businessinsurance.com/4-liberty-mutual-announced-more-layoffs/",
+    "fit_score": 2,
+    "ai_summary": "Liberty Mutual is a large Boston-based insurer with a sizable tech organization; insurance compliance work could suit a regulated-domain tester, but hybrid RTO and unconfirmed Maine-remote eligibility, plus no listed QA openings, make fit weak.",
+    "role_families": "SDET; QA engineering; test automation",
+    "ai_red_flags": "Hybrid RTO; 250 layoffs in restructuring; no confirmed Maine-remote eligibility; no QA openings listed; insurance domain not among candidate's stated interests.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "My FDA-regulated V&V and design-controls background maps well to insurance compliance testing; I can bring test automation rigor to your quality engineering org, if Maine-remote is possible.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Liberty%20Mutual"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 27,
+    "careers_page": "https://jobs.libertymutualgroup.com/",
+    "found": null,
+    "other": [
+      "icims https://careers-libertymutual.icims.com/jobs/intro?mobile=true&width=1024&height=1115&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420"
+    ]
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -123,6 +152,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -144,8 +174,64 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

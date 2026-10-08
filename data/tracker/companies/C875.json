@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "manufacturing, not software QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Firearms manufacturer; quality roles are manufacturing-focused, not software test.",
+  "approach_role": "Quality Manager",
+  "company": "Tactical Solutions",
+  "company_id": "C875",
+  "fit_score": 2,
+  "interests": "Firearms",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%20Tactical%20Solutions",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer; Quality Manager",
+  "sector": "Firearms",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

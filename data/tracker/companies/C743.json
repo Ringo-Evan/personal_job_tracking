@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "NYC HQ; remote unknown.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Major publisher; publishing tech may need QA; books domain match; remote from Maine uncertain.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Simon & Schuster",
+  "company_id": "C743",
+  "fit_score": 3,
+  "interests": "Publishing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Simon%20%26%20Schuster",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Analyst",
+  "sector": "Books, history & media",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

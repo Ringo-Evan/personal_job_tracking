@@ -23,9 +23,21 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null
+  "job_id": null,
+  "score": {
+    "why": "Medical-device quality role (QMS, CAPA, audits, ISO 13485) at Philips; candidate's FDA V&V domain fits, but it's compliance/process quality rather than software test automation, and requires Gainesville FL residency.",
+    "skill_match": 3,
+    "seniority": "below",
+    "maine_eligible": "no",
+    "track": "Core QA",
+    "notes": "Must commute to Gainesville FL (no relocation); QMS/audit/CAPA focus, not SDET work. Confirm whether any SaMD test-engineering duties exist.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "44ef548a82bc0828",
+    "text_source": "board"
+  }
 }

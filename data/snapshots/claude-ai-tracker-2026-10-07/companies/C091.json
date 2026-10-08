@@ -1,0 +1,21 @@
+{
+  "approach_role": "Director of Solutions Engineering / QA eng manager",
+  "career_url": "https://job-boards.greenhouse.io/smartbear",
+  "company": "SmartBear",
+  "company_id": "C091",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Your whole career is their customer profile; locations need checking.",
+  "hiring_difficulty": 3,
+  "interests": "QA tools you use (TestComplete, Zephyr, Swagger)",
+  "maine_remote": "Unknown - verify remote",
+  "next_research_action": "Check remote policy per req",
+  "outreach_notes": "Tester-as-customer pitch: you've run these tools in prod pipelines.",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Solutions%20Engineering%20SmartBear",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Verified in 09/30 search. Somerville, MA HQ. Brands: Swagger, TestComplete, Reflect, QMetry, Zephyr. New: Solutions Engineer I (API); Engineering Manager, AI Services (BearQ).",
+  "research_status": "Initial research",
+  "role_families": "Solutions engineer; SDET; QA/eng manager; developer advocate",
+  "sector": "Test tooling",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude"
+}

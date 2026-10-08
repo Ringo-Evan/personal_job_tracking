@@ -5,8 +5,8 @@
     "company": "Greenlight Guru",
     "sector": "Regulated healthtech",
     "interests": "Medical device QMS - your FDA background",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.greenlight.guru/careers",
+    "role_families": "QA engineering; test automation / SDET; computer systems validation & quality",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Bootstrapped, self-funded healthtech SaaS (Greenlight Guru) selling QMS software to medical device manufacturers; no external investment reported, which supports durability. Greenhouse board (token: greenlightguru) showed zero QA openings. No remote policy, size or leadership contacts verified — confirm US-remote-to-Maine eligibility and current test/quality headcount before applying. Sources: https://www.greenlight.guru/careers https://www.uplers.com/company/greenlight-guru-15042",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.uplers.com/company/greenlight-guru-15042",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Greenlight Guru sells a QMS and product-development platform for medical device makers, so its users' regulated V&V and design-controls world matches the candidate's FDA background closely. No QA reqs posted and US-remote-to-Maine eligibility is unverified, so fit rests on domain",
+    "ai_red_flags": "No QA openings listed; remote policy, headcount and Maine eligibility all unknown.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Greenlight%20Guru",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus hands-on FDA V&V and design-controls work means I can validate the exact regulated workflows your medical device customers depend on."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.greenlight.guru/careers",
+    "research_notes": "Bootstrapped, self-funded healthtech SaaS (Greenlight Guru) selling QMS software to medical device manufacturers; no external investment reported, which supports durability. Greenhouse board (token: greenlightguru) showed zero QA openings. No remote policy, size or leadership contacts verified — confirm US-remote-to-Maine eligibility and current test/quality headcount before applying. Sources: https://www.greenlight.guru/careers https://www.uplers.com/company/greenlight-guru-15042",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://www.uplers.com/company/greenlight-guru-15042",
+    "fit_score": 4,
+    "ai_summary": "Greenlight Guru sells a QMS and product-development platform for medical device makers, so its users' regulated V&V and design-controls world matches the candidate's FDA background closely. No QA reqs posted and US-remote-to-Maine eligibility is unverified, so fit rests on domain",
+    "role_families": "QA engineering; test automation / SDET; computer systems validation & quality",
+    "ai_red_flags": "No QA openings listed; remote policy, headcount and Maine eligibility all unknown.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus hands-on FDA V&V and design-controls work means I can validate the exact regulated workflows your medical device customers depend on.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Greenlight%20Guru"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "greenlightguru",
     "board_url": "https://job-boards.greenhouse.io/greenlightguru",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Greenlight Guru",
+    "source": "https://www.greenlight.guru/careers",
+    "note": "Greenlight Guru",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:greenlightguru (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -130,6 +158,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,15 +188,68 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:20-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:greenlightguru (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Health data",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; data quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Fully remote, no state restrictions stated; Maine eligibility unknown. Stability rated stable with 14 openings in last 45 days. No QA openings or people data listed. Health data domain is adjacent to candidate's medical device testing. Sources: https://jobs.aapc.com/company/41340/datavant/ https://wfh.team/remote-policy-tracker/datavant https://reach.jobs/companies/datavant",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Fully remote roles with flexible schedules; no state or location restrictions are stated.",
+    "benefit_source": "https://wfh.team/remote-policy-tracker/datavant",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Datavant connects health data across providers; regulated healthtech aligns with the candidate's FDA V&V background. Fully remote but Maine eligibility unconfirmed, and no QA openings are listed.",
+    "ai_red_flags": "No QA openings listed; Maine eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Datavant",
+    "outreach_notes": "My FDA-regulated V&V and C#/.NET test automation experience fits health data quality where trust and traceability matter."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Fully remote, no state restrictions stated; Maine eligibility unknown. Stability rated stable with 14 openings in last 45 days. No QA openings or people data listed. Health data domain is adjacent to candidate's medical device testing. Sources: https://jobs.aapc.com/company/41340/datavant/ https://wfh.team/remote-policy-tracker/datavant https://reach.jobs/companies/datavant",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Fully remote roles with flexible schedules; no state or location restrictions are stated.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://wfh.team/remote-policy-tracker/datavant",
+    "fit_score": 3,
+    "ai_summary": "Datavant connects health data across providers; regulated healthtech aligns with the candidate's FDA V&V background. Fully remote but Maine eligibility unconfirmed, and no QA openings are listed.",
+    "role_families": "SDET; QA engineering; data quality engineering",
+    "ai_red_flags": "No QA openings listed; Maine eligibility unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "My FDA-regulated V&V and C#/.NET test automation experience fits health data quality where trust and traceability matter.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Datavant"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.datavant.com/about/careers",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -127,6 +154,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -155,15 +183,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.datavant.com/about/careers",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

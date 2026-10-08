@@ -1,0 +1,54 @@
+{
+  "company_id": "C358",
+  "detail": "extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 8 sources (30000 chars); free-cloud/gemini/gemini-3.5-flash-lite rejected no grounded facts from 8 sources (30000 chars); free-cloud/gemini/gemini-3.1-flash-lite error ServiceUnavailableError: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try; lo",
+  "steps": [
+    {
+      "step": "extract",
+      "attempts": [
+        {
+          "tier": "paid-cheap",
+          "model": "deepseek/deepseek-flash",
+          "outcome": "rejected",
+          "detail": "no grounded facts from 8 sources (30000 chars)",
+          "latency_s": 2.1860136000905186,
+          "tokens": {
+            "prompt_tokens": 8574,
+            "completion_tokens": 231
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.5-flash-lite",
+          "outcome": "rejected",
+          "detail": "no grounded facts from 8 sources (30000 chars)",
+          "latency_s": 1.1326516000553966,
+          "tokens": {
+            "prompt_tokens": 8648,
+            "completion_tokens": 58
+          }
+        },
+        {
+          "tier": "free-cloud",
+          "model": "gemini/gemini-3.1-flash-lite",
+          "outcome": "error",
+          "detail": "ServiceUnavailableError: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try ",
+          "latency_s": 5.822503799805418,
+          "tokens": {}
+        },
+        {
+          "tier": "local",
+          "model": "ollama_chat/qwen3.5:9b",
+          "outcome": "rejected",
+          "detail": "no grounded facts from 8 sources (30000 chars)",
+          "latency_s": 14.651815900113434,
+          "tokens": {
+            "prompt_tokens": 8518,
+            "completion_tokens": 56
+          }
+        }
+      ]
+    }
+  ],
+  "grounding": {},
+  "output": null
+}

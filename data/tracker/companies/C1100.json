@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Reported wind-down/delisting; verify existence first",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Digital therapeutics startup; product testing fit plausible, but company appears to have wound down operations.",
+  "approach_role": "VP of Engineering",
+  "company": "Better Therapeutics",
+  "company_id": "C1100",
+  "fit_score": 2,
+  "interests": "Digital therapeutics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Better%20Therapeutics",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer",
+  "sector": "Addiction & recovery",
+  "size_estimate": "Unknown",
+  "stability_score": 1,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "0cd5d3b5c5c3",
+  "company_id": "C425",
+  "company": "SimpliSafe",
+  "name": "Mike Shaw",
+  "title": "HW/FW Engineering Manager",
+  "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering",
+  "why_approach": "HW/FW Engineering Manager at SimpliSafe. I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+  "first_seen": "2026-10-07",
+  "person_id": "PA0004",
+  "exported": {
+    "name": "Mike Shaw",
+    "company": "SimpliSafe",
+    "title": "HW/FW Engineering Manager",
+    "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering",
+    "why_approach": "HW/FW Engineering Manager at SimpliSafe. I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+    "company_id": "C425"
+  },
+  "first_exported": "2026-10-07"
+}

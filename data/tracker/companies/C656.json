@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hybrid on-site; post-layoffs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "AR mobile games studio; QA roles exist but hybrid office culture and repeated layoffs limit remote-from-Maine prospects.",
+  "approach_role": "QA Manager, Engineering",
+  "company": "Niantic",
+  "company_id": "C656",
+  "fit_score": 3,
+  "interests": "AR games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20Engineering%20Niantic",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer, Mobile; SDET; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

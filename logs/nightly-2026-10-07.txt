@@ -1,0 +1,373 @@
+
+===== 02:00:04 watch: jobsearch watch --quiet
+  CLOSED greenhouse-8234070
+
+summary: boards_ok=467, boards_failed=1, fetched=21731, title_matches=1830, kept=133, new=0, updated=133, closed=1, reopened=0
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+
+===== 02:43:00 rank: jobsearch rank
+
+summary: scored=0, unchanged=142, failed=0, fetched_pages=1
+
+===== 08:00:02 watch: jobsearch watch --quiet
+  CLOSED workday-JR21112
+
+summary: boards_ok=467, boards_failed=1, fetched=21718, title_matches=1827, kept=133, new=0, updated=0, closed=1, reopened=0
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+
+===== 08:43:20 rank: jobsearch rank
+
+summary: scored=0, unchanged=141, failed=0, fetched_pages=1
+
+===== 11:21:33 ingest: jobsearch ingest
+skip   tracker_companies.csv: already ingested
+
+===== 11:21:34 detect: jobsearch detect
+detect: 661 companies to check
+  C005   Action Network                   other  uses bamboohr
+  C100   Foundry Gaming (Foundry VTT)     other  no known job-board system on careers page
+  C124   Community Solutions (Built for Z unknown  careers page HTTP 403
+
+summary: no-url=658, other=2, unknown=1
+http: {'requests': 3, 'cache_hits': 0, 'retries': 0}
+
+===== 11:21:37 discover: jobsearch discover --limit 60
+discover: 57 companies to search
+  FOUND C1189 National Instruments (Emerson): pinpoint:inmusicbrands (embedded in https://www.native-instruments.com/pages/careers)
+  ..   C1088 Brave Technology Coop: 29 results
+  FOUND C435 Leidos: workday:leidos|5|External (linked from search results)
+  ..   C457 Hexagon Safety: 31 results
+  ..   C458 NIC (Tyler): 24 results, page https://www.nic.org/about-nic/careers-at-nic/
+  FOUND C468 Guidewire: workday:guidewire|5|external (linked from search results)
+  ..   C474 Liberty Mutual: 27 results, page https://jobs.libertymutualgroup.com/, icims https://careers-libertymutual.icims.com/jobs/intro?mobile=true&width=1024&height=1115&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420
+  ..   C480 Progressive: 29 results, page https://careers.progressive.com/
+  FOUND C005 Action Network: workable:action-network (linked from search results)
+  FOUND C047 Airbnb: greenhouse:airbnb (greenhouse token guessed from name)
+  ..   C048 Royal Caribbean Group: 22 results, page https://careers.royalcaribbeangroup.com/
+  FOUND C049 Amadeus: workday:amadeus|502|jobs (linked from search results)
+  ..   C050 SITA: 23 results, page https://careers.sita.aero/
+  ..   C051 EF Education First: 25 results
+  ..   C100 Foundry Gaming (Foundry VTT): 24 results, page https://foundryvtt.com/packages/arcane-marks-careers
+  FOUND C124 Community Solutions (Built for Z: breezy:community-solutions (linked from search results)
+  ..   C301 Spring Health: 23 results, page https://www.springhealth.com/careers
+  ..   C302 Lyra Health: 23 results, page https://careers.lyrahealth.com/, wellfound https://wellfound.com/company/lyra-health
+  ..   C557 Wildbit/ActiveCampaign: 5 results
+  ..   C749 Podium Entertainment: 25 results, page https://www.podium.com/careers
+  FOUND C811 Wodify: breezy:wodify (linked from search results)
+  FOUND C828 LeagueApps: greenhouse:leagueapps (embedded in https://careers.leagueapps.com/)
+  ..   C683 Nexus Mods: 24 results, page https://www.nexusmods.com/about/careers
+  ..   C475 Hanover Insurance: 23 results
+  FOUND C774 National Archives (NARA): workday:nationalarchives|3|Careers (linked from search results)
+  ..   C1156 General Dynamics Mission Systems: 24 results
+  ..   C1162 MIT Lincoln Laboratory: 22 results
+  ..   C352 Bath Iron Works (General Dynamic: 23 results
+  ..   C367 Bar Harbor Bank & Trust: 25 results
+  ..   C379 Intelligent Controls (Franklin F: 27 results
+  ..   C626 Bethesda (ZeniMax): 22 results, page https://www.bethesdaliving.org/careers/
+  ..   C834 Palmetto State Armory: 23 results, page https://palmettostatearmory.com/forum/t/now-hiring/2572
+  ---  C381 Fairchild/ON Semi South Portland: no results
+  ..   C878 Range Systems: 25 results, page https://rangesystems.com/careers/
+  ..   C879 Action Target: 25 results, page https://actiontarget.com/tag/jobs/
+  FOUND C582 Canva: smartrecruiters:Canva (linked from search results)
+  FOUND C583 Figma: greenhouse:figma (linked from search results)
+  ..   C589 monday.com: 23 results, page https://monday.com/careers
+  ..   C534 Frontline Education: 23 results, page https://www.frontlineeducation.com/about/careers/
+  ..   C1114 Lex: 24 results
+  FOUND C365 First National Bank (The First B: workday:firstnational|12|fnbocareers (linked from search results)
+  ..   C371 Eastern Maine Community College: 23 results
+  ..   C373 Cianbro: 22 results, page https://www.cianbro.com/careers-list
+  ..   C988 Goal Zero: 24 results, page https://goalzero.com/pages/careers
+  ..   C341 Mobius Bionics: 27 results
+  ..   C1031 National Employment Law Project: 24 results
+  ..   C1024 AFT: 23 results, page https://www.aft.org/careers
+  FOUND C1025 NEA: workday:nea|1|ExternalCareers (linked from search results)
+  ..   C1109 Point of Pride: 24 results, page https://www.pointofpride.org/careers/care-coordinator
+  ..   C1072 Brennan Center: 24 results, page https://www.brennancenter.org/about/careers, jazzhr https://brennancenter.applytojob.com/apply
+  ..   C1054 National Low Income Housing Coal: 25 results
+  ..   C732 Alliance Game Distributors: 25 results
+  ..   C883 Otter Outdoors: 24 results
+  ..   C1085 National Harm Reduction Coalitio: 22 results
+  ..   C804 Mirror (Lululemon): 23 results, page https://www.mirrorgroupllc.com/careers
+  ..   C915 Frontier/Spirit: 27 results
+  ..   C1087 Never Use Alone: 20 results
+
+summary: searched=57, found=14, no_results=1, careers_pages=25, other_boards=3, errors=0
+
+===== 11:28:34 watch: jobsearch watch --quiet
+  NEW  Airbnb                   Engineering Manager, Guest & Host (Host Listings & Quality)  [unknown] United States  USD 212,000-265,000/year
+  NEW  Airbnb                   Policy Manager, Quality                                      [unknown] United States  USD 168,000-207,000/year
+  NEW  Airbnb                   Quality Assurance & Standards Manager                        [unknown] United States  (Bangalore, India, United  USD 156,000-195,000/year
+  NEW  Airbnb                   Senior Manager, Technical Program Management (Data, Reliabil [unknown] United States  USD 232,000-282,000/year
+  NEW  Airbnb                   Senior Staff Engineer, Guest & Host (Host Listings & Quality [unknown] United States  USD 248,000-310,000/year
+  NEW  Airbnb                   Staff Advanced Analytics, Community Blueprint & Quality      [unknown] United States  USD 180,000-221,000/year
+  NEW  Zoll Medical             Design Quality Assurance (DQA) Co-op                         [unknown] Chelmsford, MA (In-Office)  USD 27-27/hour
+  NEW  Leidos                   Quality Assurance Engineer / Construction                    [yes] 6314 Remote/Teleworker US  USD 59,150-106,925/year
+  NEW  Leidos                   Test Engineer                                                [unknown] Gaithersburg, MD; Eagan, MN; Egg Harbor   USD 73,450-132,775/year
+
+summary: boards_ok=480, boards_failed=1, fetched=22287, title_matches=1925, kept=142, new=9, updated=2, closed=0, reopened=2
+  failed: C402 greenhouse:hubspot: HTTP 404 from https://boards-api.greenhouse.io/v1/boards/hubspot/jobs
+
+===== 12:15:38 triage: jobsearch triage
+
+triaged=0 failed=0 calls=0 rejects=0 escalations=0 cached=0 models={} tokens={}
+{
+  "count": 1070,
+  "distribution": {
+    "fit": {
+      "1": 142,
+      "2": 262,
+      "3": 396,
+      "4": 238,
+      "5": 32
+    },
+    "stability": {
+      "1": 14,
+      "2": 211,
+      "3": 367,
+      "4": 329,
+      "5": 149
+    },
+    "remote": {
+      "High": 224,
+      "Low": 352,
+      "Medium": 318,
+      "Unknown": 176
+    },
+    "size": {
+      "50-500": 277,
+      "500-5k": 322,
+      "5k+": 231,
+      "<50": 189,
+      "Unknown": 51
+    }
+  },
+  "models": {
+    "claude-haiku-4-5-20251001": 100,
+    "deepseek/deepseek-flash": 970
+  },
+  "sample": [
+    {
+      "id": "C728",
+      "company": "BackerKit",
+      "fit": 4,
+      "stability": 4,
+      "remote": "High",
+      "size": "50-500",
+      "why": "Crowdfunding tooling with TTRPG focus; software QA plausible and remote-friendly, strong domain match.",
+      "flags": "Remote-friendly; strong TTRPG ties.",
+      "approach": "Head of Engineering"
+    },
+    {
+      "id": "C285",
+      "company": "Netsmart",
+      "fit": 4,
+      "stability": 4,
+      "remote": "Unknown",
+      "size": "500-5k",
+      "why": "Behavioral health EHR with addiction treatment clients; regulated, good domain interest fit.",
+      "flags": "",
+      "approach": "QA Manager"
+    },
+    {
+      "id": "C1001",
+      "company": "Maine Connectivity Authority",
+      "fit": 2,
+      "stability": 4,
+      "remote": "High",
+      "size": "50-500",
+      "why": "Government broadband agency; stable; Maine-based; QA roles unclear",
+      "flags": "Government bureaucracy; infrastructure-focused; not software company",
+      "approach": "Director"
+    },
+    {
+      "id": "C177",
+      "company": "PagerDuty",
+      "fit": 2,
+      "stability": 5,
+      "remote": "Medium",
+      "size": "5k+",
+      "why": "Public company stability; SRE testing skills relevant",
+      "flags": "Incident response tangential to test automation",
+      "approach": "Engineering Manager"
+    },
+    {
+      "id": "C385",
+      "company": "Northeast Delta Dental",
+      "fit": 2,
+      "stability": 4,
+      "remote": "Low",
+      "size": "500-5k",
+      "why": "Concord NH dental insurer; insurance QA roles possible, but not commutable; remote unlikely open to Maine.",
+      "flags": "Concord NH; not commutable",
+      "approach": "QA Manager"
+    },
+    {
+      "id": "C1071",
+      "company": "Equal Justice Initiative",
+      "fit": 1,
+      "stability": 5,
+      "remote": "Low",
+      "size": "50-500",
+      "why": "Legal advocacy nonprofit focused on justice reform; no software engineering or QA function evident.",
+      "flags": "No software engineering or QA",
+      "approach": "HR Director"
+    },
+    {
+      "id": "C341",
+      "company": "Mobius Bionics",
+      "fit": 2,
+      "stability": 2,
+      "remote": "Low",
+      "size": "<50",
+      "why": "Small DEKA spinout building prosthetic arms; hardware-adjacent device testing fits, but tiny and onsite in New Hampshire.",
+      "flags": "Very small; onsite-only, no remote path",
+      "approach": "Head of Engineering"
+    },
+    {
+      "id": "C740",
+      "company": "Hasbro (corporate)",
+      "fit": 4,
+      "stability": 4,
+      "remote": "Medium",
+      "size": "5k+",
+      "why": "Major toy/game company with digital gaming; QA leadership plausible; games domain fit; Pawtucket hybrid may not suit Maine.",
+      "flags": "Pawtucket onsite/hybrid; remote unknown.",
+      "approach": "VP Quality Engineering"
+    },
+    {
+      "id": "C234",
+      "company": "Package Concierge",
+      "fit": 2,
+      "stability": 3,
+      "remote": "Unknown",
+      "size": "Unknown",
+      "why": "Smart locker provider; IoT/location tech sector fits, but small and remote policies unknown, lowering confidence.",
+      "flags": "Remote unclear",
+      "approach": "QA Lead"
+    },
+    {
+      "id": "C269",
+      "company": "Hologic",
+      "fit": 4,
+      "stability": 5,
+      "remote": "Medium",
+      "size": "5k+",
+      "why": "Imaging and diagnostics; regulated medical devices; strong match; Marlborough site likely onsite.",
+      "flags": "Marlborough onsite likely",
+      "approach": "QA Manager"
+    }
+  ]
+}
+
+===== 12:15:39 verify: jobsearch verify
+  C1182 Waymo ...
+    verified fit=4 grounded 13/13 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C268 Butterfly Network ...
+    verified fit=3 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C247 Stord ...
+    verified fit=4 grounded 11/11 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C603 Stripe ...
+    verified fit=3 grounded 10/10 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C572 Supabase ...
+    verified fit=3 grounded 12/12 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C457 Hexagon Safety ...
+    verified fit=3 grounded 3/3 via gemini/gemini-3.1-flash-lite, deepseek/deepseek-flash
+  C480 Progressive ...
+    verified fit=3 grounded 1/1 via ollama_chat/qwen3.5:9b, deepseek/deepseek-flash
+  C333 Medidata (Dassault) ...
+    verified fit=3 grounded 7/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C358 Kepware (PTC) ...
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 8 sources (30000 chars); free-cloud/gemini/gem
+  C425 SimpliSafe ...
+    verified fit=2 grounded 10/10 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C454 Accela ...
+    verified fit=2 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C467 Sapiens ...
+    verified fit=2 grounded 8/8 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C471 Vertafore ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C472 Applied Systems ...
+    verified fit=3 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C497 Q2 Holdings ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C498 Alkami ...
+    verified fit=4 grounded 7/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C649 Keywords Studios ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C657 Zynga (Take-Two) ...
+    verified fit=3 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C671 Tripwire Interactive ...
+    verified fit=4 grounded 7/7 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C737 TCGplayer ...
+    verified fit=3 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C740 Hasbro (corporate) ...
+    verified fit=2 grounded 5/5 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C769 Bibliotheca ...
+    rejected via   extract: extract: no tier succeeded: paid-cheap/deepseek/deepseek-flash rejected no grounded facts from 7 sources (30000 chars); free-cloud/gemini/gem
+  C771 Follett ...
+    verified fit=4 grounded 5/5 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C778 MyHeritage ...
+    verified fit=2 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C810 Daxko ...
+    verified fit=3 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C830 Catapult Sports ...
+    verified fit=2 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C901 TripAdvisor ...
+    verified fit=2 grounded 9/9 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C902 Viator ...
+    verified fit=2 grounded 4/4 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C904 Vrbo (Expedia) ...
+    verified fit=3 grounded 1/1 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C910 Agilysys ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C930 ForeFlight (Boeing) ...
+    verified fit=4 grounded 8/8 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C931 Jeppesen (Boeing) ...
+    verified fit=2 grounded 8/8 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C935 Granular (Corteva) ...
+    verified fit=3 grounded 4/4 via gemini/gemini-3.5-flash-lite, deepseek/deepseek-flash
+  C936 Climate FieldView (Bayer) ...
+    verified fit=3 grounded 1/1 via gemini/gemini-3.1-flash-lite, deepseek/deepseek-flash
+  C984 Enphase ...
+    rejected  no evidence: every search and fetch failed
+  C985 SolarEdge ...
+    verified fit=2 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1010 NGP VAN (Bonterra) ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C1188 dSPACE ...
+    verified fit=3 grounded 6/6 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C276 Omnicell ...
+    verified fit=3 grounded 3/3 via deepseek/deepseek-flash, deepseek/deepseek-flash
+  C285 Netsmart ...
+    verified fit=3 grounded 2/2 via deepseek/deepseek-flash, deepseek/deepseek-flash
+
+summary: queued=1077, verified=37, rejected=3
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C358-20261007T121540.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C769-20261007T121540.json
+  reject saved: C:\Users\adict\Documents\dev\jobs\data\rejects\C984-20261007T121540.json
+
+===== 12:44:56 rank: jobsearch rank
+  workday-R20454                           skill=2 below   maine=no      Design Quality Assurance (DQA) Co-op
+  workday-R-00187922                       skill=2 below   maine=yes     Quality Assurance Engineer / Construction
+  workday-R-00193680                       skill=4 match   maine=yes     Test Engineer
+  greenhouse-8185136                       skill=1 match   maine=unknown Policy Manager, Quality
+  greenhouse-8207095                       skill=2 match   maine=unknown Staff Advanced Analytics, Community Blueprint & Qu
+  greenhouse-8231975                       skill=2 match   maine=unknown Senior Manager, Technical Program Management (Data
+  greenhouse-8238592                       skill=2 above   maine=unknown Senior Staff Engineer, Guest & Host (Host Listings
+  greenhouse-8238604                       skill=2 match   maine=unknown Engineering Manager, Guest & Host (Host Listings &
+  greenhouse-8259224                       skill=2 match   maine=yes     Quality Assurance & Standards Manager
+
+summary: scored=9, unchanged=143, failed=0, fetched_pages=1
+
+===== 12:45:44 export: jobsearch export --dry-run
+would export: companies=1074, jobs_new=154, jobs_updated=0, people_new=45, people_updated=0, leads_added=0
+  companies_import: C:\Users\adict\Documents\dev\jobs\out\2026-10-07\preview\companies_import.csv
+  jobs_import: C:\Users\adict\Documents\dev\jobs\out\2026-10-07\preview\jobs_import.csv
+  people_import: C:\Users\adict\Documents\dev\jobs\out\2026-10-07\preview\people_import.csv
+
+===== 12:46:27 digest: jobsearch digest
+report: C:\Users\adict\Documents\dev\jobs\out\2026-10-07\digest.html (markdown: C:\Users\adict\Documents\dev\jobs\out\2026-10-07\digest.md)

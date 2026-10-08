@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Ubisoft restructuring and layoffs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Ubisoft's Cary studio on Tom Clancy projects; QA needs exist, but parent cost-cutting and onsite culture hurt.",
+  "approach_role": "QA Manager, Red Storm",
+  "company": "Ubisoft (Red Storm)",
+  "company_id": "C642",
+  "fit_score": 3,
+  "interests": "Cary NC",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%2C%20Red%20Storm%20Ubisoft%20%28Red%20Storm%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

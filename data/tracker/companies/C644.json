@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small SF team; onsite culture",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Xbox-owned adventure studio in San Francisco; stable and creative, but small and onsite with limited QA openings.",
+  "approach_role": "QA Lead or Production Manager",
+  "company": "Double Fine",
+  "company_id": "C644",
+  "fit_score": 3,
+  "interests": "Adventure games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20or%20Production%20Manager%20Double%20Fine",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; QA Engineer; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

@@ -5,8 +5,8 @@
     "company": "Keywords Studios",
     "sector": "Games & stories",
     "interests": "Game QA services; huge QA employer",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.keywordsstudios.com/en/careers/",
+    "role_families": "Game QA / SDET; QA leadership; Test tooling & automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Keywords Studios, games & stories sector, applies via SmartRecruiters (token KeywordsStudios). All else unverified — remote policy, size, stability signals, QA openings and contacts are absent from the facts. Confirm Maine-eligible remote senior openings and whether roles are permanent before investing effort. Sources: https://www.keywordsstudios.com/en/careers/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching smartrecruiters board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Keywords Studios is a large games-services outsourcer supplying QA, localization and art to game publishers — a direct hit on the candidate's games interest. But no remote policy, stability data, openings or contacts are verified, and its QA work skews",
+    "ai_red_flags": "No verified remote policy; game QA often low-paid, contract-heavy; games-sector layoffs and offshoring pressure.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "QA/Quality Director or Head of QA (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA/Quality%20Director%20or%20Head%20of%20QA%20%28no%20named%20leader%20in%20facts%29%20Keywords%20Studios",
+    "outreach_notes": "Fifteen years of test automation and FDA-regulated V&V, plus genuine games and TTRPG enthusiasm, maps onto Keywords' QA-at-scale delivery for publishers — ask about senior/lead remote roles open to Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.keywordsstudios.com/en/careers/",
+    "research_notes": "Verified: Keywords Studios, games & stories sector, applies via SmartRecruiters (token KeywordsStudios). All else unverified — remote policy, size, stability signals, QA openings and contacts are absent from the facts. Confirm Maine-eligible remote senior openings and whether roles are permanent before investing effort. Sources: https://www.keywordsstudios.com/en/careers/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Keywords Studios is a large games-services outsourcer supplying QA, localization and art to game publishers — a direct hit on the candidate's games interest. But no remote policy, stability data, openings or contacts are verified, and its QA work skews",
+    "role_families": "Game QA / SDET; QA leadership; Test tooling & automation",
+    "ai_red_flags": "No verified remote policy; game QA often low-paid, contract-heavy; games-sector layoffs and offshoring pressure.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Low",
+    "approach_role": "QA/Quality Director or Head of QA (no named leader in facts)",
+    "outreach_notes": "Fifteen years of test automation and FDA-regulated V&V, plus genuine games and TTRPG enthusiasm, maps onto Keywords' QA-at-scale delivery for publishers — ask about senior/lead remote roles open to Maine.",
+    "next_research_action": "No supported job board - check https://www.keywordsstudios.com/en/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA/Quality%20Director%20or%20Head%20of%20QA%20%28no%20named%20leader%20in%20facts%29%20Keywords%20Studios"
+  },
   "ats": {
-    "type": "smartrecruiters",
-    "token": "KeywordsStudios",
-    "board_url": "https://careers.smartrecruiters.com/KeywordsStudios",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 35
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.keywordsstudios.com/en/careers/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "smartrecruiters:KeywordsStudios (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +98,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C649",
+    "career_url": "https://www.keywordsstudios.com/en/careers/",
+    "ats": {
+      "type": "smartrecruiters",
+      "token": "KeywordsStudios",
+      "board_url": "https://careers.smartrecruiters.com/KeywordsStudios"
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Keywords Studios is a large games-services outsourcer supplying QA, localization and art to game publishers — a direct hit on the candidate's games interest. But no remote policy, stability data, openings or contacts are verified, and its QA work skews",
+      "role_families": [
+        "Game QA / SDET",
+        "QA leadership",
+        "Test tooling & automation"
+      ]
+    },
+    "hiring_difficulty": 2,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "QA/Quality Director or Head of QA (no named leader in facts)",
+    "outreach_angle": "Fifteen years of test automation and FDA-regulated V&V, plus genuine games and TTRPG enthusiasm, maps onto Keywords' QA-at-scale delivery for publishers — ask about senior/lead remote roles open to Maine.",
+    "red_flags": "No verified remote policy; game QA often low-paid, contract-heavy; games-sector layoffs and offshoring pressure.",
+    "confidence": "low",
+    "sources": [
+      "https://www.keywordsstudios.com/en/careers/"
+    ],
+    "notes": "Verified: Keywords Studios, games & stories sector, applies via SmartRecruiters (token KeywordsStudios). All else unverified — remote policy, size, stability signals, QA openings and contacts are absent from the facts. Confirm Maine-eligible remote senior openings and whether roles are permanent before investing effort.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +172,85 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:14-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "smartrecruiters:KeywordsStudios (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

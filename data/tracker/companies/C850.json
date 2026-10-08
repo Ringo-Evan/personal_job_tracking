@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Likely on-site, limited US QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Swedish optics maker; firearms domain fits, but US roles likely on-site and few software QA openings.",
+  "approach_role": "QA Manager",
+  "company": "Aimpoint",
+  "company_id": "C850",
+  "fit_score": 3,
+  "interests": "Optics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Aimpoint",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Quality Manager",
+  "sector": "Firearms",
+  "size_estimate": "Unknown",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

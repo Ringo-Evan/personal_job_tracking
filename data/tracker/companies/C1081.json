@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small nonprofit, unclear QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Coding education for incarcerated people; small nonprofit, unclear if dedicated QA exists.",
+  "approach_role": "Engineering Lead",
+  "company": "Persevere",
+  "company_id": "C1081",
+  "fit_score": 3,
+  "interests": "Coding for incarcerated people",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Lead%20Persevere",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Software Engineer",
+  "sector": "Criminal justice reform",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

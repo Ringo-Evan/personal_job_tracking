@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Journalism nonprofit; data-heavy but not tech company",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Data journalism nonprofit; QA for data pipelines plausible; not core product QA",
+  "approach_role": "VP Technology",
+  "company": "ProPublica",
+  "company_id": "C1036",
+  "fit_score": 1,
+  "interests": "Nonprofit journalism",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Technology%20ProPublica",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Data Engineer; Systems Administrator",
+  "sector": "Labor & organizing",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

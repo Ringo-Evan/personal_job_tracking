@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Financial instability, layoffs",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "3D printing hardware; test automation fit exists, but public company financial instability and Burlington non-commutable.",
+  "approach_role": "VP Engineering",
+  "company": "Desktop Metal",
+  "company_id": "C420",
+  "fit_score": 3,
+  "interests": "Burlington",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Desktop%20Metal",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; SDET; QA Manager",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

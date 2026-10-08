@@ -6,7 +6,7 @@
     "sector": "Books, history & media",
     "interests": "Federal (history)",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; Test Engineer; IT Specialist",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "ai_summary": "Federal archives and history; stable, but DC-based and unlikely to offer remote QA from Maine.",
+    "ai_red_flags": "On-site DC, citizenship",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Chief Information Officer",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Information%20Officer%20National%20Archives%20%28NARA%29",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,40 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "role_families": "QA Engineer; Test Engineer; IT Specialist",
+    "approach_role": "Chief Information Officer",
+    "ai_summary": "Federal archives and history; stable, but DC-based and unlikely to offer remote QA from Maine.",
+    "ai_red_flags": "On-site DC, citizenship",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Information%20Officer%20National%20Archives%20%28NARA%29"
+  },
+  "ats": {
+    "type": "workday",
+    "token": "nationalarchives|3|Careers",
+    "board_url": "https://nationalarchives.wd3.myworkdayjobs.com/Careers",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
+    "source": null,
+    "note": "linked from search results",
+    "job_count": 7
+  },
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 22,
+    "careers_page": null,
+    "found": "workday:nationalarchives|3|Careers (linked from search results)",
+    "other": [],
+    "rejected": [
+      "greenhouse:national"
+    ]
+  },
   "triage": {
     "fit": 3,
     "stability": 5,
@@ -62,6 +94,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -99,12 +132,49 @@
       "changed": [
         "discovery.rejected"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "rejected": [
-      "greenhouse:national"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

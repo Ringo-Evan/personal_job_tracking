@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://fedcoseeds.com/about",
+  "career_url": "https://fedcoseeds.com/jobs",
+  "company": "Fedco Seeds",
+  "company_id": "C054",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Small cooperative with limited technical seats; role scope and pay may differ from senior QA.",
+  "hiring_difficulty": 4,
+  "interests": "Cooperative ownership, seeds, orchards",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Worker/consumer cooperative in Clinton, Maine; user to assess culture and pay.",
+  "research_status": "Initial research",
+  "role_families": "Systems; operations; organizational leadership",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

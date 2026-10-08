@@ -5,8 +5,8 @@
     "company": "Zynga (Take-Two)",
     "sector": "Games & stories",
     "interests": "Mobile games",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.zynga.com/jobs/careers/",
+    "role_families": "SDET; QA Engineer; Test Automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Zynga is a Take-Two label with 'Connected Workplace' workstyles (hybrid, onsite, remote) varying by role. No QA openings listed. ME eligibility uncertain. Stability backed by Take-Two's size. Candidate's games interest aligns, but remote policy is not guaranteed. Sources: https://www.zynga.com/jobs/careers/ https://job-boards.greenhouse.io/zyngacareers",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "varies: Zynga's 'Connected Workplace' assigns every role a workstyle: Connected (hybrid, home plus studio), Onsite (full-time in office) or Remote (exclusively from home), determined by the nature of the role and team.",
+    "benefit_source": "https://job-boards.greenhouse.io/zyngacareers",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Medium",
+    "size_estimate": "Unknown",
+    "ai_summary": "Zynga (Take-Two) makes mobile games, matching the candidate's games interest. Remote-from-Maine is role-dependent and no QA openings are listed, so fit is plausible but uncertain.",
+    "ai_red_flags": "No current QA openings; remote-from-Maine not guaranteed; games industry layoffs possible.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Zynga%20%28Take-Two%29",
+    "outreach_notes": "With 15 years in test automation and a passion for games, I can bring rigorous QA practices from regulated industries to Zynga's mobile titles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.zynga.com/jobs/careers/",
+    "research_notes": "Zynga is a Take-Two label with 'Connected Workplace' workstyles (hybrid, onsite, remote) varying by role. No QA openings listed. ME eligibility uncertain. Stability backed by Take-Two's size. Candidate's games interest aligns, but remote policy is not guaranteed. Sources: https://www.zynga.com/jobs/careers/ https://job-boards.greenhouse.io/zyngacareers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "varies: Zynga's 'Connected Workplace' assigns every role a workstyle: Connected (hybrid, home plus studio), Onsite (full-time in office) or Remote (exclusively from home), determined by the nature of the role and team.",
+    "remote_likelihood": "Medium",
+    "stability_score": 4,
+    "benefit_source": "https://job-boards.greenhouse.io/zyngacareers",
+    "fit_score": 3,
+    "ai_summary": "Zynga (Take-Two) makes mobile games, matching the candidate's games interest. Remote-from-Maine is role-dependent and no QA openings are listed, so fit is plausible but uncertain.",
+    "role_families": "SDET; QA Engineer; Test Automation",
+    "ai_red_flags": "No current QA openings; remote-from-Maine not guaranteed; games industry layoffs possible.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Assurance",
+    "outreach_notes": "With 15 years in test automation and a passion for games, I can bring rigorous QA practices from regulated industries to Zynga's mobile titles.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Zynga%20%28Take-Two%29"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "zyngacareers",
     "board_url": "https://job-boards.greenhouse.io/zyngacareers",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Zynga",
+    "source": "https://www.zynga.com/jobs/careers/",
+    "note": "Zynga ",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:zyngacareers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,66 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C657",
+    "career_url": "https://www.zynga.com/jobs/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "zyngacareers",
+      "board_url": "https://job-boards.greenhouse.io/zyngacareers"
+    },
+    "remote_policy": {
+      "summary": "Zynga's 'Connected Workplace' assigns every role a workstyle: Connected (hybrid, home plus studio), Onsite (full-time in office) or Remote (exclusively from home), determined by the nature of the role and team.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://www.zynga.com/jobs/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "Zynga is a label of Take-Two Interactive; the studio continues to operate its game portfolio under that parent.",
+          "date": null,
+          "url": "https://job-boards.greenhouse.io/zyngacareers"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Zynga (Take-Two) makes mobile games, matching the candidate's games interest. Remote-from-Maine is role-dependent and no QA openings are listed, so fit is plausible but uncertain.",
+      "role_families": [
+        "SDET",
+        "QA Engineer",
+        "Test Automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Assurance",
+    "outreach_angle": "With 15 years in test automation and a passion for games, I can bring rigorous QA practices from regulated industries to Zynga's mobile titles.",
+    "red_flags": "No current QA openings; remote-from-Maine not guaranteed; games industry layoffs possible.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.zynga.com/jobs/careers/",
+      "https://job-boards.greenhouse.io/zyngacareers"
+    ],
+    "notes": "Zynga is a Take-Two label with 'Connected Workplace' workstyles (hybrid, onsite, remote) varying by role. No QA openings listed. ME eligibility uncertain. Stability backed by Take-Two's size. Candidate's games interest aligns, but remote policy is not guaranteed.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +181,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:15-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:zyngacareers (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

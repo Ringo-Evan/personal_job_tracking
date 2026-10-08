@@ -6,7 +6,7 @@
     "sector": "Games & stories",
     "interests": "Digital board games (Catan-like)",
     "career_url": "https://hitmarker.net/jobs/colonist-qa-engineer-4676522",
-    "role_families": "QA engineer; automation",
+    "role_families": "QA engineering; test automation / SDET; release & quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": 2,
-    "estimate_confidence": "Low",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": "Fully remote QA role exists, but pay is far below your level.",
-    "research_notes": "Verified in 09/30 search. Fully remote async team; 60M games/year. QA Engineer fixes issues directly in code; Playwright/Cypress welcome. Pay $1,500-3,000 USD/month + stock.",
+    "research_notes": "Fully remote, asynchronous, work-from-anywhere team; Maine eligible per policy. One QA Engineer opening, remote, but locations listed are mostly Eastern Europe/Asia. Growth claims: 3.6M yearly active players, 60M games played. No funding, revenue, size or layoff data; small team, so senior QA leadership roles may not exist. Sources: https://blog.colonist.io/join-our-team/ https://www.workwithindies.com/work-with/colonist https://colonist.io/careers",
     "your_notes": null,
-    "research_status": "Initial research",
-    "maine_remote": "Worldwide remote",
-    "benefit_source": null,
-    "research_as_of": "2026-09-30",
-    "next_research_action": "Only as contract/side work",
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": "Founder / Head of Engineering",
-    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Founder%20Colonist",
-    "outreach_notes": "Could pitch a senior/lead QA or part-time contract instead."
+    "research_status": "Researched",
+    "maine_remote": "yes: Fully remote and asynchronous team spread across multiple continents; members work from anywhere in the world and choose their own hours.",
+    "benefit_source": "https://colonist.io/careers",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Colonist builds a popular digital board-game platform (Catan-like), matching the candidate's board-game interest, and is fully remote worldwide with Maine eligibility. But it is a small studio with one QA opening listed mainly for non-US locations, so senior/lead QA scope",
+    "ai_red_flags": "Only QA posting lists Serbia, Poland, Turkey, Vietnam, Russia, Malaysia, Romania — US/Maine hiring not shown.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Colonist",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V experience could help scale automated regression and release quality for a growing digital board-game platform."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Fully remote, asynchronous, work-from-anywhere team; Maine eligible per policy. One QA Engineer opening, remote, but locations listed are mostly Eastern Europe/Asia. Growth claims: 3.6M yearly active players, 60M games played. No funding, revenue, size or layoff data; small team, so senior QA leadership roles may not exist. Sources: https://blog.colonist.io/join-our-team/ https://www.workwithindies.com/work-with/colonist https://colonist.io/careers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Fully remote and asynchronous team spread across multiple continents; members work from anywhere in the world and choose their own hours.",
+    "remote_likelihood": "High",
+    "stability_score": 2,
+    "benefit_source": "https://colonist.io/careers",
+    "fit_score": 4,
+    "ai_summary": "Colonist builds a popular digital board-game platform (Catan-like), matching the candidate's board-game interest, and is fully remote worldwide with Maine eligibility. But it is a small studio with one QA opening listed mainly for non-US locations, so senior/lead QA scope",
+    "role_families": "QA engineering; test automation / SDET; release & quality engineering",
+    "ai_red_flags": "Only QA posting lists Serbia, Poland, Turkey, Vietnam, Russia, Malaysia, Romania — US/Maine hiring not shown.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Head of Engineering",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V experience could help scale automated regression and release quality for a growing digital board-game platform.",
+    "next_research_action": "Watching ashby board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Colonist"
+  },
   "ats": {
     "type": "ashby",
     "token": "colonist",
@@ -55,6 +75,7 @@
     "note": "token guessed from name; page mentions ashby",
     "job_count": 4
   },
+  "discovery": null,
   "triage": null,
   "research": {
     "company_id": "C090",
@@ -132,6 +153,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -169,8 +191,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

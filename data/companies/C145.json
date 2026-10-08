@@ -3,10 +3,10 @@
   "tracker": {
     "company_id": "C145",
     "company": "The Jackson Laboratory",
-    "sector": "Maine employers",
+    "sector": "Maine & New England",
     "interests": "Bar Harbor ME research - ~1 hr from Columbia",
     "career_url": "https://www.jax.org/careers-at-jax",
-    "role_families": "Software QA; research IT; validation",
+    "role_families": "Quality systems management; QA leadership; Regulated software V&V",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": 3,
-    "estimate_confidence": "Low",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": "Commutable from Downeast Maine; research software and IT teams.",
-    "research_notes": "From general knowledge, not yet searched - verify. Bar Harbor, ME HQ - one of few large tech-heavy employers near you. Regulated/validated software likely (lab systems).",
+    "research_notes": "JAX is a nonprofit biomedical research org in Bar Harbor, ME. Flexible work; one fully remote Quality System Manager role (Farmington CT option). No layoffs/funding news; growth in Parkinson's and rare disease research. Maine-eligible remote unconfirmed. Sources: https://www.jax.org/careers-and-training https://www.jax.org/ https://thejacksonlaboratory.wd503.myworkdayjobs.com/External_JAX",
     "your_notes": null,
-    "research_status": "Initial research",
-    "maine_remote": "Maine (on-site/hybrid feasible)",
-    "benefit_source": null,
-    "research_as_of": "2026-09-30",
-    "next_research_action": "Search software/QA roles",
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": "Director of research IT / software engineering",
-    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20research%20IT%20The%20Jackson%20Laboratory",
-    "outreach_notes": "Local + FDA-style validation experience."
+    "research_status": "Researched",
+    "maine_remote": "unknown: Flexible work arrangements offered; one current quality role is posted as fully Remote with a Farmington, Connecticut option.",
+    "benefit_source": "https://www.jax.org/",
+    "research_as_of": "2026-10-06",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Nonprofit biomedical research in Bar Harbor; offers flexible/remote work and a Quality System Manager role. Fits candidate's regulated medical-device V&V background and Maine location, though not a pure software test automation opening.",
+    "ai_red_flags": "Maine-eligible remote status unknown; sole QA opening is QMS, not test automation.",
+    "ai_scored_at": "2026-10-06",
+    "approach_role": "Director of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20The%20Jackson%20Laboratory",
+    "outreach_notes": "I bring 15 years of FDA-regulated medical-device V&V and design-controls experience, directly applicable to JAX's quality systems; I'm Maine-based and ready to support your remote quality initiatives."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "JAX is a nonprofit biomedical research org in Bar Harbor, ME. Flexible work; one fully remote Quality System Manager role (Farmington CT option). No layoffs/funding news; growth in Parkinson's and rare disease research. Maine-eligible remote unconfirmed. Sources: https://www.jax.org/careers-and-training https://www.jax.org/ https://thejacksonlaboratory.wd503.myworkdayjobs.com/External_JAX",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-06",
+    "maine_remote": "unknown: Flexible work arrangements offered; one current quality role is posted as fully Remote with a Farmington, Connecticut option.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://www.jax.org/",
+    "fit_score": 4,
+    "ai_summary": "Nonprofit biomedical research in Bar Harbor; offers flexible/remote work and a Quality System Manager role. Fits candidate's regulated medical-device V&V background and Maine location, though not a pure software test automation opening.",
+    "role_families": "Quality systems management; QA leadership; Regulated software V&V",
+    "ai_red_flags": "Maine-eligible remote status unknown; sole QA opening is QMS, not test automation.",
+    "ai_scored_at": "2026-10-06",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality",
+    "outreach_notes": "I bring 15 years of FDA-regulated medical-device V&V and design-controls experience, directly applicable to JAX's quality systems; I'm Maine-based and ready to support your remote quality initiatives.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20The%20Jackson%20Laboratory"
+  },
   "ats": {
     "type": "workday",
     "token": "thejacksonlaboratory|503|External_JAX",
@@ -54,6 +74,13 @@
     "source": "https://www.jax.org/careers-at-jax",
     "note": "linked from search results",
     "job_count": 56
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:thejacksonlaboratory|503|External_JAX (linked from search results)",
+    "other": []
   },
   "triage": null,
   "research": {
@@ -136,6 +163,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -168,15 +196,64 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:thejacksonlaboratory|503|External_JAX (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

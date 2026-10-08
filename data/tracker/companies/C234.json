@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Smart locker provider; IoT/location tech sector fits, but small and remote policies unknown, lowering confidence.",
+  "approach_role": "QA Lead",
+  "company": "Package Concierge",
+  "company_id": "C234",
+  "fit_score": 2,
+  "interests": "Package lockers",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Package%20Concierge",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

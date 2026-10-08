@@ -23,11 +23,11 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0010",
   "score": {
     "why": "Senior test-automation role owning backend/frontend frameworks for an autonomous-vehicle fleet platform, mentoring one engineer. Right level and remote-US, but stack is Python/Go/JavaScript rather than C#/.NET, and the AV domain is",
     "skill_match": 4,
@@ -39,5 +39,24 @@
     "at": "2026-10-06",
     "text_hash": "31d0b326915f089d",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Motional",
+    "job_title": "Sr. QA Automation Test Engineer",
+    "posting_url": "https://motional.com/open-positions/?gh_jid=7901723003#/7901723003",
+    "source_url": "https://job-boards.greenhouse.io/motional",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "Las Vegas, Nevada, United States (Las Vegas, Remote U.S. Only)",
+    "work_mode": "Remote",
+    "maine_eligible": "Yes",
+    "pay_low": 125000.0,
+    "pay_high": 167000.0,
+    "currency": "USD",
+    "pay_period": "year",
+    "skill_match": 4,
+    "fit_notes": "US-remote, senior framework ownership and mentoring fit; check Python/Go fluency and REST/gRPC plus CI/CD quality gates. AV domain new; recent layoffs. remote but tied to Nevada, check Maine eligibility: Las Vegas, Nevada, United States (Las Vegas, Remote U.S. Only)",
+    "company_id": "C1185"
   }
 }

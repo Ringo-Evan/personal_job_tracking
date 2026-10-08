@@ -6,7 +6,7 @@
     "sector": "Games & stories",
     "interests": "Mod platform",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Test Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "ai_summary": "Mod platform for games; C#/.NET QA roles plausible, but Israel-based and US remote unclear.",
+    "ai_red_flags": "Israel-based; US remote unclear.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Overwolf%20/%20CurseForge",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,37 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Medium",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "approach_role": "Head of Engineering",
+    "ai_summary": "Overwolf/CurseForge runs a mod platform for games, matching the candidate's games interest; however, no QA roles are open and remote-from-Maine is uncertain, so fit is plausible but gapped.",
+    "ai_red_flags": "No QA openings listed; only one US-Remote role; most roles in Tel Aviv, London or New York.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Overwolf%20/%20CurseForge",
+    "career_url": "https://careers.overwolf.com/",
+    "research_notes": "Overwolf/CurseForge: games mod platform, 11 open roles in engineering, data, marketing; remote policy varies, minority fully remote, one US-Remote listing; no QA openings; growth signal but ad-funded mod monetization. Sources: https://careers.overwolf.com/ https://devquest.gg/overwolf-jobs",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "varies: Minority of roles are fully remote (27% of those stating a work model); most openings sit at Overwolf's lair, London or New York, with one US-Remote listing.",
+    "benefit_source": "https://devquest.gg/overwolf-jobs",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I can strengthen quality for CurseForge's mod publishing pipelines and desktop client.",
+    "next_research_action": "No supported job board - check https://careers.overwolf.com/ manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.overwolf.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +90,66 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C684",
+    "career_url": "https://careers.overwolf.com/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Minority of roles are fully remote (27% of those stating a work model); most openings sit at Overwolf's lair, London or New York, with one US-Remote listing.",
+      "maine_eligible": "varies",
+      "evidence_url": "https://devquest.gg/overwolf-jobs"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Overwolf has 11 open roles across Marketing, Design, Engineering, and Data & Analytics in its lair, Remote, London and New York.",
+          "date": null,
+          "url": "https://devquest.gg/overwolf-jobs"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Overwolf/CurseForge runs a mod platform for games, matching the candidate's games interest; however, no QA roles are open and remote-from-Maine is uncertain, so fit is plausible but gapped.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of Engineering",
+    "outreach_angle": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I can strengthen quality for CurseForge's mod publishing pipelines and desktop client.",
+    "red_flags": "No QA openings listed; only one US-Remote role; most roles in Tel Aviv, London or New York.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.overwolf.com/",
+      "https://devquest.gg/overwolf-jobs"
+    ],
+    "notes": "Overwolf/CurseForge: games mod platform, 11 open roles in engineering, data, marketing; remote policy varies, minority fully remote, one US-Remote listing; no QA openings; growth signal but ad-funded mod monetization.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +171,74 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.overwolf.com/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

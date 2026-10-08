@@ -5,8 +5,8 @@
     "company": "Stryker",
     "sector": "Regulated healthtech",
     "interests": "Devices + connected care",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.stryker.com/",
+    "role_families": "QA engineering (medical device); SDET / test automation; Quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: four work models including remote, explicitly Maine-eligible; 5k+ employees; $22.6B 2024 sales; 1,448 open jobs globally. QA posting visible was Staff Quality Engineer in Portage, Michigan, mode unknown. Layoff mentions are forum rumours plus one Florida facility headline, no confirmed numbers. No named quality leaders found. Sources: https://careers.stryker.com/ https://careers.stryker.com/hiring-at-stryker https://www.thelayoff.com/stryker",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Four models: remote (alternate workplace most or all of the time), field-based, on-site and hybrid. Remote roles may include travel and require working within the country of the job requisition location.",
+    "benefit_source": "https://careers.stryker.com/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Stryker is a $22.6B regulated medical-device maker with connected-care products, matching the candidate's regulated, hardware-adjacent testing background; remote roles are Maine-eligible. But visible QA openings skew to on-site Michigan quality engineering, not software SDET work.",
+    "ai_red_flags": "Only one QA opening shown, on-site in Michigan; unconfirmed layoff chatter for 2025-2026.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Stryker",
+    "outreach_notes": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent domains maps directly to Stryker's connected-care and device software quality needs, and I work remotely from Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.stryker.com/",
+    "research_notes": "Verified: four work models including remote, explicitly Maine-eligible; 5k+ employees; $22.6B 2024 sales; 1,448 open jobs globally. QA posting visible was Staff Quality Engineer in Portage, Michigan, mode unknown. Layoff mentions are forum rumours plus one Florida facility headline, no confirmed numbers. No named quality leaders found. Sources: https://careers.stryker.com/ https://careers.stryker.com/hiring-at-stryker https://www.thelayoff.com/stryker",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Four models: remote (alternate workplace most or all of the time), field-based, on-site and hybrid. Remote roles may include travel and require working within the country of the job requisition location.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://careers.stryker.com/",
+    "fit_score": 4,
+    "ai_summary": "Stryker is a $22.6B regulated medical-device maker with connected-care products, matching the candidate's regulated, hardware-adjacent testing background; remote roles are Maine-eligible. But visible QA openings skew to on-site Michigan quality engineering, not software SDET work.",
+    "role_families": "QA engineering (medical device); SDET / test automation; Quality engineering leadership",
+    "ai_red_flags": "Only one QA opening shown, on-site in Michigan; unconfirmed layoff chatter for 2025-2026.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent domains maps directly to Stryker's connected-care and device software quality needs, and I work remotely from Maine.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Stryker"
+  },
   "ats": {
     "type": "workday",
     "token": "stryker|1|StrykerCareers",
@@ -55,6 +76,7 @@
     "note": "",
     "job_count": 1455
   },
+  "discovery": null,
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -164,6 +186,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -192,8 +215,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

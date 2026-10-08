@@ -1,0 +1,20 @@
+{
+  "key": "c0fcc1a27d80",
+  "company_id": "C930",
+  "company": "ForeFlight (Boeing)",
+  "name": "Brad Surak",
+  "title": "CEO",
+  "source_url": "https://avbrief.com/mass-layoffs-reported-at-foreflight/",
+  "why_approach": "CEO at ForeFlight (Boeing). 15 years of test automation and FDA-regulated V&V experience maps to ForeFlight's safety-critical aviation software; I'd offer SDET or QA leadership for flight-planning and EFB platforms.",
+  "first_seen": "2026-10-07",
+  "person_id": "PA0036",
+  "exported": {
+    "name": "Brad Surak",
+    "company": "ForeFlight (Boeing)",
+    "title": "CEO",
+    "source_url": "https://avbrief.com/mass-layoffs-reported-at-foreflight/",
+    "why_approach": "CEO at ForeFlight (Boeing). 15 years of test automation and FDA-regulated V&V experience maps to ForeFlight's safety-critical aviation software; I'd offer SDET or QA leadership for flight-planning and EFB platforms.",
+    "company_id": "C930"
+  },
+  "first_exported": "2026-10-07"
+}

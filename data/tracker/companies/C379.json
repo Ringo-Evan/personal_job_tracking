@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Saco onsite; not commutable",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Saco fuel-monitoring IoT; hardware-adjacent test roles, but Saco not commutable from Downeast Maine.",
+  "approach_role": "Engineering Manager",
+  "company": "Intelligent Controls (Franklin Fueling)",
+  "company_id": "C379",
+  "fit_score": 3,
+  "interests": "Saco ME fuel monitoring IoT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Intelligent%20Controls%20%28Franklin%20Fueling%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; Firmware Tester",
+  "sector": "Maine & New England",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

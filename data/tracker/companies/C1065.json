@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small startup; remote unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Financial wellness startup; housing-adjacent, but small and QA roles uncertain.",
+  "approach_role": "CTO",
+  "company": "Nudge",
+  "company_id": "C1065",
+  "fit_score": 2,
+  "interests": "Financial wellness",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Nudge",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Housing",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

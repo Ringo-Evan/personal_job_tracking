@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Large retail; likely on-site/hybrid",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large outdoor/firearms retailer with e-commerce; QA roles possible, but remote-from-Maine unlikely and corporate on-site.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Bass Pro Shops / Cabela's",
+  "company_id": "C837",
+  "fit_score": 2,
+  "interests": "Outdoor retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Bass%20Pro%20Shops%20/%20Cabela%27s",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; E-commerce QA Engineer; Test Automation Engineer",
+  "sector": "Firearms",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

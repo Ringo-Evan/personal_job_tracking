@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Healthcare compliance heavy; Minnesota HQ",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large nonprofit addiction treatment provider with digital products; healthcare-adjacent regulated software could use test leadership.",
+  "approach_role": "Director of Software Engineering",
+  "company": "Hazelden Betty Ford",
+  "company_id": "C1093",
+  "fit_score": 3,
+  "interests": "Addiction treatment; tech/digital",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Software%20Engineering%20Hazelden%20Betty%20Ford",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; QA Manager",
+  "sector": "Addiction & recovery",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

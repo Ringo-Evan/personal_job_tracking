@@ -5,8 +5,8 @@
     "company": "SimpliSafe",
     "sector": "Maine & New England",
     "interests": "Boston home security IoT; strong QA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://job-boards.greenhouse.io/simplisafe",
+    "role_families": "SDET; QA engineering; IoT/embedded test",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hybrid, in-office core days; Maine remote not stated. Recent undisclosed HQ layoffs amid GTCR acquisition; still posting roles. No QA openings on Greenhouse. CTO Don Nelson; HW/FW manager Mike Shaw. Established IoT security, hardware-adjacent. Sources: https://job-boards.greenhouse.io/simplisafe https://littlethingsforlife.com/simplisafe-careers/ https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model with core in-office days; remote/hybrid availability depends on the position. No US-wide remote or Maine eligibility stated.",
+    "benefit_source": "https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "SimpliSafe makes DIY home-security IoT hardware and monitoring. Hardware-adjacent QA fits, but the hybrid Boston policy does not confirm Maine remote work, and no QA openings are listed, so the opportunity is speculative.",
+    "ai_red_flags": "No verified QA openings; hybrid Boston role, Maine remote eligibility unstated; recent HQ layoffs and ownership change.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Chief Technology Officer",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Technology%20Officer%20SimpliSafe",
+    "outreach_notes": "I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://job-boards.greenhouse.io/simplisafe",
+    "research_notes": "Hybrid, in-office core days; Maine remote not stated. Recent undisclosed HQ layoffs amid GTCR acquisition; still posting roles. No QA openings on Greenhouse. CTO Don Nelson; HW/FW manager Mike Shaw. Established IoT security, hardware-adjacent. Sources: https://job-boards.greenhouse.io/simplisafe https://littlethingsforlife.com/simplisafe-careers/ https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Hybrid model with core in-office days; remote/hybrid availability depends on the position. No US-wide remote or Maine eligibility stated.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/",
+    "fit_score": 2,
+    "ai_summary": "SimpliSafe makes DIY home-security IoT hardware and monitoring. Hardware-adjacent QA fits, but the hybrid Boston policy does not confirm Maine remote work, and no QA openings are listed, so the opportunity is speculative.",
+    "role_families": "SDET; QA engineering; IoT/embedded test",
+    "ai_red_flags": "No verified QA openings; hybrid Boston role, Maine remote eligibility unstated; recent HQ layoffs and ownership change.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Chief Technology Officer",
+    "outreach_notes": "I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Technology%20Officer%20SimpliSafe"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "simplisafe",
     "board_url": "https://job-boards.greenhouse.io/simplisafe",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; SimpliSafe",
+    "source": "https://job-boards.greenhouse.io/simplisafe",
+    "note": "SimpliSafe",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:simplisafe (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,97 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C425",
+    "career_url": "https://job-boards.greenhouse.io/simplisafe",
+    "ats": {
+      "type": "greenhouse",
+      "token": "simplisafe",
+      "board_url": "https://job-boards.greenhouse.io/simplisafe"
+    },
+    "remote_policy": {
+      "summary": "Hybrid model with core in-office days; remote/hybrid availability depends on the position. No US-wide remote or Maine eligibility stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://littlethingsforlife.com/simplisafe-careers/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Undisclosed Boston headquarters job cuts, framed as consolidating teams and reducing overlapping work.",
+          "date": null,
+          "url": "https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Sale from Hellman & Friedman to GTCR closed; Hilary Schneider named CEO and Ty Shay President.",
+          "date": null,
+          "url": "https://www.prnewswire.com/news-releases/simplisafe-announces-closing-of-sale-to-gtcr-and-appointment-of-ceo-and-president-302610340.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company continues posting open roles even as restructuring proceeds in parts of the business.",
+          "date": null,
+          "url": "https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 2,
+      "rationale": "SimpliSafe makes DIY home-security IoT hardware and monitoring. Hardware-adjacent QA fits, but the hybrid Boston policy does not confirm Maine remote work, and no QA openings are listed, so the opportunity is speculative.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "IoT/embedded test"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Don Nelson",
+        "title": "Chief Technology Officer",
+        "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering"
+      },
+      {
+        "name": "Steve Gardos",
+        "title": "DISQO Manager",
+        "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering"
+      },
+      {
+        "name": "Mike Shaw",
+        "title": "HW/FW Engineering Manager",
+        "source_url": "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering"
+      }
+    ],
+    "approach_role": "Chief Technology Officer",
+    "outreach_angle": "I bring 15 years in C#/.NET test automation and FDA-regulated V&V; I’d help SimpliSafe harden home-security IoT firmware and cloud releases.",
+    "red_flags": "No verified QA openings; hybrid Boston role, Maine remote eligibility unstated; recent HQ layoffs and ownership change.",
+    "confidence": "medium",
+    "sources": [
+      "https://job-boards.greenhouse.io/simplisafe",
+      "https://littlethingsforlife.com/simplisafe-careers/",
+      "https://hoodline.com/2026/03/simplisafe-slashes-boston-jobs-while-talking-up-team-unity/",
+      "https://www.prnewswire.com/news-releases/simplisafe-announces-closing-of-sale-to-gtcr-and-appointment-of-ceo-and-president-302610340.html",
+      "https://www.builtinboston.com/articles/spotlight-working-at-simplisafe-engineering"
+    ],
+    "notes": "Hybrid, in-office core days; Maine remote not stated. Recent undisclosed HQ layoffs amid GTCR acquisition; still posting roles. No QA openings on Greenhouse. CTO Don Nelson; HW/FW manager Mike Shaw. Established IoT security, hardware-adjacent.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +212,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:32-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:simplisafe (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

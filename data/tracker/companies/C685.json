@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "startup; limited QA roles.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mod platform startup; remote-friendly but small team and limited QA roles reduce fit.",
+  "approach_role": "Head of Engineering",
+  "company": "Mod.io",
+  "company_id": "C685",
+  "fit_score": 3,
+  "interests": "Mod platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Mod.io",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

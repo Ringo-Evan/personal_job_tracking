@@ -5,8 +5,8 @@
     "company": "ForeFlight (Boeing)",
     "sector": "Travel",
     "interests": "Aviation app; strong QA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://foreflight.com/about/careers/",
+    "role_families": "SDET; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote hiring across many US states including Maine, hybrid optional. Layoffs confirmed amid the Jeppesen/ForeFlight combination under Thoma Bravo; company cites low turnover and strong benefits. Job board shows no QA openings; only named leader is CEO Brad Surak. Sources: https://foreflight.com/about/careers/ https://avbrief.com/mass-layoffs-reported-at-foreflight/ https://www.flyingmag.com/foreflight-confirms-layoffs-disputes-reported-numbers/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Work remotely from home or in the office; hybrid options based on location. Company hires across many US states including Maine.",
+    "benefit_source": "https://avbrief.com/mass-layoffs-reported-at-foreflight/",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://foreflight.com/about/careers/ manually",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "ForeFlight builds aviation flight-planning and EFB apps — a travel/aviation domain the candidate likes, with a strong QA reputation. Remote-from-Maine is allowed, but confirmed layoffs and a private-equity acquisition add real risk.",
+    "ai_red_flags": "Confirmed layoffs and Thoma Bravo acquisition; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "CEO",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20ForeFlight%20%28Boeing%29",
+    "outreach_notes": "15 years of test automation and FDA-regulated V&V experience maps to ForeFlight's safety-critical aviation software; I'd offer SDET or QA leadership for flight-planning and EFB platforms."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://foreflight.com/about/careers/",
+    "research_notes": "Remote hiring across many US states including Maine, hybrid optional. Layoffs confirmed amid the Jeppesen/ForeFlight combination under Thoma Bravo; company cites low turnover and strong benefits. Job board shows no QA openings; only named leader is CEO Brad Surak. Sources: https://foreflight.com/about/careers/ https://avbrief.com/mass-layoffs-reported-at-foreflight/ https://www.flyingmag.com/foreflight-confirms-layoffs-disputes-reported-numbers/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Work remotely from home or in the office; hybrid options based on location. Company hires across many US states including Maine.",
+    "remote_likelihood": "High",
+    "stability_score": 2,
+    "benefit_source": "https://avbrief.com/mass-layoffs-reported-at-foreflight/",
+    "fit_score": 4,
+    "ai_summary": "ForeFlight builds aviation flight-planning and EFB apps — a travel/aviation domain the candidate likes, with a strong QA reputation. Remote-from-Maine is allowed, but confirmed layoffs and a private-equity acquisition add real risk.",
+    "role_families": "SDET; QA engineering; release/quality engineering",
+    "ai_red_flags": "Confirmed layoffs and Thoma Bravo acquisition; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "CEO",
+    "outreach_notes": "15 years of test automation and FDA-regulated V&V experience maps to ForeFlight's safety-critical aviation software; I'd offer SDET or QA leadership for flight-planning and EFB platforms.",
+    "next_research_action": "No supported job board - check https://foreflight.com/about/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20ForeFlight%20%28Boeing%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://foreflight.com/about/careers/",
+    "note": "uses ukg",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://foreflight.com/about/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses ukg"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +100,97 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C930",
+    "career_url": "https://foreflight.com/about/careers/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Work remotely from home or in the office; hybrid options based on location. Company hires across many US states including Maine.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://foreflight.com/about/careers/"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs confirmed at Jeppesen ForeFlight amid reports of major workforce cuts; company disputes the reported percentages.",
+          "date": null,
+          "url": "https://avbrief.com/mass-layoffs-reported-at-foreflight/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "ForeFlight confirmed layoffs to streamline operations but called reported 30-50% figures misleading and overstated.",
+          "date": null,
+          "url": "https://www.flyingmag.com/foreflight-confirms-layoffs-disputes-reported-numbers/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Thoma Bravo bought Jeppesen and ForeFlight from Boeing for $10.55 billion and combined them into one Denver-based business.",
+          "date": null,
+          "url": "https://avbrief.com/mass-layoffs-reported-at-foreflight/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Organizational changes follow Thoma Bravo's acquisition of ForeFlight and Jeppesen from Boeing.",
+          "date": null,
+          "url": "https://www.flyingmag.com/foreflight-confirms-layoffs-disputes-reported-numbers/"
+        },
+        {
+          "kind": "other",
+          "summary": "Company points to low turnover rate and strong benefits as signs of a stable workplace.",
+          "date": null,
+          "url": "https://foreflight.com/about/careers/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "ForeFlight builds aviation flight-planning and EFB apps — a travel/aviation domain the candidate likes, with a strong QA reputation. Remote-from-Maine is allowed, but confirmed layoffs and a private-equity acquisition add real risk.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Brad Surak",
+        "title": "CEO",
+        "source_url": "https://avbrief.com/mass-layoffs-reported-at-foreflight/"
+      }
+    ],
+    "approach_role": "CEO",
+    "outreach_angle": "15 years of test automation and FDA-regulated V&V experience maps to ForeFlight's safety-critical aviation software; I'd offer SDET or QA leadership for flight-planning and EFB platforms.",
+    "red_flags": "Confirmed layoffs and Thoma Bravo acquisition; no QA openings listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://foreflight.com/about/careers/",
+      "https://avbrief.com/mass-layoffs-reported-at-foreflight/",
+      "https://www.flyingmag.com/foreflight-confirms-layoffs-disputes-reported-numbers/"
+    ],
+    "notes": "Remote hiring across many US states including Maine, hybrid optional. Layoffs confirmed amid the Jeppesen/ForeFlight combination under Thoma Bravo; company cites low turnover and strong benefits. Job board shows no QA openings; only named leader is CEO Brad Surak.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +212,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:24-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://foreflight.com/about/careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses ukg"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

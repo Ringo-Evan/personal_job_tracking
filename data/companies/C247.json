@@ -5,8 +5,8 @@
     "company": "Stord",
     "sector": "IoT / location tech",
     "interests": "Fulfillment",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+    "role_families": "SDET; QA leadership; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote, United States roles; Maine residents eligible, no Atlanta requirement. Workday ATS. Nearly $250M Series F at $3B valuation, 10x revenue growth, 1,000+ customers, software bookings doubling Q1 2026 — well funded but private. Open: Senior SDET (Remote US/Canada) and VP, Inventory Control & QA. Sources: https://stord.wd503.myworkdayjobs.com/Stord_External_Career https://www.stord.com/careers https://www.stord.com/newsroom/stord-raises-250m-series-f",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-friendly company; roles are posted as Remote, United States, and candidates need not live in Atlanta.",
+    "benefit_source": "https://www.stord.com/newsroom/stord-raises-250m-series-f",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "500-5k",
+    "ai_summary": "Stord sells cloud supply-chain and fulfillment software plus hardware-enabled logistics; its remote US Senior SDET opening maps directly onto the candidate's C#/.NET automation background, though the logistics domain is not among their listed interest areas.",
+    "ai_red_flags": "No named engineering leaders in the data; the only QA leadership posting is VP-level, likely above the candidate's target.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP, Inventory Control & Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%2C%20Inventory%20Control%20%26%20Quality%20Assurance%20Stord",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and FDA-regulated V&V work position me to harden test tooling and release quality for Stord's growing fulfillment software platform."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+    "research_notes": "Remote, United States roles; Maine residents eligible, no Atlanta requirement. Workday ATS. Nearly $250M Series F at $3B valuation, 10x revenue growth, 1,000+ customers, software bookings doubling Q1 2026 — well funded but private. Open: Senior SDET (Remote US/Canada) and VP, Inventory Control & QA. Sources: https://stord.wd503.myworkdayjobs.com/Stord_External_Career https://www.stord.com/careers https://www.stord.com/newsroom/stord-raises-250m-series-f",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Remote-friendly company; roles are posted as Remote, United States, and candidates need not live in Atlanta.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://www.stord.com/newsroom/stord-raises-250m-series-f",
+    "fit_score": 4,
+    "ai_summary": "Stord sells cloud supply-chain and fulfillment software plus hardware-enabled logistics; its remote US Senior SDET opening maps directly onto the candidate's C#/.NET automation background, though the logistics domain is not among their listed interest areas.",
+    "role_families": "SDET; QA leadership; test automation",
+    "ai_red_flags": "No named engineering leaders in the data; the only QA leadership posting is VP-level, likely above the candidate's target.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
+    "approach_role": "VP, Inventory Control & Quality Assurance",
+    "outreach_notes": "Fifteen years of C#/.NET test automation and FDA-regulated V&V work position me to harden test tooling and release quality for Stord's growing fulfillment software platform.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%2C%20Inventory%20Control%20%26%20Quality%20Assurance%20Stord"
+  },
   "ats": {
     "type": "workday",
     "token": "stord|503|Stord_External_Career",
     "board_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 99
+    "source": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+    "note": "",
+    "job_count": 101
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:stord|503|Stord_External_Career (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -70,7 +98,107 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C247",
+    "career_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+    "ats": {
+      "type": "workday",
+      "token": "stord|503|Stord_External_Career",
+      "board_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career"
+    },
+    "remote_policy": {
+      "summary": "Remote-friendly company; roles are posted as Remote, United States, and candidates need not live in Atlanta.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.stord.com/careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "Raised a nearly $250M Series F at a $3B valuation, led by existing investors including Kleiner Perkins and Founders Fund.",
+          "date": null,
+          "url": "https://www.stord.com/newsroom/stord-raises-250m-series-f"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Revenue grew more than 10x over four years, powering over $15B in annual GMV.",
+          "date": null,
+          "url": "https://www.stord.com/newsroom/stord-raises-250m-series-f"
+        },
+        {
+          "kind": "growth",
+          "summary": "Software business tripled in 2025, growing faster than the overall business.",
+          "date": null,
+          "url": "https://www.stord.com/newsroom/stord-raises-250m-series-f"
+        },
+        {
+          "kind": "growth",
+          "summary": "Software bookings more than doubled quarter over quarter in Q1 2026, driven by new consumer experience and AI suites.",
+          "date": "2026-03",
+          "url": "https://www.stord.com/newsroom/stord-raises-250m-series-f"
+        },
+        {
+          "kind": "growth",
+          "summary": "Serves more than 1,000 customers with over $15B in annual GMV and 10x revenue growth.",
+          "date": null,
+          "url": "https://www.stord.com/newsroom/stord-raises-250m-series-f"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 4,
+      "rationale": "Stord sells cloud supply-chain and fulfillment software plus hardware-enabled logistics; its remote US Senior SDET opening maps directly onto the candidate's C#/.NET automation background, though the logistics domain is not among their listed interest areas.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [
+      {
+        "title": "VP, Inventory Control & Quality Assurance",
+        "location": "Remote, United States",
+        "work_mode": "Remote",
+        "url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career/job/Remote-United-States/VP--Quality_JR103232-1"
+      },
+      {
+        "title": "Senior Software Development Engineer in Test",
+        "location": "Remote, United States; Remote - Canada",
+        "work_mode": "Remote",
+        "url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career/job/Remote-United-States/Senior-Software-Development-Engineer-in-Test_JR103261"
+      }
+    ],
+    "people": [],
+    "approach_role": "VP, Inventory Control & Quality Assurance",
+    "outreach_angle": "Fifteen years of C#/.NET test automation and FDA-regulated V&V work position me to harden test tooling and release quality for Stord's growing fulfillment software platform.",
+    "red_flags": "No named engineering leaders in the data; the only QA leadership posting is VP-level, likely above the candidate's target.",
+    "confidence": "high",
+    "sources": [
+      "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+      "https://www.stord.com/careers",
+      "https://www.stord.com/newsroom/stord-raises-250m-series-f",
+      "https://www.freightwaves.com/news/logistics-firms-stord-fareye-shock-workforces-with-mass-layoffs",
+      "https://stord.wd503.myworkdayjobs.com/Stord_External_Career/job/Remote-United-States/VP--Quality_JR103232-1",
+      "https://stord.wd503.myworkdayjobs.com/Stord_External_Career/job/Remote-United-States/Senior-Software-Development-Engineer-in-Test_JR103261"
+    ],
+    "notes": "Remote, United States roles; Maine residents eligible, no Atlanta requirement. Workday ATS. Nearly $250M Series F at $3B valuation, 10x revenue growth, 1,000+ customers, software bookings doubling Q1 2026 — well funded but private. Open: Senior SDET (Remote US/Canada) and VP, Inventory Control & QA.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 11,
+      "kept": 11,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -93,14 +221,76 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:47-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:stord|503|Stord_External_Career (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

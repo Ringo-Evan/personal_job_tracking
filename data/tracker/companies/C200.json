@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Smaller company; fewer senior/lead roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Shipment tracking/location domain directly matches Position Imaging experience.",
+  "approach_role": "VP Engineering",
+  "company": "Tive",
+  "company_id": "C200",
+  "fit_score": 4,
+  "interests": "Shipment trackers",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Tive",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; Senior QA; QA Engineer",
+  "sector": "IoT / location tech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

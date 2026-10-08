@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small public medtech; onsite Pennsylvania, weak cash position",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "TMS therapy devices, small public medtech; regulated device testing fits, but onsite roles and cash-constrained business.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Neuronetics",
+  "company_id": "C343",
+  "fit_score": 3,
+  "interests": "TMS devices",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Neuronetics",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Quality Engineer; Design Assurance Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

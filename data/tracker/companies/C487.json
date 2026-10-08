@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hub-based hybrid; limited remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Payroll and HR services with large engineering org; regulated data work fits, but hybrid culture and unclear remote QA hiring.",
+  "approach_role": "QA Manager",
+  "company": "Paychex",
+  "company_id": "C487",
+  "fit_score": 3,
+  "interests": "Payroll",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Paychex",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; Test Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

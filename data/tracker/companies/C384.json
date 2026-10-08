@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Portland location; health plan",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Portland health plan; regulated healthcare QA roles possible, but Portland not commutable; remote uncertain.",
+  "approach_role": "QA Manager",
+  "company": "Martin's Point Health Care",
+  "company_id": "C384",
+  "fit_score": 3,
+  "interests": "Portland ME health plan",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Martin%27s%20Point%20Health%20Care",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; QA Manager",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

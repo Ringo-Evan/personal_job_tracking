@@ -1,0 +1,19 @@
+{
+  "benefit_source": "https://builtin.com/job/senior-software-engineer-test/7708335",
+  "career_url": "https://careers.veeva.com",
+  "company": "Veeva Systems",
+  "company_id": "C074",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Many remote SDET and QA titles at once, from associate to manager; Java-first automation is the main gap.",
+  "hiring_difficulty": 3,
+  "interests": "Life-sciences / clinical software; Work Anywhere",
+  "maine_remote": "Work Anywhere (US); verify state exclusions",
+  "next_research_action": "Pull current SDET/QA Manager reqs from careers site",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Work Anywhere policy. Sr SDET listings show $100K-175K. Older posting excluded Colorado from remote - check state rules.",
+  "research_status": "Initial research",
+  "role_families": "Sr SDET; QA manager; test automation",
+  "sector": "Regulated healthtech",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude"
+}

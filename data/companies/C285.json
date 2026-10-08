@@ -5,8 +5,8 @@
     "company": "Netsmart",
     "sector": "Regulated healthtech",
     "interests": "Behavioral health EHR (addiction treatment clients)",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.ntst.com/company/careers-and-culture",
+    "role_families": "SDET; QA engineering; QA leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Netsmart's 'Working Virtual' page suggests remote work but omits eligible states. No stability signals or QA openings were verified. Behavioral health EHR and addiction-treatment clients align with candidate's regulated-testing and recovery interests. Confirm state eligibility and openings before applying. Sources: https://www.ntst.com/company/careers-and-culture https://www.ntst.com/lp/working-virtual",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Netsmart hosts a \"Working Virtual\" careers page, indicating virtual work is part of its employment model; no details on eligible states or locations.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://www.ntst.com/company/careers-and-culture manually",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Netsmart builds behavioral health EHR software, aligning with the candidate's regulated testing and addiction-recovery interest, but remote-Maine eligibility and QA openings are unverified, leaving a clear gap.",
+    "ai_red_flags": "No verified Maine-remote eligibility; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Netsmart",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps to Netsmart's behavioral health EHR, where rigorous, regulated test automation protects clinical workflows for addiction-treatment clients."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.ntst.com/company/careers-and-culture",
+    "research_notes": "Netsmart's 'Working Virtual' page suggests remote work but omits eligible states. No stability signals or QA openings were verified. Behavioral health EHR and addiction-treatment clients align with candidate's regulated-testing and recovery interests. Confirm state eligibility and openings before applying. Sources: https://www.ntst.com/company/careers-and-culture https://www.ntst.com/lp/working-virtual",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Netsmart hosts a \"Working Virtual\" careers page, indicating virtual work is part of its employment model; no details on eligible states or locations.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Netsmart builds behavioral health EHR software, aligning with the candidate's regulated testing and addiction-recovery interest, but remote-Maine eligibility and QA openings are unverified, leaving a clear gap.",
+    "role_families": "SDET; QA engineering; QA leadership",
+    "ai_red_flags": "No verified Maine-remote eligibility; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps to Netsmart's behavioral health EHR, where rigorous, regulated test automation protects clinical workflows for addiction-treatment clients.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Netsmart"
+  },
+  "ats": {
+    "type": "workday",
+    "token": "ntst|1|Careers",
+    "board_url": "https://ntst.wd1.myworkdayjobs.com/Careers",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": true,
+    "source": "https://www.ntst.com/company/careers-and-culture",
+    "note": "",
+    "job_count": 82
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -60,7 +97,59 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C285",
+    "career_url": "https://www.ntst.com/company/careers-and-culture",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Netsmart hosts a \"Working Virtual\" careers page, indicating virtual work is part of its employment model; no details on eligible states or locations.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.ntst.com/lp/working-virtual"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Netsmart builds behavioral health EHR software, aligning with the candidate's regulated testing and addiction-recovery interest, but remote-Maine eligibility and QA openings are unverified, leaving a clear gap.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "QA leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps to Netsmart's behavioral health EHR, where rigorous, regulated test automation protects clinical workflows for addiction-treatment clients.",
+    "red_flags": "No verified Maine-remote eligibility; no QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://www.ntst.com/company/careers-and-culture",
+      "https://www.ntst.com/lp/working-virtual"
+    ],
+    "notes": "Netsmart's 'Working Virtual' page suggests remote work but omits eligible states. No stability signals or QA openings were verified. Behavioral health EHR and addiction-treatment clients align with candidate's regulated-testing and recovery interests. Confirm state eligibility and openings before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -82,14 +171,85 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:09-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

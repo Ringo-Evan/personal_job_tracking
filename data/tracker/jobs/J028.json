@@ -1,0 +1,22 @@
+{
+  "company": "WEX",
+  "company_id": "C072",
+  "current_stage": "Lead",
+  "date_discovered": "2026-09-30",
+  "fit_notes": "TDD/BDD, microservices, mentoring SDE I/II; a related CSE-team listing uses AI tooling to generate C# unit/integration/E2E tests. Your first-microservice and mentoring stories map directly.",
+  "highest_stage": "None",
+  "hiring_difficulty": 4,
+  "job_id": "J028",
+  "job_title": "Senior Software Engineer (SDE III), Benefits Technology",
+  "last_checked": "2026-09-30",
+  "listing_evidence": "Indexed lead - verify",
+  "location": "Not verified",
+  "maine_eligible": "Unknown",
+  "next_action": "Confirm vacancy, location and residency rule",
+  "posting_url": "https://jobs.anitab.org/companies/wex/jobs/89068029-senior-software-engineer",
+  "source_url": "https://www.dreamworkhq.com/job/e9b29052-0594-4537-9a63-8d9b3f7f147d",
+  "track": "SDE pivot",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude",
+  "work_mode": "Unknown"
+}

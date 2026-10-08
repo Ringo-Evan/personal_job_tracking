@@ -5,8 +5,8 @@
     "company": "Iron Galaxy",
     "sector": "Games & stories",
     "interests": "Co-dev; remote-friendly",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.irongalaxystudios.com/careers",
+    "role_families": "SDET; QA/test engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Hybrid workspace, roughly two on-site days weekly, hires only in Chicago, Nashville, Austin and Orlando; Maine explicitly not eligible. Layoffs in early 2025 (66 staff) and again April 2026. No QA/test openings listed; no named QA leadership on file. Games sector aligns with candidate interests but geography blocks it. Sources: https://www.irongalaxystudios.com/careers https://irongalaxy.applytojob.com/ https://builtin.com/company/iron-galaxy-studios",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Hybrid workspace: employees work in the office and from home each week, typically two days a week on-site; hires are in Chicago, Nashville, Austin and Orlando.",
+    "benefit_source": "https://www.nintendolife.com/news/2026/04/metroid-prime-remastered-studio-iron-galaxy-announces-more-layoffs",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.irongalaxystudios.com/careers manually",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Low",
+    "size_estimate": "Unknown",
+    "ai_summary": "Iron Galaxy is a well-known game co-development studio (ports, remasters, original titles). Games match the candidate's interests, but hiring is hybrid-only in Chicago, Nashville, Austin or Orlando, explicitly not Maine-eligible, with no QA openings and two recent layoff rounds.",
+    "ai_red_flags": "Two layoff rounds (2025 and 2026); hybrid-only in four cities; no Maine remote option; no current QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Iron%20Galaxy",
+    "outreach_notes": "Your co-dev teams ship across many platforms; my 15 years of C#/.NET test automation and FDA-regulated V&V discipline could strengthen your QA pipeline, should you open remote roles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,49 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.irongalaxystudios.com/careers",
+    "research_notes": "Hybrid workspace, roughly two on-site days weekly, hires only in Chicago, Nashville, Austin and Orlando; Maine explicitly not eligible. Layoffs in early 2025 (66 staff) and again April 2026. No QA/test openings listed; no named QA leadership on file. Games sector aligns with candidate interests but geography blocks it. Sources: https://www.irongalaxystudios.com/careers https://irongalaxy.applytojob.com/ https://builtin.com/company/iron-galaxy-studios",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Hybrid workspace: employees work in the office and from home each week, typically two days a week on-site; hires are in Chicago, Nashville, Austin and Orlando.",
+    "remote_likelihood": "Low",
+    "stability_score": 2,
+    "benefit_source": "https://www.nintendolife.com/news/2026/04/metroid-prime-remastered-studio-iron-galaxy-announces-more-layoffs",
+    "fit_score": 2,
+    "ai_summary": "Iron Galaxy is a well-known game co-development studio (ports, remasters, original titles). Games match the candidate's interests, but hiring is hybrid-only in Chicago, Nashville, Austin or Orlando, explicitly not Maine-eligible, with no QA openings and two recent layoff rounds.",
+    "role_families": "SDET; QA/test engineering; release engineering",
+    "ai_red_flags": "Two layoff rounds (2025 and 2026); hybrid-only in four cities; no Maine remote option; no current QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "approach_role": "Director of Quality Assurance",
+    "outreach_notes": "Your co-dev teams ship across many platforms; my 15 years of C#/.NET test automation and FDA-regulated V&V discipline could strengthen your QA pipeline, should you open remote roles.",
+    "next_research_action": "No supported job board - check https://www.irongalaxystudios.com/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Iron%20Galaxy"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.irongalaxystudios.com/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.irongalaxystudios.com/careers",
+    "found": null,
+    "other": [
+      "jazzhr https://irongalaxy.applytojob.com/"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 5,
     "stability": 3,
@@ -129,6 +170,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -157,18 +199,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:14-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.irongalaxystudios.com/careers",
-    "found": null,
-    "other": [
-      "jazzhr https://irongalaxy.applytojob.com/"
-    ],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

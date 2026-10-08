@@ -6,7 +6,7 @@
     "sector": "IoT / location tech",
     "interests": "Freight tech",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "500-5k",
+    "ai_summary": "Freight forwarding tech; logistics software QA roles possible, remote-friendly, but layoff history lowers stability.",
+    "ai_red_flags": "Layoff history",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Flexport",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 1,
+    "stability_score": 2,
+    "remote_likelihood": "Low",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; QA engineering; release engineering",
+    "approach_role": "Director of Engineering",
+    "ai_summary": "Flexport runs a freight-forwarding platform. Its office-first policy blocks remote-from-Maine work, no QA openings are listed, and repeated layoffs signal limited fit for a senior test engineer seeking stable, remote quality roles.",
+    "ai_red_flags": "Office-first five days a week; not remote-eligible from Maine; no QA openings; at least four layoff rounds.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Flexport",
+    "career_url": "https://www.flexport.com/careers/",
+    "research_notes": "Remote policy is office-first and explicitly not Maine-eligible. No QA openings found. Stability signals show multiple layoffs (2%, 15%, 20%, 15%) despite $3.3B 2021 revenue and first-time profitability. Careers page claims growth while raising the bar. Sources: https://www.flexport.com/careers/ https://fortune.com/2026/06/24/flexport-ceo-ryan-petersen-remote-work-comments-controversy-return-to-office/ https://www.supplychaindive.com/news/flexport-layoffs-fulfillment-forwarding-shopify/728950/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "no: Office-first: employees are required in the office five days a week; remote work is discouraged and reserved for some highly skilled workers in developing nations.",
+    "benefit_source": "https://fortune.com/2026/06/24/flexport-ceo-ryan-petersen-remote-work-comments-controversy-return-to-office/",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "outreach_notes": "Your FDA-regulated V&V and C# test-automation background could strengthen Flexport's freight-platform release reliability, though the role would likely need to be office-based.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "flexport",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results; Flexport",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:flexport (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -70,7 +98,92 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C239",
+    "career_url": "https://www.flexport.com/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "flexport",
+      "board_url": "https://job-boards.greenhouse.io/flexport"
+    },
+    "remote_policy": {
+      "summary": "Office-first: employees are required in the office five days a week; remote work is discouraged and reserved for some highly skilled workers in developing nations.",
+      "maine_eligible": "no",
+      "evidence_url": "https://fortune.com/2026/06/24/flexport-ceo-ryan-petersen-remote-work-comments-controversy-return-to-office/"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "About 2% of staff cut after integrating forwarding and fulfillment teams; at least the fourth round of layoffs.",
+          "date": null,
+          "url": "https://www.supplychaindive.com/news/flexport-layoffs-fulfillment-forwarding-shopify/728950/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "15% workforce reduction aimed at cutting costs and returning to profitability; mostly North American research and development roles.",
+          "date": null,
+          "url": "https://www.supplychaindive.com/news/Flexport-layoffs-15-percent-January-2024/706249/"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Earlier cost-cutting rounds included a 20% reduction in October 2023 and a 15% reduction in January 2024.",
+          "date": "2023-10",
+          "url": "https://www.supplychaindive.com/news/flexport-layoffs-fulfillment-forwarding-shopify/728950/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company careers page states the team continues to grow while raising the bar for excellence and technology.",
+          "date": null,
+          "url": "https://www.flexport.com/careers/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Revenue reached $3.3 billion in 2021 and the company became profitable for the first time.",
+          "date": null,
+          "url": "https://fortune.com/2026/06/24/flexport-ceo-ryan-petersen-remote-work-comments-controversy-return-to-office/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 1,
+      "rationale": "Flexport runs a freight-forwarding platform. Its office-first policy blocks remote-from-Maine work, no QA openings are listed, and repeated layoffs signal limited fit for a senior test engineer seeking stable, remote quality roles.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and C# test-automation background could strengthen Flexport's freight-platform release reliability, though the role would likely need to be office-based.",
+    "red_flags": "Office-first five days a week; not remote-eligible from Maine; no QA openings; at least four layoff rounds.",
+    "confidence": "high",
+    "sources": [
+      "https://www.flexport.com/careers/",
+      "https://fortune.com/2026/06/24/flexport-ceo-ryan-petersen-remote-work-comments-controversy-return-to-office/",
+      "https://www.supplychaindive.com/news/flexport-layoffs-fulfillment-forwarding-shopify/728950/",
+      "https://www.supplychaindive.com/news/Flexport-layoffs-15-percent-January-2024/706249/"
+    ],
+    "notes": "Remote policy is office-first and explicitly not Maine-eligible. No QA openings found. Stability signals show multiple layoffs (2%, 15%, 20%, 15%) despite $3.3B 2021 revenue and first-time profitability. Careers page claims growth while raising the bar.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -93,14 +206,73 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:flexport (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

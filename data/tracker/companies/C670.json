@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Boston-based; small team; remote policy unknown.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Boston game tech studio; small team may lack dedicated QA roles, and Maine commutable only if remote.",
+  "approach_role": "Technical Director",
+  "company": "Disbelief",
+  "company_id": "C670",
+  "fit_score": 2,
+  "interests": "Boston game tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Technical%20Director%20Disbelief",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

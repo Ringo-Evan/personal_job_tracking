@@ -23,21 +23,21 @@
   "track": "SDE pivot",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "Senior SRE for GCP/TypeScript telehealth platform; reliability/DevOps, not software testing. Domain touches addiction recovery and regulated healthcare, but C#/QA background is a stretch.",
+    "why": "SRE role owning SLOs, IaC, GCP/TypeScript reliability, not QA or test automation; C#/.NET skills don't transfer, but mission in addiction recovery and remote-US fits the candidate's sector interests.",
     "skill_match": 2,
     "seniority": "match",
     "maine_eligible": "yes",
-    "track": "Exploratory",
-    "notes": "SRE role: GCP, Terraform, SLOs, PagerDuty, Node/TypeScript. Check whether they'd consider test/quality background; on-call and IaC gaps.",
+    "track": "SDE pivot",
+    "notes": "Requires GCP/Cloud Run/Terraform/PagerDuty SRE experience; no testing scope. Check whether they consider test/quality background transferable before applying.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "dc55b2bbda62d108",
+    "text_hash": "ebaf90848ae19533",
     "text_source": "board"
   }
 }

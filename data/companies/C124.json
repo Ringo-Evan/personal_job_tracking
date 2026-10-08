@@ -44,7 +44,17 @@
     }
   },
   "exported": {},
-  "ats": null,
+  "ats": {
+    "type": "breezy",
+    "token": "community-solutions",
+    "board_url": "https://community-solutions.breezy.hr/",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
+    "source": "https://community.solutions/",
+    "note": "linked from search results; Community Solutions",
+    "job_count": 2
+  },
   "triage": null,
   "research": null,
   "history": [
@@ -87,10 +97,33 @@
       "changed": [
         "discovery.rejected"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:37-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
     }
   ],
   "last_exported_at": null,
   "discovery": {
+    "at": "2026-10-07",
+    "results": 21,
+    "careers_page": null,
+    "found": "breezy:community-solutions (linked from search results)",
+    "other": [],
     "rejected": [
       "greenhouse:community"
     ]

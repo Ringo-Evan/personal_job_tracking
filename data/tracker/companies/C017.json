@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://mantisx.com/pages/jobs",
+  "career_url": "https://mantisx.com/pages/jobs",
+  "company": "Mantis",
+  "company_id": "C017",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Good software/training overlap; small team and sensor integration experience may limit fit.",
+  "hiring_difficulty": 4,
+  "interests": "Shooting training, coaching",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Shooting technology company at mantisx.com; not similarly named companies.",
+  "research_status": "Initial research",
+  "role_families": "Mobile QA; connected-device testing",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Domain mismatch; design-focused",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Collaborative design platform; QA roles plausible, but no regulated/hardware domain match and strong design focus.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Figma",
+  "company_id": "C583",
+  "fit_score": 2,
+  "interests": "Design",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Figma",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:20Z",
+  "updated_by": "pipeline"
+}

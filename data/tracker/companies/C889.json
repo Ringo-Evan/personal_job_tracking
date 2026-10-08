@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "media; layoff risk",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Outdoor media/apps portfolio; software QA roles likely, but media stability and layoffs possible.",
+  "approach_role": "Director of Engineering",
+  "company": "Outside Interactive",
+  "company_id": "C889",
+  "fit_score": 3,
+  "interests": "Outdoor media/apps",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Outside%20Interactive",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Quality Lead",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

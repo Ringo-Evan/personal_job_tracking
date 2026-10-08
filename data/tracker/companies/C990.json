@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "EU-centric hiring; US remote unlikely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Dutch maker of off-grid inverters and power electronics; hardware-adjacent testing fits, but hiring is EU-centric with little US-remote QA.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Victron Energy",
+  "company_id": "C990",
+  "fit_score": 2,
+  "interests": "Off-grid power electronics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Victron%20Energy",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Embedded QA Engineer; Firmware Test Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "Unknown",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

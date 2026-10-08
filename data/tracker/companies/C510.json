@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "ERP domain, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large ERP vendor; .NET and QA roles plausible, but ERP domain not in target sectors; remote likely but not guaranteed.",
+  "approach_role": "QA Manager",
+  "company": "Infor",
+  "company_id": "C510",
+  "fit_score": 3,
+  "interests": "ERP",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Infor",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

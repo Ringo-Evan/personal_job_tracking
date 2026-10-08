@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Volunteer-only organization; no employment positions",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Volunteer emergency organizing committee; no paid employment available",
+  "approach_role": "Steering Committee",
+  "company": "EWOC (Emergency Workplace Organizing Committee)",
+  "company_id": "C1029",
+  "fit_score": 1,
+  "interests": "Volunteer organizing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Steering%20Committee%20EWOC%20%28Emergency%20Workplace%20Organizing%20Committee%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Volunteer Organizer",
+  "sector": "Labor & organizing",
+  "size_estimate": "<50",
+  "stability_score": 1,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

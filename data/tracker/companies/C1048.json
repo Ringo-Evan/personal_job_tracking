@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "EU-centric engineering; limited US remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Food waste reduction app with real scale; remote QA possible, but US hiring is limited and much engineering sits in Copenhagen.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "Too Good To Go",
+  "company_id": "C1048",
+  "fit_score": 2,
+  "interests": "Food waste app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Too%20Good%20To%20Go",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Food access",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

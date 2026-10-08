@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; Java expertise gap",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Java-focused AI testing; outside C#/.NET expertise; very specialized.",
+  "approach_role": "VP Engineering",
+  "company": "Diffblue",
+  "company_id": "C197",
+  "fit_score": 1,
+  "interests": "AI unit test generation for Java",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Diffblue",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; SDET",
+  "sector": "Test tooling",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:07Z",
+  "updated_by": "pipeline"
+}

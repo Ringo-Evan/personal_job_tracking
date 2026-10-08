@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.sita.aero/",
+  "career_url": "https://careers.sita.aero/",
+  "company": "SITA",
+  "company_id": "C050",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Airport systems/networking requirements may exceed established experience.",
+  "hiring_difficulty": 4,
+  "interests": "Airport and airline technology",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Travel is role-specific; do not infer it from the industry alone.",
+  "research_status": "Initial research",
+  "role_families": "Integration testing; deployment; technical project manager",
+  "sector": "Travel",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

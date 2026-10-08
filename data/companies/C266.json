@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Monitoring devices",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Test Manager",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "Monitoring devices; regulated medical hardware; strong domain match; hardware-centric onsite roles.",
+    "ai_red_flags": "Hardware-centric; onsite likely",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Director",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Director%20Masimo",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,36 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; QA/test engineering; quality engineering leadership",
+    "approach_role": "Director of Quality Engineering",
+    "ai_summary": "Masimo makes regulated monitoring devices, matching the candidate's FDA V&V and hardware-adjacent testing background. But no QA openings are listed and remote-from-Maine eligibility is unconfirmed, so fit is plausible with a location gap.",
+    "ai_red_flags": "Recent layoffs, CEO proxy loss, pending Danaher acquisition create uncertainty; no confirmed remote-Maine eligibility or QA openings.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Masimo",
+    "career_url": "https://jobs.danaher.com/global/en/masimo",
+    "research_notes": "Remote offered only for some roles; Maine eligibility unconfirmed. No QA openings listed. Stability mixed: $2.09B 2024 revenue but 2024 layoffs, CEO resignation, Danaher acquisition pending and audio division sold. Sources: https://jobs.danaher.com/global/en/masimo https://www.jobzmall.com/masimo/faqs/can-i-work-remotely-for-masimo https://www.warntracker.com/company/masimo-corporation",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote work is offered for some positions only; no company-wide remote policy is stated.",
+    "benefit_source": "https://en.wikipedia.org/wiki/Masimo",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "15 years in FDA-regulated medical device V&V and test automation for monitoring-adjacent hardware; I can bring design-controls fluency to Masimo's quality engineering team.",
+    "next_research_action": "No supported job board - check https://jobs.danaher.com/global/en/masimo manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://engineering.masimo.com/company/careers/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +89,99 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C266",
+    "career_url": "https://jobs.danaher.com/global/en/masimo",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote work is offered for some positions only; no company-wide remote policy is stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.jobzmall.com/masimo/faqs/can-i-work-remotely-for-masimo"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Five WARN notices covering 76 California employees, mostly at Irvine headquarters.",
+          "date": "2024-11",
+          "url": "https://www.warntracker.com/company/masimo-corporation"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Workforce reduction in Irvine included many engineers, managers and designers.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/Masimo-layoffs-Irvine-California-headquarters/735133/"
+        },
+        {
+          "kind": "other",
+          "summary": "Founder and CEO Joe Kiani resigned after losing a proxy battle with Politan Capital.",
+          "date": null,
+          "url": "https://www.medtechdive.com/news/Masimo-layoffs-Irvine-California-headquarters/735133/"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Danaher agreed to acquire Masimo in a $9.9 billion deal.",
+          "date": "2026-02",
+          "url": "https://en.wikipedia.org/wiki/Masimo"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Masimo agreed to sell its consumer audio division to Samsung's Harman for US$350 million.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/Masimo"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Masimo reported revenue of US$2.09 billion for 2024.",
+          "date": "2024-12",
+          "url": "https://en.wikipedia.org/wiki/Masimo"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "Masimo makes regulated monitoring devices, matching the candidate's FDA V&V and hardware-adjacent testing background. But no QA openings are listed and remote-from-Maine eligibility is unconfirmed, so fit is plausible with a location gap.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "15 years in FDA-regulated medical device V&V and test automation for monitoring-adjacent hardware; I can bring design-controls fluency to Masimo's quality engineering team.",
+    "red_flags": "Recent layoffs, CEO proxy loss, pending Danaher acquisition create uncertainty; no confirmed remote-Maine eligibility or QA openings.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.danaher.com/global/en/masimo",
+      "https://www.jobzmall.com/masimo/faqs/can-i-work-remotely-for-masimo",
+      "https://www.warntracker.com/company/masimo-corporation",
+      "https://www.medtechdive.com/news/Masimo-layoffs-Irvine-California-headquarters/735133/",
+      "https://en.wikipedia.org/wiki/Masimo"
+    ],
+    "notes": "Remote offered only for some roles; Maine eligibility unconfirmed. No QA openings listed. Stability mixed: $2.09B 2024 revenue but 2024 layoffs, CEO resignation, Danaher acquisition pending and audio division sold.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +203,74 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://engineering.masimo.com/company/careers/",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

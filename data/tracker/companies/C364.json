@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Camden; not commutable",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Camden National Bank is a Maine bank with IT; regulated QA roles limited, not commutable from Downeast.",
+  "approach_role": "IT Quality Manager",
+  "company": "Camden National Bank",
+  "company_id": "C364",
+  "fit_score": 2,
+  "interests": "Camden ME bank IT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Quality%20Manager%20Camden%20National%20Bank",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; IT QA",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

@@ -5,8 +5,8 @@
     "company": "CircleCI",
     "sector": "Test tooling",
     "interests": "CI/CD",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://circleci.com/careers/",
+    "role_families": "SDET; QA engineering; test infrastructure / release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "CircleCI: CI/CD platform, 12 open roles (Sales 5, Software Eng 3, Support 1), 6 remote. Hybrid policy allows office/home, but Maine eligibility unknown. No QA openings. Candidate's test automation and CI/CD interest align; SDE or test-infra roles may be the path. Sources: https://circleci.com/careers/ https://jobsbylevel.com/companies/circleci",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model: employees can work from the office or from home. Global workforce based in San Francisco, with team members across the US, Canada, UK, Ireland, Germany, Mexico and Japan.",
+    "benefit_source": "https://jobsbylevel.com/companies/circleci",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "CircleCI builds CI/CD and test automation tooling, aligning with candidate's test engineering and CI/CD interest. However, no QA openings, remote policy for Maine unclear, and hybrid model may limit Downeast Maine eligibility.",
+    "ai_red_flags": "No QA openings; hybrid policy may not cover Maine; no named QA leadership to approach.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20CircleCI",
+    "outreach_notes": "With 15 years in test automation and CI/CD-adjacent tooling, I can help CircleCI harden its own release pipelines and build test infrastructure for a platform used by thousands of engineering teams."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://circleci.com/careers/",
+    "research_notes": "CircleCI: CI/CD platform, 12 open roles (Sales 5, Software Eng 3, Support 1), 6 remote. Hybrid policy allows office/home, but Maine eligibility unknown. No QA openings. Candidate's test automation and CI/CD interest align; SDE or test-infra roles may be the path. Sources: https://circleci.com/careers/ https://jobsbylevel.com/companies/circleci",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid model: employees can work from the office or from home. Global workforce based in San Francisco, with team members across the US, Canada, UK, Ireland, Germany, Mexico and Japan.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://jobsbylevel.com/companies/circleci",
+    "fit_score": 3,
+    "ai_summary": "CircleCI builds CI/CD and test automation tooling, aligning with candidate's test engineering and CI/CD interest. However, no QA openings, remote policy for Maine unclear, and hybrid model may limit Downeast Maine eligibility.",
+    "role_families": "SDET; QA engineering; test infrastructure / release engineering",
+    "ai_red_flags": "No QA openings; hybrid policy may not cover Maine; no named QA leadership to approach.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "With 15 years in test automation and CI/CD-adjacent tooling, I can help CircleCI harden its own release pipelines and build test infrastructure for a platform used by thousands of engineering teams.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20CircleCI"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "circleci",
     "board_url": "https://job-boards.greenhouse.io/circleci",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://circleci.com/careers/; token guessed from name; page mentions greenhouse; board name CircleCI",
+    "source": "https://circleci.com/careers/",
+    "note": "token guessed from name; page mentions greenhouse; board name CircleCI",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://circleci.com/careers/",
+    "found": "greenhouse:circleci (embedded in https://circleci.com/careers/)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -130,6 +158,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,15 +188,68 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:31-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://circleci.com/careers/",
-    "found": "greenhouse:circleci (embedded in https://circleci.com/careers/)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

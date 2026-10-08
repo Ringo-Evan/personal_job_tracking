@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Micro-company; no engineering org",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Tiny content and instructional site; effectively no software engineering or QA function, so no realistic senior test role.",
+  "approach_role": "Owner / Site Manager",
+  "company": "Grapplearts",
+  "company_id": "C795",
+  "fit_score": 1,
+  "interests": "Instructionals",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Owner%20/%20Site%20Manager%20Grapplearts",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Web QA; Manual Tester",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

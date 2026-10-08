@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Fintech; remote possible.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Fintech payments software; likely QA/SDET roles. Portsmouth NH, remote possible. Fintech not core interest.",
+  "approach_role": "QA Manager",
+  "company": "Bottomline Technologies",
+  "company_id": "C397",
+  "fit_score": 3,
+  "interests": "Portsmouth NH fintech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Bottomline%20Technologies",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

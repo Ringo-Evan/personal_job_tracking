@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "NYC HQ; remote policy unknown.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Major publisher with publishing tech; QA roles plausible; books/fantasy domain match; remote from Maine uncertain.",
+  "approach_role": "Director of Publishing Technology",
+  "company": "Penguin Random House",
+  "company_id": "C741",
+  "fit_score": 3,
+  "interests": "Publishing tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Publishing%20Technology%20Penguin%20Random%20House",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "Books, history & media",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "UK-based; US remote unclear.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Modding platform with large user base; QA roles possible, but UK-based and US remote unclear.",
+  "approach_role": "Head of Engineering",
+  "company": "Nexus Mods",
+  "company_id": "C683",
+  "fit_score": 3,
+  "interests": "Modding platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Nexus%20Mods",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

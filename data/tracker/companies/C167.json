@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Crowdsourced model; not SDET-centric; management-focused",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Crowdtesting platform; remote management infrastructure; QA oversight",
+  "approach_role": "VP Operations",
+  "company": "Applause",
+  "company_id": "C167",
+  "fit_score": 2,
+  "interests": "Crowdtesting; remote testers and managers",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Operations%20Applause",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Manager; Solutions Engineer; Operations Manager",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

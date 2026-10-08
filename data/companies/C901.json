@@ -5,8 +5,8 @@
     "company": "TripAdvisor",
     "sector": "Travel",
     "interests": "Travel; Needham MA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.tripadvisor.com/",
+    "role_families": "SDET / test automation; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Activity-based working: some remote, but all full-time staff expected in person sometimes; Maine eligibility unknown. Viator grew 9%, TheFork 28%, core Tripadvisor declining. Engineering/product teams merged post-Viator, driving layoffs. No QA roles on the Greenhouse board; treat as speculative networking, not active hiring. Sources: https://careers.tripadvisor.com/ https://careers.tripadvisor.com/life-at-tripadvisor https://www.boston.com/news/business/2025/11/06/tripadvisor-to-cut-20-of-staff-amid-internal-restructuring/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Activity-based working: some roles are in-office, others mainly from home, but all full-time employees should expect some in-person time.",
+    "benefit_source": "https://economictimes.indiatimes.com/news/international/us/fresh-day-fresh-layoffs-tripadvisor-to-cut-20-staff-here-are-the-departments-affected/articleshow/125162443.cms",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "TripAdvisor is a large travel-review and experiences company (Viator, TheFork); travel matches the candidate's interests, but it is mid-restructuring with no QA openings listed and no confirmed Maine-remote eligibility, so fit is weak despite sector appeal.",
+    "ai_red_flags": "20% workforce cut, $85M cost-savings through 2027, activist investors pushing for sale, no QA openings posted.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP or Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20or%20Director%20of%20Quality%20Engineering%20TripAdvisor",
+    "outreach_notes": "Highlight 15 years of C#/.NET automation plus FDA-regulated V&V discipline as directly transferable to hardening TripAdvisor's booking and Viator experiences platforms during consolidation."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.tripadvisor.com/",
+    "research_notes": "Activity-based working: some remote, but all full-time staff expected in person sometimes; Maine eligibility unknown. Viator grew 9%, TheFork 28%, core Tripadvisor declining. Engineering/product teams merged post-Viator, driving layoffs. No QA roles on the Greenhouse board; treat as speculative networking, not active hiring. Sources: https://careers.tripadvisor.com/ https://careers.tripadvisor.com/life-at-tripadvisor https://www.boston.com/news/business/2025/11/06/tripadvisor-to-cut-20-of-staff-amid-internal-restructuring/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Activity-based working: some roles are in-office, others mainly from home, but all full-time employees should expect some in-person time.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://economictimes.indiatimes.com/news/international/us/fresh-day-fresh-layoffs-tripadvisor-to-cut-20-staff-here-are-the-departments-affected/articleshow/125162443.cms",
+    "fit_score": 2,
+    "ai_summary": "TripAdvisor is a large travel-review and experiences company (Viator, TheFork); travel matches the candidate's interests, but it is mid-restructuring with no QA openings listed and no confirmed Maine-remote eligibility, so fit is weak despite sector appeal.",
+    "role_families": "SDET / test automation; QA engineering; release/quality engineering",
+    "ai_red_flags": "20% workforce cut, $85M cost-savings through 2027, activist investors pushing for sale, no QA openings posted.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP or Director of Quality Engineering",
+    "outreach_notes": "Highlight 15 years of C#/.NET automation plus FDA-regulated V&V discipline as directly transferable to hardening TripAdvisor's booking and Viator experiences platforms during consolidation.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20or%20Director%20of%20Quality%20Engineering%20TripAdvisor"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "tripadvisor",
     "board_url": "https://job-boards.greenhouse.io/tripadvisor",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Tripadvisor",
+    "source": "https://careers.tripadvisor.com/",
+    "note": "Tripadvisor",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:tripadvisor (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,93 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C901",
+    "career_url": "https://careers.tripadvisor.com/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "tripadvisor",
+      "board_url": "https://job-boards.greenhouse.io/tripadvisor"
+    },
+    "remote_policy": {
+      "summary": "Activity-based working: some roles are in-office, others mainly from home, but all full-time employees should expect some in-person time.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://careers.tripadvisor.com/life-at-tripadvisor"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Tripadvisor cut about 20% of its workforce while merging Tripadvisor and Viator operations.",
+          "date": null,
+          "url": "https://www.boston.com/news/business/2025/11/06/tripadvisor-to-cut-20-of-staff-amid-internal-restructuring/"
+        },
+        {
+          "kind": "other",
+          "summary": "An $85 million cost-savings program runs through 2026 and into 2027.",
+          "date": null,
+          "url": "https://economictimes.indiatimes.com/news/international/us/fresh-day-fresh-layoffs-tripadvisor-to-cut-20-staff-here-are-the-departments-affected/articleshow/125162443.cms"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Viator revenue grew 9% to $295M and TheFork 28% to $63M, while core Tripadvisor declined.",
+          "date": null,
+          "url": "https://economictimes.indiatimes.com/news/international/us/fresh-day-fresh-layoffs-tripadvisor-to-cut-20-staff-here-are-the-departments-affected/articleshow/125162443.cms"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs tied to merging overlapping engineering, product and technology teams after the Viator merger.",
+          "date": null,
+          "url": "https://www.altexsoft.com/travel-industry-news/tripadvisor-cuts-20-staff-amid-viator-merger/"
+        },
+        {
+          "kind": "other",
+          "summary": "Activist investors Starboard Value and Palliser Capital pressed for strategic changes or a sale.",
+          "date": null,
+          "url": "https://www.altexsoft.com/travel-industry-news/tripadvisor-cuts-20-staff-amid-viator-merger/"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 2,
+      "rationale": "TripAdvisor is a large travel-review and experiences company (Viator, TheFork); travel matches the candidate's interests, but it is mid-restructuring with no QA openings listed and no confirmed Maine-remote eligibility, so fit is weak despite sector appeal.",
+      "role_families": [
+        "SDET / test automation",
+        "QA engineering",
+        "release/quality engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP or Director of Quality Engineering",
+    "outreach_angle": "Highlight 15 years of C#/.NET automation plus FDA-regulated V&V discipline as directly transferable to hardening TripAdvisor's booking and Viator experiences platforms during consolidation.",
+    "red_flags": "20% workforce cut, $85M cost-savings through 2027, activist investors pushing for sale, no QA openings posted.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.tripadvisor.com/",
+      "https://careers.tripadvisor.com/life-at-tripadvisor",
+      "https://www.boston.com/news/business/2025/11/06/tripadvisor-to-cut-20-of-staff-amid-internal-restructuring/",
+      "https://economictimes.indiatimes.com/news/international/us/fresh-day-fresh-layoffs-tripadvisor-to-cut-20-staff-here-are-the-departments-affected/articleshow/125162443.cms",
+      "https://www.altexsoft.com/travel-industry-news/tripadvisor-cuts-20-staff-amid-viator-merger/"
+    ],
+    "notes": "Activity-based working: some remote, but all full-time staff expected in person sometimes; Maine eligibility unknown. Viator grew 9%, TheFork 28%, core Tripadvisor declining. Engineering/product teams merged post-Viator, driving layoffs. No QA roles on the Greenhouse board; treat as speculative networking, not active hiring.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 9,
+      "kept": 9,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +208,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:26-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:tripadvisor (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

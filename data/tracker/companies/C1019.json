@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Media union; not software company; no tech development roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Media union; stability high; not software company",
+  "approach_role": "Organizing Director",
+  "company": "NewsGuild-CWA",
+  "company_id": "C1019",
+  "fit_score": 1,
+  "interests": "Union",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Organizing%20Director%20NewsGuild-CWA",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Union Organizing; Media Operations; Advocacy Staff",
+  "sector": "Labor & organizing",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

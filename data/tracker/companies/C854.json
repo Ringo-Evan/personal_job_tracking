@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site, large corporate",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Major firearms maker; interest aligns, but large hardware company with QA roles likely on-site and not remote-friendly.",
+  "approach_role": "QA Manager",
+  "company": "Beretta USA",
+  "company_id": "C854",
+  "fit_score": 3,
+  "interests": "Firearms",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Beretta%20USA",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Quality Manager",
+  "sector": "Firearms",
+  "size_estimate": "Unknown",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

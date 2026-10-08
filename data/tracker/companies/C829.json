@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Part of DICK'S; unit-level QA unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Youth sports scorekeeping app owned by DICK'S; stable parent with engineering scale, but domain gap and remote QA unclear.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "GameChanger (DICK'S)",
+  "company_id": "C829",
+  "fit_score": 3,
+  "interests": "Youth sports app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20GameChanger%20%28DICK%27S%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Quality Engineering Lead",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

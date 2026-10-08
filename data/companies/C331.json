@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Quality management software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA engineering; Computer system validation (GxP/CSV); SDET / test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Sparta Systems is a regulated-healthtech QMS vendor (TrackWise) acquired by Honeywell. Facts give no remote policy, no size, no QA openings, no people. Confirm Honeywell's US-remote policy and Maine eligibility before applying; Honeywell scale implies durability but also possible role consolidation. Sources: https://blog.jobhuntmode.com/articles/sparta-systems",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://blog.jobhuntmode.com/articles/sparta-systems",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Sparta Systems, now part of Honeywell, sells TrackWise quality management software to FDA-regulated life-science manufacturers. The regulated-QMS domain closely matches the candidate's medical-device V&V background, but no remote policy, size, or QA openings are verified, and no Maine presence is",
+    "ai_red_flags": "Remote/Maine eligibility unverified; no QA openings listed; no named contacts in the verified facts.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Sparta%20Systems%20%28Honeywell%29",
+    "outreach_notes": "Fifteen years of FDA-regulated medical device V&V, design controls, and C#/.NET automation aligns directly with validating TrackWise-based quality systems for life-science customers."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Verified: Sparta Systems is a regulated-healthtech QMS vendor (TrackWise) acquired by Honeywell. Facts give no remote policy, no size, no QA openings, no people. Confirm Honeywell's US-remote policy and Maine eligibility before applying; Honeywell scale implies durability but also possible role consolidation. Sources: https://blog.jobhuntmode.com/articles/sparta-systems",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://blog.jobhuntmode.com/articles/sparta-systems",
+    "fit_score": 3,
+    "ai_summary": "Sparta Systems, now part of Honeywell, sells TrackWise quality management software to FDA-regulated life-science manufacturers. The regulated-QMS domain closely matches the candidate's medical-device V&V background, but no remote policy, size, or QA openings are verified, and no Maine presence is",
+    "role_families": "QA engineering; Computer system validation (GxP/CSV); SDET / test automation",
+    "ai_red_flags": "Remote/Maine eligibility unverified; no QA openings listed; no named contacts in the verified facts.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Fifteen years of FDA-regulated medical device V&V, design controls, and C#/.NET automation aligns directly with validating TrackWise-based quality systems for life-science customers.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Sparta%20Systems%20%28Honeywell%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.spartasystems.com/careers/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -119,6 +146,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -147,15 +175,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.spartasystems.com/careers/",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

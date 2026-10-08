@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "German publisher; US remote unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Strategy game publisher; QA roles possible, but German HQ and limited US remote make fit moderate.",
+  "approach_role": "QA Manager",
+  "company": "Kalypso Media",
+  "company_id": "C676",
+  "fit_score": 3,
+  "interests": "Strategy publisher",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Kalypso%20Media",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Manager; Test Lead; Localization QA",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

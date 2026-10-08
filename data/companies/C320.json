@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Health integration APIs",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Health integration APIs; regulated healthtech with likely remote roles and mid-stage stability.",
     "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Redox",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA/test engineering; integration test tooling",
+    "approach_role": "VP of Engineering (no named quality leader in the facts)",
+    "ai_summary": "Redox builds healthcare data integration APIs (EHR interoperability), a regulated healthtech domain adjacent to the candidate's FDA-regulated device testing. Remote-first helps, but no QA openings, no stability signals and Maine eligibility are unverified, so the fit is plausible rather than",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20%28no%20named%20quality%20leader%20in%20the%20facts%29%20Redox",
+    "career_url": "https://redoxengine.com/company/careers/",
+    "research_notes": "Remote-first employer nationwide; Maine eligibility not confirmed. No QA/SDET roles listed on their Lever board, no named quality leadership, size and stability unverified. Healthtech integration API domain fits the candidate's regulated medical experience, so monitor the board and reach engineering leadership directly. Sources: https://redoxengine.com/company/careers/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote-first company: employees work from their own locations around the country, with trust and autonomy rather than a fixed office.",
+    "ai_red_flags": "No verified QA openings, no posted remote-Maine eligibility, no financial or headcount signals.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps directly onto testing healthcare integration APIs, where data correctness and compliance carry real patient-safety weight.",
+    "next_research_action": "Watching lever board"
+  },
   "ats": {
     "type": "lever",
     "token": "redoxengine",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 10
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "lever:redoxengine (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +98,58 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C320",
+    "career_url": "https://redoxengine.com/company/careers/",
+    "ats": {
+      "type": "lever",
+      "token": "redoxengine",
+      "board_url": "https://jobs.lever.co/redoxengine"
+    },
+    "remote_policy": {
+      "summary": "Remote-first company: employees work from their own locations around the country, with trust and autonomy rather than a fixed office.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://redoxengine.com/company/careers/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Redox builds healthcare data integration APIs (EHR interoperability), a regulated healthtech domain adjacent to the candidate's FDA-regulated device testing. Remote-first helps, but no QA openings, no stability signals and Maine eligibility are unverified, so the fit is plausible rather than",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "integration test tooling"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering (no named quality leader in the facts)",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls background maps directly onto testing healthcare integration APIs, where data correctness and compliance carry real patient-safety weight.",
+    "red_flags": "No verified QA openings, no posted remote-Maine eligibility, no financial or headcount signals.",
+    "confidence": "low",
+    "sources": [
+      "https://redoxengine.com/company/careers/"
+    ],
+    "notes": "Remote-first employer nationwide; Maine eligibility not confirmed. No QA/SDET roles listed on their Lever board, no named quality leadership, size and stability unverified. Healthtech integration API domain fits the candidate's regulated medical experience, so monitor the board and reach engineering leadership directly.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +172,70 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "lever:redoxengine (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

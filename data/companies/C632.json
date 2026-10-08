@@ -6,7 +6,7 @@
     "sector": "Games & stories",
     "interests": "Unreal; Cary NC",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Test Automation Engineer; QA Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Medium",
+    "size_estimate": "500-5k",
+    "ai_summary": "Unreal and Fortnite maker in Cary NC; strong test-tooling work, some remote roles but onsite-leaning.",
+    "ai_red_flags": "Cary NC hub; 2023 layoffs",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Test Engineering Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Epic%20Games",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,19 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Medium",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; Test Automation Engineer; QA Engineer",
+    "approach_role": "Test Engineering Manager",
+    "ai_summary": "Unreal and Fortnite maker in Cary NC; strong test-tooling work, some remote roles but onsite-leaning.",
+    "ai_red_flags": "Cary NC hub; 2023 layoffs",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Epic%20Games"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "epicgames",
@@ -54,6 +66,13 @@
     "source": null,
     "note": "greenhouse token guessed from name; board name Epic Games",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.epicgames.com/site/careers",
+    "found": "greenhouse:epicgames (greenhouse token guessed from name)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -72,6 +91,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +114,41 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.epicgames.com/site/careers",
-    "found": "greenhouse:epicgames (greenhouse token guessed from name)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

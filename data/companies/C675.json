@@ -5,8 +5,8 @@
     "company": "Bohemia Interactive Simulations",
     "sector": "Games & stories",
     "interests": "Military training sims (VBS)",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.bohemia.net/en",
+    "role_families": "SDET; QA/test automation engineering; simulation software V&V",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Facts captured nothing: no job board, ATS token, remote policy, headcount, stability signals, openings, or named people. Public knowledge says BISim makes VBS military training sims (Orlando HQ, international offices), C#/C++ heavy, cleared/defense customers. Verify Maine-remote eligibility, ITAR/clearance needs, and current QA headcount before applying. Sources: https://www.bohemia.net/en https://apply.workable.com/bohemia-interactive-simulations-inc/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workable board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Bohemia Interactive Simulations builds military training simulation software (VBS), heavy in C#/C++ and games-adjacent tech, matching the candidate's test-automation stack and games interest. But facts are silent on remote policy, size, stability and QA openings, so fit is plausible, not",
+    "ai_red_flags": "No verified remote policy, size, or QA openings; defense work may require US-person status or clearance.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering or Head of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20or%20Head%20of%20Quality%20Assurance%20Bohemia%20Interactive%20Simulations",
+    "outreach_notes": "15 years of C#/.NET test automation plus FDA-regulated V&V in hardware-adjacent systems maps directly to verifying VBS simulation releases, and my games/simulation interest makes the mission a genuine draw."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.bohemia.net/en",
+    "research_notes": "Facts captured nothing: no job board, ATS token, remote policy, headcount, stability signals, openings, or named people. Public knowledge says BISim makes VBS military training sims (Orlando HQ, international offices), C#/C++ heavy, cleared/defense customers. Verify Maine-remote eligibility, ITAR/clearance needs, and current QA headcount before applying. Sources: https://www.bohemia.net/en https://apply.workable.com/bohemia-interactive-simulations-inc/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Bohemia Interactive Simulations builds military training simulation software (VBS), heavy in C#/C++ and games-adjacent tech, matching the candidate's test-automation stack and games interest. But facts are silent on remote policy, size, stability and QA openings, so fit is plausible, not",
+    "role_families": "SDET; QA/test automation engineering; simulation software V&V",
+    "ai_red_flags": "No verified remote policy, size, or QA openings; defense work may require US-person status or clearance.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Engineering or Head of Quality Assurance",
+    "outreach_notes": "15 years of C#/.NET test automation plus FDA-regulated V&V in hardware-adjacent systems maps directly to verifying VBS simulation releases, and my games/simulation interest makes the mission a genuine draw.",
+    "next_research_action": "Watching workable board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20or%20Head%20of%20Quality%20Assurance%20Bohemia%20Interactive%20Simulations"
+  },
   "ats": {
     "type": "workable",
     "token": "bohemia-interactive-simulations-inc",
     "board_url": "https://apply.workable.com/bohemia-interactive-simulations-inc/",
-    "detected_by": "search",
-    "checked_at": "2026-10-06",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "noted by an earlier search; board system now supported; board name Bohemia Interactive Simulations",
+    "source": "https://careers.bohemia.net/en",
+    "note": "Bohemia Interactive Simulations",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.bohemia.net/en",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/bohemia-interactive-simulations-inc/"
+    ],
+    "careers_page_note": "no known job-board system on careers page"
   },
   "triage": {
     "fit": 5,
@@ -123,6 +153,7 @@
       "model": "gemini/gemini-3.1-flash-lite"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -158,18 +189,66 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:16-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.bohemia.net/en",
-    "found": null,
-    "other": [
-      "workable https://apply.workable.com/bohemia-interactive-simulations-inc/"
-    ],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

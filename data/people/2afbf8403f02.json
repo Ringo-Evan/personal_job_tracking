@@ -7,6 +7,14 @@
   "source_url": "https://dpe.org/sessions/dogfooding-developer-productivity/",
   "why_approach": "Head of Product at JetBrains. Your 15 years automating .NET testing and TeamCity-adjacent tooling could inform JetBrains' QA tooling, though only if they open US-remote or Maine-eligible roles.",
   "first_seen": "2026-10-06",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0007",
+  "exported": {
+    "name": "Dmitry Jemerov",
+    "company": "JetBrains",
+    "title": "Head of Product",
+    "source_url": "https://dpe.org/sessions/dogfooding-developer-productivity/",
+    "why_approach": "Head of Product at JetBrains. Your 15 years automating .NET testing and TeamCity-adjacent tooling could inform JetBrains' QA tooling, though only if they open US-remote or Maine-eligible roles.",
+    "company_id": "C159"
+  },
+  "first_exported": "2026-10-07"
 }

@@ -1,0 +1,2112 @@
+{
+  "added_by": "Claude (seed)",
+  "collection": "companies",
+  "created_at": "2026-09-30T18:00:00Z",
+  "finished_at": "2026-09-30T15:15:16.719Z",
+  "imported": 282,
+  "label": "wide-net seed part 3 of 3",
+  "rows": [
+    {
+      "company": "GoWild",
+      "interests": "Hunting social app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "MeatEater",
+      "interests": "Hunting media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Tactacam",
+      "interests": "Hunting cameras",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Spypoint",
+      "interests": "Cellular trail cameras (IoT)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Moultrie (PRADCO)",
+      "interests": "Trail cameras",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Tactical Solutions",
+      "interests": "Firearms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "USCCA",
+      "interests": "Concealed carry education",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "NSSF",
+      "interests": "Industry association",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Range Systems",
+      "interests": "Range equipment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Action Target",
+      "interests": "Range systems",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Shooting Range Industries",
+      "interests": "Ranges",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "PractiScore",
+      "interests": "Match scoring software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Pelican Products",
+      "interests": "Cases",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Otter Outdoors",
+      "interests": "Ice fishing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Yeti",
+      "interests": "Outdoor gear",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Traeger",
+      "interests": "Connected grills (IoT)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Weber (Weber Connect)",
+      "interests": "Connected grills",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Big Agnes",
+      "interests": "Camping",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Gaia GPS (Outside)",
+      "interests": "Maps app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Outside Interactive",
+      "interests": "Outdoor media/apps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "AllTrails",
+      "interests": "Trail app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "REI",
+      "interests": "Co-op retailer; unionizing staff",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Patagonia",
+      "interests": "Values-driven outdoor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Backcountry.com",
+      "interests": "Outdoor e-commerce",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Firearms"
+    },
+    {
+      "company": "Sabre",
+      "interests": "Airline/travel tech; .NET",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Travelport",
+      "interests": "Travel tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Navitaire (Amadeus)",
+      "interests": "Airline reservations",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Hopper",
+      "interests": "Travel app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Kayak (Booking)",
+      "interests": "Travel search",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Booking Holdings",
+      "interests": "Travel",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Priceline",
+      "interests": "Travel",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "TripAdvisor",
+      "interests": "Travel; Needham MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Viator",
+      "interests": "Tours",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "GetYourGuide",
+      "interests": "Tours",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Vrbo (Expedia)",
+      "interests": "Rentals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Hostaway",
+      "interests": "Rental software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Guesty",
+      "interests": "Rental software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Cloudbeds",
+      "interests": "Hotel software; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Mews",
+      "interests": "Hotel software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Oracle Hospitality (Opera)",
+      "interests": "Hotel software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Agilysys",
+      "interests": "Hospitality software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Duetto",
+      "interests": "Revenue mgmt",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Southwest Airlines",
+      "interests": "Airline",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "JetBlue",
+      "interests": "Boston hub",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Alaska Airlines",
+      "interests": "Airline",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Frontier/Spirit",
+      "interests": "Airlines",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Breeze Airways",
+      "interests": "Airline; Portland ME service",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Allegiant",
+      "interests": "Airline",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Norwegian Cruise Line",
+      "interests": "Cruise",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Carnival",
+      "interests": "Cruise",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Lindblad Expeditions",
+      "interests": "Expedition cruises",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Intrepid Travel",
+      "interests": "B-Corp tours",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "REI Adventures",
+      "interests": "Tours",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Rick Steves' Europe",
+      "interests": "Tours",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Boston Logan (Massport)",
+      "interests": "Airport ops",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Laminar Research (X-Plane)",
+      "interests": "Flight sim - your airline simulator interest",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Asobo / Microsoft Flight Simulator",
+      "interests": "Flight sim",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "PMDG",
+      "interests": "Flight sim addons",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "FlightAware",
+      "interests": "Flight tracking",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Flighty",
+      "interests": "Flight app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "ForeFlight (Boeing)",
+      "interests": "Aviation app; strong QA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Jeppesen (Boeing)",
+      "interests": "Aviation software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Garmin Aviation",
+      "interests": "Avionics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Travel"
+    },
+    {
+      "company": "Farmers Business Network",
+      "interests": "Ag platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Indigo Ag",
+      "interests": "Boston ag tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Granular (Corteva)",
+      "interests": "Farm software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Climate FieldView (Bayer)",
+      "interests": "Farm software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Agworld",
+      "interests": "Farm software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Tend",
+      "interests": "Small-farm planning software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Barn2Door",
+      "interests": "Direct farm sales software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Local Line",
+      "interests": "Farm e-commerce",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "GrazeCart",
+      "interests": "Farm e-commerce",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Harvie",
+      "interests": "CSA software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Seedtime",
+      "interests": "Garden planner app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Rural King",
+      "interests": "Farm retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Agri Supply",
+      "interests": "Farm supply",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Stihl Inc",
+      "interests": "Outdoor power",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "EGO / Chervon",
+      "interests": "Battery power tools",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Kubota",
+      "interests": "Tractors",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Mahindra Ag",
+      "interests": "Tractors",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Monarch Tractor",
+      "interests": "Electric autonomous tractors",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Bluewhite",
+      "interests": "Autonomous orchard tractors",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Burro (Augean Robotics)",
+      "interests": "Farm robots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "FarmWise",
+      "interests": "Weeding robots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Verdant Robotics",
+      "interests": "Ag robots",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Tertill",
+      "interests": "Garden weeding robot; MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Rachio",
+      "interests": "Smart irrigation IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Orbit B-hyve",
+      "interests": "Smart irrigation",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Arable",
+      "interests": "Crop sensors IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Semios",
+      "interests": "Orchard IoT",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "CropX",
+      "interests": "Soil sensors",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Vence (Merck)",
+      "interests": "Virtual fencing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Nofence",
+      "interests": "Virtual fencing goats/sheep",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Gallagher",
+      "interests": "Fencing tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Tru-Test (Datamars)",
+      "interests": "Livestock scales/EID RFID",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Datamars",
+      "interests": "Livestock RFID tags - RFID + homestead",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Allflex (Merck)",
+      "interests": "Livestock RFID",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Merck Animal Health Intelligence",
+      "interests": "Animal monitoring",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Zoetis",
+      "interests": "Animal health",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Elanco",
+      "interests": "Animal health",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Purina (Nestle)",
+      "interests": "Feed",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Blain's Farm & Fleet",
+      "interests": "Farm retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Murray McMurray Hatchery",
+      "interests": "Poultry",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Meyer Hatchery",
+      "interests": "Poultry",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Backyard Chickens / Omlet",
+      "interests": "Coops",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Omlet",
+      "interests": "Coops/pet",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Cool Springs Press",
+      "interests": "Homestead books",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Storey Publishing",
+      "interests": "Homestead books; North Adams MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Chelsea Green Publishing",
+      "interests": "Homestead/sustainability books; Vermont; employee-owned",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Rodale Institute",
+      "interests": "Organic farming nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Northeast Organic Farming Assn (NOFA)",
+      "interests": "Organic farming",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Maine Farmland Trust",
+      "interests": "Maine farms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Cultivating Community",
+      "interests": "Portland ME farms",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Tesla Energy",
+      "interests": "Solar/Powerwall",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Enphase",
+      "interests": "Solar inverters/app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "SolarEdge",
+      "interests": "Solar",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "EcoFlow",
+      "interests": "Portable power",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Jackery",
+      "interests": "Portable power",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Goal Zero",
+      "interests": "Portable power",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Bluetti",
+      "interests": "Portable power",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Victron Energy",
+      "interests": "Off-grid power electronics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Sense",
+      "interests": "Home energy monitoring",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Span",
+      "interests": "Smart panels",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "ReVision Energy",
+      "interests": "Maine solar; employee-owned",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Mitsubishi Electric Trane HVAC",
+      "interests": "Heat pumps",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Efficiency Maine",
+      "interests": "Maine energy programs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Versant Power",
+      "interests": "Maine utility; Bangor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Central Maine Power (Avangrid)",
+      "interests": "Utility",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Starlink (SpaceX)",
+      "interests": "Rural internet",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Axiom (Maine broadband)",
+      "interests": "Machias ME broadband - local!",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Consolidated Communications",
+      "interests": "Rural broadband",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Maine Connectivity Authority",
+      "interests": "Broadband",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Agriculture"
+    },
+    {
+      "company": "Mobilize (Bonterra)",
+      "interests": "Event organizing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Hustle",
+      "interests": "Peer texting for campaigns",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "ThruText (GetThru)",
+      "interests": "Campaign texting",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Spoke (MoveOn open source)",
+      "interests": "Campaign texting",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Movement Cooperative",
+      "interests": "Progressive tech coop",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Tech for Campaigns",
+      "interests": "Volunteer tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Catalist",
+      "interests": "Progressive data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "TargetSmart",
+      "interests": "Progressive data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "NGP VAN (Bonterra)",
+      "interests": "Campaign software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Swing Left",
+      "interests": "Organizing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Indivisible",
+      "interests": "Organizing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Working Families Party",
+      "interests": "Party org",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Democratic Socialists of America",
+      "interests": "Org (staff)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Jobs With Justice",
+      "interests": "Labor",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "United Steelworkers (tech)",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "CWA (Communications Workers)",
+      "interests": "Union - tech workers organizing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "CODE-CWA",
+      "interests": "Tech worker union campaign",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "NewsGuild-CWA",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Teamsters",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "UAW",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "IBEW",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "AFSCME",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "AFT",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "NEA",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Starbucks Workers United",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Amazon Labor Union",
+      "interests": "Union",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Labor Notes",
+      "interests": "Labor media/training",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "EWOC (Emergency Workplace Organizing Committee)",
+      "interests": "Volunteer organizing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Economic Policy Institute",
+      "interests": "Labor research",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "National Employment Law Project",
+      "interests": "Labor policy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "The Leap / Jacobin Foundation",
+      "interests": "Left media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Jacobin",
+      "interests": "Left magazine",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "The Nation",
+      "interests": "Left magazine",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "In These Times",
+      "interests": "Labor journalism",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "ProPublica",
+      "interests": "Nonprofit journalism",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "The Marshall Project",
+      "interests": "Criminal justice journalism",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Democracy Works (TurboVote)",
+      "interests": "Civic tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Vote.org",
+      "interests": "Civic tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "VoteAmerica",
+      "interests": "Civic tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Ballotpedia",
+      "interests": "Civic info",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Rock the Vote",
+      "interests": "Civic",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Labor & organizing"
+    },
+    {
+      "company": "Wayside Food Programs",
+      "interests": "Portland ME",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Full Plates Full Potential",
+      "interests": "Maine child hunger",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Share Our Strength (No Kid Hungry)",
+      "interests": "Hunger",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Food Rescue US",
+      "interests": "Food rescue app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Replate",
+      "interests": "Food rescue tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Too Good To Go",
+      "interests": "Food waste app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Goodr",
+      "interests": "Food waste",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Farmlink Project",
+      "interests": "Food rescue",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Why Hunger",
+      "interests": "Hunger",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Mercy Corps",
+      "interests": "Global aid",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Food access"
+    },
+    {
+      "company": "Housing Works",
+      "interests": "NYC HIV/housing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "National Low Income Housing Coalition",
+      "interests": "Housing policy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Enterprise Community Partners",
+      "interests": "Affordable housing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "LISC",
+      "interests": "Community development",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Zillow (Housing Connector)",
+      "interests": "Housing Connector program",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Housing Connector",
+      "interests": "Housing access tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Doorway (Houston)",
+      "interests": "Homeless services tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Eccovia",
+      "interests": "Human services software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Social Solutions (Bonterra Apricot)",
+      "interests": "Case management software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Unite Us",
+      "interests": "Social care coordination; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "findhelp (Aunt Bertha)",
+      "interests": "Social services search",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Benefit Kitchen",
+      "interests": "Benefits tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Nudge",
+      "interests": "Financial wellness",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Mission Asset Fund",
+      "interests": "Lending circles",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Kiva",
+      "interests": "Microloans; tech team",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Housing"
+    },
+    {
+      "company": "Gideon's Promise",
+      "interests": "Public defense",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Innocence Project",
+      "interests": "Justice reform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "ACLU",
+      "interests": "Civil liberties; tech team",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Equal Justice Initiative",
+      "interests": "Justice reform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Brennan Center",
+      "interests": "Democracy/justice",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Fair and Just Prosecution",
+      "interests": "Reform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Measures for Justice",
+      "interests": "Justice data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Promise",
+      "interests": "Bail/payment tech for justice-involved",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Clearpath / Clean Slate Initiative",
+      "interests": "Record clearance",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Pigeonly",
+      "interests": "Prison communication (check ethics)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Edovo",
+      "interests": "Education tablets for incarcerated people",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Unlocked Labs",
+      "interests": "Education tech for incarcerated people",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "The Last Mile",
+      "interests": "Coding in prisons",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Persevere",
+      "interests": "Coding for incarcerated people",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Center for Employment Opportunities",
+      "interests": "Reentry jobs",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Defy Ventures",
+      "interests": "Reentry entrepreneurship",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "Hope for Prisoners",
+      "interests": "Reentry",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Criminal justice reform"
+    },
+    {
+      "company": "National Harm Reduction Coalition",
+      "interests": "Harm reduction",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "NEXT Distro",
+      "interests": "Harm reduction supplies",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Never Use Alone",
+      "interests": "Overdose hotline",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Brave Technology Coop",
+      "interests": "Overdose detection tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "DanceSafe",
+      "interests": "Harm reduction",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Shatterproof",
+      "interests": "Addiction nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Partnership to End Addiction",
+      "interests": "Addiction nonprofit",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Faces & Voices of Recovery",
+      "interests": "Recovery advocacy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Hazelden Betty Ford",
+      "interests": "Addiction treatment; tech/digital",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Aware Recovery Care",
+      "interests": "In-home addiction care; New England",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "BayMark Health Services",
+      "interests": "Addiction treatment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Acadia Healthcare",
+      "interests": "Addiction treatment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "CleanSlate Centers",
+      "interests": "Addiction treatment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Crossroads Treatment Centers",
+      "interests": "Addiction treatment",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Click Therapeutics",
+      "interests": "Digital therapeutics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Better Therapeutics",
+      "interests": "Digital therapeutics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Addiction & recovery"
+    },
+    {
+      "company": "Rainbow Railroad",
+      "interests": "LGBTQ refugees",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "GLAAD",
+      "interests": "LGBTQ media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Human Rights Campaign",
+      "interests": "LGBTQ advocacy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Lambda Legal",
+      "interests": "LGBTQ legal",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Transgender Law Center",
+      "interests": "Trans legal",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Trans Lifeline",
+      "interests": "Trans crisis line",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "PFLAG National",
+      "interests": "LGBTQ families",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "It Gets Better Project",
+      "interests": "LGBTQ youth",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Point of Pride",
+      "interests": "Trans support",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Point Foundation",
+      "interests": "LGBTQ scholarships",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "SCRUFF (Perry Street)",
+      "interests": "LGBTQ app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Hornet",
+      "interests": "LGBTQ app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "HER",
+      "interests": "LGBTQ women's app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Lex",
+      "interests": "Queer social app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Taimi",
+      "interests": "LGBTQ app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "Queerly Health",
+      "interests": "LGBTQ health",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "LGBTQ"
+    },
+    {
+      "company": "SWOP USA",
+      "interests": "Sex worker rights",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Sex Workers Outreach Project Behind Bars",
+      "interests": "Sex worker support",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Decriminalize Sex Work",
+      "interests": "Advocacy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Hacking//Hustling",
+      "interests": "Sex worker tech collective",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Old Pros",
+      "interests": "Sex worker advocacy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "St. James Infirmary",
+      "interests": "Sex worker health clinic",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Woodhull Freedom Foundation",
+      "interests": "Sexual freedom advocacy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "ManyVids",
+      "interests": "Creator/adult platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Chaturbate (Multi Media LLC)",
+      "interests": "Cam platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Stripchat",
+      "interests": "Cam platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "LiveJasmin (Docler)",
+      "interests": "Cam platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "CamSoda",
+      "interests": "Cam platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Fanvue",
+      "interests": "Creator platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "LoyalFans",
+      "interests": "Creator platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "JustFor.Fans",
+      "interests": "Creator platform (queer creators)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "FanCentro",
+      "interests": "Creator platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Sheer",
+      "interests": "Creator platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "AVN Media Network",
+      "interests": "Adult trade media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "XBIZ",
+      "interests": "Adult trade media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Epoch / CCBill",
+      "interests": "Adult payment processing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Segpay",
+      "interests": "Adult payment processing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Verotel",
+      "interests": "Adult payments",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Evil Angel",
+      "interests": "Adult studio",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Bellesa",
+      "interests": "Women-focused adult platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Lovense",
+      "interests": "Connected toys (BLE IoT!)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "We-Vibe / WOW Tech",
+      "interests": "Connected toys (BLE app)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Lelo",
+      "interests": "Adult products",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Dame Products",
+      "interests": "Adult products",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Unbound",
+      "interests": "Adult products",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Babeland (Good Vibrations)",
+      "interests": "Worker-friendly adult retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Good Vibrations",
+      "interests": "Adult retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Adam & Eve (PHE)",
+      "interests": "Adult retail",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Kinkly",
+      "interests": "Sex ed media",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "OMGYES",
+      "interests": "Sex ed",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Beducated",
+      "interests": "Sex ed platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Quinn",
+      "interests": "Audio erotica",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Ferly",
+      "interests": "Sexual wellness app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Rosy",
+      "interests": "Sexual health app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "Blueheart",
+      "interests": "Sex therapy app",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Adult & sexuality"
+    },
+    {
+      "company": "General Dynamics Mission Systems",
+      "interests": "Test engineering",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Raytheon (RTX)",
+      "interests": "Test engineering; MA sites",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Lockheed Martin",
+      "interests": "Test",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Northrop Grumman",
+      "interests": "Test",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "L3Harris",
+      "interests": "Test",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Draper Laboratory",
+      "interests": "Cambridge MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "MIT Lincoln Laboratory",
+      "interests": "Lexington MA",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "MITRE",
+      "interests": "Bedford MA; remote-friendly",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Elbit America",
+      "interests": "Defense",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Textron Systems",
+      "interests": "Defense",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Sierra Nevada Corp",
+      "interests": "Aerospace",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Blue Origin",
+      "interests": "Space",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "SpaceX",
+      "interests": "Space",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Rocket Lab",
+      "interests": "Space",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Firefly Aerospace",
+      "interests": "Space",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "bluShift Aerospace",
+      "interests": "Brunswick ME rockets",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Relativity Space",
+      "interests": "Space",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Planet Labs",
+      "interests": "Satellites",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "BlackSky",
+      "interests": "Satellites",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Skydio",
+      "interests": "Drones; test-heavy",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Zipline",
+      "interests": "Drone delivery",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Wing (Alphabet)",
+      "interests": "Drone delivery",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "DroneUp",
+      "interests": "Drone delivery",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Boston Dynamics",
+      "interests": "Robots; Waltham",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Agility Robotics",
+      "interests": "Humanoids",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Figure AI",
+      "interests": "Humanoids",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Waymo",
+      "interests": "Autonomy; huge test org",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Aurora Innovation",
+      "interests": "Autonomous trucks",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Kodiak Robotics",
+      "interests": "Autonomous trucks",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Motional",
+      "interests": "Autonomy; Boston",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Applied Intuition",
+      "interests": "Autonomy simulation - testing product!",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Foretellix",
+      "interests": "Autonomy test/verification tools",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "dSPACE",
+      "interests": "HIL test systems",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "National Instruments (Emerson)",
+      "interests": "Test & measurement - core test domain",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Vector Informatik",
+      "interests": "Automotive test tools",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Epirus",
+      "interests": "Defense",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Hermeus",
+      "interests": "Hypersonics",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Chaos Industries",
+      "interests": "Defense tech",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Castelion",
+      "interests": "Defense",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Palantir",
+      "interests": "Software",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "Scale AI",
+      "interests": "Data/evals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "Defense, aerospace & robotics"
+    },
+    {
+      "company": "OpenAI",
+      "interests": "AI lab",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Google DeepMind",
+      "interests": "AI lab",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Cohere",
+      "interests": "AI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Mistral AI",
+      "interests": "AI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Hugging Face",
+      "interests": "Remote-friendly AI platform",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Weights & Biases (CoreWeave)",
+      "interests": "ML tooling",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Arize AI",
+      "interests": "LLM evals/observability",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Braintrust",
+      "interests": "LLM evals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Patronus AI",
+      "interests": "LLM evals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Galileo",
+      "interests": "LLM evals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Humanloop",
+      "interests": "LLM evals",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "LangChain",
+      "interests": "LLM framework (LangSmith evals)",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Surge AI",
+      "interests": "Data labeling",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Labelbox",
+      "interests": "Data labeling",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Snorkel AI",
+      "interests": "Data",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Perplexity",
+      "interests": "AI search",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Cursor (Anysphere)",
+      "interests": "AI coding",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Replit",
+      "interests": "AI coding; remote",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Cognition",
+      "interests": "AI coding agents",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Harvey",
+      "interests": "Legal AI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Abridge",
+      "interests": "Clinical AI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Suki",
+      "interests": "Clinical AI",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    },
+    {
+      "company": "Hippocratic AI",
+      "interests": "Health AI safety testing",
+      "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+      "sector": "AI & evals"
+    }
+  ],
+  "skipped_duplicates": 68,
+  "status": "done"
+}

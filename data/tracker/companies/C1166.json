@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Clearance and onsite; limited remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Aerospace and defense contractor hiring hardware test engineers; good domain adjacency, but onsite work and remote-from-Maine unlikely.",
+  "approach_role": "Test Engineering Manager",
+  "company": "Sierra Nevada Corp",
+  "company_id": "C1166",
+  "fit_score": 3,
+  "interests": "Aerospace",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Sierra%20Nevada%20Corp",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Integration & Test Engineer; SDET",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:38Z",
+  "updated_by": "pipeline"
+}

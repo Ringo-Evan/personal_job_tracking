@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small tech team; no known QA openings",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Nonprofit food rescue; domain match but small tech presence, unclear QA roles.",
+  "approach_role": "Director of Engineering",
+  "company": "Farmlink Project",
+  "company_id": "C1050",
+  "fit_score": 2,
+  "interests": "Food rescue",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Farmlink%20Project",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Food access",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

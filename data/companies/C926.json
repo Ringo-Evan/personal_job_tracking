@@ -5,8 +5,8 @@
     "company": "Asobo / Microsoft Flight Simulator",
     "sector": "Travel",
     "interests": "Flight sim",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.asobostudio.com/careers",
+    "role_families": "SDET; game QA; test automation engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "No remote policy, ATS or job board found; QA openings empty. Asobo is 50–500-person independent French studio contracting for Microsoft; forum talk flags layoff risk if contract ends. No named QA contacts. Candidate's game interest fits, but US-Maine remote or relocation unverified. Sources: https://www.asobostudio.com/careers https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.asobostudio.com/careers manually",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "50-500",
+    "ai_summary": "Asobo is an independent French studio behind Microsoft Flight Simulator; games/travel align with candidate interests and C# test automation, but no remote policy or QA openings are known, so US-Maine fit is unproven.",
+    "ai_red_flags": "No US remote policy; French studio; contractual Microsoft dependence; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Asobo%20/%20Microsoft%20Flight%20Simulator",
+    "outreach_notes": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I bring rigor to game and simulation QA—useful for Flight Simulator content pipelines and release quality."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.asobostudio.com/careers",
+    "research_notes": "No remote policy, ATS or job board found; QA openings empty. Asobo is 50–500-person independent French studio contracting for Microsoft; forum talk flags layoff risk if contract ends. No named QA contacts. Candidate's game interest fits, but US-Maine remote or relocation unverified. Sources: https://www.asobostudio.com/careers https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://forums.flightsimulator.com/t/xbox-seems-to-be-cutting-studios-leave-asobo-alone-pls/641137",
+    "fit_score": 2,
+    "ai_summary": "Asobo is an independent French studio behind Microsoft Flight Simulator; games/travel align with candidate interests and C# test automation, but no remote policy or QA openings are known, so US-Maine fit is unproven.",
+    "role_families": "SDET; game QA; test automation engineering",
+    "ai_red_flags": "No US remote policy; French studio; contractual Microsoft dependence; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "QA Lead",
+    "outreach_notes": "With 15 years in C#/.NET test automation and FDA-regulated V&V, I bring rigor to game and simulation QA—useful for Flight Simulator content pipelines and release quality.",
+    "next_research_action": "No supported job board - check https://www.asobostudio.com/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Asobo%20/%20Microsoft%20Flight%20Simulator"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.asobostudio.com/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.asobostudio.com/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -126,6 +165,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -154,16 +194,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:20-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.asobostudio.com/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "hardware; remote likely limited",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Trail cameras and IoT hardware; strong domain fit for hardware-adjacent QA automation.",
+  "approach_role": "Director of Quality",
+  "company": "Tactacam",
+  "company_id": "C872",
+  "fit_score": 4,
+  "interests": "Hunting cameras",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Tactacam",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "Firearms",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:29Z",
+  "updated_by": "pipeline"
+}

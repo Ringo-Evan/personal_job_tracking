@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Nonprofit budget; few dedicated QA openings",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "National addiction nonprofit fighting stigma and expanding treatment access; mission aligns, but in-house QA roles are rare in a small advocacy org.",
+  "approach_role": "Director of Engineering",
+  "company": "Shatterproof",
+  "company_id": "C1090",
+  "fit_score": 2,
+  "interests": "Addiction nonprofit",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Shatterproof",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Addiction & recovery",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

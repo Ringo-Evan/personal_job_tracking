@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Dallas tech hub; Maine remote unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Major US airline; travel interest, but tech roles likely Dallas-based and remote-from-Maine unlikely.",
+  "approach_role": "Director of Technology Quality Assurance",
+  "company": "Southwest Airlines",
+  "company_id": "C912",
+  "fit_score": 2,
+  "interests": "Airline",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Quality%20Assurance%20Southwest%20Airlines",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Travel",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:30Z",
+  "updated_by": "pipeline"
+}

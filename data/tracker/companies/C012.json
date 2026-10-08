@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.actblue.com/careers/",
+  "career_url": "https://www.actblue.com/careers/",
+  "company": "ActBlue",
+  "company_id": "C012",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "QA and cross-team leadership transfer; payments/security depth and political fit need checking.",
+  "hiring_difficulty": 3,
+  "interests": "Progressive fundraising",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Supports Democratic and progressive fundraising; user to assess mission alignment.",
+  "research_status": "Initial research",
+  "role_families": "Quality engineering; payments testing; technical delivery",
+  "sector": "Mission & organizing",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

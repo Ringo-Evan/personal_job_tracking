@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Very small staff; grant-dependent",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Trans legal advocacy nonprofit; strong mission fit, but tiny organization with no realistic senior QA or SDET role.",
+  "approach_role": "Operations Director",
+  "company": "Transgender Law Center",
+  "company_id": "C1105",
+  "fit_score": 1,
+  "interests": "Trans legal",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Director%20Transgender%20Law%20Center",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Operations Engineer",
+  "sector": "LGBTQ",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

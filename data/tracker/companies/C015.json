@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.aylo.com/careers/",
+  "career_url": "https://www.aylo.com/careers/",
+  "company": "Aylo",
+  "company_id": "C015",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Direct QA function exists; listed SQA role appears below user's seniority and geography is unresolved.",
+  "hiring_difficulty": 3,
+  "interests": "Adult entertainment technology",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Adult entertainment employer; worker-rights alignment requires separate research.",
+  "research_status": "Initial research",
+  "role_families": "SQA; automation; platform quality",
+  "sector": "Adult & sexuality",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

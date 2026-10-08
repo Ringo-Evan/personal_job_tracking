@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Very small; few dedicated QA openings.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small remote gov digital cooperative; mission fits public interest but few dedicated QA or SDET openings.",
+  "approach_role": "Director of Delivery",
+  "company": "Bloom Works",
+  "company_id": "C440",
+  "fit_score": 3,
+  "interests": "Gov digital; remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Delivery%20Bloom%20Works",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Quality Consultant",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "AI test automation",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET / test automation engineering; QA leadership; test-tooling solutions engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Testim is a Tricentis product (acquired 2022) in AI test automation; reported revenue ~$40M. Verified facts contain no remote policy, headcount, ATS or open QA roles, and no named contacts. Tricentis is an established enterprise vendor, but remote-from-Maine eligibility and senior QA demand must be confirmed directly. Sources: https://claveprep.com/blog/testim-hiring-process-guide-2026",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://claveprep.com/blog/testim-hiring-process-guide-2026",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Testim (Tricentis) sells AI-assisted test automation tooling — squarely in the candidate's test-tooling and SDET wheelhouse, with .NET/C# and regulated-V&V experience transferring well. But remote-from-Maine eligibility, team size and current QA openings are all unverified, so fit is plausible rather",
+    "ai_red_flags": "No verified remote policy or QA openings; PE-backed enterprise vendor with sector-wide layoff risk.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering or Head of Quality Engineering (no named leader in",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20or%20Head%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20Testim%20%28Tricentis%29",
+    "outreach_notes": "Your 15 years of C#/.NET automation plus FDA-regulated V&V work maps directly onto selling and building AI-assisted test tooling like Testim's."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Testim is a Tricentis product (acquired 2022) in AI test automation; reported revenue ~$40M. Verified facts contain no remote policy, headcount, ATS or open QA roles, and no named contacts. Tricentis is an established enterprise vendor, but remote-from-Maine eligibility and senior QA demand must be confirmed directly. Sources: https://claveprep.com/blog/testim-hiring-process-guide-2026",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://claveprep.com/blog/testim-hiring-process-guide-2026",
+    "fit_score": 3,
+    "ai_summary": "Testim (Tricentis) sells AI-assisted test automation tooling — squarely in the candidate's test-tooling and SDET wheelhouse, with .NET/C# and regulated-V&V experience transferring well. But remote-from-Maine eligibility, team size and current QA openings are all unverified, so fit is plausible rather",
+    "role_families": "SDET / test automation engineering; QA leadership; test-tooling solutions engineering",
+    "ai_red_flags": "No verified remote policy or QA openings; PE-backed enterprise vendor with sector-wide layoff risk.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "VP of Engineering or Head of Quality Engineering (no named leader in",
+    "outreach_notes": "Your 15 years of C#/.NET automation plus FDA-regulated V&V work maps directly onto selling and building AI-assisted test tooling like Testim's.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20or%20Head%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20Testim%20%28Tricentis%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.testim.io/career/?uid=8D.41E",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -119,6 +146,7 @@
       "model": "gemini/gemini-3.5-flash-lite"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -147,15 +175,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.testim.io/career/?uid=8D.41E",
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Melbourne HQ; US-remote QA unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "B-Corp tour operator; travel fit, but Melbourne HQ and limited US-remote QA likely.",
+  "approach_role": "Head of Engineering",
+  "company": "Intrepid Travel",
+  "company_id": "C921",
+  "fit_score": 2,
+  "interests": "B-Corp tours",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Intrepid%20Travel",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; Software QA",
+  "sector": "Travel",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:30Z",
+  "updated_by": "pipeline"
+}

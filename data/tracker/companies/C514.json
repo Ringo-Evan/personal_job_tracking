@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "ERP domain, not target sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "ERP provider; limited .NET focus, domain not in interests; QA roles may exist but fit low.",
+  "approach_role": "QA Manager",
+  "company": "Unit4",
+  "company_id": "C514",
+  "fit_score": 2,
+  "interests": "ERP",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Unit4",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Analyst",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

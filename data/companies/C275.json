@@ -5,8 +5,8 @@
     "company": "ICU Medical",
     "sector": "Regulated healthtech",
     "interests": "Infusion pumps",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.icumed.com/about-us/careers",
+    "role_families": "Quality/Design Assurance Engineering; Verification & Validation (V&V) test engineering; QA leadership / test management",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified facts are sparse: sector regulated healthtech, infusion pumps, no job board, ATS, remote policy, size, stability signals or QA openings captured. Public knowledge: public company, HQ California, plants in Minnesota/Ireland; QA roles tend on-site/hybrid. Confirm remote eligibility and Maine before applying. Sources: https://www.icumed.com/about-us/careers https://eduu.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.icumed.com/about-us/careers manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "ICU Medical makes infusion pumps and IV therapy systems in regulated healthtech, matching the candidate's FDA V&V and design-controls background. But no Maine site, no verified remote policy, and QA work there is typically on-site, so a remote Maine fit",
+    "ai_red_flags": "No Maine presence; remote policy unverified; medical-device QA is usually on-site. Post-Smiths-acquisition debt and restructuring history.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20ICU%20Medical",
+    "outreach_notes": "Your FDA-regulated infusion-device V&V and design-controls experience maps directly to ICU Medical's pump platforms; ask whether quality engineering roles can be performed remotely from Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.icumed.com/about-us/careers",
+    "research_notes": "Verified facts are sparse: sector regulated healthtech, infusion pumps, no job board, ATS, remote policy, size, stability signals or QA openings captured. Public knowledge: public company, HQ California, plants in Minnesota/Ireland; QA roles tend on-site/hybrid. Confirm remote eligibility and Maine before applying. Sources: https://www.icumed.com/about-us/careers https://eduu.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "ICU Medical makes infusion pumps and IV therapy systems in regulated healthtech, matching the candidate's FDA V&V and design-controls background. But no Maine site, no verified remote policy, and QA work there is typically on-site, so a remote Maine fit",
+    "role_families": "Quality/Design Assurance Engineering; Verification & Validation (V&V) test engineering; QA leadership / test management",
+    "ai_red_flags": "No Maine presence; remote policy unverified; medical-device QA is usually on-site. Post-Smiths-acquisition debt and restructuring history.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering (no named leader in facts)",
+    "outreach_notes": "Your FDA-regulated infusion-device V&V and design-controls experience maps directly to ICU Medical's pump platforms; ask whether quality engineering roles can be performed remotely from Maine.",
+    "next_research_action": "No supported job board - check https://www.icumed.com/about-us/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20facts%29%20ICU%20Medical"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.icumed.com/about-us/careers",
+    "note": "uses oracle",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.icumed.com/about-us/careers",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses oracle"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -113,6 +151,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -141,16 +180,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:06-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.icumed.com/about-us/careers",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses oracle"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

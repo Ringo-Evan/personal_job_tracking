@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Acquired by ActiveCampaign",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first email marketing (Wildbit acquired); larger org may have QA, no hardware/regulated; moderate fit.",
+  "approach_role": "Director of QA",
+  "company": "Wildbit/ActiveCampaign",
+  "company_id": "C557",
+  "fit_score": 3,
+  "interests": "Remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%20Wildbit/ActiveCampaign",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

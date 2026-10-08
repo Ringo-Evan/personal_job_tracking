@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site Portland, no QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine history nonprofit; local history fit, but small and no software QA roles likely.",
+  "approach_role": "Executive Director",
+  "company": "Maine Historical Society",
+  "company_id": "C784",
+  "fit_score": 1,
+  "interests": "Maine history",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Executive%20Director%20Maine%20Historical%20Society",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT/QA; Digital Projects",
+  "sector": "Books, history & media",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

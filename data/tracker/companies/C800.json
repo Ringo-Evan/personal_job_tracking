@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Columbus, Ohio onsite preference",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Fitness equipment manufacturer with growing software and logistics tech; hardware-adjacent testing fits, but most roles are onsite.",
+  "approach_role": "Director of Software Engineering",
+  "company": "Rogue Fitness",
+  "company_id": "C800",
+  "fit_score": 3,
+  "interests": "Fitness equipment",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Software%20Engineering%20Rogue%20Fitness",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer, manufacturing systems; Test Automation Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

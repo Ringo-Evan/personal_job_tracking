@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Outsourced engineering; rare QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "National hunger nonprofit behind No Kid Hungry; remote-friendly and stable, but technology is outsourced with few QA openings.",
+  "approach_role": "Director of Technology",
+  "company": "Share Our Strength (No Kid Hungry)",
+  "company_id": "C1045",
+  "fit_score": 2,
+  "interests": "Hunger",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Share%20Our%20Strength%20%28No%20Kid%20Hungry%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Data Quality Analyst; Software Engineer",
+  "sector": "Food access",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Acquired; integration layoffs possible.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Mortgage servicing software under ICE; QA roles plausible, stable, but domain mismatch and cyclical.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Black Knight (ICE)",
+  "company_id": "C502",
+  "fit_score": 3,
+  "interests": "Mortgage software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Black%20Knight%20%28ICE%29",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; Test Manager",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:17Z",
+  "updated_by": "pipeline"
+}

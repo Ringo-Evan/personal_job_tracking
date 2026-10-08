@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Unprofitable; insurtech volatility",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Digital insurtech with a small engineering org; regulated-adjacent domain, but few QA leadership roles and limited financial durability.",
+  "approach_role": "Head of Engineering",
+  "company": "Lemonade",
+  "company_id": "C484",
+  "fit_score": 3,
+  "interests": "Insurtech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Lemonade",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Automation Engineer; SDET; Test Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:16Z",
+  "updated_by": "pipeline"
+}

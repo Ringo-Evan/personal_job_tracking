@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; lower stability; unproven AI platform; risky",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "AI test automation; automation expertise transfers; growth opportunity",
+  "approach_role": "VP Engineering",
+  "company": "Functionize",
+  "company_id": "C168",
+  "fit_score": 3,
+  "interests": "AI test automation",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Functionize",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; Senior QA Engineer; Product Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

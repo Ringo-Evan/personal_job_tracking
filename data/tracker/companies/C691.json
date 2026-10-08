@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Very small team; no QA roles known.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Lightweight VTT; strong TTRPG interest, but tiny indie team makes senior QA roles unlikely and remote unclear.",
+  "approach_role": "Founder/Lead Developer",
+  "company": "Owlbear Rodeo",
+  "company_id": "C691",
+  "fit_score": 2,
+  "interests": "VTT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Founder/Lead%20Developer%20Owlbear%20Rodeo",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Support Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

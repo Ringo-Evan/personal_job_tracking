@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C097",
     "company": "Spark Membership",
-    "sector": "Martial arts",
+    "sector": "Martial arts & fitness",
     "interests": "Martial arts / fitness software",
     "career_url": "https://sparkmembership.com/",
     "role_families": "QA; engineering",
@@ -55,8 +55,17 @@
     "note": "no known job-board system on careers page",
     "job_count": null
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://spark.us/aboutus/careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses bamboohr"
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -81,15 +90,14 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://spark.us/aboutus/careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses bamboohr"
-  }
+  "last_exported_at": null
 }

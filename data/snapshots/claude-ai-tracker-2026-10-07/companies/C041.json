@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.united.com/us/en/benefits",
+  "career_url": "https://careers.united.com/",
+  "company": "United Airlines",
+  "company_id": "C041",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Software experience transfers; hub/location and team requirements need checking.",
+  "hiring_difficulty": 3,
+  "interests": "Personal travel benefits",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Advertises unlimited standby and discounted airfare; seats are availability-dependent.",
+  "research_status": "Initial research",
+  "role_families": "Digital QA; reservations; mobile automation",
+  "sector": "Travel",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

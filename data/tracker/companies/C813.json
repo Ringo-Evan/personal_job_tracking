@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Likely non-US; US-remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Gym and studio management software, likely a small non-US team; fitness niche relevant but US-remote QA hiring unlikely.",
+  "approach_role": "Head of Engineering",
+  "company": "TeamUp",
+  "company_id": "C813",
+  "fit_score": 2,
+  "interests": "Gym software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20TeamUp",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

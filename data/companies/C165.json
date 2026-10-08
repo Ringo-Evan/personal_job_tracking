@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "Automated QA service; hires QA engineers",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior QA Engineer; SDET; Solutions Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "<50",
+    "ai_summary": "Explicitly hires QA engineers; automated QA service; remote-friendly",
+    "ai_red_flags": "Smaller startup; venture-backed; growth-focused; lower stability",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Quality%20QA%20Wolf",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA engineering; test automation",
+    "approach_role": "Head of QA / VP of Engineering",
+    "ai_summary": "QA Wolf sells automated QA as a service, so test automation and SDET skills are its core product. Fully remote and open to Maine, but no current QA openings are listed and the domain is tooling, not regulated or hardware-adjacent.",
+    "ai_red_flags": "No QA openings listed; early-stage, venture-funded service; no named QA leadership to approach.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20QA%20/%20VP%20of%20Engineering%20QA%20Wolf",
+    "career_url": "https://www.qawolf.com/careers",
+    "research_notes": "Remote-first, work from anywhere including Maine. Raised $57.5M across two rounds (date unknown). No current QA openings and no people listed. Ashby ATS. Size and revenue unknown, so stability rests on funding alone. Sources: https://www.qawolf.com/careers",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Remote-first; every role is remote and employees may work from anywhere in the world.",
+    "benefit_source": "https://www.qawolf.com/careers",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your 15 years in C#/.NET test automation and regulated V&V could help QA Wolf deliver reliable, scalable automated coverage to its customers.",
+    "next_research_action": "Watching ashby board"
+  },
   "ats": {
     "type": "ashby",
     "token": "qawolf",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "ashby:qawolf (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,65 @@
     "model": "claude-haiku-4-5-20251001",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C165",
+    "career_url": "https://www.qawolf.com/careers",
+    "ats": {
+      "type": "ashby",
+      "token": "qawolf",
+      "board_url": "https://jobs.ashbyhq.com/qawolf"
+    },
+    "remote_policy": {
+      "summary": "Remote-first; every role is remote and employees may work from anywhere in the world.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.qawolf.com/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "QA Wolf has raised $57.5M across 2 funding rounds, per its careers page.",
+          "date": null,
+          "url": "https://www.qawolf.com/careers"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "QA Wolf sells automated QA as a service, so test automation and SDET skills are its core product. Fully remote and open to Maine, but no current QA openings are listed and the domain is tooling, not regulated or hardware-adjacent.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Head of QA / VP of Engineering",
+    "outreach_angle": "Your 15 years in C#/.NET test automation and regulated V&V could help QA Wolf deliver reliable, scalable automated coverage to its customers.",
+    "red_flags": "No QA openings listed; early-stage, venture-funded service; no named QA leadership to approach.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.qawolf.com/careers"
+    ],
+    "notes": "Remote-first, work from anywhere including Maine. Raised $57.5M across two rounds (date unknown). No current QA openings and no people listed. Ashby ATS. Size and revenue unknown, so stability rests on funding alone.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +180,71 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "ashby:qawolf (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

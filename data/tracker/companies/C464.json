@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Structure, size and current openings Unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Constellation and Harris operating entity for acquired vertical software businesses; .NET-heavy, but mandate and hiring activity unclear.",
+  "approach_role": "Director of QA",
+  "company": "N. Harris Computer",
+  "company_id": "C464",
+  "fit_score": 3,
+  "interests": "Constellation group",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%20N.%20Harris%20Computer",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; QA Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "Unknown",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:16Z",
+  "updated_by": "pipeline"
+}

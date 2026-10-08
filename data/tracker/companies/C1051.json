@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No software roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Hunger advocacy nonprofit; no software QA roles, poor fit despite food access interest.",
+  "approach_role": "IT Director",
+  "company": "Why Hunger",
+  "company_id": "C1051",
+  "fit_score": 1,
+  "interests": "Hunger",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Director%20Why%20Hunger",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Food access",
+  "size_estimate": "<50",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

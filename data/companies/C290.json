@@ -5,8 +5,8 @@
     "company": "Owlet",
     "sector": "Regulated healthtech",
     "interests": "Baby monitor wearables",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://owletcare.com/pages/careers",
+    "role_families": "SDET; QA leadership; test engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "US-remote roles open to Maine residents. Owlet is growing (100+ hires, 400k+ families) in regulated healthtech. No QA openings currently listed; no named leaders. Publicly traded but financials unknown. Domain match strong: FDA-regulated wearables, hardware-adjacent. Sources: https://owletcare.com/pages/careers https://www.remoterocketship.com/us/company/owletcare/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Openings are listed as United States – Remote USA, indicating US-wide remote work that is open to Maine residents.",
+    "benefit_source": "https://owletcare.com/pages/careers",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workable board",
+    "fit_score": 5,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Owlet makes FDA-regulated baby monitor wearables, a strong match for the candidate's medical device V&V and hardware-adjacent test automation. US-remote roles are open to Maine, but no QA openings or quality leaders are listed.",
+    "ai_red_flags": "No current QA openings or named quality leadership in verified facts.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Owlet",
+    "outreach_notes": "Your FDA-regulated medical device V&V and hardware-adjacent automation experience directly matches Owlet's regulated baby monitoring wearables and need for rigorous test engineering."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://owletcare.com/pages/careers",
+    "research_notes": "US-remote roles open to Maine residents. Owlet is growing (100+ hires, 400k+ families) in regulated healthtech. No QA openings currently listed; no named leaders. Publicly traded but financials unknown. Domain match strong: FDA-regulated wearables, hardware-adjacent. Sources: https://owletcare.com/pages/careers https://www.remoterocketship.com/us/company/owletcare/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Openings are listed as United States – Remote USA, indicating US-wide remote work that is open to Maine residents.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://owletcare.com/pages/careers",
+    "fit_score": 5,
+    "ai_summary": "Owlet makes FDA-regulated baby monitor wearables, a strong match for the candidate's medical device V&V and hardware-adjacent test automation. US-remote roles are open to Maine, but no QA openings or quality leaders are listed.",
+    "role_families": "SDET; QA leadership; test engineering",
+    "ai_red_flags": "No current QA openings or named quality leadership in verified facts.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Your FDA-regulated medical device V&V and hardware-adjacent automation experience directly matches Owlet's regulated baby monitoring wearables and need for rigorous test engineering.",
+    "next_research_action": "Watching workable board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Owlet"
+  },
   "ats": {
     "type": "workable",
     "token": "owlet-baby-care-1",
     "board_url": "https://apply.workable.com/owlet-baby-care-1/",
-    "detected_by": "search",
-    "checked_at": "2026-10-06",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Owlet Baby Care",
-    "job_count": 3
+    "source": "https://owletcare.com/pages/careers",
+    "note": "Owlet Baby Care",
+    "job_count": 2
+  },
+  "discovery": {
+    "at": "2026-10-06",
+    "results": 22,
+    "careers_page": null,
+    "found": "workable:owlet-baby-care-1 (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -136,6 +164,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -172,15 +201,69 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:11-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-06",
-    "results": 22,
-    "careers_page": null,
-    "found": "workable:owlet-baby-care-1 (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

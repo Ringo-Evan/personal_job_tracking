@@ -1,0 +1,20 @@
+{
+  "key": "1273333849a2",
+  "company_id": "C572",
+  "company": "Supabase",
+  "name": "Glauber Costa",
+  "title": "Head of Agentic Services",
+  "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+  "why_approach": "Head of Agentic Services at Supabase. I bring 15 years of C#/.NET test automation and regulated V&V experience, and I'd apply that rigor to release reliability and verification pipelines for a fast-scaling, agent-driven Postgres platform.",
+  "first_seen": "2026-10-07",
+  "person_id": "PA0005",
+  "exported": {
+    "name": "Glauber Costa",
+    "company": "Supabase",
+    "title": "Head of Agentic Services",
+    "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+    "why_approach": "Head of Agentic Services at Supabase. I bring 15 years of C#/.NET test automation and regulated V&V experience, and I'd apply that rigor to release reliability and verification pipelines for a fast-scaling, agent-driven Postgres platform.",
+    "company_id": "C572"
+  },
+  "first_exported": "2026-10-07"
+}

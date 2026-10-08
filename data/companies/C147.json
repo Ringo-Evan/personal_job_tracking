@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C147",
     "company": "University of Maine System",
-    "sector": "Maine employers",
+    "sector": "Maine & New England",
     "interests": "Orono - commutable; public university",
     "career_url": "https://www.maine.edu/careers/",
     "role_families": "IT; research software; QA",
@@ -55,8 +55,16 @@
     "note": "uses oracle",
     "job_count": null
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.maine.edu/careers/",
+    "found": null,
+    "other": []
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -81,14 +89,14 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.maine.edu/careers/",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": null
 }

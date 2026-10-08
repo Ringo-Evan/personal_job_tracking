@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Nonprofit; likely NYC hybrid",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Addiction education and advocacy nonprofit; mission fits well, but engineering team is small and QA hiring unlikely.",
+  "approach_role": "Director of Technology",
+  "company": "Partnership to End Addiction",
+  "company_id": "C1091",
+  "fit_score": 2,
+  "interests": "Addiction nonprofit",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Partnership%20to%20End%20Addiction",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Software Engineer in Test",
+  "sector": "Addiction & recovery",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

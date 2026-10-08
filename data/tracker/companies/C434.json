@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Clearance and DC-area presence typical.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Federal tech consultancy; test and QA roles common but typically clearance-gated and on-site near client agencies.",
+  "approach_role": "Quality Assurance Lead",
+  "company": "Booz Allen Hamilton",
+  "company_id": "C434",
+  "fit_score": 3,
+  "interests": "Federal tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Assurance%20Lead%20Booz%20Allen%20Hamilton",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Analyst; Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

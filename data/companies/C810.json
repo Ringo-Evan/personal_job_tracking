@@ -5,8 +5,8 @@
     "company": "Daxko",
     "sector": "Martial arts & fitness",
     "interests": "Y/gym software (owns Zen Planner?)",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://jobs.gem.com/daxko",
+    "role_families": "SDET; QA engineering; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Daxko serves fitness/martial arts clubs (Zen Planner); remote/hybrid widely available but Maine eligibility unstated. Layoffs, leadership churn, PE ownership lower stability. No QA openings listed; candidate's .NET automation may fit if roles open. Sources: https://jobs.gem.com/daxko https://builtin.com/company/daxko/faq/work-life-balance-wellbeing https://builtin.com/company/daxko/faq/culture-values",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote and hybrid work is widely available; the pack does not state whether US-remote roles are open to Maine residents.",
+    "benefit_source": "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://jobs.gem.com/daxko manually",
+    "fit_score": 3,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Daxko builds fitness and martial arts club software (including Zen Planner), matching the candidate's martial arts interest and .NET automation skills, but private-equity layoffs, reorganizations, and no listed QA openings make fit uncertain. Remote Maine eligibility is unstated.",
+    "ai_red_flags": "Recent layoffs, PE-driven restructurings, no listed QA openings, and unclear Maine remote eligibility.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Daxko",
+    "outreach_notes": "My 15 years in C#/.NET test automation and regulated V&V, plus personal martial arts involvement, could strengthen quality for Daxko's Zen Planner and fitness platforms."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,48 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://jobs.gem.com/daxko",
+    "research_notes": "Daxko serves fitness/martial arts clubs (Zen Planner); remote/hybrid widely available but Maine eligibility unstated. Layoffs, leadership churn, PE ownership lower stability. No QA openings listed; candidate's .NET automation may fit if roles open. Sources: https://jobs.gem.com/daxko https://builtin.com/company/daxko/faq/work-life-balance-wellbeing https://builtin.com/company/daxko/faq/culture-values",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Remote and hybrid work is widely available; the pack does not state whether US-remote roles are open to Maine residents.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing",
+    "fit_score": 3,
+    "ai_summary": "Daxko builds fitness and martial arts club software (including Zen Planner), matching the candidate's martial arts interest and .NET automation skills, but private-equity layoffs, reorganizations, and no listed QA openings make fit uncertain. Remote Maine eligibility is unstated.",
+    "role_families": "SDET; QA engineering; test automation",
+    "ai_red_flags": "Recent layoffs, PE-driven restructurings, no listed QA openings, and unclear Maine remote eligibility.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "My 15 years in C#/.NET test automation and regulated V&V, plus personal martial arts involvement, could strengthen quality for Daxko's Zen Planner and fitness platforms.",
+    "next_research_action": "No supported job board - check https://jobs.gem.com/daxko manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Daxko"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://jobs.gem.com/daxko",
+    "note": "uses gem",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.daxko.com/company/careers",
+    "found": null,
+    "other": [
+      "gem https://jobs.gem.com/daxko"
+    ]
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +101,79 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C810",
+    "career_url": "https://jobs.gem.com/daxko",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote and hybrid work is widely available; the pack does not state whether US-remote roles are open to Maine residents.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs and restructuring reported, leaving uneven staffing and workload spikes for remaining employees.",
+          "date": null,
+          "url": "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Leadership churn, reorganizations and layoffs cited as sources of instability and employee fatigue.",
+          "date": null,
+          "url": "https://builtin.com/company/daxko/faq/culture-values"
+        },
+        {
+          "kind": "other",
+          "summary": "Private-equity-driven ownership described, with a fast, change-heavy culture and periodic restructurings.",
+          "date": null,
+          "url": "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Daxko builds fitness and martial arts club software (including Zen Planner), matching the candidate's martial arts interest and .NET automation skills, but private-equity layoffs, reorganizations, and no listed QA openings make fit uncertain. Remote Maine eligibility is unstated.",
+      "role_families": [
+        "SDET",
+        "QA engineering",
+        "test automation"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "My 15 years in C#/.NET test automation and regulated V&V, plus personal martial arts involvement, could strengthen quality for Daxko's Zen Planner and fitness platforms.",
+    "red_flags": "Recent layoffs, PE-driven restructurings, no listed QA openings, and unclear Maine remote eligibility.",
+    "confidence": "medium",
+    "sources": [
+      "https://jobs.gem.com/daxko",
+      "https://builtin.com/company/daxko/faq/work-life-balance-wellbeing",
+      "https://builtin.com/company/daxko/faq/culture-values"
+    ],
+    "notes": "Daxko serves fitness/martial arts clubs (Zen Planner); remote/hybrid widely available but Maine eligibility unstated. Layoffs, leadership churn, PE ownership lower stability. No QA openings listed; candidate's .NET automation may fit if roles open.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,16 +195,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:21-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.daxko.com/company/careers",
-    "found": null,
-    "other": [
-      "gem https://jobs.gem.com/daxko"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

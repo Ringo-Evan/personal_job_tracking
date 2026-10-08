@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site likely; politically volatile sector",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Firearms retail/manufacturing and e-commerce; domain interest fits, but likely on-site IT/QA roles in South Carolina.",
+  "approach_role": "Director of IT",
+  "company": "Palmetto State Armory",
+  "company_id": "C834",
+  "fit_score": 3,
+  "interests": "Firearms retail/manufacturing",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20IT%20Palmetto%20State%20Armory",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; E-commerce QA Engineer",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

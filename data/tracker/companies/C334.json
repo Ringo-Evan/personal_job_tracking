@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Merger integration and cost-cutting risk",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Clinical trial technology from the ERT and Bioclinica merger; regulated device-and-software testing fits, but PE ownership brings integration churn.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "Clario",
+  "company_id": "C334",
+  "fit_score": 4,
+  "interests": "Clinical trial tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Clario",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior Test Engineer; SDET; Quality Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

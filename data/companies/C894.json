@@ -5,8 +5,8 @@
     "company": "Sabre",
     "sector": "Travel",
     "interests": "Airline/travel tech; .NET",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+    "role_families": "SDET; Test Automation Engineer; Quality Engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Sabre is a travel tech company; no remote policy stated. Stability signals include layoffs and a $65M AI/offshore investment. No QA openings listed. CEO Kurt Ekert. Domain interest in travel/.NET aligns, but offshoring may reduce local QA hiring. Sources: https://sabre.wd1.myworkdayjobs.com/SabreJobs https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Sabre provides airline and travel technology; candidate's travel interest and .NET skills align. However, no remote policy, no QA openings, and offshoring/layoffs signal reduced local QA hiring.",
+    "ai_red_flags": "Recent layoffs and offshore/AI push suggest QA roles may be outsourced; no QA openings or remote policy listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Sabre",
+    "outreach_notes": "My 15 years in regulated .NET test automation and V&V could strengthen Sabre's airline reservation platform quality, especially for compliance-critical travel systems."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+    "research_notes": "Sabre is a travel tech company; no remote policy stated. Stability signals include layoffs and a $65M AI/offshore investment. No QA openings listed. CEO Kurt Ekert. Domain interest in travel/.NET aligns, but offshoring may reduce local QA hiring. Sources: https://sabre.wd1.myworkdayjobs.com/SabreJobs https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://skift.com/2026/02/19/sabre-layoffs-leadership-changes-ai-native/",
+    "fit_score": 3,
+    "ai_summary": "Sabre provides airline and travel technology; candidate's travel interest and .NET skills align. However, no remote policy, no QA openings, and offshoring/layoffs signal reduced local QA hiring.",
+    "role_families": "SDET; Test Automation Engineer; Quality Engineering",
+    "ai_red_flags": "Recent layoffs and offshore/AI push suggest QA roles may be outsourced; no QA openings or remote policy listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Head of Quality Engineering",
+    "outreach_notes": "My 15 years in regulated .NET test automation and V&V could strengthen Sabre's airline reservation platform quality, especially for compliance-critical travel systems.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Engineering%20Sabre"
+  },
   "ats": {
     "type": "workday",
     "token": "sabre|1|SabreJobs",
     "board_url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 113
+    "source": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+    "note": "",
+    "job_count": 114
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:sabre|1|SabreJobs (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -142,6 +170,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -171,15 +200,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:21-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:sabre|1|SabreJobs (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Service model; may focus on sales/CS over deep engineering",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "QA-as-a-service; QA expertise leveraged in delivery/platform",
+  "approach_role": "VP Product",
+  "company": "Rainforest QA",
+  "company_id": "C164",
+  "fit_score": 3,
+  "interests": "QA-as-a-service",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Product%20Rainforest%20QA",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Solutions Engineer; Senior QA; Product Engineer",
+  "sector": "Test tooling",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

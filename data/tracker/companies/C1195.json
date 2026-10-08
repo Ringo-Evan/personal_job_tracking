@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Mostly on-site/hybrid; remote-from-Maine unlikely.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Large defense/gov software firm; senior QA/SDET roles plausible but remote-from-Maine unlikely and domain not aligned.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "Palantir",
+  "company_id": "C1195",
+  "fit_score": 3,
+  "interests": "Software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Palantir",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "2024 layoffs; verify current headcount",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Battletech and Shadowrun strategy studio; genre match, but post-Paradox split with reported deep layoffs.",
+  "approach_role": "Studio QA Lead",
+  "company": "Harebrained Schemes",
+  "company_id": "C636",
+  "fit_score": 2,
+  "interests": "Battletech/Shadowrun",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Studio%20QA%20Lead%20Harebrained%20Schemes",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 1,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

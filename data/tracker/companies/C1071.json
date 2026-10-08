@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No software engineering or QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Legal advocacy nonprofit focused on justice reform; no software engineering or QA function evident.",
+  "approach_role": "HR Director",
+  "company": "Equal Justice Initiative",
+  "company_id": "C1071",
+  "fit_score": 1,
+  "interests": "Justice reform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=HR%20Director%20Equal%20Justice%20Initiative",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Legal; Policy; Operations",
+  "sector": "Criminal justice reform",
+  "size_estimate": "50-500",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

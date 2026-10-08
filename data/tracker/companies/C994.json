@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite Georgia; limited remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "HVAC equipment joint venture with embedded controls software; regulated hardware-adjacent testing fits, but US roles cluster onsite in Georgia.",
+  "approach_role": "Engineering Manager, Controls Software",
+  "company": "Mitsubishi Electric Trane HVAC",
+  "company_id": "C994",
+  "fit_score": 3,
+  "interests": "Heat pumps",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Controls%20Software%20Mitsubishi%20Electric%20Trane%20HVAC",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Software Test Engineer; Embedded QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

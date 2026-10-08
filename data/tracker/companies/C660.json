@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "NZ-based; relocation likely expected",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "New Zealand Path of Exile studio; QA hiring is NZ-based, with no sign of US-remote roles open to Maine.",
+  "approach_role": "QA Lead",
+  "company": "Grinding Gear Games",
+  "company_id": "C660",
+  "fit_score": 2,
+  "interests": "Path of Exile",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20Grinding%20Gear%20Games",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; SDET; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "Unknown",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

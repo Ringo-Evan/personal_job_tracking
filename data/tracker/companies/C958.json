@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small venture; limited remote roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Crop-sensor IoT with agronomic analytics; hardware-adjacent QA fits, but small venture company with limited remote openings.",
+  "approach_role": "Director of Engineering",
+  "company": "Arable",
+  "company_id": "C958",
+  "fit_score": 3,
+  "interests": "Crop sensors IoT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Arable",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

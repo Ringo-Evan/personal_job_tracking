@@ -5,8 +5,8 @@
     "company": "dSPACE",
     "sector": "Defense, aerospace & robotics",
     "interests": "HIL test systems",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.dspace.com/en/inc/home/career.cfm",
+    "role_families": "SDET; test automation engineering; HIL test engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "dSPACE: HIL test systems for automotive/aerospace/defense; €460M revenue, 2900 employees in 2025. Remote policy: hybrid/home office, local site rules, no US-wide remote pledge. No QA openings listed; named leader Hans Jürgen, Manager Real-Time Software. Candidate's HIL interest fits, but Maine remote uncertainty. Sources: https://www.dspace.com/en/inc/home/career.cfm https://builtin.com/company/dspace/faq/work-life-balance-wellbeing https://en.wikipedia.org/wiki/DSPACE_(company)",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Flexible hours plus home office/hybrid options, with hybrid rules set by local site policies; EU/CH work-from-abroad allowed up to 28 days. No US-wide remote commitment is stated.",
+    "benefit_source": "https://en.wikipedia.org/wiki/DSPACE_(company)",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://www.dspace.com/en/inc/home/career.cfm manually",
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "dSPACE builds HIL test systems and real-time simulation for automotive/aerospace/defense; candidate's test automation and hardware-adjacent background align, but no US-remote guarantee or Maine-commutable site is stated.",
+    "ai_red_flags": "No US-wide remote commitment; Maine eligibility unknown; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Manager Real-Time Software",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Manager%20Real-Time%20Software%20dSPACE",
+    "outreach_notes": "Your HIL systems match my 15 years in hardware-adjacent test automation and FDA-regulated V&V; I'd like to discuss senior test roles, remote or near a US site."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.dspace.com/en/inc/home/career.cfm",
+    "research_notes": "dSPACE: HIL test systems for automotive/aerospace/defense; €460M revenue, 2900 employees in 2025. Remote policy: hybrid/home office, local site rules, no US-wide remote pledge. No QA openings listed; named leader Hans Jürgen, Manager Real-Time Software. Candidate's HIL interest fits, but Maine remote uncertainty. Sources: https://www.dspace.com/en/inc/home/career.cfm https://builtin.com/company/dspace/faq/work-life-balance-wellbeing https://en.wikipedia.org/wiki/DSPACE_(company)",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Flexible hours plus home office/hybrid options, with hybrid rules set by local site policies; EU/CH work-from-abroad allowed up to 28 days. No US-wide remote commitment is stated.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 5,
+    "benefit_source": "https://en.wikipedia.org/wiki/DSPACE_(company)",
+    "fit_score": 3,
+    "ai_summary": "dSPACE builds HIL test systems and real-time simulation for automotive/aerospace/defense; candidate's test automation and hardware-adjacent background align, but no US-remote guarantee or Maine-commutable site is stated.",
+    "role_families": "SDET; test automation engineering; HIL test engineering",
+    "ai_red_flags": "No US-wide remote commitment; Maine eligibility unknown; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Manager Real-Time Software",
+    "outreach_notes": "Your HIL systems match my 15 years in hardware-adjacent test automation and FDA-regulated V&V; I'd like to discuss senior test roles, remote or near a US site.",
+    "next_research_action": "No supported job board - check https://www.dspace.com/en/inc/home/career.cfm manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Manager%20Real-Time%20Software%20dSPACE"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.dspace.com/en/inc/home/career.cfm",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.dspace.com/en/inc/home/career.cfm",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +100,80 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1188",
+    "career_url": "https://www.dspace.com/en/inc/home/career.cfm",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Flexible hours plus home office/hybrid options, with hybrid rules set by local site policies; EU/CH work-from-abroad allowed up to 28 days. No US-wide remote commitment is stated.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/dspace/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 5,
+      "signals": [
+        {
+          "kind": "revenue",
+          "summary": "dSPACE reported revenue of €460 million for 2024.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/DSPACE_(company)"
+        },
+        {
+          "kind": "growth",
+          "summary": "Employee count listed as 2,900 in 2025.",
+          "date": null,
+          "url": "https://en.wikipedia.org/wiki/DSPACE_(company)"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 3,
+      "rationale": "dSPACE builds HIL test systems and real-time simulation for automotive/aerospace/defense; candidate's test automation and hardware-adjacent background align, but no US-remote guarantee or Maine-commutable site is stated.",
+      "role_families": [
+        "SDET",
+        "test automation engineering",
+        "HIL test engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Hans Jürgen",
+        "title": "Manager Real-Time Software",
+        "source_url": "https://www.dspace.com/en/pub/home/career/professionals.cfm"
+      }
+    ],
+    "approach_role": "Manager Real-Time Software",
+    "outreach_angle": "Your HIL systems match my 15 years in hardware-adjacent test automation and FDA-regulated V&V; I'd like to discuss senior test roles, remote or near a US site.",
+    "red_flags": "No US-wide remote commitment; Maine eligibility unknown; no QA openings listed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.dspace.com/en/inc/home/career.cfm",
+      "https://builtin.com/company/dspace/faq/work-life-balance-wellbeing",
+      "https://en.wikipedia.org/wiki/DSPACE_(company)",
+      "https://www.dspace.com/en/pub/home/career/professionals.cfm"
+    ],
+    "notes": "dSPACE: HIL test systems for automotive/aerospace/defense; €460M revenue, 2900 employees in 2025. Remote policy: hybrid/home office, local site rules, no US-wide remote pledge. No QA openings listed; named leader Hans Jürgen, Manager Real-Time Software. Candidate's HIL interest fits, but Maine remote uncertainty.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 6,
+      "kept": 6,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +195,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:41-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.dspace.com/en/inc/home/career.cfm",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

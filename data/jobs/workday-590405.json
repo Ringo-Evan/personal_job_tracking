@@ -23,9 +23,21 @@
   "track": "QA leadership",
   "source": "watcher",
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null
+  "job_id": null,
+  "score": {
+    "why": "Manufacturing/distribution quality management at Philips—supplier audits, CAPA, recalls—not software testing; FDA device domain overlaps, but PA-based office role and non-software scope block fit.",
+    "skill_match": 2,
+    "seniority": "match",
+    "maine_eligible": "no",
+    "track": "Domain pivot",
+    "notes": "Warehouse/supplier quality, not software QA. Must live near Mount Pleasant PA; no remote or relocation support. Check only if pivoting to manufacturing QMS.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-06",
+    "text_hash": "67b35f53d3671ee7",
+    "text_source": "board"
+  }
 }

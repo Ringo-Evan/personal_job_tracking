@@ -5,8 +5,8 @@
     "company": "Kontakt.io",
     "sector": "IoT / location tech",
     "interests": "BLE location for hospitals",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://kontakt.io/why-kontakt-io/careers/",
+    "role_families": "QA engineering; test automation; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: hybrid NYC, minimum 3 days on-site, Maine not eligible; no QA openings listed. Self-reported growth: revenue doubled, ~$70M ARR, headcount 73 (2022) to ~136 (2026), Goldman Sachs-backed. Domain fit (BLE/RTLS, hospitals) is strong but location is disqualifying. Sources: https://kontakt.io/why-kontakt-io/careers/ https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266 https://getlatka.com/companies/kontaktio",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "no: Hybrid: minimum 3 days a week on-site at the New York City office; some roles allow remote Mondays and Fridays.",
+    "benefit_source": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 1,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "50-500",
+    "ai_summary": "Kontakt.io builds BLE/RFID indoor-location and RTLS systems, notably for hospitals — a direct match to the candidate's RFID/indoor-location and medical-device interests. But it is hybrid with a three-day NYC office minimum and is not open to Maine, so no realistic",
+    "ai_red_flags": "Hybrid with minimum three days on-site in New York City; explicitly not open to Maine-based remote work.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "CEO",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20Kontakt.io",
+    "outreach_notes": "Your RFID and hospital-device test background maps to Kontakt.io's RTLS stack, but the NYC hybrid requirement blocks Maine — worth a note only if they add remote QA roles."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://kontakt.io/why-kontakt-io/careers/",
+    "research_notes": "Verified: hybrid NYC, minimum 3 days on-site, Maine not eligible; no QA openings listed. Self-reported growth: revenue doubled, ~$70M ARR, headcount 73 (2022) to ~136 (2026), Goldman Sachs-backed. Domain fit (BLE/RTLS, hospitals) is strong but location is disqualifying. Sources: https://kontakt.io/why-kontakt-io/careers/ https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266 https://getlatka.com/companies/kontaktio",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "no: Hybrid: minimum 3 days a week on-site at the New York City office; some roles allow remote Mondays and Fridays.",
+    "remote_likelihood": "Low",
+    "stability_score": 4,
+    "benefit_source": "https://www.builtinnyc.com/job/technical-talent-acquisition-specialist/10824266",
+    "fit_score": 1,
+    "ai_summary": "Kontakt.io builds BLE/RFID indoor-location and RTLS systems, notably for hospitals — a direct match to the candidate's RFID/indoor-location and medical-device interests. But it is hybrid with a three-day NYC office minimum and is not open to Maine, so no realistic",
+    "role_families": "QA engineering; test automation; release engineering",
+    "ai_red_flags": "Hybrid with minimum three days on-site in New York City; explicitly not open to Maine-based remote work.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "approach_role": "CEO",
+    "outreach_notes": "Your RFID and hospital-device test background maps to Kontakt.io's RTLS stack, but the NYC hybrid requirement blocks Maine — worth a note only if they add remote QA roles.",
+    "next_research_action": "Watching ashby board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20Kontakt.io"
+  },
   "ats": {
     "type": "ashby",
     "token": "kontakt",
@@ -55,6 +76,7 @@
     "note": "",
     "job_count": 15
   },
+  "discovery": null,
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -150,6 +172,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -178,8 +201,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

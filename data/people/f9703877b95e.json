@@ -7,6 +7,14 @@
   "source_url": "https://www.prnewswire.com/news-releases/perforces-2026-platform-engineering-report-finds-platform-engineering-maturity-separates-ai-advantage-from-instability-302820040.html",
   "why_approach": "VP of Product Management at Perforce. My C#/.NET test automation and FDA-regulated V&V experience maps to Perforce's Perfecto and BlazeMeter tooling; I'd value a conversation about QA or SDET roles, ideally with US-remote flexibility.",
   "first_seen": "2026-10-06",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0043",
+  "exported": {
+    "name": "Ron Hoffner",
+    "company": "Perforce",
+    "title": "VP of Product Management",
+    "source_url": "https://www.prnewswire.com/news-releases/perforces-2026-platform-engineering-report-finds-platform-engineering-maturity-separates-ai-advantage-from-instability-302820040.html",
+    "why_approach": "VP of Product Management at Perforce. My C#/.NET test automation and FDA-regulated V&V experience maps to Perforce's Perfecto and BlazeMeter tooling; I'd value a conversation about QA or SDET roles, ideally with US-remote flexibility.",
+    "company_id": "C153"
+  },
+  "first_exported": "2026-10-07"
 }

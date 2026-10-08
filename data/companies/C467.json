@@ -5,8 +5,8 @@
     "company": "Sapiens",
     "sector": "Enterprise & govtech",
     "interests": "Insurance software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.sapiensdev.com/",
+    "role_families": "QA engineering; test automation / SDET; quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Sapiens: 5,400 staff, $524M 2024 revenue, $86M operating profit, Advent-owned, HQ moving to London, targeting 10%+ growth on a cloud SaaS shift. Roughly 10-15% of staff being cut, US and India hardest hit. No remote policy, job board, ATS, QA openings or contacts verified. Sources: https://careers.sapiensdev.com/ https://www.calcalistech.com/ctechnews/article/bybo6fzbbl https://www.timesnownews.com/business-economy/industry/sapiens-layoffs-india-and-us-to-suffer-the-most-as-tech-firm-plans-to-fire-10-employees-heres-why-article-153446242",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://careers.sapiensdev.com/ manually",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Sapiens sells core insurance software to insurers and governments — a regulated, integration-heavy domain that fits the candidate's V&V background, but it is mid-restructuring under private-equity ownership with no verified remote-from-Maine policy and no visible QA openings.",
+    "ai_red_flags": "Ongoing 10-15% layoffs after the Advent take-private; no verified remote policy or Maine eligibility; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP of Engineering or Head of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20or%20Head%20of%20Quality%20Assurance%20Sapiens",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to Sapiens' regulated insurance release cycles; ask how QA owns compliance-driven testing across their cloud SaaS migration."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://careers.sapiensdev.com/",
+    "research_notes": "Sapiens: 5,400 staff, $524M 2024 revenue, $86M operating profit, Advent-owned, HQ moving to London, targeting 10%+ growth on a cloud SaaS shift. Roughly 10-15% of staff being cut, US and India hardest hit. No remote policy, job board, ATS, QA openings or contacts verified. Sources: https://careers.sapiensdev.com/ https://www.calcalistech.com/ctechnews/article/bybo6fzbbl https://www.timesnownews.com/business-economy/industry/sapiens-layoffs-india-and-us-to-suffer-the-most-as-tech-firm-plans-to-fire-10-employees-heres-why-article-153446242",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl",
+    "fit_score": 2,
+    "ai_summary": "Sapiens sells core insurance software to insurers and governments — a regulated, integration-heavy domain that fits the candidate's V&V background, but it is mid-restructuring under private-equity ownership with no verified remote-from-Maine policy and no visible QA openings.",
+    "role_families": "QA engineering; test automation / SDET; quality engineering leadership",
+    "ai_red_flags": "Ongoing 10-15% layoffs after the Advent take-private; no verified remote policy or Maine eligibility; no QA openings listed.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "VP of Engineering or Head of Quality Assurance",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to Sapiens' regulated insurance release cycles; ask how QA owns compliance-driven testing across their cloud SaaS migration.",
+    "next_research_action": "No supported job board - check https://careers.sapiensdev.com/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20or%20Head%20of%20Quality%20Assurance%20Sapiens"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://careers.sapiensdev.com/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.sapiens.com/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +99,98 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C467",
+    "career_url": "https://careers.sapiensdev.com/",
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Sapiens began a broad restructuring with layoffs of about 10% of its 5,400-strong global workforce after Advent's takeover.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "About 540 employees, roughly 10% of staff, to be laid off, with India and the US hit hardest.",
+          "date": null,
+          "url": "https://www.timesnownews.com/business-economy/industry/sapiens-layoffs-india-and-us-to-suffer-the-most-as-tech-firm-plans-to-fire-10-employees-heres-why-article-153446242"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Calcalist reported the company was preparing to cut about 15% of its workforce, roughly 700-800 employees.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Advent completed its $2.5 billion acquisition, taking Sapiens private and moving headquarters to London.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Sapiens reported 2024 revenues of $524 million with operating profit of $86 million.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl"
+        },
+        {
+          "kind": "growth",
+          "summary": "New management set a target of at least 10% annual growth while shifting fully to a cloud-based SaaS model.",
+          "date": null,
+          "url": "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Sapiens sells core insurance software to insurers and governments — a regulated, integration-heavy domain that fits the candidate's V&V background, but it is mid-restructuring under private-equity ownership with no verified remote-from-Maine policy and no visible QA openings.",
+      "role_families": [
+        "QA engineering",
+        "test automation / SDET",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering or Head of Quality Assurance",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls experience maps directly to Sapiens' regulated insurance release cycles; ask how QA owns compliance-driven testing across their cloud SaaS migration.",
+    "red_flags": "Ongoing 10-15% layoffs after the Advent take-private; no verified remote policy or Maine eligibility; no QA openings listed.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.sapiensdev.com/",
+      "https://www.calcalistech.com/ctechnews/article/bybo6fzbbl",
+      "https://www.timesnownews.com/business-economy/industry/sapiens-layoffs-india-and-us-to-suffer-the-most-as-tech-firm-plans-to-fire-10-employees-heres-why-article-153446242",
+      "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
+    ],
+    "notes": "Sapiens: 5,400 staff, $524M 2024 revenue, $86M operating profit, Advent-owned, HQ moving to London, targeting 10%+ growth on a cloud SaaS shift. Roughly 10-15% of staff being cut, US and India hardest hit. No remote policy, job board, ATS, QA openings or contacts verified.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 8,
+      "kept": 8,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +212,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:39-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.sapiens.com/",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

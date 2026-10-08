@@ -5,8 +5,8 @@
     "company": "Omnicell",
     "sector": "Regulated healthtech",
     "interests": "Pharmacy automation",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.omnicell.com/",
+    "role_families": "SDET / test automation; Medical device QA / V&V engineering; Quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified data is thin: no job board, no ATS detail beyond a token, no stability signals, no QA openings, no named people. Remote policy and Maine eligibility unknown. Omnicell is a publicly traded, regulated pharmacy-automation healthtech firm, a plausible but unconfirmed fit; confirm remote terms and openings before applying. Sources: https://careers.omnicell.com/ https://elrj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_9001/jobs https://apply.omnicell.com/careers",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Job search includes remote roles by default; no explicit remote-work policy is stated in the evidence.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://careers.omnicell.com/ manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Omnicell builds pharmacy automation and medication-management hardware/software under FDA regulation, matching the candidate's regulated medical-device V&V and hardware-adjacent automation background. Fit is limited only by the absence of verified remote-from-Maine policy or current senior QA openings.",
+    "ai_red_flags": "No verified remote policy, no confirmation it hires Maine residents, and no visible senior QA openings.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Omnicell",
+    "outreach_notes": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps directly onto Omnicell's pharmacy-automation hardware and software test needs."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,46 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://careers.omnicell.com/",
+    "research_notes": "Verified data is thin: no job board, no ATS detail beyond a token, no stability signals, no QA openings, no named people. Remote policy and Maine eligibility unknown. Omnicell is a publicly traded, regulated pharmacy-automation healthtech firm, a plausible but unconfirmed fit; confirm remote terms and openings before applying. Sources: https://careers.omnicell.com/ https://elrj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_9001/jobs https://apply.omnicell.com/careers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Job search includes remote roles by default; no explicit remote-work policy is stated in the evidence.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Omnicell builds pharmacy automation and medication-management hardware/software under FDA regulation, matching the candidate's regulated medical-device V&V and hardware-adjacent automation background. Fit is limited only by the absence of verified remote-from-Maine policy or current senior QA openings.",
+    "role_families": "SDET / test automation; Medical device QA / V&V engineering; Quality engineering leadership",
+    "ai_red_flags": "No verified remote policy, no confirmation it hires Maine residents, and no visible senior QA openings.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps directly onto Omnicell's pharmacy-automation hardware and software test needs.",
+    "next_research_action": "No supported job board - check https://careers.omnicell.com/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Omnicell"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://careers.omnicell.com/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.omnicell.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +99,60 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C276",
+    "career_url": "https://careers.omnicell.com/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Job search includes remote roles by default; no explicit remote-work policy is stated in the evidence.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://apply.omnicell.com/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Omnicell builds pharmacy automation and medication-management hardware/software under FDA regulation, matching the candidate's regulated medical-device V&V and hardware-adjacent automation background. Fit is limited only by the absence of verified remote-from-Maine policy or current senior QA openings.",
+      "role_families": [
+        "SDET / test automation",
+        "Medical device QA / V&V engineering",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps directly onto Omnicell's pharmacy-automation hardware and software test needs.",
+    "red_flags": "No verified remote policy, no confirmation it hires Maine residents, and no visible senior QA openings.",
+    "confidence": "low",
+    "sources": [
+      "https://careers.omnicell.com/",
+      "https://elrj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_9001/jobs",
+      "https://apply.omnicell.com/careers"
+    ],
+    "notes": "Verified data is thin: no job board, no ATS detail beyond a token, no stability signals, no QA openings, no named people. Remote policy and Maine eligibility unknown. Omnicell is a publicly traded, regulated pharmacy-automation healthtech firm, a plausible but unconfirmed fit; confirm remote terms and openings before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +174,74 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:07-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.omnicell.com/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

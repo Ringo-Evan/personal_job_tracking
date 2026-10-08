@@ -23,21 +23,21 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-07",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
   "job_id": null,
   "score": {
-    "why": "A DHHS social-work caseworker QA role auditing client case files, not software testing. Requires an LSW license and social work degree, plus Portland-area travel — far from the candidate's C#/.NET",
+    "why": "Licensed social work caseworker auditing client files for DHHS aging/disability services, not software QA. Requires social work degree and LSW licensure; Portland-based field travel, far from Downeast Maine.",
     "skill_match": 1,
     "seniority": "below",
     "maine_eligible": "no",
-    "track": "Domain pivot",
-    "notes": "Requires LSW licensure and social work/social science degree; Portland-based with Cumberland/York travel. Not software QA despite the title.",
+    "track": "Exploratory",
+    "notes": "Non-software compliance role needing LSW license and social work degree; Portland/Cumberland-York onsite, not commutable from Downeast.",
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-06",
-    "text_hash": "b71aab27e98d7e26",
+    "text_hash": "3fe15434ff9d6594",
     "text_source": "board"
   }
 }

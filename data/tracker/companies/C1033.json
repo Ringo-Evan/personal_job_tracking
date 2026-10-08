@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Magazine; not tech company; web support only",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Magazine publication; web/editorial roles only; no QA automation",
+  "approach_role": "Editor in Chief",
+  "company": "Jacobin",
+  "company_id": "C1033",
+  "fit_score": 1,
+  "interests": "Left magazine",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Editor%20in%20Chief%20Jacobin",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Web Developer; Editorial Tech",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

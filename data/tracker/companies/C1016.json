@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Union; tech focus on worker organizing; no software QA role",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Labor union; stability high; tech is worker advocacy not development",
+  "approach_role": "Organizing Director",
+  "company": "United Steelworkers (tech)",
+  "company_id": "C1016",
+  "fit_score": 1,
+  "interests": "Union",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Organizing%20Director%20United%20Steelworkers%20%28tech%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Union Organizing; Tech Worker Advocacy; IT Support",
+  "sector": "Labor & organizing",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

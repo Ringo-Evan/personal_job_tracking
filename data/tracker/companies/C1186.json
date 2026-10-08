@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Test simulation product; remote mixed",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Autonomy simulation and testing tools; strong test-tooling fit, software company, remote possible.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Applied Intuition",
+  "company_id": "C1186",
+  "fit_score": 4,
+  "interests": "Autonomy simulation - testing product!",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Applied%20Intuition",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; Solutions Engineer; QA Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

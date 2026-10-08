@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "UK-based; contract testers only.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small UK maker of authoring software Scrivener; writing-tool affinity, but tiny team, no US-remote QA hiring, contract testers only.",
+  "approach_role": "Head of Development",
+  "company": "Scrivener (Literature & Latte)",
+  "company_id": "C761",
+  "fit_score": 1,
+  "interests": "Writing software",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Development%20Scrivener%20%28Literature%20%26%20Latte%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; Software Test Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

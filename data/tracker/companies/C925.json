@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small studio; remote unclear; flight-sim interest.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "X-Plane flight simulator developer; strong flight-sim interest, but small studio and remote QA unknown.",
+  "approach_role": "Head of Quality Assurance",
+  "company": "Laminar Research (X-Plane)",
+  "company_id": "C925",
+  "fit_score": 4,
+  "interests": "Flight sim - your airline simulator interest",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Assurance%20Laminar%20Research%20%28X-Plane%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; SDET",
+  "sector": "Travel",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:31Z",
+  "updated_by": "pipeline"
+}

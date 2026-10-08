@@ -5,8 +5,8 @@
     "company": "Geotab",
     "sector": "IoT / location tech",
     "interests": "Telematics; large .NET shop",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.geotab.com/",
+    "role_families": "SDET; QA/test automation engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Geotab: telematics/IoT, ~3,644 staff (2025, ~28% YoY growth), subscription base nearing 6M, acquired Verizon Connect's international operations (Oct 2025). Hybrid work with some remote-location hiring, but Maine eligibility unverified. No QA/SDET openings on the Greenhouse board. Layoffs also reported in 2025 despite expansion. Sources: https://careers.geotab.com/ https://careers.geotab.com/how-we-work/ https://builtin.com/company/geotab/faq/stability-growth",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid work model balancing in-office and remote work, with some remote-location hiring.",
+    "benefit_source": "https://builtin.com/company/geotab/faq/stability-growth",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Geotab is a large telematics/IoT firm and heavy .NET shop, matching the candidate's C#/.NET automation and location-tech interests, but its hybrid model leaves Maine eligibility unverified and no QA roles are posted.",
+    "ai_red_flags": "Hybrid model; Maine eligibility unverified; no QA openings posted; 2025 layoffs reported.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Production and Quality Manager (Marc Christelis)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Production%20and%20Quality%20Manager%20%28Marc%20Christelis%29%20Geotab",
+    "outreach_notes": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent systems maps well onto Geotab's telematics firmware and platform QA needs."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.geotab.com/",
+    "research_notes": "Geotab: telematics/IoT, ~3,644 staff (2025, ~28% YoY growth), subscription base nearing 6M, acquired Verizon Connect's international operations (Oct 2025). Hybrid work with some remote-location hiring, but Maine eligibility unverified. No QA/SDET openings on the Greenhouse board. Layoffs also reported in 2025 despite expansion. Sources: https://careers.geotab.com/ https://careers.geotab.com/how-we-work/ https://builtin.com/company/geotab/faq/stability-growth",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid work model balancing in-office and remote work, with some remote-location hiring.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://builtin.com/company/geotab/faq/stability-growth",
+    "fit_score": 4,
+    "ai_summary": "Geotab is a large telematics/IoT firm and heavy .NET shop, matching the candidate's C#/.NET automation and location-tech interests, but its hybrid model leaves Maine eligibility unverified and no QA roles are posted.",
+    "role_families": "SDET; QA/test automation engineering; release engineering",
+    "ai_red_flags": "Hybrid model; Maine eligibility unverified; no QA openings posted; 2025 layoffs reported.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Production and Quality Manager (Marc Christelis)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation in regulated, hardware-adjacent systems maps well onto Geotab's telematics firmware and platform QA needs.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Production%20and%20Quality%20Manager%20%28Marc%20Christelis%29%20Geotab"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "geotab",
@@ -55,6 +76,7 @@
     "note": "Geotab",
     "job_count": null
   },
+  "discovery": null,
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -161,6 +183,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -189,8 +212,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

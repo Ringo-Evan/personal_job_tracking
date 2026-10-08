@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Clearance-gated; few Maine-remote postings.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Federal IT services; test engineering roles exist across defense programs, but clearance-gated and rarely open to Maine remote.",
+  "approach_role": "Test Engineering Manager",
+  "company": "SAIC",
+  "company_id": "C436",
+  "fit_score": 3,
+  "interests": "Federal tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20SAIC",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; Automation Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

@@ -5,8 +5,8 @@
     "company": "Oracle (Manchester NH)",
     "sector": "Maine & New England",
     "interests": "NH cloud",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.oracle.com/en/sites/jobsearch",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Oracle is large and profitable but cut 21k+ jobs in FY2026 with further rounds. No QA openings or remote policy in facts; Manchester NH is on-site/hybrid but not commutable. Senior QA roles may exist, but confirm Maine-remote eligibility before applying. Sources: https://careers.oracle.com/en/sites/jobsearch https://nypost.com/2026/09/14/us-news/tech-giant-oracle-rocked-by-another-wave-of-layoffs/ https://www.wionews.com/world/oracle-layoffs-shock-30-000-jobs-slashed-worldwide-how-much-severance-are-employees-actually-getting-1775028211102",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://nypost.com/2026/09/14/us-news/tech-giant-oracle-rocked-by-another-wave-of-layoffs/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://careers.oracle.com/en/sites/jobsearch manually",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Oracle is a global cloud/software giant with large-scale layoffs and no listed QA openings; Manchester NH site is not commutable from Downeast Maine, and remote-from-Maine policy is unverified. Domain overlap weak despite regulated-health adjacency.",
+    "ai_red_flags": "Ongoing mass layoffs; remote policy and QA openings unverified; Manchester NH site not commutable from Downeast Maine.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Oracle%20%28Manchester%20NH%29",
+    "outreach_notes": "My 15 years in C#/.NET test automation and FDA-regulated V&V could support Oracle Health/cloud quality, but I'd need confirmation that senior QA roles are open to Maine-based remote candidates."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,48 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://careers.oracle.com/en/sites/jobsearch",
+    "research_notes": "Oracle is large and profitable but cut 21k+ jobs in FY2026 with further rounds. No QA openings or remote policy in facts; Manchester NH is on-site/hybrid but not commutable. Senior QA roles may exist, but confirm Maine-remote eligibility before applying. Sources: https://careers.oracle.com/en/sites/jobsearch https://nypost.com/2026/09/14/us-news/tech-giant-oracle-rocked-by-another-wave-of-layoffs/ https://www.wionews.com/world/oracle-layoffs-shock-30-000-jobs-slashed-worldwide-how-much-severance-are-employees-actually-getting-1775028211102",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://nypost.com/2026/09/14/us-news/tech-giant-oracle-rocked-by-another-wave-of-layoffs/",
+    "fit_score": 2,
+    "ai_summary": "Oracle is a global cloud/software giant with large-scale layoffs and no listed QA openings; Manchester NH site is not commutable from Downeast Maine, and remote-from-Maine policy is unverified. Domain overlap weak despite regulated-health adjacency.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "Ongoing mass layoffs; remote policy and QA openings unverified; Manchester NH site not commutable from Downeast Maine.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "My 15 years in C#/.NET test automation and FDA-regulated V&V could support Oracle Health/cloud quality, but I'd need confirmation that senior QA roles are open to Maine-based remote candidates.",
+    "next_research_action": "No supported job board - check https://careers.oracle.com/en/sites/jobsearch manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Oracle%20%28Manchester%20NH%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://careers.oracle.com/en/sites/jobsearch",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.oracle.com/careers/",
+    "found": null,
+    "other": [
+      "oracle https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?selectedFlexFieldsFacets=%22AttributeChar15%7COCI%7C%7CAttributeChar16%7CJoinOCI-PPM%22"
+    ]
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -152,6 +192,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -180,17 +221,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:27-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.oracle.com/careers/",
-    "found": null,
-    "other": [
-      "oracle https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?selectedFlexFieldsFacets=%22AttributeChar15%7COCI%7C%7CAttributeChar16%7CJoinOCI-PPM%22"
-    ]
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

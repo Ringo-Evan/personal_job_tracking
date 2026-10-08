@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Limited public info; uncertain QA need",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Adult creator platform; adult-industry interest fits. Limited public info; QA role existence and remote-Maine eligibility are unknown.",
+  "approach_role": "Head of Engineering",
+  "company": "Sheer",
+  "company_id": "C1133",
+  "fit_score": 2,
+  "interests": "Creator platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Sheer",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Lead",
+  "sector": "Adult & sexuality",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:37Z",
+  "updated_by": "pipeline"
+}

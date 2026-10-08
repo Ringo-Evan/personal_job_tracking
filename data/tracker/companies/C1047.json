@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; funding dependent",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Food rescue logistics startup with a small engineering team; remote QA plausible but early-stage and financially fragile.",
+  "approach_role": "Head of Engineering",
+  "company": "Replate",
+  "company_id": "C1047",
+  "fit_score": 2,
+  "interests": "Food rescue tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Replate",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Software Engineer",
+  "sector": "Food access",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

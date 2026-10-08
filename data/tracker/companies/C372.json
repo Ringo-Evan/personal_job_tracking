@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Limited senior QA roles; tuition-dependent",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Bangor private university; commutable, but IT/QA roles scarce and not senior test-focused.",
+  "approach_role": "Chief Information Officer",
+  "company": "Husson University",
+  "company_id": "C372",
+  "fit_score": 2,
+  "interests": "Bangor",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Chief%20Information%20Officer%20Husson%20University",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT Analyst; Software Trainer; QA Analyst",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

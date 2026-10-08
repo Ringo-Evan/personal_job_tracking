@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small toolmaker; limited roles.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "VTT/map-making software; TTRPG interest match, but small toolmaker with no clear senior QA roles or remote hiring.",
+  "approach_role": "Head of Development",
+  "company": "Arkenforge",
+  "company_id": "C696",
+  "fit_score": 2,
+  "interests": "VTT/maps",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Development%20Arkenforge",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Support QA",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

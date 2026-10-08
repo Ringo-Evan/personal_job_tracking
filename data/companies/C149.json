@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C149",
     "company": "L.L.Bean",
-    "sector": "Maine employers",
+    "sector": "Maine & New England",
     "interests": "Freeport ME outdoor retailer",
     "career_url": "https://www.llbean.com/llb/shop/515845",
     "role_families": "QA; SDET; e-commerce",
@@ -55,8 +55,16 @@
     "note": "linked from search results",
     "job_count": 120
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:llbean|1|LLBean_Careers (linked from search results)",
+    "other": []
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -82,14 +90,14 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:llbean|1|LLBean_Careers (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": null
 }

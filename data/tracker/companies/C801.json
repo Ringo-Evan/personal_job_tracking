@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Layoff history; hybrid/onsite expectations",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Connected fitness hardware and software with a large test org matching hardware-adjacent automation skills, though layoffs and RTO cut remote odds.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Peloton",
+  "company_id": "C801",
+  "fit_score": 4,
+  "interests": "Connected fitness",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Peloton",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer, connected devices; Test Manager",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "500-5k",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C095",
     "company": "Kicksite",
-    "sector": "Martial arts",
+    "sector": "Martial arts & fitness",
     "interests": "Martial arts school software",
     "career_url": "https://kicksite.com/",
     "role_families": "QA; engineering",
@@ -55,8 +55,18 @@
     "note": "no known job-board system on careers page",
     "job_count": null
   },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://kicksite.com/accordion_category/careers/",
+    "found": null,
+    "other": [
+      "wellfound https://wellfound.com/company/kicksite-1/jobs"
+    ]
+  },
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -81,16 +91,14 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://kicksite.com/accordion_category/careers/",
-    "found": null,
-    "other": [
-      "wellfound https://wellfound.com/company/kicksite-1/jobs"
-    ]
-  }
+  "last_exported_at": null
 }

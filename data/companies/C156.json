@@ -6,7 +6,7 @@
     "sector": "Test tooling",
     "interests": "E2E testing framework company",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; Senior QA Engineer; Developer Advocate",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Direct Cypress e2e framework expertise; modern testing culture",
+    "ai_red_flags": "Venture-backed; growth-stage; lower stability",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20Cypress.io",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "role_families": "SDET / test automation; test-tooling solutions engineering; QA engineering / quality lead",
+    "approach_role": "VP or Head of Engineering (no named leader in facts)",
+    "ai_summary": "Cypress builds a JavaScript E2E testing framework, directly in the candidate's test-tooling target, and is remote-first and Maine-eligible. Gap: JS/TS-centric stack versus C#/.NET, plus no current QA openings posted.",
+    "ai_red_flags": "No current QA openings; JS/TS stack rather than C#/.NET; dev-tool market pressure from Playwright.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20or%20Head%20of%20Engineering%20%28no%20named%20leader%20in%20facts%29%20Cypress.io",
+    "career_url": "https://www.cypress.io/careers",
+    "research_notes": "Verified: remote-first, all roles can be remote, Maine eligible, WFH and coworking stipends. Self-funded/bootstrapped with no external investment. No QA openings or people listed; company size unknown. Cypress is the JS E2E framework; candidate's test-tooling solutions engineer target is a strong topical match. Sources: https://www.cypress.io/careers https://www.uplers.com/company/cypressio-14615",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Cypress is a remote-first company; all positions can function remotely, with a WFH stipend and monthly coworking stipend.",
+    "benefit_source": "https://www.uplers.com/company/cypressio-14615",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Fifteen years of test automation in regulated FDA V&V environments lets me help Cypress adoption in compliance-heavy and hardware-adjacent teams, plus build tooling and integrations.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "cypressio",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results; Cypress.io",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:cypressio (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,66 @@
     "model": "claude-haiku-4-5-20251001",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C156",
+    "career_url": "https://www.cypress.io/careers",
+    "ats": {
+      "type": "greenhouse",
+      "token": "cypressio",
+      "board_url": "https://job-boards.greenhouse.io/cypressio"
+    },
+    "remote_policy": {
+      "summary": "Cypress is a remote-first company; all positions can function remotely, with a WFH stipend and monthly coworking stipend.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.cypress.io/careers"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "Cypress is described as a self-funded, bootstrapped company with no external investments.",
+          "date": null,
+          "url": "https://www.uplers.com/company/cypressio-14615"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Cypress builds a JavaScript E2E testing framework, directly in the candidate's test-tooling target, and is remote-first and Maine-eligible. Gap: JS/TS-centric stack versus C#/.NET, plus no current QA openings posted.",
+      "role_families": [
+        "SDET / test automation",
+        "test-tooling solutions engineering",
+        "QA engineering / quality lead"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP or Head of Engineering (no named leader in facts)",
+    "outreach_angle": "Fifteen years of test automation in regulated FDA V&V environments lets me help Cypress adoption in compliance-heavy and hardware-adjacent teams, plus build tooling and integrations.",
+    "red_flags": "No current QA openings; JS/TS stack rather than C#/.NET; dev-tool market pressure from Playwright.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.cypress.io/careers",
+      "https://www.uplers.com/company/cypressio-14615"
+    ],
+    "notes": "Verified: remote-first, all roles can be remote, Maine eligible, WFH and coworking stipends. Self-funded/bootstrapped with no external investment. No QA openings or people listed; company size unknown. Cypress is the JS E2E framework; candidate's test-tooling solutions engineer target is a strong topical match.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +181,71 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:cypressio (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

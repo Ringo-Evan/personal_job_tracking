@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "VA digital; remote",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET; Test Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Remote-first firm building VA digital services; hires QA engineers and SDETs; veteran healthcare mission.",
+    "ai_red_flags": "VA contract concentration.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Oddball",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA/test engineering; quality engineering",
+    "approach_role": "VP of Engineering",
+    "ai_summary": "Oddball builds and runs federal digital services, notably the VA.gov platform, plus Medicare, SEC and USAF work — a regulated, public-sector fit for a tester with FDA-grade V&V rigor. Remote-first and Maine-eligible, but no QA openings are currently listed.",
+    "ai_red_flags": "No QA openings listed; federal contracts may require public trust or clearance; headcount tied to contract awards.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Oddball",
+    "career_url": "https://oddball.io/company/careers/",
+    "research_notes": "Verified: remote-first, hires nationwide, Maine-eligible. Federal public-sector work: VA.gov platform, Medicare, SEC, USAF. Size 50-500, described as rapidly growing. No QA/test postings on their Greenhouse board and no named contacts, so openings may be sporadic. Sources: https://oddball.io/company/careers/ https://remotejobs.org/companies/oddball https://oddball.io/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Remote-first; talent hired from across the country rather than one metro area, with fully remote postings.",
+    "benefit_source": "https://remotejobs.org/companies/oddball",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your FDA-regulated medical device V&V and design-controls experience maps directly onto Oddball's regulated federal health platforms like VA.gov and Medicare.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "oddball",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results; Oddball",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:oddball (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,75 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C443",
+    "career_url": "https://oddball.io/company/careers/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "oddball",
+      "board_url": "https://job-boards.greenhouse.io/oddball"
+    },
+    "remote_policy": {
+      "summary": "Remote-first; talent hired from across the country rather than one metro area, with fully remote postings.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://oddball.io/company/careers/"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Oddball is described as a rapidly growing organization focused on federal technology work.",
+          "date": null,
+          "url": "https://remotejobs.org/companies/oddball"
+        },
+        {
+          "kind": "public-sector",
+          "summary": "Holds federal work running the platform behind VA.gov, plus Medicare, SEC and USAF programs.",
+          "date": null,
+          "url": "https://oddball.io/"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 4,
+      "rationale": "Oddball builds and runs federal digital services, notably the VA.gov platform, plus Medicare, SEC and USAF work — a regulated, public-sector fit for a tester with FDA-grade V&V rigor. Remote-first and Maine-eligible, but no QA openings are currently listed.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering",
+        "quality engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Your FDA-regulated medical device V&V and design-controls experience maps directly onto Oddball's regulated federal health platforms like VA.gov and Medicare.",
+    "red_flags": "No QA openings listed; federal contracts may require public trust or clearance; headcount tied to contract awards.",
+    "confidence": "medium",
+    "sources": [
+      "https://oddball.io/company/careers/",
+      "https://remotejobs.org/companies/oddball",
+      "https://oddball.io/"
+    ],
+    "notes": "Verified: remote-first, hires nationwide, Maine-eligible. Federal public-sector work: VA.gov platform, Medicare, SEC, USAF. Size 50-500, described as rapidly growing. No QA/test postings on their Greenhouse board and no named contacts, so openings may be sporadic.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 7,
+      "kept": 6,
+      "fail_rate": 0.143,
+      "dropped": [
+        "people[0]: person's name is not in their quote"
+      ],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +190,71 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:oddball (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

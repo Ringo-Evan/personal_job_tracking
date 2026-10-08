@@ -5,8 +5,8 @@
     "company": "Waymo",
     "sector": "Defense, aerospace & robotics",
     "interests": "Autonomy; huge test org",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.withwaymo.com/",
+    "role_families": "Software quality operations; SDET / test automation; Quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Waymo reports 3,000 vehicles, 400k weekly rides, 10M+ rider-only trips and 100+ open roles. Remote policy explicitly covers Maine; five quality openings are posted Remote, US, mostly 'Software Quality Operations Specialist' plus one Staff Safety Operations role. No named quality leader in the facts, so approach by title. Sources: https://careers.withwaymo.com/ https://careers.withwaymo.com/jobs/staff-field-quality-engineer-mountain-view-california-united-states https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: On-site or hybrid work model with remote working opportunities; multiple quality roles are posted as Remote, US.",
+    "benefit_source": "https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Waymo builds autonomous driving software with a huge test and safety org, matching the candidate's interest in autonomy and their safety-critical, regulated V&V background. Remote US quality roles exist and Maine is eligible. Gap: these postings read as quality operations",
+    "ai_red_flags": "Postings look quality-operations heavy, not SDET; stack is likely C++/Python, not C#/.NET; onsite/hybrid expectation may undercut remote listings.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Software Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Software%20Quality%20Engineering%20Waymo",
+    "outreach_notes": "Fifteen years of safety-critical test automation, including FDA-regulated V&V and design controls, maps directly to validating autonomous driving software where evidence and traceability decide whether the vehicle ships."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.withwaymo.com/",
+    "research_notes": "Waymo reports 3,000 vehicles, 400k weekly rides, 10M+ rider-only trips and 100+ open roles. Remote policy explicitly covers Maine; five quality openings are posted Remote, US, mostly 'Software Quality Operations Specialist' plus one Staff Safety Operations role. No named quality leader in the facts, so approach by title. Sources: https://careers.withwaymo.com/ https://careers.withwaymo.com/jobs/staff-field-quality-engineer-mountain-view-california-united-states https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: On-site or hybrid work model with remote working opportunities; multiple quality roles are posted as Remote, US.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/",
+    "fit_score": 4,
+    "ai_summary": "Waymo builds autonomous driving software with a huge test and safety org, matching the candidate's interest in autonomy and their safety-critical, regulated V&V background. Remote US quality roles exist and Maine is eligible. Gap: these postings read as quality operations",
+    "role_families": "Software quality operations; SDET / test automation; Quality engineering leadership",
+    "ai_red_flags": "Postings look quality-operations heavy, not SDET; stack is likely C++/Python, not C#/.NET; onsite/hybrid expectation may undercut remote listings.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "approach_role": "Director of Software Quality Engineering",
+    "outreach_notes": "Fifteen years of safety-critical test automation, including FDA-regulated V&V and design controls, maps directly to validating autonomous driving software where evidence and traceability decide whether the vehicle ships.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Software%20Quality%20Engineering%20Waymo"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "waymo",
     "board_url": "https://job-boards.greenhouse.io/waymo",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "name-guess",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://careers.withwaymo.com/; token guessed from name; page mentions greenhouse; board name Waymo",
+    "source": "https://careers.withwaymo.com/",
+    "note": "token guessed from name; page mentions greenhouse; board name Waymo",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.withwaymo.com/",
+    "found": "greenhouse:waymo (embedded in https://careers.withwaymo.com/)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,130 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1182",
+    "career_url": "https://careers.withwaymo.com/",
+    "ats": {
+      "type": "greenhouse",
+      "token": "waymo",
+      "board_url": "https://job-boards.greenhouse.io/waymo"
+    },
+    "remote_policy": {
+      "summary": "On-site or hybrid work model with remote working opportunities; multiple quality roles are posted as Remote, US.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://careers.withwaymo.com/jobs/staff-field-quality-engineer-mountain-view-california-united-states"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Waymo reports a fleet of 3,000 vehicles driving over four million miles and 400,000 rides weekly.",
+          "date": null,
+          "url": "https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Company is investing in a global-scale operations team including U.S.-based operations personnel as it expands globally.",
+          "date": null,
+          "url": "https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Waymo Driver has delivered over ten million rider-only trips and 100 million autonomous miles on public roads.",
+          "date": null,
+          "url": "https://careers.withwaymo.com/jobs/staff-field-quality-engineer-mountain-view-california-united-states"
+        },
+        {
+          "kind": "growth",
+          "summary": "Third-party careers site lists 100+ open Waymo jobs across engineering, operations and safety.",
+          "date": null,
+          "url": "https://ev.careers/waymo-jobs"
+        },
+        {
+          "kind": "other",
+          "summary": "Report notes growth phases and prior headcount changes concentrate workload on remaining teams.",
+          "date": null,
+          "url": "https://builtin.com/company/waymo/faq/work-life-balance-wellbeing"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Waymo builds autonomous driving software with a huge test and safety org, matching the candidate's interest in autonomy and their safety-critical, regulated V&V background. Remote US quality roles exist and Maine is eligible. Gap: these postings read as quality operations",
+      "role_families": [
+        "Software quality operations",
+        "SDET / test automation",
+        "Quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Software Quality Operations Specialist, Domain Expansion",
+        "location": "Remote, US",
+        "work_mode": "Remote",
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7421839"
+      },
+      {
+        "title": "Software Quality Operations Specialist",
+        "location": "Remote, USA",
+        "work_mode": "Remote",
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7456163"
+      },
+      {
+        "title": "Software Quality Operations Specialist",
+        "location": "Mountain View, CA, United States; San Francisco, CA, United States; Remote, United States",
+        "work_mode": "Remote",
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7458098"
+      },
+      {
+        "title": "Staff Software Quality Safety Operations Specialist",
+        "location": "Mountain View, CA, United States; Remote, United States",
+        "work_mode": "Remote",
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7816014"
+      },
+      {
+        "title": "Software Quality Operations Specialist",
+        "location": "Remote, USA",
+        "work_mode": "Remote",
+        "url": "https://careers.withwaymo.com/jobs?gh_jid=7944176"
+      }
+    ],
+    "people": [],
+    "approach_role": "Director of Software Quality Engineering",
+    "outreach_angle": "Fifteen years of safety-critical test automation, including FDA-regulated V&V and design controls, maps directly to validating autonomous driving software where evidence and traceability decide whether the vehicle ships.",
+    "red_flags": "Postings look quality-operations heavy, not SDET; stack is likely C++/Python, not C#/.NET; onsite/hybrid expectation may undercut remote listings.",
+    "confidence": "high",
+    "sources": [
+      "https://careers.withwaymo.com/",
+      "https://careers.withwaymo.com/jobs/staff-field-quality-engineer-mountain-view-california-united-states",
+      "https://waymo.com/blog/shorts/advice-not-control-the-role-of-remote-assistance/",
+      "https://ev.careers/waymo-jobs",
+      "https://builtin.com/company/waymo/faq/work-life-balance-wellbeing",
+      "https://job-boards.greenhouse.io/waymo",
+      "https://careers.withwaymo.com/jobs?gh_jid=7421839",
+      "https://careers.withwaymo.com/jobs?gh_jid=7456163",
+      "https://careers.withwaymo.com/jobs?gh_jid=7458098",
+      "https://careers.withwaymo.com/jobs?gh_jid=7816014",
+      "https://careers.withwaymo.com/jobs?gh_jid=7944176"
+    ],
+    "notes": "Waymo reports 3,000 vehicles, 400k weekly rides, 10M+ rider-only trips and 100+ open roles. Remote policy explicitly covers Maine; five quality openings are posted Remote, US, mostly 'Software Quality Operations Specialist' plus one Staff Safety Operations role. No named quality leader in the facts, so approach by title.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 13,
+      "kept": 13,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +245,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:40-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.withwaymo.com/",
-    "found": "greenhouse:waymo (embedded in https://careers.withwaymo.com/)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

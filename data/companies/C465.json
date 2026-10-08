@@ -5,8 +5,8 @@
     "company": "Vela Software",
     "sector": "Enterprise & govtech",
     "interests": "Constellation group",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://velasoftwaregroup.com/job-dashboard/",
+    "role_families": "SDET; QA leadership; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Vela Software is a Constellation Software operating group; parent is TSX-listed, implying financial stability. No remote policy, size, or QA openings were found. Jobs are likely at individual vertical market software companies, which may offer remote or hybrid roles in regulated sectors like healthcare. Stability is high; hiring difficulty uncertain. Sources: https://velasoftwaregroup.com/job-dashboard/ https://velasoftwaregroup.com/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://velasoftwaregroup.com/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://velasoftwaregroup.com/job-dashboard/ manually",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Vela Software, a Constellation Software operating group, acquires vertical market software firms. Its portfolio may offer senior QA roles in regulated sectors, but no remote policy or openings are verified, creating uncertainty for a Maine-based candidate.",
+    "ai_red_flags": "No remote policy or openings verified; decentralized structure means roles are at portfolio companies, not Vela.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance at a Vela portfolio company",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20at%20a%20Vela%20portfolio%20company%20Vela%20Software",
+    "outreach_notes": "My FDA-regulated medical device V&V and C#/.NET test automation experience aligns with Vela's vertical market software, particularly regulated healthcare or life sciences portfolio companies."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://velasoftwaregroup.com/job-dashboard/",
+    "research_notes": "Vela Software is a Constellation Software operating group; parent is TSX-listed, implying financial stability. No remote policy, size, or QA openings were found. Jobs are likely at individual vertical market software companies, which may offer remote or hybrid roles in regulated sectors like healthcare. Stability is high; hiring difficulty uncertain. Sources: https://velasoftwaregroup.com/job-dashboard/ https://velasoftwaregroup.com/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://velasoftwaregroup.com/",
+    "fit_score": 3,
+    "ai_summary": "Vela Software, a Constellation Software operating group, acquires vertical market software firms. Its portfolio may offer senior QA roles in regulated sectors, but no remote policy or openings are verified, creating uncertainty for a Maine-based candidate.",
+    "role_families": "SDET; QA leadership; test automation",
+    "ai_red_flags": "No remote policy or openings verified; decentralized structure means roles are at portfolio companies, not Vela.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Assurance at a Vela portfolio company",
+    "outreach_notes": "My FDA-regulated medical device V&V and C#/.NET test automation experience aligns with Vela's vertical market software, particularly regulated healthcare or life sciences portfolio companies.",
+    "next_research_action": "No supported job board - check https://velasoftwaregroup.com/job-dashboard/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20at%20a%20Vela%20portfolio%20company%20Vela%20Software"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://velasoftwaregroup.com/job-dashboard/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://velasoftwaregroup.com/jobs/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -120,6 +159,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -148,16 +188,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:38-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://velasoftwaregroup.com/jobs/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

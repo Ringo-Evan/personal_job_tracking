@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "UK on-site or hybrid",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "UK co-development studio; QA roles are Liverpool-based with no US-remote pathway for a Maine candidate.",
+  "approach_role": "QA Manager",
+  "company": "Wushu Studios",
+  "company_id": "C663",
+  "fit_score": 2,
+  "interests": "Co-dev",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Wushu%20Studios",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Lead; SDET",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

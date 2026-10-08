@@ -5,8 +5,8 @@
     "company": "Waters Corporation",
     "sector": "Regulated healthtech",
     "interests": "Lab instruments; Milford MA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://uscareers-waters.icims.com/jobs/intro",
+    "role_families": "SDET / test automation; QA engineering (V&V, design controls); Quality/release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Waters is a large regulated lab-instrument maker offering flexible/remote arrangements discussed with the manager; Maine eligibility unstated. No QA openings, people, ATS, or size data captured. Stability inferred from its established public-company status, not from listed signals. Sources: https://uscareers-waters.icims.com/jobs/intro https://www.jobzmall.com/waters/faqs/are-there-any-flexible-working-arrangements-at-waters",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Offers flexible working arrangements, including the option to work remotely and flexible hours; individual needs discussed with manager.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://uscareers-waters.icims.com/jobs/intro manually",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Waters makes regulated analytical lab instruments (chromatography, mass spec) with clinical diagnostics lines, so FDA-grade V&V work exists and hardware-adjacent testing matches the candidate's background. But no QA openings are confirmed and Maine-eligible remote is unproven, leaving a real gap.",
+    "ai_red_flags": "No verified openings, no named QA leaders, and remote-from-Maine eligibility is unknown; Milford MA roles may be onsite-heavy.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering (or Senior Manager, Software Quality Assurance)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28or%20Senior%20Manager%2C%20Software%20Quality%20Assurance%29%20Waters%20Corporation",
+    "outreach_notes": "Fifteen years in regulated test automation, including FDA V&V and design controls on hardware-adjacent instruments, maps directly to Waters' instrument software quality needs."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://uscareers-waters.icims.com/jobs/intro",
+    "research_notes": "Verified: Waters is a large regulated lab-instrument maker offering flexible/remote arrangements discussed with the manager; Maine eligibility unstated. No QA openings, people, ATS, or size data captured. Stability inferred from its established public-company status, not from listed signals. Sources: https://uscareers-waters.icims.com/jobs/intro https://www.jobzmall.com/waters/faqs/are-there-any-flexible-working-arrangements-at-waters",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Offers flexible working arrangements, including the option to work remotely and flexible hours; individual needs discussed with manager.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 3,
+    "ai_summary": "Waters makes regulated analytical lab instruments (chromatography, mass spec) with clinical diagnostics lines, so FDA-grade V&V work exists and hardware-adjacent testing matches the candidate's background. But no QA openings are confirmed and Maine-eligible remote is unproven, leaving a real gap.",
+    "role_families": "SDET / test automation; QA engineering (V&V, design controls); Quality/release engineering",
+    "ai_red_flags": "No verified openings, no named QA leaders, and remote-from-Maine eligibility is unknown; Milford MA roles may be onsite-heavy.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering (or Senior Manager, Software Quality Assurance)",
+    "outreach_notes": "Fifteen years in regulated test automation, including FDA V&V and design controls on hardware-adjacent instruments, maps directly to Waters' instrument software quality needs.",
+    "next_research_action": "No supported job board - check https://uscareers-waters.icims.com/jobs/intro manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28or%20Senior%20Manager%2C%20Software%20Quality%20Assurance%29%20Waters%20Corporation"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://uscareers-waters.icims.com/jobs/intro",
+    "note": "uses icims",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.waters.com/nextgen/us/en/about-waters/careers.html",
+    "found": null,
+    "other": [
+      "icims https://internationalcareers-waters.icims.com/jobs/intro?mobile=true&needsRedirect=false"
+    ]
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -113,6 +152,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -141,17 +181,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:03-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.waters.com/nextgen/us/en/about-waters/careers.html",
-    "found": null,
-    "other": [
-      "icims https://internationalcareers-waters.icims.com/jobs/intro?mobile=true&needsRedirect=false"
-    ]
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

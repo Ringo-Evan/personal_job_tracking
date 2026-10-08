@@ -6,7 +6,7 @@
     "sector": "Regulated healthtech",
     "interests": "Health data exchange",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; SDET",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Health data exchange platform; regulated healthtech with likely remote roles and mid-stage stability.",
     "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Health%20Gorilla",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA/Test Engineering; Quality Engineering leadership",
+    "approach_role": "VP of Engineering or Head of Quality (no named leader in verified",
+    "ai_summary": "Health Gorilla runs a regulated health-data exchange (interoperability, labs, FHIR) — adjacent to the candidate's FDA-regulated V&V background and remote-friendly for Maine residents. No QA openings are posted, so fit depends on a speculative approach rather than an existing req.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20or%20Head%20of%20Quality%20%28no%20named%20leader%20in%20verified%20Health%20Gorilla",
+    "career_url": "https://healthgorilla.com/home/company/careers/",
+    "research_notes": "Remote-friendly and Maine eligible: work from home, Miami office, or hybrid. 50-500 employees, past start-up stage and still hiring. Regulated health-data exchange is adjacent to candidate's medical-device V&V work. No QA reqs or named QA leaders in the verified facts — approach speculatively. Sources: https://healthgorilla.com/home/company/careers/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Remote-friendly: employees can work from home, work from Miami offices, or use a hybrid arrangement.",
+    "benefit_source": "https://healthgorilla.com/home/company/careers/",
+    "ai_red_flags": "No QA openings posted; small headcount may mean few senior test roles.",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "15 years of test automation plus FDA-regulated V&V and design-controls experience maps directly to verifying health-data exchange pipelines under HIPAA and interoperability standards.",
+    "next_research_action": "Watching ashby board"
+  },
   "ats": {
     "type": "ashby",
     "token": "healthgorilla",
@@ -54,6 +75,14 @@
     "source": null,
     "note": "ashby token guessed from name; postings name the company",
     "job_count": 1
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://healthgorilla.com/home/company/careers/",
+    "found": "ashby:healthgorilla (ashby token guessed from name)",
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
   },
   "triage": {
     "fit": 4,
@@ -70,7 +99,65 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C321",
+    "career_url": "https://healthgorilla.com/home/company/careers/",
+    "ats": {
+      "type": "ashby",
+      "token": "healthgorilla",
+      "board_url": "https://jobs.ashbyhq.com/healthgorilla"
+    },
+    "remote_policy": {
+      "summary": "Remote-friendly: employees can work from home, work from Miami offices, or use a hybrid arrangement.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://healthgorilla.com/home/company/careers/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Company has grown past start-up status and is still adding headcount, with 70-plus employees and growing.",
+          "date": null,
+          "url": "https://healthgorilla.com/home/company/careers/"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 4,
+      "rationale": "Health Gorilla runs a regulated health-data exchange (interoperability, labs, FHIR) — adjacent to the candidate's FDA-regulated V&V background and remote-friendly for Maine residents. No QA openings are posted, so fit depends on a speculative approach rather than an existing req.",
+      "role_families": [
+        "SDET",
+        "QA/Test Engineering",
+        "Quality Engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering or Head of Quality (no named leader in verified",
+    "outreach_angle": "15 years of test automation plus FDA-regulated V&V and design-controls experience maps directly to verifying health-data exchange pipelines under HIPAA and interoperability standards.",
+    "red_flags": "No QA openings posted; small headcount may mean few senior test roles.",
+    "confidence": "medium",
+    "sources": [
+      "https://healthgorilla.com/home/company/careers/"
+    ],
+    "notes": "Remote-friendly and Maine eligible: work from home, Miami office, or hybrid. 50-500 employees, past start-up stage and still hiring. Regulated health-data exchange is adjacent to candidate's medical-device V&V work. No QA reqs or named QA leaders in the verified facts — approach speculatively.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 5,
+      "kept": 5,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -93,15 +180,68 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://healthgorilla.com/home/company/careers/",
-    "found": "ashby:healthgorilla (ashby token guessed from name)",
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

@@ -7,6 +7,14 @@
   "source_url": "https://kontakt.io/",
   "why_approach": "CEO at Kontakt.io. Your RFID and hospital-device test background maps to Kontakt.io's RTLS stack, but the NYC hybrid requirement blocks Maine — worth a note only if they add remote QA roles.",
   "first_seen": "2026-10-05",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0020",
+  "exported": {
+    "name": "Philipp von Gilsa",
+    "company": "Kontakt.io",
+    "title": "CEO",
+    "source_url": "https://kontakt.io/",
+    "why_approach": "CEO at Kontakt.io. Your RFID and hospital-device test background maps to Kontakt.io's RTLS stack, but the NYC hybrid requirement blocks Maine — worth a note only if they add remote QA roles.",
+    "company_id": "C207"
+  },
+  "first_exported": "2026-10-07"
 }

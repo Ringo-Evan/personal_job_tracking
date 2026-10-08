@@ -1,0 +1,21 @@
+{
+  "approach_role": "Test engineering manager, RFID",
+  "career_url": "https://www.zebra.com/us/en/about-zebra/careers.html",
+  "company": "Zebra Technologies",
+  "company_id": "C138",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Large employer with RFID/location products; test roles common.",
+  "hiring_difficulty": 3,
+  "interests": "RFID, scanners, location - direct overlap",
+  "maine_remote": "Unknown",
+  "next_research_action": "Search remote test roles",
+  "outreach_notes": "Direct domain match with Position Imaging.",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20engineering%20manager%2C%20RFID%20Zebra%20Technologies",
+  "research_as_of": "2026-09-30",
+  "research_notes": "From general knowledge, not yet searched - verify. RFID readers, mobile computers, real-time location systems - your exact domain.",
+  "research_status": "Initial research",
+  "role_families": "Software test; SDET; RFID validation",
+  "sector": "IoT / location tech",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude"
+}

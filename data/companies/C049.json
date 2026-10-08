@@ -45,15 +45,15 @@
   },
   "exported": {},
   "ats": {
-    "type": "other",
-    "token": null,
-    "board_url": null,
-    "detected_by": "html-scan",
-    "checked_at": "2026-10-05",
-    "confirmed": null,
+    "type": "workday",
+    "token": "amadeus|502|jobs",
+    "board_url": "https://amadeus.wd502.myworkdayjobs.com/jobs",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
     "source": "https://amadeus.com/en/careers/overview",
-    "note": "no known job-board system on careers page",
-    "job_count": null
+    "note": "linked from search results",
+    "job_count": 118
   },
   "triage": null,
   "research": null,
@@ -74,7 +74,22 @@
         "ats.source",
         "ats.type"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
     }
   ],
-  "last_exported_at": null
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 23,
+    "careers_page": null,
+    "found": "workday:amadeus|502|jobs (linked from search results)",
+    "other": []
+  }
 }

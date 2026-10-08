@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Consumer marketplace, not regulated/hardware",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Childcare/senior-care marketplace; plausible QA roles but domain far from regulated/hardware strengths; Waltham not commutable from Downeast Maine.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Care.com",
+  "company_id": "C410",
+  "fit_score": 2,
+  "interests": "Waltham",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Care.com",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; QA Manager",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Consumer hardware; remote unlikely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Jackery makes portable power stations; consumer hardware QA possible but limited US-remote roles for Maine.",
+  "approach_role": "QA Manager",
+  "company": "Jackery",
+  "company_id": "C987",
+  "fit_score": 3,
+  "interests": "Portable power",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Manager%20Jackery",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

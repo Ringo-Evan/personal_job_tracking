@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small team; remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Housing access tech nonprofit; domain match, but small team and QA roles uncertain.",
+  "approach_role": "CTO",
+  "company": "Housing Connector",
+  "company_id": "C1058",
+  "fit_score": 3,
+  "interests": "Housing access tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Housing%20Connector",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Housing",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

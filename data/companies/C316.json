@@ -5,8 +5,8 @@
     "company": "Appriss Health",
     "sector": "Regulated healthtech",
     "interests": "PDMP software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://apprissretail.com/careers/",
+    "role_families": "Senior QA/Lead; AI/Data Quality",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Confirmed maine_eligible: yes. Stability is high due to regulated sector. Remote-first policy removes commute constraints for the candidate. Sources: https://apprissretail.com/careers/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-first and global by design; no location restrictions stated.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://apprissretail.com/careers/ manually",
+    "fit_score": 4,
+    "stability_score": 5,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Appriss Health builds AI tools for healthcare compliance (PDMPs). As a regulated healthtech firm, it offers stability. The 'no location restrictions' policy is a major plus for a Maine-based senior tester seeking security.",
+    "ai_red_flags": "Limited public QA opening data suggests potential internal hiring freeze or low volume.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Engineering Manager or Director of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20or%20Director%20of%20Engineering%20Appriss%20Health",
+    "outreach_notes": "Your 15 years in regulated environments (FDA) and Maine location align perfectly with Appriss Health's secure, remote-first approach to healthcare compliance testing."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://apprissretail.com/careers/",
+    "research_notes": "Confirmed maine_eligible: yes. Stability is high due to regulated sector. Remote-first policy removes commute constraints for the candidate. Sources: https://apprissretail.com/careers/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Remote-first and global by design; no location restrictions stated.",
+    "remote_likelihood": "High",
+    "stability_score": 5,
+    "fit_score": 4,
+    "ai_summary": "Appriss Health builds AI tools for healthcare compliance (PDMPs). As a regulated healthtech firm, it offers stability. The 'no location restrictions' policy is a major plus for a Maine-based senior tester seeking security.",
+    "role_families": "Senior QA/Lead; AI/Data Quality",
+    "ai_red_flags": "Limited public QA opening data suggests potential internal hiring freeze or low volume.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
+    "approach_role": "Engineering Manager or Director of Engineering",
+    "outreach_notes": "Your 15 years in regulated environments (FDA) and Maine location align perfectly with Appriss Health's secure, remote-first approach to healthcare compliance testing.",
+    "next_research_action": "No supported job board - check https://apprissretail.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20or%20Director%20of%20Engineering%20Appriss%20Health"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://apprissretail.com/careers/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -111,6 +148,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -139,15 +177,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:13-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

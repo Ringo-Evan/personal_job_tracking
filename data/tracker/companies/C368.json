@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Castine; education; few QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine Maritime Academy is a public maritime college in Castine; IT roles possible, few QA openings.",
+  "approach_role": "IT Director",
+  "company": "Maine Maritime Academy",
+  "company_id": "C368",
+  "fit_score": 2,
+  "interests": "Castine - IT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Director%20Maine%20Maritime%20Academy",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "IT Specialist; QA Analyst; Systems Test",
+  "sector": "Maine & New England",
+  "size_estimate": "50-500",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

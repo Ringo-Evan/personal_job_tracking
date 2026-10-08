@@ -5,8 +5,8 @@
     "company": "Accela",
     "sector": "Enterprise & govtech",
     "interests": "Gov permitting software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://job-boards.greenhouse.io/accela",
+    "role_families": "SDET / test automation; QA leadership; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote policy not classifiable from primary sources; Maine eligibility unknown. Stability rests mainly on a public-sector customer base. Greenhouse board shows no QA openings and no named engineering or quality leaders were found, so outreach targets must be inferred. Sources: https://job-boards.greenhouse.io/accela https://wfh.team/remote-policy-tracker/accela",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Tracker records not enough current primary-source evidence to classify Accela's remote-work policy; no reviewed policy change published.",
+    "benefit_source": "https://job-boards.greenhouse.io/accela",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Accela sells cloud permitting and licensing software to government agencies — steady public-sector demand, but the domain misses the candidate's interests and no QA roles or Maine-remote policy are verified.",
+    "ai_red_flags": "Remote-from-Maine eligibility unverified; no QA openings posted on their Greenhouse board.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Accela",
+    "outreach_notes": "Fifteen years of regulated V&V and test automation in C#/.NET maps directly to compliance-heavy government permitting platforms; I'd welcome discussing QA ownership for Accela's civic cloud products."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://job-boards.greenhouse.io/accela",
+    "research_notes": "Remote policy not classifiable from primary sources; Maine eligibility unknown. Stability rests mainly on a public-sector customer base. Greenhouse board shows no QA openings and no named engineering or quality leaders were found, so outreach targets must be inferred. Sources: https://job-boards.greenhouse.io/accela https://wfh.team/remote-policy-tracker/accela",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Tracker records not enough current primary-source evidence to classify Accela's remote-work policy; no reviewed policy change published.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://job-boards.greenhouse.io/accela",
+    "fit_score": 2,
+    "ai_summary": "Accela sells cloud permitting and licensing software to government agencies — steady public-sector demand, but the domain misses the candidate's interests and no QA roles or Maine-remote policy are verified.",
+    "role_families": "SDET / test automation; QA leadership; release engineering",
+    "ai_red_flags": "Remote-from-Maine eligibility unverified; no QA openings posted on their Greenhouse board.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Fifteen years of regulated V&V and test automation in C#/.NET maps directly to compliance-heavy government permitting platforms; I'd welcome discussing QA ownership for Accela's civic cloud products.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Accela"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "accela",
     "board_url": "https://job-boards.greenhouse.io/accela",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Accela",
+    "source": "https://job-boards.greenhouse.io/accela",
+    "note": "Accela",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:accela (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,66 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C454",
+    "career_url": "https://job-boards.greenhouse.io/accela",
+    "ats": {
+      "type": "greenhouse",
+      "token": "accela",
+      "board_url": "https://job-boards.greenhouse.io/accela"
+    },
+    "remote_policy": {
+      "summary": "Tracker records not enough current primary-source evidence to classify Accela's remote-work policy; no reviewed policy change published.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://wfh.team/remote-policy-tracker/accela"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "Accela sells cloud civic applications to government agencies, a public-sector customer base rather than a private-sector one.",
+          "date": null,
+          "url": "https://job-boards.greenhouse.io/accela"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 2,
+      "rationale": "Accela sells cloud permitting and licensing software to government agencies — steady public-sector demand, but the domain misses the candidate's interests and no QA roles or Maine-remote policy are verified.",
+      "role_families": [
+        "SDET / test automation",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "VP of Engineering",
+    "outreach_angle": "Fifteen years of regulated V&V and test automation in C#/.NET maps directly to compliance-heavy government permitting platforms; I'd welcome discussing QA ownership for Accela's civic cloud products.",
+    "red_flags": "Remote-from-Maine eligibility unverified; no QA openings posted on their Greenhouse board.",
+    "confidence": "low",
+    "sources": [
+      "https://job-boards.greenhouse.io/accela",
+      "https://wfh.team/remote-policy-tracker/accela"
+    ],
+    "notes": "Remote policy not classifiable from primary sources; Maine eligibility unknown. Stability rests mainly on a public-sector customer base. Greenhouse board shows no QA openings and no named engineering or quality leaders were found, so outreach targets must be inferred.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 4,
+      "kept": 4,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +181,75 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:34-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:accela (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

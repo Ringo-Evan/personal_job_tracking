@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Mostly EU-based",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Privacy services, mostly EU; remote likely not open to Maine; web QA, moderate fit if remote.",
+  "approach_role": "Head of Quality",
+  "company": "Proton",
+  "company_id": "C563",
+  "fit_score": 2,
+  "interests": "Privacy; mostly EU",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Proton",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

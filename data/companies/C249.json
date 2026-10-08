@@ -6,7 +6,7 @@
     "sector": "IoT / location tech",
     "interests": "Shipping API",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Shipping API startup; similar to Shippo, remote-friendly QA roles, but early-stage and domain fit moderate.",
+    "ai_red_flags": "Early-stage",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Lead",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20EasyPost",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,19 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA Engineer",
+    "approach_role": "QA Lead",
+    "ai_summary": "Shipping API startup; similar to Shippo, remote-friendly QA roles, but early-stage and domain fit moderate.",
+    "ai_red_flags": "Early-stage",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20EasyPost"
+  },
   "ats": {
     "type": "workable",
     "token": "easypost",
@@ -54,6 +66,15 @@
     "source": null,
     "note": "noted by an earlier search; board system now supported; board name EasyPost",
     "job_count": 0
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.easypost.com/careers/",
+    "found": null,
+    "other": [
+      "workable https://apply.workable.com/easypost/"
+    ]
   },
   "triage": {
     "fit": 4,
@@ -71,6 +92,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -99,16 +121,41 @@
       "changed": [
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.easypost.com/careers/",
-    "found": null,
-    "other": [
-      "workable https://apply.workable.com/easypost/"
-    ]
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

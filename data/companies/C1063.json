@@ -5,8 +5,8 @@
     "company": "findhelp (Aunt Bertha)",
     "sector": "Housing",
     "interests": "Social services search",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://ats.rippling.com/findhelp/jobs",
+    "role_families": "SDET / test automation; QA engineering; release/quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: findhelp offers a remote work program, but listed roles sit in Austin, Madison, Denver and Los Angeles, and no source states which states remote hires may reside in. No QA/engineering openings, headcount, stability signals or named leaders were captured, so the pack cannot confirm a Maine-eligible senior QA role. Sources: https://ats.rippling.com/findhelp/jobs https://builtin.com/company/findhelp/faq/workplace-perception",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Findhelp offers a remote work program; the roles listed in the pack sit in Austin, Madison, Denver and Los Angeles, and nothing states which states US-remote hires may live in.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching lever board",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Findhelp runs a social-care referral network connecting people to food, housing and healthcare resources, which matches the candidate's interest in housing and food access. However, the facts show no QA openings, no contacts, and unknown Maine remote eligibility, so fit",
+    "ai_red_flags": "No QA openings listed; US-remote eligibility for Maine residents unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20findhelp%20%28Aunt%20Bertha%29",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls testing background maps well to findhelp's healthcare and social-care integrations, where compliance-grade quality engineering protects sensitive referral data."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://ats.rippling.com/findhelp/jobs",
+    "research_notes": "Verified: findhelp offers a remote work program, but listed roles sit in Austin, Madison, Denver and Los Angeles, and no source states which states remote hires may reside in. No QA/engineering openings, headcount, stability signals or named leaders were captured, so the pack cannot confirm a Maine-eligible senior QA role. Sources: https://ats.rippling.com/findhelp/jobs https://builtin.com/company/findhelp/faq/workplace-perception",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Findhelp offers a remote work program; the roles listed in the pack sit in Austin, Madison, Denver and Los Angeles, and nothing states which states US-remote hires may live in.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "fit_score": 3,
+    "ai_summary": "Findhelp runs a social-care referral network connecting people to food, housing and healthcare resources, which matches the candidate's interest in housing and food access. However, the facts show no QA openings, no contacts, and unknown Maine remote eligibility, so fit",
+    "role_families": "SDET / test automation; QA engineering; release/quality engineering",
+    "ai_red_flags": "No QA openings listed; US-remote eligibility for Maine residents unconfirmed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls testing background maps well to findhelp's healthcare and social-care integrations, where compliance-grade quality engineering protects sensitive referral data.",
+    "next_research_action": "Watching rippling board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20findhelp%20%28Aunt%20Bertha%29"
+  },
   "ats": {
-    "type": "lever",
+    "type": "rippling",
     "token": "findhelp",
-    "board_url": "https://jobs.lever.co/findhelp",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "board_url": "https://ats.rippling.com/findhelp/jobs",
+    "detected_by": "url-pattern",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 0
+    "source": "https://ats.rippling.com/findhelp/jobs",
+    "note": "Findhelp",
+    "job_count": 20
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "lever:findhelp (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -123,6 +150,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -152,15 +180,76 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:33:33-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "lever:findhelp (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

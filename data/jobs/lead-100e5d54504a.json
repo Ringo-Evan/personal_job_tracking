@@ -1,0 +1,33 @@
+{
+  "key": "lead-100e5d54504a",
+  "board": "lead",
+  "company_id": "C651",
+  "company": "Lionbridge Games",
+  "title": "Compliance QA Game Tester (online recruitment process)",
+  "location_text": "Unknown",
+  "work_mode": "Unknown",
+  "url": "https://careers.lionbridge.com/jobs/compliance-qa-game-tester-online-recruitment-process",
+  "apply_url": null,
+  "source_url": "https://careers.lionbridge.com/jobs/compliance-qa-game-tester-online-recruitment-process",
+  "maine_eligible": "unknown",
+  "eligibility_reason": "found by verify; check the posting",
+  "track": null,
+  "source": "verify",
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "closed_at": null,
+  "job_id": null,
+  "score": {
+    "why": "Junior compliance game-tester contract role needing 1 year's TRC/Lotcheck/XR console-cert experience; no senior SDET or leadership scope, no stated Maine or US-remote eligibility. Games domain appeals but level and fit",
+    "skill_match": 2,
+    "seniority": "below",
+    "maine_eligible": "unknown",
+    "track": "Domain pivot",
+    "notes": "Check location/contract type and whether US-Maine remote is possible; requires console compliance (XR/TRC/Lotcheck) experience and is junior-level repetitive testing.",
+    "model": "deepseek/deepseek-flash",
+    "at": "2026-10-08",
+    "text_hash": "710671559594d056",
+    "text_source": "page"
+  },
+  "description": "Kiosk mode\n- Minimum 1 year of experience in compliance games testing;\n- Proven expert knowledge of XR, TRC and/or Nintendo Lotcheck requirements;\n- Exceptional performance in a previous testing role (testing, processes, reporting, technical skills);\n- Very good understanding of quality assurance processes;\n- Working knowledge and experience using bug tracking tools;\n- Good knowledge of English (min. B2);\n- Ability to meet deadlines;\n- Excellent attention to detail;\n- Patience and persistence for repetitive work.\n- Game accessibility guidelines familiarity and testing experience.\n- Executes assigned tests accurately and sufficiently to have confidence in documented results;\n- Reports results in a clear and concise manner into a bug database;\n- Regresses assigned issues and validates that the issues have been addressed correctly;\n- Escalates any issues preventing/impacting test execution;\n- Provides feedback regarding test approach and test case improvement.\n- Professional development opportunities in a multi-cultural environment – Lionbridge has offices in over 20 countries and many of these offices work collaboratively on projects, exposing our employees to a wide range of cultures and work styles;\n- Ability to cope with latest technologies;\n- Work in a creative team and good working environment;\n- Employment contract or contract of mandate (you may choose what kind of cooperation is best for you!).\nWe do not sponsor visa or a work permit for this role.\nWe kindly inform that Lionbridge reserves right to contact only selected candidates.\nThere are currently no jobs matching this criteria"
+}

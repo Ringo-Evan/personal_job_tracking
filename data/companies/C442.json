@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Gov digital; remote",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Test Automation Engineer; QA Engineer; SDET",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Remote-first gov digital consultancy; hires test automation engineers, though bench time between contracts is common.",
+    "ai_red_flags": "Small; bench time between contracts.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Engineering Director",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Director%20Truss",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "role_families": "Quality Engineering; DevOps/Infrastructure",
+    "approach_role": "Engineering Manager or VP of Engineering",
+    "ai_summary": "Truss is an enterprise/govtech firm offering US-remote roles, fitting Evan's location and interest in government digital sectors. However, no verified QA openings exist.",
+    "ai_red_flags": "No current QA openings listed; may only accept via referrals or internal transfer from development tracks.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20or%20VP%20of%20Engineering%20Truss",
+    "career_url": "https://truss.works/jobs",
+    "research_notes": "Remote policy allows Maine workers. Financial stability appears strong given govtech focus, but no specific signals provided. No active QA job postings found. Sources: https://truss.works/jobs",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "yes: Location agnostic and distributed since 2012: employees may work from anywhere, as long as they are based in the United States.",
+    "hiring_difficulty": 5,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your extensive experience in FDA-regulated testing and building QA groups aligns with Truss's enterprise security needs, though I must note the lack of current open QA listings.",
+    "next_research_action": "Watching greenhouse board"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "trussworksinc",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "embedded in https://truss.works/jobs; TrussWorks, Inc",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://truss.works/jobs",
+    "found": "greenhouse:trussworksinc (embedded in https://truss.works/jobs)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +98,57 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C442",
+    "career_url": "https://truss.works/jobs",
+    "ats": {
+      "type": "greenhouse",
+      "token": "trussworksinc",
+      "board_url": "https://job-boards.greenhouse.io/trussworksinc"
+    },
+    "remote_policy": {
+      "summary": "Location agnostic and distributed since 2012: employees may work from anywhere, as long as they are based in the United States.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://truss.works/jobs"
+    },
+    "stability": {
+      "score": 4,
+      "signals": []
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Truss is an enterprise/govtech firm offering US-remote roles, fitting Evan's location and interest in government digital sectors. However, no verified QA openings exist.",
+      "role_families": [
+        "Quality Engineering",
+        "DevOps/Infrastructure"
+      ]
+    },
+    "hiring_difficulty": 5,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Engineering Manager or VP of Engineering",
+    "outreach_angle": "Your extensive experience in FDA-regulated testing and building QA groups aligns with Truss's enterprise security needs, though I must note the lack of current open QA listings.",
+    "red_flags": "No current QA openings listed; may only accept via referrals or internal transfer from development tracks.",
+    "confidence": "medium",
+    "sources": [
+      "https://truss.works/jobs"
+    ],
+    "notes": "Remote policy allows Maine workers. Financial stability appears strong given govtech focus, but no specific signals provided. No active QA job postings found.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "ollama_chat/qwen3.5:9b"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 3,
+      "kept": 3,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +171,72 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://truss.works/jobs",
-    "found": "greenhouse:trussworksinc (embedded in https://truss.works/jobs)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

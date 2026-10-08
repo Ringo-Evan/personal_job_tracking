@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Non-tech; onsite.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Apparel/footwear manufacturer; no software test roles. Quality roles are manufacturing-focused.",
+  "approach_role": "Quality Manager",
+  "company": "Timberland (VF)",
+  "company_id": "C394",
+  "fit_score": 1,
+  "interests": "Stratham NH",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%20Timberland%20%28VF%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:14Z",
+  "updated_by": "pipeline"
+}

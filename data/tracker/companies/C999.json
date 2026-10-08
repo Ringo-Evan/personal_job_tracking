@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Little public info; few openings expected",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small Machias broadband provider, genuinely local to candidate, but likely too small for dedicated QA roles and details are unclear.",
+  "approach_role": "Network Operations Manager",
+  "company": "Axiom (Maine broadband)",
+  "company_id": "C999",
+  "fit_score": 2,
+  "interests": "Machias ME broadband - local!",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Network%20Operations%20Manager%20Axiom%20%28Maine%20broadband%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA/Test Analyst; Network Systems Engineer; IT Support Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

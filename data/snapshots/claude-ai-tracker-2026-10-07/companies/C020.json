@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million%2C-up-35-year-over-year",
+  "career_url": "https://www.axon.com/careers",
+  "company": "Axon",
+  "company_id": "C020",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Direct QA lead found; Unity/VR experience and competitive hiring may be gaps.",
+  "hiring_difficulty": 4,
+  "interests": "Training simulation, public-safety technology",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Q2 2026 revenue growth was 35%; growth is not a guaranteed hiring quota.",
+  "research_status": "Initial research",
+  "role_families": "Test automation; VR QA; technical programs",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite California; tiny studio.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Microsoft-owned RPG studio in California; game QA interest fits, but small team and onsite work block remote Maine hiring.",
+  "approach_role": "QA Lead",
+  "company": "inXile Entertainment",
+  "company_id": "C628",
+  "fit_score": 3,
+  "interests": "RPGs",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Lead%20inXile%20Entertainment",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Test Engineer; Test Automation Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

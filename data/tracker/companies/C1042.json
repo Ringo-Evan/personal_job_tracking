@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small tech team; grant dependent",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Civic nonprofit focused on voter registration; remote-friendly mission fit, but tiny technical team with rare QA openings.",
+  "approach_role": "Director of Technology",
+  "company": "Rock the Vote",
+  "company_id": "C1042",
+  "fit_score": 2,
+  "interests": "Civic",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Rock%20the%20Vote",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Software Engineer; Test Engineer",
+  "sector": "Labor & organizing",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:34Z",
+  "updated_by": "pipeline"
+}

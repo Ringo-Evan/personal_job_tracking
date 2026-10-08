@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://orchidadvisors.com/",
+  "career_url": "https://orchidadvisors.com/",
+  "company": "Orchid",
+  "company_id": "C022",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "QA background fits complex workflows; domain/compliance familiarity needs development.",
+  "hiring_difficulty": 3,
+  "interests": "Firearms business software and compliance",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Orchid LLC at orchidadvisors.com; not unrelated Orchid companies.",
+  "research_status": "Initial research",
+  "role_families": "Workflow QA; data integrity; integrations",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

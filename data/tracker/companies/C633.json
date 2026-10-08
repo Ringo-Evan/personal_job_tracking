@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Flat structure; Bellevue onsite",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Steam operator in Bellevue; very stable and games-adjacent, but flat small org with few advertised QA roles.",
+  "approach_role": "Hiring Manager, QA",
+  "company": "Valve",
+  "company_id": "C633",
+  "fit_score": 2,
+  "interests": "Bellevue",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Hiring%20Manager%2C%20QA%20Valve",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; Test Engineer; SDET",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

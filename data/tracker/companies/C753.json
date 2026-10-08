@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retail downturn exposure; on-site culture.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "National bookseller with modest in-house tech; retail IT testing, little automation or remote work, and retail downturn exposure.",
+  "approach_role": "Director of QA, IT",
+  "company": "Barnes & Noble",
+  "company_id": "C753",
+  "fit_score": 1,
+  "interests": "Books",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%2C%20IT%20Barnes%20%26%20Noble",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "5k+",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

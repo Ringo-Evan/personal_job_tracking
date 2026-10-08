@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Security/cloud focus; limited QA headcount.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Federal cloud and security consultancy, remote-first; QA roles limited and security-cleared engineering dominates.",
+  "approach_role": "Quality Engineering Manager",
+  "company": "Aquia",
+  "company_id": "C445",
+  "fit_score": 3,
+  "interests": "Federal cloud security",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Engineering%20Manager%20Aquia",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Security Test Engineer",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

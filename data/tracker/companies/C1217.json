@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Regulated domain match; remote unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Clinical AI for documentation; regulated healthcare, QA roles plausible, matches medical interest.",
+  "approach_role": "Head of Quality",
+  "company": "Abridge",
+  "company_id": "C1217",
+  "fit_score": 4,
+  "interests": "Clinical AI",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Quality%20Abridge",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Regulatory Compliance Test Engineer; SDET",
+  "sector": "AI & evals",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline"
+}

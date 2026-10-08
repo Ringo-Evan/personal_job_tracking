@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Early-stage; remote unverified.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "LGBTQ women's social app; small tech team, QA roles possible but remote and stability uncertain.",
+  "approach_role": "Head of Engineering",
+  "company": "HER",
+  "company_id": "C1113",
+  "fit_score": 3,
+  "interests": "LGBTQ women's app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20HER",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Mobile QA; SDET",
+  "sector": "LGBTQ",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

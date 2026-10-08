@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tiny team; Austin-based",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small Austin indie behind Banner Saga; limited QA headcount, likely on-site or contract, weak remote fit.",
+  "approach_role": "Studio Director",
+  "company": "Stoic",
+  "company_id": "C662",
+  "fit_score": 2,
+  "interests": "Banner Saga",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Studio%20Director%20Stoic",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Tester; QA Lead",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

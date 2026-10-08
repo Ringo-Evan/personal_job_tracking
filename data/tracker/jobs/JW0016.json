@@ -1,0 +1,22 @@
+{
+  "company": "Dexcom",
+  "company_id": "C256",
+  "current_stage": "Lead",
+  "date_discovered": "2026-10-05",
+  "fit_notes": "No JD or location shown; verify Maine remote eligibility, C#/.NET automation content, and whether Analyst 2 is a step down from senior/lead. found by verify; check the posting",
+  "highest_stage": "None",
+  "job_id": "JW0016",
+  "job_title": "Quality Assurance Analyst 2",
+  "last_checked": "2026-10-05",
+  "listing_evidence": "Indexed lead - verify",
+  "location": "Unknown",
+  "maine_eligible": "Unknown",
+  "next_action": "Verify posting is live, then apply",
+  "posting_url": "https://careers.dexcom.com/careers/job/44710698",
+  "skill_match": 3,
+  "source_url": "https://careers.dexcom.com/careers/job/44710698",
+  "track": "Core QA",
+  "updated_at": "2026-10-08T01:30:40Z",
+  "updated_by": "pipeline",
+  "work_mode": "Unknown"
+}

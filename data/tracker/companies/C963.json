@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "NZ-centric; verify US entity roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "New Zealand animal-management and fencing technology; hardware-adjacent QA could fit, but NZ-centric firm with limited US-remote QA.",
+  "approach_role": "Quality Manager, Gallagher",
+  "company": "Gallagher",
+  "company_id": "C963",
+  "fit_score": 2,
+  "interests": "Fencing tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%2C%20Gallagher%20Gallagher",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Quality Lead",
+  "sector": "Agriculture",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

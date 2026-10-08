@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Package locker IoT company; hardware-adjacent QA roles possible, but size/remote unknown and domain fit only moderate.",
+  "approach_role": "Engineering Manager",
+  "company": "Luxer One",
+  "company_id": "C233",
+  "fit_score": 2,
+  "interests": "Package lockers",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%20Luxer%20One",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET",
+  "sector": "IoT / location tech",
+  "size_estimate": "Unknown",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

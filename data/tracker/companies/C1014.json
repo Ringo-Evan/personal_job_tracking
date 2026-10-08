@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Membership organization; not software company; limited tech roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Membership organization; labor mission aligns; not software company",
+  "approach_role": "Program Director",
+  "company": "Democratic Socialists of America",
+  "company_id": "C1014",
+  "fit_score": 1,
+  "interests": "Org (staff)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Program%20Director%20Democratic%20Socialists%20of%20America",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Membership Support; Program Staff; Limited Tech Roles",
+  "sector": "Labor & organizing",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

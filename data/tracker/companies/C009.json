@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.flosports.tv/careers/",
+  "career_url": "https://www.flosports.tv/careers/",
+  "company": "FloSports",
+  "company_id": "C009",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Mobile/API skills and combat-sports knowledge transfer; streaming experience not established.",
+  "hiring_difficulty": 3,
+  "interests": "Grappling, wrestling, soccer",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Brands include FloGrappling, FloWrestling and FloFC.",
+  "research_status": "Initial research",
+  "role_families": "Streaming QA; mobile automation; technical delivery",
+  "sector": "Sports",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

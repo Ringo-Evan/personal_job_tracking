@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://actionnetwork.org/",
+  "career_url": "https://actionnetwork.org/",
+  "company": "Action Network",
+  "company_id": "C005",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Relevant technical and organizing skills, but small nonprofit hiring volume may limit openings.",
+  "hiring_difficulty": 4,
+  "interests": "Progressive organizing",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Nonprofit organizing platform at .org, not the similarly named betting company.",
+  "research_status": "Initial research",
+  "role_families": "Quality engineering; technical delivery",
+  "sector": "Mission & organizing",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

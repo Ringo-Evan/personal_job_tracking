@@ -5,8 +5,8 @@
     "company": "Zoll Medical",
     "sector": "Regulated healthtech",
     "interests": "Defibrillators; Chelmsford MA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.zoll.com/",
+    "role_families": "SDET / test automation; QA & test leadership; Design assurance / V&V engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Zoll is regulated healthtech (defibrillators, cardiac monitoring; Asahi Kasei-owned, 2025 Zenix launch), which signals durable, essential-product stability. Facts show no QA openings, no named QA contacts, and no remote policy. Ask recruiters whether senior test/quality roles are open to Maine-based US-remote, since no Maine site exists. Sources: https://careers.zoll.com/ https://www.zoll.com/en-us",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.zoll.com/en-us",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Zoll makes defibrillators and cardiac monitoring devices under FDA regulation, closely matching the candidate's medical-device V&V and design-controls background. QA/test roles are plausible, but remote-from-Maine is unverified and its Chelmsford MA site is not commutable.",
+    "ai_red_flags": "No verified remote-from-Maine policy, no Maine site, and no confirmed QA openings; Chelmsford MA HQ is not commutable.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Zoll%20Medical",
+    "outreach_notes": "15 years of C#/.NET test automation plus FDA-regulated medical device V&V and design controls maps directly to Zoll's risk-based verification of defibrillator and monitoring software."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.zoll.com/",
+    "research_notes": "Verified: Zoll is regulated healthtech (defibrillators, cardiac monitoring; Asahi Kasei-owned, 2025 Zenix launch), which signals durable, essential-product stability. Facts show no QA openings, no named QA contacts, and no remote policy. Ask recruiters whether senior test/quality roles are open to Maine-based US-remote, since no Maine site exists. Sources: https://careers.zoll.com/ https://www.zoll.com/en-us",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://www.zoll.com/en-us",
+    "fit_score": 4,
+    "ai_summary": "Zoll makes defibrillators and cardiac monitoring devices under FDA regulation, closely matching the candidate's medical-device V&V and design-controls background. QA/test roles are plausible, but remote-from-Maine is unverified and its Chelmsford MA site is not commutable.",
+    "role_families": "SDET / test automation; QA & test leadership; Design assurance / V&V engineering",
+    "ai_red_flags": "No verified remote-from-Maine policy, no Maine site, and no confirmed QA openings; Chelmsford MA HQ is not commutable.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Assurance",
+    "outreach_notes": "15 years of C#/.NET test automation plus FDA-regulated medical device V&V and design controls maps directly to Zoll's risk-based verification of defibrillator and monitoring software.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20Zoll%20Medical"
+  },
   "ats": {
     "type": "workday",
     "token": "zoll|5|ZOLLMedicalCorp",
     "board_url": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://careers.zoll.com/",
-    "job_count": 237
+    "source": "https://careers.zoll.com/",
+    "note": "",
+    "job_count": 245
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.zoll.com/",
+    "found": "workday:zoll|5|ZOLLMedicalCorp (embedded in https://careers.zoll.com/)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -130,6 +158,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -159,15 +188,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:58-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.zoll.com/",
-    "found": "workday:zoll|5|ZOLLMedicalCorp (embedded in https://careers.zoll.com/)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

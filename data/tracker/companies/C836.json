@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retail IT; little remote work",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Outdoor/firearms retail chain; corporate IT QA exists but mostly on-site and not remote from Maine.",
+  "approach_role": "IT QA Manager",
+  "company": "Sportsman's Warehouse",
+  "company_id": "C836",
+  "fit_score": 2,
+  "interests": "Outdoor retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Sportsman%27s%20Warehouse",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; IT QA Engineer",
+  "sector": "Firearms",
+  "size_estimate": "5k+",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

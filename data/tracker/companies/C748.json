@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No QA roles; small publisher.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small specialty SF/F publisher; no known software QA or remote engineering; fiction domain match but no senior test fit.",
+  "approach_role": "Publisher",
+  "company": "Subterranean Press",
+  "company_id": "C748",
+  "fit_score": 1,
+  "interests": "SF/F",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Publisher%20Subterranean%20Press",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Analyst",
+  "sector": "Books, history & media",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

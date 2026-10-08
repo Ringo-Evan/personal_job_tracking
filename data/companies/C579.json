@@ -5,8 +5,8 @@
     "company": "Twilio",
     "sector": "Remote-first software",
     "interests": "Remote-friendly",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.twilio.com/en-us/careers",
+    "role_families": "QA leadership; verification & validation engineering; SDET / test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote-first \"Open Work\" model, Maine residents eligible. Named a Leader in the 2026 Gartner CPaaS Magic Quadrant. Visible QA postings: Senior Engineering Manager, V&V Media (Remote - US). No named QA leaders in facts; confirm IC openings and current stability. Sources: https://www.twilio.com/en-us/careers https://www.twilio.com/en-us/blog/company/news/open-work https://www.twilio.com/en-us/blog/developers",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-first \"Open Work\" model: almost all Twilions are remote employees working from home or coworking spaces, with periodic in-person team gatherings and off-sites.",
+    "benefit_source": "https://www.twilio.com/en-us/blog/developers",
+    "research_as_of": "2026-10-06",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Twilio is a remote-first CPaaS leader; its V&V Media team matches the candidate's FDA-regulated verification background and telecom test interest. Maine-eligible remote work, but openings skew to engineering management rather than senior QA IC roles.",
+    "ai_red_flags": "Only one V&V posting, and it is management-level; no senior IC QA roles visible. Twilio has a history of layoffs.",
+    "ai_scored_at": "2026-10-06",
+    "approach_role": "Senior Engineering Manager, V&V Media (or VP of Engineering)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Senior%20Engineering%20Manager%2C%20V%26V%20Media%20%28or%20VP%20of%20Engineering%29%20Twilio",
+    "outreach_notes": "As a 15-year test engineer with FDA-regulated V&V and C#/.NET automation experience, I can strengthen Twilio's Media V&V quality practice while working remotely from Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.twilio.com/en-us/careers",
+    "research_notes": "Remote-first \"Open Work\" model, Maine residents eligible. Named a Leader in the 2026 Gartner CPaaS Magic Quadrant. Visible QA postings: Senior Engineering Manager, V&V Media (Remote - US). No named QA leaders in facts; confirm IC openings and current stability. Sources: https://www.twilio.com/en-us/careers https://www.twilio.com/en-us/blog/company/news/open-work https://www.twilio.com/en-us/blog/developers",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-06",
+    "maine_remote": "yes: Remote-first \"Open Work\" model: almost all Twilions are remote employees working from home or coworking spaces, with periodic in-person team gatherings and off-sites.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://www.twilio.com/en-us/blog/developers",
+    "fit_score": 4,
+    "ai_summary": "Twilio is a remote-first CPaaS leader; its V&V Media team matches the candidate's FDA-regulated verification background and telecom test interest. Maine-eligible remote work, but openings skew to engineering management rather than senior QA IC roles.",
+    "role_families": "QA leadership; verification & validation engineering; SDET / test automation",
+    "ai_red_flags": "Only one V&V posting, and it is management-level; no senior IC QA roles visible. Twilio has a history of layoffs.",
+    "ai_scored_at": "2026-10-06",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Senior Engineering Manager, V&V Media (or VP of Engineering)",
+    "outreach_notes": "As a 15-year test engineer with FDA-regulated V&V and C#/.NET automation experience, I can strengthen Twilio's Media V&V quality practice while working remotely from Maine.",
+    "next_research_action": "No supported job board - check https://www.twilio.com/en-us/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Senior%20Engineering%20Manager%2C%20V%26V%20Media%20%28or%20VP%20of%20Engineering%29%20Twilio"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "twilio",
-    "board_url": "https://job-boards.greenhouse.io/twilio",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results; Twilio",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.twilio.com/en-us/careers",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "greenhouse:twilio (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -167,6 +195,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -196,15 +225,79 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:06-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "greenhouse:twilio (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

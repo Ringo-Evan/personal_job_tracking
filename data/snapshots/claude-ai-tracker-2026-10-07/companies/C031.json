@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.smith-wesson.com/careers",
+  "career_url": "https://www.smith-wesson.com/careers",
+  "company": "Smith & Wesson",
+  "company_id": "C031",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Corporate systems may fit; manufacturing testing experience not established.",
+  "hiring_difficulty": 4,
+  "interests": "Firearms manufacturing",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Career portal includes manufacturing and corporate functions.",
+  "research_status": "Initial research",
+  "role_families": "Enterprise applications; operations technology",
+  "sector": "Firearms",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

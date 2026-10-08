@@ -5,8 +5,8 @@
     "company": "Trimble",
     "sector": "IoT / location tech",
     "interests": "Positioning, ag + construction tech",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.trimble.com/en/careers",
+    "role_families": "SDET; QA leadership; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Trimble is an 11k+ employee IoT/location firm; hybrid default three days, some fully remote; acquiring Document Crunch for construction AI. No current QA openings; confirm Maine remote eligibility before applying. Sources: https://www.trimble.com/en/early-careers https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem https://www.trimble.com/en/careers/talent-areas",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid by default: three days per week in the office, with some fully remote roles and some teams on-site every day.",
+    "benefit_source": "https://www.trimble.com/en/careers/talent-areas",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Trimble builds positioning, agriculture and construction tech with hardware-adjacent, regulated work matching the candidate's .NET automation background. But hybrid three-day office default and no listed QA openings leave Maine-remote fit uncertain.",
+    "ai_red_flags": "Hybrid three days in office; Maine remote eligibility unknown; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Senior Vice President of AECO Software",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Senior%20Vice%20President%20of%20AECO%20Software%20Trimble",
+    "outreach_notes": "Your C#/.NET automation and hardware-adjacent regulated testing experience maps to Trimble's positioning and ag-tech QA needs; ask about remote flexibility for Maine."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.trimble.com/en/careers",
+    "research_notes": "Trimble is an 11k+ employee IoT/location firm; hybrid default three days, some fully remote; acquiring Document Crunch for construction AI. No current QA openings; confirm Maine remote eligibility before applying. Sources: https://www.trimble.com/en/early-careers https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem https://www.trimble.com/en/careers/talent-areas",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid by default: three days per week in the office, with some fully remote roles and some teams on-site every day.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://www.trimble.com/en/careers/talent-areas",
+    "fit_score": 3,
+    "ai_summary": "Trimble builds positioning, agriculture and construction tech with hardware-adjacent, regulated work matching the candidate's .NET automation background. But hybrid three-day office default and no listed QA openings leave Maine-remote fit uncertain.",
+    "role_families": "SDET; QA leadership; test automation",
+    "ai_red_flags": "Hybrid three days in office; Maine remote eligibility unknown; no QA openings listed.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Senior Vice President of AECO Software",
+    "outreach_notes": "Your C#/.NET automation and hardware-adjacent regulated testing experience maps to Trimble's positioning and ag-tech QA needs; ask about remote flexibility for Maine.",
+    "next_research_action": "No supported job board - check https://www.trimble.com/en/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Senior%20Vice%20President%20of%20AECO%20Software%20Trimble"
+  },
   "ats": {
-    "type": "workday",
-    "token": "trimble|1|TrimbleCareers",
-    "board_url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 218
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.trimble.com/en/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:trimble|1|TrimbleCareers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -149,6 +177,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -178,15 +207,80 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:44-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:trimble|1|TrimbleCareers (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

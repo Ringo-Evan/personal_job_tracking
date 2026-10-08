@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site, manufacturing focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Optics manufacturer with US office; firearms interest aligns, but hardware focus and on-site roles limit remote fit.",
+  "approach_role": "Quality Manager",
+  "company": "Holosun",
+  "company_id": "C851",
+  "fit_score": 3,
+  "interests": "Optics",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%20Holosun",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Quality Lead",
+  "sector": "Firearms",
+  "size_estimate": "Unknown",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

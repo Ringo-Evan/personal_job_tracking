@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/",
+  "career_url": "https://shield.ai/",
+  "company": "Shield AI",
+  "company_id": "C038",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Specialized autonomy work and potentially hardware requirements increase difficulty.",
+  "hiring_difficulty": 4,
+  "interests": "Autonomy, simulation",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "2026 financing/acquisition announcement is expansion evidence, not a hiring guarantee.",
+  "research_status": "Initial research",
+  "role_families": "Software verification; simulation; systems integration",
+  "sector": "Growth technology",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

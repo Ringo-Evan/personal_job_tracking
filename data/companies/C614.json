@@ -5,8 +5,8 @@
     "company": "GitHub (Microsoft)",
     "sector": "Remote-first software",
     "interests": "Remote-first",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.github.careers/careers-home/jobs",
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 5,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "GitHub is remote-first, 500-5k employees, Microsoft-owned; stability high. No state eligibility list published, so Maine remote unknown. No QA openings on board. No people listed. Growth signal: CEO says AI will increase developer hiring. Sources: https://www.github.careers/careers-home/jobs https://www.github.careers/careers-home https://economictimes.indiatimes.com/topic/github-layoffs",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: GitHub describes itself as remote-first, offering remote work and comprehensive benefits; team members are described as a highly distributed workforce. No state-level eligibility list is published.",
+    "benefit_source": "https://economictimes.indiatimes.com/topic/github-layoffs",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://www.github.careers/careers-home/jobs manually",
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "GitHub is a remote-first developer platform (Microsoft-owned) with high stability, but few QA openings and no Maine eligibility info; weak match to medical-device/hardware-adjacent domains.",
+    "ai_red_flags": "No Maine eligibility listed; no current QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20GitHub%20%28Microsoft%29",
+    "outreach_notes": "Your 15 years in test automation and regulated V&V could help GitHub scale quality for developer tools, though I'd confirm Maine remote eligibility first."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.github.careers/careers-home/jobs",
+    "research_notes": "GitHub is remote-first, 500-5k employees, Microsoft-owned; stability high. No state eligibility list published, so Maine remote unknown. No QA openings on board. No people listed. Growth signal: CEO says AI will increase developer hiring. Sources: https://www.github.careers/careers-home/jobs https://www.github.careers/careers-home https://economictimes.indiatimes.com/topic/github-layoffs",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: GitHub describes itself as remote-first, offering remote work and comprehensive benefits; team members are described as a highly distributed workforce. No state-level eligibility list is published.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 5,
+    "benefit_source": "https://economictimes.indiatimes.com/topic/github-layoffs",
+    "fit_score": 3,
+    "ai_summary": "GitHub is a remote-first developer platform (Microsoft-owned) with high stability, but few QA openings and no Maine eligibility info; weak match to medical-device/hardware-adjacent domains.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "No Maine eligibility listed; no current QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 5,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Engineering",
+    "outreach_notes": "Your 15 years in test automation and regulated V&V could help GitHub scale quality for developer tools, though I'd confirm Maine remote eligibility first.",
+    "next_research_action": "No supported job board - check https://www.github.careers/careers-home/jobs manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20GitHub%20%28Microsoft%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.github.careers/careers-home/jobs",
+    "note": "uses icims",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.github.careers/careers-home/jobs",
+    "found": null,
+    "other": [],
+    "careers_page_note": "uses icims"
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -122,6 +161,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -150,16 +190,69 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:12-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.github.careers/careers-home/jobs",
-    "found": null,
-    "other": [],
-    "careers_page_note": "uses icims"
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

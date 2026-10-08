@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site manufacturing; limited remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Ammunition manufacturer; hardware-adjacent quality roles, but mostly on-site manufacturing QA and not remote software testing.",
+  "approach_role": "Director of Quality",
+  "company": "Federal Premium (Kinetic Group)",
+  "company_id": "C847",
+  "fit_score": 2,
+  "interests": "Ammo",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Federal%20Premium%20%28Kinetic%20Group%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer; Software QA Engineer",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

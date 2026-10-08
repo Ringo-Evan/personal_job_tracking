@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Unknown tech footprint; clinic operations focus",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Opioid treatment center operator; healthcare-adjacent mission match, no evidence of in-house product engineering or QA function.",
+  "approach_role": "Director of IT",
+  "company": "Crossroads Treatment Centers",
+  "company_id": "C1098",
+  "fit_score": 2,
+  "interests": "Addiction treatment",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20IT%20Crossroads%20Treatment%20Centers",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; IT Applications Analyst",
+  "sector": "Addiction & recovery",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Defense, aerospace & robotics",
     "interests": "Autonomy; Boston",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA automation; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote U.S. roles open to Maine: Sr QA Automation Test Engineer and Senior Release Engineer. Stability poor: ~550 laid off May 2024, repeated waves. Hyundai's $475M investment gives backing but instability persists. Sources: https://job-boards.greenhouse.io/motional https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/ https://builtin.com/company/motional/faq/work-life-balance-wellbeing",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Hybrid setup with remote regional clusters for many roles; several engineering roles are listed as \"Remote U.S. Only\", so US-remote candidates anywhere in the country, including Maine, can apply.",
+    "benefit_source": "https://career.now/companies/motional",
+    "research_as_of": "2026-10-06",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 4,
+    "stability_score": 2,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Motional develops autonomous driving tech with US-remote roles open to Maine. Sr QA Automation and Senior Release Engineer openings match the candidate's automation and release skills, but recent 40% layoffs signal instability and the domain differs from medical devices.",
+    "ai_red_flags": "Repeated layoffs (40% in 2024), ongoing restructuring, office wind-downs; Hyundai control adds uncertainty.",
+    "ai_scored_at": "2026-10-06",
+    "approach_role": "Director of the high-performance computing team",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20the%20high-performance%20computing%20team%20Motional",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation experience maps directly to Motional's safety-critical autonomy validation and test infrastructure."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Remote U.S. roles open to Maine: Sr QA Automation Test Engineer and Senior Release Engineer. Stability poor: ~550 laid off May 2024, repeated waves. Hyundai's $475M investment gives backing but instability persists. Sources: https://job-boards.greenhouse.io/motional https://techcrunch.com/2024/05/14/motional-cut-about-550-employees-around-40-in-recent-restructuring-sources-say/ https://builtin.com/company/motional/faq/work-life-balance-wellbeing",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-06",
+    "maine_remote": "yes: Hybrid setup with remote regional clusters for many roles; several engineering roles are listed as \"Remote U.S. Only\", so US-remote candidates anywhere in the country, including Maine, can apply.",
+    "remote_likelihood": "High",
+    "stability_score": 2,
+    "benefit_source": "https://career.now/companies/motional",
+    "fit_score": 4,
+    "ai_summary": "Motional develops autonomous driving tech with US-remote roles open to Maine. Sr QA Automation and Senior Release Engineer openings match the candidate's automation and release skills, but recent 40% layoffs signal instability and the domain differs from medical devices.",
+    "role_families": "SDET; QA automation; release engineering",
+    "ai_red_flags": "Repeated layoffs (40% in 2024), ongoing restructuring, office wind-downs; Hyundai control adds uncertainty.",
+    "ai_scored_at": "2026-10-06",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "High",
+    "approach_role": "Director of the high-performance computing team",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent automation experience maps directly to Motional's safety-critical autonomy validation and test infrastructure.",
+    "next_research_action": "Watching greenhouse board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20the%20high-performance%20computing%20team%20Motional"
+  },
   "ats": {
     "type": "greenhouse",
     "token": "motional",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "greenhouse token guessed from name; board name Motional",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://motional.com/careers",
+    "found": "greenhouse:motional (greenhouse token guessed from name)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -171,6 +198,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -200,15 +228,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://motional.com/careers",
-    "found": "greenhouse:motional (greenhouse token guessed from name)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

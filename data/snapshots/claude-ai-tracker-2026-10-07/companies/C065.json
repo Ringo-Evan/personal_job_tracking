@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://careers.idexx.com/us/en/software",
+  "career_url": "https://careers.idexx.com/us/en/software",
+  "company": "IDEXX",
+  "company_id": "C065",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Strong software-quality transfer; veterinary domain and management coding depth need checking.",
+  "hiring_difficulty": 3,
+  "interests": "Animal health, diagnostics, Maine employer",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Many roles serve companion-animal veterinary care rather than farm livestock.",
+  "research_status": "Initial research",
+  "role_families": "SaaS QA; diagnostic-device software; leadership",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

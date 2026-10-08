@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "QA roles likely internal IT; remote unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Global aid NGO; food access match, but software QA roles uncertain and not core.",
+  "approach_role": "Director of Engineering",
+  "company": "Mercy Corps",
+  "company_id": "C1052",
+  "fit_score": 3,
+  "interests": "Global aid",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Mercy%20Corps",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer; Quality Lead",
+  "sector": "Food access",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:35Z",
+  "updated_by": "pipeline"
+}

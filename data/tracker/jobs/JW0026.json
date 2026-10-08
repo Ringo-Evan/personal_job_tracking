@@ -1,0 +1,22 @@
+{
+  "company": "Becton Dickinson",
+  "company_id": "C273",
+  "current_stage": "Lead",
+  "date_discovered": "2026-10-08",
+  "fit_notes": "Maine listed as eligible remote location; confirm remote-from-Maine and which automation stack (C#/.NET?) plus onshore/offshore vendor coordination load. location mentions Maine area: USA - Maine",
+  "highest_stage": "None",
+  "job_id": "JW0026",
+  "job_title": "Lead QA Engineer",
+  "last_checked": "2026-10-08",
+  "listing_evidence": "Verified live",
+  "location": "USA FL - Stuart Airport Road; USA - Arkansas; USA - Connecticut; USA - Delaware; USA - Florida; USA - Illinois; USA - Indiana; USA - Iowa; USA - Kansas; USA - Kentucky; USA - Louisiana; USA - Maine; USA - Maryland; USA - Massachusetts; USA - Michigan; USA - Minnesota; USA - Mississippi; USA - Missouri; USA - Ohio; USA - Oklahoma; USA - Pennsylvania; USA - Tennessee; USA - Texas; USA - Vermont; USA - Virginia; USA - Alabama (Remote)",
+  "maine_eligible": "Yes",
+  "next_action": "Review and apply",
+  "posting_url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-FL---Stuart-Airport-Road/Lead-QA-Engineer_R-552883-1",
+  "skill_match": 4,
+  "source_url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA",
+  "track": "QA leadership",
+  "updated_at": "2026-10-08T07:45:35Z",
+  "updated_by": "pipeline",
+  "work_mode": "Remote"
+}

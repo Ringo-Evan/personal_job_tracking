@@ -1,0 +1,22 @@
+{
+  "company": "Kaseya (Datto)",
+  "company_id": "C400",
+  "current_stage": "Lead",
+  "date_discovered": "2026-10-06",
+  "fit_notes": "Check production C#/.NET systems coding, Win32/WMI/services, cross-platform agent depth; role rejects pure QA-automation profiles. Confirm US-remote includes Maine. remote but tied to FL, check Maine eligibility: Miami, FL (United States - Remote)",
+  "highest_stage": "None",
+  "job_id": "JW0005",
+  "job_title": "Endpoint Agent – Senior Staff Software Development Engineer in Test",
+  "last_checked": "2026-10-07",
+  "listing_evidence": "Verified live",
+  "location": "Miami, FL (United States - Remote)",
+  "maine_eligible": "Yes",
+  "next_action": "Review and apply",
+  "posting_url": "https://www.kaseya.com/careers/jobs/id/6206685004/?gh_jid=6206685004",
+  "skill_match": 3,
+  "source_url": "https://www.kaseya.com/careers/jobs/id/6206685004/?gh_jid=6206685004",
+  "track": "SDE pivot",
+  "updated_at": "2026-10-08T07:45:35Z",
+  "updated_by": "pipeline",
+  "work_mode": "Remote"
+}

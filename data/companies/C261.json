@@ -5,8 +5,8 @@
     "company": "Philips (Bedford MA)",
     "sector": "Regulated healthtech",
     "interests": "Patient monitoring software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.careers.philips.com/global/en",
+    "role_families": "SDET / test automation; Medical device QA & V&V engineering; Release / quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Philips Bedford MA is hybrid: minimum three days on-site weekly, Maine eligibility unknown; no QA openings or contacts listed. 5k+ employees, but a three-year restructuring with ~10,000 layoffs, respiratory recalls and an FDA consent decree barring certain US sales. Domain fit is strong; location and stability are the constraints. Sources: https://www.careers.philips.com/global/en https://www.careers.philips.com/in/en/blogarticle/defining-the-future-of-work-at-philips-our-journey-to-hybrid https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model: three role categories (on-site, mobile, hybrid); hybrid roles spend at least three days a week in the office and up to two days at home.",
+    "benefit_source": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Philips makes patient monitoring and regulated healthtech software. The candidate's FDA V&V and design-controls background fits the domain strongly, but hybrid roles require three days on-site in Bedford, Massachusetts, ruling out Downeast Maine.",
+    "ai_red_flags": "Hybrid requires three days on-site in Bedford MA; Maine remote eligibility unconfirmed. 10,000-job restructuring, FDA consent decree, declining connected-care revenue.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering, Patient Monitoring",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%2C%20Patient%20Monitoring%20Philips%20%28Bedford%20MA%29",
+    "outreach_notes": "I've tested FDA-regulated, patient-monitoring-adjacent devices under design controls using C#/.NET automation; if any quality engineering role allows remote or Maine-based work, I'd welcome a conversation."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.careers.philips.com/global/en",
+    "research_notes": "Philips Bedford MA is hybrid: minimum three days on-site weekly, Maine eligibility unknown; no QA openings or contacts listed. 5k+ employees, but a three-year restructuring with ~10,000 layoffs, respiratory recalls and an FDA consent decree barring certain US sales. Domain fit is strong; location and stability are the constraints. Sources: https://www.careers.philips.com/global/en https://www.careers.philips.com/in/en/blogarticle/defining-the-future-of-work-at-philips-our-journey-to-hybrid https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid model: three role categories (on-site, mobile, hybrid); hybrid roles spend at least three days a week in the office and up to two days at home.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://www.medtechdive.com/news/philips-layoffs-pennsylvania-manufacturing/719547/",
+    "fit_score": 2,
+    "ai_summary": "Philips makes patient monitoring and regulated healthtech software. The candidate's FDA V&V and design-controls background fits the domain strongly, but hybrid roles require three days on-site in Bedford, Massachusetts, ruling out Downeast Maine.",
+    "role_families": "SDET / test automation; Medical device QA & V&V engineering; Release / quality engineering",
+    "ai_red_flags": "Hybrid requires three days on-site in Bedford MA; Maine remote eligibility unconfirmed. 10,000-job restructuring, FDA consent decree, declining connected-care revenue.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering, Patient Monitoring",
+    "outreach_notes": "I've tested FDA-regulated, patient-monitoring-adjacent devices under design controls using C#/.NET automation; if any quality engineering role allows remote or Maine-based work, I'd welcome a conversation.",
+    "next_research_action": "No supported job board - check https://www.careers.philips.com/global/en manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%2C%20Patient%20Monitoring%20Philips%20%28Bedford%20MA%29"
+  },
   "ats": {
-    "type": "workday",
-    "token": "philips|3|jobs-and-careers",
-    "board_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 842
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.careers.philips.com/global/en",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:philips|3|jobs-and-careers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -162,6 +190,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -191,15 +220,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:54-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:philips|3|jobs-and-careers (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

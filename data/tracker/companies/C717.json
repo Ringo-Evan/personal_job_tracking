@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Tabletop only; no software QA.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Board game publisher under Asmodee; tabletop-only, no software QA roles apparent.",
+  "approach_role": "Operations Manager",
+  "company": "Z-Man Games",
+  "company_id": "C717",
+  "fit_score": 1,
+  "interests": "Board games",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Manager%20Z-Man%20Games",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Playtesting/QA; Production QA; Customer Support",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

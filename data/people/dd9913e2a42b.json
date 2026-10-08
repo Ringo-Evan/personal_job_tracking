@@ -7,6 +7,14 @@
   "source_url": "https://www.geotab.com/blog/quality-assurance-testing-vehicle-gps-devices/",
   "why_approach": "Production and Quality Manager at Geotab. Fifteen years of C#/.NET test automation in regulated, hardware-adjacent systems maps well onto Geotab's telematics firmware and platform QA needs.",
   "first_seen": "2026-10-05",
-  "person_id": null,
-  "exported": {}
+  "person_id": "PA0038",
+  "exported": {
+    "name": "Marc Christelis",
+    "company": "Geotab",
+    "title": "Production and Quality Manager",
+    "source_url": "https://www.geotab.com/blog/quality-assurance-testing-vehicle-gps-devices/",
+    "why_approach": "Production and Quality Manager at Geotab. Fifteen years of C#/.NET test automation in regulated, hardware-adjacent systems maps well onto Geotab's telematics firmware and platform QA needs.",
+    "company_id": "C219"
+  },
+  "first_exported": "2026-10-07"
 }

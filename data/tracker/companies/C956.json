@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Denver HQ; verify Maine eligibility",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Smart irrigation IoT for homes; connected-device and app testing fits hardware-adjacent background, established brand with some remote roles.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Rachio",
+  "company_id": "C956",
+  "fit_score": 3,
+  "interests": "Smart irrigation IoT",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Rachio",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

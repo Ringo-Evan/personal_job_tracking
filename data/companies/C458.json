@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "State portals",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA/test engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: NIC is Tyler's govtech/state-portal arm. Remote permitted only with prior approval, hardware issues require main-campus presence, Maine eligibility unstated. No size, stability signals, QA openings or named people were verified, so treat stability and hiring difficulty as general-knowledge estimates for a large profitable public company. Sources: https://nic.teamdynamix.com/TDClient/1783/Portal/KB/Article/102351/Guidelines-for-NIC-employees-who-have-received-approval-to-use-NIC-hardware-to-work-remotely",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "unknown: Remote work is permitted only for employees with prior approval; hardware problems must be resolved by coming to main campus.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board found",
+    "fit_score": 2,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "NIC builds state government portals (DMV, licensing, benefits) for Tyler Technologies. Govtech domains are adjacent to the candidate's regulated, compliance-heavy testing background, but remote work needs prior approval and Maine eligibility is unverified, so fit is uncertain.",
+    "ai_red_flags": "Remote only with prior approval; campus visits required for hardware problems; Maine eligibility unknown; no verified QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Assurance (no named leader in verified facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28no%20named%20leader%20in%20verified%20facts%29%20NIC%20%28Tyler%29",
+    "outreach_notes": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps well to testing high-stakes state portal transactions and compliance workflows."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,34 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Verified: NIC is Tyler's govtech/state-portal arm. Remote permitted only with prior approval, hardware issues require main-campus presence, Maine eligibility unstated. No size, stability signals, QA openings or named people were verified, so treat stability and hiring difficulty as general-knowledge estimates for a large profitable public company. Sources: https://nic.teamdynamix.com/TDClient/1783/Portal/KB/Article/102351/Guidelines-for-NIC-employees-who-have-received-approval-to-use-NIC-hardware-to-work-remotely",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Remote work is permitted only for employees with prior approval; hardware problems must be resolved by coming to main campus.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "fit_score": 2,
+    "ai_summary": "NIC builds state government portals (DMV, licensing, benefits) for Tyler Technologies. Govtech domains are adjacent to the candidate's regulated, compliance-heavy testing background, but remote work needs prior approval and Maine eligibility is unverified, so fit is uncertain.",
+    "role_families": "SDET; QA/test engineering; release engineering",
+    "ai_red_flags": "Remote only with prior approval; campus visits required for hardware problems; Maine eligibility unknown; no verified QA openings.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Assurance (no named leader in verified facts)",
+    "outreach_notes": "Fifteen years of C#/.NET automation plus FDA-regulated V&V and design-controls experience maps well to testing high-stakes state portal transactions and compliance workflows.",
+    "next_research_action": "No supported job board found",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%20%28no%20named%20leader%20in%20verified%20facts%29%20NIC%20%28Tyler%29"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 24,
+    "careers_page": "https://www.nic.org/about-nic/careers-at-nic/",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 5,
@@ -112,6 +138,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -133,8 +160,62 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

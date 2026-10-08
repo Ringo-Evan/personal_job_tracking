@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small tech team; donor-funded",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Nonprofit resettling LGBTQ refugees; mission strongly aligns, but technology team is small and QA roles are rare.",
+  "approach_role": "Director of Technology",
+  "company": "Rainbow Railroad",
+  "company_id": "C1101",
+  "fit_score": 2,
+  "interests": "LGBTQ refugees",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Technology%20Rainbow%20Railroad",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Software Engineer",
+  "sector": "LGBTQ",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}

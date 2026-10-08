@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Startup funding risk; narrow QA scope.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Fiction-publishing startup running writing contests; fantasy-fiction affinity, but small product team with minimal QA and startup funding risk.",
+  "approach_role": "CTO",
+  "company": "Inkitt",
+  "company_id": "C759",
+  "fit_score": 2,
+  "interests": "Fiction platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20Inkitt",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Books, history & media",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:25Z",
+  "updated_by": "pipeline"
+}

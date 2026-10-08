@@ -3,7 +3,7 @@
   "tracker": {
     "company_id": "C098",
     "company": "Unum",
-    "sector": "Maine employers",
+    "sector": "Maine & New England",
     "interests": "Portland ME tech hub; C# test engineering",
     "career_url": "https://www.unum.com/careers",
     "role_families": "Test engineer; senior test engineer; SDET",
@@ -55,8 +55,10 @@
     "note": "",
     "job_count": 70
   },
+  "discovery": null,
   "triage": null,
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -84,6 +86,13 @@
         "ats.confirmed",
         "ats.job_count",
         "ats.note"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:29:49-04:00",
+      "stage": "ingest",
+      "changed": [
+        "sector"
       ]
     }
   ],

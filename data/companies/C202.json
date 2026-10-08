@@ -5,8 +5,8 @@
     "company": "Avery Dennison Smartrac",
     "sector": "IoT / location tech",
     "interests": "RFID inlays; atma.io platform",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html",
+    "role_families": "QA engineering; test automation / SDET; quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Avery Dennison acquired Smartrac's RFID inlay business; atma.io is its connected-product platform. Facts show no job board, ATS, remote policy, size, or QA openings; only one Quality Engineer is listed. Stability rests on Avery Dennison's scale, but Maine-remote eligibility is unverified. Sources: https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching smartrecruiters board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Avery Dennison Smartrac makes RFID inlays and the atma.io connected-product platform, matching the candidate's RFID/indoor-location interest and hardware-adjacent testing background; but no QA openings, remote policy, or Maine-linked site are verified.",
+    "ai_red_flags": "No QA openings, remote policy, ATS or Maine site verified; one Quality Engineer listed, no senior QA leader.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Quality Engineering Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Engineering%20Manager%20Avery%20Dennison%20Smartrac",
+    "outreach_notes": "Your RFID/indoor-location interest plus 15 years automating tests in hardware-adjacent, regulated domains maps directly to inlay and atma.io quality work — happy to help scale Smartrac's test tooling."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html",
+    "research_notes": "Avery Dennison acquired Smartrac's RFID inlay business; atma.io is its connected-product platform. Facts show no job board, ATS, remote policy, size, or QA openings; only one Quality Engineer is listed. Stability rests on Avery Dennison's scale, but Maine-remote eligibility is unverified. Sources: https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 4,
+    "benefit_source": "https://rfid.averydennison.com/en/home/news-insights/press-releases/avery-dennison-to-acquire-smartracs-rfid-inlay-business.html",
+    "fit_score": 3,
+    "ai_summary": "Avery Dennison Smartrac makes RFID inlays and the atma.io connected-product platform, matching the candidate's RFID/indoor-location interest and hardware-adjacent testing background; but no QA openings, remote policy, or Maine-linked site are verified.",
+    "role_families": "QA engineering; test automation / SDET; quality engineering leadership",
+    "ai_red_flags": "No QA openings, remote policy, ATS or Maine site verified; one Quality Engineer listed, no senior QA leader.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Quality Engineering Manager",
+    "outreach_notes": "Your RFID/indoor-location interest plus 15 years automating tests in hardware-adjacent, regulated domains maps directly to inlay and atma.io quality work — happy to help scale Smartrac's test tooling.",
+    "next_research_action": "Watching smartrecruiters board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Engineering%20Manager%20Avery%20Dennison%20Smartrac"
+  },
   "ats": {
     "type": "smartrecruiters",
     "token": "AveryDennison",
     "board_url": "https://careers.smartrecruiters.com/AveryDennison",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "embedded in https://www.averydennison.com/en/home/careers/search-jobs.html",
-    "job_count": 472
+    "source": "https://www.averydennison.com/en/home/careers/employee-stories/arnela-hodzic-isakovic.html",
+    "note": "",
+    "job_count": 492
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.averydennison.com/en/home/careers/search-jobs.html",
+    "found": "smartrecruiters:AveryDennison (embedded in https://www.averydennison.com/en/home/careers/search-jobs.html)",
+    "other": []
   },
   "triage": {
     "fit": 5,
@@ -136,6 +164,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -165,15 +194,69 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:42-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.averydennison.com/en/home/careers/search-jobs.html",
-    "found": "smartrecruiters:AveryDennison (embedded in https://www.averydennison.com/en/home/careers/search-jobs.html)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

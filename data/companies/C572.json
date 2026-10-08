@@ -5,8 +5,8 @@
     "company": "Supabase",
     "sector": "Remote-first software",
     "interests": "Remote",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://supabase.com/careers",
+    "role_families": "Release engineering; SDET; QA engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: fully remote, no offices, Maine-eligible, co-working stipend. Very strong stability: $500M Series F, $150M growth round, acquiring Turso, rapid growth. Only listed opening is Release Engineer (Remote, Global). QA function appears embedded in engineering, so expect a high bar and few senior QA roles. Sources: https://supabase.com/careers https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html https://venturecapitaltracker.com/supabase-turso-acquisition-150m-funding-2026",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Fully remote and globally distributed with no offices; hire worldwide, work asynchronously from anywhere, co-working membership provided.",
+    "benefit_source": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching ashby board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "50-500",
+    "ai_summary": "Supabase is a fully remote, well-funded Postgres backend platform (BaaS). No offices, hires worldwide, so Maine is eligible. Its engineering-run testing culture and single release-engineering opening make senior QA/SDET fits plausible but competitive, and it lacks the candidate's regulated or",
+    "ai_red_flags": "Only one QA-adjacent opening posted; no dedicated QA/test team evident, so testing may sit with product engineers.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Head of Agentic Services",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Agentic%20Services%20Supabase",
+    "outreach_notes": "I bring 15 years of C#/.NET test automation and regulated V&V experience, and I'd apply that rigor to release reliability and verification pipelines for a fast-scaling, agent-driven Postgres platform."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://supabase.com/careers",
+    "research_notes": "Verified: fully remote, no offices, Maine-eligible, co-working stipend. Very strong stability: $500M Series F, $150M growth round, acquiring Turso, rapid growth. Only listed opening is Release Engineer (Remote, Global). QA function appears embedded in engineering, so expect a high bar and few senior QA roles. Sources: https://supabase.com/careers https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html https://venturecapitaltracker.com/supabase-turso-acquisition-150m-funding-2026",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Fully remote and globally distributed with no offices; hire worldwide, work asynchronously from anywhere, co-working membership provided.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+    "fit_score": 3,
+    "ai_summary": "Supabase is a fully remote, well-funded Postgres backend platform (BaaS). No offices, hires worldwide, so Maine is eligible. Its engineering-run testing culture and single release-engineering opening make senior QA/SDET fits plausible but competitive, and it lacks the candidate's regulated or",
+    "role_families": "Release engineering; SDET; QA engineering",
+    "ai_red_flags": "Only one QA-adjacent opening posted; no dedicated QA/test team evident, so testing may sit with product engineers.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "50-500",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "approach_role": "Head of Agentic Services",
+    "outreach_notes": "I bring 15 years of C#/.NET test automation and regulated V&V experience, and I'd apply that rigor to release reliability and verification pipelines for a fast-scaling, agent-driven Postgres platform.",
+    "next_research_action": "Watching ashby board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Agentic%20Services%20Supabase"
+  },
   "ats": {
     "type": "ashby",
     "token": "supabase",
     "board_url": "https://jobs.ashbyhq.com/supabase",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 49
+    "source": "https://supabase.com/careers",
+    "note": "",
+    "job_count": 53
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 6,
+    "careers_page": null,
+    "found": "ashby:supabase (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 2,
@@ -71,7 +99,113 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C572",
+    "career_url": "https://supabase.com/careers",
+    "ats": {
+      "type": "ashby",
+      "token": "supabase",
+      "board_url": "https://jobs.ashbyhq.com/supabase"
+    },
+    "remote_policy": {
+      "summary": "Fully remote and globally distributed with no offices; hire worldwide, work asynchronously from anywhere, co-working membership provided.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://supabase.com/careers"
+    },
+    "stability": {
+      "score": 4,
+      "signals": [
+        {
+          "kind": "funding",
+          "summary": "$150M growth round led by GIC with CapitalG, IronArc and SquarePeg, four months after its $500M Series F.",
+          "date": null,
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Acquiring Turso, a SQLite-compatible database platform for agentic workloads; Turso continues operating inside Supabase.",
+          "date": null,
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+        },
+        {
+          "kind": "funding",
+          "summary": "$500M Series F at $10B pre-money / $10.5B post-money valuation.",
+          "date": "2026-06",
+          "url": "https://venturecapitaltracker.com/supabase-turso-acquisition-150m-funding-2026"
+        },
+        {
+          "kind": "funding",
+          "summary": "$100M Series E raised.",
+          "date": "2025-10",
+          "url": "https://venturecapitaltracker.com/supabase-turso-acquisition-150m-funding-2026"
+        },
+        {
+          "kind": "growth",
+          "summary": "Adding over 1M users and 4M databases monthly, 70% of new databases created by agents or AI tools.",
+          "date": null,
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+        },
+        {
+          "kind": "growth",
+          "summary": "Reported 600% year-over-year increase in databases, with agents deploying most new databases.",
+          "date": null,
+          "url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+        }
+      ]
+    },
+    "size_estimate": "50-500",
+    "fit": {
+      "score": 3,
+      "rationale": "Supabase is a fully remote, well-funded Postgres backend platform (BaaS). No offices, hires worldwide, so Maine is eligible. Its engineering-run testing culture and single release-engineering opening make senior QA/SDET fits plausible but competitive, and it lacks the candidate's regulated or",
+      "role_families": [
+        "Release engineering",
+        "SDET",
+        "QA engineering"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Release Engineer",
+        "location": "Remote, Global",
+        "work_mode": "Remote",
+        "url": "https://jobs.ashbyhq.com/supabase/f6035bf8-4f44-4425-9944-d5509a3c8652"
+      }
+    ],
+    "people": [
+      {
+        "name": "Glauber Costa",
+        "title": "Head of Agentic Services",
+        "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+      }
+    ],
+    "approach_role": "Head of Agentic Services",
+    "outreach_angle": "I bring 15 years of C#/.NET test automation and regulated V&V experience, and I'd apply that rigor to release reliability and verification pipelines for a fast-scaling, agent-driven Postgres platform.",
+    "red_flags": "Only one QA-adjacent opening posted; no dedicated QA/test team evident, so testing may sit with product engineers.",
+    "confidence": "high",
+    "sources": [
+      "https://supabase.com/careers",
+      "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+      "https://venturecapitaltracker.com/supabase-turso-acquisition-150m-funding-2026",
+      "https://4dayweek.io/company/supabase",
+      "https://jobs.ashbyhq.com/supabase",
+      "https://jobs.ashbyhq.com/supabase/f6035bf8-4f44-4425-9944-d5509a3c8652"
+    ],
+    "notes": "Verified: fully remote, no offices, Maine-eligible, co-working stipend. Very strong stability: $500M Series F, $150M growth round, acquiring Turso, rapid growth. Only listed opening is Release Engineer (Remote, Global). QA function appears embedded in engineering, so expect a high bar and few senior QA roles.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 12,
+      "kept": 12,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +228,76 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:05-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 6,
-    "careers_page": null,
-    "found": "ashby:supabase (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

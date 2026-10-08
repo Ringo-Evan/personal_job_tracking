@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "HQ in Wisconsin; onsite/hybrid likely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Midwest farm-and-fleet retail chain; IT QA roles likely onsite at HQ, not remote-friendly for Maine.",
+  "approach_role": "IT QA Manager",
+  "company": "Blain's Farm & Fleet",
+  "company_id": "C971",
+  "fit_score": 2,
+  "interests": "Farm retail",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20QA%20Manager%20Blain%27s%20Farm%20%26%20Fleet",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; Software QA Engineer",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Martial arts & fitness",
     "interests": "Youth sports software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA Engineer; Test Lead",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Medium",
+    "size_estimate": "50-500",
+    "ai_summary": "Youth sports league management software; moderate fit for test automation roles, mid-size company with unconfirmed remote QA hiring.",
+    "ai_red_flags": "Remote policy unconfirmed",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20LeagueApps",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,37 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "research_status": "Initial research",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Medium",
+    "size_estimate": "50-500",
+    "role_families": "SDET; QA Engineer; Test Lead",
+    "approach_role": "VP of Engineering",
+    "ai_summary": "Youth sports league management software; moderate fit for test automation roles, mid-size company with unconfirmed remote QA hiring.",
+    "ai_red_flags": "Remote policy unconfirmed",
+    "ai_scored_at": "2026-10-05",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20LeagueApps"
+  },
+  "ats": {
+    "type": "greenhouse",
+    "token": "leagueapps",
+    "board_url": "https://job-boards.greenhouse.io/leagueapps",
+    "detected_by": "search",
+    "checked_at": "2026-10-07",
+    "confirmed": true,
+    "source": null,
+    "note": "embedded in https://careers.leagueapps.com/; LeagueApps",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 21,
+    "careers_page": "https://careers.leagueapps.com/",
+    "found": "greenhouse:leagueapps (embedded in https://careers.leagueapps.com/)",
+    "other": []
+  },
   "triage": {
     "fit": 3,
     "stability": 3,
@@ -62,6 +91,7 @@
     "at": "2026-10-05"
   },
   "research": null,
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -76,7 +106,49 @@
       "changed": [
         "triage"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery",
+        "ats"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -5,8 +5,8 @@
     "company": "Vanderlande",
     "sector": "IoT / location tech",
     "interests": "Baggage handling systems",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://careers.vanderlande.com/",
+    "role_families": "SDET; test automation; quality engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: US-remote roles exist and Maine is eligible; 5k+ employees; sector listed as IoT/location tech (actual logistics/baggage automation). No job board, ATS, QA openings, or people found. Stability inferred from size and essential infrastructure, not from listed signals. Interest note cites baggage handling systems. Sources: https://careers.vanderlande.com/ https://careers.vanderlande.com/all-jobs/",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote roles available in the United States.",
     "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Vanderlande builds logistics and baggage-handling automation; hardware-adjacent, regulated-adjacent work suits the candidate's V&V background. US-remote open to Maine, but no QA openings verified.",
+    "ai_red_flags": "No verified QA openings, contacts, or stability signals; remote policy summary lacks detail on role types.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Vanderlande",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Vanderlande's baggage-handling and logistics systems; ask about US-remote senior test roles supporting airport and warehouse automation."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,44 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://careers.vanderlande.com/",
+    "research_notes": "Verified: US-remote roles exist and Maine is eligible; 5k+ employees; sector listed as IoT/location tech (actual logistics/baggage automation). No job board, ATS, QA openings, or people found. Stability inferred from size and essential infrastructure, not from listed signals. Interest note cites baggage handling systems. Sources: https://careers.vanderlande.com/ https://careers.vanderlande.com/all-jobs/",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Remote roles available in the United States.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "fit_score": 4,
+    "ai_summary": "Vanderlande builds logistics and baggage-handling automation; hardware-adjacent, regulated-adjacent work suits the candidate's V&V background. US-remote open to Maine, but no QA openings verified.",
+    "role_families": "SDET; test automation; quality engineering",
+    "ai_red_flags": "No verified QA openings, contacts, or stability signals; remote policy summary lacks detail on role types.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and hardware-adjacent test automation experience maps to Vanderlande's baggage-handling and logistics systems; ask about US-remote senior test roles supporting airport and warehouse automation.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Vanderlande"
+  },
   "ats": {
     "type": "workday",
     "token": "vanderlande|3|careers",
     "board_url": "https://vanderlande.wd3.myworkdayjobs.com/careers",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 193
+    "source": "https://careers.vanderlande.com/",
+    "note": "",
+    "job_count": 200
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:vanderlande|3|careers (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -123,6 +150,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -152,15 +180,67 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:30:49-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:vanderlande|3|careers (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Retail-driven; few engineering roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Martial arts gear brand with e-commerce operations; software QA needs are minimal and hardware-adjacent testing unlikely remote.",
+  "approach_role": "Head of Technology",
+  "company": "Hayabusa",
+  "company_id": "C796",
+  "fit_score": 2,
+  "interests": "Martial arts gear",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Technology%20Hayabusa",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer, e-commerce; SDET; QA Analyst",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:26Z",
+  "updated_by": "pipeline"
+}

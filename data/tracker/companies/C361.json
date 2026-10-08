@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Payments; remote availability unknown",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Blackhawk Network is a large payments company owning CashStar; QA roles possible, remote availability unknown.",
+  "approach_role": "Director of QA",
+  "company": "Blackhawk Network",
+  "company_id": "C361",
+  "fit_score": 3,
+  "interests": "Payments; CashStar",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20QA%20Blackhawk%20Network",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Quality Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

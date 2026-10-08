@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://jobs.aa.com/",
+  "career_url": "https://jobs.aa.com/",
+  "company": "American Airlines",
+  "company_id": "C043",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Transferable testing skills; role-specific stack and hub requirements unresolved.",
+  "hiring_difficulty": 3,
+  "interests": "Personal travel benefits",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Employee travel privileges; confirm direct-employee eligibility and companion rules.",
+  "research_status": "Initial research",
+  "role_families": "Quality engineering; enterprise systems; delivery",
+  "sector": "Travel",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

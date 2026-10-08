@@ -1,0 +1,19 @@
+{
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "E-signature SaaS; remote-friendly; QA/SDET plausible but domain unrelated.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "DocuSign",
+  "company_id": "C600",
+  "fit_score": 3,
+  "interests": "E-signature",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20DocuSign",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Manager",
+  "sector": "Remote-first software",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:20Z",
+  "updated_by": "pipeline"
+}

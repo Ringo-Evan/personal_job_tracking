@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Layoff history after SPAC; private ownership now",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Decentralized clinical trials, remote-first culture; regulated testing fit, but SPAC-era losses and layoffs weaken stability.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Science 37",
+  "company_id": "C337",
+  "fit_score": 3,
+  "interests": "Decentralized trials",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Science%2037",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA Engineer; SDET; Test Lead",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

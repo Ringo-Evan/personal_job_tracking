@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Organizing campaign; not software company; labor mission very strong",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Tech worker organizing campaign; strong labor mission fit; remote likely",
+  "approach_role": "Organizing Director",
+  "company": "CODE-CWA",
+  "company_id": "C1018",
+  "fit_score": 2,
+  "interests": "Tech worker union campaign",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Organizing%20Director%20CODE-CWA",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Campaign Organizing; Tech Worker Advocacy; Organizing Staff",
+  "sector": "Labor & organizing",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

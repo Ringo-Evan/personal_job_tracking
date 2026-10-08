@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Formerly Quit Genius; small team, funding dependent.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Substance-use management platform, matching addiction-recovery interest; remote-friendly software QA, though small and venture-funded.",
+  "approach_role": "VP of Engineering",
+  "company": "Pelago",
+  "company_id": "C306",
+  "fit_score": 4,
+  "interests": "Substance use management app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Pelago",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Lead; Test Automation Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:11Z",
+  "updated_by": "pipeline"
+}

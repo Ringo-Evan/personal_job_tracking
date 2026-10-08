@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small company; limited senior QA openings.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Public NoSQL database vendor, remote-friendly; test roles exist at modest scale and .NET SDK is a mild plus.",
+  "approach_role": "QA Engineering Manager",
+  "company": "Couchbase",
+  "company_id": "C618",
+  "fit_score": 3,
+  "interests": "Database",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Engineering%20Manager%20Couchbase",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

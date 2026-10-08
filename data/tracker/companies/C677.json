@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Publisher; QA may be outsourced.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Indie game publisher; QA/quality roles plausible, but publisher QA may be outsourced and remote unclear.",
+  "approach_role": "Head of QA",
+  "company": "Devolver Digital",
+  "company_id": "C677",
+  "fit_score": 3,
+  "interests": "Publisher",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20QA%20Devolver%20Digital",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Lead; Release QA; Test Engineer",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:23Z",
+  "updated_by": "pipeline"
+}

@@ -6,7 +6,7 @@
     "sector": "Games & stories",
     "interests": "Game QA/localization",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior QA Test Engineer; Localization QA Lead; Test Manager",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "5k+",
+    "ai_summary": "Localization and games QA provider with large US remote tester bench; strong match, though work is often project-based.",
+    "ai_red_flags": "Project-based contracts; AI pressure on localization",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Head of Games QA",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Games%20QA%20Lionbridge%20Games",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,37 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "role_families": "Game QA testing; Localization QA; QA test lead",
+    "approach_role": "Test Lead",
+    "ai_summary": "Lionbridge Games is a large localization and game-testing vendor, so it matches the candidate's games interest but its QA work is mostly lab-based junior functional testing in Boise, Mexico City and Warsaw, not senior SDET or QA-leadership roles, and Maine",
+    "ai_red_flags": "Game testing roles sit in Boise, Mexico City and Warsaw labs; remote-from-Maine unclear; openings skew junior and contract.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Lead%20Lionbridge%20Games",
+    "career_url": "https://careers.lionbridge.com/games",
+    "research_notes": "Lionbridge: 25-year-old localization firm, 5k+ staff, 25 studios/labs; flexible remote/hybrid/on-site framing but tester roles are lab-based, so Maine eligibility is unknown. Only visible QA opening is a Compliance QA Game Tester. Growth is in tester headcount, not senior test engineering. Sources: https://careers.lionbridge.com/games https://www.lionbridge.com/join-our-team/ https://games.lionbridge.com/careers/featured-jobs/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Flexible work arrangements described as remote, hybrid, or on-site; game testing roles are based in labs in Boise, Mexico City and Warsaw.",
+    "benefit_source": "https://games.lionbridge.com/careers/featured-jobs/",
+    "hiring_difficulty": 2,
+    "estimate_confidence": "Medium",
+    "outreach_notes": "Your FDA-regulated V&V and automation background maps to Lionbridge's compliance QA game testing, and your 15 years could lift their lab QA practice beyond functional testing.",
+    "next_research_action": "No supported job board - check https://careers.lionbridge.com/games manually"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://careers.lionbridge.com/games",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 3,
@@ -61,7 +90,99 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C651",
+    "career_url": "https://careers.lionbridge.com/games",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Flexible work arrangements described as remote, hybrid, or on-site; game testing roles are based in labs in Boise, Mexico City and Warsaw.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.lionbridge.com/join-our-team/"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "growth",
+          "summary": "Lionbridge Games is adding hundreds of game testers to its testing labs in Boise, Mexico City and Warsaw.",
+          "date": null,
+          "url": "https://games.lionbridge.com/careers/featured-jobs/"
+        },
+        {
+          "kind": "other",
+          "summary": "25-year-old localization company consistently ranked by Forbes as a leading employer for Diversity and Women.",
+          "date": null,
+          "url": "https://careers.lionbridge.com/"
+        },
+        {
+          "kind": "other",
+          "summary": "Thousands of team members support 25 studios and labs globally.",
+          "date": null,
+          "url": "https://careers.lionbridge.com/games"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 2,
+      "rationale": "Lionbridge Games is a large localization and game-testing vendor, so it matches the candidate's games interest but its QA work is mostly lab-based junior functional testing in Boise, Mexico City and Warsaw, not senior SDET or QA-leadership roles, and Maine",
+      "role_families": [
+        "Game QA testing",
+        "Localization QA",
+        "QA test lead"
+      ]
+    },
+    "hiring_difficulty": 2,
+    "qa_openings": [
+      {
+        "title": "Compliance QA Game Tester (online recruitment process)",
+        "location": "Unknown",
+        "work_mode": "Unknown",
+        "url": "https://careers.lionbridge.com/jobs/compliance-qa-game-tester-online-recruitment-process"
+      }
+    ],
+    "people": [
+      {
+        "name": "Aubrey Balfour",
+        "title": "Test Lead",
+        "source_url": "https://games.lionbridge.com/careers/featured-jobs/"
+      },
+      {
+        "name": "Jesus Ruelas",
+        "title": "Test Lead",
+        "source_url": "https://games.lionbridge.com/careers/featured-jobs/"
+      }
+    ],
+    "approach_role": "Test Lead",
+    "outreach_angle": "Your FDA-regulated V&V and automation background maps to Lionbridge's compliance QA game testing, and your 15 years could lift their lab QA practice beyond functional testing.",
+    "red_flags": "Game testing roles sit in Boise, Mexico City and Warsaw labs; remote-from-Maine unclear; openings skew junior and contract.",
+    "confidence": "medium",
+    "sources": [
+      "https://careers.lionbridge.com/games",
+      "https://www.lionbridge.com/join-our-team/",
+      "https://games.lionbridge.com/careers/featured-jobs/",
+      "https://careers.lionbridge.com/",
+      "https://careers.lionbridge.com/jobs/compliance-qa-game-tester-online-recruitment-process"
+    ],
+    "notes": "Lionbridge: 25-year-old localization firm, 5k+ staff, 25 studios/labs; flexible remote/hybrid/on-site framing but tester roles are lab-based, so Maine eligibility is unknown. Only visible QA opening is a Compliance QA Game Tester. Growth is in tester headcount, not senior test engineering.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 10,
+      "kept": 10,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +204,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://careers.lionbridge.com/games",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

@@ -74,7 +74,21 @@
         "ats.source",
         "ats.type"
       ]
+    },
+    {
+      "at": "2026-10-07T11:21:39-04:00",
+      "stage": "discover",
+      "changed": [
+        "discovery"
+      ]
     }
   ],
-  "last_exported_at": null
+  "last_exported_at": null,
+  "discovery": {
+    "at": "2026-10-07",
+    "results": 22,
+    "careers_page": "https://careers.royalcaribbeangroup.com/",
+    "found": null,
+    "other": []
+  }
 }

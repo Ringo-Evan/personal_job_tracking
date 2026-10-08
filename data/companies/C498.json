@@ -5,8 +5,8 @@
     "company": "Alkami",
     "sector": "Enterprise & govtech",
     "interests": "Digital banking; .NET",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.alkami.com/careers/",
+    "role_families": "SDET; QA leadership; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote-first, most US roles open to Maine residents. .NET/C# stack; fintech domain rather than a stated interest sector, but regulated-testing skills transfer. Workday ATS (alkami|12|Alkami); no QA reqs posted and no named QA leaders found, so outreach must be cold to engineering leadership. Sources: https://www.alkami.com/careers/ https://www.remotesource.com/jobs/UvYGwhH4iq7PiTYcdff1d-technical-engineering-manager-at-alkami https://builtin.com/company/alkami/faq/workplace-perception",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-first company; most US positions can be remote in the US, except key roles indicated in the job title.",
+    "benefit_source": "https://www.alkami.com/careers/",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "Watching workday board",
+    "fit_score": 4,
+    "stability_score": 3,
+    "remote_likelihood": "High",
+    "size_estimate": "Unknown",
+    "ai_summary": "Alkami sells a .NET-based digital banking platform, remote-first with US roles open to Maine. Its regulated fintech engineering and C# stack suit a senior test automation engineer, though no QA openings are currently posted and stability signals are mixed.",
+    "ai_red_flags": "Reported layoffs and MANTL acquisition integration driving change fatigue; no QA openings listed on the board.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Alkami",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps directly to testing a regulated .NET banking platform, where automation rigor, audit trails and release confidence are core."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.alkami.com/careers/",
+    "research_notes": "Remote-first, most US roles open to Maine residents. .NET/C# stack; fintech domain rather than a stated interest sector, but regulated-testing skills transfer. Workday ATS (alkami|12|Alkami); no QA reqs posted and no named QA leaders found, so outreach must be cold to engineering leadership. Sources: https://www.alkami.com/careers/ https://www.remotesource.com/jobs/UvYGwhH4iq7PiTYcdff1d-technical-engineering-manager-at-alkami https://builtin.com/company/alkami/faq/workplace-perception",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "yes: Remote-first company; most US positions can be remote in the US, except key roles indicated in the job title.",
+    "remote_likelihood": "High",
+    "stability_score": 3,
+    "benefit_source": "https://www.alkami.com/careers/",
+    "fit_score": 4,
+    "ai_summary": "Alkami sells a .NET-based digital banking platform, remote-first with US roles open to Maine. Its regulated fintech engineering and C# stack suit a senior test automation engineer, though no QA openings are currently posted and stability signals are mixed.",
+    "role_families": "SDET; QA leadership; release engineering",
+    "ai_red_flags": "Reported layoffs and MANTL acquisition integration driving change fatigue; no QA openings listed on the board.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls background maps directly to testing a regulated .NET banking platform, where automation rigor, audit trails and release confidence are core.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Alkami"
+  },
   "ats": {
     "type": "workday",
     "token": "alkami|12|Alkami",
     "board_url": "https://alkami.wd12.myworkdayjobs.com/Alkami",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
     "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 62
+    "source": "https://www.alkami.com/careers/",
+    "note": "",
+    "job_count": 60
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:alkami|12|Alkami (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,87 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C498",
+    "career_url": "https://www.alkami.com/careers/",
+    "ats": {
+      "type": "workday",
+      "token": "alkami|12|Alkami",
+      "board_url": "https://alkami.wd12.myworkdayjobs.com/Alkami"
+    },
+    "remote_policy": {
+      "summary": "Remote-first company; most US positions can be remote in the US, except key roles indicated in the job title.",
+      "maine_eligible": "yes",
+      "evidence_url": "https://www.remotesource.com/jobs/UvYGwhH4iq7PiTYcdff1d-technical-engineering-manager-at-alkami"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "acquisition",
+          "summary": "2025 MANTL acquisition and continued integration program blending cultures and reshaping processes.",
+          "date": null,
+          "url": "https://builtin.com/company/alkami/faq/workplace-perception"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Reported layoffs, acquisition integration and leadership changes tied to heavier workload and change fatigue.",
+          "date": null,
+          "url": "https://builtin.com/company/alkami/faq/work-life-balance-wellbeing"
+        },
+        {
+          "kind": "growth",
+          "summary": "Alkami presents itself as one of the fastest growing SaaS companies in the U.S.",
+          "date": null,
+          "url": "https://www.alkami.com/careers/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Platform scale: more than 5,000 users added to the Alkami Platform daily.",
+          "date": null,
+          "url": "https://www.alkami.com/build-with-us/"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 4,
+      "rationale": "Alkami sells a .NET-based digital banking platform, remote-first with US roles open to Maine. Its regulated fintech engineering and C# stack suit a senior test automation engineer, though no QA openings are currently posted and stability signals are mixed.",
+      "role_families": [
+        "SDET",
+        "QA leadership",
+        "release engineering"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls background maps directly to testing a regulated .NET banking platform, where automation rigor, audit trails and release confidence are core.",
+    "red_flags": "Reported layoffs and MANTL acquisition integration driving change fatigue; no QA openings listed on the board.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.alkami.com/careers/",
+      "https://www.remotesource.com/jobs/UvYGwhH4iq7PiTYcdff1d-technical-engineering-manager-at-alkami",
+      "https://builtin.com/company/alkami/faq/workplace-perception",
+      "https://builtin.com/company/alkami/faq/work-life-balance-wellbeing",
+      "https://www.alkami.com/build-with-us/"
+    ],
+    "notes": "Remote-first, most US roles open to Maine residents. .NET/C# stack; fintech domain rather than a stated interest sector, but regulated-testing skills transfer. Workday ATS (alkami|12|Alkami); no QA reqs posted and no named QA leaders found, so outreach must be cold to engineering leadership.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +202,76 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:32:00-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:alkami|12|Alkami (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Bar Harbor; commutable; limited QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Bar Harbor Bank & Trust is a local bank near candidate; commutable, but senior QA roles limited.",
+  "approach_role": "IT Manager",
+  "company": "Bar Harbor Bank & Trust",
+  "company_id": "C367",
+  "fit_score": 3,
+  "interests": "Bar Harbor ME",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Manager%20Bar%20Harbor%20Bank%20%26%20Trust",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; IT QA",
+  "sector": "Maine & New England",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:13Z",
+  "updated_by": "pipeline"
+}

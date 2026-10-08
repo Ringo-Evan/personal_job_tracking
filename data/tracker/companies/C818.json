@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Australia-based; US-remote unlikely",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Australian martial arts and gym software vendor; strong niche interest match but AU base makes US-remote test roles unlikely.",
+  "approach_role": "Head of Engineering",
+  "company": "Clubworx",
+  "company_id": "C818",
+  "fit_score": 2,
+  "interests": "Martial arts software (AU)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Clubworx",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

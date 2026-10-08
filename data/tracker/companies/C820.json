@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "No software QA roles",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maker of medieval armor and buhurt gear; hobby interest match but a manufacturer, not an employer of senior test engineers.",
+  "approach_role": "Operations Manager",
+  "company": "Armstreet",
+  "company_id": "C820",
+  "fit_score": 1,
+  "interests": "Medieval armor maker (buhurt)",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20Manager%20Armstreet",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "E-commerce/IT support",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "<50",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

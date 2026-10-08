@@ -1,0 +1,19 @@
+{
+  "benefit_source": "https://www.remoterocketship.com/company/athenahealth/",
+  "career_url": "https://careers.athenahealth.com/us/en/remote",
+  "company": "athenahealth",
+  "company_id": "C075",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Maine presence and Maine-remote listings; QA teams building AI testing agents.",
+  "hiring_difficulty": 3,
+  "interests": "Healthcare IT; Belfast, ME site",
+  "maine_remote": "Maine-remote on some listings",
+  "next_research_action": "Filter careers site to US + remote + QA",
+  "research_as_of": "2026-09-30",
+  "research_notes": "Some listings show 'Maine - Remote'. SMTS automation role uses Playwright + Claude/Codex agents; location unconfirmed.",
+  "research_status": "Initial research",
+  "role_families": "Automation engineer (MTS/SMTS); QA leadership",
+  "sector": "Regulated healthtech",
+  "updated_at": "2026-09-30T12:00:00Z",
+  "updated_by": "Claude"
+}

@@ -1,0 +1,19 @@
+{
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first social media management; web app QA, no regulated/hardware; moderate fit.",
+  "approach_role": "Head of Engineering",
+  "company": "Buffer",
+  "company_id": "C551",
+  "fit_score": 3,
+  "interests": "Fully remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Buffer",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "50-500",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

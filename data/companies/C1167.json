@@ -6,7 +6,7 @@
     "sector": "Defense, aerospace & robotics",
     "interests": "Space",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Test Engineer; Integration & Test Engineer; SDET",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "ai_summary": "Space company with large integration-and-test organizations fitting candidate's hardware-adjacent testing; roles onsite, remote unlikely.",
+    "ai_red_flags": "Onsite only; relocation likely required",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Manager, Test Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Manager%2C%20Test%20Engineering%20Blue%20Origin",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 1,
+    "stability_score": 3,
+    "remote_likelihood": "Low",
+    "size_estimate": "5k+",
+    "role_families": "Quality engineering; Test engineering; Integration & test (AI&T)",
+    "approach_role": "SVP of Operations",
+    "ai_summary": "Blue Origin builds reusable launch vehicles and engines, so hardware-adjacent V&V and test-automation skills transfer. But it is explicitly a five-day in-office employer with no Maine-eligible remote roles, and the nearest sites are Florida, Alabama and Washington.",
+    "ai_red_flags": "No remote work; Maine-ineligible. Cut ~10% of staff (1,000+ roles) including engineering and management layers.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=SVP%20of%20Operations%20Blue%20Origin",
+    "career_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin",
+    "research_notes": "Verified: \"work-from-work\" culture, in-office five days, no remote roles, Maine not eligible. Recent 10% layoff across engineering, R&D and PM, despite ~$10B launch backlog and plans to hire hundreds in 2025. QA openings are quality/test roles but US-wide with unknown work mode; named sites are FL and AL. Sources: https://blueorigin.wd5.myworkdayjobs.com/blueorigin https://www.businessinsider.com/jeff-bezos-blue-origin-tightens-rto-policy-work-from-work-2023-8 https://fortune.com/2025/02/14/jeff-bezos-backed-blue-origin-cut-10-percent-workforce/",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "no: In-office five days a week; the company calls itself \"a work-from-work company\" and says designing and building hardware requires hands-on, in-person work. No remote roles stated.",
+    "benefit_source": "https://fortune.com/2025/02/14/jeff-bezos-backed-blue-origin-cut-10-percent-workforce/",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "High",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls discipline maps to launch-vehicle integration and test work; I'd ask whether any quality or test-automation role could be based remotely or out of a Northeast site.",
+    "next_research_action": "Watching workday board"
+  },
   "ats": {
     "type": "workday",
     "token": "blueorigin|5|blueorigin",
@@ -54,6 +75,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 1782
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:blueorigin|5|blueorigin (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -71,7 +99,124 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1167",
+    "career_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin",
+    "ats": {
+      "type": "workday",
+      "token": "blueorigin|5|blueorigin",
+      "board_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin"
+    },
+    "remote_policy": {
+      "summary": "In-office five days a week; the company calls itself \"a work-from-work company\" and says designing and building hardware requires hands-on, in-person work. No remote roles stated.",
+      "maine_eligible": "no",
+      "evidence_url": "https://www.businessinsider.com/jeff-bezos-blue-origin-tightens-rto-policy-work-from-work-2023-8"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Cut about 10% of workforce (over 1,000 roles), eliminating engineering, R&D and project management positions and management layers.",
+          "date": null,
+          "url": "https://fortune.com/2025/02/14/jeff-bezos-backed-blue-origin-cut-10-percent-workforce/"
+        },
+        {
+          "kind": "growth",
+          "summary": "CEO said the company would still hire hundreds of people in 2025 despite the layoffs.",
+          "date": null,
+          "url": "https://spacenews.com/blue-origin-to-lay-off-10-of-its-workforce/"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Backlog of roughly $10 billion worth of launch contracts to clear.",
+          "date": null,
+          "url": "https://fortune.com/2025/02/14/jeff-bezos-backed-blue-origin-cut-10-percent-workforce/"
+        },
+        {
+          "kind": "growth",
+          "summary": "Aggregator tracked 84 Blue Origin openings posted in the prior 45 days.",
+          "date": null,
+          "url": "https://reach.jobs/companies/blue-origin"
+        }
+      ]
+    },
+    "size_estimate": "5k+",
+    "fit": {
+      "score": 1,
+      "rationale": "Blue Origin builds reusable launch vehicles and engines, so hardware-adjacent V&V and test-automation skills transfer. But it is explicitly a five-day in-office employer with no Maine-eligible remote roles, and the nearest sites are Florida, Alabama and Washington.",
+      "role_families": [
+        "Quality engineering",
+        "Test engineering",
+        "Integration & test (AI&T)"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [
+      {
+        "title": "Engineer - Quality",
+        "location": "US",
+        "work_mode": "Unknown",
+        "url": "https://reach.jobs/companies/blue-origin"
+      },
+      {
+        "title": "Test Development Planner/Scheduler III",
+        "location": "US",
+        "work_mode": "Unknown",
+        "url": "https://reach.jobs/companies/blue-origin"
+      },
+      {
+        "title": "Senior Constellation AI&T Engineer",
+        "location": "West Melbourne, Florida",
+        "work_mode": "On-site",
+        "url": "https://reach.jobs/companies/blue-origin"
+      },
+      {
+        "title": "Electrical Design Engineer, Avionics Ground and Test Equipment II",
+        "location": "Huntsville, Alabama",
+        "work_mode": "On-site",
+        "url": "https://reach.jobs/companies/blue-origin"
+      }
+    ],
+    "people": [
+      {
+        "name": "Dave Limp",
+        "title": "CEO",
+        "source_url": "https://mynews13.com/fl/orlando/space/2025/02/13/blue-origin-lays-off-over-1000-employees"
+      },
+      {
+        "name": "Mike Eilola",
+        "title": "SVP of Operations",
+        "source_url": "https://www.businessinsider.com/jeff-bezos-blue-origin-tightens-rto-policy-work-from-work-2023-8"
+      }
+    ],
+    "approach_role": "SVP of Operations",
+    "outreach_angle": "Your FDA-regulated V&V and design-controls discipline maps to launch-vehicle integration and test work; I'd ask whether any quality or test-automation role could be based remotely or out of a Northeast site.",
+    "red_flags": "No remote work; Maine-ineligible. Cut ~10% of staff (1,000+ roles) including engineering and management layers.",
+    "confidence": "high",
+    "sources": [
+      "https://blueorigin.wd5.myworkdayjobs.com/blueorigin",
+      "https://www.businessinsider.com/jeff-bezos-blue-origin-tightens-rto-policy-work-from-work-2023-8",
+      "https://fortune.com/2025/02/14/jeff-bezos-backed-blue-origin-cut-10-percent-workforce/",
+      "https://spacenews.com/blue-origin-to-lay-off-10-of-its-workforce/",
+      "https://reach.jobs/companies/blue-origin",
+      "https://mynews13.com/fl/orlando/space/2025/02/13/blue-origin-lays-off-over-1000-employees"
+    ],
+    "notes": "Verified: \"work-from-work\" culture, in-office five days, no remote roles, Maine not eligible. Recent 10% layoff across engineering, R&D and PM, despite ~$10B launch backlog and plans to hire hundreds in 2025. QA openings are quality/test roles but US-wide with unknown work mode; named sites are FL and AL.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 14,
+      "kept": 14,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -94,14 +239,72 @@
         "discovery",
         "ats"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:blueorigin|5|blueorigin (linked from search results)",
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

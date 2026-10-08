@@ -22,11 +22,11 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0006",
   "description": "About Testlio\nTestlio’s fully managed crowdsourced testing platform, powered by our proprietary intelligence technology – LeoAI Engine TM , integrates expert, on-demand testers directly into your release process. Ship faster and more confidently with global coverage across 600,000+ devices, 800+ payment methods, 150+ countries, and 100+ languages. To learn more, visit www.testlio.com .\nThis job post is to keep in touch for future contract roles with Testlio. If you would like to freelance test with us you can learn more and sign up here .\nAbout this job post:\nThis job post is for future opportunities. If there isn’t an active opening that fits your skill set or location, you can still express interest in future roles with Testlio. Our Talent Acquisition team will keep your information on file and reach out if a suitable opportunity becomes available.\nTypical Project Details:\nProject Focus : Most QA Tester roles involve manual testing of mobile apps and APIs, typically within Agile development teams.\nProject Duration : Contracts can be temporary, ranging from 6 months to 1 year, or ongoing. Many temporary projects extend beyond their initial term, and some evolve into ongoing contractor opportunities.&nbsp;\nLocation : This job ad is open to candidates in select countries who are comfortable working in a fully remote setup. Countries we are considering consist of Argentina, Brazil, Canada, the Czech Republic, Estonia, India, Ireland, Mexico, Poland, Portugal, Romania, Spain, Ukraine, the United Kingdom, or the United States.\nSchedule : Opportunities are available for both part-time and full-time contracts. Working hours generally follow day or afternoon schedules based on your regional time zone.\nTimezone : While we support flexible work, most roles align with standard daytime hours in their region (e.g., 9 AM–6 PM). For instance, this may mean Central Standard Time (CST) in the Americas or Central European Time (CET) in EMEA. Please ensure your availability aligns with your region’s core hours.\nRequired Devices : You must have access to an Android or iOS mobile device for testing.\nInternet Connection : A reliable, high-speed internet connection is required for testing and team communications. Mobile hotspots and other unstable or limited connections are not suitable.\nWhat Your Day Looks Like\nExecute smoke, scripted, and exploratory test cases on mobile, web, and desktop platforms.\nConduct functional, localization, regression, or payment testing to ensure software applications meet quality standards.\nReproduce issues found during testing.\nDocument and report test results, including bugs and potential risks. Clearly communicate findings to the development team and stakeholders.\nConfigure and prepare test environments per the provided instructions.\nWork closely with cross-functional teams to ensure software products are delivered on time and meet customer expectations.\nDesign and optimize appropriate test data.\nProvide clear feedback about outdated, incomplete, or inefficient test cases.\nStay updated with industry trends and advancements in software testing methodologies and tools.\nWhat You’ll Need to Succeed\nTechnical Skills:\nProven experience (2+ years) as a Software Tester or similar role, with a strong understanding of software testing principles, methodologies, and tools (such as Jira, TestRail, Xray, or similar).\nExperience with mobile and web applications frontend testing; &nbsp;backend testing is a bonus.\nProficiency in identifying and documenting software bugs and issues.\nAbility to solve basic technical tasks required during testing, such as test data generation, log capturing, and basic analysis, working with browser developer tools, network logs analyzers, etc.\nExperience working in agile teams in a remote environment - proven track record of communication and collaboration with stakeholders such as Scrum Masters, Product Owners, and others.\nGood understanding of SDLC.\nExperience with these primary testing categories: functional and regression testing.\nFamiliarity with API testing tools like Charles, Insomnia, and Postman is a strong plus.\nA certificate of completion of BBST Foundations, Bug Advocacy, Test Design, and Domain testing courses or similar is not required, but it is nice to have.\nMinor scripting or programming experience is not required, but it is nice to have.\nHuman Skills: &nbsp;\nEffective English communication and interpersonal skills, with the ability to collaborate and work effectively in a team environment.\nDrive to learn quickly and continuously expand knowledge.\nComfortable with a frequently changing environment and able to adapt fast.\nExcellent analytical and problem-solving skills.\nStrong attention to detail and the ability to prioritize and manage multiple tasks.\nWhat is the Consideration Process\nWhenever a new opportunity arises, the Talent Acquisition team will review applicants and reach out to begin learning more. If you are a potential match, the recruiter will reach out to give you more details about the role and begin your application process\nDiversity and Inclusion\nTestlio is an equal-opportunity employer deeply committed to creating an inclusive environment for people of all backgrounds and identities. We are female-founded, and 46% of our team members identify as women. See the DEI section of our website for more information.",
   "score": {
     "why": "Crowdsourced contract manual QA for mobile/web/API and future talent pool. Software-testing domain fits, but role is junior, non-automation, with no .NET or regulated-device work.",
@@ -39,5 +39,20 @@
     "at": "2026-10-05",
     "text_hash": "23be7969f7870218",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Testlio",
+    "job_title": "QA Tester (Future Roles)",
+    "posting_url": "https://job-boards.greenhouse.io/testlio/jobs/6953297",
+    "source_url": "https://job-boards.greenhouse.io/testlio",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "Global",
+    "work_mode": "Unknown",
+    "maine_eligible": "Yes",
+    "skill_match": 3,
+    "fit_notes": "Future contract pool; manual mobile/API testing, 2+ yrs, no automation. Confirm US-remote contractor terms, rates, and whether senior/automation roles arise. broad region, check US eligibility: Global",
+    "company_id": "C140"
   }
 }

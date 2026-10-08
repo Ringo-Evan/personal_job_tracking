@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Very small team; sporadic QA hiring",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small strategy publisher with remote-first habits; publishing QA exists but roles are few and often outsourced.",
+  "approach_role": "Head of QA or Production Director",
+  "company": "Hooded Horse",
+  "company_id": "C641",
+  "fit_score": 3,
+  "interests": "Strategy publisher",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20QA%20or%20Production%20Director%20Hooded%20Horse",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Lead; Certification QA Manager",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Repeated layoffs; QA often outsourced.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Remote-first publishing platform fitting writing interest, but small engineering team and little evidence of in-house QA hiring.",
+  "approach_role": "Engineering Manager, Quality",
+  "company": "Medium",
+  "company_id": "C612",
+  "fit_score": 2,
+  "interests": "Writing platform",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20Quality%20Medium",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

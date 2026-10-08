@@ -23,11 +23,11 @@
   "track": "QA leadership",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0008",
   "score": {
     "why": "Regulated medical-device clinical validation role with V&V and integration testing; strong FDA/design-controls overlap, but core POCUS clinical expertise and customer-facing clinical development are gaps.",
     "skill_match": 3,
@@ -39,5 +39,20 @@
     "at": "2026-10-06",
     "text_hash": "7cd2cdf3200cb6bb",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Butterfly Network",
+    "job_title": "Senior Manager, Clinical Development and Validation",
+    "posting_url": "https://www.butterflynetwork.com/careers?gh_jid=7812967003",
+    "source_url": "https://job-boards.greenhouse.io/butterflynetwork",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "New York, NY Office (Burlington, MA Office, New York, NY Office, Other, United States - Remote)",
+    "work_mode": "Remote",
+    "maine_eligible": "Yes",
+    "skill_match": 3,
+    "fit_notes": "Check whether software V&V/design-controls experience can substitute for POCUS clinical expertise; remote may be US-wide; senior manager scope. remote but tied to New York, check Maine eligibility: New York, NY Office (Burlington, MA Office, New York, NY Office, Other, United States - Remote)",
+    "company_id": "C268"
   }
 }

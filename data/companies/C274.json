@@ -5,8 +5,8 @@
     "company": "Baxter",
     "sector": "Regulated healthtech",
     "interests": "Infusion pumps",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://jobs.baxter.com/en/search-jobs",
+    "role_families": "SDET / test automation; QA engineering (medical device); Quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: Baxter is regulated healthtech (infusion pumps) on Workday. Remote policy is hybrid by default (three in-office days per week), Maine eligibility unknown. No QA openings listed. Stability signals include layoffs in care communications, Quality and Regulatory. Medical-device domain is a strong interest match. Sources: https://jobs.baxter.com/en/search-jobs https://builtin.com/company/baxter-international-inc/faq/work-life-balance-wellbeing https://www.thelayoff.com/baxter-international",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid by default: a Flexible Workplace Policy sets three in-office days per week, with telework, flextime and compressed schedules available for many office-based teams. Balance varies by site, role and audit or production peaks.",
+    "benefit_source": "https://www.thelayoff.com/baxter-international",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 2,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Baxter makes regulated medical devices including infusion pumps, matching the candidate's hardware-adjacent, regulated-domain background. But its default is three in-office days with no known Maine site, and it has recently cut Quality and Regulatory staff, so remote-from-Maine senior QA roles",
+    "ai_red_flags": "Reported layoffs in Quality and Regulatory functions; hybrid policy requires three in-office days with no confirmed Maine site.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Baxter",
+    "outreach_notes": "Your 15 years automating tests for regulated, hardware-adjacent products like infusion pumps map directly to Baxter's device verification and quality engineering needs, if a Maine-eligible remote arrangement exists."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,28 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://jobs.baxter.com/en/search-jobs",
+    "research_notes": "Verified: Baxter is regulated healthtech (infusion pumps) on Workday. Remote policy is hybrid by default (three in-office days per week), Maine eligibility unknown. No QA openings listed. Stability signals include layoffs in care communications, Quality and Regulatory. Medical-device domain is a strong interest match. Sources: https://jobs.baxter.com/en/search-jobs https://builtin.com/company/baxter-international-inc/faq/work-life-balance-wellbeing https://www.thelayoff.com/baxter-international",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Hybrid by default: a Flexible Workplace Policy sets three in-office days per week, with telework, flextime and compressed schedules available for many office-based teams. Balance varies by site, role and audit or production peaks.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.thelayoff.com/baxter-international",
+    "fit_score": 2,
+    "ai_summary": "Baxter makes regulated medical devices including infusion pumps, matching the candidate's hardware-adjacent, regulated-domain background. But its default is three in-office days with no known Maine site, and it has recently cut Quality and Regulatory staff, so remote-from-Maine senior QA roles",
+    "role_families": "SDET / test automation; QA engineering (medical device); Quality engineering leadership",
+    "ai_red_flags": "Reported layoffs in Quality and Regulatory functions; hybrid policy requires three in-office days with no confirmed Maine site.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Your 15 years automating tests for regulated, hardware-adjacent products like infusion pumps map directly to Baxter's device verification and quality engineering needs, if a Maine-eligible remote arrangement exists.",
+    "next_research_action": "Watching workday board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Baxter"
+  },
   "ats": {
     "type": "workday",
     "token": "baxter|1|baxter",
@@ -55,6 +76,7 @@
     "note": "",
     "job_count": 507
   },
+  "discovery": null,
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -143,6 +165,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -171,8 +194,59 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

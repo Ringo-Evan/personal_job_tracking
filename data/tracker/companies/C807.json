@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "China-based; unclear US entity",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Endurance-sport wearables brand; firmware and app QA matches interests, but China-based teams with no US-remote record.",
+  "approach_role": "Head of Engineering",
+  "company": "Coros",
+  "company_id": "C807",
+  "fit_score": 2,
+  "interests": "Wearables",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Coros",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer, firmware; SDET, mobile app",
+  "sector": "Martial arts & fitness",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:27Z",
+  "updated_by": "pipeline"
+}

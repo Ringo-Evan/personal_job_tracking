@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Grant-funded; much work volunteer-based, few paid roles.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Civic tech nonprofit matching volunteers to government projects; mostly volunteer, few paid QA roles.",
+  "approach_role": "Director of Engineering",
+  "company": "US Digital Response",
+  "company_id": "C448",
+  "fit_score": 3,
+  "interests": "Civic tech nonprofit",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20US%20Digital%20Response",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; Test Engineer; Volunteer QA Lead",
+  "sector": "Enterprise & govtech",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:15Z",
+  "updated_by": "pipeline"
+}

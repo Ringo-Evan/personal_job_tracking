@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Small team; ad-supported; remote uncertain.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Board game community website; software QA plausible, strong domain match, but small ad-supported team.",
+  "approach_role": "CTO",
+  "company": "BoardGameGeek",
+  "company_id": "C726",
+  "fit_score": 4,
+  "interests": "Board game community site",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CTO%20BoardGameGeek",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Web QA",
+  "sector": "Games & stories",
+  "size_estimate": "<50",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:24Z",
+  "updated_by": "pipeline"
+}

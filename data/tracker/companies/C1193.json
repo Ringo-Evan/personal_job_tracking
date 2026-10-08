@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Limited public info; early defense startup.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Defense-tech startup; limited public information, so QA/SDET fit and remote-from-Maine are uncertain.",
+  "approach_role": "Head of Engineering",
+  "company": "Chaos Industries",
+  "company_id": "C1193",
+  "fit_score": 2,
+  "interests": "Defense tech",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20Chaos%20Industries",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Engineer",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "Unknown",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:39Z",
+  "updated_by": "pipeline"
+}

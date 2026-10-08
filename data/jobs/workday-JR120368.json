@@ -23,11 +23,11 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0020",
   "score": {
     "why": "Dexcom software QA role is really Software Design Assurance: IEC 62304, ISO 13485, design controls, CAPA and DHF compliance. Strong medical-device domain match, but compliance-heavy rather than hands-on C#/.NET test",
     "skill_match": 3,
@@ -39,5 +39,24 @@
     "at": "2026-10-06",
     "text_hash": "79902e4fb377d64c",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Dexcom",
+    "job_title": "Software QA Engineer 2",
+    "posting_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom/job/Remote---United-States/Software-QA-Engineer-2_JR120368",
+    "source_url": "https://dexcom.wd1.myworkdayjobs.com/Dexcom",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "Remote - United States (Remote)",
+    "work_mode": "Remote",
+    "maine_eligible": "Yes",
+    "pay_low": 78900.0,
+    "pay_high": 131500.0,
+    "currency": "USD",
+    "pay_period": "year",
+    "skill_match": 3,
+    "fit_notes": "Confirm day-to-day is design assurance/compliance vs hands-on test automation; \"Engineer 2\" level and pay band suggest mid-level. US remote. US remote: Remote - United States (Remote)",
+    "company_id": "C256"
   }
 }

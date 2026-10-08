@@ -22,11 +22,11 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0007",
   "description": "About Testlio\nTestlio’s fully managed crowdsourced testing platform, powered by our proprietary intelligence technology – LeoAI Engine TM , integrates expert, on-demand testers directly into your release process. Ship faster and more confidently with global coverage across 600,000+ devices, 800+ payment methods, 150+ countries, and 100+ languages. To learn more, visit www.testlio.com .\nThis job post is to keep in touch for future contract roles with Testlio. If you would like to freelance test with us you can learn more and sign up here .\nAbout this job post:\nThis job post is for future opportunities . If there isn’t an active opening that fits your skill set or location, you can still express interest in future roles with Testlio. Our Talent Acquisition team will keep your information on file and reach out if a suitable opportunity becomes available.\nTypical Project Details:\nProject Focus : You will be a Software Quality Assurance Analyst following Agile methodologies, mostly focused on API testing.\nProject Duration : Contracts can be temporary, ranging from 6 months to 1 year, or ongoing. Many temporary projects extend beyond their initial term, and some evolve into ongoing contractor opportunities.&nbsp;\nLocation : This job ad is open to candidates in select countries who are comfortable working in a fully remote setup. Countries we are considering consist of Argentina,&nbsp;Brazil, Canada, the&nbsp;Czech Republic,&nbsp;Estonia,&nbsp;India,&nbsp;Ireland,&nbsp;Mexico,&nbsp;Poland,&nbsp;Portugal, Romania, Spain,&nbsp;Ukraine, the&nbsp;United Kingdom, or the&nbsp;United States.\nSchedule : Opportunities are available for both part-time and full-time contracts. Working hours generally follow day or afternoon schedules based on your regional time zone.\nTimezone : While we support flexible work, most roles align with standard daytime hours in their region (e.g., 9 AM–6 PM). For instance, this may mean Central Standard Time (CST) in the Americas or Central European Time (CET) in EMEA. Please ensure your availability aligns with your region’s core hours.\nRequired Devices : You must have access to an Android or iOS mobile device for testing.\nInternet Connection : A reliable, high-speed internet connection is required for testing and team communications. Mobile hotspots and other unstable or limited connections are not suitable.\nWhat Your Day Looks Like\nDesign and execute smoke, scripted, and exploratory test cases on mobile, web and desktop.\nConduct functional, localization, regression, and payments testing to ensure software meets quality standards.\nReport, reproduce, and track issues found during testing.\nDocument and share test results, including bugs and potential risks.\nAnalyze test results, logs, and related data to identify patterns, trends, and areas for improvement.\nCollaborate with developers, product managers, and other stakeholders to align on goals, timelines, and deliverables.\nCommunicate test progress, issues, and risks clearly and proactively with stakeholders.\nGenerate test reports that provide actionable insights.\nDesign and execute API tests using tools like Postman, SoapUI, or similar.\nCreate, maintain, and review test cases and test suites aligned with business priorities and industry best practices.\nDesign and optimize effective test data.\nEnsure the test library remains relevant by refactoring, updating, and deprecating tests as needed.\nDevelop and maintain a deep understanding of the systems under test.\nStay up to date with trends and advancements in software testing tools and methodologies.\nWhat You’ll Need to Succeed\nTechnical Skills:\nProven experience (2+ years) as a QA Analyst or similar role, with a strong understanding of software testing principles, methodologies, and tools (such as JIRA, Bugzilla, TestRail, Xray or similar.)\nExperience with mobile and web applications, frontend and backend testing (including API testing.)\nProficiency in identifying and documenting software bugs and issues.\nAbility to solve technical tasks required during testing - such as test data generation, log capturing and basic analysis, working with browser developer tools, network logs analyzers, etc.\nExperience in working in agile teams in a remote environment - proven track record of communication and collaboration with different stakeholders such as Scrum Masters, Product Owners and others.\nGood knowledge of SDLC, CI/CD, and DevOps, as well as an understanding of test automation principles in effective SDLC.\nHuman Skills: &nbsp;\nEffective English communication and interpersonal skills, with the ability to collaborate and work effectively in a team environment.\nDrive to learn quickly and continuously expand knowledge.\nComfortable with a frequently changing environment and able to adapt fast.\nExcellent analytical and problem-solving skills.\nStrong attention to detail and the ability to prioritize and manage multiple tasks.\nWhat is the Consideration Process\nWhenever a new opportunity arises, the Talent Acquisition team will review applicants and reach out to begin learning more. If you are a potential match, the recruiter will reach out to give you more details about the role and begin your application process\nDiversity and Inclusion\nTestlio is an equal-opportunity employer deeply committed to creating an inclusive environment for people of all backgrounds and identities. We are female-founded, and 46% of our team members identify as women. See the DEI section of our website for more information.\n&nbsp;\n#LI-DNI",
   "score": {
     "why": "Testlio's evergreen pool for freelance QA analysts doing manual/API testing on mobile and web; US-remote so Maine works, but it's contract, junior-bar and no automation ownership.",
@@ -39,5 +39,20 @@
     "at": "2026-10-05",
     "text_hash": "323f67b1e597ba0c",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Testlio",
+    "job_title": "QA Analyst (Future Roles)",
+    "posting_url": "https://job-boards.greenhouse.io/testlio/jobs/6979353",
+    "source_url": "https://job-boards.greenhouse.io/testlio",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "Global",
+    "work_mode": "Unknown",
+    "maine_eligible": "Yes",
+    "skill_match": 3,
+    "fit_notes": "Future-role talent pool, not an active job; freelance contracts, 2+ yrs bar, API/Postman manual testing. Verify rate, hours and contract terms. broad region, check US eligibility: Global",
+    "company_id": "C140"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://jobs.deere.com/go/Software/6675300/",
+  "career_url": "https://jobs.deere.com/go/Software/6675300/",
+  "company": "John Deere",
+  "company_id": "C059",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Broad technical employer; software roles may fit better than embedded roles.",
+  "hiring_difficulty": 3,
+  "interests": "Farm equipment, precision agriculture",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Select team carefully; precision machinery and enterprise platforms differ.",
+  "research_status": "Initial research",
+  "role_families": "Software test; cloud/mobile; embedded validation",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.hudl.com/jobs",
+  "career_url": "https://www.hudl.com/jobs",
+  "company": "Hudl",
+  "company_id": "C002",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Testing and coaching background align; stack, location and current seniority fit still need checking.",
+  "hiring_difficulty": 3,
+  "interests": "Soccer, coaching",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Sports performance software; QA and QA management listings surfaced.",
+  "research_status": "Initial research",
+  "role_families": "Senior QA; QA manager; mobile automation",
+  "sector": "Sports",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.halterhq.com/en-us/careers",
+  "career_url": "https://www.halterhq.com/en-us/careers",
+  "company": "Halter",
+  "company_id": "C063",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Software plus farm interest fits; device/domain skills and eligible location uncertain.",
+  "hiring_difficulty": 4,
+  "interests": "Virtual fencing, pasture management",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Virtual fencing and pasture products; inspect US versus global openings.",
+  "research_status": "Initial research",
+  "role_families": "Mobile/cloud QA; connected devices; implementation",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

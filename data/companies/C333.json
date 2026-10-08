@@ -5,8 +5,8 @@
     "company": "Medidata (Dassault)",
     "sector": "Regulated healthtech",
     "interests": "Clinical trial software",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.medidata.com/en/careers/job-search/",
+    "role_families": "SDET / test automation; QA & validation engineering; quality engineering leadership",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: hybrid ~3 days/week near a Medidata office; some roles listed US-remote (e.g., Project Consultant), Maine eligibility unknown. Stability signals: layoffs, restructuring, Dassault integration adding governance. No QA openings or contacts found, so fit rests on domain adjacency only. Confirm remote-from-Maine before applying. Sources: https://www.medidata.com/en/careers/job-search/ https://builtin.com/company/medidata-solutions/faq/work-life-balance-wellbeing https://builtin.com/company/medidata-solutions/faq/workplace-perception",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Hybrid model: about three in-office days per week for employees living near a Medidata office, aligned with Dassault Systèmes; some roles are listed as remote, such as a US-based Project Consultant.",
+    "benefit_source": "https://builtin.com/company/medidata-solutions/faq/workplace-perception",
+    "research_as_of": "2026-10-07",
+    "next_research_action": "No supported job board - check https://www.medidata.com/en/careers/job-search/ manually",
+    "fit_score": 3,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Medidata builds clinical-trial software for sponsors and CROs, closely adjacent to the candidate's FDA-regulated V&V and design-controls background. Yet its default hybrid model and Dassault restructuring make Maine-remote eligibility and job security uncertain.",
+    "ai_red_flags": "Hybrid default ~3 office days; Maine-remote eligibility unconfirmed. Recent layoffs, restructuring and post-acquisition integration.",
+    "ai_scored_at": "2026-10-07",
+    "approach_role": "Director of Quality Engineering (no named leader in verified facts)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20verified%20facts%29%20Medidata%20%28Dassault%29",
+    "outreach_notes": "Bring 15 years of C#/.NET automation and FDA-regulated medical-device V&V experience to a clinical-trial platform where validation rigor and audit-ready test evidence are core to the product."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://www.medidata.com/en/careers/job-search/",
+    "research_notes": "Verified: hybrid ~3 days/week near a Medidata office; some roles listed US-remote (e.g., Project Consultant), Maine eligibility unknown. Stability signals: layoffs, restructuring, Dassault integration adding governance. No QA openings or contacts found, so fit rests on domain adjacency only. Confirm remote-from-Maine before applying. Sources: https://www.medidata.com/en/careers/job-search/ https://builtin.com/company/medidata-solutions/faq/work-life-balance-wellbeing https://builtin.com/company/medidata-solutions/faq/workplace-perception",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-07",
+    "maine_remote": "unknown: Hybrid model: about three in-office days per week for employees living near a Medidata office, aligned with Dassault Systèmes; some roles are listed as remote, such as a US-based Project Consultant.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 2,
+    "benefit_source": "https://builtin.com/company/medidata-solutions/faq/workplace-perception",
+    "fit_score": 3,
+    "ai_summary": "Medidata builds clinical-trial software for sponsors and CROs, closely adjacent to the candidate's FDA-regulated V&V and design-controls background. Yet its default hybrid model and Dassault restructuring make Maine-remote eligibility and job security uncertain.",
+    "role_families": "SDET / test automation; QA & validation engineering; quality engineering leadership",
+    "ai_red_flags": "Hybrid default ~3 office days; Maine-remote eligibility unconfirmed. Recent layoffs, restructuring and post-acquisition integration.",
+    "ai_scored_at": "2026-10-07",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering (no named leader in verified facts)",
+    "outreach_notes": "Bring 15 years of C#/.NET automation and FDA-regulated medical-device V&V experience to a clinical-trial platform where validation rigor and audit-ready test evidence are core to the product.",
+    "next_research_action": "No supported job board - check https://www.medidata.com/en/careers/job-search/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20%28no%20named%20leader%20in%20verified%20facts%29%20Medidata%20%28Dassault%29"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.medidata.com/en/careers/job-search/",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.medidata.com/en/about-us/medidata-careers/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +100,85 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C333",
+    "career_url": "https://www.medidata.com/en/careers/job-search/",
+    "ats": {
+      "type": "other",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Hybrid model: about three in-office days per week for employees living near a Medidata office, aligned with Dassault Systèmes; some roles are listed as remote, such as a US-based Project Consultant.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://builtin.com/company/medidata-solutions/faq/work-life-balance-wellbeing"
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Layoffs, restructuring and tighter prioritization in recent years create elevated job-security uncertainty; cost controls and headcount cuts in the segment reinforce this.",
+          "date": null,
+          "url": "https://builtin.com/company/medidata-solutions/faq/workplace-perception"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Workforce and real-estate reductions under Dassault Systèmes, plus restructuring periods, increase load on remaining teams.",
+          "date": null,
+          "url": "https://builtin.com/company/medidata-solutions/faq/work-life-balance-wellbeing"
+        },
+        {
+          "kind": "acquisition",
+          "summary": "Post-acquisition integration into Dassault Systèmes adds management layers, heavier governance and slower decision cycles, with reported leadership changes and strategy questions.",
+          "date": null,
+          "url": "https://builtin.com/company/medidata-solutions/faq/workplace-perception"
+        },
+        {
+          "kind": "other",
+          "summary": "Being part of a global parent company adds scale and access to larger customers and projects; core platforms serve sponsors and CROs.",
+          "date": null,
+          "url": "https://builtin.com/company/medidata-solutions/faq/workplace-perception"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "Medidata builds clinical-trial software for sponsors and CROs, closely adjacent to the candidate's FDA-regulated V&V and design-controls background. Yet its default hybrid model and Dassault restructuring make Maine-remote eligibility and job security uncertain.",
+      "role_families": [
+        "SDET / test automation",
+        "QA & validation engineering",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Quality Engineering (no named leader in verified facts)",
+    "outreach_angle": "Bring 15 years of C#/.NET automation and FDA-regulated medical-device V&V experience to a clinical-trial platform where validation rigor and audit-ready test evidence are core to the product.",
+    "red_flags": "Hybrid default ~3 office days; Maine-remote eligibility unconfirmed. Recent layoffs, restructuring and post-acquisition integration.",
+    "confidence": "low",
+    "sources": [
+      "https://www.medidata.com/en/careers/job-search/",
+      "https://builtin.com/company/medidata-solutions/faq/work-life-balance-wellbeing",
+      "https://builtin.com/company/medidata-solutions/faq/workplace-perception"
+    ],
+    "notes": "Verified: hybrid ~3 days/week near a Medidata office; some roles listed US-remote (e.g., Project Consultant), Maine eligibility unknown. Stability signals: layoffs, restructuring, Dassault integration adding governance. No QA openings or contacts found, so fit rests on domain adjacency only. Confirm remote-from-Maine before applying.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-07",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,15 +200,76 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T12:15:40-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:23-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.medidata.com/en/about-us/medidata-careers/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

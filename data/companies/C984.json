@@ -6,7 +6,7 @@
     "sector": "Agriculture",
     "interests": "Solar inverters/app",
     "career_url": null,
-    "role_families": null,
+    "role_families": "Senior SDET; Test Automation Engineer; QA Engineer",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Medium",
+    "size_estimate": "500-5k",
+    "ai_summary": "Enphase makes solar inverters and energy software; hardware-adjacent QA roles possible, with some US-remote flexibility.",
+    "ai_red_flags": "Solar hardware; remote unknown",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "QA Engineering Manager",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20Engineering%20Manager%20Enphase",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 2,
+    "stability_score": 2,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "role_families": "SDET; QA/test engineering (hardware, firmware, mobile app); quality engineering leadership",
+    "approach_role": "CEO Badri Kothandaraman (only named leader; better target is an unnamed VP",
+    "ai_summary": "Enphase makes solar microinverters, batteries and an energy app — hardware-adjacent, non-medical, so the regulated V&V background transfers only partly. Two layoff rounds and no visible QA openings signal a tight, possibly freeze-bound hiring picture.",
+    "ai_red_flags": "Two layoff rounds (10%, then 17%); demand slump; no confirmed QA openings; remote policy unknown.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=CEO%20Badri%20Kothandaraman%20%28only%20named%20leader%3B%20better%20target%20is%20an%20unnamed%20VP%20Enphase",
+    "research_notes": "Verified: ~500 laid off (17%) plus earlier 10% cut; $1.8B cash but profit fell to $45M; FY2025 revenue $1.47B. No job board, ATS or QA postings found, and no remote policy stated — assume onsite-heavy in Petaluma/Austin. Only named executive is CEO. Sources: https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php https://en.wikipedia.org/wiki/Enphase_Energy",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: No remote policy found in public sources.",
+    "benefit_source": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Low",
+    "outreach_notes": "Fifteen years of C#/.NET automation plus FDA-regulated hardware V&V and design controls maps directly onto validating microinverter firmware, power electronics and the monitoring app.",
+    "next_research_action": "No supported job board found"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://enphase.com/careers",
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +88,96 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C984",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "No remote policy found in public sources.",
+      "maine_eligible": "unknown",
+      "evidence_url": null
+    },
+    "stability": {
+      "score": 2,
+      "signals": [
+        {
+          "kind": "layoffs",
+          "summary": "Enphase laid off about 500 workers, 17% of its global workforce including contractors, per an SEC filing.",
+          "date": null,
+          "url": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php"
+        },
+        {
+          "kind": "layoffs",
+          "summary": "Earlier round of cuts removed 10% of the workforce, cited regulatory changes and weak solar demand.",
+          "date": null,
+          "url": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Company reported nearly $1.8 billion in cash, cash equivalents and marketable securities at the end of September.",
+          "date": null,
+          "url": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Quarterly profit fell to $45 million from nearly $114 million a year earlier, with European demand slumping.",
+          "date": null,
+          "url": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php"
+        },
+        {
+          "kind": "revenue",
+          "summary": "Enphase reported US$1.47 billion in revenue for fiscal 2025.",
+          "date": "2025-12",
+          "url": "https://en.wikipedia.org/wiki/Enphase_Energy"
+        }
+      ]
+    },
+    "size_estimate": "500-5k",
+    "fit": {
+      "score": 2,
+      "rationale": "Enphase makes solar microinverters, batteries and an energy app — hardware-adjacent, non-medical, so the regulated V&V background transfers only partly. Two layoff rounds and no visible QA openings signal a tight, possibly freeze-bound hiring picture.",
+      "role_families": [
+        "SDET",
+        "QA/test engineering (hardware, firmware, mobile app)",
+        "quality engineering leadership"
+      ]
+    },
+    "hiring_difficulty": 4,
+    "qa_openings": [],
+    "people": [
+      {
+        "name": "Badri Kothandaraman",
+        "title": "CEO",
+        "source_url": "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php"
+      }
+    ],
+    "approach_role": "CEO Badri Kothandaraman (only named leader; better target is an unnamed VP",
+    "outreach_angle": "Fifteen years of C#/.NET automation plus FDA-regulated hardware V&V and design controls maps directly onto validating microinverter firmware, power electronics and the monitoring app.",
+    "red_flags": "Two layoff rounds (10%, then 17%); demand slump; no confirmed QA openings; remote policy unknown.",
+    "confidence": "low",
+    "sources": [
+      "https://www.sfgate.com/tech/article/enphase-energy-layoffs-workers-solar-19907535.php",
+      "https://en.wikipedia.org/wiki/Enphase_Energy"
+    ],
+    "notes": "Verified: ~500 laid off (17%) plus earlier 10% cut; $1.8B cash but profit fell to $45M; FY2025 revenue $1.47B. No job board, ATS or QA postings found, and no remote policy stated — assume onsite-heavy in Petaluma/Austin. Only named executive is CEO.",
+    "model": {
+      "extract": "deepseek/deepseek-flash",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 7,
+      "kept": 7,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "deepseek/deepseek-flash"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +199,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://enphase.com/careers",
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

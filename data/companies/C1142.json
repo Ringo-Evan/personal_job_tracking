@@ -6,7 +6,7 @@
     "sector": "Adult & sexuality",
     "interests": "Connected toys (BLE app)",
     "career_url": null,
-    "role_families": null,
+    "role_families": "QA Engineer; Mobile Test Engineer; Firmware QA",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -20,20 +20,20 @@
     "estimate_rationale": null,
     "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
     "your_notes": null,
-    "research_status": "Not started",
+    "research_status": "Initial research",
     "maine_remote": null,
     "benefit_source": null,
     "research_as_of": null,
     "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
+    "fit_score": 4,
+    "stability_score": 4,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "500-5k",
+    "ai_summary": "Connected toys with BLE apps; hardware-adjacent QA match. Established brand, but remote-Maine eligibility unknown.",
+    "ai_red_flags": "Remote-Maine unknown",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20We-Vibe%20/%20WOW%20Tech",
     "outreach_notes": null
   },
   "missing_from_tracker": false,
@@ -43,8 +43,35 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_status": "Researched",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "role_families": "SDET; QA/test engineering (mobile & BLE apps); embedded/firmware test",
+    "approach_role": "Director of Engineering or Head of Quality (no named leader in facts)",
+    "ai_summary": "WOW Tech makes We-Vibe and other connected adult toys with BLE companion apps — a direct hit on the candidate's stated adult-industry and connected-device interests. But no remote policy, size, QA openings, or contacts are verified, and Maine eligibility is",
+    "ai_red_flags": "No verified remote policy, no Maine eligibility, no confirmed QA openings, no named contacts. Adult-sector work may not suit every future employer.",
+    "ai_scored_at": "2026-10-08",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20or%20Head%20of%20Quality%20%28no%20named%20leader%20in%20facts%29%20We-Vibe%20/%20WOW%20Tech",
+    "research_notes": "Facts are thin: no job board, ATS, size, remote policy or openings captured. WOW Tech (We-Vibe, Womanizer) is an established adult-toy maker; consumer connected-hardware QA is plausible but unconfirmed. Verify Maine-remote eligibility and whether any senior test role exists before investing effort. Sources: https://www.we-vibe.com/us/wevibe-remote-black",
+    "research_as_of": "2026-10-08",
+    "maine_remote": "unknown: Remote policy unknown based on evidence.",
+    "benefit_source": "https://www.we-vibe.com/us/wevibe-remote-black",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "outreach_notes": "15 years in C#/.NET test automation plus regulated hardware-adjacent V&V transfers directly to validating BLE-connected consumer devices and their companion apps; I'd welcome a remote conversation about QA leadership at WOW Tech.",
+    "next_research_action": "No supported job board found"
+  },
   "ats": null,
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": null,
+    "other": []
+  },
   "triage": {
     "fit": 4,
     "stability": 4,
@@ -61,7 +88,65 @@
     "model": "deepseek/deepseek-flash",
     "at": "2026-10-05"
   },
-  "research": null,
+  "research": {
+    "company_id": "C1142",
+    "career_url": null,
+    "ats": {
+      "type": "unknown",
+      "token": null,
+      "board_url": null
+    },
+    "remote_policy": {
+      "summary": "Remote policy unknown based on evidence.",
+      "maine_eligible": "unknown",
+      "evidence_url": "https://www.we-vibe.com/us/wevibe-remote-black"
+    },
+    "stability": {
+      "score": 3,
+      "signals": [
+        {
+          "kind": "public-sector",
+          "summary": "Not applicable.",
+          "date": null,
+          "url": "https://www.we-vibe.com/us/wevibe-remote-black"
+        }
+      ]
+    },
+    "size_estimate": "Unknown",
+    "fit": {
+      "score": 3,
+      "rationale": "WOW Tech makes We-Vibe and other connected adult toys with BLE companion apps — a direct hit on the candidate's stated adult-industry and connected-device interests. But no remote policy, size, QA openings, or contacts are verified, and Maine eligibility is",
+      "role_families": [
+        "SDET",
+        "QA/test engineering (mobile & BLE apps)",
+        "embedded/firmware test"
+      ]
+    },
+    "hiring_difficulty": 3,
+    "qa_openings": [],
+    "people": [],
+    "approach_role": "Director of Engineering or Head of Quality (no named leader in facts)",
+    "outreach_angle": "15 years in C#/.NET test automation plus regulated hardware-adjacent V&V transfers directly to validating BLE-connected consumer devices and their companion apps; I'd welcome a remote conversation about QA leadership at WOW Tech.",
+    "red_flags": "No verified remote policy, no Maine eligibility, no confirmed QA openings, no named contacts. Adult-sector work may not suit every future employer.",
+    "confidence": "low",
+    "sources": [
+      "https://www.we-vibe.com/us/wevibe-remote-black"
+    ],
+    "notes": "Facts are thin: no job board, ATS, size, remote policy or openings captured. WOW Tech (We-Vibe, Womanizer) is an established adult-toy maker; consumer connected-hardware QA is plausible but unconfirmed. Verify Maine-remote eligibility and whether any senior test role exists before investing effort.",
+    "model": {
+      "extract": "ollama_chat/qwen3.5:9b",
+      "judge": "deepseek/deepseek-flash"
+    },
+    "at": "2026-10-08",
+    "grounding": {
+      "total": 2,
+      "kept": 2,
+      "fail_rate": 0.0,
+      "dropped": [],
+      "model": "ollama_chat/qwen3.5:9b"
+    }
+  },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -83,14 +168,72 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "fit_score",
+        "people_search_url",
+        "remote_likelihood",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:17:56-04:00",
+      "stage": "verify",
+      "changed": [
+        "research"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": null,
-    "other": []
-  }
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

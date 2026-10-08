@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "RTO/hybrid may limit remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Amazon's robotics division for warehouse automation; IoT/location tech fits, but robotics roles may require onsite, limiting remote-from-Maine.",
+  "approach_role": "Engineering Manager, QA",
+  "company": "Amazon Robotics",
+  "company_id": "C230",
+  "fit_score": 3,
+  "interests": "North Reading MA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Engineering%20Manager%2C%20QA%20Amazon%20Robotics",
+  "remote_likelihood": "Medium",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Manager",
+  "sector": "IoT / location tech",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:08Z",
+  "updated_by": "pipeline"
+}

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Holding company; likely sales/finance-focused; QA unclear",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Parent company of TestRail/Xray; unclear QA culture and roles",
+  "approach_role": "VP Quality",
+  "company": "Idera",
+  "company_id": "C163",
+  "fit_score": 2,
+  "interests": "Parent of TestRail, Xray",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Quality%20Idera",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Solutions Engineer; Quality Manager; Product Manager",
+  "sector": "Test tooling",
+  "size_estimate": "500-5k",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:06Z",
+  "updated_by": "pipeline"
+}

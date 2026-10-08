@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Augusta HQ; limited remote work",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine's largest utility under Avangrid; stable and essential, but vendor-driven IT with few remote QA roles and Augusta-area presence.",
+  "approach_role": "IT Quality Assurance Manager",
+  "company": "Central Maine Power (Avangrid)",
+  "company_id": "C997",
+  "fit_score": 2,
+  "interests": "Utility",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=IT%20Quality%20Assurance%20Manager%20Central%20Maine%20Power%20%28Avangrid%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Analyst; Test Engineer; IT Applications Analyst",
+  "sector": "Agriculture",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:33Z",
+  "updated_by": "pipeline"
+}

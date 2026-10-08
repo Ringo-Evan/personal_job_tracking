@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Startup stability; domain mismatch",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Serverless MySQL database platform; QA automation roles plausible, but no candidate domain match and small startup risk.",
+  "approach_role": "VP Engineering",
+  "company": "PlanetScale",
+  "company_id": "C573",
+  "fit_score": 2,
+  "interests": "Remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20Engineering%20PlanetScale",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior SDET; QA Engineer; Test Automation Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:19Z",
+  "updated_by": "pipeline"
+}

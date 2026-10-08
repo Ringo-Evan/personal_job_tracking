@@ -5,8 +5,8 @@
     "company": "Thermo Fisher Scientific",
     "sector": "Regulated healthtech",
     "interests": "Instruments/software; Waltham MA",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://jobs.thermofisher.com/global/en",
+    "role_families": "SDET; QA engineering; test automation",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Large regulated healthtech; layoffs and lab consolidation (Richmond, Middleton) signal churn. Remote-friendly classified but no confirmation Maine is eligible, and no QA openings in the pack. Best entry is via instrument/software quality teams; verify state eligibility and headcount before investing. Sources: https://jobs.thermofisher.com/global/en https://wfh.team/remote-policy-tracker/thermo-fisher-scientific-spa https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: Classified remote-friendly with a small number of remote roles listed (e.g. field service engineer); the pack does not state which US states are eligible.",
+    "benefit_source": "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "No supported job board - check https://jobs.thermofisher.com/global/en manually",
+    "fit_score": 3,
+    "stability_score": 3,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "5k+",
+    "ai_summary": "Thermo Fisher is a giant regulated life-sciences and medical-device instruments maker, matching the candidate's regulated, hardware-adjacent background. But it has no listed QA openings, recent layoffs, and no confirmed remote eligibility for Maine, so fit is plausible only with a",
+    "ai_red_flags": "Recent layoffs: ~70 lab roles cut, 258 California jobs via WARN, Middleton closure. No listed QA openings; remote state eligibility unstated.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "Director of Quality Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Thermo%20Fisher%20Scientific",
+    "outreach_notes": "Fifteen years automating tests for regulated, hardware-adjacent products maps onto Thermo Fisher's instrument software; ask which quality teams hire US-remote and whether Maine is an eligible state."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,8 +43,47 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
-  "ats": null,
+  "exported": {
+    "career_url": "https://jobs.thermofisher.com/global/en",
+    "research_notes": "Large regulated healthtech; layoffs and lab consolidation (Richmond, Middleton) signal churn. Remote-friendly classified but no confirmation Maine is eligible, and no QA openings in the pack. Best entry is via instrument/software quality teams; verify state eligibility and headcount before investing. Sources: https://jobs.thermofisher.com/global/en https://wfh.team/remote-policy-tracker/thermo-fisher-scientific-spa https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: Classified remote-friendly with a small number of remote roles listed (e.g. field service engineer); the pack does not state which US states are eligible.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 3,
+    "benefit_source": "https://www.wkow.com/news/state-filing-reveals-new-details-on-thermo-fisher-scientific-layoffs/article_4e8669f8-8e7f-49f4-b962-eb7df30d5ca4.html",
+    "fit_score": 3,
+    "ai_summary": "Thermo Fisher is a giant regulated life-sciences and medical-device instruments maker, matching the candidate's regulated, hardware-adjacent background. But it has no listed QA openings, recent layoffs, and no confirmed remote eligibility for Maine, so fit is plausible only with a",
+    "role_families": "SDET; QA engineering; test automation",
+    "ai_red_flags": "Recent layoffs: ~70 lab roles cut, 258 California jobs via WARN, Middleton closure. No listed QA openings; remote state eligibility unstated.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Low",
+    "approach_role": "Director of Quality Engineering",
+    "outreach_notes": "Fifteen years automating tests for regulated, hardware-adjacent products maps onto Thermo Fisher's instrument software; ask which quality teams hire US-remote and whether Maine is an eligible state.",
+    "next_research_action": "No supported job board - check https://jobs.thermofisher.com/global/en manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Thermo%20Fisher%20Scientific"
+  },
+  "ats": {
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://jobs.thermofisher.com/global/en",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://jobs.thermofisher.com/",
+    "found": null,
+    "other": [],
+    "careers_page_note": "no known job-board system on careers page"
+  },
   "triage": {
     "fit": 5,
     "stability": 5,
@@ -141,6 +180,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -169,16 +209,69 @@
       "changed": [
         "discovery"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:02-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.type"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "verify_rejects": 0,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://jobs.thermofisher.com/",
-    "found": null,
-    "other": [],
-    "careers_page_note": "no known job-board system on careers page"
-  }
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Hub-based; 2K layoffs 2024",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Firaxis parent publisher with a large QA organisation; games fit, but hub-based roles and periodic layoffs.",
+  "approach_role": "Director of Quality Assurance",
+  "company": "2K Games",
+  "company_id": "C638",
+  "fit_score": 3,
+  "interests": "Firaxis parent",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Assurance%202K%20Games",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Manager",
+  "sector": "Games & stories",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:21Z",
+  "updated_by": "pipeline"
+}

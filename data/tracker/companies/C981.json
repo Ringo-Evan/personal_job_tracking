@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Maine nonprofit; no QA",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Maine farmland conservation nonprofit; mission fits agriculture but has no software QA or test engineering roles.",
+  "approach_role": "N/A",
+  "company": "Maine Farmland Trust",
+  "company_id": "C981",
+  "fit_score": 1,
+  "interests": "Maine farms",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=N/A%20Maine%20Farmland%20Trust",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "No QA/SDET roles",
+  "sector": "Agriculture",
+  "size_estimate": "<50",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:32Z",
+  "updated_by": "pipeline"
+}

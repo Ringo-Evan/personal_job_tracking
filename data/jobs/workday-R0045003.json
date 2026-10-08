@@ -23,11 +23,11 @@
   "track": "Core QA",
   "source": "watcher",
   "first_seen": "2026-10-05",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-08",
   "missed_runs": 0,
   "closed_at": null,
   "reopened_at": null,
-  "job_id": null,
+  "job_id": "JW0025",
   "score": {
     "why": "Remote QA analyst testing public safety software; Maine eligible, but manual, analyst-level and low-paid, so a step below senior automation work.",
     "skill_match": 3,
@@ -39,5 +39,24 @@
     "at": "2026-10-06",
     "text_hash": "fbe18ae785759740",
     "text_source": "board"
+  },
+  "first_exported": "2026-10-07",
+  "exported": {
+    "company": "Harris Computer",
+    "job_title": "Quality Assurance Analyst",
+    "posting_url": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Florida-United-States/Quality-Assurance-Analyst_R0045003",
+    "source_url": "https://harriscomputer.wd3.myworkdayjobs.com/1",
+    "listing_evidence": "Verified live",
+    "last_checked": "2026-10-08",
+    "location": "Florida, United States; Wisconsin, United States; Remote - Alaska; West Virginia, United States; Washington, DC; Washington, United States; Virginia, United States; Vermont, United States; Utah, United States; Texas, United States; Tennessee, United States; South Dakota, United States; South Carolina, United States; Rhode Island, United States; Puerto Rico; Pennsylvania, United States; Oregon, United States; Oklahoma, United States; Ohio, United States; North Dakota, United States; North Carolina, United States; New York, United States; New Mexico, United States; New Jersey, United States; New Hampshire, United States; Nevada, United States; Nebraska, United States; Montana, United States; Mississippi, United States; Minnesota, United States; Michigan, United States; Massachusetts, United States; Maryland, United States; Maine, United States; Louisiana, United States; Kentucky, United States; Kansas, United States; Iowa, United States; Indiana, United States; Illinois, United States; Idaho, United States; Georgia, United States; Delaware, United States; Connecticut, United States; Colorado, United States; California, United States; Arkansas, United States; Arizona, United States; Alabama, United States; Remote - U.S. Virgin Islands; Missouri, United States; Wyoming, United States",
+    "work_mode": "Remote",
+    "maine_eligible": "Yes",
+    "pay_low": 55000.0,
+    "pay_high": 65000.0,
+    "currency": "USD",
+    "pay_period": "year",
+    "skill_match": 3,
+    "fit_notes": "Manual analyst QA, public safety; low pay, not senior/automation. Verify Maine remote and growth to automation. location mentions Maine area: Maine, United States",
+    "company_id": "C460"
   }
 }

@@ -6,7 +6,7 @@
     "sector": "Enterprise & govtech",
     "interests": "Gov comms software",
     "career_url": null,
-    "role_families": null,
+    "role_families": "SDET; QA engineering; release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Remote-friendly with US-wide distributed workforce; Maine explicitly eligible. PE-backed by Vista Equity with Harvest Partners co-investor; states 7,000+ public-sector customers, implying durable contracts. No QA roles listed on SmartRecruiters and no staff contacts verified, so this is cold, speculative outreach at a 500-5k-person govtech vendor. Sources: https://remowork.life/companies/granicus",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "yes: Remote-friendly, Denver HQ plus additional hubs, distributed workforce across the US, UK and Australia; many roles fully remote within those countries.",
+    "benefit_source": "https://remowork.life/companies/granicus",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching smartrecruiters board",
+    "fit_score": 3,
+    "stability_score": 4,
+    "remote_likelihood": "High",
+    "size_estimate": "500-5k",
+    "ai_summary": "Granicus builds cloud software for government communications and citizen engagement. US-remote and Maine-eligible, so logistics work, but the govtech domain misses the candidate's interests and regulated medical-device/hardware testing background, and no QA openings are posted.",
+    "ai_red_flags": "No QA openings posted; PE ownership (Vista) can drive cost cuts; domain is far from medical devices, games or hardware testing.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "VP of Engineering",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Granicus",
+    "outreach_notes": "Fifteen years of .NET test automation and FDA-regulated V&V experience could harden Granicus's citizen-facing platforms, where accessibility and uptime for 7,000 public agencies make release quality a compliance issue."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,7 +43,27 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "research_notes": "Remote-friendly with US-wide distributed workforce; Maine explicitly eligible. PE-backed by Vista Equity with Harvest Partners co-investor; states 7,000+ public-sector customers, implying durable contracts. No QA roles listed on SmartRecruiters and no staff contacts verified, so this is cold, speculative outreach at a 500-5k-person govtech vendor. Sources: https://remowork.life/companies/granicus",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "yes: Remote-friendly, Denver HQ plus additional hubs, distributed workforce across the US, UK and Australia; many roles fully remote within those countries.",
+    "remote_likelihood": "High",
+    "stability_score": 4,
+    "benefit_source": "https://remowork.life/companies/granicus",
+    "fit_score": 3,
+    "ai_summary": "Granicus builds cloud software for government communications and citizen engagement. US-remote and Maine-eligible, so logistics work, but the govtech domain misses the candidate's interests and regulated medical-device/hardware testing background, and no QA openings are posted.",
+    "role_families": "SDET; QA engineering; release engineering",
+    "ai_red_flags": "No QA openings posted; PE ownership (Vista) can drive cost cuts; domain is far from medical devices, games or hardware testing.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "500-5k",
+    "hiring_difficulty": 3,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering",
+    "outreach_notes": "Fifteen years of .NET test automation and FDA-regulated V&V experience could harden Granicus's citizen-facing platforms, where accessibility and uptime for 7,000 public agencies make release quality a compliance issue.",
+    "next_research_action": "Watching smartrecruiters board",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20Granicus"
+  },
   "ats": {
     "type": "smartrecruiters",
     "token": "Granicus1",
@@ -54,6 +74,13 @@
     "source": null,
     "note": "linked from search results",
     "job_count": 1
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "smartrecruiters:Granicus1 (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -137,6 +164,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -166,15 +194,57 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "smartrecruiters:Granicus1 (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-07T21:30:00-04:00"
 }

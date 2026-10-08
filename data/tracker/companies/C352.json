@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite Bath; no remote; far from Downeast",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Bath Iron Works builds Navy ships; hardware-adjacent test roles fit, but onsite in Bath and not remote.",
+  "approach_role": "Test Engineering Manager",
+  "company": "Bath Iron Works (General Dynamics)",
+  "company_id": "C352",
+  "fit_score": 3,
+  "interests": "Shipbuilding; test/IT roles",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Test%20Engineering%20Manager%20Bath%20Iron%20Works%20%28General%20Dynamics%29",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; QA Engineer; Systems Test Engineer",
+  "sector": "Maine & New England",
+  "size_estimate": "5k+",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

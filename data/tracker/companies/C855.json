@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "On-site in Georgia, no remote",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "US arm of Glock; firearms domain fits, but manufacturing focus means QA roles likely on-site, limiting remote.",
+  "approach_role": "Quality Manager",
+  "company": "Glock Inc",
+  "company_id": "C855",
+  "fit_score": 3,
+  "interests": "Firearms",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Quality%20Manager%20Glock%20Inc",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Quality Engineer; Test Engineer; QA Lead",
+  "sector": "Firearms",
+  "size_estimate": "500-5k",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:28Z",
+  "updated_by": "pipeline"
+}

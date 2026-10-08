@@ -1,0 +1,21 @@
+{
+  "approach_role": "QA / eng manager",
+  "career_url": "https://www.ithaka.org/careers/",
+  "company": "ITHAKA (JSTOR)",
+  "company_id": "C106",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Nonprofit with sizable tech org; remote-friendly historically.",
+  "hiring_difficulty": 3,
+  "interests": "Scholarly/historical archives",
+  "maine_remote": "Unknown",
+  "next_research_action": "Check careers",
+  "outreach_notes": "History + nonprofit.",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=QA%20ITHAKA",
+  "research_as_of": "2026-09-30",
+  "research_notes": "From general knowledge, not yet searched - verify. Runs JSTOR and Portico.",
+  "research_status": "Initial research",
+  "role_families": "QA; SDET; engineering",
+  "sector": "History",
+  "updated_at": "2026-09-30T16:00:00Z",
+  "updated_by": "Claude"
+}

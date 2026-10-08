@@ -1,0 +1,19 @@
+{
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Scheduling SaaS; remote-first; QA/SDET roles plausible but no domain match.",
+  "approach_role": "Director of Engineering",
+  "company": "Calendly",
+  "company_id": "C595",
+  "fit_score": 3,
+  "interests": "Scheduling",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Engineering%20Calendly",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "SDET; QA Engineer; Test Engineer",
+  "sector": "Remote-first software",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:20Z",
+  "updated_by": "pipeline"
+}

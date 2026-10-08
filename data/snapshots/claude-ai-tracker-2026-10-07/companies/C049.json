@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://amadeus.com/en/careers/overview",
+  "career_url": "https://amadeus.com/en/careers/overview",
+  "company": "Amadeus",
+  "company_id": "C049",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Requirements and cross-team leadership transfer; travel-industry systems knowledge needs review.",
+  "hiring_difficulty": 3,
+  "interests": "Travel systems, customer implementation",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Specific service-delivery listing advertised up to 30% travel; not universal.",
+  "research_status": "Initial research",
+  "role_families": "Integration QA; implementation; service delivery",
+  "sector": "Travel",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

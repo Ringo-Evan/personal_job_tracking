@@ -1,0 +1,22 @@
+{
+  "company": "Stord",
+  "company_id": "C247",
+  "current_stage": "Lead",
+  "date_discovered": "2026-10-06",
+  "fit_notes": "Confirm US-remote includes Maine; check Playwright/TypeScript vs C# and whether net-new framework mandate suits you. US remote: Remote, United States",
+  "highest_stage": "None",
+  "job_id": "JW0018",
+  "job_title": "Senior Software Development Engineer in Test",
+  "last_checked": "2026-10-08",
+  "listing_evidence": "Verified live",
+  "location": "Remote, United States; Remote - Canada",
+  "maine_eligible": "Yes",
+  "next_action": "Review and apply",
+  "posting_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career/job/Remote-United-States/Senior-Software-Development-Engineer-in-Test_JR103261",
+  "skill_match": 4,
+  "source_url": "https://stord.wd503.myworkdayjobs.com/Stord_External_Career",
+  "track": "Core QA",
+  "updated_at": "2026-10-08T07:45:35Z",
+  "updated_by": "pipeline",
+  "work_mode": "Remote"
+}

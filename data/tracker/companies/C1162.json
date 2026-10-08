@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Onsite; security clearance and citizenship needed",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "FFRDC with rigorous verification work matching candidate's regulated background; Lexington site not commutable and remote options rare.",
+  "approach_role": "Group Leader, Software Test",
+  "company": "MIT Lincoln Laboratory",
+  "company_id": "C1162",
+  "fit_score": 3,
+  "interests": "Lexington MA",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Group%20Leader%2C%20Software%20Test%20MIT%20Lincoln%20Laboratory",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Test Engineer; Verification & Validation Engineer; SDET",
+  "sector": "Defense, aerospace & robotics",
+  "size_estimate": "5k+",
+  "stability_score": 5,
+  "updated_at": "2026-10-08T01:30:38Z",
+  "updated_by": "pipeline"
+}

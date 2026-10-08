@@ -5,8 +5,8 @@
     "company": "Kaseya (Datto)",
     "sector": "Maine & New England",
     "interests": "IT management",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.kaseya.com/careers/",
+    "role_families": "SDET; QA automation engineering; quality/release engineering",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Kaseya/Datto: 5k+ staff, IT management and security SaaS for SMBs/MSPs. One Senior Staff SDET opening listed Miami, FL, US-Remote. Remote policy per-role; confirm Maine eligibility with recruiter. Layoffs alongside Inky acquisition and claimed R&D investment. No named QA leaders found. Sources: https://www.kaseya.com/careers/ https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams https://www.crn.com/news/channel-news/2025/kaseya-confirms-200-layoffs-as-part-of-focused-investment-strategy",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "varies: Onsite collaboration is prioritized; roles not located near an office must check the job description location or recruiter, so remote eligibility varies by role. One QA listing is United States - Remote.",
+    "benefit_source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams",
+    "research_as_of": "2026-10-06",
+    "next_research_action": "Watching greenhouse board",
+    "fit_score": 3,
+    "stability_score": 2,
+    "remote_likelihood": "Medium",
+    "size_estimate": "5k+",
+    "ai_summary": "Kaseya/Datto builds IT management, security and backup software for MSPs and SMBs, squarely in the candidate's stated IT-management interest. One remote Senior Staff SDET role exists (Miami/US-Remote), but onsite is prioritized, remote eligibility varies, and recent layoffs cloud the picture.",
+    "ai_red_flags": "Recent layoffs (5% globally; ~200 roles); remote eligibility varies by role despite one US-Remote QA listing; onsite collaboration prioritized.",
+    "ai_scored_at": "2026-10-06",
+    "approach_role": "VP of Engineering (or Director of Quality Engineering)",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20%28or%20Director%20of%20Quality%20Engineering%29%20Kaseya%20%28Datto%29",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps well to SDET work on Kaseya's endpoint agent and security products."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.kaseya.com/careers/",
+    "research_notes": "Kaseya/Datto: 5k+ staff, IT management and security SaaS for SMBs/MSPs. One Senior Staff SDET opening listed Miami, FL, US-Remote. Remote policy per-role; confirm Maine eligibility with recruiter. Layoffs alongside Inky acquisition and claimed R&D investment. No named QA leaders found. Sources: https://www.kaseya.com/careers/ https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams https://www.crn.com/news/channel-news/2025/kaseya-confirms-200-layoffs-as-part-of-focused-investment-strategy",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-06",
+    "maine_remote": "varies: Onsite collaboration is prioritized; roles not located near an office must check the job description location or recruiter, so remote eligibility varies by role. One QA listing is United States - Remote.",
+    "remote_likelihood": "Medium",
+    "stability_score": 2,
+    "benefit_source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams",
+    "fit_score": 3,
+    "ai_summary": "Kaseya/Datto builds IT management, security and backup software for MSPs and SMBs, squarely in the candidate's stated IT-management interest. One remote Senior Staff SDET role exists (Miami/US-Remote), but onsite is prioritized, remote eligibility varies, and recent layoffs cloud the picture.",
+    "role_families": "SDET; QA automation engineering; quality/release engineering",
+    "ai_red_flags": "Recent layoffs (5% globally; ~200 roles); remote eligibility varies by role despite one US-Remote QA listing; onsite collaboration prioritized.",
+    "ai_scored_at": "2026-10-06",
+    "size_estimate": "5k+",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "VP of Engineering (or Director of Quality Engineering)",
+    "outreach_notes": "Fifteen years of C#/.NET test automation plus FDA-regulated V&V and design-controls experience maps well to SDET work on Kaseya's endpoint agent and security products.",
+    "next_research_action": "No supported job board - check https://www.kaseya.com/careers/ manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=VP%20of%20Engineering%20%28or%20Director%20of%20Quality%20Engineering%29%20Kaseya%20%28Datto%29"
+  },
   "ats": {
-    "type": "greenhouse",
-    "token": "kaseya",
-    "board_url": "https://job-boards.greenhouse.io/kaseya",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "embedded in https://www.kaseya.com/careers/jobs/; token guessed from name; page mentions greenhouse; board name Kaseya Careers",
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.kaseya.com/careers/",
+    "note": "no known job-board system on careers page",
     "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": "https://www.kaseya.com/careers/jobs/",
+    "found": "greenhouse:kaseya (embedded in https://www.kaseya.com/careers/jobs/)",
+    "other": []
   },
   "triage": {
     "fit": 3,
@@ -164,6 +192,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -193,15 +222,79 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:28-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": "https://www.kaseya.com/careers/jobs/",
-    "found": "greenhouse:kaseya (embedded in https://www.kaseya.com/careers/jobs/)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

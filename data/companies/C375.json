@@ -5,8 +5,8 @@
     "company": "Maine Department of Administrative & Financial Services (OIT)",
     "sector": "Maine & New England",
     "interests": "State IT",
-    "career_url": null,
-    "role_families": null,
+    "career_url": "https://www.maine.gov/dafs/careers",
+    "role_families": "QA/test engineering; quality assurance leadership; IT systems and release testing",
     "overall_rank": null,
     "interest": null,
     "values": null,
@@ -15,26 +15,26 @@
     "travel_perks": null,
     "homestead_fit": null,
     "dealbreakers": null,
-    "hiring_difficulty": null,
-    "estimate_confidence": null,
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
     "estimate_rationale": null,
-    "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+    "research_notes": "Verified: DAFS/OIT publishes telework security guidance (state laptop, home Wi-Fi, state IT rules) but does not state Maine-residency eligibility. FY2026 biennial budget funds the agency, a strong stability signal. No QA openings or named QA leaders were found, so openings must be checked directly. Sources: https://www.maine.gov/dafs/careers https://maineit-docs.maine.gov/docs/other-security-considerations https://www.ncsl.org/fiscal/fy-2026-state-budget-status",
     "your_notes": null,
-    "research_status": "Not started",
-    "maine_remote": null,
-    "benefit_source": null,
-    "research_as_of": null,
-    "next_research_action": null,
-    "fit_score": null,
-    "stability_score": null,
-    "remote_likelihood": null,
-    "size_estimate": null,
-    "ai_summary": null,
-    "ai_red_flags": null,
-    "ai_scored_at": null,
-    "approach_role": null,
-    "people_search_url": null,
-    "outreach_notes": null
+    "research_status": "Researched",
+    "maine_remote": "unknown: The department publishes teleworking/remote access security guidance: use a state-provided computer, connect it to home Wi-Fi, and follow state I.T. rules wherever you work.",
+    "benefit_source": "https://www.ncsl.org/fiscal/fy-2026-state-budget-status",
+    "research_as_of": "2026-10-05",
+    "next_research_action": "Watching workday board",
+    "fit_score": 3,
+    "stability_score": 5,
+    "remote_likelihood": "Unknown",
+    "size_estimate": "Unknown",
+    "ai_summary": "Maine's central IT agency runs and tests statewide systems (health, benefits, tax), so senior QA roles are plausible but rare and mostly in Augusta, ~1.5 hours from Bangor. Public-sector durability is excellent; the candidate's Maine residency and regulated V&V background",
+    "ai_red_flags": "No QA openings listed; state hiring is slow and openings skew toward Augusta, not Downeast Maine.",
+    "ai_scored_at": "2026-10-05",
+    "approach_role": "State CIO / Director, Office of Information Technology",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=State%20CIO%20/%20Director%2C%20Office%20of%20Information%20Technology%20Maine%20Department%20of%20Administrative%20%26%20Financial%20Services%20%28OIT%29",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to testing Maine's health, benefits and eligibility systems, and you live in-state, so hybrid or telework arrangements are workable."
   },
   "missing_from_tracker": false,
   "owner_changes": {
@@ -43,17 +43,45 @@
       "at": "2026-10-05T08:19:57-04:00"
     }
   },
-  "exported": {},
+  "exported": {
+    "career_url": "https://www.maine.gov/dafs/careers",
+    "research_notes": "Verified: DAFS/OIT publishes telework security guidance (state laptop, home Wi-Fi, state IT rules) but does not state Maine-residency eligibility. FY2026 biennial budget funds the agency, a strong stability signal. No QA openings or named QA leaders were found, so openings must be checked directly. Sources: https://www.maine.gov/dafs/careers https://maineit-docs.maine.gov/docs/other-security-considerations https://www.ncsl.org/fiscal/fy-2026-state-budget-status",
+    "research_status": "Researched",
+    "research_as_of": "2026-10-05",
+    "maine_remote": "unknown: The department publishes teleworking/remote access security guidance: use a state-provided computer, connect it to home Wi-Fi, and follow state I.T. rules wherever you work.",
+    "remote_likelihood": "Unknown",
+    "stability_score": 5,
+    "benefit_source": "https://www.ncsl.org/fiscal/fy-2026-state-budget-status",
+    "fit_score": 3,
+    "ai_summary": "Maine's central IT agency runs and tests statewide systems (health, benefits, tax), so senior QA roles are plausible but rare and mostly in Augusta, ~1.5 hours from Bangor. Public-sector durability is excellent; the candidate's Maine residency and regulated V&V background",
+    "role_families": "QA/test engineering; quality assurance leadership; IT systems and release testing",
+    "ai_red_flags": "No QA openings listed; state hiring is slow and openings skew toward Augusta, not Downeast Maine.",
+    "ai_scored_at": "2026-10-05",
+    "size_estimate": "Unknown",
+    "hiring_difficulty": 4,
+    "estimate_confidence": "Medium",
+    "approach_role": "State CIO / Director, Office of Information Technology",
+    "outreach_notes": "Your FDA-regulated V&V and design-controls experience maps directly to testing Maine's health, benefits and eligibility systems, and you live in-state, so hybrid or telework arrangements are workable.",
+    "next_research_action": "No supported job board - check https://www.maine.gov/dafs/careers manually",
+    "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=State%20CIO%20/%20Director%2C%20Office%20of%20Information%20Technology%20Maine%20Department%20of%20Administrative%20%26%20Financial%20Services%20%28OIT%29"
+  },
   "ats": {
-    "type": "workday",
-    "token": "maine|5|Executive",
-    "board_url": "https://maine.wd5.myworkdayjobs.com/Executive",
-    "detected_by": "search",
-    "checked_at": "2026-10-05",
-    "confirmed": true,
-    "source": null,
-    "note": "linked from search results",
-    "job_count": 224
+    "type": "other",
+    "token": null,
+    "board_url": null,
+    "detected_by": "html-scan",
+    "checked_at": "2026-10-08",
+    "confirmed": null,
+    "source": "https://www.maine.gov/dafs/careers",
+    "note": "no known job-board system on careers page",
+    "job_count": null
+  },
+  "discovery": {
+    "at": "2026-10-05",
+    "results": 7,
+    "careers_page": null,
+    "found": "workday:maine|5|Executive (linked from search results)",
+    "other": []
   },
   "triage": {
     "fit": 4,
@@ -131,6 +159,7 @@
       "model": "deepseek/deepseek-flash"
     }
   },
+  "verify_rejects": 0,
   "history": [
     {
       "at": "2026-10-05T08:19:57-04:00",
@@ -160,15 +189,80 @@
       "changed": [
         "research"
       ]
+    },
+    {
+      "at": "2026-10-07T21:30:00-04:00",
+      "stage": "export",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-07T21:31:10-04:00",
+      "stage": "ingest",
+      "changed": [
+        "ai_red_flags",
+        "ai_scored_at",
+        "ai_summary",
+        "approach_role",
+        "benefit_source",
+        "career_url",
+        "estimate_confidence",
+        "fit_score",
+        "hiring_difficulty",
+        "maine_remote",
+        "next_research_action",
+        "outreach_notes",
+        "people_search_url",
+        "remote_likelihood",
+        "research_as_of",
+        "research_notes",
+        "research_status",
+        "role_families",
+        "size_estimate",
+        "stability_score"
+      ]
+    },
+    {
+      "at": "2026-10-08T02:31:26-04:00",
+      "stage": "detect",
+      "changed": [
+        "ats.board_url",
+        "ats.confirmed",
+        "ats.detected_by",
+        "ats.job_count",
+        "ats.note",
+        "ats.source",
+        "ats.token",
+        "ats.type"
+      ]
+    },
+    {
+      "at": "2026-10-08T03:44:55-04:00",
+      "stage": "export",
+      "changed": [
+        "next_research_action"
+      ]
     }
   ],
-  "last_exported_at": null,
-  "discovery": {
-    "at": "2026-10-05",
-    "results": 7,
-    "careers_page": null,
-    "found": "workday:maine|5|Executive (linked from search results)",
-    "other": []
-  },
-  "verify_rejects": 0
+  "last_exported_at": "2026-10-08T03:44:55-04:00"
 }

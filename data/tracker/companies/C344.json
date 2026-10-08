@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Acquired by Boston Scientific; onsite-heavy",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Sacral neuromodulation implantables, now part of Boston Scientific; device testing fit, but roles onsite in California.",
+  "approach_role": "Director of Quality Engineering",
+  "company": "Axonics",
+  "company_id": "C344",
+  "fit_score": 3,
+  "interests": "Implantables",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Director%20of%20Quality%20Engineering%20Axonics",
+  "remote_likelihood": "Low",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "Senior Test Engineer; Quality Engineer; V&V Engineer",
+  "sector": "Regulated healthtech",
+  "size_estimate": "500-5k",
+  "stability_score": 4,
+  "updated_at": "2026-10-08T01:30:12Z",
+  "updated_by": "pipeline"
+}

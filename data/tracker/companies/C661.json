@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Startup funding risk; small QA function",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "Small fully-remote RTS studio; fits games interest and remote work, but QA is likely outsourced and headcount limited.",
+  "approach_role": "Studio QA Lead / Producer",
+  "company": "Frost Giant Studios",
+  "company_id": "C661",
+  "fit_score": 3,
+  "interests": "RTS; remote",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Studio%20QA%20Lead%20/%20Producer%20Frost%20Giant%20Studios",
+  "remote_likelihood": "High",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Test Lead",
+  "sector": "Games & stories",
+  "size_estimate": "50-500",
+  "stability_score": 2,
+  "updated_at": "2026-10-08T01:30:22Z",
+  "updated_by": "pipeline"
+}

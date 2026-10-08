@@ -1,0 +1,18 @@
+{
+  "benefit_source": "https://www.lely.com/careers/",
+  "career_url": "https://www.lely.com/careers/",
+  "company": "Lely",
+  "company_id": "C064",
+  "estimate_confidence": "Low",
+  "estimate_rationale": "Leadership fit exists; robotics and on-site Netherlands requirement affect the captured lead.",
+  "hiring_difficulty": 4,
+  "interests": "Dairy robotics, farm automation",
+  "maine_remote": "Unknown",
+  "research_as_of": "2026-09-29",
+  "research_notes": "Team Lead Software Testing is on campus in Maassluis, not a Maine-remote role.",
+  "research_status": "Initial research",
+  "role_families": "Test leadership; robotics validation; integration",
+  "sector": "Agriculture",
+  "updated_at": "2026-09-30T14:00:00Z",
+  "updated_by": "import"
+}

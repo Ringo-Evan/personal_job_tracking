@@ -1,0 +1,20 @@
+{
+  "ai_red_flags": "Remote policy unknown; dating app.",
+  "ai_scored_at": "2026-10-05",
+  "ai_summary": "LGBTQ social app with mobile engineering; QA roles plausible but domain not regulated/hardware and remote policy unknown.",
+  "approach_role": "Head of Engineering",
+  "company": "SCRUFF (Perry Street)",
+  "company_id": "C1111",
+  "fit_score": 3,
+  "interests": "LGBTQ app",
+  "people_search_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Engineering%20SCRUFF%20%28Perry%20Street%29",
+  "remote_likelihood": "Unknown",
+  "research_notes": "Seeded 2026-09-30 from Claude's general knowledge; not verified.",
+  "research_status": "Initial research",
+  "role_families": "QA Engineer; SDET; Mobile Test Engineer",
+  "sector": "LGBTQ",
+  "size_estimate": "50-500",
+  "stability_score": 3,
+  "updated_at": "2026-10-08T01:30:36Z",
+  "updated_by": "pipeline"
+}
